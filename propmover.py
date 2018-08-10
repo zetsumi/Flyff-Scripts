@@ -212,3 +212,40 @@ class PropMover:
                 for key in self.__dict__:
                     setattr(movers[arr[self.dwID]], key, arr[getattr(self, key)])
         return movers
+
+
+    def filter(self, movers, defineObj, items):
+        mover_undeclared = []
+        mover_unused = []
+        weapon_undeclared = []
+
+        print("Filtering propmover")
+
+        for it in movers:
+            mover = movers[it]
+            if mover.dwID not in defineObj:
+                mover_undeclared.append(mover.dwID)
+            if mover.dwAtk1 not in items:
+                weapon_undeclared.append(mover.dwAtk1)
+            if mover.dwAtk2 not in items:
+                weapon_undeclared.append(mover.dwAtk2)
+            if mover.dwAtk3 not in items:
+                weapon_undeclared.append(mover.dwAtk3)
+
+        for it in defineObj:
+            if "MI_" in it and it not in movers:
+                mover_unused.append(it)
+
+        if len(mover_undeclared) > 0:
+            print("Movers undeclared: {number}/{total}".format(
+                number=len(mover_undeclared), total=len(movers)))
+            with open("mover_undeclared.txt", "w") as fd:
+                for mover in mover_undeclared:
+                    fd.write(str(mover) + "\n")
+
+        if len(mover_unused) > 0:
+            print("Movers mover_unused: {number}/{total}".format(
+                number=len(mover_unused), total=len(movers)))
+            with open("mover_unused.txt", "w") as fd:
+                for mover in mover_unused:
+                    fd.write(str(mover) + "\n")

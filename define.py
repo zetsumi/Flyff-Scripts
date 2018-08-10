@@ -41,6 +41,6 @@ class Define:
                             define.key = it
                     if define.key != "" and define.data != "":
                         break
-                if define.key != "" and define.data != "":
+                if define.key != "" and define.data != "" and define.key not in defines:
                     defines[define.key] = define.data
         return defines

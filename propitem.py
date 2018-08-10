@@ -1,3 +1,6 @@
+import subprocess
+
+
 class PropItem():
     def __init__(self):
         self.version = 0
@@ -295,9 +298,12 @@ class PropItem():
                     setattr(items[arr[self.dwID]], key, arr[getattr(self, key)])
         return items
 
-    def filter(self, items, defineItem):
+    def filter(self, path_icon, items, defineItem, movers):
         items_undeclared = []
         items_used = []
+        icon_unfound = []
+
+        print("Filtering propitem")
 
         for it in items:
             item = items[it]
@@ -308,6 +314,18 @@ class PropItem():
         for it in defineItem:
             if it not in items:
                 items_used.append(it)
+
+        for it in items:
+            icon = items[it].szIcon
+            icon = icon.replace('"', "")
+            icon = icon.replace(" ", "")
+            icon = icon.replace("\t", "")
+            if len(icon) <= 0 or icon == "" or icon == "=":
+                continue
+            out = subprocess.check_output(['find', path_icon, '-iname', icon])
+            if out == "" or len(out) <= 0:
+                icon_unfound.append(it)
+
 
         if len(items_undeclared) > 0:
             print("Items undeclared: {number}/{total}".format(
@@ -321,4 +339,11 @@ class PropItem():
                 number=len(items_used), total=len(items)))
             with open("items_used.txt", "w") as fd:
                 for item in items_used:
-                    fd.write(item + "\n")
+                    fd.write(str(item) + "\n")
+
+        if len(icon_unfound) > 0:
+            print("Icon unfound: {number}/{total}".format(
+                number=len(icon_unfound), total=len(items)))
+            with open("icon_unfound.txt", "w") as fd:
+                for item in icon_unfound:
+                    fd.write(str(item) + "\n")

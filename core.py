@@ -43,4 +43,5 @@ if __name__ == "__main__":
     defineNeuz = dict(define.load(file_define_neuz))
     defineAttribute = dict(define.load(file_define_attribute))
 
-    propitem.filter(items, defineItem)
+    # propitem.filter(path_icon, items, defineItem, movers)
+    propmover.filter(movers, defineObj, items)
