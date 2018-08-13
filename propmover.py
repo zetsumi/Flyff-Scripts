@@ -207,3 +207,16 @@ class PropMover:
             with open("mover_unused.txt", "w") as fd:
                 for mover in mover_unused:
                     fd.write(str(mover) + "\n")
+
+        return mover_undeclared, mover_unused
+
+
+    def remove(self, movers, delete):
+        if len(delete) <= 0:
+            return False
+        print("Removing on propmover")
+
+        for it in delete:
+            if it in movers:
+                del movers[it]
+

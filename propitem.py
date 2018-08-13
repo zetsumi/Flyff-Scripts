@@ -378,3 +378,15 @@ class PropItem():
             with open("icon_unfound.txt", "w") as fd:
                 for item in icon_unfound:
                     fd.write(str(item) + "\n")
+
+        return items_undeclared, items_used, icon_unfound
+
+
+    def remove(self, items, delete):
+        if len(delete) <= 0:
+            return False
+        print("Removing on propitem")
+
+        for it in delete:
+            if it in items:
+                del items[it]

@@ -52,8 +52,8 @@ if __name__ == "__main__":
     textMover = dict(text.load(file_text_propmover))
     textItem = dict(text.load(file_text_propitem))
 
-    propitem.filter(path_icon, items, defineItem, movers)
-    propmover.filter(movers, defineObj, items)
+    item_undeclared, item_unsued, item_icon_unfound = propitem.filter(path_icon, items, defineItem, movers)
+    mover_undeclared, mover_unsued = propmover.filter(movers, defineObj, items)
 
     for it in movers:
         mover = movers[it]
