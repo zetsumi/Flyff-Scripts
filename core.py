@@ -6,6 +6,7 @@ from propmover import PropMover
 from propitem import PropItem
 from define import Define
 from text import Text
+from mdldyna import MdlDyna
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -36,11 +37,15 @@ file_define_neuz = path_resource + "defineNeuz.h"
 if __name__ == "__main__":
     print("Running Flyff Properties ", version_binary)
 
+    mdldyna = MdlDyna()
+    mdldyna.load(file_mdldyna)
+
     propitem = PropItem()
     propmover = PropMover()
 
     items = dict(propitem.load(file_propitem))
     movers = dict(propmover.load(file_propmover))
+
 
     define = Define()
     defineItem = dict(define.load(file_define_item))
@@ -52,8 +57,9 @@ if __name__ == "__main__":
     textMover = dict(text.load(file_text_propmover))
     textItem = dict(text.load(file_text_propitem))
 
-    item_undeclared, item_unsued, item_icon_unfound = propitem.filter(path_icon, items, defineItem, movers)
-    mover_undeclared, mover_unsued = propmover.filter(movers, defineObj, items)
+    # item_undeclared, item_unsued, item_icon_unfound = propitem.filter(path_icon, items, defineItem, movers)
+    # mover_undeclared, mover_unsued = propmover.filter(movers, defineObj, items)
+    mdldyna.filter(items)
 
     for it in movers:
         mover = movers[it]
