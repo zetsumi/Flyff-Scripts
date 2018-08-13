@@ -13,7 +13,10 @@ class MdlDyna:
         for it in arr:
             if len(it) > 0 and len != "":
                 newarr.append(it)
+        if newarr == [] or len(arr) <= 0:
+            return None
         return newarr
+
 
     def load(self, f):
         print("Loading {}".format(f))
@@ -24,11 +27,12 @@ class MdlDyna:
                 if "{" in line or "}" in line:
                     continue
                 arr = self.__filter_arr__(line.split("\t"))
-                if arr is None:
+                if arr is None or len(arr) <= 0 or arr == []:
                     continue
                 if len(arr) == 12:
                     if "II_" in arr[1]:
                         self.items[arr[1]] = str(arr[0]).replace('"', "")
+
 
     def filter(self, items):
         print("Filtering by mdldyna")
