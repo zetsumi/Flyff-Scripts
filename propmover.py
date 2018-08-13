@@ -85,90 +85,26 @@ class PropMover:
         self.szComment = 82
 
     def toString(self):
-        toString = str(\
-            str(self.dwID) + " " + \
-            str(self.szName) + " " + \
-            str(self.dwAI) + " " + \
-            str(self.dwStr) + " " + \
-            str(self.dwSta) + " " + \
-            str(self.dwDex) + " " + \
-            str(self.dwInt) + " " + \
-            str(self.dwHR) + " " + \
-            str(self.dwER) + " " + \
-            str(self.dwRace) + " " + \
-            str(self.dwBelligerence) + " " + \
-            str(self.dwGender) + " " + \
-            str(self.dwLevel) + " " + \
-            str(self.dwFilghtLevel) + " " + \
-            str(self.dwSize) + " " + \
-            str(self.dwClass) + " " + \
-            str(self.bIfPart) + " " + \
-            str(self.dwKarma) + " " + \
-            str(self.dwUseable) + " " + \
-            str(self.dwActionRadius) + " " + \
-            str(self.dwAtkMin) + " " + \
-            str(self.dwAtkMax) + " " + \
-            str(self.dwAtk1) + " " + \
-            str(self.dwAtk2) + " " + \
-            str(self.dwAtk3) + " " + \
-            str(self.dwHorizontalRate) + " " + \
-            str(self.dwVerticalRate) + " " + \
-            str(self.dwDiagonalRate) + " " + \
-            str(self.dwThrustRate) + " " + \
-            str(self.dwChestRate) + " " + \
-            str(self.dwHeadRate) + " " + \
-            str(self.dwArmRate) + " " + \
-            str(self.dwLegRate) + " " + \
-            str(self.dwAttackSpeed) + " " + \
-            str(self.dwReAttackDelay) + " " + \
-            str(self.dwAddHp) + " " + \
-            str(self.dwAddMp) + " " + \
-            str(self.dwNaturealArmor) + " " + \
-            str(self.nAbrasion) + " " + \
-            str(self.nHardness) + " " + \
-            str(self.dwAdjAtkDelay) + " " + \
-            str(self.eElementType) + " " + \
-            str(self.wElementAtk) + " " + \
-            str(self.dwHideLevel) + " " + \
-            str(self.fSpeed) + " " + \
-            str(self.dwShelter) + " " + \
-            str(self.bFlying) + " " + \
-            str(self.dwJumpIng) + " " + \
-            str(self.dwAirJump) + " " + \
-            str(self.bTaming) + " " + \
-            str(self.dwResisMagic) + " " + \
-            str(self.fResistElecricity) + " " + \
-            str(self.fResistFire) + " " + \
-            str(self.fResistWind) + " " + \
-            str(self.fResistWater) + " " + \
-            str(self.fResistEarth) + " " + \
-            str(self.dwCash) + " " + \
-            str(self.dwSourceMaterial) + " " + \
-            str(self.dwMaterialAmount) + " " + \
-            str(self.dwCohesion) + " " + \
-            str(self.dwHoldingTime) + " " + \
-            str(self.dwCorrectionValue) + " " + \
-            str(self.dwExpValue) + " " + \
-            str(self.nFxpValue) + " " + \
-            str(self.nBodyState) + " " + \
-            str(self.dwAddAbility) + " " + \
-            str(self.bKillable) + " " + \
-            str(self.dwVirtItem1) + " " + \
-            str(self.dwVirtType1) + " " + \
-            str(self.dwVirtItem2) + " " + \
-            str(self.dwVirtType2) + " " + \
-            str(self.dwVirtItem3) + " " + \
-            str(self.dwVirtType3) + " " + \
-            str(self.dwSndAtk1) + " " + \
-            str(self.dwSndAtk2) + " " + \
-            str(self.dwSndDie1) + " " + \
-            str(self.dwSndDie2) + " " + \
-            str(self.dwSndDmg1) + " " + \
-            str(self.dwSndDmg2) + " " + \
-            str(self.dwSndDmg3) + " " + \
-            str(self.dwSndIdle1) + " " + \
-            str(self.dwSndIdle2) + " " + \
-            str(self.szComment))
+        toString = str(str(self.dwID) + " " + str(self.szName) + " " + \
+            str(self.dwAI) + " " + str(self.dwStr) + " " + str(self.dwSta) + " " + str(self.dwDex) + " " + \
+            str(self.dwInt) + " " + str(self.dwHR) + " " + str(self.dwER) + " " + str(self.dwRace) + " " + str(self.dwBelligerence) + " " + \
+            str(self.dwGender) + " " + str(self.dwLevel) + " " + str(self.dwFilghtLevel) + " " + str(self.dwSize) + " " + \
+            str(self.dwClass) + " " + str(self.bIfPart) + " " +  str(self.dwKarma) + " " + str(self.dwUseable) + " " + \
+            str(self.dwActionRadius) + " " + str(self.dwAtkMin) + " " + str(self.dwAtkMax) + " " + str(self.dwAtk1) + " " + \
+            str(self.dwAtk2) + " " + str(self.dwAtk3) + " " +  str(self.dwHorizontalRate) + " " + \
+            str(self.dwVerticalRate) + " " + str(self.dwDiagonalRate) + " " + str(self.dwThrustRate) + " " + \
+            str(self.dwChestRate) + " " + str(self.dwHeadRate) + " " + str(self.dwArmRate) + " " + str(self.dwLegRate) + " " + str(self.dwAttackSpeed) + " " + \
+            str(self.dwReAttackDelay) + " " + str(self.dwAddHp) + " " + str(self.dwAddMp) + " " + str(self.dwNaturealArmor) + " " + \
+            str(self.nAbrasion) + " " + str(self.nHardness) + " " + str(self.dwAdjAtkDelay) + " " + str(self.eElementType) + " " + \
+            str(self.wElementAtk) + " " + str(self.dwHideLevel) + " " + str(self.fSpeed) + " " + str(self.dwShelter) + " " + str(self.bFlying) + " " + \
+            str(self.dwJumpIng) + " " + str(self.dwAirJump) + " " + str(self.bTaming) + " " + str(self.dwResisMagic) + " " + str(self.fResistElecricity) + " " + \
+            str(self.fResistFire) + " " + str(self.fResistWind) + " " + str(self.fResistWater) + " " + str(self.fResistEarth) + " " + str(self.dwCash) + " " + \
+            str(self.dwSourceMaterial) + " " + str(self.dwMaterialAmount) + " " + str(self.dwCohesion) + " " + str(self.dwHoldingTime) + " " + \
+            str(self.dwCorrectionValue) + " " + str(self.dwExpValue) + " " + str(self.nFxpValue) + " " + str(self.nBodyState) + " " + \
+            str(self.dwAddAbility) + " " + str(self.bKillable) + " " + str(self.dwVirtItem1) + " " + str(self.dwVirtType1) + " " + str(self.dwVirtItem2) + " " + \
+            str(self.dwVirtType2) + " " + str(self.dwVirtItem3) + " " + str(self.dwVirtType3) + " " + str(self.dwSndAtk1) + " " + str(self.dwSndAtk2) + " " + \
+            str(self.dwSndDie1) + " " + str(self.dwSndDie2) + " " + str(self.dwSndDmg1) + " " + str(self.dwSndDmg2) + " " + str(self.dwSndDmg3) + " " + \
+            str(self.dwSndIdle1) + " " + str(self.dwSndIdle2) + " " + str(self.szComment))
         return toString
 
 
@@ -204,6 +140,11 @@ class PropMover:
                     self.skip_preproc(line) is True:
                     continue
                 arr = line.split("\t")
+                cpy = list()
+                for it in arr:
+                    if it != "" and len(it) > 0:
+                        cpy.append(it)
+                arr = cpy
                 if len(arr) < self.getSize():
                     continue
                 if "MI_" not in arr[0]:
@@ -212,6 +153,23 @@ class PropMover:
                 for key in self.__dict__:
                     setattr(movers[arr[self.dwID]], key, arr[getattr(self, key)])
         return movers
+
+    def replace(self, textMover):
+        if self.szName != "=":
+            if len(self.szName) >= 0 and self.szName != "" and self.szName in textMover:
+                self.szName = '\"' + textMover[self.szName] + '\"'
+        if self.szComment != "=":
+            if self.szComment != "" and len(self.szComment) > 0 and self.szComment in textMover:
+                self.szComment = '\"' + textMover[self.szComment] + '\"'
+
+    def write(self, movers):
+        print("Writing propMover.txt")
+        with open("output/propMover.txt", "w") as fd:
+            for index in movers:
+                mover = movers[index]
+                line = mover.toString().replace(" ", "\t")
+                fd.write(line + "\n")
+        return True
 
 
     def filter(self, movers, defineObj, items):

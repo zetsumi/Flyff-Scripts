@@ -31,7 +31,6 @@ class Define:
                 line = line.replace("#define", "")
                 line = line.replace("# define", "")
                 arr = line.split("\t")
-                id_add = False
                 define = Define()
                 for it in arr:
                     if it != "" and len(it) > 0:

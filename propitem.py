@@ -128,6 +128,7 @@ class PropItem():
         self.szTextFile = 122
         self.szComment = 123
 
+
     def toString(item):
         toString = str(item.version) + " " + \
             str(item.dwID) + " " + \
@@ -264,6 +265,7 @@ class PropItem():
     def getSize(self):
         return self.getIdMax() + 1
 
+
     def skip_preproc(self, string):
         if "#ifdef" in string or \
             "# ifdef" in string or \
@@ -273,6 +275,7 @@ class PropItem():
             " #ifndef" in string:
             return True
         return False
+
 
     def load(self, f):
         print("Loading: ", f)
@@ -287,6 +290,11 @@ class PropItem():
                     self.skip_preproc(line) is True:
                     continue
                 arr = line.split("\t")
+                cpy = list()
+                for it in arr:
+                    if it != "" and len(it) > 0:
+                        cpy.append(it)
+                arr = cpy
                 if len(arr) < self.getSize():
                     continue
                 try:
@@ -297,6 +305,29 @@ class PropItem():
                 for key in self.__dict__:
                     setattr(items[arr[self.dwID]], key, arr[getattr(self, key)])
         return items
+
+
+    def replace(self, text):
+        if self.szName != "=":
+            if len(self.szName) >= 0 and self.szName != "" and self.szName in text:
+                self.szName = '\"' + text[self.szName] + '\"'
+        if self.szComment != "=":
+            if self.szComment != "" and len(self.szComment) > 0 and self.szComment in text:
+                self.szComment = '\"' + text[self.szComment] + '\"'
+        if self.szTextFile != "=":
+            if self.szTextFile != "" and len(self.szTextFile) > 0 and self.szTextFile in text:
+                self.szTextFile = '\"' + text[self.szTextFile] + '\"'
+
+
+    def write(self, items):
+        print("Writing propItem.txt")
+        with open("output/propItem.txt", "w") as fd:
+            for index in items:
+                item = items[index]
+                line = item.toString().replace("\t", " ")
+                fd.write(line + "\n")
+        return True
+
 
     def filter(self, path_icon, items, defineItem, movers):
         items_undeclared = []

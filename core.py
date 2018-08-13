@@ -5,6 +5,7 @@ import os
 from propmover import PropMover
 from propitem import PropItem
 from define import Define
+from text import Text
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -17,6 +18,10 @@ path_icon = path_resource + "Item/"
 file_propitem = path_resource + "propItem.txt"
 file_propmover = path_resource + "propMover.txt"
 file_propitem_txt = path_resource + "propItem.txt.txt"
+
+# file text
+file_text_propmover = path_resource + "propMover.txt.txt"
+file_text_propitem = path_resource + "propItem.txt.txt"
 
 # file inc
 file_mdldyna = path_resource + "mdlDyna.inc"
@@ -43,5 +48,19 @@ if __name__ == "__main__":
     defineNeuz = dict(define.load(file_define_neuz))
     defineAttribute = dict(define.load(file_define_attribute))
 
-    # propitem.filter(path_icon, items, defineItem, movers)
+    text = Text()
+    textMover = dict(text.load(file_text_propmover))
+    textItem = dict(text.load(file_text_propitem))
+
+    propitem.filter(path_icon, items, defineItem, movers)
     propmover.filter(movers, defineObj, items)
+
+    for it in movers:
+        mover = movers[it]
+        mover.replace(textMover)
+    for it in items:
+        item = items[it]
+        item.replace(textItem)
+
+    propitem.write(items)
+    propmover.write(movers)
