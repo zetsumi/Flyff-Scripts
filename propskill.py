@@ -124,7 +124,8 @@ class PropSkill:
         self.dwQuestID = 121
         self.szTextFile = 122
         self.szComment = 123
-   
+
+
     def toString(self):
         toString = str(str(self.version) + " " + \
 		str(self.dwID) + " " + \
@@ -252,8 +253,35 @@ class PropSkill:
 		str(self.szComment))
         return toString
 
+
     def getIdMax(self):
         return 123
 
+
     def getSize(self):
         return self.getIdMax() + 1
+
+
+    def load(self, f):
+        print("Loading: ", f)
+        datas = {}
+        with open(f, "r") as fd:
+            for line in fd:
+                line = line.replace("\n", "")
+                line = line.replace(" ", "\t")
+                if "//" in line or \
+                    len(line) <= 0 or \
+                    line == "":
+                    continue
+                arr = line.split("\t")
+                cpy = list()
+                for it in arr:
+                    if it != "" and len(it) > 0:
+                        cpy.append(it)
+                arr = cpy
+                if len(arr) < self.getSize():
+                    continue
+                datas[arr[self.dwID]] = PropSkill()
+                for key in self.__dict__:
+                    setattr(datas[arr[self.dwID]], key, arr[getattr(self, key)])
+        return datas
