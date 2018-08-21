@@ -64,11 +64,15 @@ class PropCtrl:
         ctrl_name_undeclared = []
         ctrl_comment_undeclared = []
 
+        gLogger.info("ID")
         for it in ctrls:
             ctrl = ctrls[it]
             if ctrl.dwID not in defineObj:
                 if ctrl.dwID not in ctrl_undeclared:
                     ctrl_undeclared.append(ctrl.dwID)
+        
+        gLogger.info("Name and Comment")
+        for it in ctrls:
             if ctrl.szName not in textCtrl:
                 if ctrl.szName not in ctrl_name_undeclared:
                     ctrl_name_undeclared.append(ctrl.szName)

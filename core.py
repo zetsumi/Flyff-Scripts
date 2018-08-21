@@ -97,10 +97,10 @@ if __name__ == "__main__":
     textSkill = OrderedDict(text.load(file_text_propskill))
     textTroupeSKill = OrderedDict(text.load(file_text_proptroupeskill))
 
-    # propitem.filter(path_icon, items, defineItem, textItem, movers)
-    # propmover.filter(movers, defineObj, textMover, items)
+    propitem.filter(path_icon, items, defineItem, textItem, movers)
+    propmover.filter(movers, defineObj, textMover, items)
     propctrl.filter(ctrls, defineObj, textCtrl)
-    # mdldyna.filter(items)
+    mdldyna.filter(items)
 
     propitem.write(items)
     propmover.write(movers)
