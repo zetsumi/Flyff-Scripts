@@ -293,3 +293,22 @@ class PropSkill:
                     setattr(datas[arr[self.dwID]], key, arr[getattr(self, key)])
         gLogger.reset_section()
         return datas
+
+
+    def filter(self, skills, defineSkill, textSkill):
+        gLogger.set_section("propskill")
+
+        skill_undeclared = []
+
+        for it in skills:
+            skill = skills[it]
+            if skill.dwID not in defineSkill and skill.dwID not in skill_undeclared:
+                skill_undeclared.append(skill.dwID)
+
+
+        gLogger.write("./filter/skill_undeclared.txt", skill_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Skill  undeclared:",
+                undeclared=len(skill_undeclared),
+                total=len(skills)))
+
+        gLogger.reset_section()

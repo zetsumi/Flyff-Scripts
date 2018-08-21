@@ -12,7 +12,7 @@ class PropCtrl:
         self.dwCtrlKind2 = 3
         self.dwCtrlKind3 = 4
         self.dwSfxCtrl = 5
-        self.dwSndDamage = 6
+        self.dwSndDamage = 6 #usless parameter
         self.szComment = 7
 
 
@@ -58,12 +58,14 @@ class PropCtrl:
         return ctrls
 
 
-    def filter(self, ctrls, defineObj, textCtrl):
+    def filter(self, ctrls, defineObj, defineItemKind, textCtrl):
         gLogger.set_section("propCtrl")
 
         ctrl_undeclared = []
         ctrl_name_undeclared = []
         ctrl_comment_undeclared = []
+        ctrl_item_kind_undeclared = []
+        ctrl_sfx_undeclared = []
 
         gLogger.info("ID")
         for it in ctrls:
@@ -74,12 +76,34 @@ class PropCtrl:
         
         gLogger.info("Name and Comment")
         for it in ctrls:
+            ctrl = ctrls[it]
             if ctrl.szName not in textCtrl:
                 if ctrl.szName not in ctrl_name_undeclared:
                     ctrl_name_undeclared.append(ctrl.szName)
             if ctrl.szComment not in textCtrl:
                 if ctrl.szComment not in ctrl_comment_undeclared:
                     ctrl_comment_undeclared.append(ctrl.szComment)
+
+        gLogger.info("Item Kind")
+        for it in ctrls:
+            ctrl = ctrls[it]
+            if ctrl.dwCtrlKind1 not in defineItemKind:
+                if ctrl.dwCtrlKind1 not in ctrl_item_kind_undeclared:
+                    ctrl_item_kind_undeclared.append(ctrl.dwCtrlKind1)
+            if ctrl.dwCtrlKind2 not in defineItemKind:
+                if ctrl.dwCtrlKind2 not in ctrl_item_kind_undeclared:
+                    ctrl_item_kind_undeclared.append(ctrl.dwCtrlKind2)
+            if ctrl.dwCtrlKind3 not in defineItemKind:
+                if ctrl.dwCtrlKind3 not in ctrl_item_kind_undeclared:
+                    ctrl_item_kind_undeclared.append(ctrl.dwCtrlKind3)
+
+        gLogger.info("Sfx")
+        for it in ctrls:
+            ctrl = ctrls[it]
+            if ctrl.dwSfxCtrl == "=":
+                continue
+            if ctrl.dwSfxCtrl not in defineObj and ctrl.dwSfxCtrl not in ctrl_sfx_undeclared:
+                ctrl_sfx_undeclared.append(ctrl.dwSfxCtrl)
 
         gLogger.write("./filter/ctrl_undeclared.txt", ctrl_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Ctrl undeclared",
@@ -92,5 +116,13 @@ class PropCtrl:
         gLogger.write("./filter/ctrl_comment_undeclared.txt", ctrl_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Ctrl Comment undeclared:",
                 undeclared=len(ctrl_comment_undeclared),
+                total=len(ctrls)))
+        gLogger.write("./filter/ctrl_item_kind_undeclared.txt", ctrl_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Ctrl ItemKind undeclared:",
+                undeclared=len(ctrl_item_kind_undeclared),
+                total=len(ctrls)))
+        gLogger.write("./filter/ctrl_sfx_undeclared.txt", ctrl_sfx_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Ctrl SFX undeclared:",
+                undeclared=len(ctrl_sfx_undeclared),
                 total=len(ctrls)))
         gLogger.reset_section()

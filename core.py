@@ -50,6 +50,8 @@ file_define_item = path_resource + "defineItem.h"
 file_define_attribute = path_resource + "defineAttribute.h"
 file_define_obj = path_resource + "defineObj.h"
 file_define_neuz = path_resource + "defineNeuz.h"
+file_define_itemkind = path_resource + "defineItemkind.h"
+file_define_skill = path_resource + "defineSkill.h"
 
 
 if __name__ == "__main__":
@@ -88,6 +90,8 @@ if __name__ == "__main__":
     defineObj = OrderedDict(define.load(file_define_obj))
     defineNeuz = OrderedDict(define.load(file_define_neuz))
     defineAttribute = OrderedDict(define.load(file_define_attribute))
+    defineItemkind = OrderedDict(define.load(file_define_itemkind))
+    defineSkill = OrderedDict(define.load(file_define_skill))
 
     text = Text()
     textMover = OrderedDict(text.load(file_text_propmover))
@@ -97,10 +101,11 @@ if __name__ == "__main__":
     textSkill = OrderedDict(text.load(file_text_propskill))
     textTroupeSKill = OrderedDict(text.load(file_text_proptroupeskill))
 
-    propitem.filter(path_icon, items, defineItem, textItem, movers)
-    propmover.filter(movers, defineObj, textMover, items)
-    propctrl.filter(ctrls, defineObj, textCtrl)
-    mdldyna.filter(items)
+    # propitem.filter(path_icon, items, defineItem, textItem, movers)
+    # propmover.filter(movers, defineObj, textMover, items)
+    # propctrl.filter(ctrls, defineObj, defineItemkind, textCtrl)
+    propskill.filter(skills, defineSkill, textSkill)
+    # mdldyna.filter(items)
 
-    propitem.write(items)
-    propmover.write(movers)
+    # propitem.write(items)
+    # propmover.write(movers)

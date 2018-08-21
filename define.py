@@ -23,7 +23,7 @@ class Define:
     def load(self, f):
         gLogger.set_section("define")
         gLogger.info("Loading: ", f)
-        defines = dict()
+        defines = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
