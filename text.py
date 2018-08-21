@@ -17,6 +17,7 @@ class Text:
 
 
     def load(self, f):
+        gLogger.set_section("text")
         gLogger.info("Loading: ", f)
         texts = OrderedDict()
         with open(f, "r") as fd:
@@ -37,4 +38,5 @@ class Text:
                         text.data += str(" " + it)
                 if text.key != "" and text.key not in texts:
                     texts[text.key] = text.data
+        gLogger.reset_section()
         return texts

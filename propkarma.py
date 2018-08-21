@@ -45,6 +45,7 @@ class PropKarma:
 
 
     def load(self, f):
+        gLogger.set_section("propkarma")
         gLogger.info("Loading: ", f)
         datas = OrderedDict()
         with open(f, "r") as fd:
@@ -66,4 +67,5 @@ class PropKarma:
                 datas[arr[self.nGrade]] = PropKarma()
                 for key in self.__dict__:
                     setattr(datas[arr[self.nGrade]], key, arr[getattr(self, key)])
+        gLogger.reset_section()
         return datas

@@ -135,6 +135,7 @@ class PropMover:
 
 
     def load(self, f):
+        gLogger.set_section("propmover")
         gLogger.info("Loading: ", f)
         movers = OrderedDict()
         with open(f, "r") as fd:
@@ -159,26 +160,8 @@ class PropMover:
                 movers[arr[self.dwID]] = PropMover()
                 for key in self.__dict__:
                     setattr(movers[arr[self.dwID]], key, arr[getattr(self, key)])
+        gLogger.reset_section()
         return movers
-
-
-    def replace(self, textMover):
-        if self.szName != "=":
-            if len(self.szName) >= 0 and self.szName != "" and self.szName in textMover:
-                self.szName = '\"' + textMover[self.szName] + '\"'
-        if self.szComment != "=":
-            if self.szComment != "" and len(self.szComment) > 0 and self.szComment in textMover:
-                self.szComment = '\"' + textMover[self.szComment] + '\"'
-
-
-    def write(self, movers):
-        gLogger.info("Writing propMover.txt")
-        with open("output/propMover.txt", "w") as fd:
-            for index in movers:
-                mover = movers[index]
-                line = mover.toString().replace(" ", "\t")
-                fd.write(line + "\n")
-        return True
 
 
     def filter(self, movers, defineObj, textMover, items):
@@ -242,6 +225,18 @@ class PropMover:
         return mover_undeclared, mover_unused, weapon_undeclared, mover_name_undeclared, mover_comment_undeclared
 
 
+    def write(self, movers):
+        gLogger.set_section("propmover")
+        gLogger.info("Writing propMover.txt")
+        with open("output/propMover.txt", "w") as fd:
+            for index in movers:
+                mover = movers[index]
+                line = mover.toString().replace(" ", "\t")
+                fd.write(line + "\n")
+        gLogger.reset_section()
+        return True
+
+
     def remove(self, movers, delete):
         if len(delete) <= 0:
             return False
@@ -250,3 +245,11 @@ class PropMover:
             if it in movers:
                 del movers[it]
 
+
+    def replace(self, textMover):
+        if self.szName != "=":
+            if len(self.szName) >= 0 and self.szName != "" and self.szName in textMover:
+                self.szName = '\"' + textMover[self.szName] + '\"'
+        if self.szComment != "=":
+            if self.szComment != "" and len(self.szComment) > 0 and self.szComment in textMover:
+                self.szComment = '\"' + textMover[self.szComment] + '\"'

@@ -280,6 +280,7 @@ class PropItem():
 
 
     def load(self, f):
+        gLogger.set_section("propitem")
         gLogger.info("loading: ", f)
         items = OrderedDict()
         with open(f, "r") as fd:
@@ -306,33 +307,11 @@ class PropItem():
                 items[arr[self.dwID]] = PropItem()
                 for key in self.__dict__:
                     setattr(items[arr[self.dwID]], key, arr[getattr(self, key)])
+        gLogger.reset_section()
         return items
 
 
-    def replace(self, text):
-        if self.szName != "=":
-            if len(self.szName) >= 0 and self.szName != "" and self.szName in text:
-                self.szName = '\"' + text[self.szName] + '\"'
-        if self.szComment != "=":
-            if self.szComment != "" and len(self.szComment) > 0 and self.szComment in text:
-                self.szComment = '\"' + text[self.szComment] + '\"'
-        if self.szTextFile != "=":
-            if self.szTextFile != "" and len(self.szTextFile) > 0 and self.szTextFile in text:
-                self.szTextFile = '\"' + text[self.szTextFile] + '\"'
-
-
-    def write(self, items):
-        gLogger.info("Writing propItem.txt")
-        with open("output/propItem.txt", "w") as fd:
-            for index in items:
-                item = items[index]
-                line = item.toString().replace("\t", " ")
-                fd.write(line + "\n")
-        return True
-
-
     def filter(self, path_icon, items, defineItem, textItems, movers):
-        gLogger.info("Filtering propitem")
         gLogger.set_section("propitem")
 
         items_undeclared = []
@@ -399,6 +378,30 @@ class PropItem():
         gLogger.reset_section()
 
         return items_undeclared, items_used, icon_unfound, item_name_undeclared, item_comment_undeclared
+
+
+    def write(self, items):
+        gLogger.set_section("propitem")
+        gLogger.info("Writing propItem.txt")
+        with open("output/propItem.txt", "w") as fd:
+            for index in items:
+                item = items[index]
+                line = item.toString().replace("\t", " ")
+                fd.write(line + "\n")
+        gLogger.reset_section()
+        return True
+
+
+    def replace(self, text):
+        if self.szName != "=":
+            if len(self.szName) >= 0 and self.szName != "" and self.szName in text:
+                self.szName = '\"' + text[self.szName] + '\"'
+        if self.szComment != "=":
+            if self.szComment != "" and len(self.szComment) > 0 and self.szComment in text:
+                self.szComment = '\"' + text[self.szComment] + '\"'
+        if self.szTextFile != "=":
+            if self.szTextFile != "" and len(self.szTextFile) > 0 and self.szTextFile in text:
+                self.szTextFile = '\"' + text[self.szTextFile] + '\"'
 
 
     def remove(self, items, delete):

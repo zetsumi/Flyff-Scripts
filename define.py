@@ -21,6 +21,7 @@ class Define:
         return False
 
     def load(self, f):
+        gLogger.set_section("define")
         gLogger.info("Loading: ", f)
         defines = dict()
         with open(f, "r") as fd:
@@ -45,4 +46,5 @@ class Define:
                         break
                 if define.key != "" and define.data != "" and define.key not in defines:
                     defines[define.key] = define.data
+        gLogger.reset_section()
         return defines

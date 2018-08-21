@@ -32,6 +32,7 @@ class PropCtrl:
 
 
     def load(self, f):
+        gLogger.set_section("propctrl")
         gLogger.info("Loading: ", f)
         ctrls = {}
         with open(f, "r") as fd:
@@ -53,11 +54,11 @@ class PropCtrl:
                 ctrls[arr[self.dwID]] = PropCtrl()
                 for key in self.__dict__:
                     setattr(ctrls[arr[self.dwID]], key, arr[getattr(self, key)])
+        gLogger.reset_section()
         return ctrls
 
 
     def filter(self, ctrls, defineObj, textCtrl):
-        gLogger.info("Filtering propCtrl")
         gLogger.set_section("propCtrl")
 
         ctrl_undeclared = []

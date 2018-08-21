@@ -269,6 +269,7 @@ class PropSkill:
 
 
     def load(self, f):
+        gLogger.set_section("propskill")
         gLogger.info("Loading: ", f)
         datas = OrderedDict()
         with open(f, "r") as fd:
@@ -290,4 +291,5 @@ class PropSkill:
                 datas[arr[self.dwID]] = PropSkill()
                 for key in self.__dict__:
                     setattr(datas[arr[self.dwID]], key, arr[getattr(self, key)])
+        gLogger.reset_section()
         return datas

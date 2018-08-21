@@ -269,6 +269,7 @@ class PropTroupeSkill:
 
 
     def load(self, f):
+        gLogger.set_section("proptroupeskill")
         gLogger.info("Loading: ", f)
         datas = OrderedDict()
         with open(f, "r") as fd:
@@ -290,4 +291,5 @@ class PropTroupeSkill:
                 datas[arr[self.dwID]] = PropTroupeSkill()
                 for key in self.__dict__:
                     setattr(datas[arr[self.dwID]], key, arr[getattr(self, key)])
+        gLogger.reset_section()
         return datas

@@ -22,6 +22,7 @@ class MdlDyna:
 
 
     def load(self, f):
+        gLogger.set_section("mdldyna")
         gLogger.info("Loading: ", f)
         mdlDyna = MdlDyna()
         with open(f, "r") as fd:
@@ -35,10 +36,10 @@ class MdlDyna:
                 if len(arr) == 12:
                     if "II_" in arr[1]:
                         self.items[arr[1]] = str(arr[0]).replace('"', "")
+        gLogger.reset_section()
 
 
     def filter(self, items):
-        gLogger.info("Filtering by mdldyna")
         gLogger.set_section("mdldyna")
 
         item_unused = []
