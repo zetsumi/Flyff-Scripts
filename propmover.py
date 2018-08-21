@@ -1,3 +1,6 @@
+from collections import OrderedDict
+
+
 class PropMover:
 
     
@@ -132,7 +135,7 @@ class PropMover:
 
     def load(self, f):
         print("Loading: ", f)
-        movers = dict()
+        movers = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")

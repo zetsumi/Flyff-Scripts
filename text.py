@@ -1,3 +1,6 @@
+
+from collections import OrderedDict
+
 class Text:
 
 
@@ -13,13 +16,12 @@ class Text:
 
     def load(self, f):
         print("Loading: ", f)
-        texts = dict()
+        texts = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
-                if "//" in line or len(line) <= 0 \
-                    or line == "":
+                if "//" in line or len(line) <= 0 or line == "":
                     continue
                 arr = line.split("\t")
                 text = Text()

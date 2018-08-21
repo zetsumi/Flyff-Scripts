@@ -1,4 +1,5 @@
 import subprocess
+from collections import OrderedDict
 
 
 class PropItem():
@@ -279,7 +280,7 @@ class PropItem():
 
     def load(self, f):
         print("Loading: ", f)
-        items = {}
+        items = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")

@@ -1,3 +1,6 @@
+from collections import OrderedDict
+
+
 class PropSkill:
 
     
@@ -266,7 +269,7 @@ class PropSkill:
 
     def load(self, f):
         print("Loading: ", f)
-        datas = {}
+        datas = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")

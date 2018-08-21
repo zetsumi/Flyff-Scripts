@@ -1,3 +1,5 @@
+from collections import OrderedDict
+
 class PropCtrl:
 
 
@@ -50,3 +52,46 @@ class PropCtrl:
                 for key in self.__dict__:
                     setattr(ctrls[arr[self.dwID]], key, arr[getattr(self, key)])
         return ctrls
+
+
+    def filter(self, ctrls, defineObj, textCtrl):
+        print("Filtering propCtrl")
+
+        ctrl_undeclared = []
+        ctrl_name_undeclared = []
+        ctrl_comment_undeclared = []
+
+        for it in ctrls:
+            ctrl = ctrls[it]
+            if ctrl.dwID not in defineObj:
+                if ctrl.dwID not in ctrl_undeclared:
+                    ctrl_undeclared.append(ctrl.dwID)
+            if ctrl.szName not in textCtrl:
+                if ctrl.szName not in ctrl_name_undeclared:
+                    ctrl_name_undeclared.append(ctrl.szName)
+            if ctrl.szComment not in textCtrl:
+                if ctrl.szComment not in ctrl_comment_undeclared:
+                    ctrl_comment_undeclared.append(ctrl.szComment)
+
+
+        if len(ctrl_undeclared) > 0:
+            print("Ctrl undeclared: {undeclared}/{total}".format(
+                undeclared=len(ctrl_undeclared), total=len(ctrls)))
+            with open("./filter/ctrl_undeclared.txt", "w") as fd:
+                for ctrl in ctrl_undeclared:
+                    fd.write(str(ctrl) + "\n")
+        if len(ctrl_name_undeclared) > 0:
+            print("Ctrl Name undeclared: {undeclared}/{total}".format(
+                undeclared=len(ctrl_name_undeclared), total=len(ctrls)))
+            with open("./filter/ctrl_name_undeclared.txt", "w") as fd:
+                for ctrl in ctrl_name_undeclared:
+                    fd.write(str(ctrl) + "\n")
+        if len(ctrl_comment_undeclared) > 0:
+            print("Ctrl Comment undeclared: {undeclared}/{total}".format(
+                undeclared=len(ctrl_comment_undeclared), total=len(ctrls)))
+            with open("./filter/ctrl_comment_undeclared.txt", "w") as fd:
+                for ctrl in ctrl_comment_undeclared:
+                    fd.write(str(ctrl) + "\n") 
+
+
+            

@@ -1,3 +1,6 @@
+from collections import OrderedDict
+
+
 class PropKarma:
 
 
@@ -42,7 +45,7 @@ class PropKarma:
 
     def load(self, f):
         print("Loading: ", f)
-        datas = {}
+        datas = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")

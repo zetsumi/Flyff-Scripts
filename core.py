@@ -1,6 +1,7 @@
 import sys
 import subprocess
 import os
+from collections import OrderedDict
 
 from propmover import PropMover
 from propitem import PropItem
@@ -18,6 +19,8 @@ version_binary = "0.0.0.0"
 #Path
 path_resource = "/home/sahaltim19/Documents/gh/Flyff-DEV/Resource/"
 path_icon = path_resource + "Item/"
+path_output = "./output"
+path_filter = "./filter"
 
 # file properties
 file_propitem = path_resource + "propItem.txt"
@@ -50,6 +53,13 @@ file_define_neuz = path_resource + "defineNeuz.h"
 if __name__ == "__main__":
     print("Running Flyff Properties ", version_binary)
 
+    if not os.path.exists(path_output):
+        print("Create directory ", path_output)
+        os.makedirs(path_output)
+    if not os.path.exists(path_filter):
+        print("Create directory ", path_filter)
+        os.makedirs(path_filter)
+
     mdldyna = MdlDyna()
     mdldyna.load(file_mdldyna)
 
@@ -60,31 +70,31 @@ if __name__ == "__main__":
     propskill = PropSkill()
     proptroupeskill = PropTroupeSkill()
 
-    items = dict(propitem.load(file_propitem))
-    movers = dict(propmover.load(file_propmover))
-    ctrls = dict(propctrl.load(file_propctrl))
-    karmas = dict(propkarma.load(file_propkarma))
-    skills = dict(propskill.load(file_propskill))
-    troupeSkills = dict(proptroupeskill.load(file_proptroupeskill))
+    items = OrderedDict(propitem.load(file_propitem))
+    movers = OrderedDict(propmover.load(file_propmover))
+    ctrls = OrderedDict(propctrl.load(file_propctrl))
+    karmas = OrderedDict(propkarma.load(file_propkarma))
+    skills = OrderedDict(propskill.load(file_propskill))
+    troupeSkills = OrderedDict(proptroupeskill.load(file_proptroupeskill))
 
     define = Define()
-    defineItem = dict(define.load(file_define_item))
-    defineObj = dict(define.load(file_define_obj))
-    defineNeuz = dict(define.load(file_define_neuz))
-    defineAttribute = dict(define.load(file_define_attribute))
+    defineItem = OrderedDict(define.load(file_define_item))
+    defineObj = OrderedDict(define.load(file_define_obj))
+    defineNeuz = OrderedDict(define.load(file_define_neuz))
+    defineAttribute = OrderedDict(define.load(file_define_attribute))
 
     text = Text()
-    textMover = dict(text.load(file_text_propmover))
-    textItem = dict(text.load(file_text_propitem))
-    textCtrl = dict(text.load(file_text_propctrl))
-    textKarma = dict(text.load(file_text_propkarma))
-    textSkill = dict(text.load(file_text_propskill))
-    textTroupeSKill = dict(text.load(file_text_proptroupeskill))
+    textMover = OrderedDict(text.load(file_text_propmover))
+    textItem = OrderedDict(text.load(file_text_propitem))
+    textCtrl = OrderedDict(text.load(file_text_propctrl))
+    textKarma = OrderedDict(text.load(file_text_propkarma))
+    textSkill = OrderedDict(text.load(file_text_propskill))
+    textTroupeSKill = OrderedDict(text.load(file_text_proptroupeskill))
 
-    item_undeclared, item_unsued, item_icon_unfound = propitem.filter(path_icon, items, defineItem, movers)
-    mover_undeclared, mover_unsued = propmover.filter(movers, defineObj, items)
-    mdldyna.filter(items)
-
+    # item_undeclared, item_unsued, item_icon_unfound = propitem.filter(path_icon, items, defineItem, movers)
+    # mover_undeclared, mover_unsued = propmover.filter(movers, defineObj, items)
+    propctrl.filter(ctrls, defineObj, textCtrl)
+    # mdldyna.filter(items)
 
     propitem.write(items)
     propmover.write(movers)
