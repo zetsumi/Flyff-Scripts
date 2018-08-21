@@ -81,16 +81,10 @@ if __name__ == "__main__":
     textSkill = dict(text.load(file_text_propskill))
     textTroupeSKill = dict(text.load(file_text_proptroupeskill))
 
-    # item_undeclared, item_unsued, item_icon_unfound = propitem.filter(path_icon, items, defineItem, movers)
-    # mover_undeclared, mover_unsued = propmover.filter(movers, defineObj, items)
-    # mdldyna.filter(items)
+    item_undeclared, item_unsued, item_icon_unfound = propitem.filter(path_icon, items, defineItem, movers)
+    mover_undeclared, mover_unsued = propmover.filter(movers, defineObj, items)
+    mdldyna.filter(items)
 
-    # for it in movers:
-    #     mover = movers[it]
-    #     mover.replace(textMover)
-    # for it in items:
-    #     item = items[it]
-    #     item.replace(textItem)
 
-    # propitem.write(items)
-    # propmover.write(movers)
+    propitem.write(items)
+    propmover.write(movers)

@@ -361,21 +361,21 @@ class PropItem():
         if len(items_undeclared) > 0:
             print("Items undeclared: {number}/{total}".format(
                 number=len(items_undeclared), total=len(items)))
-            with open("items_undeclared.txt", "w") as fd:
+            with open("filter/items_undeclared.txt", "w") as fd:
                 for item in items_undeclared:
                     fd.write(item + "\n")
 
         if len(items_used) > 0:
             print("Items unused: {number}/{total}".format(
                 number=len(items_used), total=len(items)))
-            with open("items_used.txt", "w") as fd:
+            with open("filter/items_used.txt", "w") as fd:
                 for item in items_used:
                     fd.write(str(item) + "\n")
 
         if len(icon_unfound) > 0:
             print("Icon unfound: {number}/{total}".format(
                 number=len(icon_unfound), total=len(items)))
-            with open("icon_unfound.txt", "w") as fd:
+            with open("filter/icon_unfound.txt", "w") as fd:
                 for item in icon_unfound:
                     fd.write(str(item) + "\n")
 

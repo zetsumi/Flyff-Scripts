@@ -178,12 +178,10 @@ class PropMover:
 
 
     def filter(self, movers, defineObj, items):
+        print("Filtering propmover")
         mover_undeclared = []
         mover_unused = []
         weapon_undeclared = []
-
-        print("Filtering propmover")
-
         for it in movers:
             mover = movers[it]
             if mover.dwID not in defineObj:
@@ -202,14 +200,14 @@ class PropMover:
         if len(mover_undeclared) > 0:
             print("Movers undeclared: {number}/{total}".format(
                 number=len(mover_undeclared), total=len(movers)))
-            with open("mover_undeclared.txt", "w") as fd:
+            with open("filter/mover_undeclared.txt", "w") as fd:
                 for mover in mover_undeclared:
                     fd.write(str(mover) + "\n")
 
         if len(mover_unused) > 0:
             print("Movers mover_unused: {number}/{total}".format(
                 number=len(mover_unused), total=len(movers)))
-            with open("mover_unused.txt", "w") as fd:
+            with open("filter/mover_unused.txt", "w") as fd:
                 for mover in mover_unused:
                     fd.write(str(mover) + "\n")
 
@@ -220,7 +218,6 @@ class PropMover:
         if len(delete) <= 0:
             return False
         print("Removing on propmover")
-
         for it in delete:
             if it in movers:
                 del movers[it]
