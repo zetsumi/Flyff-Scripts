@@ -1,4 +1,6 @@
 class PropKarma:
+
+
     def __init__(self):
         self.nGrade = 0
         self.szName = 1
@@ -18,6 +20,7 @@ class PropKarma:
         self.dwStatLimitNum = 15
         self.dwStatLimitRate = 16
         self.szComment = 17
+
 
     def toString(self):
         toString = str(str(self.nGrade) + " " + str(self.szName) + " " + str(self.dwKarmaPoint) + " " + \

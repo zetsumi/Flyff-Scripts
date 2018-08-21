@@ -1,4 +1,6 @@
 class PropSkill:
+
+    
     def __init__(self):
         self.version = 0
         self.dwID = 1

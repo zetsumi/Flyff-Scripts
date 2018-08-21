@@ -1,4 +1,6 @@
 class PropCtrl:
+
+
     def __init__(self):
         self.dwID = 0
         self.szName = 1
@@ -15,6 +17,7 @@ class PropCtrl:
 		str(self.dwCtrlKind2) + " " + str(self.dwCtrlKind3) + " " + str(self.dwSfxCtrl) + " " + \
 		str(self.dwSndDamage) + " " + str(self.szComment))
         return toString
+
 
     def getIdMax(self):
         return 7

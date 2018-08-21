@@ -1,11 +1,15 @@
 class Text:
+
+
     def __init__(self):
         self.key = ""
         self.data = ""
 
+
     def toString(self):
         toString = str(self.key) + "\t" + str(self.data)
         return toString()
+
 
     def load(self, f):
         print("Loading: ", f)

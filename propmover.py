@@ -1,4 +1,6 @@
 class PropMover:
+
+    
     def __init__(self):
         self.dwID = 0
         self.szName = 1
@@ -84,6 +86,7 @@ class PropMover:
         self.dwSndIdle2 = 81
         self.szComment = 82
 
+
     def toString(self):
         toString = str(str(self.dwID) + " " + str(self.szName) + " " + \
             str(self.dwAI) + " " + str(self.dwStr) + " " + str(self.dwSta) + " " + str(self.dwDex) + " " + \
@@ -154,6 +157,7 @@ class PropMover:
                     setattr(movers[arr[self.dwID]], key, arr[getattr(self, key)])
         return movers
 
+
     def replace(self, textMover):
         if self.szName != "=":
             if len(self.szName) >= 0 and self.szName != "" and self.szName in textMover:
@@ -161,6 +165,7 @@ class PropMover:
         if self.szComment != "=":
             if self.szComment != "" and len(self.szComment) > 0 and self.szComment in textMover:
                 self.szComment = '\"' + textMover[self.szComment] + '\"'
+
 
     def write(self, movers):
         print("Writing propMover.txt")
