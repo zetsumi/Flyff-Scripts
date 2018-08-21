@@ -1,8 +1,9 @@
 import sys
 import subprocess
 import os
+import shutil
 from collections import OrderedDict
-
+from logger import gLogger
 from propmover import PropMover
 from propitem import PropItem
 from propctrl import PropCtrl
@@ -50,14 +51,19 @@ file_define_attribute = path_resource + "defineAttribute.h"
 file_define_obj = path_resource + "defineObj.h"
 file_define_neuz = path_resource + "defineNeuz.h"
 
+
 if __name__ == "__main__":
-    print("Running Flyff Properties ", version_binary)
+    gLogger.info("Running Flyff Properties ", version_binary)
 
     if not os.path.exists(path_output):
-        print("Create directory ", path_output)
+        os.makedirs(path_output)
+    else:
+        shutil.rmtree(path_output, ignore_errors=True)
         os.makedirs(path_output)
     if not os.path.exists(path_filter):
-        print("Create directory ", path_filter)
+        os.makedirs(path_filter)
+    else:
+        shutil.rmtree(path_filter, ignore_errors=True)
         os.makedirs(path_filter)
 
     mdldyna = MdlDyna()
@@ -91,8 +97,8 @@ if __name__ == "__main__":
     textSkill = OrderedDict(text.load(file_text_propskill))
     textTroupeSKill = OrderedDict(text.load(file_text_proptroupeskill))
 
-    # item_undeclared, item_unsued, item_icon_unfound = propitem.filter(path_icon, items, defineItem, movers)
-    # mover_undeclared, mover_unsued = propmover.filter(movers, defineObj, items)
+    # propitem.filter(path_icon, items, defineItem, textItem, movers)
+    # propmover.filter(movers, defineObj, textMover, items)
     propctrl.filter(ctrls, defineObj, textCtrl)
     # mdldyna.filter(items)
 

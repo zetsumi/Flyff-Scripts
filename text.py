@@ -1,5 +1,7 @@
 
 from collections import OrderedDict
+from logger import gLogger
+
 
 class Text:
 
@@ -15,7 +17,7 @@ class Text:
 
 
     def load(self, f):
-        print("Loading: ", f)
+        gLogger.info("Loading: ", f)
         texts = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
@@ -33,6 +35,6 @@ class Text:
                         text.data = it
                     else:
                         text.data += str(" " + it)
-                if text.key != "" and text.data != "" and text.key not in texts:
+                if text.key != "" and text.key not in texts:
                     texts[text.key] = text.data
         return texts

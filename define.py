@@ -1,3 +1,6 @@
+from collections import OrderedDict
+from logger import gLogger
+
 class Define:
     def __init__(self):
         self.key = ""
@@ -18,7 +21,7 @@ class Define:
         return False
 
     def load(self, f):
-        print("Loading: ", f)
+        gLogger.info("Loading: ", f)
         defines = dict()
         with open(f, "r") as fd:
             for line in fd:

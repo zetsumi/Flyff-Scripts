@@ -1,6 +1,9 @@
+from collections import OrderedDict
+from logger import gLogger
+
 class MdlDyna:
     def __init__(self):
-        self.items = {}
+        self.items = OrderedDict()
 
     def __remove_element__(self, line):
         newline = line.replace("\n", "")
@@ -19,7 +22,7 @@ class MdlDyna:
 
 
     def load(self, f):
-        print("Loading {}".format(f))
+        gLogger.info("Loading: ", f)
         mdlDyna = MdlDyna()
         with open(f, "r") as fd:
             for line in fd:
@@ -35,11 +38,15 @@ class MdlDyna:
 
 
     def filter(self, items):
-        print("Filtering by mdldyna")
+        gLogger.info("Filtering by mdldyna")
+        gLogger.set_section("mdldyna")
+
         item_unused = []
         for it in items:
             if it not in self.items:
                 item_unused.append(it)
         
         if len(item_unused) > 0:
-            print("item_unused {}/{}".format(len(item_unused), len(self.items)))
+            gLogger.info("item_unused {}/{}".format(len(item_unused), len(self.items)))
+
+        gLogger.reset_section()

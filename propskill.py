@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from logger import gLogger
 
 
 class PropSkill:
@@ -268,7 +269,7 @@ class PropSkill:
 
 
     def load(self, f):
-        print("Loading: ", f)
+        gLogger.info("Loading: ", f)
         datas = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:

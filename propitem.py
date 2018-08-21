@@ -1,5 +1,6 @@
 import subprocess
 from collections import OrderedDict
+from logger import gLogger
 
 
 class PropItem():
@@ -279,7 +280,7 @@ class PropItem():
 
 
     def load(self, f):
-        print("Loading: ", f)
+        gLogger.info("loading: ", f)
         items = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
@@ -321,7 +322,7 @@ class PropItem():
 
 
     def write(self, items):
-        print("Writing propItem.txt")
+        gLogger.info("Writing propItem.txt")
         with open("output/propItem.txt", "w") as fd:
             for index in items:
                 item = items[index]
@@ -330,23 +331,39 @@ class PropItem():
         return True
 
 
-    def filter(self, path_icon, items, defineItem, movers):
+    def filter(self, path_icon, items, defineItem, textItems, movers):
+        gLogger.info("Filtering propitem")
+        gLogger.set_section("propitem")
+
         items_undeclared = []
         items_used = []
         icon_unfound = []
+        item_name_undeclared = []
+        item_comment_undeclared = []
 
-        print("Filtering propitem")
 
+        gLogger.info("ID")
         for it in items:
             item = items[it]
             if item.dwID not in defineItem:
                 items_undeclared.append(it)
                 continue
 
+        gLogger.info("Name and Comment")
+        for it in items:
+            if item.szName not in textItems:
+                if item.szName not in item_name_undeclared:
+                    item_name_undeclared.append(item.szName)
+            if item.szComment not in textItems:
+                if item.szComment not in item_comment_undeclared:
+                    item_comment_undeclared.append(item.szComment)
+
+        gLogger.info("define item")
         for it in defineItem:
             if it not in items:
                 items_used.append(it)
 
+        gLogger.info("icon exists")
         for it in items:
             icon = items[it].szIcon
             icon = icon.replace('"', "")
@@ -359,34 +376,35 @@ class PropItem():
                 icon_unfound.append(it)
 
 
-        if len(items_undeclared) > 0:
-            print("Items undeclared: {number}/{total}".format(
-                number=len(items_undeclared), total=len(items)))
-            with open("filter/items_undeclared.txt", "w") as fd:
-                for item in items_undeclared:
-                    fd.write(item + "\n")
+        gLogger.write("./filter/items_undeclared.txt", items_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Items undeclared:",
+                undeclared=len(items_undeclared),
+                total=len(items)))
+        gLogger.write("./filter/items_used.txt", items_used, "{infos}: {undeclared}/{total}".format(
+                infos="Items unused:",
+                undeclared=len(items_used),
+                total=len(items)))
+        gLogger.write("./filter/icon_unfound.txt", icon_unfound, "{infos}: {undeclared}/{total}".format(
+                infos="Icon unfound:",
+                undeclared=len(icon_unfound),
+                total=len(items)))
+        gLogger.write("./filter/item_name_undeclared.txt", item_name_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Name undeclared:",
+                undeclared=len(item_name_undeclared),
+                total=len(items)))
+        gLogger.write("./filter/item_comment_undeclared.txt", item_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Comment undeclared:",
+                undeclared=len(item_comment_undeclared),
+                total=len(items)))
+        gLogger.reset_section()
 
-        if len(items_used) > 0:
-            print("Items unused: {number}/{total}".format(
-                number=len(items_used), total=len(items)))
-            with open("filter/items_used.txt", "w") as fd:
-                for item in items_used:
-                    fd.write(str(item) + "\n")
-
-        if len(icon_unfound) > 0:
-            print("Icon unfound: {number}/{total}".format(
-                number=len(icon_unfound), total=len(items)))
-            with open("filter/icon_unfound.txt", "w") as fd:
-                for item in icon_unfound:
-                    fd.write(str(item) + "\n")
-
-        return items_undeclared, items_used, icon_unfound
+        return items_undeclared, items_used, icon_unfound, item_name_undeclared, item_comment_undeclared
 
 
     def remove(self, items, delete):
         if len(delete) <= 0:
             return False
-        print("Removing on propitem")
+        gLogger.info("Removing on propitem")
 
         for it in delete:
             if it in items:

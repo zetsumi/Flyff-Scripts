@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from logger import gLogger
 
 
 class PropMover:
@@ -134,7 +135,7 @@ class PropMover:
 
 
     def load(self, f):
-        print("Loading: ", f)
+        gLogger.info("Loading: ", f)
         movers = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
@@ -171,7 +172,7 @@ class PropMover:
 
 
     def write(self, movers):
-        print("Writing propMover.txt")
+        gLogger.info("Writing propMover.txt")
         with open("output/propMover.txt", "w") as fd:
             for index in movers:
                 mover = movers[index]
@@ -180,15 +181,34 @@ class PropMover:
         return True
 
 
-    def filter(self, movers, defineObj, items):
-        print("Filtering propmover")
+    def filter(self, movers, defineObj, textMover, items):
+        gLogger.info("Filtering propmover")
+        gLogger.set_section("propmover")
+
         mover_undeclared = []
         mover_unused = []
         weapon_undeclared = []
+        mover_name_undeclared = []
+        mover_comment_undeclared = []
+
+        gLogger.info("ID")
         for it in movers:
             mover = movers[it]
             if mover.dwID not in defineObj:
                 mover_undeclared.append(mover.dwID)
+
+        gLogger.info("Name and Comment")
+        for it in movers:
+            mover = movers[it]
+            if mover.szName not in textMover:
+                if mover.szName not in mover_name_undeclared:
+                    mover_name_undeclared.append(mover.szName)
+            if mover.szComment not in textMover:
+                if mover.szComment not in mover_comment_undeclared:
+                    mover_comment_undeclared.append(mover.szComment)
+
+        gLogger.info("Weapon Atk1 Atk2 Atk3")
+        for it in movers:
             if mover.dwAtk1 not in items:
                 weapon_undeclared.append(mover.dwAtk1)
             if mover.dwAtk2 not in items:
@@ -196,31 +216,36 @@ class PropMover:
             if mover.dwAtk3 not in items:
                 weapon_undeclared.append(mover.dwAtk3)
 
+        gLogger.info("define obj")
         for it in defineObj:
             if "MI_" in it and it not in movers:
                 mover_unused.append(it)
 
-        if len(mover_undeclared) > 0:
-            print("Movers undeclared: {number}/{total}".format(
-                number=len(mover_undeclared), total=len(movers)))
-            with open("filter/mover_undeclared.txt", "w") as fd:
-                for mover in mover_undeclared:
-                    fd.write(str(mover) + "\n")
+        gLogger.write("filter/mover_undeclared.txt", mover_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Movers undeclared:",
+                undeclared=len(mover_undeclared),
+                total=len(movers)))
+        gLogger.write("filter/mover_unused.txt", mover_unused, "{infos}: {undeclared}/{total}".format(
+                infos="Movers mover_unused:",
+                undeclared=len(mover_unused),
+                total=len(movers)))
+        gLogger.write("filter/mover_name_undeclared.txt", mover_name_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Movers mover_name_undeclared:",
+                undeclared=len(mover_name_undeclared),
+                total=len(movers)))
+        gLogger.write("filter/mover_comment_undeclared.txt", mover_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Movers mover_comment_undeclared:",
+                undeclared=len(mover_comment_undeclared),
+                total=len(movers)))
+        gLogger.reset_section()
 
-        if len(mover_unused) > 0:
-            print("Movers mover_unused: {number}/{total}".format(
-                number=len(mover_unused), total=len(movers)))
-            with open("filter/mover_unused.txt", "w") as fd:
-                for mover in mover_unused:
-                    fd.write(str(mover) + "\n")
-
-        return mover_undeclared, mover_unused
+        return mover_undeclared, mover_unused, weapon_undeclared, mover_name_undeclared, mover_comment_undeclared
 
 
     def remove(self, movers, delete):
         if len(delete) <= 0:
             return False
-        print("Removing on propmover")
+        gLogger.info("Removing on propmover")
         for it in delete:
             if it in movers:
                 del movers[it]

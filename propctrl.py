@@ -1,4 +1,6 @@
 from collections import OrderedDict
+from logger import gLogger
+
 
 class PropCtrl:
 
@@ -16,8 +18,8 @@ class PropCtrl:
 
     def toString(self):
         toString = str(str(self.dwID) + " " + str(self.szName) + " " + str(self.dwCtrlKind1) + " " + \
-		str(self.dwCtrlKind2) + " " + str(self.dwCtrlKind3) + " " + str(self.dwSfxCtrl) + " " + \
-		str(self.dwSndDamage) + " " + str(self.szComment))
+		    str(self.dwCtrlKind2) + " " + str(self.dwCtrlKind3) + " " + str(self.dwSfxCtrl) + " " + \
+		    str(self.dwSndDamage) + " " + str(self.szComment))
         return toString
 
 
@@ -30,7 +32,7 @@ class PropCtrl:
 
 
     def load(self, f):
-        print("Loading: ", f)
+        gLogger.info("Loading: ", f)
         ctrls = {}
         with open(f, "r") as fd:
             for line in fd:
@@ -55,7 +57,8 @@ class PropCtrl:
 
 
     def filter(self, ctrls, defineObj, textCtrl):
-        print("Filtering propCtrl")
+        gLogger.info("Filtering propCtrl")
+        gLogger.set_section("propCtrl")
 
         ctrl_undeclared = []
         ctrl_name_undeclared = []
@@ -73,25 +76,16 @@ class PropCtrl:
                 if ctrl.szComment not in ctrl_comment_undeclared:
                     ctrl_comment_undeclared.append(ctrl.szComment)
 
-
-        if len(ctrl_undeclared) > 0:
-            print("Ctrl undeclared: {undeclared}/{total}".format(
-                undeclared=len(ctrl_undeclared), total=len(ctrls)))
-            with open("./filter/ctrl_undeclared.txt", "w") as fd:
-                for ctrl in ctrl_undeclared:
-                    fd.write(str(ctrl) + "\n")
-        if len(ctrl_name_undeclared) > 0:
-            print("Ctrl Name undeclared: {undeclared}/{total}".format(
-                undeclared=len(ctrl_name_undeclared), total=len(ctrls)))
-            with open("./filter/ctrl_name_undeclared.txt", "w") as fd:
-                for ctrl in ctrl_name_undeclared:
-                    fd.write(str(ctrl) + "\n")
-        if len(ctrl_comment_undeclared) > 0:
-            print("Ctrl Comment undeclared: {undeclared}/{total}".format(
-                undeclared=len(ctrl_comment_undeclared), total=len(ctrls)))
-            with open("./filter/ctrl_comment_undeclared.txt", "w") as fd:
-                for ctrl in ctrl_comment_undeclared:
-                    fd.write(str(ctrl) + "\n") 
-
-
-            
+        gLogger.write("./filter/ctrl_undeclared.txt", ctrl_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Ctrl undeclared",
+                undeclared=len(ctrl_undeclared),
+                total=len(ctrls)))
+        gLogger.write("./filter/ctrl_name_undeclared.txt", ctrl_name_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Ctrl Name undeclared:",
+                undeclared=len(ctrl_name_undeclared),
+                total=len(ctrls)))
+        gLogger.write("./filter/ctrl_comment_undeclared.txt", ctrl_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Ctrl Comment undeclared:",
+                undeclared=len(ctrl_comment_undeclared),
+                total=len(ctrls)))
+        gLogger.reset_section()

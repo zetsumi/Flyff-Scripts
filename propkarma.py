@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from logger import gLogger
 
 
 class PropKarma:
@@ -44,7 +45,7 @@ class PropKarma:
 
 
     def load(self, f):
-        print("Loading: ", f)
+        gLogger.info("Loading: ", f)
         datas = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
