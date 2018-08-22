@@ -3,6 +3,7 @@ import subprocess
 import os
 import shutil
 from collections import OrderedDict
+from packet import Packet
 from logger import gLogger
 from propmover import PropMover
 from propitem import PropItem
@@ -18,7 +19,7 @@ from mdldyna import MdlDyna
 version_binary = "0.0.0.0"
 
 #Path
-path_resource = "/home/sahaltim19/Documents/gh/Flyff-DEV/Resource/"
+path_resource = "./Ressource/"
 path_icon = path_resource + "Item/"
 path_output = "./output"
 path_filter = "./filter"
@@ -53,19 +54,15 @@ file_define_neuz = path_resource + "defineNeuz.h"
 file_define_itemkind = path_resource + "defineItemkind.h"
 file_define_skill = path_resource + "defineSkill.h"
 
+#packet
+file_msghdr = path_resource + "MsgHdr.h"
 
 if __name__ == "__main__":
     gLogger.info("Running Flyff Properties ", version_binary)
 
     if not os.path.exists(path_output):
         os.makedirs(path_output)
-    else:
-        shutil.rmtree(path_output, ignore_errors=True)
-        os.makedirs(path_output)
     if not os.path.exists(path_filter):
-        os.makedirs(path_filter)
-    else:
-        shutil.rmtree(path_filter, ignore_errors=True)
         os.makedirs(path_filter)
 
     mdldyna = MdlDyna()
@@ -100,6 +97,11 @@ if __name__ == "__main__":
     textKarma = OrderedDict(text.load(file_text_propkarma))
     textSkill = OrderedDict(text.load(file_text_propskill))
     textTroupeSKill = OrderedDict(text.load(file_text_proptroupeskill))
+
+    packet = Packet()
+    packet.load(file_msghdr)
+    packet.filter()
+    packet.doc()
 
     # propitem.filter(path_icon, items, defineItem, textItem, movers)
     # propmover.filter(movers, defineObj, textMover, items)

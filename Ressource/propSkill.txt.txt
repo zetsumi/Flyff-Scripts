@@ -1,0 +1,377 @@
+﻿IDS_PROPSKILL_TXT_000000	Clean Hit
+IDS_PROPSKILL_TXT_000001	A powerful, downward strike.
+IDS_PROPSKILL_TXT_000002	Flurry
+IDS_PROPSKILL_TXT_000003	Rapid, stabbing attack.
+IDS_PROPSKILL_TXT_000004	Over Cut
+IDS_PROPSKILL_TXT_000005	Powerful, upward, finishing move.
+IDS_PROPSKILL_TXT_000006	Slash
+IDS_PROPSKILL_TXT_000007	Strikes the enemy two times, in rapid succession.
+IDS_PROPSKILL_TXT_000008	Keenwheel
+IDS_PROPSKILL_TXT_000009	A continuous spinning attack.
+IDS_PROPSKILL_TXT_000010	Blindside
+IDS_PROPSKILL_TXT_000011	A spinning, finishing move.
+IDS_PROPSKILL_TXT_000012	Protection
+IDS_PROPSKILL_TXT_000013	Increases the defense of a Shield against melee attacks.
+IDS_PROPSKILL_TXT_000014	Pan Barrier
+IDS_PROPSKILL_TXT_000015	Increases the defense of a shield against ranged attacks.
+IDS_PROPSKILL_TXT_000016	Blazing Sword
+IDS_PROPSKILL_TXT_000017	Increases the accuracy and striking power of a sword.
+IDS_PROPSKILL_TXT_000018	Smite Axe
+IDS_PROPSKILL_TXT_000019	Increases your Defense Rate and Striking Power of an axe.
+IDS_PROPSKILL_TXT_000020	Empower Weapon
+IDS_PROPSKILL_TXT_000021	Strengthens the elemental damage of a weapon.
+IDS_PROPSKILL_TXT_000022	Bloody Strike
+IDS_PROPSKILL_TXT_000023	Drains life from an enemy.
+IDS_PROPSKILL_TXT_000024	Sword Mastery
+IDS_PROPSKILL_TXT_000025	Increases the striking power of a sword.
+IDS_PROPSKILL_TXT_000026	Axe Mastery
+IDS_PROPSKILL_TXT_000027	Increases the striking power of an axe.
+IDS_PROPSKILL_TXT_000028	Special Hit
+IDS_PROPSKILL_TXT_000029	A single, powerful strike.
+IDS_PROPSKILL_TXT_000030	Guillotine
+IDS_PROPSKILL_TXT_000031	A powerful, ranged attack.
+IDS_PROPSKILL_TXT_000032	Sneaker
+IDS_PROPSKILL_TXT_000033	Stops an enemy.
+IDS_PROPSKILL_TXT_000034	Hit Reflect
+IDS_PROPSKILL_TXT_000035	This skill absorbs one attack and releases back at an enemy.
+IDS_PROPSKILL_TXT_000036	Guard
+IDS_PROPSKILL_TXT_000037	Increases defense by lowering attack power. Requires a two-handed sword.
+IDS_PROPSKILL_TXT_000038	Pain Reflection
+IDS_PROPSKILL_TXT_000039	Reflects a part of the damage received by an enemy.
+IDS_PROPSKILL_TXT_000040	Rage
+IDS_PROPSKILL_TXT_000041	Increases striking power and HP. Lowers defense and accuracy rate. Requires a two-handed weapon.
+IDS_PROPSKILL_TXT_000042	Power Swing
+IDS_PROPSKILL_TXT_000043	To strike a blow at the enemy by flourishing a weapon. Requires a two-handed weapon.
+IDS_PROPSKILL_TXT_000044	Earth Divider
+IDS_PROPSKILL_TXT_000045	Powerful, downward strike.
+IDS_PROPSKILL_TXT_000046	Charge
+IDS_PROPSKILL_TXT_000047	Powerful, upward strike.
+IDS_PROPSKILL_TXT_000048	Pain Dealer
+IDS_PROPSKILL_TXT_000049	Powerful, downward strike. Lowers the defense of the target. Requires two-handed axe.
+IDS_PROPSKILL_TXT_000050	Power Stomp
+IDS_PROPSKILL_TXT_000051	Pounds the ground, stunning nearby enemies. Requires two-handed axe.
+IDS_PROPSKILL_TXT_000052	Cross Strike
+IDS_PROPSKILL_TXT_000053	Powerful strike using two weapons.
+IDS_PROPSKILL_TXT_000054	Armor Penetrate
+IDS_PROPSKILL_TXT_000055	Strikes at the enemy and lowers its defense.
+IDS_PROPSKILL_TXT_000056	Silent Strike
+IDS_PROPSKILL_TXT_000057	A fast, sliding strike. Requires two weapons.
+IDS_PROPSKILL_TXT_000058	Blade Dance
+IDS_PROPSKILL_TXT_000059	Strikes at multiple enemies. Requires two swords.
+IDS_PROPSKILL_TXT_000060	Spring Attack
+IDS_PROPSKILL_TXT_000061	Strikes at an enemy multiple times. Requires two axes.
+IDS_PROPSKILL_TXT_000062	Hawk Attack
+IDS_PROPSKILL_TXT_000063	Powerful, downward strike. Small chance to blind the target. Requires two axes.
+IDS_PROPSKILL_TXT_000064	Sonic Blade
+IDS_PROPSKILL_TXT_000065	Powerful, slashing attack. Requires two weapons.
+IDS_PROPSKILL_TXT_000066	Berserk
+IDS_PROPSKILL_TXT_000067	Increases attack speed and striking power. Unable to use other skills using Berserk.
+IDS_PROPSKILL_TXT_000068	Heal
+IDS_PROPSKILL_TXT_000069	Recover the HP of a target.
+IDS_PROPSKILL_TXT_000070	Straight Punch
+IDS_PROPSKILL_TXT_000071	Powerful, straight punch.
+IDS_PROPSKILL_TXT_000072	Resurrection
+IDS_PROPSKILL_TXT_000073	Resurrects a dead player.
+IDS_PROPSKILL_TXT_000074	Patience
+IDS_PROPSKILL_TXT_000075	Increase the Max. HP of a target for a limited time.
+IDS_PROPSKILL_TXT_000076	Prevention
+IDS_PROPSKILL_TXT_000077	Target recovers HP when it reaches below a certain point.
+IDS_PROPSKILL_TXT_000078	Heap Up
+IDS_PROPSKILL_TXT_000079	Increases the physical strength of the target.
+IDS_PROPSKILL_TXT_000080	Cannon Ball
+IDS_PROPSKILL_TXT_000081	Increases the DEX of the target.
+IDS_PROPSKILL_TXT_000082	Circle Healing
+IDS_PROPSKILL_TXT_000083	Heals party members close to you.
+IDS_PROPSKILL_TXT_000084	Mental Sign
+IDS_PROPSKILL_TXT_000085	Increases INT of a target
+IDS_PROPSKILL_TXT_000086	Beef Up
+IDS_PROPSKILL_TXT_000087	Increases striking power of a target.
+IDS_PROPSKILL_TXT_000088	Burst Crack
+IDS_PROPSKILL_TXT_000089	Pounds the ground and damages enemies around you.
+IDS_PROPSKILL_TXT_000090	Stonehand
+IDS_PROPSKILL_TXT_000091	All attacks gain the chance to stun.
+IDS_PROPSKILL_TXT_000092	Quick Step
+IDS_PROPSKILL_TXT_000093	Increases the walk speed of a target.
+IDS_PROPSKILL_TXT_000094	Cat's Reflex
+IDS_PROPSKILL_TXT_000095	Increases the block rate of a target.
+IDS_PROPSKILL_TXT_000096	Accuracy
+IDS_PROPSKILL_TXT_000097	Increases the accuracy of a target.
+IDS_PROPSKILL_TXT_000098	Power Fist
+IDS_PROPSKILL_TXT_000099	Concentrated power strike.
+IDS_PROPSKILL_TXT_000100	Haste
+IDS_PROPSKILL_TXT_000101	Increases attack speed of a target.
+IDS_PROPSKILL_TXT_000102	Heal Rain
+IDS_PROPSKILL_TXT_000103	Recovers HP for party members near you.
+IDS_PROPSKILL_TXT_000104	Holycross
+IDS_PROPSKILL_TXT_000105	Target enemy takes double damage for a limited time.
+IDS_PROPSKILL_TXT_000106	Protect
+IDS_PROPSKILL_TXT_000107	Decreases the damage from physical attacks on a target.
+IDS_PROPSKILL_TXT_000108	Holyguard
+IDS_PROPSKILL_TXT_000109	Decreases the damage from magical attacks on a target.
+IDS_PROPSKILL_TXT_000110	Spirit Fortune
+IDS_PROPSKILL_TXT_000111	Increases striking power of a target.
+IDS_PROPSKILL_TXT_000112	Gvur Tialla
+IDS_PROPSKILL_TXT_000113	Removes de-buffs from a target.
+IDS_PROPSKILL_TXT_000114	Geburah Tiphreth
+IDS_PROPSKILL_TXT_000115	This ability draws upon the inner strength of nearby party members, increasing both Attack Power and Attack Speed for a limited time.
+IDS_PROPSKILL_TXT_000116	Merkaba Hanzelrusha
+IDS_PROPSKILL_TXT_000117	Enemies take damage in an area around you.
+IDS_PROPSKILL_TXT_000118	Belial Smashing
+IDS_PROPSKILL_TXT_000119	Sliding, crushing attack.
+IDS_PROPSKILL_TXT_000120	Piercing Serpent
+IDS_PROPSKILL_TXT_000121	Fires a piercing beam at the target. 
+IDS_PROPSKILL_TXT_000122	Blood Fist
+IDS_PROPSKILL_TXT_000123	Strikes a heavy blow to the enemy that causes it to lose health over time.
+IDS_PROPSKILL_TXT_000124	Sonichand
+IDS_PROPSKILL_TXT_000125	Fast, straight punch.
+IDS_PROPSKILL_TXT_000126	Asmodeus
+IDS_PROPSKILL_TXT_000127	Increases striking power.
+IDS_PROPSKILL_TXT_000128	Baraqijal Esna
+IDS_PROPSKILL_TXT_000129	Increases striking power while decreasing defensive power
+IDS_PROPSKILL_TXT_000130	Bgvur Tialbold
+IDS_PROPSKILL_TXT_000131	Strikes at nearby enemies with an outward shockwave.
+IDS_PROPSKILL_TXT_000132	Asalraalaikum
+IDS_PROPSKILL_TXT_000133	Fully concentrated strike. Consumes 100% MP.
+IDS_PROPSKILL_TXT_000134	Flame Ball
+IDS_PROPSKILL_TXT_000135	Strikes at the enemy with a ball of flame.
+IDS_PROPSKILL_TXT_000136	Flame Geyser
+IDS_PROPSKILL_TXT_000137	Damages the enemy continuously with a geyser of flame.
+IDS_PROPSKILL_TXT_000138	Swordwind
+IDS_PROPSKILL_TXT_000139	Ranged, wind attack.
+IDS_PROPSKILL_TXT_000140	Strongwind
+IDS_PROPSKILL_TXT_000141	Ranged, wind attack that moves the enemy.
+IDS_PROPSKILL_TXT_000142	Blinkpool
+IDS_PROPSKILL_TXT_000143	Allows you to teleport.
+IDS_PROPSKILL_TXT_000144	Ice Missile
+IDS_PROPSKILL_TXT_000145	Blasts the enemy with a missile of ice.
+IDS_PROPSKILL_TXT_000146	Static Ball
+IDS_PROPSKILL_TXT_000147	Damages the enemy with a ball of static.
+IDS_PROPSKILL_TXT_000148	Stone Spike
+IDS_PROPSKILL_TXT_000149	Damages an enemy with a stone spike. Chance to stun the enemy.
+IDS_PROPSKILL_TXT_000150	Mental Strike
+IDS_PROPSKILL_TXT_000151	Ranged Mental attack.
+IDS_PROPSKILL_TXT_000152	Fire Strike
+IDS_PROPSKILL_TXT_000153	Damages an enemy with a fire ball. The enemy loses health for a limited time afterwards.
+IDS_PROPSKILL_TXT_000154	Wind Cutter
+IDS_PROPSKILL_TXT_000155	Ranged, wind attack.
+IDS_PROPSKILL_TXT_000156	Waterball
+IDS_PROPSKILL_TXT_000157	A water attack that shoots multiple water orbs at your target.  The amount and strength of the orbs increases based on the skill level.
+IDS_PROPSKILL_TXT_000158	Water Well
+IDS_PROPSKILL_TXT_000159	Splashes the enemy with a water attack. The enemy takes damage over time.
+IDS_PROPSKILL_TXT_000160	Lighting Ram
+IDS_PROPSKILL_TXT_000161	Damages the enemy with an electric ball
+IDS_PROPSKILL_TXT_000162	Lighting Shock
+IDS_PROPSKILL_TXT_000163	Damages the enemy with a small but fast lightning ball.
+IDS_PROPSKILL_TXT_000164	Rock Crash
+IDS_PROPSKILL_TXT_000165	Damages the enemy with a giant stone.
+IDS_PROPSKILL_TXT_000166	Rooting
+IDS_PROPSKILL_TXT_000167	Prevents an enemy from approaching.
+IDS_PROPSKILL_TXT_000168	Demonology
+IDS_PROPSKILL_TXT_000169	Damages the enemy with a mental blast.
+IDS_PROPSKILL_TXT_000170	Satanology
+IDS_PROPSKILL_TXT_000171	Prevents an enemy from approaching.
+IDS_PROPSKILL_TXT_000172	Psychic Bomb
+IDS_PROPSKILL_TXT_000173	Damages the enemy the with a ball of mental energy.
+IDS_PROPSKILL_TXT_000174	Psychic Wall
+IDS_PROPSKILL_TXT_000175	Creates a wall that pushes an enemy back and damages them if they touch it.
+IDS_PROPSKILL_TXT_000176	Spirit Bomb
+IDS_PROPSKILL_TXT_000177	Does damage to an enemy based on your remaining MP amount.
+IDS_PROPSKILL_TXT_000178	Crucio Spell
+IDS_PROPSKILL_TXT_000179	Deals damage to an enemy equal to twice the amount the enemy deals.
+IDS_PROPSKILL_TXT_000180	Maximum Crisis
+IDS_PROPSKILL_TXT_000181	Surrounds and damages the enemy in a strong mental barrier.
+IDS_PROPSKILL_TXT_000182	Psychic Square
+IDS_PROPSKILL_TXT_000183	Damages the enemies around you with a psychic blast.
+IDS_PROPSKILL_TXT_000184	Firebird
+IDS_PROPSKILL_TXT_000185	Damages the enemy with a fire blast.
+IDS_PROPSKILL_TXT_000186	Fire Master
+IDS_PROPSKILL_TXT_000187	Increases the striking power of fire spells,
+IDS_PROPSKILL_TXT_000188	Burningfield
+IDS_PROPSKILL_TXT_000189	Does damage to the enemy over a period of time
+IDS_PROPSKILL_TXT_000190	Lightning Strike
+IDS_PROPSKILL_TXT_000191	Damages the enemy with a bolt of lightning.
+IDS_PROPSKILL_TXT_000192	Lightning Mastery
+IDS_PROPSKILL_TXT_000193	Increases the striking power of electric spells.
+IDS_PROPSKILL_TXT_000194	Electric Shock
+IDS_PROPSKILL_TXT_000195	Damage surrounding enemies with electricity. Defense of the enemies decreases.
+IDS_PROPSKILL_TXT_000196	Stone Spear
+IDS_PROPSKILL_TXT_000197	Damages an enemy with a stone spear.
+IDS_PROPSKILL_TXT_000198	Earth Master
+IDS_PROPSKILL_TXT_000199	Increases the striking power of earth spells.
+IDS_PROPSKILL_TXT_000200	Earthquake
+IDS_PROPSKILL_TXT_000201	Damages surrounding enemies area.
+IDS_PROPSKILL_TXT_000202	Iceshark
+IDS_PROPSKILL_TXT_000203	Ranged attack that fires an ice projectile.
+IDS_PROPSKILL_TXT_000204	Water Master
+IDS_PROPSKILL_TXT_000205	Increases striking power of water spells.
+IDS_PROPSKILL_TXT_000206	Poison Cloud
+IDS_PROPSKILL_TXT_000207	Damages enemies in the surrounding area.
+IDS_PROPSKILL_TXT_000208	Void
+IDS_PROPSKILL_TXT_000209	To attack the enemy by generating a perfect vacuum.
+IDS_PROPSKILL_TXT_000210	Wind Master
+IDS_PROPSKILL_TXT_000211	Increases the striking power of wind spells.
+IDS_PROPSKILL_TXT_000212	Windfield
+IDS_PROPSKILL_TXT_000213	Damages surrounding enemies with a wind attack. The speed of the enemies will be reduced.
+IDS_PROPSKILL_TXT_000214	Meteo Shower
+IDS_PROPSKILL_TXT_000215	Damages surrounding enemies with a falling meteor.
+IDS_PROPSKILL_TXT_000216	Lightingstorm
+IDS_PROPSKILL_TXT_000217	Damages surrounding enemies with electric blasts.
+IDS_PROPSKILL_TXT_000218	Sandstorm
+IDS_PROPSKILL_TXT_000219	Damages surrounding enemies with a sandstorm.
+IDS_PROPSKILL_TXT_000220	Blizzard
+IDS_PROPSKILL_TXT_000221	Damages surrounding enemies with a snowstorm.
+IDS_PROPSKILL_TXT_000222	Yo-Yo mastery
+IDS_PROPSKILL_TXT_000223	Increases damage done with a Yo-yo.
+IDS_PROPSKILL_TXT_000224	Bow Mastery
+IDS_PROPSKILL_TXT_000225	Increases damage done with a Bow.
+IDS_PROPSKILL_TXT_000226	Dark Illusion
+IDS_PROPSKILL_TXT_000227	Become Invisible for a short time.
+IDS_PROPSKILL_TXT_000228	Junk Arrow
+IDS_PROPSKILL_TXT_000229	Fire arrows wildly.
+IDS_PROPSKILL_TXT_000230	Fast Walker
+IDS_PROPSKILL_TXT_000231	Increases walk speed for a short time
+IDS_PROPSKILL_TXT_000232	Aimed Shot
+IDS_PROPSKILL_TXT_000233	Slow shot that has a chance to deal double damage.
+IDS_PROPSKILL_TXT_000234	Slow Step
+IDS_PROPSKILL_TXT_000235	Slows an enemy
+IDS_PROPSKILL_TXT_000236	Silent Shot
+IDS_PROPSKILL_TXT_000237	A surprise attack that does more damage during Dark Illusion.
+IDS_PROPSKILL_TXT_000238	Perfect Block
+IDS_PROPSKILL_TXT_000239	Increases block rate.
+IDS_PROPSKILL_TXT_000240	Arrow Rain
+IDS_PROPSKILL_TXT_000241	Creates a rain of arrows that does damage over time.
+IDS_PROPSKILL_TXT_000242	Cross Line
+IDS_PROPSKILL_TXT_000243	A Yo-yo strike that can cause stun.
+IDS_PROPSKILL_TXT_000244	Auto Shot
+IDS_PROPSKILL_TXT_000245	Rapid shot that can blind an enemy.
+IDS_PROPSKILL_TXT_000246	Snatch
+IDS_PROPSKILL_TXT_000247	Steal penya from a target while in Dark Illusion. Attack from behind.
+IDS_PROPSKILL_TXT_000248	Counterattack
+IDS_PROPSKILL_TXT_000249	Execute an attack after the enemy does.
+IDS_PROPSKILL_TXT_000250	Deadly swing
+IDS_PROPSKILL_TXT_000251	Strong Yo-yo blast. Chance to make the enemy lose health over time.
+IDS_PROPSKILL_TXT_000252	Pulling
+IDS_PROPSKILL_TXT_000253	Brings a target to you using Yo-yo.
+IDS_PROPSKILL_TXT_000254	Critical Swing
+IDS_PROPSKILL_TXT_000255	Increases chance of critical strike. 
+IDS_PROPSKILL_TXT_000256	Enchant Poison
+IDS_PROPSKILL_TXT_000257	Adds poison damage to your yo-yo and increases striking power.
+IDS_PROPSKILL_TXT_000258	Enchant Blood
+IDS_PROPSKILL_TXT_000259	Adds blood damage to your yo-yo and increases striking power.
+IDS_PROPSKILL_TXT_000260	Enchant Absorb
+IDS_PROPSKILL_TXT_000261	Adds the ability to drain HP to your yo-yo.
+IDS_PROPSKILL_TXT_000262	Sneak Stab
+IDS_PROPSKILL_TXT_000263	Attack a target from behind. Chance to stun target.
+IDS_PROPSKILL_TXT_000264	Penya Strike
+IDS_PROPSKILL_TXT_000265	Strengthens the attack of a yo-yo by consuming penya.
+IDS_PROPSKILL_TXT_000266	Escape
+IDS_PROPSKILL_TXT_000267	Removes the effects of Ice Missile, Slow Step, and Ice Arrow.
+IDS_PROPSKILL_TXT_000268	Vital stab
+IDS_PROPSKILL_TXT_000269	Surprise attack while in Dark Illusion.
+IDS_PROPSKILL_TXT_000270	Fast Shot
+IDS_PROPSKILL_TXT_000271	Increase Bow attack speed for a limited time.
+IDS_PROPSKILL_TXT_000272	Ice Arrow
+IDS_PROPSKILL_TXT_000273	Slows an enemy down by shooting it with arrows covered in ice.
+IDS_PROPSKILL_TXT_000274	Flame Arrow
+IDS_PROPSKILL_TXT_000275	Gives the fire element to arrows and damages surrounding enemies.
+IDS_PROPSKILL_TXT_000276	Piercing Arrow
+IDS_PROPSKILL_TXT_000277	Increased arrow strike.
+IDS_PROPSKILL_TXT_000278	Poison Arrow
+IDS_PROPSKILL_TXT_000279	Adds poison damage to Bow and increase your striking damage.
+IDS_PROPSKILL_TXT_000280	Silent Arrow
+IDS_PROPSKILL_TXT_000281	Attacks the enemy and prevents him from casting spells.
+IDS_PROPSKILL_TXT_000282	Nature
+IDS_PROPSKILL_TXT_000283	Increases resistance to magic.
+IDS_PROPSKILL_TXT_000284	Triple shot
+IDS_PROPSKILL_TXT_000285	Fires three arrows at once.
+IDS_PROPSKILL_TXT_000286	Flash
+IDS_PROPSKILL_TXT_000287	Blinded by the flash of light.
+IDS_PROPSKILL_TXT_000288	Single Stun
+IDS_PROPSKILL_TXT_000289	You are stunned and cannot move.
+IDS_PROPSKILL_TXT_000290	Stun Group
+IDS_PROPSKILL_TXT_000291	You are stunned and you cannot move.
+IDS_PROPSKILL_TXT_000292	Damage
+IDS_PROPSKILL_TXT_000293	
+IDS_PROPSKILL_TXT_000294	Atk. Counter
+IDS_PROPSKILL_TXT_000295	Attack just as an enemy attacks
+IDS_PROPSKILL_TXT_000296	Knock back
+IDS_PROPSKILL_TXT_000297	Pushes the enemy back.
+IDS_PROPSKILL_TXT_000298	Burningfield
+IDS_PROPSKILL_TXT_000299	Does damage to the enemy over a period of time
+IDS_PROPSKILL_TXT_000300	Poison
+IDS_PROPSKILL_TXT_000301	Damages an enemy over a period of time.
+IDS_PROPSKILL_TXT_000302	Stun
+IDS_PROPSKILL_TXT_000303	You are stunned and cannot move.
+IDS_PROPSKILL_TXT_000304	Bleeding
+IDS_PROPSKILL_TXT_000305	Damages an enemy over a period of time.
+IDS_PROPSKILL_TXT_000306	Steal HP
+IDS_PROPSKILL_TXT_000307	Drains life from an enemy.
+IDS_PROPSKILL_TXT_000308	Swordcross
+IDS_PROPSKILL_TXT_000309	
+IDS_PROPSKILL_TXT_000310	Poison sting
+IDS_PROPSKILL_TXT_000311	Damages an enemy over a period of time.
+IDS_PROPSKILL_TXT_000312	Bleeding
+IDS_PROPSKILL_TXT_000313	Damages an enemy over a period of time.
+IDS_PROPSKILL_TXT_000314	Low Attack
+IDS_PROPSKILL_TXT_000315	Decreases attack speed and cool down time
+IDS_PROPSKILL_TXT_000316	Low Attack
+IDS_PROPSKILL_TXT_000317	Decreases attack speed and cool down time
+IDS_PROPSKILL_TXT_000318	Stun Group
+IDS_PROPSKILL_TXT_000319	You fainted.
+IDS_PROPSKILL_TXT_000320	Krrr's poison
+IDS_PROPSKILL_TXT_000321	Damages an enemy over a period of time.
+IDS_PROPSKILL_TXT_000322	Stun Group
+IDS_PROPSKILL_TXT_000323	You are stunned and cannot move.
+IDS_PROPSKILL_TXT_000324	Berserker Mushroom
+IDS_PROPSKILL_TXT_000325	Increases striking power and attack speed.
+IDS_PROPSKILL_TXT_000326	Protective Tree Bark
+IDS_PROPSKILL_TXT_000327	Increases defense by wrapping the body in tree bark.
+IDS_PROPSKILL_TXT_000328	Buff Break
+IDS_PROPSKILL_TXT_000329	
+IDS_PROPSKILL_TXT_000330	Buff Break X
+IDS_PROPSKILL_TXT_000331	
+IDS_PROPSKILL_TXT_000332	Toggle Buff
+IDS_PROPSKILL_TXT_000333	
+IDS_PROPSKILL_TXT_000334	Ultimate Defense
+IDS_PROPSKILL_TXT_000335	You gain defense but cannot move.
+IDS_PROPSKILL_TXT_000336	Drawing
+IDS_PROPSKILL_TXT_000337	Brings your target to you.
+IDS_PROPSKILL_TXT_000338	Silence
+IDS_PROPSKILL_TXT_000339	Target cannot use magic.
+IDS_PROPSKILL_TXT_000340	Eye of the Hawk
+IDS_PROPSKILL_TXT_000341	Increases Bow range
+IDS_PROPSKILL_TXT_000342	Cursed Mind
+IDS_PROPSKILL_TXT_000343	Decreases the Magic Defense of a target by 50%.
+IDS_PROPSKILL_TXT_000344	Stone Feet
+IDS_PROPSKILL_TXT_000345	Prevents your target from moving.
+IDS_PROPSKILL_TXT_000346	Disenchant
+IDS_PROPSKILL_TXT_000347	Removes all buffs from a tartget.
+IDS_PROPSKILL_TXT_000348	Return
+IDS_PROPSKILL_TXT_000349	Teleport to the nearst town.
+IDS_PROPSKILL_TXT_000350	Burn
+IDS_PROPSKILL_TXT_000351	Damages your target continuously over time.
+IDS_PROPSKILL_TXT_000352	Special One-handed Mastery
+IDS_PROPSKILL_TXT_000353	Increases damage while using a one-handed weapon.
+IDS_PROPSKILL_TXT_000354	Special Two-handed Mastery
+IDS_PROPSKILL_TXT_000355	Increases damage while using a two-handed weapon.
+IDS_PROPSKILL_TXT_000356	Special Yo-Yo Mastery
+IDS_PROPSKILL_TXT_000357	Increases damage while using a Yo-Yo
+IDS_PROPSKILL_TXT_000358	Special Bow Mastery
+IDS_PROPSKILL_TXT_000359	Increases damage while using a Bow.
+IDS_PROPSKILL_TXT_000360	Special INT Mastery
+IDS_PROPSKILL_TXT_000361	Increases INT
+IDS_PROPSKILL_TXT_000362	Special INT Mastery
+IDS_PROPSKILL_TXT_000363	Increases INT
+IDS_PROPSKILL_TXT_000364	Special Knuckle Mastery
+IDS_PROPSKILL_TXT_000365	Increases damage while using a Knuckle.
+IDS_PROPSKILL_TXT_000366	Blessing of the Wise Man.
+IDS_PROPSKILL_TXT_000367	Removes a de-buff from a party member randomly.
+IDS_PROPSKILL_TXT_000368	Quick Step (Event)
+IDS_PROPSKILL_TXT_000369	Increases Run speed.
+IDS_PROPSKILL_TXT_000370	Haste (Event)
+IDS_PROPSKILL_TXT_000371	Increases Attack speed.
+IDS_PROPSKILL_TXT_000372	Heap Up (Event)
+IDS_PROPSKILL_TXT_000373	Increases STA.
+IDS_PROPSKILL_TXT_000374	Accuracy (Event)
+IDS_PROPSKILL_TXT_000375	Increases Hit Rate.
+IDS_PROPSKILL_TXT_000376	Guinsoo
