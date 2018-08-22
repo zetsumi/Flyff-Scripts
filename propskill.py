@@ -298,17 +298,36 @@ class PropSkill:
     def filter(self, skills, defineSkill, textSkill):
         gLogger.set_section("propskill")
 
-        skill_undeclared = []
+        skill_undeclared = list()
+        skill_name_undeclared = list()
+        skill_comment_undeclared = list()
 
+        gLogger.info("ID")
         for it in skills:
             skill = skills[it]
             if skill.dwID not in defineSkill and skill.dwID not in skill_undeclared:
                 skill_undeclared.append(skill.dwID)
 
+        gLogger.info("name and comment")
+        for it in skills:
+            skill = skills[it]
+            if skill.szName not in textSkill and skill.szName not in skill:
+                skill_name_undeclared.append(skill.szName)
+            if skill.szComment not in textSkill and skill.szComment not in skill:
+                skill_comment_undeclared.append(skill.szComment)
+
 
         gLogger.write("./filter/skill_undeclared.txt", skill_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Skill  undeclared:",
                 undeclared=len(skill_undeclared),
+                total=len(skills)))
+        gLogger.write("./filter/skill_name_undeclared.txt", skill_name_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Name  undeclared:",
+                undeclared=len(skill_name_undeclared),
+                total=len(skills)))
+        gLogger.write("./filter/skill_comment_undeclared.txt", skill_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Comment  undeclared:",
+                undeclared=len(skill_comment_undeclared),
                 total=len(skills)))
 
         gLogger.reset_section()

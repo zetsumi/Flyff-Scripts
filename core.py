@@ -100,14 +100,16 @@ if __name__ == "__main__":
 
     packet = Packet()
     packet.load(file_msghdr)
-    packet.filter()
-    packet.doc()
 
+    # packet.filter()
     # propitem.filter(path_icon, items, defineItem, textItem, movers)
     # propmover.filter(movers, defineObj, textMover, items)
     # propctrl.filter(ctrls, defineObj, defineItemkind, textCtrl)
-    propskill.filter(skills, defineSkill, textSkill)
+    # propskill.filter(skills, defineSkill, textSkill)
+    propkarma.filter(karmas, textKarma)
     # mdldyna.filter(items)
 
+
+    # packet.doc()
     # propitem.write(items)
     # propmover.write(movers)

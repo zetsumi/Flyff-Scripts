@@ -36,7 +36,7 @@ class Logger:
 
     def write(self, file, container, text):
         if len(container) > 0:
-            print("{f}{s}: {infos}".format(
+            print("{f}[{s}]: {infos}".format(
                 f="[write]",
                 s=self.section,
                 infos=text

@@ -69,3 +69,45 @@ class PropKarma:
                     setattr(datas[arr[self.nGrade]], key, arr[getattr(self, key)])
         gLogger.reset_section()
         return datas
+
+
+    def filter(self, karmas, textKarma):
+        gLogger.set_section("propkarma")
+
+        karma_name_undeclared = list()
+        karma_comment_undeclared = list()
+        karma_color_invalid = list()
+
+        gLogger.info("name and comment")
+        for it in karmas:
+            karma = karmas[it]
+            if karma.szName not in textKarma and karma.szName not in karma_name_undeclared:
+                karma_name_undeclared.append(karma.szName)
+            if karma.szComment not in textKarma and karma.szComment not in karma_name_undeclared:
+                karma_comment_undeclared.append(karma.szComment)
+
+        gLogger.info("color")
+        for it in karmas:
+            karma = karmas[it]
+            try:
+                nb = int(str(karma.dwColor), 16)
+            except:
+                if karma.dwColor not in karma_color_invalid:
+                    karma_color_invalid.append(karma.dwColor)
+
+        gLogger.write("filter/karma_name_undeclared.txt", karma_name_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="names undeclared:",
+                undeclared=len(karma_name_undeclared),
+                total=len(karmas)))
+        gLogger.write("filter/karma_comment_undeclared.txt", karma_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="comment undeclared:",
+                undeclared=len(karma_comment_undeclared),
+                total=len(karmas)))
+        gLogger.write("filter/karma_color_invalid.txt", karma_color_invalid, "{infos}: {undeclared}/{total}".format(
+                infos="color invalid:",
+                undeclared=len(karma_color_invalid),
+                total=len(karmas)))
+
+        gLogger.reset_section()
+
+        return karma_name_undeclared, karma_comment_undeclared
