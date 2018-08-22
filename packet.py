@@ -132,11 +132,13 @@ class Packet:
     def filter(self):
         gLogger.set_section("msghdr")
         gLogger.info("*********************************")
-        self.packets_valid = self.__compare__("PACKETTYPE",self.packets,
-            self.packets_used, "filter/packettype_error.txt")
+        self.packets_valid = self.__compare__("PACKETTYPE",
+            self.packets, self.packets_used,
+            "filter/packettype_error.txt")
         gLogger.info("=================================")
-        self.snapshots_valid = self.__compare__("SNAPSHOTTYPE", self.snapshots,
-            self.snapshots_used, "filter/snapshottype_error.txt")
+        self.snapshots_valid = self.__compare__("SNAPSHOTTYPE",
+            self.snapshots, self.snapshots_used,
+            "filter/snapshottype_error.txt")
         gLogger.info("*********************************")
         gLogger.reset_section()
 
