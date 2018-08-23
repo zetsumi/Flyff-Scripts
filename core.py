@@ -15,6 +15,7 @@ from define import Define
 from text import Text
 from mdldyna import MdlDyna
 from mdlobj import MdlObj
+from world import World
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -113,6 +114,9 @@ if __name__ == "__main__":
     packet = Packet()
     packet.load(file_msghdr)
 
+    world = World()
+    world.load()
+
     # packet.filter()
     # propitem.filter(path_icon_items, items, defineItem, textItem, movers)
     # propmover.filter(movers, defineObj, textMover, items)
@@ -121,7 +125,7 @@ if __name__ == "__main__":
     # proptroupeskill.filter(troupeSkills, path_icon, textTroupeSKill, defineSkill, defineJob, defineDefine, defineObj, defineAttribute)        
     # propkarma.filter(karmas, textKarma)
     # mdldyna.filter(items)
-    cmdlobj.filter(mdlobj, path_model, defineDefine)
+    # cmdlobj.filter(mdlobj, path_model, defineDefine)
 
     # define.write(file_define.replace(path_resource, path_output), defineDefine)
     # define.write(file_define_item.replace(path_resource, path_output), defineItem)
@@ -136,4 +140,4 @@ if __name__ == "__main__":
     # packet.doc()
     # propitem.write(items)
     # propmover.write(movers)
-    cmdlobj.write(mdlobj)
+    # cmdlobj.write(mdlobj)
