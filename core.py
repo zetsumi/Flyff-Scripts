@@ -15,7 +15,7 @@ from define import Define
 from text import Text
 from mdldyna import MdlDyna
 from mdlobj import MdlObj
-from world import World
+from world import Worlds
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -60,6 +60,7 @@ file_define_itemkind = path_resource + "defineItemkind.h"
 file_define_skill = path_resource + "defineSkill.h"
 file_define_job = path_resource + "defineJob.h"
 file_define_sound = path_resource + "defineSound.h"
+file_define_world = path_resource + "defineWorld.h"
 
 #packet
 file_msghdr = path_resource + "MsgHdr.h"
@@ -102,6 +103,7 @@ if __name__ == "__main__":
     defineSkill = OrderedDict(define.load(file_define_skill))
     defineJob = OrderedDict(define.load(file_define_job))
     defineSound = OrderedDict(define.load(file_define_sound))
+    defineWorld = OrderedDict(define.load(file_define_world))
 
     text = Text()
     textMover = OrderedDict(text.load(file_text_propmover))
@@ -114,8 +116,8 @@ if __name__ == "__main__":
     packet = Packet()
     packet.load(file_msghdr)
 
-    world = World()
-    world.load()
+    worlds = Worlds()
+    worlds.load(defineWorld)
 
     # packet.filter()
     # propitem.filter(path_icon_items, items, defineItem, textItem, movers)

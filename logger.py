@@ -26,11 +26,11 @@ class Logger:
         self.__print__("[info]", args)
 
 
-    def warn(self, args):
+    def warn(self, *args):
         self.__print__("[warning]", args)
 
 
-    def error(self, args):
+    def error(self, *args):
         self.__print__("[error]", args)
 
 
