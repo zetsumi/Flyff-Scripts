@@ -27,6 +27,7 @@ path_icon = path_resource + "Icon/"
 path_model = path_resource +  "Model/"
 path_output = "./output/"
 path_filter = "./filter/"
+path_world = path_resource + "World/"
 
 # file properties
 file_propitem = path_resource + "propItem.txt"
@@ -117,7 +118,7 @@ if __name__ == "__main__":
     packet.load(file_msghdr)
 
     worlds = Worlds()
-    worlds.load(defineWorld)
+    worlds.load(path_world, defineWorld)
 
     # packet.filter()
     # propitem.filter(path_icon_items, items, defineItem, textItem, movers)

@@ -1,6 +1,8 @@
 import subprocess
+import os
 from collections import OrderedDict
 from logger import gLogger
+from text import Text
 
 file_listing_world = "Ressource/World.inc"
 
@@ -10,6 +12,7 @@ class World:
         self.id = str()
         self.title= str()
         self.directory = str()
+        self.text = Text()
 
 
 class Worlds:
@@ -51,7 +54,7 @@ class Worlds:
                     if world.id not in defineWorld:
                         gLogger.error("World undeclared:", world.id)
                         continue
-                    world.directory = str(arr[1])
+                    world.directory = str(arr[1]).replace("\"", "")
                     self.worlds[world.id] = world
                 elif len(arr) == 2 and "SetTitle" in arr[1]:
                     index = arr[0]
@@ -62,9 +65,15 @@ class Worlds:
                         gLogger.error("SetTitle on world undeclared:", index)
 
 
-    def load(self, defineWorld):
+    def load(self, path_world, defineWorld):
         gLogger.set_section("world")
 
         self.__load_world_inc__(defineWorld)
+        for it in self.worlds:
+            world = self.worlds[it]
+            if os.path.exists(path_world + world.directory) is False:
+                gLogger.error("Path does not exists:", path_world + world.directory)
+                continue
+            world.text.load(path_world + world.directory + "/" + world.directory + ".txt.txt")
 
         gLogger.reset_section()
