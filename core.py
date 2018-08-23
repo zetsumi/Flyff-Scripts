@@ -21,8 +21,8 @@ version_binary = "0.0.0.0"
 #Path
 path_resource = "./Ressource/"
 path_icon = path_resource + "Item/"
-path_output = "./output"
-path_filter = "./filter"
+path_output = "./output/"
+path_filter = "./filter/"
 
 # file properties
 file_propitem = path_resource + "propItem.txt"
@@ -53,6 +53,7 @@ file_define_obj = path_resource + "defineObj.h"
 file_define_neuz = path_resource + "defineNeuz.h"
 file_define_itemkind = path_resource + "defineItemkind.h"
 file_define_skill = path_resource + "defineSkill.h"
+file_define_job = path_resource + "defineJob.h"
 
 #packet
 file_msghdr = path_resource + "MsgHdr.h"
@@ -89,6 +90,7 @@ if __name__ == "__main__":
     defineAttribute = OrderedDict(define.load(file_define_attribute))
     defineItemkind = OrderedDict(define.load(file_define_itemkind))
     defineSkill = OrderedDict(define.load(file_define_skill))
+    defineJob = OrderedDict(define.load(file_define_job))
 
     text = Text()
     textMover = OrderedDict(text.load(file_text_propmover))
@@ -105,10 +107,17 @@ if __name__ == "__main__":
     # propitem.filter(path_icon, items, defineItem, textItem, movers)
     # propmover.filter(movers, defineObj, textMover, items)
     # propctrl.filter(ctrls, defineObj, defineItemkind, textCtrl)
-    # propskill.filter(skills, defineSkill, textSkill)
-    propkarma.filter(karmas, textKarma)
+    propskill.filter(skills, defineSkill, defineJob, defineAttribute, textSkill)
+    # propkarma.filter(karmas, textKarma)
     # mdldyna.filter(items)
 
+    define.write(file_define_item.replace(path_resource, path_output), defineItem)
+    define.write(file_define_obj.replace(path_resource, path_output), defineObj)
+    define.write(file_define_neuz.replace(path_resource, path_output), defineNeuz)
+    define.write(file_define_attribute.replace(path_resource, path_output), defineAttribute)
+    define.write(file_define_itemkind.replace(path_resource, path_output), defineItemkind)
+    define.write(file_define_skill.replace(path_resource, path_output), defineSkill)
+    define.write(file_define_job.replace(path_resource, path_output), defineJob)
 
     # packet.doc()
     # propitem.write(items)

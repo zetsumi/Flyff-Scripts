@@ -1,21 +1,21 @@
 ﻿#ifndef __DEFINE_SKILL
 #define __DEFINE_SKILL
 
-// Skill
-// 스킬번호 0번은 쓰지 말것. - 없는것으로 간주함
 
-// 극단 스킬
+
+
+
 #define ST_CALL                            1
 #define ST_BLITZ                           2
 #define ST_RETREAT                         3
-//#define ST_SCOUT                           4
+
 #define ST_SPHERECIRCLE                    4
 #define ST_LINKATTACK                      5
 #define ST_FORTUNECIRCLE                   6
 #define ST_STRETCHING                      7
 #define ST_GIFTBOX                         8
 
-// 직업 스킬
+
 #define SI_VAG_ONE_CLEANHIT                1
 #define SI_VAG_ONE_BRANDISH                2
 #define SI_VAG_ONE_OVERCUTTER              3
@@ -74,7 +74,7 @@
 #define SI_MAG_EARTH_ROCKCRASH            36
 #define SI_MAG_EARTH_LOOTING              37
 
-//스킬들 추가
+
 
 #define SI_ASS_KNU_TAMPINGHOLE           104
 #define SI_ASS_KNU_BURSTCRACK            105
@@ -146,13 +146,13 @@
 #define SI_ELE_MULTY_SANDSTORM		185
 #define SI_ELE_MULTY_AVALANCHE		186
 
-// 트랩용
+
 #define SI_GEN_FLASH				187
 #define SI_GEN_DAMAGE				188
 #define SI_GEN_STUNSINGLE			189
 #define SI_GEN_STUNGROUP			190
 
-//아크로뱃 시작
+
 #define SI_ACR_SUP_YOYOMASTER		191
 #define SI_ACR_SUP_BOWMASTER		192
 #define SI_ACR_SUP_DARKILLUSION		193
@@ -188,59 +188,59 @@
 #define SI_RAG_SUP_NATURE		221
 #define SI_RAG_BOW_TRIPLESHOT		222
 
-// 범용 스킬들
-#define SI_GEN_ATK_COUNTER			223			// 역습공격
-#define SI_GEN_KNOCK_BACK			224			// 밀어내기.
-#define SI_GEN_FRAMEARROW_BURN		225			// 플레임애로우의 버닝필드.
-#define SI_GEN_POISON				226			// 독(dog 아님 -_-;;;)
-#define SI_GEN_STONEHAND			227			// 스톤핸드의 발동효과
-#define SI_GEN_BLEEDING				228			// 출혈
-#define SI_GEN_STEALHP				229			// 흡혈
+
+#define SI_GEN_ATK_COUNTER			223			
+#define SI_GEN_KNOCK_BACK			224			
+#define SI_GEN_FRAMEARROW_BURN		225			
+#define SI_GEN_POISON				226			
+#define SI_GEN_STONEHAND			227			
+#define SI_GEN_BLEEDING				228			
+#define SI_GEN_STEALHP				229			
 #define SI_GEN_SWORDCROSS			230
-#define SI_GEN_POISONSTING			231			// 독침
-#define SI_MOB_BLEEDING				232			// 출혈(몹이사용)
+#define SI_GEN_POISONSTING			231			
+#define SI_MOB_BLEEDING				232			
 
-#define SI_GEN_ATKSPELL_RATESINGLE  233			// 공격/시전 속도 저하 단일 객체
-#define SI_GEN_ATKSPELL_RATEGROUP   234			// 공격/시전 속도 저하 범위
+#define SI_GEN_ATKSPELL_RATESINGLE  233			
+#define SI_GEN_ATKSPELL_RATEGROUP   234			
 
-#define SI_GEN_BUFFBREAK			235			// 버프 파괴.
-#define SI_GEN_BUFFBREAK_X			236			// 모든 버프 파괴.
-
-// 10차 영웅전승스킬
-#define SI_BLD_HERO_DEFFENCE			237			// 방어력 급증가, 이동불가.
-#define SI_KNT_HERO_DRAWING			238			// 타겟을 자신의 앞으로 소환하고, 타겟을 타겟팅이 해제
-#define SI_JST_HERO_SILENCE			239			// 대상의 모든 스킬 사용불가.
-#define SI_RAG_HERO_HAWKEYE			240			// 기존의 1.3배 사거리 증가
-#define SI_ELE_HERO_CURSEMIND			241			// 대상의 모든 방어력을 50% 하락.
-#define SI_PSY_HERO_STONE			242			// 대상의 석화.
-#define SI_BIL_HERO_DISENCHANT			243			// 상대방의 버프 제거..
-#define SI_RIG_HERO_RETURN			244			// 가까운 마을로 이동.
+#define SI_GEN_BUFFBREAK			235			
+#define SI_GEN_BUFFBREAK_X			236			
 
 
-//보스몹 전용
-#define SI_BIGMUSCLE_STUNGROUP		300			// 빅머슬 광역스턴.
-#define SI_KRRR_POISON				301			// 크르릉 왼손 독공격.
-#define SI_KRRR_STUNGROUP			302			// 크르릉 광역 스턴.
-#define SI_MUSHMOOT_BERSERK			303			// 독버섯의 광기.
-#define SI_MUSHMOOT_WOODENSKIN		304			// 나무껍질로 보호.
+#define SI_BLD_HERO_DEFFENCE			237			
+#define SI_KNT_HERO_DRAWING			238			
+#define SI_JST_HERO_SILENCE			239			
+#define SI_RAG_HERO_HAWKEYE			240			
+#define SI_ELE_HERO_CURSEMIND			241			
+#define SI_PSY_HERO_STONE			242			
+#define SI_BIL_HERO_DISENCHANT			243			
+#define SI_RIG_HERO_RETURN			244			
 
-#define SI_GEN_TG_BUFF_01				305			// ON/OFF형 DST버프...DST적용 종류는 AddSkill에서 레벨로 한다.
-#define SI_GEN_TG_BUFF_02				306			// ON/OFF형 DST버프...DST적용 종류는 AddSkill에서 레벨로 한다.
-#define SI_GEN_TG_BUFF_03				307			// ON/OFF형 DST버프...DST적용 종류는 AddSkill에서 레벨로 한다.
 
-#define SI_GEN_BURN		308			// 화상
 
-// 10차 master전승스킬
-#define SI_BLD_MASTER_ONEHANDMASTER			309			// 한손 무기 착용시 공격력 상승.
-#define SI_KNT_MASTER_TWOHANDMASTER			310			// 양손 무기 착용시 공격력 상승.
-#define SI_JST_MASTER_YOYOMASTER			311			// 요요 무기 착용시 공격력 상승.
-#define SI_RAG_MASTER_BOWMASTER			312			// 보우 무기 착용시 공격력 상승.
-#define SI_ELE_MASTER_INTMASTER			313			// 지능 상승.
-#define SI_PSY_MASTER_INTMASTER			314			// 지능 상승.
-#define SI_BIL_MASTER_KNUCKLEMASTER			315			// 너클 무기 착용시 공격력 상승.
-#define SI_RIG_MASTER_BLESSING			316			// 파티원의 디버프 제거.
+#define SI_BIGMUSCLE_STUNGROUP		300			
+#define SI_KRRR_POISON				301			
+#define SI_KRRR_STUNGROUP			302			
+#define SI_MUSHMOOT_BERSERK			303			
+#define SI_MUSHMOOT_WOODENSKIN		304			
 
-// 이벤트버프
+#define SI_GEN_TG_BUFF_01				305			
+#define SI_GEN_TG_BUFF_02				306			
+#define SI_GEN_TG_BUFF_03				307			
+
+#define SI_GEN_BURN		308			
+
+
+#define SI_BLD_MASTER_ONEHANDMASTER			309			
+#define SI_KNT_MASTER_TWOHANDMASTER			310			
+#define SI_JST_MASTER_YOYOMASTER			311			
+#define SI_RAG_MASTER_BOWMASTER			312			
+#define SI_ELE_MASTER_INTMASTER			313			
+#define SI_PSY_MASTER_INTMASTER			314			
+#define SI_BIL_MASTER_KNUCKLEMASTER			315			
+#define SI_RIG_MASTER_BLESSING			316			
+
+
 #define SI_GEN_EVE_QUICKSTEP			317
 #define SI_GEN_EVE_HASTE				318
 #define SI_GEN_EVE_HEAPUP				319
@@ -358,7 +358,7 @@
 #define SA_STEALHP_L09			4118
 #define SA_STEALHP_L10			4119
 
-//
+
 #define SA_POISONSTING_L01			4120
 #define SA_POISONSTING_L02			4121
 #define SA_POISONSTING_L03			4122
@@ -379,7 +379,7 @@
 #define SA_GEN_BUFFBREAK_L01			4140
 #define SA_GEN_BUFFBREAK_X_L01			4141
 
-// 
+
 #define SA_BIGMUSCLE_STUNGROUP_L01			4500
 #define SA_KRRR_POISON_L01					4501
 #define SA_KRRR_STUNGROUP_L01				4502
@@ -390,7 +390,7 @@
 
 
 
-// 스킬 추가레벨
+
 #define SA_CLEANHIT_L01                 5
 #define SA_CLEANHIT_L02                 6
 #define SA_CLEANHIT_L03                 7
@@ -989,7 +989,7 @@
 #define SA_STRONGWIND_L19            1373
 #define SA_STRONGWIND_L20            1374
 
-#define SA_TAMPINGHOLE_L01             2035 // 어시스트 너클 스킬 추가
+#define SA_TAMPINGHOLE_L01             2035 
 #define SA_TAMPINGHOLE_L02             2036
 #define SA_TAMPINGHOLE_L03             2037
 #define SA_TAMPINGHOLE_L04             2038
@@ -1009,7 +1009,7 @@
 #define SA_TAMPINGHOLE_L18             2052
 #define SA_TAMPINGHOLE_L19             2053
 #define SA_TAMPINGHOLE_L20             2054
-#define SA_BURSTCRACK_L01              2055 // 어시스트 너클 스킬 추가
+#define SA_BURSTCRACK_L01              2055 
 #define SA_BURSTCRACK_L02              2056
 #define SA_BURSTCRACK_L03              2057
 #define SA_BURSTCRACK_L04              2058
@@ -1030,7 +1030,7 @@
 #define SA_BURSTCRACK_L19              2073
 #define SA_BURSTCRACK_L20              2074
 
-#define SA_BLINKPOOL_L01               2095 // 매지션 스킬 추가
+#define SA_BLINKPOOL_L01               2095 
 #define SA_BLINKPOOL_L02               2096
 #define SA_BLINKPOOL_L03               2097
 #define SA_BLINKPOOL_L04               2098
@@ -2516,90 +2516,90 @@
 #define SA_ATKSPELL_GROUP_L04 3834
 #define SA_ATKSPELL_GROUP_L05 3835
 
-// ON/OFF형 DST버프...DST적용 종류는 AddSkill에서 레벨로 한다.
+
 #define SA_GEN_TG_BUFF_01_LV01 3836
 #define SA_GEN_TG_BUFF_02_LV01 3837
 #define SA_GEN_TG_BUFF_03_LV01 3838
 
-#define SA_DEFENCE_LV01			3839			// 방어력 급증가, 이동불가.
+#define SA_DEFENCE_LV01			3839			
 #define SA_DEFENCE_LV02			3840
 #define SA_DEFENCE_LV03			3841
 #define SA_DEFENCE_LV04			3842
 #define SA_DEFENCE_LV05			3843
-#define SA_DRAWING_LV01			3844			// 타겟을 자신의 앞으로 소환하고, 타겟을 타겟팅이 해제
+#define SA_DRAWING_LV01			3844			
 #define SA_DRAWING_LV02			3845
 #define SA_DRAWING_LV03			3846
 #define SA_DRAWING_LV04			3847
 #define SA_DRAWING_LV05			3848
-#define SA_SILENCE_LV01			3849			// 대상의 모든 스킬 사용불가.
+#define SA_SILENCE_LV01			3849			
 #define SA_SILENCE_LV02			3850
 #define SA_SILENCE_LV03			3851
 #define SA_SILENCE_LV04			3852
 #define SA_SILENCE_LV05			3853
-#define SA_HAWKEYE_LV01			3854			// 기존의 1.3배 사거리 증가.
+#define SA_HAWKEYE_LV01			3854			
 #define SA_HAWKEYE_LV02			3855
 #define SA_HAWKEYE_LV03			3856
 #define SA_HAWKEYE_LV04			3857
 #define SA_HAWKEYE_LV05			3858
-#define SA_CURSEMIND_LV01			3859			// 대상의 모든 방어력을 50% 하락.
+#define SA_CURSEMIND_LV01			3859			
 #define SA_CURSEMIND_LV02			3860
 #define SA_CURSEMIND_LV03			3861
 #define SA_CURSEMIND_LV04			3862
 #define SA_CURSEMIND_LV05			3863
-#define SA_STONE_LV01			3864			// 대상의 석화.
+#define SA_STONE_LV01			3864			
 #define SA_STONE_LV02			3865
 #define SA_STONE_LV03			3866
 #define SA_STONE_LV04			3867
 #define SA_STONE_LV05			3868
-#define SA_DISENCHANT_LV01			3869			// 상대방의 버프 제거.
+#define SA_DISENCHANT_LV01			3869			
 #define SA_DISENCHANT_LV02			3870
 #define SA_DISENCHANT_LV03			3871
 #define SA_DISENCHANT_LV04			3872
 #define SA_DISENCHANT_LV05			3873
-#define SA_RETURN_LV01			3874			// 가까운 마을로 이동.
+#define SA_RETURN_LV01			3874			
 #define SA_RETURN_LV02			3875
 #define SA_RETURN_LV03			3876
 #define SA_RETURN_LV04			3877
 #define SA_RETURN_LV05			3878
 
-#define SA_BURN_LV01			3879	// 화상
+#define SA_BURN_LV01			3879	
 
-#define SA_ONEHANDMASTER_LV01			3880			// 한손 무기 착용시 공격력 상승.
+#define SA_ONEHANDMASTER_LV01			3880			
 #define SA_ONEHANDMASTER_LV02			3881			
 #define SA_ONEHANDMASTER_LV03			3882			
 #define SA_ONEHANDMASTER_LV04			3883			
 #define SA_ONEHANDMASTER_LV05			3884			
-#define SA_TWOHANDMASTER_LV01			3885			// 양손 무기 착용시 공격력 상승.
+#define SA_TWOHANDMASTER_LV01			3885			
 #define SA_TWOHANDMASTER_LV02			3886
 #define SA_TWOHANDMASTER_LV03			3887
 #define SA_TWOHANDMASTER_LV04			3888
 #define SA_TWOHANDMASTER_LV05			3889
-#define SA_YOYOMASTER2_LV01			3890			// 요요 무기 착용시 공격력 상승.
+#define SA_YOYOMASTER2_LV01			3890			
 #define SA_YOYOMASTER2_LV02			3891
 #define SA_YOYOMASTER2_LV03			3892
 #define SA_YOYOMASTER2_LV04			3893
 #define SA_YOYOMASTER2_LV05			3894
-#define SA_BOWMASTER2_LV01			3895			// 보우 무기 착용시 공격력 상승.
+#define SA_BOWMASTER2_LV01			3895			
 #define SA_BOWMASTER2_LV02			3896
 #define SA_BOWMASTER2_LV03			3897
 #define SA_BOWMASTER2_LV04			3898
 #define SA_BOWMASTER2_LV05			3899
-#define SA_ELEINTMASTER_LV01			3900			// 지능 상승.
+#define SA_ELEINTMASTER_LV01			3900			
 #define SA_ELEINTMASTER_LV02			3901
 #define SA_ELEINTMASTER_LV03			3902
 #define SA_ELEINTMASTER_LV04			3903
 #define SA_ELEINTMASTER_LV05			3904
-#define SA_PSYINTMASTER_LV01			3905			// 지능 상승.
+#define SA_PSYINTMASTER_LV01			3905			
 #define SA_PSYINTMASTER_LV02			3906
 #define SA_PSYINTMASTER_LV03			3907
 #define SA_PSYINTMASTER_LV04			3908
 #define SA_PSYINTMASTER_LV05			3909
-#define SA_KNUCKLEMASTER_LV01			3910			// 너클 무기 착용시 공격력 상승.
+#define SA_KNUCKLEMASTER_LV01			3910			
 #define SA_KNUCKLEMASTER_LV02			3911
 #define SA_KNUCKLEMASTER_LV03			3912
 #define SA_KNUCKLEMASTER_LV04			3913
 #define SA_KNUCKLEMASTER_LV05			3914
-#define SA_RIGBLESSING_LV01			3915			// 파티원의 디버프 제거.
+#define SA_RIGBLESSING_LV01			3915			
 #define SA_RIGBLESSING_LV02			3916
 #define SA_RIGBLESSING_LV03			3917
 #define SA_RIGBLESSING_LV04			3918

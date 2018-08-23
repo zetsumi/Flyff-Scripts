@@ -295,12 +295,17 @@ class PropSkill:
         return datas
 
 
-    def filter(self, skills, defineSkill, textSkill):
+    def filter(self, skills, defineSkill, defineJob, defineAttribute, textSkill):
         gLogger.set_section("propskill")
 
         skill_undeclared = list()
         skill_name_undeclared = list()
         skill_comment_undeclared = list()
+        skill_item_kind1_undeclared = list()
+        skill_item_kind2_undeclared = list()
+        skill_item_kind3_undeclared = list()
+        skill_job_undeclared = list()
+        skill_handed_undeclared = list()
 
         gLogger.info("ID")
         for it in skills:
@@ -311,10 +316,32 @@ class PropSkill:
         gLogger.info("name and comment")
         for it in skills:
             skill = skills[it]
-            if skill.szName not in textSkill and skill.szName not in skill:
+            if skill.szName not in textSkill and skill.szName not in skill_name_undeclared:
                 skill_name_undeclared.append(skill.szName)
-            if skill.szComment not in textSkill and skill.szComment not in skill:
+            if skill.szComment not in textSkill and skill.szComment not in skill_comment_undeclared:
                 skill_comment_undeclared.append(skill.szComment)
+
+        gLogger.info("ItemKind")
+        for it in skills:
+            skill = skills[it]
+            if skill.dwItemKind1 not in defineJob and skill.dwItemKind1 not in skill_item_kind1_undeclared:
+                skill_item_kind1_undeclared.append(skill.dwItemKind1)
+            if skill.dwItemKind2 not in defineJob and skill.dwItemKind2 not in skill_item_kind2_undeclared:
+                skill_item_kind2_undeclared.append(skill.dwItemKind2)
+            if skill.dwItemKind3 not in defineJob and skill.dwItemKind3 not in skill_item_kind3_undeclared:
+                skill_item_kind3_undeclared.append(skill.dwItemKind3)
+
+        gLogger.info("Job")
+        for it in skills:
+            skill = skills[it]
+            if skill.dwItemJob not in defineJob and skill.dwItemJob not in skill_job_undeclared:
+                skill_job_undeclared.append(skill.dwItemJob)
+
+        gLogger.info("Handed")
+        for it in skills:
+            skill = skills[it]
+            if skill.dwHanded not in defineJob and skill.dwHanded not in skill_handed_undeclared:
+                skill_handed_undeclared.append(skill.dwHanded)
 
 
         gLogger.write("./filter/skill_undeclared.txt", skill_undeclared, "{infos}: {undeclared}/{total}".format(
@@ -328,6 +355,26 @@ class PropSkill:
         gLogger.write("./filter/skill_comment_undeclared.txt", skill_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Comment  undeclared:",
                 undeclared=len(skill_comment_undeclared),
+                total=len(skills)))
+        gLogger.write("./filter/skill_item_kind1_undeclared.txt", skill_item_kind1_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Item Kind1  undeclared:",
+                undeclared=len(skill_item_kind1_undeclared),
+                total=len(skills)))
+        gLogger.write("./filter/skill_item_kind2_undeclared.txt", skill_item_kind2_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Item Kind2  undeclared:",
+                undeclared=len(skill_item_kind2_undeclared),
+                total=len(skills)))
+        gLogger.write("./filter/skill_item_kind3_undeclared.txt", skill_item_kind3_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Item Kind3  undeclared:",
+                undeclared=len(skill_item_kind3_undeclared),
+                total=len(skills)))
+        gLogger.write("./filter/skill_job_undeclared.txt", skill_job_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Job undeclared:",
+                undeclared=len(skill_job_undeclared),
+                total=len(skills)))
+        gLogger.write("./filter/skill_handed_undeclared.txt", skill_handed_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Handed undeclared:",
+                undeclared=len(skill_handed_undeclared),
                 total=len(skills)))
 
         gLogger.reset_section()
