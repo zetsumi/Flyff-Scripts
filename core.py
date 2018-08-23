@@ -23,6 +23,7 @@ version_binary = "0.0.0.0"
 path_resource = "./Ressource/"
 path_icon_item = path_resource + "Item/"
 path_icon = path_resource + "Icon/"
+path_model = path_resource +  "Model/"
 path_output = "./output/"
 path_filter = "./filter/"
 
@@ -73,8 +74,8 @@ if __name__ == "__main__":
     mdldyna = MdlDyna()
     mdldyna.load(file_mdldyna)
 
-    mdlobj = MdlObj()
-    mdlobj.load(file_mdldobj)
+    cmdlobj = MdlObj()
+    mdlobj = cmdlobj.load(file_mdldobj)
 
     propitem = PropItem()
     propmover = PropMover()
@@ -120,6 +121,7 @@ if __name__ == "__main__":
     # proptroupeskill.filter(troupeSkills, path_icon, textTroupeSKill, defineSkill, defineJob, defineDefine, defineObj, defineAttribute)        
     # propkarma.filter(karmas, textKarma)
     # mdldyna.filter(items)
+    cmdlobj.filter(mdlobj, path_model, defineDefine)
 
     # define.write(file_define.replace(path_resource, path_output), defineDefine)
     # define.write(file_define_item.replace(path_resource, path_output), defineItem)
@@ -134,3 +136,4 @@ if __name__ == "__main__":
     # packet.doc()
     # propitem.write(items)
     # propmover.write(movers)
+    cmdlobj.write(mdlobj)
