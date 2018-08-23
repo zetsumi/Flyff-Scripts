@@ -1,3 +1,4 @@
+import subprocess
 from collections import OrderedDict
 from logger import gLogger
 
@@ -293,3 +294,68 @@ class PropTroupeSkill:
                     setattr(datas[arr[self.dwID]], key, arr[getattr(self, key)])
         gLogger.reset_section()
         return datas
+
+
+    def filter(self, troupeSkills, path_icon, textTroupeSkill, defineSkill, defineJob, define, defineObj, defineAttribute):
+        gLogger.set_section("proptroupeskill")
+
+        troupeskill_undeclared = list()
+        troupeskill_parameter_undeclared = list()
+        troupeskill_icon_unfound = list()
+
+
+        gLogger.info("filtering parameters")
+        for it in troupeSkills:
+            troupeSkill = troupeSkills[it]
+            if troupeSkill.dwID not in defineSkill and troupeSkill.dwID not in troupeskill_undeclared:
+                troupeskill_undeclared.append(troupeSkill.dwID)
+            if troupeSkill.szName != "=" and troupeSkill.szName not in textTroupeSkill and troupeSkill.dwID not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.szName)
+            if troupeSkill.szComment != "=" and troupeSkill.szComment not in textTroupeSkill and troupeSkill.szComment not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.szComment)
+            if troupeSkill.dwItemKind1 != "=" and troupeSkill.dwItemKind1 not in defineJob and troupeSkill.dwItemKind1 not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwItemKind1)
+            if troupeSkill.dwItemKind2 != "=" and troupeSkill.dwItemKind2 not in defineJob and troupeSkill.dwItemKind2 not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwItemKind2)
+            if troupeSkill.dwItemKind3 != "=" and troupeSkill.dwItemKind3 not in defineJob and troupeSkill.dwItemKind3 not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwItemKind3)
+            if troupeSkill.dwItemJob != "=" and troupeSkill.dwItemJob not in defineJob and troupeSkill.dwItemJob not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwItemJob)
+            if troupeSkill.dwExeTarget != "=" and troupeSkill.dwExeTarget not in define and troupeSkill.dwExeTarget not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwExeTarget)
+            if troupeSkill.dwSfxObj2 != "=" and troupeSkill.dwSfxObj2 not in defineObj and troupeSkill.dwSfxObj2 not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwSfxObj2)
+            if troupeSkill.dwSfxObj != "=" and troupeSkill.dwSfxObj not in defineObj and troupeSkill.dwSfxObj not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwSfxObj)
+            if troupeSkill.dwSkillType != "=" and troupeSkill.dwSkillType not in defineAttribute and troupeSkill.dwSkillType not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwSkillType)
+            if troupeSkill.dwUseChance != "=" and troupeSkill.dwUseChance not in define and troupeSkill.dwUseChance not in troupeskill_parameter_undeclared:
+                troupeskill_parameter_undeclared.append(troupeSkill.dwUseChance)
+
+        gLogger.info("filtering icons")
+        for it in troupeSkills:
+            troupeSkill = troupeSkills[it]
+            icon = troupeSkill.szIcon
+            icon = icon.replace('"', "")
+            icon =  icon.replace(" ", "")
+            icon = icon.replace("\t", "")
+            if len(icon) <= 0 or icon == "" or icon == "=":
+                continue
+            out = subprocess.check_output(['find', path_icon, '-iname', icon])
+            if (out == "" or len(out) <= 0) and icon not in troupeskill_icon_unfound:
+                troupeskill_icon_unfound.append(icon)
+
+        gLogger.write("./filter/troupeskill_undeclared.txt", troupeskill_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="troupeSkill undeclared:",
+                undeclared=len(troupeskill_undeclared),
+                total=len(troupeSkills)))
+        gLogger.write("./filter/troupeskill_parameter_undeclared.txt", troupeskill_parameter_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Parameter troupeskill undeclared:",
+                undeclared=len(troupeskill_parameter_undeclared),
+                total=len(troupeSkills)))
+        gLogger.write("./filter/troupeskill_icon_unfound.txt", troupeskill_icon_unfound, "{infos}: {undeclared}/{total}".format(
+                infos="Icon troupeskill not found:",
+                undeclared=len(troupeskill_icon_unfound),
+                total=len(troupeSkills)))
+
+        gLogger.reset_section()

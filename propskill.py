@@ -303,11 +303,7 @@ class PropSkill:
         skill_parameter_undeclared = list()
         skill_icon_unfound = list()
 
-        gLogger.info("ID")
-        gLogger.info("name and comment")
-        gLogger.info("ItemKind")
-        gLogger.info("Job")
-        gLogger.info("Handed")
+        gLogger.info("filtering parameter")
         for it in skills:
             skill = skills[it]
             if skill.dwID not in defineSkill and skill.dwID not in skill_undeclared:
@@ -350,6 +346,7 @@ class PropSkill:
                 skill_parameter_undeclared.append(skill.dwSpellRegion)
 
         
+        gLogger.info("filtering icons")
         for it in skills:
             skill = skills[it]
             icon = skill.szIcon
