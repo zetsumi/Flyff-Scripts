@@ -316,20 +316,17 @@ class PropItem():
 
         items_undeclared = []
         items_used = []
-        icon_unfound = []
+        items_icon_unfound = []
         item_name_undeclared = []
         item_comment_undeclared = []
 
 
         gLogger.info("ID")
+        gLogger.info("Name and Comment")
         for it in items:
             item = items[it]
             if item.dwID not in defineItem:
                 items_undeclared.append(it)
-                continue
-
-        gLogger.info("Name and Comment")
-        for it in items:
             if item.szName not in textItems:
                 if item.szName not in item_name_undeclared:
                     item_name_undeclared.append(item.szName)
@@ -352,7 +349,7 @@ class PropItem():
                 continue
             out = subprocess.check_output(['find', path_icon, '-iname', icon])
             if out == "" or len(out) <= 0:
-                icon_unfound.append(it)
+                items_icon_unfound.append(icon)
 
 
         gLogger.write("./filter/items_undeclared.txt", items_undeclared, "{infos}: {undeclared}/{total}".format(
@@ -363,9 +360,9 @@ class PropItem():
                 infos="Items unused:",
                 undeclared=len(items_used),
                 total=len(items)))
-        gLogger.write("./filter/icon_unfound.txt", icon_unfound, "{infos}: {undeclared}/{total}".format(
+        gLogger.write("./filter/items_icon_unfound.txt", items_icon_unfound, "{infos}: {undeclared}/{total}".format(
                 infos="Icon unfound:",
-                undeclared=len(icon_unfound),
+                undeclared=len(items_icon_unfound),
                 total=len(items)))
         gLogger.write("./filter/item_name_undeclared.txt", item_name_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Name undeclared:",

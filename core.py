@@ -20,7 +20,8 @@ version_binary = "0.0.0.0"
 
 #Path
 path_resource = "./Ressource/"
-path_icon = path_resource + "Item/"
+path_icon_item = path_resource + "Item/"
+path_icon = path_resource + "Icon/"
 path_output = "./output/"
 path_filter = "./filter/"
 
@@ -54,6 +55,7 @@ file_define_neuz = path_resource + "defineNeuz.h"
 file_define_itemkind = path_resource + "defineItemkind.h"
 file_define_skill = path_resource + "defineSkill.h"
 file_define_job = path_resource + "defineJob.h"
+file_define_sound = path_resource + "defineSound.h"
 
 #packet
 file_msghdr = path_resource + "MsgHdr.h"
@@ -84,6 +86,7 @@ if __name__ == "__main__":
     troupeSkills = OrderedDict(proptroupeskill.load(file_proptroupeskill))
 
     define = Define()
+    defineDefine = OrderedDict(define.load(file_define))
     defineItem = OrderedDict(define.load(file_define_item))
     defineObj = OrderedDict(define.load(file_define_obj))
     defineNeuz = OrderedDict(define.load(file_define_neuz))
@@ -91,6 +94,7 @@ if __name__ == "__main__":
     defineItemkind = OrderedDict(define.load(file_define_itemkind))
     defineSkill = OrderedDict(define.load(file_define_skill))
     defineJob = OrderedDict(define.load(file_define_job))
+    defineSound = OrderedDict(define.load(file_define_sound))
 
     text = Text()
     textMover = OrderedDict(text.load(file_text_propmover))
@@ -104,10 +108,10 @@ if __name__ == "__main__":
     packet.load(file_msghdr)
 
     # packet.filter()
-    # propitem.filter(path_icon, items, defineItem, textItem, movers)
+    # propitem.filter(path_icon_items, items, defineItem, textItem, movers)
     # propmover.filter(movers, defineObj, textMover, items)
     # propctrl.filter(ctrls, defineObj, defineItemkind, textCtrl)
-    propskill.filter(skills, defineSkill, defineJob, defineAttribute, textSkill)
+    propskill.filter(skills, defineSkill, defineDefine, defineObj, defineJob, defineAttribute, defineNeuz, defineSound, path_icon, textSkill)
     # propkarma.filter(karmas, textKarma)
     # mdldyna.filter(items)
 

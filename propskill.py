@@ -1,3 +1,4 @@
+import subprocess
 from collections import OrderedDict
 from logger import gLogger
 
@@ -295,86 +296,88 @@ class PropSkill:
         return datas
 
 
-    def filter(self, skills, defineSkill, defineJob, defineAttribute, textSkill):
+    def filter(self, skills, defineSkill, define, defineObj, defineJob, defineAttribute, defineNeuz, defineSound, path_icon, textSkill):
         gLogger.set_section("propskill")
 
         skill_undeclared = list()
-        skill_name_undeclared = list()
-        skill_comment_undeclared = list()
-        skill_item_kind1_undeclared = list()
-        skill_item_kind2_undeclared = list()
-        skill_item_kind3_undeclared = list()
-        skill_job_undeclared = list()
-        skill_handed_undeclared = list()
+        skill_parameter_undeclared = list()
+        skill_icon_unfound = list()
 
         gLogger.info("ID")
+        gLogger.info("name and comment")
+        gLogger.info("ItemKind")
+        gLogger.info("Job")
+        gLogger.info("Handed")
         for it in skills:
             skill = skills[it]
             if skill.dwID not in defineSkill and skill.dwID not in skill_undeclared:
                 skill_undeclared.append(skill.dwID)
+            if skill.szName != "=" and skill.szName not in textSkill and skill.szName not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.szName)
+            if skill.szComment != "=" and skill.szComment not in textSkill and skill.szComment not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.szComment)
+            if skill.dwItemKind1 != "=" and skill.dwItemKind1 not in defineJob and skill.dwItemKind1 not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwItemKind1)
+            if skill.dwItemKind2 != "=" and skill.dwItemKind2 not in defineJob and skill.dwItemKind2 not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwItemKind2)
+            if skill.dwItemKind3 != "=" and skill.dwItemKind3 not in defineJob and skill.dwItemKind3 not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwItemKind3)
+            if skill.dwItemJob != "=" and skill.dwItemJob not in defineJob and skill.dwItemJob not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwItemJob)
+            if skill.dwHanded != "=" and skill.dwHanded not in defineJob and skill.dwHanded not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwHanded)
+            if skill.dwAttackRange != "=" and skill.dwAttackRange not in defineAttribute and skill.dwAttackRange not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwAttackRange)
+            if skill.dwExeTarget != "=" and skill.dwExeTarget not in define and skill.dwExeTarget not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwExeTarget)
+            if skill.dwReferTarget1 != "=" and skill.dwReferTarget1 not in defineAttribute and skill.dwReferTarget1 not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwReferTarget1)
+            if skill.dwSfxObj3 != "=" and skill.dwSfxObj3 not in defineObj and skill.dwSfxObj3 not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwSfxObj3)
+            if skill.dwComboStyle != "=" and skill.dwComboStyle not in defineAttribute and skill.dwComboStyle not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwComboStyle)
+            if skill.dwUseChance != "=" and skill.dwUseChance not in define and skill.dwUseChance not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwUseChance)
+            if skill.dwSkillType != "=" and skill.dwSkillType not in defineAttribute and skill.dwSkillType not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwSkillType)
+            if skill.dwUseMotion != "=" and skill.dwUseMotion not in defineNeuz and skill.dwUseMotion not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwUseMotion)
+            if skill.dwSndAttack1 != "=" and skill.dwSndAttack1 not in defineSound and skill.dwSndAttack1 not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwSndAttack1)
+            if skill.dwWeaponType != "=" and skill.dwWeaponType not in defineAttribute and skill.dwWeaponType not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwWeaponType)
+            if skill.dwSpellRegion != "=" and skill.dwSpellRegion not in defineAttribute and skill.dwSpellRegion not in skill_parameter_undeclared:
+                skill_parameter_undeclared.append(skill.dwSpellRegion)
 
-        gLogger.info("name and comment")
+        
         for it in skills:
             skill = skills[it]
-            if skill.szName not in textSkill and skill.szName not in skill_name_undeclared:
-                skill_name_undeclared.append(skill.szName)
-            if skill.szComment not in textSkill and skill.szComment not in skill_comment_undeclared:
-                skill_comment_undeclared.append(skill.szComment)
-
-        gLogger.info("ItemKind")
-        for it in skills:
-            skill = skills[it]
-            if skill.dwItemKind1 not in defineJob and skill.dwItemKind1 not in skill_item_kind1_undeclared:
-                skill_item_kind1_undeclared.append(skill.dwItemKind1)
-            if skill.dwItemKind2 not in defineJob and skill.dwItemKind2 not in skill_item_kind2_undeclared:
-                skill_item_kind2_undeclared.append(skill.dwItemKind2)
-            if skill.dwItemKind3 not in defineJob and skill.dwItemKind3 not in skill_item_kind3_undeclared:
-                skill_item_kind3_undeclared.append(skill.dwItemKind3)
-
-        gLogger.info("Job")
-        for it in skills:
-            skill = skills[it]
-            if skill.dwItemJob not in defineJob and skill.dwItemJob not in skill_job_undeclared:
-                skill_job_undeclared.append(skill.dwItemJob)
-
-        gLogger.info("Handed")
-        for it in skills:
-            skill = skills[it]
-            if skill.dwHanded not in defineJob and skill.dwHanded not in skill_handed_undeclared:
-                skill_handed_undeclared.append(skill.dwHanded)
+            icon = skill.szIcon
+            icon = icon.replace('"', "")
+            icon =  icon.replace(" ", "")
+            icon = icon.replace("\t", "")
+            if len(icon) <= 0 or icon == "" or icon == "=":
+                continue
+            out = subprocess.check_output(['find', path_icon, '-iname', icon])
+            if (out == "" or len(out) <= 0) and icon not in skill_icon_unfound:
+                skill_icon_unfound.append(icon)
 
 
         gLogger.write("./filter/skill_undeclared.txt", skill_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Skill  undeclared:",
                 undeclared=len(skill_undeclared),
                 total=len(skills)))
-        gLogger.write("./filter/skill_name_undeclared.txt", skill_name_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Name  undeclared:",
-                undeclared=len(skill_name_undeclared),
+        gLogger.write("./filter/skill_parameter_undeclared.txt", skill_parameter_undeclared, "{infos}: {undeclared}/{total}".format(
+                infos="Parameter  undeclared:",
+                undeclared=len(skill_parameter_undeclared),
                 total=len(skills)))
-        gLogger.write("./filter/skill_comment_undeclared.txt", skill_comment_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Comment  undeclared:",
-                undeclared=len(skill_comment_undeclared),
-                total=len(skills)))
-        gLogger.write("./filter/skill_item_kind1_undeclared.txt", skill_item_kind1_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Item Kind1  undeclared:",
-                undeclared=len(skill_item_kind1_undeclared),
-                total=len(skills)))
-        gLogger.write("./filter/skill_item_kind2_undeclared.txt", skill_item_kind2_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Item Kind2  undeclared:",
-                undeclared=len(skill_item_kind2_undeclared),
-                total=len(skills)))
-        gLogger.write("./filter/skill_item_kind3_undeclared.txt", skill_item_kind3_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Item Kind3  undeclared:",
-                undeclared=len(skill_item_kind3_undeclared),
-                total=len(skills)))
-        gLogger.write("./filter/skill_job_undeclared.txt", skill_job_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Job undeclared:",
-                undeclared=len(skill_job_undeclared),
-                total=len(skills)))
-        gLogger.write("./filter/skill_handed_undeclared.txt", skill_handed_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Handed undeclared:",
-                undeclared=len(skill_handed_undeclared),
+        gLogger.write("./filter/skill_icon_unfound.txt", skill_icon_unfound, "{infos}: {undeclared}/{total}".format(
+                infos="Icon not found:",
+                undeclared=len(skill_icon_unfound),
                 total=len(skills)))
 
         gLogger.reset_section()
+
+    
+    def test(self):
+        print(self.__dict__)
