@@ -14,6 +14,7 @@ from proptroupeskill import PropTroupeSkill
 from define import Define
 from text import Text
 from mdldyna import MdlDyna
+from mdlobj import MdlObj
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -45,6 +46,7 @@ file_text_proptroupeskill = path_resource + "propTroupeSkill.txt.txt"
 
 # file inc
 file_mdldyna = path_resource + "mdlDyna.inc"
+file_mdldobj = path_resource + "mdlObj.inc"
 
 # file define
 file_define = path_resource + "define.h"
@@ -70,6 +72,9 @@ if __name__ == "__main__":
 
     mdldyna = MdlDyna()
     mdldyna.load(file_mdldyna)
+
+    mdlobj = MdlObj()
+    mdlobj.load(file_mdldobj)
 
     propitem = PropItem()
     propmover = PropMover()
