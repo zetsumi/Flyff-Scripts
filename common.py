@@ -27,5 +27,4 @@ def splitter(line):
 
 
 def bytes_to_unsigned_int(val):
-    print(val)
     return int.from_bytes(val, byteorder="little", signed=False)

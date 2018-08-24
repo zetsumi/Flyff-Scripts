@@ -346,7 +346,6 @@ class Worlds:
                 fd.read(WATER_AREA)
 
             layerCount = bytes_to_unsigned_int(fd.read(1))
-            layerCount = bytes_to_unsigned_int(layerCount)
             for j in range(0, layerCount):
                 textureID = fd.read(2)
                 patchEnabled = fd.read(int(4 * WATER_AREA * WATER_AREA))
