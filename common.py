@@ -28,9 +28,3 @@ def splitter(line):
 
 def bytes_to_unsigned_int(val):
     return int.from_bytes(val, byteorder="little", signed=False)
-
-def bytes_to_float(val):
-    return int.from_bytes(val, byteorder="little", signed=True)
-
-def bytes_to_str(val):
-    return str(val)
