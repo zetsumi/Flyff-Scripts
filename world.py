@@ -168,7 +168,7 @@ class Worlds:
                         gLogger.error("SetTitle on world undeclared:", index)
 
 
-    def __load_wld__(self, f):
+    def __load_wld__(self, f, world):
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
@@ -178,14 +178,15 @@ class Worlds:
                 if arr[0] == "size":
                     arr[1] = arr[1].replace(",", "")
                     arr[2] = arr[1].replace(",", "")
-                    self.size = Vector(int(arr[1], 10), int(arr[2], 10), 0)
+                    world.size = Vector(int(arr[1], 10), int(arr[2], 10), 0)
                 elif arr[0] == "indoor":
-                    self.indoor = int(arr[1])
+                    world.indoor = int(arr[1])
                 elif arr[0] == "MPU":
-                    self.MPU = int(arr[1])
+                    world.MPU = int(arr[1])
 
 
     def __load_region__(self, f, world):
+        gLogger.info("loading:", f)
         with open(f, "r") as fd:
             content = fd.read()
             content = content.split("\n")
@@ -316,6 +317,13 @@ class Worlds:
                 else:
                     i = i + 1
 
+
+    def __load_lnd__(self, f, world):
+        gLogger.info("loading:", f)
+        with open(f, "rb") as fd:
+            pass
+
+
     def load(self, path_world, defineWorld):
         gLogger.set_section("world")
 
@@ -323,7 +331,19 @@ class Worlds:
         for it in self.worlds:
             world = self.worlds[it]
             world.text.load(path_world + world.directory + "/" + world.directory + ".txt.txt")
-            self.__load_wld__(path_world + world.directory + "/" + world.directory + ".wld")
+            self.__load_wld__(path_world + world.directory + "/" + world.directory + ".wld", world)
             self.__load_region__(path_world + world.directory + "/" + world.directory + ".rgn", world)
+            for x in range(0, world.size.x):
+                for y in range(0, world.size.y):
+                    if x < 10:
+                        X = "0" + str(x)
+                    else:
+                        X = str(x)
+                    if y < 10:
+                        Y = "0" + str(y)
+                    else:
+                        Y = str(y)
+                    lnd = path_world + world.directory + "/" + world.directory + X + "-" + Y + ".lnd"
+                    self.__load_lnd__(lnd, world)
 
         gLogger.reset_section()
