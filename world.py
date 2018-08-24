@@ -13,6 +13,7 @@ MPU = 4
 
 MAP_SIZE = int(128)
 NUM_PATCHES_PER_SIDE = int(16)
+
 PATCH_SIZE = int((MAP_SIZE / NUM_PATCHES_PER_SIDE))
 LIGHTMAP_SIZE = int(((PATCH_SIZE - 1) * NUM_PATCHES_PER_SIDE))
 LIGHTMAP_UNITY = float((float(MAP_SIZE * MPU) / float(LIGHTMAP_SIZE)))
@@ -336,15 +337,20 @@ class Worlds:
             version = bytes_to_unsigned_int(fd.read(4))
             if version >= 1:
                 fd.read(8)
-            heightMap = fd.read(4 * MAP_AREA * MAP_AREA)
-            waterHeight = fd.read(2 * WATER_AREA)
+
+            heightMap = fd.read(int(4 * MAP_AREA * MAP_AREA))
+            waterHeight = fd.read(int(2 * WATER_AREA * WATER_AREA))
+
             if version >= 2:
                 fd.read(WATER_AREA)
+
             layerCount = bytes_to_unsigned_int(fd.read(1))
+            if layerCount != 0:
+                raise layerCount
             for j in range(0, layerCount):
                 textureID = fd.read(2)
-                patchEnabled = fd.read(4 * WATER_AREA * WATER_AREA)
-                lightMap = fd.read(1 * LIGHT_AREA)
+                patchEnabled = fd.read(int(4 * WATER_AREA * WATER_AREA))
+                lightMap = fd.read(int(1 * LIGHT_AREA))
 
             for j in range(0,2):
                 objCount = bytes_to_unsigned_int(fd.read(4))
