@@ -336,7 +336,8 @@ class Worlds:
         with open(f, "rb") as fd:
             version = bytes_to_unsigned_int(fd.read(4))
             if version >= 1:
-                fd.read(8)
+                x = bytes_to_unsigned_int(fd.read(4))
+                y = bytes_to_unsigned_int(fd.read(4))
 
             heightMap = fd.read(int(4 * MAP_AREA * MAP_AREA))
             waterHeight = fd.read(int(2 * WATER_AREA * WATER_AREA))
@@ -345,8 +346,7 @@ class Worlds:
                 fd.read(WATER_AREA)
 
             layerCount = bytes_to_unsigned_int(fd.read(1))
-            if layerCount != 0:
-                raise layerCount
+            layerCount = bytes_to_unsigned_int(layerCount)
             for j in range(0, layerCount):
                 textureID = fd.read(2)
                 patchEnabled = fd.read(int(4 * WATER_AREA * WATER_AREA))
