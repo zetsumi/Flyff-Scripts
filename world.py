@@ -20,11 +20,11 @@ LIGHTMAP_UNITY = float((float(MAP_SIZE * MPU) / float(LIGHTMAP_SIZE)))
 
 MAP_AREA = int((MAP_SIZE + 1) * (MAP_SIZE + 1))
 WATER_AREA = int(NUM_PATCHES_PER_SIDE * NUM_PATCHES_PER_SIDE)
-LIGHT_AREA = int(MAP_SIZE * MAP_SIZE * 4)
-PATCH_ENABLED = int(NUM_PATCHES_PER_SIDE * NUM_PATCHES_PER_SIDE)
+LIGHT_AREA = int(4 * MAP_SIZE * MAP_SIZE)
+PATCH_ENABLED = int(4 * NUM_PATCHES_PER_SIDE * NUM_PATCHES_PER_SIDE)
 
-HEIGHT_MAP = int(4 * MAP_AREA * MAP_AREA)
-HEIGHT_WATER= int(2 * WATER_AREA * WATER_AREA)
+HEIGHT_MAP = int(4 * MAP_AREA)
+HEIGHT_WATER= int(2 * WATER_AREA)
 
 
 
@@ -340,7 +340,6 @@ class Worlds:
         gLogger.info("loading:", f)
         with open(f, "rb") as fd:
             version = bytes_to_unsigned_int(fd.read(4))
-            gLogger.info("version:", version)
             if version >= 1:
                 x = bytes_to_unsigned_int(fd.read(4))
                 y = bytes_to_unsigned_int(fd.read(4))
@@ -352,7 +351,6 @@ class Worlds:
                 land_attributes = fd.read(WATER_AREA) # land attributes
 
             layerCount = bytes_to_unsigned_int(fd.read(1))
-            gLogger.info("layerCount:", layerCount)
             for j in range(0, layerCount):
                 textureID = fd.read(2)
                 patchEnabled = fd.read(PATCH_ENABLED)
@@ -360,26 +358,25 @@ class Worlds:
 
             for j in range(0,2):
                 objCount = bytes_to_unsigned_int(fd.read(4))
-                gLogger.info("objCount:", objCount)
                 for k in range(0, objCount):
                     objType = bytes_to_unsigned_int(fd.read(4))
+                    angle = bytes_to_unsigned_int(fd.read(4))
                     rotation = Vector(
                         bytes_to_unsigned_int(fd.read(4)),
                         bytes_to_unsigned_int(fd.read(4)),
-                        bytes_to_unsigned_int(fd.read(4)) #not good value
+                        bytes_to_unsigned_int(fd.read(4))
                     )
-                    rotation.z = bytes_to_unsigned_int(fd.read(4))
                     pos = Vector(
-                        bytes_to_unsigned_int(fd.read(4)) * 4,
+                        bytes_to_unsigned_int(fd.read(4)) * MPU,
                         bytes_to_unsigned_int(fd.read(4)),
-                        bytes_to_unsigned_int(fd.read(4)) * 4
+                        bytes_to_unsigned_int(fd.read(4)) * MPU
                     )
                     scale = Vector(
                         bytes_to_unsigned_int(fd.read(4)),
                         bytes_to_unsigned_int(fd.read(4)),
                         bytes_to_unsigned_int(fd.read(4))
                     )
-                    collisionBox = bytes_to_unsigned_int(fd.read(4))
+                    objType = bytes_to_unsigned_int(fd.read(4))
                     modelID = bytes_to_unsigned_int(fd.read(4))
                     motion = bytes_to_unsigned_int(fd.read(4))
                     aiinterface = bytes_to_unsigned_int(fd.read(4))
