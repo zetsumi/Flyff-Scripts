@@ -9,7 +9,7 @@ class Logger:
             s=self.section,
             f=flag)
         for a in args:
-            text += a
+            text += str(a)
             text += " "
         print(text)
 

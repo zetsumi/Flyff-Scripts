@@ -21,6 +21,11 @@ LIGHTMAP_UNITY = float((float(MAP_SIZE * MPU) / float(LIGHTMAP_SIZE)))
 MAP_AREA = int((MAP_SIZE + 1) * (MAP_SIZE + 1))
 WATER_AREA = int(NUM_PATCHES_PER_SIDE * NUM_PATCHES_PER_SIDE)
 LIGHT_AREA = int(MAP_SIZE * MAP_SIZE * 4)
+PATCH_ENABLED = int(NUM_PATCHES_PER_SIDE * NUM_PATCHES_PER_SIDE)
+
+HEIGHT_MAP = int(4 * MAP_AREA * MAP_AREA)
+HEIGHT_WATER= int(2 * WATER_AREA * WATER_AREA)
+
 
 
 class WorldRegion:
@@ -335,24 +340,27 @@ class Worlds:
         gLogger.info("loading:", f)
         with open(f, "rb") as fd:
             version = bytes_to_unsigned_int(fd.read(4))
+            gLogger.info("version:", version)
             if version >= 1:
                 x = bytes_to_unsigned_int(fd.read(4))
                 y = bytes_to_unsigned_int(fd.read(4))
 
-            heightMap = fd.read(int(4 * MAP_AREA * MAP_AREA))
-            waterHeight = fd.read(int(2 * WATER_AREA * WATER_AREA))
+            heightMap = fd.read(HEIGHT_MAP)
+            waterHeight = fd.read(HEIGHT_WATER)
 
             if version >= 2:
-                fd.read(WATER_AREA)
+                land_attributes = fd.read(WATER_AREA) # land attributes
 
             layerCount = bytes_to_unsigned_int(fd.read(1))
+            gLogger.info("layerCount:", layerCount)
             for j in range(0, layerCount):
                 textureID = fd.read(2)
-                patchEnabled = fd.read(int(4 * WATER_AREA * WATER_AREA))
-                lightMap = fd.read(int(1 * LIGHT_AREA))
+                patchEnabled = fd.read(PATCH_ENABLED)
+                lightMap = fd.read(LIGHT_AREA)
 
             for j in range(0,2):
                 objCount = bytes_to_unsigned_int(fd.read(4))
+                gLogger.info("objCount:", objCount)
                 for k in range(0, objCount):
                     objType = bytes_to_unsigned_int(fd.read(4))
                     rotation = Vector(
