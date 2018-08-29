@@ -40,3 +40,8 @@ class Text:
                     texts[text.key] = text.data
         gLogger.reset_section()
         return texts
+
+
+    def get_data(self, texts, key):
+        for it in texts:
+            print(it)

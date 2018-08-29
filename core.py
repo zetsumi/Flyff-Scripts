@@ -129,6 +129,7 @@ if __name__ == "__main__":
     # propkarma.filter(karmas, textKarma)
     # mdldyna.filter(items)
     # cmdlobj.filter(mdlobj, path_model, defineDefine)
+    worlds.filter(mdlobj)
 
     # define.write(file_define.replace(path_resource, path_output), defineDefine)
     # define.write(file_define_item.replace(path_resource, path_output), defineItem)

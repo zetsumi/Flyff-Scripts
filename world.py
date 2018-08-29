@@ -40,7 +40,7 @@ class World:
         self.id = str()
         self.title= str()
         self.directory = str()
-        self.text = Text()
+        self.text = OrderedDict()
         self.size = Vector(0,0,0)
         self.indoor = int()
         self.ambient = str() #hexa
@@ -256,8 +256,8 @@ class Worlds:
             if version <= 0:
                 gLogger.error("version:", version, "is unknow")
             if version >= 1:
-                x = bytes_to_unsigned_int(fd.read(4))
                 y = bytes_to_unsigned_int(fd.read(4))
+                x = bytes_to_unsigned_int(fd.read(4))
                 world.lands[y] = OrderedDict()
                 world.lands[y][x] = Landscape()
 
@@ -298,7 +298,8 @@ class Worlds:
         self.__load_world_inc__(defineWorld)
         for it in self.worlds:
             world = self.worlds[it]
-            world.text.load(path_world + world.directory + "/" + world.directory + ".txt.txt")
+            text = Text()
+            world.text = text.load(path_world + world.directory + "/" + world.directory + ".txt.txt")
             self.__load_wld__(path_world + world.directory + "/" + world.directory + ".wld", world)
             self.__load_region__(path_world + world.directory + "/" + world.directory + ".rgn", world)
             for x in range(0, world.size.x):
@@ -314,4 +315,22 @@ class Worlds:
                     lnd = path_world + world.directory + "/" + world.directory + X + "-" + Y + ".lnd"
                     self.__load_lnd__(lnd, world, define)
 
+        gLogger.reset_section()
+
+    
+    def filter(self, mdlobj):
+        gLogger.set_section("world")
+        obj_in_world = list()
+        for it in self.worlds:
+            world = self.worlds[it]
+            gLogger.info("filtering {id}".format(id=str(world.id)))
+            gLogger.info("directory: {directory} height: {height} width: {width} indoor: {indoor}".format(
+                directory=world.directory,
+                height=world.size.y,
+                width=world.size.x,
+                indoor=world.indoor
+            ))
+            for y in range(0, world.size.y):
+                for x in range(0, world.size.x):
+                    pass
         gLogger.reset_section()

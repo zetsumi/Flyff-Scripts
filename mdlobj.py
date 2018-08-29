@@ -59,7 +59,7 @@ class MdlObj:
                 data = MdlObj()
                 for key in self.__dict__:
                     setattr(data, key, arr[getattr(self, key)])
-                datas[data.szName] = data
+                datas[data.iObject] = data
         gLogger.reset_section()
         return datas
     
