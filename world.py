@@ -112,6 +112,8 @@ class Worlds:
                     world.indoor = int(arr[1])
                 elif arr[0] == "MPU":
                     world.MPU = int(arr[1])
+            world.lands = [[Landscape() for x in range(world.size.x)] for y in range(world.size.y)] 
+
 
 
     def __load_region__(self, f, world):
@@ -258,8 +260,6 @@ class Worlds:
             if version >= 1:
                 y = bytes_to_unsigned_int(fd.read(4))
                 x = bytes_to_unsigned_int(fd.read(4))
-                world.lands[y] = OrderedDict()
-                world.lands[y][x] = Landscape()
 
             heightMap = fd.read(HEIGHT_MAP)
             waterHeight = fd.read(HEIGHT_WATER)
@@ -302,8 +302,8 @@ class Worlds:
             world.text = text.load(path_world + world.directory + "/" + world.directory + ".txt.txt")
             self.__load_wld__(path_world + world.directory + "/" + world.directory + ".wld", world)
             self.__load_region__(path_world + world.directory + "/" + world.directory + ".rgn", world)
-            for x in range(0, world.size.x):
-                for y in range(0, world.size.y):
+            for y in range(0, world.size.y):
+                for x in range(0, world.size.x):
                     if x < 10:
                         X = "0" + str(x)
                     else:
@@ -332,5 +332,8 @@ class Worlds:
             ))
             for y in range(0, world.size.y):
                 for x in range(0, world.size.x):
-                    pass
+                    for obj in world.lands[y][x].objs:
+                        if obj.dwModelID not in obj_in_world:
+                            obj_in_world.append(obj.dwModelID)
+            gLogger.info("Unique Obj:", len(obj_in_world))
         gLogger.reset_section()
