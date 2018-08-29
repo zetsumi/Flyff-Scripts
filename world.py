@@ -4,6 +4,7 @@ from collections import OrderedDict
 from logger import gLogger
 from text import Text
 from common import Vector, Rect, splitter, bytes_to_unsigned_int
+from structure_world import Layer, Landscape, Region, Respawn, CtrlElement
 from obj import Obj, ObjCtrl
 
 file_listing_world = "Ressource/World.inc"
@@ -28,106 +29,14 @@ HEIGHT_MAP = int(4 * MAP_AREA)
 HEIGHT_WATER= int(2 * WATER_AREA)
 
 
-
-class WorldRegion:
-
-
-    def __init__(self):
-        self.sztitle = str()
-        self.szdesc = str()
-
-        self.dwType = int(0)
-        self.dwIndex = int(0)
-        self.vPos = Vector(0,0,0)
-        self.dwAttribute = int(0)
-        self.dwIdMusic = int(0)
-        self.bDirectMusic = int(0)
-        self.szScript = str()
-        self.szSound = str()
-        self.dwIdTeleWorld = int()
-        self.vPosTeleWorld = Vector(0,0,0)
-        self.rect = Rect(0,0,0,0)
-        self.szKey = str()
-        self.dwTargetKey = int()
-        self.uItemId = int()
-        self.uiItemCount = int()
-        self.uiMinLevel = int()
-        self.uiMaxLevel = int()
-        self.iQuest = int()
-        self.iQuestFlag = int()
-        self.iJob = int()
-        self.iGender = int()
-        self.bCheckParty = int()
-        self.bCheckGuild = int()
-        self.bChaoKey = int()
-        self.szTitle = str()
-
-
-class CtrlElement:
-
-
-    def __init__(self):
-        self.dwSet = int()
-        self.dwSetItem = int()
-        self.dwSetItemCount = int()
-        self.dwSetLevel = int()
-        self.dwSetQuestNum = int()
-        self.dwSetFlagNum = int()
-        self.dwSetQuestNum1 = int()
-        self.dwSetFlagNum1 = int()
-        self.dwSetQuestNum2 = int()
-        self.dwSetFlagNum2 = int()
-        self.dwSetGender = int()
-        self.bSetJob = list()
-        self.dwSetEndu = int()
-        self.dwMinItemNum = int()
-        self.dwMaxItemNum = int()
-        self.dwInsideItemKind = list()
-        self.dwInsideItemPer = list()
-        self.dwMonResKind = list()
-        self.dwMonResNum = list()
-        self.dwMonActAttack = list()
-        self.dwTrapOperType = int()
-        self.dwTrapRandomPer = int()
-        self.dwTrapDelay = int()
-        self.dwTrapKind = list()
-        self.dwTrapLevel = list()
-        self.dwTeleWorldId = int()
-        self.dwTele = Vector(0,0,0)
-
-class WorldRespawn:
-
-
-    def __init__(self):
-        self.dwType = int()
-        self.dwIndex = int()
-        self.vPos = Vector(0,0,0)
-        self.nMaxcb = int()
-        self.ncb = int(0)
-        self.uTime = int()
-        self.nMaxAttackNum = int()
-        self.nActiveAttackNum = int(0)
-        self.fY = int(0)
-        self.rect = Rect(0,0,0,0)
-        self.nDayMin = int()
-        self.nDayMax = int()
-        self.nHourMin = int()
-        self.nHourMax = int()
-        self.nItemMin = int()
-        self.nItemMax = int()
-        self.dwAiState = int()
-        self.fAngle = float()
-        self.dwPatrolIndex = int()
-        self.bPatrolCycle = int()
-        self.nControl = int()
-        self.ctrlElement = CtrlElement()
-
-
 class World:
 
     def __init__(self):
         self.regions = list()
         self.respawns = list()
+        self.lands = OrderedDict()
+        self.land_attributes = str()
+
         self.id = str()
         self.title= str()
         self.directory = str()
@@ -153,6 +62,7 @@ class Worlds:
 
     def __init__(self):
         self.worlds = OrderedDict()
+
 
     def __clean_arr__(self, arr):
         copy = list()
@@ -218,7 +128,7 @@ class Worlds:
                     arr = splitter(content[i])
                     it = iter(arr)
                     next(it)
-                    region = WorldRegion()
+                    region = Region()
                     region.dwType = next(it)
                     region.dwType = next(it)
                     region.vPos = Vector(float(next(it)), float(next(it)), float(next(it)))
@@ -258,7 +168,7 @@ class Worlds:
                     arr = splitter(content[i])
                     it = iter(arr)
                     version = int(next(it).replace("respawn", ""))
-                    respawn = WorldRespawn()
+                    respawn = Respawn()
                     respawn.dwType = int(next(it))
                     respawn.dwIndex = int(next(it))
                     respawn.vPos = Vector(float(next(it)), float(next(it)), float(next(it)))
@@ -339,25 +249,33 @@ class Worlds:
 
     def __load_lnd__(self, f, world, define):
         gLogger.info("loading:", f)
+        x = int(0)
+        y = int(0)
         with open(f, "rb") as fd:
             version = bytes_to_unsigned_int(fd.read(4))
+            if version <= 0:
+                gLogger.error("version:", version, "is unknow")
             if version >= 1:
                 x = bytes_to_unsigned_int(fd.read(4))
                 y = bytes_to_unsigned_int(fd.read(4))
+                world.lands[y] = OrderedDict()
+                world.lands[y][x] = Landscape()
 
             heightMap = fd.read(HEIGHT_MAP)
             waterHeight = fd.read(HEIGHT_WATER)
 
             if version >= 2:
-                land_attributes = fd.read(WATER_AREA) # land attributes
+                world.land_attributes = fd.read(WATER_AREA) # land attributes
 
             layerCount = bytes_to_unsigned_int(fd.read(1))
             for j in range(0, layerCount):
-                textureID = fd.read(2)
-                patchEnabled = fd.read(PATCH_ENABLED)
-                lightMap = fd.read(LIGHT_AREA)
+                layer = Layer()
+                layer.textureID = fd.read(2)
+                layer.patchEnabled = fd.read(PATCH_ENABLED)
+                layer.lightMap = fd.read(LIGHT_AREA)
+                world.lands[y][x].layers.append(layer)
 
-            objs = list()
+
             objCount = bytes_to_unsigned_int(fd.read(4))
             for k in range(0, objCount):
                 dwTypeObj = bytes_to_unsigned_int(fd.read(4))
@@ -365,17 +283,14 @@ class Worlds:
                 if dwTypeObj == 2:
                     obj = ObjCtrl()
                 obj.read(fd)
-                objs.append(obj)
+                world.lands[y][x].objs.append(obj)
 
-            sfxs = list()
             objCount = bytes_to_unsigned_int(fd.read(4))
             for k in range(0, objCount):
                 dwTypeObj = bytes_to_unsigned_int(fd.read(4))
                 sfx = Obj()
                 sfx.read(fd)
-                sfx.appen(sfx)
-
-
+                world.lands[y][x].sfxs.append(obj)
 
     def load(self, path_world, defineWorld, define):
         gLogger.set_section("world")
