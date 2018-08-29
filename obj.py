@@ -154,7 +154,6 @@ class ObjCtrl:
 
 
     def __read_ctrlelement_v2__(self, fd):
-        self.dwSet = bytes_to_unsigned_int(fd.read(4))
         self.dwSetItem = bytes_to_unsigned_int(fd.read(4))
         self.dwSetLevel = bytes_to_unsigned_int(fd.read(4))
         self.dwSetQuestNum = bytes_to_unsigned_int(fd.read(4))
@@ -175,7 +174,7 @@ class ObjCtrl:
         self.dwTrapKind = fd.read(4 * MAX_TRAP)
         self.dwTrapLevel = fd.read(4 * MAX_TRAP)
         self.strLinkCtrlKey = fd.read(MAX_KEY)
-        self.strCtrlKey = fd.read(MAX_KEY - 4)
+        self.strCtrlKey = fd.read(MAX_KEY)
 
 
     def read(self, fd):
