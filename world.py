@@ -4,6 +4,7 @@ from collections import OrderedDict
 from logger import gLogger
 from text import Text
 from common import Vector, Rect, splitter, bytes_to_unsigned_int
+from obj import Obj, ObjCtrl
 
 file_listing_world = "Ressource/World.inc"
 MAX_CTRLDROPITEM = 4
@@ -356,31 +357,23 @@ class Worlds:
                 patchEnabled = fd.read(PATCH_ENABLED)
                 lightMap = fd.read(LIGHT_AREA)
 
-            for j in range(0,2):
-                objCount = bytes_to_unsigned_int(fd.read(4))
-                for k in range(0, objCount):
-                    objType = bytes_to_unsigned_int(fd.read(4))
-                    angle = bytes_to_unsigned_int(fd.read(4))
-                    rotation = Vector(
-                        bytes_to_unsigned_int(fd.read(4)),
-                        bytes_to_unsigned_int(fd.read(4)),
-                        bytes_to_unsigned_int(fd.read(4))
-                    )
-                    pos = Vector(
-                        bytes_to_unsigned_int(fd.read(4)) * MPU,
-                        bytes_to_unsigned_int(fd.read(4)),
-                        bytes_to_unsigned_int(fd.read(4)) * MPU
-                    )
-                    scale = Vector(
-                        bytes_to_unsigned_int(fd.read(4)),
-                        bytes_to_unsigned_int(fd.read(4)),
-                        bytes_to_unsigned_int(fd.read(4))
-                    )
-                    objType = bytes_to_unsigned_int(fd.read(4))
-                    modelID = bytes_to_unsigned_int(fd.read(4))
-                    motion = bytes_to_unsigned_int(fd.read(4))
-                    aiinterface = bytes_to_unsigned_int(fd.read(4))
-                    ai2 = bytes_to_unsigned_int(fd.read(4))
+            objs = list()
+            objCount = bytes_to_unsigned_int(fd.read(4))
+            for k in range(0, objCount):
+                dwTypeObj = bytes_to_unsigned_int(fd.read(4))
+                obj = Obj()
+                if dwTypeObj == 2:
+                    obj = ObjCtrl()
+                obj.read(fd)
+                objs.append(obj)
+
+            sfxs = list()
+            objCount = bytes_to_unsigned_int(fd.read(4))
+            for k in range(0, objCount):
+                dwTypeObj = bytes_to_unsigned_int(fd.read(4))
+                sfx = Obj()
+                sfx.read(fd)
+                sfx.appen(sfx)
 
 
 
