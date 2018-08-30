@@ -321,6 +321,7 @@ class Worlds:
     def filter(self, mdlobj):
         gLogger.set_section("world")
         obj_in_world = list()
+        sfx_in_world = list()
         for it in self.worlds:
             world = self.worlds[it]
             gLogger.info("filtering {id}".format(id=str(world.id)))
@@ -335,5 +336,9 @@ class Worlds:
                     for obj in world.lands[y][x].objs:
                         if obj.dwModelID not in obj_in_world:
                             obj_in_world.append(obj.dwModelID)
+                    for sfx in world.lands[y][x].sfxs:
+                        if sfx.dwModelID not in sfx_in_world:
+                            sfx_in_world.append(sfxj.dwModelID)
             gLogger.info("Unique Obj:", len(obj_in_world))
+            gLogger.info("Unique Sfx:", len(sfx_in_world))
         gLogger.reset_section()
