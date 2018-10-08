@@ -1,3 +1,4 @@
+from lxml import etree as ET
 from collections import OrderedDict
 from logger import gLogger
 
@@ -225,7 +226,7 @@ class PropMover:
         return mover_undeclared, mover_unused, weapon_undeclared, mover_name_undeclared, mover_comment_undeclared
 
 
-    def write(self, movers):
+    def write(self, movers, mode):
         gLogger.set_section("propmover")
         gLogger.info("Writing propMover.txt")
         with open("output/propMover.txt", "w") as fd:
@@ -253,3 +254,63 @@ class PropMover:
         if self.szComment != "=":
             if self.szComment != "" and len(self.szComment) > 0 and self.szComment in textMover:
                 self.szComment = '\"' + textMover[self.szComment] + '\"'
+
+
+    def write_new_config(self, movers):
+        gLogger.set_section("promover")
+        root = ET.Element("movers")
+        
+        monsters = ET.SubElement(root, "monsters")
+        monster_common = ET.SubElement(monsters, "common")
+        monster_low = ET.SubElement(monsters, "low")
+        monster_normal = ET.SubElement(monsters, "normal")
+        monster_captain = ET.SubElement(monsters, "captain")
+        monster_midboss = ET.SubElement(monsters, "midboss")
+        monster_boss = ET.SubElement(monsters, "boss")
+        monster_material = ET.SubElement(monsters, "metarial")
+        monster_super = ET.SubElement(monsters, "super")
+        monster_guard = ET.SubElement(monsters, "guard")
+        monster_unknow = ET.SubElement(monsters, "unknow")
+
+        pets = ET.SubElement(root, "pets")
+
+        for it in movers:
+            mover = movers[it]
+            section = None
+            if mover.dwClass == "=":
+                section = ET.SubElement(monster_common, "mover")
+            elif mover.dwClass == "RANK_LOW":
+                section = ET.SubElement(monster_low, "mover")
+            elif mover.dwClass == "RANK_NORMAL":
+                section = ET.SubElement(monster_normal, "mover")
+            elif mover.dwClass == "RANK_CAPTAIN":
+                section = ET.SubElement(monster_captain, "mover")
+            elif mover.dwClass == "RANK_MIDBOSS":
+                section = ET.SubElement(monster_midboss, "mover")
+            elif mover.dwClass == "RANK_BOSS":
+                section = ET.SubElement(monster_boss, "mover")
+            elif mover.dwClass == "RANK_MATERIAL":
+                section = ET.SubElement(monster_material, "mover")
+            elif mover.dwClass == "RANK_SUPER":
+                section = ET.SubElement(monster_super, "mover")
+            elif mover.dwClass == "RANK_GUARD":
+                section = ET.SubElement(monster_guard, "mover")
+            else:
+                section = ET.SubElement(monster_unknow, "mover")
+
+
+            section.set("dwID", mover.dwID)
+            section.set("dwClass", mover.dwClass)
+            for key in mover.__dict__:
+                value = getattr(mover, key)
+                if value is None or value == "=" or key == "dwID" or key == "dwClass":
+                    continue
+                section.set(key, value)
+                
+
+        print(ET.tostring(root, pretty_print=True, xml_declaration=True))
+        # # write to file:
+        tree = ET.ElementTree(root)
+        tree.write('items2.xml', pretty_print=True, xml_declaration=True)
+
+        gLogger.reset_section()
