@@ -268,7 +268,7 @@ class PropMover:
             if v == 0:
                 return True
         except:
-            if value == "=":
+            if value == "=" or value == "":
                 return True
         return False
 
@@ -327,6 +327,7 @@ class PropMover:
 
             for key in mover.__dict__:
                 value = getattr(mover, key)
+                value = value.replace('"', "")
                 if self.skip_value(key, value) is True:
                     continue
                 section.set(key, value)

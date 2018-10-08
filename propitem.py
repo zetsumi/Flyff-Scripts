@@ -420,7 +420,7 @@ class PropItem():
             if v == 0:
                 return True
         except:
-            if value == "=":
+            if value == "=" or value == "":
                 return True
         return False
 
@@ -507,6 +507,7 @@ class PropItem():
 
             for key in item.__dict__:
                 value = getattr(item, key)
+                value = value.replace('"', "")
                 if self.skip_value(key, value) is True:
                     continue
                 section.set(key, value)

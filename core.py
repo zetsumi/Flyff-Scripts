@@ -115,10 +115,10 @@ if __name__ == "__main__":
     textTroupeSKill = OrderedDict(text.load(file_text_proptroupeskill))
 
     packet = Packet()
-    packet.load(file_msghdr)
+    # packet.load(file_msghdr)
 
     worlds = Worlds()
-    worlds.load(path_world, defineWorld, defineDefine)
+    # worlds.load(path_world, defineWorld, defineDefine)
 
     # packet.filter()
     # propitem.filter(path_icon_items, items, defineItem, textItem, movers)
