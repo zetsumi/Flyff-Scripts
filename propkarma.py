@@ -1,5 +1,6 @@
 from collections import OrderedDict
 from logger import gLogger
+from lxml import etree as ET
 
 
 class PropKarma:
@@ -111,3 +112,33 @@ class PropKarma:
         gLogger.reset_section()
 
         return karma_name_undeclared, karma_comment_undeclared
+
+
+    def skip_value(self, key, value):
+        try:
+            v = int(value)
+            if v == 0:
+                return True
+        except:
+            if value == "=" or value == "":
+                return True
+        return False
+
+
+    def write_new_config(self, karmas):
+        gLogger.set_section("propctrls")
+
+        root = ET.Element("karmas")
+
+        for it in karmas:
+            karma = karmas[it]
+            section = ET.SubElement(root, "grade")
+            for key in karma.__dict__:
+                value = getattr(karma, key)
+                value = value.replace('"', "")
+                if self.skip_value(key, value) is True:
+                    continue
+                section.set(key, value)
+        tree = ET.ElementTree(root)
+        tree.write('propKarma.xml', pretty_print=True, xml_declaration=True)
+        gLogger.reset_section()

@@ -334,6 +334,6 @@ class PropMover:
 
 
         tree = ET.ElementTree(root)
-        tree.write('propmover.xml', pretty_print=True, xml_declaration=True)
+        tree.write('propMover.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
