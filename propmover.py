@@ -256,60 +256,85 @@ class PropMover:
                 self.szComment = '\"' + textMover[self.szComment] + '\"'
 
 
+    def skip_value(self, key, value):
+        if value is None or value == "=":
+            return True
+        if key == "dwID":
+            return True
+        if key == "dwClass":
+            return True
+        try:
+            v = int(value)
+            if v == 0:
+                return True
+        except:
+            if value == "=":
+                return True
+        return False
+
     def write_new_config(self, movers):
         gLogger.set_section("promover")
         root = ET.Element("movers")
         
-        monsters = ET.SubElement(root, "monsters")
-        monster_common = ET.SubElement(monsters, "common")
-        monster_low = ET.SubElement(monsters, "low")
-        monster_normal = ET.SubElement(monsters, "normal")
-        monster_captain = ET.SubElement(monsters, "captain")
-        monster_midboss = ET.SubElement(monsters, "midboss")
-        monster_boss = ET.SubElement(monsters, "boss")
-        monster_material = ET.SubElement(monsters, "metarial")
-        monster_super = ET.SubElement(monsters, "super")
-        monster_guard = ET.SubElement(monsters, "guard")
-        monster_unknow = ET.SubElement(monsters, "unknow")
+        section_movers = ET.SubElement(root, "movers")
+
+        movers_players = ET.SubElement(section_movers, "player")
+        movers_npcs = ET.SubElement(section_movers, "npc")
+        movers_monsters = ET.SubElement(section_movers, "monster")
+        movers_pets = ET.SubElement(section_movers, "pet")
+        movers_unknow = ET.SubElement(section_movers, "unknow")
+
+        movers_monsters_rank = dict()
+        movers_monsters_rank["RANK_LOW"] = ET.SubElement(movers_monsters, "low")
+        movers_monsters_rank["RANK_NORMAL"] = ET.SubElement(movers_monsters, "normal")
+        movers_monsters_rank["RANK_CAPTAIN"] = ET.SubElement(movers_monsters, "captain")
+        movers_monsters_rank["RANK_MIDBOSS"] = ET.SubElement(movers_monsters, "midboss")
+        movers_monsters_rank["RANK_BOSS"] = ET.SubElement(movers_monsters, "boss")
+        movers_monsters_rank["RANK_MATERIAL"] = ET.SubElement(movers_monsters, "material")
+        movers_monsters_rank["RANK_SUPER"] = ET.SubElement(movers_monsters, "super")
+        movers_monsters_rank["RANK_GUARD"] = ET.SubElement(movers_monsters, "guard")
 
         pets = ET.SubElement(root, "pets")
 
         for it in movers:
             mover = movers[it]
             section = None
-            if mover.dwClass == "=":
-                section = ET.SubElement(monster_common, "mover")
-            elif mover.dwClass == "RANK_LOW":
-                section = ET.SubElement(monster_low, "mover")
-            elif mover.dwClass == "RANK_NORMAL":
-                section = ET.SubElement(monster_normal, "mover")
-            elif mover.dwClass == "RANK_CAPTAIN":
-                section = ET.SubElement(monster_captain, "mover")
-            elif mover.dwClass == "RANK_MIDBOSS":
-                section = ET.SubElement(monster_midboss, "mover")
-            elif mover.dwClass == "RANK_BOSS":
-                section = ET.SubElement(monster_boss, "mover")
-            elif mover.dwClass == "RANK_MATERIAL":
-                section = ET.SubElement(monster_material, "mover")
-            elif mover.dwClass == "RANK_SUPER":
-                section = ET.SubElement(monster_super, "mover")
-            elif mover.dwClass == "RANK_GUARD":
-                section = ET.SubElement(monster_guard, "mover")
-            else:
-                section = ET.SubElement(monster_unknow, "mover")
+
+            if mover.dwAI == "AII_NONE":
+                section = movers_npcs
+            elif mover.dwAI == "AII_MOVER":
+                section = movers_players
+            elif mover.dwAI == "AII_PET" or mover.dwAI == "AII_EGG":
+                section = movers_pets
+            elif mover.dwAI == "AII_MONSTER" or mover.dwAI == "AII_CLOCKWORKS" or \
+                mover.dwAI == "AII_BIGMUSCLE" or mover.dwAI == "AII_KRRR" or \
+                mover.dwAI == "AII_BEAR" or mover.dwAI == "AII_METEONYKER":
+                 section = movers_monsters
 
 
-            section.set("dwID", mover.dwID)
+            if section is not None:
+                if section is movers_monsters:
+                    if mover.dwClass != "=" and mover.dwClass in movers_monsters_rank:
+                        section = ET.SubElement(movers_monsters_rank[mover.dwClass], mover.dwID)
+                elif section is movers_players:
+                    section = ET.SubElement(movers_players, mover.dwID)
+                elif section is movers_npcs:
+                    section = ET.SubElement(movers_npcs, mover.dwID)
+                elif section is movers_pets:
+                    section = ET.SubElement(movers_pets, mover.dwID)
+
+            if section is None:
+                gLogger.Error("Mover unknow")
+                section = ET.SubElement(movers_unknow, "unknow")
+
             for key in mover.__dict__:
                 value = getattr(mover, key)
-                if value is None or value == "=" or key == "dwID" or key == "dwClass":
+                if self.skip_value(key, value) is True:
                     continue
                 section.set(key, value)
-                
 
-        print(ET.tostring(root, pretty_print=True, xml_declaration=True))
-        # # write to file:
+
         tree = ET.ElementTree(root)
-        tree.write('items2.xml', pretty_print=True, xml_declaration=True)
+        tree.write('propmover.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
