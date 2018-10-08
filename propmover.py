@@ -300,7 +300,6 @@ class PropMover:
 
 
             section.set("dwID", mover.dwID)
-            section.set("dwClass", mover.dwClass)
             for key in mover.__dict__:
                 value = getattr(mover, key)
                 if value is None or value == "=" or key == "dwID" or key == "dwClass":
