@@ -147,3 +147,4 @@ if __name__ == "__main__":
     # cmdlobj.write(mdlobj)
 
     propmover.write_new_config(movers)
+    propitem.write_new_config(items)

@@ -274,15 +274,15 @@ class PropMover:
 
     def write_new_config(self, movers):
         gLogger.set_section("promover")
-        root = ET.Element("movers")
-        
-        section_movers = ET.SubElement(root, "movers")
 
-        movers_players = ET.SubElement(section_movers, "player")
-        movers_npcs = ET.SubElement(section_movers, "npc")
-        movers_monsters = ET.SubElement(section_movers, "monster")
-        movers_pets = ET.SubElement(section_movers, "pet")
-        movers_unknow = ET.SubElement(section_movers, "unknow")
+        root = ET.Element("movers")
+        movers_players = ET.SubElement(root, "player")
+        movers_npcs = ET.SubElement(root, "npc")
+        movers_monsters = ET.SubElement(root, "monster")
+        movers_pets = ET.SubElement(root, "pet")
+        movers_unknow = ET.SubElement(root, "unknow")
+
+        movers_monsters_special = ET.SubElement(movers_monsters, "special")
 
         movers_monsters_rank = dict()
         movers_monsters_rank["RANK_LOW"] = ET.SubElement(movers_monsters, "low")
@@ -290,11 +290,9 @@ class PropMover:
         movers_monsters_rank["RANK_CAPTAIN"] = ET.SubElement(movers_monsters, "captain")
         movers_monsters_rank["RANK_MIDBOSS"] = ET.SubElement(movers_monsters, "midboss")
         movers_monsters_rank["RANK_BOSS"] = ET.SubElement(movers_monsters, "boss")
-        movers_monsters_rank["RANK_MATERIAL"] = ET.SubElement(movers_monsters, "material")
         movers_monsters_rank["RANK_SUPER"] = ET.SubElement(movers_monsters, "super")
-        movers_monsters_rank["RANK_GUARD"] = ET.SubElement(movers_monsters, "guard")
-
-        pets = ET.SubElement(root, "pets")
+        movers_monsters_rank["RANK_MATERIAL"] = ET.SubElement(movers_monsters_special, "material")
+        movers_monsters_rank["RANK_GUARD"] = ET.SubElement(movers_monsters_special, "guard")
 
         for it in movers:
             mover = movers[it]
@@ -306,7 +304,7 @@ class PropMover:
                 section = movers_players
             elif mover.dwAI == "AII_PET" or mover.dwAI == "AII_EGG":
                 section = movers_pets
-            elif mover.dwAI == "AII_MONSTER" or mover.dwAI == "AII_CLOCKWORKS" or \
+            elif mover.dwAI == "AII_MONSTER"or mover.dwAI == "AII_CLOCKWORKS" or \
                 mover.dwAI == "AII_BIGMUSCLE" or mover.dwAI == "AII_KRRR" or \
                 mover.dwAI == "AII_BEAR" or mover.dwAI == "AII_METEONYKER":
                  section = movers_monsters
