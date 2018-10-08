@@ -150,5 +150,5 @@ if __name__ == "__main__":
     # propitem.write_new_config(items)
     # propskill.write_new_config(skills)
     # propctrl.write_new_config(ctrls)
-    propkarma.write_new_config(karmas)
+    # propkarma.write_new_config(karmas)
 
