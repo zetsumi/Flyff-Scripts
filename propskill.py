@@ -1,4 +1,5 @@
 import subprocess
+from lxml import etree as ET
 from collections import OrderedDict
 from logger import gLogger
 
@@ -378,3 +379,80 @@ class PropSkill:
     
     def test(self):
         print(self.__dict__)
+
+    
+    def skip_value(self, key, value):
+        if key == "dwID":
+            return True
+        try:
+            v = int(value)
+            if v == 0:
+                return True
+        except:
+            if value == "=" or value == "":
+                return True
+        return False
+
+
+    def write_new_config(self, skills):
+        gLogger.set_section("propskill")
+
+        root = ET.Element("skills")
+        section_master = ET.SubElement(root, "master")
+        section_hero = ET.SubElement(root, "hero")
+        section_unkonw = ET.SubElement(root, "unknow")
+
+        sections_job = dict()
+        sections_job["JOB_VAGRANT"] = ET.SubElement(root, "vagrant")
+
+        sections_job["JOB_MERCENARY"] = ET.SubElement(root, "mercenary")
+        sections_job["JOB_ACROBAT"] = ET.SubElement(root, "acrobat")
+        sections_job["JOB_ASSIST"] = ET.SubElement(root, "assist")
+        sections_job["JOB_MAGICIAN"] = ET.SubElement(root, "magician")
+        sections_job["JOB_KNIGHT"] = ET.SubElement(root, "knight")
+        sections_job["JOB_BLADE"] = ET.SubElement(root, "blade")
+        sections_job["JOB_JESTER"] = ET.SubElement(root, "jester")
+        sections_job["JOB_RANGER"] = ET.SubElement(root, "ranger")
+        sections_job["JOB_RINGMASTER"] = ET.SubElement(root, "ringmaster")
+        sections_job["JOB_BILLPOSTER"] = ET.SubElement(root, "billposter")
+        sections_job["JOB_PSYCHIKEEPER"] = ET.SubElement(root, "psycheeper")
+        sections_job["JOB_ELEMENTOR"] = ET.SubElement(root, "elementor")
+
+        sections_job["JOB_KNIGHT_MASTER"] = ET.SubElement(section_master, "knight")
+        sections_job["JOB_BLADE_MASTER"] = ET.SubElement(section_master, "blade")
+        sections_job["JOB_JESTER_MASTER"] = ET.SubElement(section_master, "jester")
+        sections_job["JOB_RANGER_MASTER"] = ET.SubElement(section_master, "ranger")
+        sections_job["JOB_RINGMASTER_MASTER"] = ET.SubElement(section_master, "ringmaster")
+        sections_job["JOB_BILLPOSTER_MASTER"] = ET.SubElement(section_master, "billposter")
+        sections_job["JOB_PSYCHIKEEPER_MASTER"] = ET.SubElement(section_master, "psychikeeper")
+        sections_job["JOB_ELEMENTOR_MASTER"] = ET.SubElement(section_master, "elementor")
+
+        sections_job["JOB_KNIGHT_HERO"] = ET.SubElement(section_hero, "knight")
+        sections_job["JOB_BLADE_HERO"] = ET.SubElement(section_hero, "blade")
+        sections_job["JOB_JESTER_HERO"] = ET.SubElement(section_hero, "jester")
+        sections_job["JOB_RANGER_HERO"] = ET.SubElement(section_hero, "ranger")
+        sections_job["JOB_RINGMASTER_HERO"] = ET.SubElement(section_hero, "ringmaster")
+        sections_job["JOB_BILLPOSTER_HERO"] = ET.SubElement(section_hero, "billposter")
+        sections_job["JOB_PSYCHIKEEPER_HERO"] = ET.SubElement(section_hero, "psychikeeper")
+        sections_job["JOB_ELEMENTOR_HERO"] = ET.SubElement(section_hero, "elementor")
+
+        for it in skills:
+            skill = skills[it]
+            section = None
+
+            if skill.dwItemJob in sections_job:
+                section = ET.SubElement(sections_job[skill.dwItemJob], skill.dwID)
+
+            if section is None:
+                section = section_unkonw
+
+            for key in skill.__dict__:
+                value = getattr(skill, key)
+                value = value.replace('"', "")
+                if self.skip_value(key, value) is True:
+                    continue
+                section.set(key, value)
+
+        tree = ET.ElementTree(root)
+        tree.write('propskill.xml', pretty_print=True, xml_declaration=True)
+        gLogger.reset_section()

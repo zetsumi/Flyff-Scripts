@@ -461,7 +461,6 @@ class PropItem():
         sections_job["JOB_ACROBAT"] = {"armor": ET.SubElement(section_armor,"acrobat"), "weapon":ET.SubElement(section_weapons,"acrobat")}
         sections_job["JOB_ASSIST"] = {"armor": ET.SubElement(section_armor,"assist"), "weapon":ET.SubElement(section_weapons,"assist")}
         sections_job["JOB_MAGICIAN"] = {"armor": ET.SubElement(section_armor,"magician"), "weapon":ET.SubElement(section_weapons,"magician")}
-        sections_job["JOB_PUPPETEER"] = {"armor": ET.SubElement(section_armor,"puppeteer"), "weapon":ET.SubElement(section_weapons,"puppeteer")}
         sections_job["JOB_KNIGHT"] = {"armor": ET.SubElement(section_armor,"knight"), "weapon":ET.SubElement(section_weapons,"knight")}
         sections_job["JOB_BLADE"] = {"armor": ET.SubElement(section_armor,"blade"), "weapon":ET.SubElement(section_weapons,"blade")}
         sections_job["JOB_JESTER"] = {"armor": ET.SubElement(section_armor,"jester"), "weapon":ET.SubElement(section_weapons,"jester")}
@@ -511,7 +510,6 @@ class PropItem():
                 if self.skip_value(key, value) is True:
                     continue
                 section.set(key, value)
-
 
 
         tree = ET.ElementTree(root)

@@ -146,5 +146,7 @@ if __name__ == "__main__":
     # propmover.write(movers)
     # cmdlobj.write(mdlobj)
 
-    propmover.write_new_config(movers)
-    propitem.write_new_config(items)
+    # propmover.write_new_config(movers)
+    # propitem.write_new_config(items)
+    # propskill.write_new_config(skills)
+    propctrl.write_new_config(ctrls)

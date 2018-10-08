@@ -1,3 +1,4 @@
+from lxml import etree as ET
 from collections import OrderedDict
 from logger import gLogger
 
@@ -125,4 +126,57 @@ class PropCtrl:
                 infos="Ctrl SFX undeclared:",
                 undeclared=len(ctrl_sfx_undeclared),
                 total=len(ctrls)))
+        gLogger.reset_section()
+
+    def skip_value(self, key, value):
+        if key == "dwID":
+            return True
+        try:
+            v = int(value)
+            if v == 0:
+                return True
+        except:
+            if value == "=" or value == "":
+                return True
+        return False
+
+
+    def write_new_config(self, ctrls):
+        gLogger.set_section("propctrls")
+
+        root = ET.Element("ctrls")
+        section_trigger = ET.SubElement(root, "trigger")
+        section_house = ET.SubElement(root, "housing")
+        section_guild_house = ET.SubElement(root, "guild_house")
+        section_chest = ET.SubElement(root, "chest")
+        section_door = ET.SubElement(root, "door")
+        section_unknow = ET.SubElement(root, "unknow")
+
+        sections_kind1 = dict()
+        sections_kind1["CK1_TRIGGER"] = section_trigger
+        sections_kind1["CK1_HOUSING"] = section_house
+        sections_kind1["CK1_GUILD_HOUSE"] = section_guild_house
+        sections_kind1["CK1_CHEST"] = section_chest
+        sections_kind1["CK1_DOOR"] = section_door
+
+        for it in ctrls:
+            ctrl = ctrls[it]
+            section = None
+
+            if ctrl.dwCtrlKind1 in sections_kind1:
+                section = ET.SubElement(sections_kind1[ctrl.dwCtrlKind1], ctrl.dwID)
+
+            if section is None:
+                section = ET.SubElement(section_unknow, ctrl.dwID)
+
+            for key in ctrl.__dict__:
+                value = getattr(ctrl, key)
+                value = value.replace('"', "")
+                if self.skip_value(key, value) is True:
+                    continue
+                section.set(key, value)
+
+
+        tree = ET.ElementTree(root)
+        tree.write('propCtrl.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()
