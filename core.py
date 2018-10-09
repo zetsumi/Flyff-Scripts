@@ -16,6 +16,7 @@ from text import Text
 from mdldyna import MdlDyna
 from mdlobj import MdlObj
 from world import Worlds
+from propquest import PropQuest
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -38,6 +39,7 @@ file_propctrl = path_resource + "propCtrl.txt"
 file_propkarma = path_resource + "propKarma.txt"
 file_propskill = path_resource + "propSkill.txt"
 file_proptroupeskill = path_resource + "propTroupeSkill.txt"
+file_propquest = path_resource + "propQuest.inc"
 
 # file text
 file_text_propmover = path_resource + "propMover.txt.txt"
@@ -123,6 +125,10 @@ if __name__ == "__main__":
     worlds = Worlds()
     # worlds.load(path_world, defineWorld, defineDefine)
 
+    propquests = PropQuest()
+    if propquests.load(file_propquest) is None:
+        propquest = PropQuest()
+
     # packet.filter()
     # propitem.filter(path_icon_items, items, defineItem, textItem, movers)
     # propmover.filter(movers, defineObj, textMover, items)
@@ -149,9 +155,10 @@ if __name__ == "__main__":
     # propmover.write(movers)
     # cmdlobj.write(mdlobj)
 
-    propmover.write_new_config(movers)
-    propitem.write_new_config(items)
-    propskill.write_new_config(skills)
-    propctrl.write_new_config(ctrls)
-    propkarma.write_new_config(karmas)
+    # propmover.write_new_config(movers)
+    # propitem.write_new_config(items)
+    # propskill.write_new_config(skills)
+    # proptroupeskill.write_new_config(troupeSkills)
+    # propctrl.write_new_config(ctrls)
+    # propkarma.write_new_config(karmas)
 

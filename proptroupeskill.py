@@ -1,6 +1,7 @@
 import subprocess
 from collections import OrderedDict
 from logger import gLogger
+from lxml import etree as ET
 
 
 class PropTroupeSkill:
@@ -358,4 +359,38 @@ class PropTroupeSkill:
                 undeclared=len(troupeskill_icon_unfound),
                 total=len(troupeSkills)))
 
+        gLogger.reset_section()
+
+
+    def skip_value(self, key, value):
+        if key == "dwID":
+            return True
+        try:
+            v = int(value)
+            if v == 0:
+                return True
+        except:
+            if value == "=" or value == "":
+                return True
+        return False
+
+    def write_new_config(self, troupeSkills):
+        gLogger.set_section("propTroupeSkill")
+
+        root = ET.Element("troupeskills")
+
+        for it in troupeSkills:
+            troupeskill = troupeSkills[it]
+            section = ET.SubElement(root, "troupeskill")
+
+            section.set("dwID", troupeskill.dwID)
+            for key in troupeskill.__dict__:
+                value = getattr(troupeskill, key)
+                value = value.replace('"', "")
+                if self.skip_value(key, value) is True:
+                    continue
+                section.set(key, value)
+
+        tree = ET.ElementTree(root)
+        tree.write('xml/propTroupeSkill.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

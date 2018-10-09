@@ -514,6 +514,6 @@ class PropItem():
 
 
         tree = ET.ElementTree(root)
-        tree.write('xml/propitem.xml', pretty_print=True, xml_declaration=True)
+        tree.write('xml/propItem.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
