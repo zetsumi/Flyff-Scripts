@@ -313,18 +313,19 @@ class PropMover:
             if section is not None:
                 if section is movers_monsters:
                     if mover.dwClass != "=" and mover.dwClass in movers_monsters_rank:
-                        section = ET.SubElement(movers_monsters_rank[mover.dwClass], mover.dwID)
+                        section = ET.SubElement(movers_monsters_rank[mover.dwClass], "mover")
                 elif section is movers_players:
-                    section = ET.SubElement(movers_players, mover.dwID)
+                    section = ET.SubElement(movers_players, "mover")
                 elif section is movers_npcs:
-                    section = ET.SubElement(movers_npcs, mover.dwID)
+                    section = ET.SubElement(movers_npcs, "mover")
                 elif section is movers_pets:
-                    section = ET.SubElement(movers_pets, mover.dwID)
+                    section = ET.SubElement(movers_pets, "mover")
 
             if section is None:
                 gLogger.Error("Mover unknow")
-                section = ET.SubElement(movers_unknow, "unknow")
+                section = ET.SubElement(movers_unknow, "mover")
 
+            section.set("dwID", mover.dwID)
             for key in mover.__dict__:
                 value = getattr(mover, key)
                 value = value.replace('"', "")
@@ -334,6 +335,6 @@ class PropMover:
 
 
         tree = ET.ElementTree(root)
-        tree.write('propMover.xml', pretty_print=True, xml_declaration=True)
+        tree.write('xml/propMover.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()

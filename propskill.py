@@ -441,11 +441,12 @@ class PropSkill:
             section = None
 
             if skill.dwItemJob in sections_job:
-                section = ET.SubElement(sections_job[skill.dwItemJob], skill.dwID)
+                section = ET.SubElement(sections_job[skill.dwItemJob], "skill")
 
             if section is None:
                 section = section_unkonw
 
+            section.set("dwID", skill.dwID)
             for key in skill.__dict__:
                 value = getattr(skill, key)
                 value = value.replace('"', "")
@@ -454,5 +455,5 @@ class PropSkill:
                 section.set(key, value)
 
         tree = ET.ElementTree(root)
-        tree.write('propSkill.xml', pretty_print=True, xml_declaration=True)
+        tree.write('xml/propSkill.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

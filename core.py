@@ -27,6 +27,7 @@ path_icon = path_resource + "Icon/"
 path_model = path_resource +  "Model/"
 path_output = "./output/"
 path_filter = "./filter/"
+path_xml = "./xml/"
 path_world = path_resource + "World/"
 
 # file properties
@@ -73,6 +74,8 @@ if __name__ == "__main__":
         os.makedirs(path_output)
     if not os.path.exists(path_filter):
         os.makedirs(path_filter)
+    if not os.path.exists(path_xml):
+        os.makedirs(path_xml)
 
     mdldyna = MdlDyna()
     mdldyna.load(file_mdldyna)
@@ -146,9 +149,9 @@ if __name__ == "__main__":
     # propmover.write(movers)
     # cmdlobj.write(mdlobj)
 
-    # propmover.write_new_config(movers)
-    # propitem.write_new_config(items)
-    # propskill.write_new_config(skills)
-    # propctrl.write_new_config(ctrls)
-    # propkarma.write_new_config(karmas)
+    propmover.write_new_config(movers)
+    propitem.write_new_config(items)
+    propskill.write_new_config(skills)
+    propctrl.write_new_config(ctrls)
+    propkarma.write_new_config(karmas)
 

@@ -164,11 +164,12 @@ class PropCtrl:
             section = None
 
             if ctrl.dwCtrlKind1 in sections_kind1:
-                section = ET.SubElement(sections_kind1[ctrl.dwCtrlKind1], ctrl.dwID)
+                section = ET.SubElement(sections_kind1[ctrl.dwCtrlKind1], "ctrl")
 
             if section is None:
-                section = ET.SubElement(section_unknow, ctrl.dwID)
+                section = ET.SubElement(section_unknow, "ctrl")
 
+            section.set("dwID", ctrl.dwID)
             for key in ctrl.__dict__:
                 value = getattr(ctrl, key)
                 value = value.replace('"', "")
@@ -178,5 +179,5 @@ class PropCtrl:
 
 
         tree = ET.ElementTree(root)
-        tree.write('propCtrl.xml', pretty_print=True, xml_declaration=True)
+        tree.write('xml/propCtrl.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

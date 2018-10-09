@@ -497,13 +497,14 @@ class PropItem():
 
             if section is None and item.dwItemJob in sections_job:
                 if item.dwItemKind1 == "IK1_ARMOR":
-                    section = ET.SubElement(sections_job[item.dwItemJob]["armor"], item.dwID)
+                    section = ET.SubElement(sections_job[item.dwItemJob]["armor"], "item")
                 elif item.dwItemKind1 == "IK1_WEAPON":
-                    section = ET.SubElement(sections_job[item.dwItemJob]["weapon"], item.dwID)
+                    section = ET.SubElement(sections_job[item.dwItemJob]["weapon"], "item")
 
             if section is None and item.dwItemKind1 != "=" and item.dwItemKind1 in sections_ik1:
-                section = ET.SubElement(sections_ik1[item.dwItemKind1], item.dwID)
+                section = ET.SubElement(sections_ik1[item.dwItemKind1], "item")
 
+            section.set("dwID", item.dwID)
             for key in item.__dict__:
                 value = getattr(item, key)
                 value = value.replace('"', "")
@@ -513,6 +514,6 @@ class PropItem():
 
 
         tree = ET.ElementTree(root)
-        tree.write('propitem.xml', pretty_print=True, xml_declaration=True)
+        tree.write('xml/propitem.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
