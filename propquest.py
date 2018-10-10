@@ -296,7 +296,7 @@ class PropQuest:
             for action in quest.Dialog:
                 sub_section = ET.SubElement(section_questions, "dialog")
                 sub_section.set("action", action)
-                sub_section.set("dialog", quest.Dialog[action])
+                sub_section.set("text", quest.Dialog[action])
 
             for fct in quest.Setting:
                 setting = quest.Setting[fct]
