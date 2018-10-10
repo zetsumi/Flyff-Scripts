@@ -1,6 +1,8 @@
 import subprocess
 from collections import OrderedDict
 from logger import gLogger
+from lxml import etree as ET
+
 
 
 class MdlObj:
@@ -101,4 +103,53 @@ class MdlObj:
                 fd.write("\n")
             fd.write("}\n")
 
+        gLogger.reset_section()
+
+    def write_new_config(self, mdlobj):
+        gLogger.set_section("mdlobj")
+
+        root = ET.Element("actor")
+        section_static = ET.SubElement(root, "static")
+        section_dynamic = ET.SubElement(root, "dynamic")
+        section_billboard = ET.SubElement(root, "billboard")
+        sectiion_sfx = ET.SubElement(root, "sfx")
+        section_ase = ET.SubElement(root, "ase")
+        section_unknow = ET.SubElement(root, "unknow")
+
+        attr_order = [
+            "szName",
+            "iObject",
+            "dwModelType",
+            "szPart",
+            "bFly",
+            "bDistant",
+            "bPick",
+            "fScale",
+            "bTrans",
+            "bShadow",
+            "bTextureEx"
+        ]
+
+        actor_type = {
+            "MODELTYPE_NONE": section_unknow,
+            "MODELTYPE_MESH": section_static,
+            "MODELTYPE_ANIMATED_MESH": section_dynamic,
+            "MODELTYPE_BILLBOARD": section_billboard,
+            "MODELTYPE_SFX": sectiion_sfx,
+            "MODELTYPE_ASE": section_ase
+        }
+
+        for it in mdlobj:
+            obj = mdlobj[it]
+            section = section_unknow
+            if obj.dwModelType in actor_type:
+                section = ET.SubElement(actor_type[obj.dwModelType], "actor")
+            for attr in attr_order:
+                value = getattr(obj, attr)
+                value = value.replace('"', "")
+                if value is not None and value != "":
+                    section.set(attr, value)
+
+        tree = ET.ElementTree(root)
+        tree.write('xml/mdlobj.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

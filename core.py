@@ -119,15 +119,15 @@ if __name__ == "__main__":
     textSkill = OrderedDict(text.load(file_text_propskill))
     textTroupeSKill = OrderedDict(text.load(file_text_proptroupeskill))
 
-    packet = Packet()
+    # packet = Packet()
     # packet.load(file_msghdr)
 
-    worlds = Worlds()
+    # worlds = Worlds()
     # worlds.load(path_world, defineWorld, defineDefine)
 
-    propquests = PropQuest()
-    if propquests.load(file_propquest) is None:
-        propquests = PropQuest()
+    # propquests = PropQuest()
+    # if propquests.load(file_propquest) is None:
+    #     propquests = PropQuest()
 
     # packet.filter()
     # propitem.filter(path_icon_items, items, defineItem, textItem, movers)
@@ -161,5 +161,6 @@ if __name__ == "__main__":
     # proptroupeskill.write_new_config(troupeSkills)
     # propctrl.write_new_config(ctrls)
     # propkarma.write_new_config(karmas)
-    propquests.write_new_config()
+    # propquests.write_new_config()
+    cmdlobj.write_new_config(mdlobj)
 
