@@ -241,7 +241,7 @@ class PropQuest:
                 else:
                     self.Quests[q.Id] = q
                     line = line.replace("\t", "")
-                    if len(line) !=1  or line != "}":
+                    if len(line) != 1 or line != "}":
                         gLogger.error("line != }", line)
                         return None
                     new_quest = True
@@ -302,11 +302,22 @@ class PropQuest:
                 setting = quest.Setting[fct]
                 section_condition = ET.SubElement(section_conditions, "condition")
                 section_condition.set("function", fct)
+                if fct == "SetBeginCondPreviousQuest":
+                    section_condition.set("nBeginCondPreviousQuestType", setting[0])
                 for i in range(0, len(setting)):
                     if fct in ParamCondition:
                         section_condition.set(ParamCondition[fct][i], setting[i])
-                    # else:
-                    #     print(fct)
+                    elif fct == "SetBeginCondJob":
+                        section_condition.set(setting[i], "1")
+                    elif fct == "SetBeginCondPreviousQuest":
+                        if i == 0:
+                            section_condition.set("nBeginCondPreviousQuestType", setting[0])
+                        else:
+                            section_condition.set(setting[i], "1")
+                    else:
+                        gLogger.error("Condition unknow", fct)
+                        return None
+
 
             for value in quest.State:
                 state = quest.State[value]
