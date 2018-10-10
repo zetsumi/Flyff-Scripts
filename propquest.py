@@ -180,8 +180,8 @@ class PropQuest:
             return None
         number = line.replace("state", "").replace(" ", "").replace("\t", "")
         q.State[number] = dict()
-        last_inc = None
 
+        last_inc = ""
         while True:
             line = fd.readline().replace("\n", "").replace("\t", "")
             if len(line) <= 0:
@@ -193,10 +193,10 @@ class PropQuest:
                     continue
                 if "IDS" not in line:
                     if line not in q.State[number]:
-                        q.State[number][line] = list()
-                    last_inc = q.State[number][line]
-                else:
-                    last_inc.append(line)
+                        q.State[number][line] = ""
+                    last_inc = line
+                elif "IDS" in line:
+                    q.State[number][last_inc] = line
 
         return True
 
@@ -288,6 +288,7 @@ class PropQuest:
             section_quest = ET.SubElement(root, "quest")
             section_questions = ET.SubElement(section_quest, "questions")
             section_conditions = ET.SubElement(section_quest, "conditions")
+            section_states = ET.SubElement(section_quest, "states")
 
             section_quest.set("dwID", quest.Id.replace("\"", ""))
             section_quest.set("szTitle", quest.Title)
@@ -304,9 +305,16 @@ class PropQuest:
                 for i in range(0, len(setting)):
                     if fct in ParamCondition:
                         section_condition.set(ParamCondition[fct][i], setting[i])
+                    # else:
+                    #     print(fct)
 
-            # for value in quest.State:
-            #     print(value)
+            for value in quest.State:
+                state = quest.State[value]
+                section = ET.SubElement(section_states, "state")
+                section.set("type", value)
+                for fct in state:
+                    param = state[fct]
+                    section.set(fct, param)
 
         tree = ET.ElementTree(root)
         tree.write('xml/propQuest.xml', pretty_print=True, xml_declaration=True)
