@@ -2892,7 +2892,7 @@ QUEST_MASDU1
 	
 	SetDialog 
 	(	
-		0,	
+		,
 		IDS_PROPQUEST_INC_000427
 	);
 

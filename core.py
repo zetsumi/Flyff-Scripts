@@ -127,7 +127,7 @@ if __name__ == "__main__":
 
     propquests = PropQuest()
     if propquests.load(file_propquest) is None:
-        propquest = PropQuest()
+        propquests = PropQuest()
 
     # packet.filter()
     # propitem.filter(path_icon_items, items, defineItem, textItem, movers)
@@ -161,4 +161,5 @@ if __name__ == "__main__":
     # proptroupeskill.write_new_config(troupeSkills)
     # propctrl.write_new_config(ctrls)
     # propkarma.write_new_config(karmas)
+    propquests.write_new_config()
 

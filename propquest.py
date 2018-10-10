@@ -2,6 +2,81 @@ from lxml import etree as ET
 from collections import OrderedDict
 from logger import gLogger
 
+QAction = {
+    "0": "QSAY_BEGIN1",
+    "1": "QSAY_BEGIN2",
+    "2": "QSAY_BEGIN3",
+    "3": "QSAY_BEGIN4",
+    "4": "QSAY_BEGIN5",
+    "5": "QSAY_BEGIN_YES",
+    "6": "QSAY_BEGIN_NO",
+    "7": "QSAY_END_COMPLETE1",
+    "8": "QSAY_END_COMPLETE2",
+    "9": "QSAY_END_COMPLETE3",
+    "10": "QSAY_END_FAILURE1",
+    "11": "QSAY_END_FAILURE2",
+    "12": "QSAY_END_FAILURE3",
+}
+
+ParamCondition = {
+    "SetCharacter": ["szCharacterName", "dwLang"],
+    "SetNPCName": ["szNPCName"],
+    "SetBeginCondSex": ["nBeginCondSex"],
+    "SetBeginCondSkillLvl": ["nBeginCondSkillIdx", "nBeginCondSkillLvl"],
+    "SetBeginCondPKValue": ["nBeginCondPKValue"],
+    "SetBeginCondNotItem": ["nSex", "nType", "nJobOrItem", "nItemIdx", "nItemNum"],
+    "SetBeginCondLevel": ["nBeginCondLevelMin", "nBeginCondLevelMax"],
+    "SetBeginCondParty": ["nBeginCondParty", "nBeginCondPartyNumComp", "nBeginCondPartyNum", "nBeginCondPartyLeader"],
+    "SetBeginCondGuild": ["nBeginCondGuild", "nBeginCondGuildNumComp", "nBeginCondGuildNum", "nBeginCondGuildLeader"],
+    "SetBeginCondItem": ["nSex", "nType", "nJobOrItem", "nItemIdx", "nItemNum"],
+    "SetBeginCondDisguise": ["nBeginCondDisguiseMoverIndex"],
+    "SetBeginSetDisguise": ["nBeginSetDisguiseMoverIndex"],
+    "SetBeginSetAddGold": ["nBeginSetAddGold"],
+    "SetBeginSetAddItem": ["nIdx", "nBeginSetAddItemIdx", "nBeginSetAddItemNum"],
+    "SetBeginCondPetExp": ["nBeginCondPetExp"],
+    "SetBeginCondPetLevel": ["nBeginCondPetLevel"],
+    "SetBeginCondTutorialState": ["nBeginCondTutorialState"],
+    "SetBeginCondTSP": ["nBeginCondTSP"],
+    "SetEndCondParty": ["nEndCondParty", "nEndCondPartyNumComp", "nEndCondPartyNum", "nEndCondPartyLeader"],
+    "SetEndCondGuild": ["nEndCondGuild", "nEndCondGuildNumComp", "nEndCondGuildNum", "nEndCondGuildLeader"],
+    "SetEndCondState": ["nEndCondState"],
+    "SetEndCondSkillLvl": ["nEndCondSkillIdx", "nEndCondSkillLvl"],
+    "SetEndCondLevel": ["nEndCondLevelMin", "nEndCondLevelMax"],
+    "SetEndCondExpPercent": ["nEndCondExpPercentMin", "nEndCondExpPercentMax"],
+    "SetEndCondGold": ["nEndCondGold"],
+    "SetEndCondOneItem": ["nSex", "nType", "nJobOrItem", "nItemIdx", "nItemNum"],
+    "SetEndCondLimitTime": ["nEndCondLimitTime"],
+    "SetEndCondItem": ["nSex", "nType", "nJobOrItem", "nItemIdx", "nItemNum", "fGoalPositionX", "fGoalPositionZ", "dwGoalTextID"],
+    "SetEndCondKillNPC": ["nIdx", "nEndCondKillNPCIdx", "nEndCondKillNPCNum", "fGoalPositionX", "fGoalPositionZ", "dwGoalTextID"],
+    "SetEndCondPatrolZone": ["dwEndCondPatrolWorld", "left", "top", "right", "bottom", "dwPatrolDestinationID", "fGoalPositionX", "fGoalPositionZ", "dwGoalTextID"],
+    "SetEndCondCharacter": ["szEndCondCharacter", "fGoalPositionX", "fGoalPositionZ", "dwGoalTextID"],
+    "SetEndCondDialog": ["szEndCondDlgCharKey", "szEndCondDlgAddKey", "fGoalPositionX", "fGoalPositionZ", "dwGoalTextID"],
+    "SetEndCondPetLevel": ["nEndCondPetLevel"],
+    "SetEndCondPetExp": ["nEndCondPetExp"],
+    "SetEndCondDisguise": ["nEndCondDisguiseMoverIndex"],
+    "SetParam": ["nIdx", "nParam"],
+    "SetEndCondTSP": ["nEndCondTSP"],
+    "SetDlgRewardItem": ["nIdx", "nDlgRewardItemIdx", "nDlgRewardItemNum"],
+    "SetEndRewardItem": ["nSex", "nType", "nJobOrItem", "nItemIdx", "nItemNum", "byFlag"],
+    "SetEndRewardItemWithAbilityOption": ["nSex", "nType", "nJobOrItem", "nItemIdx", "nItemNum", "m_nAbilityOption", "byFlag"],
+    "SetEndRewardGold": ["nEndRewardGoldMin", "nEndRewardGoldMax"],
+    "SetEndRewardPetLevelup": ["bEndRewardPetLevelup"],
+    "SetEndRewardExp": ["nEndRewardExpMin", "nEndRewardExpMax"],
+    "SetEndRewardSkillPoint": ["nEndRewardSkillPoint"],
+    "SetEndRewardPKValue": ["nEndRewardPKValueMin", "nEndRewardPKValueMax"],
+    "SetEndRewardTeleport": ["nEndRewardTeleport", "x", "y", "z"],
+    "SetEndRewardHide": ["bEndRewardHide"],
+    "SetEndRemoveItem": ["nIdx", "nEndRemoveItemIdx", "nEndRemoveItemNum"],
+    "SetEndRemoveGold": ["nEndRemoveGold"],
+    "SetRepeat": ["bRepeat"],
+    "QuestItem": ["dwMoverIdx", "dwIndex", "dwProbability", "dwNumber"],
+    "SetEndRewardTSP": ["nEndRewardTSP"],
+    "SetEndRemoveTSP": ["nEndRemoveTSP"],
+    "SetHeadQuest": ["nHeadQuest"],
+    "SetQuestType": ["nQuestType"],
+    "SetRemove": ["bNoRemove"]
+}
+
 
 class Quest:
 
@@ -47,7 +122,7 @@ class PropQuest:
             return None
 
         while True:
-            line = fd.readline().replace("\n", "").replace("\t", "")
+            line = fd.readline().replace("\n", "").replace("\t", "").replace(" ", "").replace("\"", "")
             if len(line) <= 0:
                 continue
             elif "}" in line:
@@ -77,7 +152,7 @@ class PropQuest:
         action = None
         text = None
         while True:
-            line = fd.readline().replace("\n", "").replace("\t", "")
+            line = fd.readline().replace("\n", "").replace("\t", "").replace(",", "").replace(" ", "")
             if len(line) <= 0 or line == "":
                 continue
             if ")" in line:
@@ -89,7 +164,10 @@ class PropQuest:
 
         if action is None or text is None:
             return False
+
         action = action.replace(",", "")
+        if action in QAction:
+            action = QAction[action]
         text = text.replace(",", "")
         q.Dialog[action] = text
         return True
@@ -171,6 +249,7 @@ class PropQuest:
         # self.__print__()
 
         gLogger.reset_section()
+        return True
 
 
     def __print__(self):
@@ -198,3 +277,38 @@ class PropQuest:
                         ss += params
                         ss += " "
                     print("\t\t\t", ss)
+
+    def write_new_config(self):
+        gLogger.set_section("propQuest")
+
+        root = ET.Element("quests")
+
+        for it in self.Quests:
+            quest = self.Quests[it]
+            section_quest = ET.SubElement(root, "quest")
+            section_questions = ET.SubElement(section_quest, "questions")
+            section_conditions = ET.SubElement(section_quest, "conditions")
+
+            section_quest.set("dwID", quest.Id.replace("\"", ""))
+            section_quest.set("szTitle", quest.Title)
+
+            for action in quest.Dialog:
+                sub_section = ET.SubElement(section_questions, "dialog")
+                sub_section.set("action", action)
+                sub_section.set("dialog", quest.Dialog[action])
+
+            for fct in quest.Setting:
+                setting = quest.Setting[fct]
+                section_condition = ET.SubElement(section_conditions, "condition")
+                section_condition.set("function", fct)
+                for i in range(0, len(setting)):
+                    if fct in ParamCondition:
+                        section_condition.set(ParamCondition[fct][i], setting[i])
+
+            # for value in quest.State:
+            #     print(value)
+
+        tree = ET.ElementTree(root)
+        tree.write('xml/propQuest.xml', pretty_print=True, xml_declaration=True)
+        gLogger.reset_section()
+        return True
