@@ -642,7 +642,7 @@ QUEST_1
 		SetEndCondLevel( 5, 150 );
 		SetEndCondItem( -1, 0, -1, II_SYS_SYS_QUE_SBURUDENGTOOTH, 20 );
 		SetEndRemoveItem( 0, II_SYS_SYS_QUE_SBURUDENGTOOTH, -1 );
-                SetEndRewardGold( 500, 500 );
+		SetEndRewardGold( 500, 500 );
 		SetHeadQuest( 6004 );
 	}
 
