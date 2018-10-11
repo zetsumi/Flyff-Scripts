@@ -53,6 +53,7 @@ class MdlDyna:
         self.sfxs = dict()
         self.ships = dict()
         self.paths = dict()
+        self.regions = dict()
 
     def __remove_element__(self, line):
         newline = line.replace("\n", "")
@@ -95,6 +96,8 @@ class MdlDyna:
                         pointer = self.ships
                     elif type == "path":
                         pointer = self.paths
+                    elif type == "region":
+                        pointer = self.regions
                 if len(arr) == 12:
                     id = arr[1]
                     pointer[id] = dict()
@@ -130,6 +133,7 @@ class MdlDyna:
         section_sfxs = ET.SubElement(root, "sfxs")
         section_ships = ET.SubElement(root, "ships")
         section_paths = ET.SubElement(root, "paths")
+        section_regions = ET.SubElement(root, "regions")
 
         for it in self.items:
             section = ET.SubElement(section_items, "item")
@@ -184,6 +188,17 @@ class MdlDyna:
             for i in range(0, len(ModelParams)):
                 key = ModelParams[i]
                 value = path[key]
+                section.set(key, value)
+
+        for it in self.regions:
+            section = ET.SubElement(section_regions, "region")
+            region = self.regions[it]
+            if item["dwModelType"] != "MODELTYPE_MESH":
+                gLogger.error("Region have wrong model type:", it, item["dwModelType"])
+                return None
+            for i in range(0, len(ModelParams)):
+                key = ModelParams[i]
+                value = region[key]
                 section.set(key, value)
 
         tree = ET.ElementTree(root)
