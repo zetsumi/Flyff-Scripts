@@ -1,5 +1,4 @@
-﻿// Model Script
-// szName, iObject, dwModelType, szPart, bFly, bDistant, bPick, fScale, bTrans, bShadow bTextureEx 
+﻿// szName, iObject, dwModelType, szPart, bFly, bDistant, bPick, fScale, bTrans, bShadow bTextureEx
 
 "obj" 0
 {

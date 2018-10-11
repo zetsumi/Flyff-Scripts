@@ -162,5 +162,6 @@ if __name__ == "__main__":
     # propctrl.write_new_config(ctrls)
     # propkarma.write_new_config(karmas)
     # propquests.write_new_config()
-    cmdlobj.write_new_config(mdlobj)
+    # cmdlobj.write_new_config(mdlobj)
+    mdldyna.write_new_config()
 

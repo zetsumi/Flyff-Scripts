@@ -81,7 +81,6 @@ class MdlObj:
             if (out == "" or len(out) <= 0) and it not in mdlobj_model_missing:
                 mdlobj_model_missing.append(it)
 
-
         gLogger.write("./filter/mdlobj_undeclared.txt", mdlobj_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Obj undeclared:",
                 undeclared=len(mdlobj_undeclared),
