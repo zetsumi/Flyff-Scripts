@@ -83,9 +83,9 @@ class Quest:
     def __init__(self):
         self.Id = 0
         self.Title = ""
-        self.Setting = OrderedDict()
-        self.Dialog = OrderedDict()
-        self.State = OrderedDict()
+        self.Setting = dict()
+        self.Dialog = dict()
+        self.State = dict()
 
 
 class PropQuest:
