@@ -375,7 +375,7 @@ class PropItem():
                 total=len(items)))
         gLogger.reset_section()
 
-        return items_undeclared, items_used, icon_unfound, item_name_undeclared, item_comment_undeclared
+        return items_undeclared, items_used, items_icon_unfound, item_name_undeclared, item_comment_undeclared
 
 
     def write(self, items):

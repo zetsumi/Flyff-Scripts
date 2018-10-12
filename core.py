@@ -130,7 +130,7 @@ if __name__ == "__main__":
     #     propquests = PropQuest()
 
     # packet.filter()
-    # propitem.filter(path_icon_items, items, defineItem, textItem, movers)
+    # propitem.filter(path_icon_item, items, defineItem, textItem, movers)
     # propmover.filter(movers, defineObj, textMover, items)
     # propctrl.filter(ctrls, defineObj, defineItemkind, textCtrl)
     # propskill.filter(skills, defineSkill, defineDefine, defineObj, defineJob, defineAttribute, defineNeuz, defineSound, path_icon, textSkill)
@@ -163,5 +163,5 @@ if __name__ == "__main__":
     # propkarma.write_new_config(karmas)
     # propquests.write_new_config()
     # cmdlobj.write_new_config(mdlobj)
-    mdldyna.write_new_config()
+    # mdldyna.write_new_config()
 
