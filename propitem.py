@@ -2,274 +2,146 @@ import subprocess
 from lxml import etree as ET
 from collections import OrderedDict
 from logger import gLogger
+from text import Text
+from define import Define
+
+ItemParameters = {
+    "version": 0,
+    "dwID": 1,
+    "szName": 2,
+    "dwNum": 3,
+    "dwPackMax": 4,
+    "dwItemKind1": 5,
+    "dwItemKind2": 6,
+    "dwItemKind3": 7,
+    "dwItemJob": 8,
+    "bPermanence": 9,
+    "dwUseable": 10,
+    "dwItemSex": 11,
+    "dwCost": 12,
+    "dwEndurance": 13,
+    "nAbrasion": 14,
+    "nMaxRepair": 15,
+    "dwHanded": 16,
+    "dwFlag": 17,
+    "dwParts": 18,
+    "dwPartsub": 19,
+    "bPartFile": 20,
+    "dwExclusive": 21,
+    "dwBasePartsIgnore": 22,
+    "dwItemLV": 23,
+    "dwItemRare": 24,
+    "dwShopAble": 25,
+    "bLog": 26,
+    "bCharged": 27,
+    "dwLinkKindBullet": 28,
+    "dwLinkKind": 29,
+    "dwAbilityMin": 30,
+    "dwAbilityMax": 31,
+    "eItemType": 32,
+    "wItemEAtk": 33,
+    "dwParry": 34,
+    "dwBlockRating": 35,
+    "dwAddSkillMin": 36,
+    "dwAddSkillMax": 37,
+    "dwAtkStyle": 38,
+    "dwWeaponType": 39,
+    "dwItemAtkOrder1": 40,
+    "dwItemAtkOrder2": 41,
+    "dwItemAtkOrder3": 42,
+    "dwItemAtkOrder4": 43,
+    "bContinuousPain": 44,
+    "dwShellQuantity": 45,
+    "dwRecoil": 46,
+    "dwLoadingTime": 47,
+    "nAdjHitRate": 48,
+    "dwAttackSpeed": 49,
+    "dwDmgShift": 50,
+    "dwAttackRange": 51,
+    "dwProbability": 52,
+    "dwDestParam1": 53,
+    "dwDestParam2": 54,
+    "dwDestParam3": 55,
+    "nAdjParamVal1": 56,
+    "nAdjParamVal2": 57,
+    "nAdjParamVal3": 58,
+    "dwChgParamVal1": 59,
+    "dwChgParamVal2": 60,
+    "dwChgParamVal3": 61,
+    "dwdestData1": 62,
+    "dwdestData2": 63,
+    "dwdestData3": 64,
+    "dwactiveskill": 65,
+    "dwactiveskillLv": 66,
+    "dwactiveskillper": 67,
+    "dwReqMp": 68,
+    "dwRepFp": 69,
+    "dwReqDisLV": 70,
+    "dwReSkill1": 71,
+    "dwReSkillLevel1": 72,
+    "dwReSkill2": 73,
+    "dwReSkillLevel2": 74,
+    "dwSkillReadyType": 75,
+    "dwSkillReady": 76,
+    "dwSkillRange": 77,
+    "dwSfxElemental": 78,
+    "dwSfxObj": 79,
+    "dwSfxObj2": 80,
+    "dwSfxObj3": 81,
+    "dwSfxObj4": 82,
+    "dwSfxObj5": 83,
+    "dwUseMotion": 84,
+    "dwCircleTime": 85,
+    "dwSkillTime": 86,
+    "dwExeTarget": 87,
+    "dwUseChance": 88,
+    "dwSpellRegion": 89,
+    "dwSpellType": 90,
+    "dwReferStat1": 91,
+    "dwReferStat2": 92,
+    "dwReferTarget1": 93,
+    "dwReferTarget2": 94,
+    "dwReferValue1": 95,
+    "dwReferValue2": 96,
+    "dwSkillType": 97,
+    "fItemResistElecricity": 98,
+    "fItemResistFire": 99,
+    "fItemResistWind": 100,
+    "fItemResistWater": 101,
+    "fItemResistEarth": 102,
+    "nEvildoing": 103,
+    "dwExpertLV": 104,
+    "ExpertMax": 105,
+    "dwSubDefine": 106,
+    "dwExp": 107,
+    "dwComboStyle": 108,
+    "fFlightSpeed": 109,
+    "fFlightLRAngle": 110,
+    "fFlightTBAngle": 111,
+    "dwFlightLimit": 112,
+    "dwFFuelReMax": 113,
+    "dwAFuelReMax": 114,
+    "dwFuelRe": 115,
+    "dwLimitLevel1": 116,
+    "dwReflect": 117,
+    "dwSndAttack1": 118,
+    "dwSndAttack2": 119,
+    "szIcon": 120,
+    "dwQuestID": 121,
+    "szTextFile": 122,
+    "szComment": 123
+}
 
 
 class PropItem():
+
     def __init__(self):
-        self.version = 0
-        self.dwID = 1
-        self.szName = 2
-        self.dwNum = 3
-        self.dwPackMax = 4
-        self.dwItemKind1 = 5
-        self.dwItemKind2 = 6
-        self.dwItemKind3 = 7
-        self.dwItemJob = 8
-        self.bPermanence = 9
-        self.dwUseable = 10
-        self.dwItemSex = 11
-        self.dwCost = 12
-        self.dwEndurance = 13
-        self.nAbrasion = 14
-        self.nMaxRepair = 15
-        self.dwHanded = 16
-        self.dwFlag = 17
-        self.dwParts = 18
-        self.dwPartsub = 19
-        self.bPartFile = 20
-        self.dwExclusive = 21
-        self.dwBasePartsIgnore = 22
-        self.dwItemLV = 23
-        self.dwItemRare = 24
-        self.dwShopAble = 25
-        self.bLog = 26
-        self.bCharged = 27
-        self.dwLinkKindBullet = 28
-        self.dwLinkKind = 29
-        self.dwAbilityMin = 30
-        self.dwAbilityMax = 31
-        self.eItemType = 32
-        self.wItemEAtk = 33
-        self.dwParry = 34
-        self.dwBlockRating = 35
-        self.dwAddSkillMin = 36
-        self.dwAddSkillMax = 37
-        self.dwAtkStyle = 38
-        self.dwWeaponType = 39
-        self.dwItemAtkOrder1 = 40
-        self.dwItemAtkOrder2 = 41
-        self.dwItemAtkOrder3 = 42
-        self.dwItemAtkOrder4 = 43
-        self.bContinuousPain = 44
-        self.dwShellQuantity = 45
-        self.dwRecoil = 46
-        self.dwLoadingTime = 47
-        self.nAdjHitRate = 48
-        self.dwAttackSpeed = 49
-        self.dwDmgShift = 50
-        self.dwAttackRange = 51
-        self.dwProbability = 52
-        self.dwDestParam1 = 53
-        self.dwDestParam2 = 54
-        self.dwDestParam3 = 55
-        self.nAdjParamVal1 = 56
-        self.nAdjParamVal2 = 57
-        self.nAdjParamVal3 = 58
-        self.dwChgParamVal1 = 59
-        self.dwChgParamVal2 = 60
-        self.dwChgParamVal3 = 61
-        self.dwdestData1 = 62
-        self.dwdestData2 = 63
-        self.dwdestData3 = 64
-        self.dwactiveskill = 65
-        self.dwactiveskillLv = 66
-        self.dwactiveskillper = 67
-        self.dwReqMp = 68
-        self.dwRepFp = 69
-        self.dwReqDisLV = 70
-        self.dwReSkill1 = 71
-        self.dwReSkillLevel1 = 72
-        self.dwReSkill2 = 73
-        self.dwReSkillLevel2 = 74
-        self.dwSkillReadyType = 75
-        self.dwSkillReady = 76
-        self.dwSkillRange = 77
-        self.dwSfxElemental = 78
-        self.dwSfxObj = 79
-        self.dwSfxObj2 = 80
-        self.dwSfxObj3 = 81
-        self.dwSfxObj4 = 82
-        self.dwSfxObj5 = 83
-        self.dwUseMotion = 84
-        self.dwCircleTime = 85
-        self.dwSkillTime = 86
-        self.dwExeTarget = 87
-        self.dwUseChance = 88
-        self.dwSpellRegion = 89
-        self.dwSpellType = 90
-        self.dwReferStat1 = 91
-        self.dwReferStat2 = 92
-        self.dwReferTarget1 = 93
-        self.dwReferTarget2 = 94
-        self.dwReferValue1 = 95
-        self.dwReferValue2 = 96
-        self.dwSkillType = 97
-        self.fItemResistElecricity = 98
-        self.fItemResistFire = 99
-        self.fItemResistWind = 100
-        self.fItemResistWater = 101
-        self.fItemResistEarth = 102
-        self.nEvildoing = 103
-        self.dwExpertLV = 104
-        self.ExpertMax = 105
-        self.dwSubDefine = 106
-        self.dwExp = 107
-        self.dwComboStyle = 108
-        self.fFlightSpeed = 109
-        self.fFlightLRAngle = 110
-        self.fFlightTBAngle = 111
-        self.dwFlightLimit = 112
-        self.dwFFuelReMax = 113
-        self.dwAFuelReMax = 114
-        self.dwFuelRe = 115
-        self.dwLimitLevel1 = 116
-        self.dwReflect = 117
-        self.dwSndAttack1 = 118
-        self.dwSndAttack2 = 119
-        self.szIcon = 120
-        self.dwQuestID = 121
-        self.szTextFile = 122
-        self.szComment = 123
+        self.items = dict()
+        self.text = Text()
+        self.define = Define()
 
 
-    def toString(item):
-        toString = str(item.version) + " " + \
-            str(item.dwID) + " " + \
-            str(item.szName) + " " + \
-            str(item.dwNum) + " " + \
-            str(item.dwPackMax) + " " + \
-            str(item.dwItemKind1) + " " + \
-            str(item.dwItemKind2) + " " + \
-            str(item.dwItemKind3) + " " + \
-            str(item.dwItemJob) + " " + \
-            str(item.bPermanence) + " " + \
-            str(item.dwUseable) + " " + \
-            str(item.dwItemSex) + " " + \
-            str(item.dwCost) + " " + \
-            str(item.dwEndurance) + " " + \
-            str(item.nAbrasion) + " " + \
-            str(item.nMaxRepair) + " " + \
-            str(item.dwHanded) + " " + \
-            str(item.dwFlag) + " " + \
-            str(item.dwParts) + " " + \
-            str(item.dwPartsub) + " " + \
-            str(item.bPartFile) + " " + \
-            str(item.dwExclusive) + " " + \
-            str(item.dwBasePartsIgnore) + " " + \
-            str(item.dwItemLV) + " " + \
-            str(item.dwItemRare) + " " + \
-            str(item.dwShopAble) + " " + \
-            str(item.bLog) + " " + \
-            str(item.bCharged) + " " + \
-            str(item.dwLinkKindBullet) + " " + \
-            str(item.dwLinkKind) + " " + \
-            str(item.dwAbilityMin) + " " + \
-            str(item.dwAbilityMax) + " " + \
-            str(item.eItemType) + " " + \
-            str(item.wItemEAtk) + " " + \
-            str(item.dwParry) + " " + \
-            str(item.dwBlockRating) + " " + \
-            str(item.dwAddSkillMin) + " " + \
-            str(item.dwAddSkillMax) + " " + \
-            str(item.dwAtkStyle) + " " + \
-            str(item.dwWeaponType) + " " + \
-            str(item.dwItemAtkOrder1) + " " + \
-            str(item.dwItemAtkOrder2) + " " + \
-            str(item.dwItemAtkOrder3) + " " + \
-            str(item.dwItemAtkOrder4) + " " + \
-            str(item.bContinuousPain) + " " + \
-            str(item.dwShellQuantity) + " " + \
-            str(item.dwRecoil) + " " + \
-            str(item.dwLoadingTime) + " " + \
-            str(item.nAdjHitRate) + " " + \
-            str(item.dwAttackSpeed) + " " + \
-            str(item.dwDmgShift) + " " + \
-            str(item.dwAttackRange) + " " + \
-            str(item.dwProbability) + " " + \
-            str(item.dwDestParam1) + " " + \
-            str(item.dwDestParam2) + " " + \
-            str(item.dwDestParam3) + " " + \
-            str(item.nAdjParamVal1) + " " + \
-            str(item.nAdjParamVal2) + " " + \
-            str(item.nAdjParamVal3) + " " + \
-            str(item.dwChgParamVal1) + " " + \
-            str(item.dwChgParamVal2) + " " + \
-            str(item.dwChgParamVal3) + " " + \
-            str(item.dwdestData1) + " " + \
-            str(item.dwdestData2) + " " + \
-            str(item.dwdestData3) + " " + \
-            str(item.dwactiveskill) + " " + \
-            str(item.dwactiveskillLv) + " " + \
-            str(item.dwactiveskillper) + " " + \
-            str(item.dwReqMp) + " " + \
-            str(item.dwRepFp) + " " + \
-            str(item.dwReqDisLV) + " " + \
-            str(item.dwReSkill1) + " " + \
-            str(item.dwReSkillLevel1) + " " + \
-            str(item.dwReSkill2) + " " + \
-            str(item.dwReSkillLevel2) + " " + \
-            str(item.dwSkillReadyType) + " " + \
-            str(item.dwSkillReady) + " " + \
-            str(item.dwSkillRange) + " " + \
-            str(item.dwSfxElemental) + " " + \
-            str(item.dwSfxObj) + " " + \
-            str(item.dwSfxObj2) + " " + \
-            str(item.dwSfxObj3) + " " + \
-            str(item.dwSfxObj4) + " " + \
-            str(item.dwSfxObj5) + " " + \
-            str(item.dwUseMotion) + " " + \
-            str(item.dwCircleTime) + " " + \
-            str(item.dwSkillTime) + " " + \
-            str(item.dwExeTarget) + " " + \
-            str(item.dwUseChance) + " " + \
-            str(item.dwSpellRegion) + " " + \
-            str(item.dwSpellType) + " " + \
-            str(item.dwReferStat1) + " " + \
-            str(item.dwReferStat2) + " " + \
-            str(item.dwReferTarget1) + " " + \
-            str(item.dwReferTarget2) + " " + \
-            str(item.dwReferValue1) + " " + \
-            str(item.dwReferValue2) + " " + \
-            str(item.dwSkillType) + " " + \
-            str(item.fItemResistElecricity) + " " + \
-            str(item.fItemResistFire) + " " + \
-            str(item.fItemResistWind) + " " + \
-            str(item.fItemResistWater) + " " + \
-            str(item.fItemResistEarth) + " " + \
-            str(item.nEvildoing) + " " + \
-            str(item.dwExpertLV) + " " + \
-            str(item.ExpertMax) + " " + \
-            str(item.dwSubDefine) + " " + \
-            str(item.dwExp) + " " + \
-            str(item.dwComboStyle) + " " + \
-            str(item.fFlightSpeed) + " " + \
-            str(item.fFlightLRAngle) + " " + \
-            str(item.fFlightTBAngle) + " " + \
-            str(item.dwFlightLimit) + " " + \
-            str(item.dwFFuelReMax) + " " + \
-            str(item.dwAFuelReMax) + " " + \
-            str(item.dwFuelRe) + " " + \
-            str(item.dwLimitLevel1) + " " + \
-            str(item.dwReflect) + " " + \
-            str(item.dwSndAttack1) + " " + \
-            str(item.dwSndAttack2) + " " + \
-            str(item.szIcon) + " " + \
-            str(item.dwQuestID) + " " + \
-            str(item.szTextFile) + " " + \
-            str(item.szComment)
-        toString = toString.replace(" ", "\t")
-        return toString
-
-
-    def getIdMax(self):
-        return 123
-
-
-    def getSize(self):
-        return self.getIdMax() + 1
-
-
-    def skip_preproc(self, string):
+    def __skip_preproc__(self, string):
         if "#ifdef" in string or \
             "# ifdef" in string or \
             "#endif" in string or \
@@ -280,136 +152,102 @@ class PropItem():
         return False
 
 
-    def load(self, f):
-        gLogger.set_section("propitem")
-        gLogger.info("loading: ", f)
-        items = OrderedDict()
-        with open(f, "r") as fd:
+    def load(self, file_item, file_text, file_define):
+        with open(file_item, "r") as fd:
             for line in fd:
+                if self.__skip_preproc__(line) is True or "//" in line:
+                    continue
                 line = line.replace("\n", "")
-                line = line.replace(" ", "\t")
-                if "//" in line or \
-                    len(line) <= 0 or \
-                    line == "" or \
-                    self.skip_preproc(line) is True:
-                    continue
                 arr = line.split("\t")
-                cpy = list()
+                copy = []
                 for it in arr:
-                    if it != "" and len(it) > 0:
-                        cpy.append(it)
-                arr = cpy
-                if len(arr) < self.getSize():
+                    if it != "":
+                        copy.append(it)
+                arr = copy
+                if len(arr) <= 1:
                     continue
-                try:
-                    int(arr[0])
-                except:
+                if len(arr) != len(ItemParameters):
+                    gLogger.error("Syntaxe error detected", line)
                     continue
-                items[arr[self.dwID]] = PropItem()
-                for key in self.__dict__:
-                    setattr(items[arr[self.dwID]], key, arr[getattr(self, key)])
-        gLogger.reset_section()
-        return items
+                item_id = arr[1]
+                self.items[item_id] = dict()
+                for key in ItemParameters:
+                    self.items[item_id][key] = arr[ItemParameters[key]].replace("\"", "")
+        self.text.load(file_text)
+        self.define.load(file_define)
+        return True
 
 
-    def filter(self, path_icon, items, defineItem, textItems, movers):
+    def filter(self, path_icon):
         gLogger.set_section("propitem")
+        gLogger.info("Filtering")
 
         items_undeclared = []
-        items_used = []
+        items_unused = []
         items_icon_unfound = []
         item_name_undeclared = []
         item_comment_undeclared = []
 
+        for key in self.items:
+            item = self.items[key]
+            if key not in self.define.datas:
+                items_undeclared.append(key)
+            if item["szName"] not in self.text.datas:
+                item_name_undeclared.append(key)
+            if item["szComment"] not in self.text.datas:
+                item_comment_undeclared.append(key)
+            if len(item["szIcon"]) > 0:
+                icon = item["szIcon"]
+                out = subprocess.check_output(['find', path_icon, '-iname', icon])
+                if out == "" or len(out) <= 0:
+                    items_icon_unfound.append(icon)
 
-        gLogger.info("ID")
-        gLogger.info("Name and Comment")
-        for it in items:
-            item = items[it]
-            if item.dwID not in defineItem:
-                items_undeclared.append(it)
-            if item.szName not in textItems:
-                if item.szName not in item_name_undeclared:
-                    item_name_undeclared.append(item.szName)
-            if item.szComment not in textItems:
-                if item.szComment not in item_comment_undeclared:
-                    item_comment_undeclared.append(item.szComment)
-
-        gLogger.info("define item")
-        for it in defineItem:
-            if it not in items:
-                items_used.append(it)
-
-        gLogger.info("icon exists")
-        for it in items:
-            icon = items[it].szIcon
-            icon = icon.replace('"', "")
-            icon = icon.replace(" ", "")
-            icon = icon.replace("\t", "")
-            if len(icon) <= 0 or icon == "" or icon == "=":
-                continue
-            out = subprocess.check_output(['find', path_icon, '-iname', icon])
-            if out == "" or len(out) <= 0:
-                items_icon_unfound.append(icon)
+        for it in self.define.datas:
+            define = self.define.datas[it]
+            if define.key not in self.items:
+                items_unused.append(define.key)
 
 
         gLogger.write("./filter/items_undeclared.txt", items_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Items undeclared:",
                 undeclared=len(items_undeclared),
-                total=len(items)))
-        gLogger.write("./filter/items_used.txt", items_used, "{infos}: {undeclared}/{total}".format(
+                total=len(self.items)))
+        gLogger.write("./filter/items_undefined.txt", items_unused, "{infos}: {undeclared}/{total}".format(
                 infos="Items unused:",
-                undeclared=len(items_used),
-                total=len(items)))
+                undeclared=len(items_unused),
+                total=len(self.items)))
         gLogger.write("./filter/items_icon_unfound.txt", items_icon_unfound, "{infos}: {undeclared}/{total}".format(
                 infos="Icon unfound:",
                 undeclared=len(items_icon_unfound),
-                total=len(items)))
+                total=len(self.items)))
         gLogger.write("./filter/item_name_undeclared.txt", item_name_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Name undeclared:",
                 undeclared=len(item_name_undeclared),
-                total=len(items)))
+                total=len(self.items)))
         gLogger.write("./filter/item_comment_undeclared.txt", item_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Comment undeclared:",
                 undeclared=len(item_comment_undeclared),
-                total=len(items)))
+                total=len(self.items)))
         gLogger.reset_section()
 
-        return items_undeclared, items_used, items_icon_unfound, item_name_undeclared, item_comment_undeclared
-
-
-    def write(self, items):
-        gLogger.set_section("propitem")
-        gLogger.info("Writing propItem.txt")
-        with open("output/propItem.txt", "w") as fd:
-            for index in items:
-                item = items[index]
-                line = item.toString().replace("\t", " ")
-                fd.write(line + "\n")
-        gLogger.reset_section()
         return True
 
 
-    def replace(self, text):
-        if self.szName != "=":
-            if len(self.szName) >= 0 and self.szName != "" and self.szName in text:
-                self.szName = '\"' + text[self.szName] + '\"'
-        if self.szComment != "=":
-            if self.szComment != "" and len(self.szComment) > 0 and self.szComment in text:
-                self.szComment = '\"' + text[self.szComment] + '\"'
-        if self.szTextFile != "=":
-            if self.szTextFile != "" and len(self.szTextFile) > 0 and self.szTextFile in text:
-                self.szTextFile = '\"' + text[self.szTextFile] + '\"'
-
-
-    def remove(self, items, delete):
-        if len(delete) <= 0:
-            return False
-        gLogger.info("Removing on propitem")
-
-        for it in delete:
-            if it in items:
-                del items[it]
+    def replace(self):
+        for it in self.items:
+            item = self.items[it]
+            name = item["szName"]
+            comment = item["szComment"]
+            text_file = item["szTextFile"]
+            if name != "=":
+                if len(name) >= 0 and name != "" and name in self.text.datas:
+                    self.items[it]["szName"] = self.text.datas[name]
+            if comment != "=":
+                if len(comment) >= 0 and comment != "" and comment in self.text.datas:
+                    self.items[it]["szComment"] = self.text.datas[comment]
+            if text_file != "=":
+                if len(text_file) >= 0 and text_file != "" and text_file in self.text.datas:
+                    self.items[it]["szTextFile"] = self.text.datas[text_file]
 
 
     def skip_value(self, key, value):
@@ -424,7 +262,7 @@ class PropItem():
                 return True
         return False
 
-    def write_new_config(self, items):
+    def write_new_config(self):
         gLogger.set_section("propitem")
 
         root = ET.Element("items")
@@ -443,7 +281,6 @@ class PropItem():
         section_weapon_job_master = ET.SubElement(section_weapons, "master")
         section_weapon_job_hero = ET.SubElement(section_weapons, "hero")
 
-
         sections_ik1 = dict()
         sections_ik1["IK1_GOLD"] = section_gold
         sections_ik1["IK1_WEAPON"] = section_weapons
@@ -453,7 +290,6 @@ class PropItem():
         sections_ik1["IK1_SYSTEM"] = section_system
         sections_ik1["IK1_CHARGED"] = section_charged
         sections_ik1["IK1_HOUSING"] = section_housing
-        
 
         sections_job = dict()
         sections_job["JOB_VAGRANT"] = {"armor": ET.SubElement(section_armor, "vagrant"), "weapon":ET.SubElement(section_weapons,"vagrant")}
@@ -469,7 +305,6 @@ class PropItem():
         sections_job["JOB_BILLPOSTER"] = {"armor": ET.SubElement(section_armor,"billposter"), "weapon":ET.SubElement(section_weapons,"billposter")}
         sections_job["JOB_PSYCHIKEEPER"] = {"armor": ET.SubElement(section_armor,"psychikeeper"), "weapon":ET.SubElement(section_weapons,"psychikeeper")}
         sections_job["JOB_ELEMENTOR"] = {"armor": ET.SubElement(section_armor,"elementor"), "weapon":ET.SubElement(section_weapons,"elementor")}
-
 
         sections_job["JOB_KNIGHT_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"knight"), "weapon":ET.SubElement(section_weapon_job_master,"knight")}
         sections_job["JOB_BLADE_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"blade"), "weapon":ET.SubElement(section_weapon_job_master,"blade")}
@@ -489,29 +324,28 @@ class PropItem():
         sections_job["JOB_PSYCHIKEEPER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"psychikeeper"), "weapon":ET.SubElement(section_weapon_job_hero,"psychikeeper")}
         sections_job["JOB_ELEMENTOR_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"elementor"), "weapon":ET.SubElement(section_weapon_job_hero,"elementor")}
 
-
-
-        for it in items:
-            item = items[it]
+        for it in self.items:
+            item = self.items[it]
             section = None
 
-            if section is None and item.dwItemJob in sections_job:
-                if item.dwItemKind1 == "IK1_ARMOR":
-                    section = ET.SubElement(sections_job[item.dwItemJob]["armor"], "item")
-                elif item.dwItemKind1 == "IK1_WEAPON":
-                    section = ET.SubElement(sections_job[item.dwItemJob]["weapon"], "item")
+            if section is None and item["dwItemJob"] in sections_job:
+                if item["dwItemKind1"] == "IK1_ARMOR":
+                    section = ET.SubElement(sections_job[item["dwItemJob"]]["armor"], "item")
+                elif item["dwItemKind1"] == "IK1_WEAPON":
+                    section = ET.SubElement(sections_job[item["dwItemJob"]]["weapon"], "item")
 
-            if section is None and item.dwItemKind1 != "=" and item.dwItemKind1 in sections_ik1:
-                section = ET.SubElement(sections_ik1[item.dwItemKind1], "item")
+            if section is None and item["dwItemKind1"] != "=" and item["dwItemKind1"] in sections_ik1:
+                section = ET.SubElement(sections_ik1[item["dwItemKind1"]], "item")
 
-            section.set("dwID", item.dwID)
-            for key in item.__dict__:
-                value = getattr(item, key)
-                value = value.replace('"', "")
+            if section is None:
+                section = section_unknow
+
+            section.set("dwID", item["dwID"])
+            for key in item:
+                value = item[key].replace('"', "")
                 if self.skip_value(key, value) is True:
                     continue
                 section.set(key, value)
-
 
         tree = ET.ElementTree(root)
         tree.write('xml/propItem.xml', pretty_print=True, xml_declaration=True)

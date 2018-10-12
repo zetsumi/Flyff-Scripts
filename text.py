@@ -1,25 +1,24 @@
 
-from collections import OrderedDict
 from logger import gLogger
 
 
 class Text:
 
-
     def __init__(self):
+        self.datas = dict()
         self.key = ""
         self.data = ""
 
 
     def toString(self):
-        toString = str(self.key) + "\t" + str(self.data)
-        return toString()
+        value = str(self.key) + "\t" + str(self.data)
+        return value
 
 
     def load(self, f):
         gLogger.set_section("text")
         gLogger.info("Loading: ", f)
-        texts = OrderedDict()
+        self.datas = dict()
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
@@ -36,12 +35,7 @@ class Text:
                         text.data = it
                     else:
                         text.data += str(" " + it)
-                if text.key != "" and text.key not in texts:
-                    texts[text.key] = text.data
+                if text.key != "" and text.key not in self.datas:
+                    self.datas[text.key] = text.data
         gLogger.reset_section()
-        return texts
-
-
-    def get_data(self, texts, key):
-        for it in texts:
-            print(it)
+        return self.datas

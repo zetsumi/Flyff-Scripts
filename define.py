@@ -3,12 +3,13 @@ from logger import gLogger
 
 class Define:
     def __init__(self):
+        self.datas = dict()
         self.key = ""
-        self.data = ""
+        self.value = ""
 
     def toString(self):
-        toString = str("#define" + " " + str(self.key) + " " + str(self.data))
-        return toString
+        rslt = str("#define" + " " + str(self.key) + " " + str(self.value))
+        return rslt
 
     def skip_preproc(self, string):
         if "#ifdef" in string or \
@@ -23,7 +24,6 @@ class Define:
     def load(self, f):
         gLogger.set_section("define")
         gLogger.info("Loading: ", f)
-        defines = OrderedDict()
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
@@ -39,18 +39,18 @@ class Define:
                 for it in arr:
                     if it != "" and len(it) > 0:
                         try:
-                            define.data = int(it)
+                            define.value = int(it)
                         except:
                             if define.key == "":
                                 define.key = it
                             else:
-                                define.data = it
-                    if define.key != "" and define.data != "":
+                                define.value = it
+                    if define.key != "" and define.value != "":
                         break
-                if define.key != "" and define.data != "" and define.key not in defines:
-                    defines[define.key] = define
+                if define.key != "" and define.value != "" and define.key not in self.datas:
+                    self.datas[define.key] = define
         gLogger.reset_section()
-        return defines
+        return self.datas
 
 
     def write(self, f, defines, sep="\t"):

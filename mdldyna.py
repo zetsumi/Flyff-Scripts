@@ -128,20 +128,6 @@ class MdlDyna:
         gLogger.reset_section()
 
 
-    def filter(self, items):
-        gLogger.set_section("mdldyna")
-
-        item_unused = []
-        for it in items:
-            if it not in self.items:
-                item_unused.append(it)
-        
-        if len(item_unused) > 0:
-            gLogger.info("item_unused {}/{}".format(len(item_unused), len(self.items)))
-
-        gLogger.reset_section()
-
-
     def __write_sub_section__(self, arr, xml_section, title, list_type):
         for index in arr:
             section = ET.SubElement(xml_section, title)
