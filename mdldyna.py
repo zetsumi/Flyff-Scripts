@@ -124,6 +124,20 @@ class MdlDyna:
         gLogger.reset_section()
 
 
+    def __write_sub_section(self, arr, xml_section, title, list_type):
+        for index in arr:
+            section = ET.SubElement(xml_section, title)
+            object = arr[index]
+            if object["dwModelType"] not in list_type:
+                gLogger.error(title, "have wrong model type:", index, object["dwModelType"])
+                return None
+            for i in range(0, len(ModelParams)):
+                key = ModelParams[i]
+                value = object[key]
+                section.set(key, value)
+        return True
+
+
     def write_new_config(self):
         gLogger.set_section("mdldyna")
 
@@ -135,71 +149,19 @@ class MdlDyna:
         section_paths = ET.SubElement(root, "paths")
         section_regions = ET.SubElement(root, "regions")
 
-        for it in self.items:
-            section = ET.SubElement(section_items, "item")
-            item = self.items[it]
-            if item["dwModelType"] != "MODELTYPE_MESH" and item["dwModelType"] != "MODELTYPE_ANIMATED_MESH":
-                gLogger.error("Item have wrong model type:", it, item["dwModelType"])
-                return None
-            for i in range(0, len(ModelParams)):
-                key = ModelParams[i]
-                value = item[key]
-                section.set(key, value)
+        if self.__write_sub_section(self.items, section_items, "item", ["MODELTYPE_MESH", "MODELTYPE_ANIMATED_MESH"]) is None:
+            return None
+        if self.__write_sub_section(self.ctrls, section_ctrls, "ctrl", ["MODELTYPE_MESH", "MODELTYPE_SFX", "MODELTYPE_ANIMATED_MESH", "MODELTYPE_BILLBOARD"]) is None:
+            return None
+        if self.__write_sub_section(self.sfxs, section_sfxs, "sfx", ["MODELTYPE_SFX"]) is None:
+            return None
+        if self.__write_sub_section(self.ships, section_ships, "ship", ["MODELTYPE_MESH", "MODELTYPE_ANIMATED_MESH"]) is None:
+            return None
+        if self.__write_sub_section(self.paths, section_paths, "path", ["MODELTYPE_MESH"]) is None:
+            return None
+        if self.__write_sub_section(self.regions, section_regions, "region", ["MODELTYPE_MESH"]) is None:
+            return None
 
-        for it in self.ctrls:
-            section = ET.SubElement(section_ctrls, "ctrl")
-            ctrl = self.ctrls[it]
-            if item["dwModelType"] != "MODELTYPE_MESH" and item["dwModelType"] != "MODELTYPE_SFX" and item["dwModelType"] != "MODELTYPE_ANIMATED_MESH":
-                gLogger.error("Ctrl have wrong model type:", it, item["dwModelType"])
-                return None
-            for i in range(0, len(ModelParams)):
-                key = ModelParams[i]
-                value = ctrl[key]
-                section.set(key, value)
-
-        for it in self.sfxs:
-            section = ET.SubElement(section_sfxs, "sfx")
-            sfx = self.sfxs[it]
-            if item["dwModelType"] != "MODELTYPE_MESH" and item["dwModelType"] != "MODELTYPE_SFX" and item["dwModelType"] != "MODELTYPE_ANIMATED_MESH":
-                gLogger.error("Sfx have wrong model type:", it, item["dwModelType"])
-                return None
-            for i in range(0, len(ModelParams)):
-                key = ModelParams[i]
-                value = sfx[key]
-                section.set(key, value)
-
-        for it in self.ships:
-            section = ET.SubElement(section_ships, "ship")
-            ship = self.ships[it]
-            if item["dwModelType"] != "MODELTYPE_MESH" and item["dwModelType"] != "MODELTYPE_SFX":
-                gLogger.error("Ship have wrong model type:", it, item["dwModelType"])
-                return None
-            for i in range(0, len(ModelParams)):
-                key = ModelParams[i]
-                value = ship[key]
-                section.set(key, value)
-
-        for it in self.paths:
-            section = ET.SubElement(section_paths, "path")
-            path = self.paths[it]
-            if item["dwModelType"] != "MODELTYPE_MESH":
-                gLogger.error("Path have wrong model type:", it, item["dwModelType"])
-                return None
-            for i in range(0, len(ModelParams)):
-                key = ModelParams[i]
-                value = path[key]
-                section.set(key, value)
-
-        for it in self.regions:
-            section = ET.SubElement(section_regions, "region")
-            region = self.regions[it]
-            if item["dwModelType"] != "MODELTYPE_MESH":
-                gLogger.error("Region have wrong model type:", it, item["dwModelType"])
-                return None
-            for i in range(0, len(ModelParams)):
-                key = ModelParams[i]
-                value = region[key]
-                section.set(key, value)
 
         tree = ET.ElementTree(root)
         tree.write('xml/mdldyna.xml', pretty_print=True, xml_declaration=True)
