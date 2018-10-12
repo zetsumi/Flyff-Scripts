@@ -54,6 +54,7 @@ class MdlDyna:
         self.ships = dict()
         self.paths = dict()
         self.regions = dict()
+        self.movers = dict()
 
     def __remove_element__(self, line):
         newline = line.replace("\n", "")
@@ -74,9 +75,10 @@ class MdlDyna:
     def load(self, f):
         gLogger.set_section("mdldyna")
         gLogger.info("Loading: ", f)
-        type = "None"
         pointer = None
         with open(f, "r") as fd:
+            type_model = ""
+            index = ""
             for line in fd:
                 line = self.__remove_element__(line)
                 if "{" in line or "}" in line:
@@ -84,29 +86,45 @@ class MdlDyna:
                 arr = self.__filter_arr__(line.split("\t"))
                 if arr is None or len(arr) <= 0 or arr == []:
                     continue
+
                 if len(arr) == 2 and "MTI" not in arr[1] and arr[1].isdigit():
-                    type = TypeItem[int(arr[1])]
-                    if type == "item":
+                    type_model = TypeItem[int(arr[1])]
+                    if type_model == "item":
                         pointer = self.items
-                    elif type == "ctrl":
+                    elif type_model == "ctrl":
                         pointer = self.ctrls
-                    elif type == "sfx":
+                    elif type_model == "sfx":
                         pointer = self.sfxs
-                    elif type == "ship":
+                    elif type_model == "ship":
                         pointer = self.ships
-                    elif type == "path":
+                    elif type_model == "path":
                         pointer = self.paths
-                    elif type == "region":
+                    elif type_model == "region":
                         pointer = self.regions
-                if len(arr) == 12:
-                    id = arr[1]
-                    pointer[id] = dict()
+                    elif type_model == "mvr":
+                        pointer = self.movers
+                    else:
+                        pointer = None
+
+                if pointer is not None and len(arr) == 2 and "MTI" in arr[1]:
+                    pointer[index]["motion"][arr[0].replace('"', "")] = arr[1].replace('"', "")
+                    pass
+
+                if len(arr) != 12:
+                    continue
+
+                if len(arr) == 12 and pointer is not None:
+                    index = arr[1]
+                    pointer[index] = dict()
+                    if type_model == "mvr":
+                        pointer[index]["motion"] = dict()
                     for i in ModelParams:
                         key = ModelParams[i]
                         value = arr[i].replace('"', "")
                         if len(value) == 0:
                             value = ""
-                        pointer[id][key] = value
+                        pointer[index][key] = value
+
         gLogger.reset_section()
 
 
@@ -124,7 +142,7 @@ class MdlDyna:
         gLogger.reset_section()
 
 
-    def __write_sub_section(self, arr, xml_section, title, list_type):
+    def __write_sub_section__(self, arr, xml_section, title, list_type):
         for index in arr:
             section = ET.SubElement(xml_section, title)
             object = arr[index]
@@ -137,6 +155,24 @@ class MdlDyna:
                 section.set(key, value)
         return True
 
+    def __write_sub_section_mover__(self, arr, xml_section, title, list_type):
+        for index in arr:
+            section = ET.SubElement(xml_section, title)
+            object = arr[index]
+            if object["dwModelType"] not in list_type:
+                gLogger.error(title, "have wrong model type:", index, object["dwModelType"])
+                return None
+            for i in range(0, len(ModelParams)):
+                key = ModelParams[i]
+                value = object[key]
+                section.set(key, value)
+            section_motion = ET.SubElement(section, "motions")
+            for key in object["motion"]:
+                value = object["motion"][key]
+                sub_section = ET.SubElement(section_motion, "motion")
+                sub_section.set(key, value)
+
+        return True
 
     def write_new_config(self):
         gLogger.set_section("mdldyna")
@@ -148,20 +184,22 @@ class MdlDyna:
         section_ships = ET.SubElement(root, "ships")
         section_paths = ET.SubElement(root, "paths")
         section_regions = ET.SubElement(root, "regions")
+        section_movers = ET.SubElement(root, "movers")
 
-        if self.__write_sub_section(self.items, section_items, "item", ["MODELTYPE_MESH", "MODELTYPE_ANIMATED_MESH"]) is None:
+        if self.__write_sub_section__(self.items, section_items, "item", ["MODELTYPE_MESH", "MODELTYPE_ANIMATED_MESH"]) is None:
             return None
-        if self.__write_sub_section(self.ctrls, section_ctrls, "ctrl", ["MODELTYPE_MESH", "MODELTYPE_SFX", "MODELTYPE_ANIMATED_MESH", "MODELTYPE_BILLBOARD"]) is None:
+        if self.__write_sub_section__(self.ctrls, section_ctrls, "ctrl", ["MODELTYPE_MESH", "MODELTYPE_SFX", "MODELTYPE_ANIMATED_MESH", "MODELTYPE_BILLBOARD"]) is None:
             return None
-        if self.__write_sub_section(self.sfxs, section_sfxs, "sfx", ["MODELTYPE_SFX"]) is None:
+        if self.__write_sub_section__(self.sfxs, section_sfxs, "sfx", ["MODELTYPE_SFX"]) is None:
             return None
-        if self.__write_sub_section(self.ships, section_ships, "ship", ["MODELTYPE_MESH", "MODELTYPE_ANIMATED_MESH"]) is None:
+        if self.__write_sub_section__(self.ships, section_ships, "ship", ["MODELTYPE_MESH", "MODELTYPE_ANIMATED_MESH"]) is None:
             return None
-        if self.__write_sub_section(self.paths, section_paths, "path", ["MODELTYPE_MESH"]) is None:
+        if self.__write_sub_section__(self.paths, section_paths, "path", ["MODELTYPE_MESH"]) is None:
             return None
-        if self.__write_sub_section(self.regions, section_regions, "region", ["MODELTYPE_MESH"]) is None:
+        if self.__write_sub_section__(self.regions, section_regions, "region", ["MODELTYPE_MESH"]) is None:
             return None
-
+        if self.__write_sub_section_mover__(self.movers, section_movers, "mover", ["MODELTYPE_ANIMATED_MESH"]) is None:
+            return None
 
         tree = ET.ElementTree(root)
         tree.write('xml/mdldyna.xml', pretty_print=True, xml_declaration=True)
