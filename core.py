@@ -2,7 +2,6 @@ import sys
 import subprocess
 import os
 import shutil
-from collections import OrderedDict
 from packet import Packet
 from logger import gLogger
 from propmover import PropMover
@@ -72,6 +71,7 @@ file_msghdr = path_resource + "MsgHdr.h"
 if __name__ == "__main__":
     gLogger.info("Running Flyff Properties ", version_binary)
 
+    # Create directories
     if not os.path.exists(path_output):
         os.makedirs(path_output)
     if not os.path.exists(path_filter):
@@ -79,32 +79,35 @@ if __name__ == "__main__":
     if not os.path.exists(path_xml):
         os.makedirs(path_xml)
 
-    mdldyna = MdlDyna()
-    mdldyna.load(file_mdldyna)
+    # Scope mdldyna
+    # mdldyna = MdlDyna()
+    # mdldyna.load(file_mdldyna)
 
-    cmdlobj = MdlObj()
-    mdlobj = cmdlobj.load(file_mdldobj)
+    # Scope mdlobj
+    # cmdlobj = MdlObj()
+    # mdlobj = cmdlobj.load(file_mdldobj)
 
     # Scope to filter propitem
-    propitem = PropItem()
-    propitem.load(file_propitem, file_text_propitem, file_define_item)
+    # propitem = PropItem()
+    # propitem.load(file_propitem, file_text_propitem, file_define_item)
     # propitem.filter(path_icon_item)
     # propitem.replace()
     # propitem.write_new_config()
 
     # scope to filter propmover
-    propmover = PropMover()
-    if propmover.load(file_propmover, file_text_propmover, file_define_obj) is False:
-        gLogger.error("Error detected during the load propmover")
-    propmover.items = propitem.items
-    propmover.filter()
-    propmover.write_new_config()
+    # propmover = PropMover()
+    # if propmover.load(file_propmover, file_text_propmover, file_define_obj) is False:
+    #     gLogger.error("Error detected during the load propmover")
+    # propmover.items = propitem.items
+    # propmover.filter()
+    # propmover.write_new_config()
 
+    #Scope World
     # worlds = Worlds()
     # worlds.load(path_world, defineWorld, defineDefine)
 
+    # Scope Quests
     # propquests = PropQuest()
     # if propquests.load(file_propquest) is None:
     #     propquests = PropQuest()
-
 
