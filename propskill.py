@@ -377,10 +377,6 @@ class PropSkill:
         gLogger.reset_section()
 
     
-    def test(self):
-        print(self.__dict__)
-
-    
     def skip_value(self, key, value):
         if key == "dwID":
             return True
