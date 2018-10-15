@@ -34,7 +34,6 @@ path_world = path_resource + "World/"
 # file properties
 file_propitem = path_resource + "propItem.txt"
 file_propmover = path_resource + "propMover.txt"
-file_propitem_txt = path_resource + "propItem.txt.txt"
 file_propctrl = path_resource + "propCtrl.txt"
 file_propkarma = path_resource + "propKarma.txt"
 file_propskill = path_resource + "propSkill.txt"
@@ -42,6 +41,7 @@ file_proptroupeskill = path_resource + "propTroupeSkill.txt"
 file_propquest = path_resource + "propQuest.inc"
 
 # file text
+file_txt_propitem = path_resource + "propItem.txt.txt"
 file_text_propmover = path_resource + "propMover.txt.txt"
 file_text_propitem = path_resource + "propItem.txt.txt"
 file_text_propctrl = path_resource + "propCtrl.txt.txt"
@@ -85,11 +85,20 @@ if __name__ == "__main__":
     cmdlobj = MdlObj()
     mdlobj = cmdlobj.load(file_mdldobj)
 
+    # Scope to filter propitem
     propitem = PropItem()
-    propitem.load(file_propitem, file_propitem_txt, file_define_item)
-    propitem.filter(path_icon_item)
-    propitem.replace()
-    propitem.write_new_config()
+    propitem.load(file_propitem, file_text_propitem, file_define_item)
+    # propitem.filter(path_icon_item)
+    # propitem.replace()
+    # propitem.write_new_config()
+
+    # scope to filter propmover
+    propmover = PropMover()
+    if propmover.load(file_propmover, file_text_propmover, file_define_obj) is False:
+        gLogger.error("Error detected during the load propmover")
+    propmover.items = propitem.items
+    propmover.filter()
+    propmover.write_new_config()
 
     # worlds = Worlds()
     # worlds.load(path_world, defineWorld, defineDefine)
@@ -99,4 +108,3 @@ if __name__ == "__main__":
     #     propquests = PropQuest()
 
 
-    # propitem.write_new_config(items)

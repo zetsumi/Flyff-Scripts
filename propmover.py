@@ -1,119 +1,103 @@
 from lxml import etree as ET
 from collections import OrderedDict
 from logger import gLogger
+from text import Text
+from define import Define
 
+MoverParams = {
+    "dwID": 0,
+    "szName": 1,
+    "dwAI": 2,
+    "dwStr": 3,
+    "dwSta": 4,
+    "dwDex": 5,
+    "dwInt": 6,
+    "dwHR": 7,
+    "dwER": 8,
+    "dwRace": 9,
+    "dwBelligerence": 10,
+    "dwGender": 11,
+    "dwLevel": 12,
+    "dwFilghtLevel": 13,
+    "dwSize": 14,
+    "dwClass": 15,
+    "bIfPart": 16,
+    "dwKarma": 17,
+    "dwUseable": 18,
+    "dwActionRadius": 19,
+    "dwAtkMin": 20,
+    "dwAtkMax": 21,
+    "dwAtk1": 22,
+    "dwAtk2": 23,
+    "dwAtk3": 24,
+    "dwHorizontalRate": 25,
+    "dwVerticalRate": 26,
+    "dwDiagonalRate": 27,
+    "dwThrustRate": 28,
+    "dwChestRate": 29,
+    "dwHeadRate": 30,
+    "dwArmRate": 31,
+    "dwLegRate": 32,
+    "dwAttackSpeed": 33,
+    "dwReAttackDelay": 34,
+    "dwAddHp": 35,
+    "dwAddMp": 36,
+    "dwNaturealArmor": 37,
+    "nAbrasion": 38,
+    "nHardness": 39,
+    "dwAdjAtkDelay": 40,
+    "eElementType": 41,
+    "wElementAtk": 42,
+    "dwHideLevel": 43,
+    "fSpeed": 44,
+    "dwShelter": 45,
+    "bFlying": 46,
+    "dwJumpIng": 47,
+    "dwAirJump": 48,
+    "bTaming": 49,
+    "dwResisMagic": 50,
+    "fResistElecricity": 51,
+    "fResistFire": 52,
+    "fResistWind": 53,
+    "fResistWater": 54,
+    "fResistEarth": 55,
+    "dwCash": 56,
+    "dwSourceMaterial": 57,
+    "dwMaterialAmount": 58,
+    "dwCohesion": 59,
+    "dwHoldingTime": 60,
+    "dwCorrectionValue": 61,
+    "dwExpValue": 62,
+    "nFxpValue": 63,
+    "nBodyState": 64,
+    "dwAddAbility": 65,
+    "bKillable": 66,
+    "dwVirtItem1": 67,
+    "dwVirtType1": 68,
+    "dwVirtItem2": 69,
+    "dwVirtType2": 70,
+    "dwVirtItem3": 71,
+    "dwVirtType3": 72,
+    "dwSndAtk1": 73,
+    "dwSndAtk2": 74,
+    "dwSndDie1": 75,
+    "dwSndDie2": 76,
+    "dwSndDmg1": 77,
+    "dwSndDmg2": 78,
+    "dwSndDmg3": 79,
+    "dwSndIdle1": 80,
+    "dwSndIdle2": 81,
+    "szComment": 82
+}
 
 class PropMover:
 
     
     def __init__(self):
-        self.dwID = 0
-        self.szName = 1
-        self.dwAI = 2
-        self.dwStr = 3
-        self.dwSta = 4
-        self.dwDex = 5
-        self.dwInt = 6
-        self.dwHR = 7
-        self.dwER = 8
-        self.dwRace = 9
-        self.dwBelligerence = 10
-        self.dwGender = 11
-        self.dwLevel = 12
-        self.dwFilghtLevel = 13
-        self.dwSize = 14
-        self.dwClass = 15
-        self.bIfPart = 16
-        self.dwKarma = 17
-        self.dwUseable = 18
-        self.dwActionRadius = 19
-        self.dwAtkMin = 20
-        self.dwAtkMax = 21
-        self.dwAtk1 = 22
-        self.dwAtk2 = 23
-        self.dwAtk3 = 24
-        self.dwHorizontalRate = 25
-        self.dwVerticalRate = 26
-        self.dwDiagonalRate = 27
-        self.dwThrustRate = 28
-        self.dwChestRate = 29
-        self.dwHeadRate = 30
-        self.dwArmRate = 31
-        self.dwLegRate = 32
-        self.dwAttackSpeed = 33
-        self.dwReAttackDelay = 34
-        self.dwAddHp = 35
-        self.dwAddMp = 36
-        self.dwNaturealArmor = 37
-        self.nAbrasion = 38
-        self.nHardness = 39
-        self.dwAdjAtkDelay = 40
-        self.eElementType = 41
-        self.wElementAtk = 42
-        self.dwHideLevel = 43
-        self.fSpeed = 44
-        self.dwShelter = 45
-        self.bFlying = 46
-        self.dwJumpIng = 47
-        self.dwAirJump = 48
-        self.bTaming = 49
-        self.dwResisMagic = 50
-        self.fResistElecricity = 51
-        self.fResistFire = 52
-        self.fResistWind = 53
-        self.fResistWater = 54
-        self.fResistEarth = 55
-        self.dwCash = 56
-        self.dwSourceMaterial = 57
-        self.dwMaterialAmount = 58
-        self.dwCohesion = 59
-        self.dwHoldingTime = 60
-        self.dwCorrectionValue = 61
-        self.dwExpValue = 62
-        self.nFxpValue = 63
-        self.nBodyState = 64
-        self.dwAddAbility = 65
-        self.bKillable = 66
-        self.dwVirtItem1 = 67
-        self.dwVirtType1 = 68
-        self.dwVirtItem2 = 69
-        self.dwVirtType2 = 70
-        self.dwVirtItem3 = 71
-        self.dwVirtType3 = 72
-        self.dwSndAtk1 = 73
-        self.dwSndAtk2 = 74
-        self.dwSndDie1 = 75
-        self.dwSndDie2 = 76
-        self.dwSndDmg1 = 77
-        self.dwSndDmg2 = 78
-        self.dwSndDmg3 = 79
-        self.dwSndIdle1 = 80
-        self.dwSndIdle2 = 81
-        self.szComment = 82
-
-
-    def toString(self):
-        toString = str(str(self.dwID) + " " + str(self.szName) + " " + \
-            str(self.dwAI) + " " + str(self.dwStr) + " " + str(self.dwSta) + " " + str(self.dwDex) + " " + \
-            str(self.dwInt) + " " + str(self.dwHR) + " " + str(self.dwER) + " " + str(self.dwRace) + " " + str(self.dwBelligerence) + " " + \
-            str(self.dwGender) + " " + str(self.dwLevel) + " " + str(self.dwFilghtLevel) + " " + str(self.dwSize) + " " + \
-            str(self.dwClass) + " " + str(self.bIfPart) + " " +  str(self.dwKarma) + " " + str(self.dwUseable) + " " + \
-            str(self.dwActionRadius) + " " + str(self.dwAtkMin) + " " + str(self.dwAtkMax) + " " + str(self.dwAtk1) + " " + \
-            str(self.dwAtk2) + " " + str(self.dwAtk3) + " " +  str(self.dwHorizontalRate) + " " + \
-            str(self.dwVerticalRate) + " " + str(self.dwDiagonalRate) + " " + str(self.dwThrustRate) + " " + \
-            str(self.dwChestRate) + " " + str(self.dwHeadRate) + " " + str(self.dwArmRate) + " " + str(self.dwLegRate) + " " + str(self.dwAttackSpeed) + " " + \
-            str(self.dwReAttackDelay) + " " + str(self.dwAddHp) + " " + str(self.dwAddMp) + " " + str(self.dwNaturealArmor) + " " + \
-            str(self.nAbrasion) + " " + str(self.nHardness) + " " + str(self.dwAdjAtkDelay) + " " + str(self.eElementType) + " " + \
-            str(self.wElementAtk) + " " + str(self.dwHideLevel) + " " + str(self.fSpeed) + " " + str(self.dwShelter) + " " + str(self.bFlying) + " " + \
-            str(self.dwJumpIng) + " " + str(self.dwAirJump) + " " + str(self.bTaming) + " " + str(self.dwResisMagic) + " " + str(self.fResistElecricity) + " " + \
-            str(self.fResistFire) + " " + str(self.fResistWind) + " " + str(self.fResistWater) + " " + str(self.fResistEarth) + " " + str(self.dwCash) + " " + \
-            str(self.dwSourceMaterial) + " " + str(self.dwMaterialAmount) + " " + str(self.dwCohesion) + " " + str(self.dwHoldingTime) + " " + \
-            str(self.dwCorrectionValue) + " " + str(self.dwExpValue) + " " + str(self.nFxpValue) + " " + str(self.nBodyState) + " " + \
-            str(self.dwAddAbility) + " " + str(self.bKillable) + " " + str(self.dwVirtItem1) + " " + str(self.dwVirtType1) + " " + str(self.dwVirtItem2) + " " + \
-            str(self.dwVirtType2) + " " + str(self.dwVirtItem3) + " " + str(self.dwVirtType3) + " " + str(self.dwSndAtk1) + " " + str(self.dwSndAtk2) + " " + \
-            str(self.dwSndDie1) + " " + str(self.dwSndDie2) + " " + str(self.dwSndDmg1) + " " + str(self.dwSndDmg2) + " " + str(self.dwSndDmg3) + " " + \
-            str(self.dwSndIdle1) + " " + str(self.dwSndIdle2) + " " + str(self.szComment))
-        return toString
+        self.movers = dict()
+        self.text = Text()
+        self.define = Define()
+        self.items = None
 
 
     def getIdMax(self):
@@ -135,37 +119,42 @@ class PropMover:
         return False
 
 
-    def load(self, f):
+    def load(self, file_prop, file_txt, file_define):
         gLogger.set_section("propmover")
-        gLogger.info("Loading: ", f)
-        movers = OrderedDict()
-        with open(f, "r") as fd:
+        gLogger.info("Loading: ", file_txt, file_txt, file_define)
+
+        with open(file_prop, "r") as fd:
             for line in fd:
+                if self.skip_preproc(line) is True:
+                    continue
+                if "//" in line:
+                    continue
                 line = line.replace("\n", "")
-                line = line.replace(" ", "\t")
-                if "//" in line or \
-                    len(line) <= 0 or \
-                    line == "" or \
-                    self.skip_preproc(line) is True:
-                    continue
                 arr = line.split("\t")
-                cpy = list()
+                copy = []
                 for it in arr:
-                    if it != "" and len(it) > 0:
-                        cpy.append(it)
-                arr = cpy
-                if len(arr) < self.getSize():
+                    if it != "":
+                        copy.append(it)
+                arr = copy
+
+                if len(MoverParams) != len(arr):
                     continue
-                if "MI_" not in arr[0]:
-                    continue
-                movers[arr[self.dwID]] = PropMover()
-                for key in self.__dict__:
-                    setattr(movers[arr[self.dwID]], key, arr[getattr(self, key)])
+
+                mover_id = arr[0]
+                self.movers[mover_id] = dict()
+                for key in MoverParams:
+                    self.movers[mover_id][key] = arr[MoverParams[key]].replace("\"", "")
+
+        if len(self.text.load(file_txt)) <= 0:
+            return False
+        if len(self.define.load(file_define)) <= 0:
+            return False
+
         gLogger.reset_section()
-        return movers
+        return True
 
 
-    def filter(self, movers, defineObj, textMover, items):
+    def filter(self):
         gLogger.info("Filtering propmover")
         gLogger.set_section("propmover")
 
@@ -175,76 +164,42 @@ class PropMover:
         mover_name_undeclared = []
         mover_comment_undeclared = []
 
-        gLogger.info("ID")
-        for it in movers:
-            mover = movers[it]
-            if mover.dwID not in defineObj:
-                mover_undeclared.append(mover.dwID)
-
-        gLogger.info("Name and Comment")
-        for it in movers:
-            mover = movers[it]
-            if mover.szName not in textMover:
-                if mover.szName not in mover_name_undeclared:
-                    mover_name_undeclared.append(mover.szName)
-            if mover.szComment not in textMover:
-                if mover.szComment not in mover_comment_undeclared:
-                    mover_comment_undeclared.append(mover.szComment)
-
-        gLogger.info("Weapon Atk1 Atk2 Atk3")
-        for it in movers:
-            if mover.dwAtk1 not in items:
-                weapon_undeclared.append(mover.dwAtk1)
-            if mover.dwAtk2 not in items:
-                weapon_undeclared.append(mover.dwAtk2)
-            if mover.dwAtk3 not in items:
-                weapon_undeclared.append(mover.dwAtk3)
-
-        gLogger.info("define obj")
-        for it in defineObj:
-            if "MI_" in it and it not in movers:
-                mover_unused.append(it)
+        #pass
+        for key in self.movers:
+            mover = self.movers[key]
+            if key not in self.define.datas:
+                mover_undeclared.append(key)
+            if mover["szComment"] not in self.text.datas:
+                mover_comment_undeclared.append(key)
+            if mover["szName"] not in self.text.datas:
+                mover_name_undeclared.append(key)
+            if self.items is not None:
+                if mover["dwAtk1"] not in self.items:
+                    weapon_undeclared.append(mover["dwAtk1"])
+                if mover["dwAtk2"] not in self.items:
+                    weapon_undeclared.append(mover["dwAtk2"])
+                if mover["dwAtk3"] not in self.items:
+                    weapon_undeclared.append(mover["dwAtk3"])
 
         gLogger.write("filter/mover_undeclared.txt", mover_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Movers undeclared:",
                 undeclared=len(mover_undeclared),
-                total=len(movers)))
+                total=len(self.movers)))
         gLogger.write("filter/mover_unused.txt", mover_unused, "{infos}: {undeclared}/{total}".format(
                 infos="Movers mover_unused:",
                 undeclared=len(mover_unused),
-                total=len(movers)))
+                total=len(self.movers)))
         gLogger.write("filter/mover_name_undeclared.txt", mover_name_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Movers mover_name_undeclared:",
                 undeclared=len(mover_name_undeclared),
-                total=len(movers)))
+                total=len(self.movers)))
         gLogger.write("filter/mover_comment_undeclared.txt", mover_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Movers mover_comment_undeclared:",
                 undeclared=len(mover_comment_undeclared),
-                total=len(movers)))
+                total=len(self.movers)))
         gLogger.reset_section()
 
         return mover_undeclared, mover_unused, weapon_undeclared, mover_name_undeclared, mover_comment_undeclared
-
-
-    def write(self, movers, mode):
-        gLogger.set_section("propmover")
-        gLogger.info("Writing propMover.txt")
-        with open("output/propMover.txt", "w") as fd:
-            for index in movers:
-                mover = movers[index]
-                line = mover.toString().replace(" ", "\t")
-                fd.write(line + "\n")
-        gLogger.reset_section()
-        return True
-
-
-    def remove(self, movers, delete):
-        if len(delete) <= 0:
-            return False
-        gLogger.info("Removing on propmover")
-        for it in delete:
-            if it in movers:
-                del movers[it]
 
 
     def replace(self, textMover):
@@ -272,7 +227,7 @@ class PropMover:
                 return True
         return False
 
-    def write_new_config(self, movers):
+    def write_new_config(self):
         gLogger.set_section("promover")
 
         root = ET.Element("movers")
@@ -294,26 +249,25 @@ class PropMover:
         movers_monsters_rank["RANK_MATERIAL"] = ET.SubElement(movers_monsters_special, "material")
         movers_monsters_rank["RANK_GUARD"] = ET.SubElement(movers_monsters_special, "guard")
 
-        for it in movers:
-            mover = movers[it]
+        for it in self.movers:
+            mover = self.movers[it]
             section = None
 
-            if mover.dwAI == "AII_NONE":
+            if mover["dwAI"] == "AII_NONE":
                 section = movers_npcs
-            elif mover.dwAI == "AII_MOVER":
+            elif mover["dwAI"] == "AII_MOVER":
                 section = movers_players
-            elif mover.dwAI == "AII_PET" or mover.dwAI == "AII_EGG":
+            elif mover["dwAI"] == "AII_PET" or mover["dwAI"] == "AII_EGG":
                 section = movers_pets
-            elif mover.dwAI == "AII_MONSTER"or mover.dwAI == "AII_CLOCKWORKS" or \
-                mover.dwAI == "AII_BIGMUSCLE" or mover.dwAI == "AII_KRRR" or \
-                mover.dwAI == "AII_BEAR" or mover.dwAI == "AII_METEONYKER":
-                 section = movers_monsters
-
+            elif mover["dwAI"] == "AII_MONSTER"or mover["dwAI"] == "AII_CLOCKWORKS" or \
+                mover["dwAI"] == "AII_BIGMUSCLE" or mover["dwAI"] == "AII_KRRR" or \
+                mover["dwAI"] == "AII_BEAR" or mover["dwAI"] == "AII_METEONYKER":
+                section = movers_monsters
 
             if section is not None:
                 if section is movers_monsters:
-                    if mover.dwClass != "=" and mover.dwClass in movers_monsters_rank:
-                        section = ET.SubElement(movers_monsters_rank[mover.dwClass], "mover")
+                    if mover["dwClass"] != "=" and mover["dwClass"] in movers_monsters_rank:
+                        section = ET.SubElement(movers_monsters_rank[mover["dwClass"]], "mover")
                 elif section is movers_players:
                     section = ET.SubElement(movers_players, "mover")
                 elif section is movers_npcs:
@@ -322,12 +276,11 @@ class PropMover:
                     section = ET.SubElement(movers_pets, "mover")
 
             if section is None:
-                gLogger.Error("Mover unknow")
                 section = ET.SubElement(movers_unknow, "mover")
 
-            section.set("dwID", mover.dwID)
-            for key in mover.__dict__:
-                value = getattr(mover, key)
+            section.set("dwID", mover["dwID"])
+            for key in mover:
+                value = mover[key]
                 value = value.replace('"', "")
                 if self.skip_value(key, value) is True:
                     continue

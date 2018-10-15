@@ -153,6 +153,8 @@ class PropItem():
 
 
     def load(self, file_item, file_text, file_define):
+        gLogger.info("Loading: ", file_item, file_text, file_define)
+
         with open(file_item, "r") as fd:
             for line in fd:
                 if self.__skip_preproc__(line) is True or "//" in line:
