@@ -529,7 +529,7 @@
     "volcane_bush" 855 MODELTYPE_MESH "" 0 0 0 1.000000 1 0 0 1
     "volcane_pillar02" 854 MODELTYPE_MESH "" 0 0 0 1.000000 1 0 0 1
     "volcane_pillar01" 853 MODELTYPE_MESH "" 0 0 0 1.000000 1 0 0 1
-    "volcane_zelkova tree" 852 MODELTYPE_MESH "" 0 0 0 1.000000 1 0 0 1
+    "volcane_zelkova_tree" 852 MODELTYPE_MESH "" 0 0 0 1.000000 1 0 0 1
     "volcane_cave03" 814 MODELTYPE_MESH "" 0 0 0 1.000000 0 0 0 1
     "volcane_cave02" 813 MODELTYPE_MESH "" 0 0 0 1.000000 0 0 0 1
     "volcane_cave" 808 MODELTYPE_MESH "" 0 0 0 1.000000 0 0 0 1

@@ -2,50 +2,35 @@ import subprocess
 from collections import OrderedDict
 from logger import gLogger
 from lxml import etree as ET
+from define import Define
+from text import Text
 
+MdlObjParameters = {
+    "szName": 0,
+    "iObject": 1,
+    "dwModelType": 2,
+    "szPart": 3,
+    "bFly": 4,
+    "bDistant": 5,
+    "bPick": 6,
+    "fScale": 7,
+    "bTrans": 8,
+    "bShadow": 9,
+    "bTextureEx": 10
+}
 
 
 class MdlObj:
 
     def __init__(self):
-        self.szName = 0
-        self.iObject = 1
-        self.dwModelType = 2
-        self.szPart = 3
-        self.bFly = 4
-        self.bDistant = 5
-        self.bPick = 6
-        self.fScale = 7
-        self.bTrans = 8
-        self.bShadow = 9
-        self.bTextureEx = 10
-
-    def toString(self):
-        toString = str(str(self.szName) + " " + \
-            str(self.iObject) + " " + \
-            str(self.dwModelType) + " " + \
-            str(self.szPart) + " " + \
-            str(self.bFly) + " " + \
-            str(self.bDistant) + " " + \
-            str(self.bPick) + " " + \
-            str(self.fScale) + " " + \
-            str(self.bShadow) + " " + \
-            str(self.bTextureEx))
-        return toString
+        self.datas = dict()
+        self.define = Define()
 
 
-    def getIdMax(self):
-        return 10
-
-
-    def getSize(self):
-        return self.getIdMax() + 1
-
-
-    def load(self, f):
+    def load(self, f, d):
         gLogger.set_section("mdlobj")
         gLogger.info("loading:", f)
-        datas = OrderedDict()
+        self.datas = dict()
         with open(f, "r") as fd:
             for line in fd:
                 if "//" in line:
@@ -56,35 +41,39 @@ class MdlObj:
                     if it != "" and len(it) > 0:
                         copy.append(it)
                 arr = copy
-                if len(arr) < self.getSize():
+                if len(arr) < len(MdlObjParameters):
                     continue
-                data = MdlObj()
-                for key in self.__dict__:
-                    setattr(data, key, arr[getattr(self, key)])
-                datas[data.iObject] = data
+                id_object = arr[1]
+                self.datas[id_object] = dict()
+                for key in MdlObjParameters:
+                    self.datas[id_object][key] = arr[MdlObjParameters[key]].replace('"', "")
+        self.define.load(d)
         gLogger.reset_section()
-        return datas
-    
 
-    def filter(self, mdlobj, path_model, define):
+
+    def filter(self, path_model):
         gLogger.set_section("mdlobj")
         
         mdlobj_undeclared = list()
         mdlobj_model_missing = list()
 
-        for it in mdlobj:
-            obj = mdlobj[it]
-            if obj.dwModelType not in define and obj.dwModelType not in mdlobj_undeclared:
-                mdlobj_undeclared.append(obj.dwModelType)
-            model = "Obj_" + obj.szName + ".o3d"
-            out = subprocess.check_output(['find', path_model, '-iname', model])
-            if (out == "" or len(out) <= 0) and it not in mdlobj_model_missing:
-                mdlobj_model_missing.append(it)
+        for it in self.datas:
+            obj = self.datas[it]
+            if obj["dwModelType"] not in self.define.datas and obj["dwModelType"] not in mdlobj_undeclared:
+                mdlobj_undeclared.append(obj["dwModelType"])
+            model = "Obj_" + obj["szName"] + ".o3d"
+            out = subprocess.run(['find', path_model, '-iname', model], stdout=subprocess.PIPE)
+            if len(out.stdout) == 0 and it not in mdlobj_model_missing:
+                mdlobj_model_missing.append(model)
 
         gLogger.write("./filter/mdlobj_undeclared.txt", mdlobj_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Obj undeclared:",
                 undeclared=len(mdlobj_undeclared),
-                total=len(mdlobj)))
+                total=len(self.datas)))
+        gLogger.write("./filter/mdlobj_model_missing.txt", mdlobj_model_missing, "{infos}: {undeclared}/{total}".format(
+                infos="Model not found:",
+                undeclared=len(mdlobj_model_missing),
+                total=len(self.datas)))
 
         gLogger.reset_section()
 
@@ -104,7 +93,7 @@ class MdlObj:
 
         gLogger.reset_section()
 
-    def write_new_config(self, mdlobj):
+    def write_new_config(self):
         gLogger.set_section("mdlobj")
 
         root = ET.Element("actor")
@@ -138,13 +127,13 @@ class MdlObj:
             "MODELTYPE_ASE": section_ase
         }
 
-        for it in mdlobj:
-            obj = mdlobj[it]
+        for it in self.datas:
+            obj = self.datas[it]
             section = section_unknow
-            if obj.dwModelType in actor_type:
-                section = ET.SubElement(actor_type[obj.dwModelType], "actor")
+            if obj["dwModelType"] in actor_type:
+                section = ET.SubElement(actor_type[obj["dwModelType"]], "actor")
             for attr in attr_order:
-                value = getattr(obj, attr)
+                value = obj[attr]
                 value = value.replace('"', "")
                 if value is not None and value != "":
                     section.set(attr, value)

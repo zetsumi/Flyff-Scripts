@@ -2,6 +2,8 @@ import sys
 import subprocess
 import os
 import shutil
+from collections import OrderedDict
+
 from packet import Packet
 from logger import gLogger
 from propmover import PropMover
@@ -79,13 +81,18 @@ if __name__ == "__main__":
     if not os.path.exists(path_xml):
         os.makedirs(path_xml)
 
+    #utils
+    define = Define()
+
     # Scope mdldyna
     # mdldyna = MdlDyna()
     # mdldyna.load(file_mdldyna)
 
     # Scope mdlobj
-    # cmdlobj = MdlObj()
-    # mdlobj = cmdlobj.load(file_mdldobj)
+    mdlobj = MdlObj()
+    mdlobj.load(file_mdldobj, file_define)
+    mdlobj.filter(path_model)
+    mdlobj.write_new_config()
 
     # Scope to filter propitem
     # propitem = PropItem()
@@ -104,7 +111,8 @@ if __name__ == "__main__":
 
     #Scope World
     # worlds = Worlds()
-    # worlds.load(path_world, defineWorld, defineDefine)
+    # worlds.load(path_world, OrderedDict(define.load(file_define_world)), OrderedDict(define.load(file_define)))
+    # worlds.mdlobj = mdlobj
 
     # Scope Quests
     # propquests = PropQuest()

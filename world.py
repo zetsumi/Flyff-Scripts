@@ -3,9 +3,12 @@ import os
 from collections import OrderedDict
 from logger import gLogger
 from text import Text
+from define import Define
 from common import Vector, Rect, splitter, bytes_to_unsigned_int
 from structure_world import Layer, Landscape, Region, Respawn, CtrlElement
 from obj import Obj, ObjCtrl
+from mdldyna import MdlDyna
+from mdlobj import MdlObj
 
 file_listing_world = "Ressource/World.inc"
 MAX_CTRLDROPITEM = 4
@@ -62,6 +65,10 @@ class Worlds:
 
     def __init__(self):
         self.worlds = OrderedDict()
+        self.text = Text()
+        self.define = Define()
+        self.mdlobj = None
+        self.mdldyna = None
 
 
     def __clean_arr__(self, arr):
