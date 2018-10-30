@@ -198,11 +198,11 @@ class PropItem():
                 item_name_undeclared.append(key)
             if item["szComment"] not in self.text.datas:
                 item_comment_undeclared.append(key)
-            if len(item["szIcon"]) > 0:
-                icon = item["szIcon"]
-                out = subprocess.check_output(['find', path_icon, '-iname', icon])
-                if out == "" or len(out) <= 0:
-                    items_icon_unfound.append(icon)
+            # if len(item["szIcon"]) > 0:
+            #     icon = item["szIcon"]
+            #     out = subprocess.check_output(['find', path_icon, '-iname', icon])
+            #     if out == "" or len(out) <= 0:
+            #         items_icon_unfound.append(icon)
 
         for it in self.define.datas:
             define = self.define.datas[it]
@@ -276,6 +276,7 @@ class PropItem():
         section_system = ET.SubElement(root, "system")
         section_charged = ET.SubElement(root, "charged")
         section_housing = ET.SubElement(root, "housing")
+        section_monster = ET.SubElement(root, "monster")
         section_unknow = ET.SubElement(root, "unknow")
 
         section_armor_job_master = ET.SubElement(section_armor, "master")
@@ -336,8 +337,12 @@ class PropItem():
                 elif item["dwItemKind1"] == "IK1_WEAPON":
                     section = ET.SubElement(sections_job[item["dwItemJob"]]["weapon"], "item")
 
+            if section is None and item["dwItemJob"] == "=" and "II_WEA_MOB" in item["dwID"]:
+                section = ET.SubElement(section_monster, "item")
+
             if section is None and item["dwItemKind1"] != "=" and item["dwItemKind1"] in sections_ik1:
                 section = ET.SubElement(sections_ik1[item["dwItemKind1"]], "item")
+
 
             if section is None:
                 section = section_unknow
