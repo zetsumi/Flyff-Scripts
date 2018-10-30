@@ -198,11 +198,11 @@ class PropItem():
                 item_name_undeclared.append(key)
             if item["szComment"] not in self.text.datas:
                 item_comment_undeclared.append(key)
-            # if len(item["szIcon"]) > 0:
-            #     icon = item["szIcon"]
-            #     out = subprocess.check_output(['find', path_icon, '-iname', icon])
-            #     if out == "" or len(out) <= 0:
-            #         items_icon_unfound.append(icon)
+            if len(item["szIcon"]) > 0:
+                icon = item["szIcon"]
+                out = subprocess.check_output(['find', path_icon, '-iname', icon])
+                if out == "" or len(out) <= 0:
+                    items_icon_unfound.append(icon)
 
         for it in self.define.datas:
             define = self.define.datas[it]
