@@ -89,17 +89,17 @@ if __name__ == "__main__":
     # mdldyna.load(file_mdldyna)
 
     # Scope mdlobj
-    mdlobj = MdlObj()
-    mdlobj.load(file_mdldobj, file_define)
-    mdlobj.filter(path_model)
-    mdlobj.write_new_config()
+    # mdlobj = MdlObj()
+    # mdlobj.load(file_mdldobj, file_define)
+    # mdlobj.filter(path_model)
+    # mdlobj.write_new_config()
 
     # Scope to filter propitem
-    # propitem = PropItem()
-    # propitem.load(file_propitem, file_text_propitem, file_define_item)
-    # propitem.filter(path_icon_item)
-    # propitem.replace()
-    # propitem.write_new_config()
+    propitem = PropItem()
+    propitem.load(file_propitem, file_text_propitem, file_define_item)
+    propitem.filter(path_icon_item)
+    propitem.replace()
+    propitem.write_new_config()
 
     # scope to filter propmover
     # propmover = PropMover()
