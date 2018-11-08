@@ -77,7 +77,20 @@ static void node_housing(pugi::xml_node& node)
 int main()
 {
 	pugi::xml_document doc;
-    pugi::xml_parse_result result = doc.load_file(FILE_PROPITEM);
+	pugi::xml_parse_result result;
+#if defined(__CLIENT)
+    std::stringstream buffer;
+    std::ifstream t(FILE_PROPITEM);
+    if (!t.is_open())
+    {
+        std::cerr << "error on loading " << FILE_PROPITEM << std::endl;
+        return 1;
+    }
+    buffer << t.rdbuf();
+    result = doc.load_buffer(buffer.str().c_str(), buffer.str().size());
+#else
+    result = doc.load_file(FILE_PROPITEM);
+#endif
     if (!result)
     {
         std::cerr << "Error on load " << FILE_PROPITEM << std::endl;

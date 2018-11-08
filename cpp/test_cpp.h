@@ -2,7 +2,12 @@
 #define __TEST_CPP_H__
 
 #include <iostream>
+#include <fstream>
+#include <sstream>
+
 #include <string>
+#include <fstream>
+#define __CLIENT
 #include "pugixml.h"
 
 #define FILE_PROPITEM "propitem.xml"
