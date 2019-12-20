@@ -18,6 +18,7 @@ from mdldyna import MdlDyna
 from mdlobj import MdlObj
 from world import Worlds
 from propquest import PropQuest
+from propmoverex import PropMoverEx
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -35,6 +36,7 @@ path_world = path_resource + "World/"
 # file properties
 file_propitem = path_resource + "propItem.txt"
 file_propmover = path_resource + "propMover.txt"
+file_propmoverex = path_resource + "propMoverEx.inc"
 file_propctrl = path_resource + "propCtrl.txt"
 file_propkarma = path_resource + "propKarma.txt"
 file_propskill = path_resource + "propSkill.txt"
@@ -95,11 +97,11 @@ if __name__ == "__main__":
     # mdlobj.write_new_config()
 
     # Scope to filter propitem
-    propitem = PropItem()
-    propitem.load(file_propitem, file_text_propitem, file_define_item)
-    propitem.filter(path_icon_item)
-    propitem.replace()
-    propitem.write_new_config()
+    # propitem = PropItem()
+    # propitem.load(file_propitem, file_text_propitem, file_define_item)
+    # propitem.filter(path_icon_item)
+    # propitem.replace()
+    # propitem.write_new_config()
 
     # scope to filter propmover
     # propmover = PropMover()
@@ -118,4 +120,8 @@ if __name__ == "__main__":
     # propquests = PropQuest()
     # if propquests.load(file_propquest) is None:
     #     propquests = PropQuest()
+
+    #Scope Drop
+    propmoverex = PropMoverEx()
+    propmoverex.load(file_propmoverex)
 

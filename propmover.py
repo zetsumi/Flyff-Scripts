@@ -92,7 +92,6 @@ MoverParams = {
 
 class PropMover:
 
-    
     def __init__(self):
         self.movers = dict()
         self.text = Text()
