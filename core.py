@@ -31,6 +31,7 @@ path_model = path_resource +  "Model/"
 path_output = "./output/"
 path_filter = "./filter/"
 path_xml = "./xml/"
+path_json = "./json/"
 path_world = path_resource + "World/"
 
 # file properties
@@ -82,6 +83,8 @@ if __name__ == "__main__":
         os.makedirs(path_filter)
     if not os.path.exists(path_xml):
         os.makedirs(path_xml)
+    if not os.path.exists(path_json):
+        os.makedirs(path_json)
 
     #utils
     define = Define()
@@ -124,4 +127,6 @@ if __name__ == "__main__":
     #Scope Drop
     propmoverex = PropMoverEx()
     propmoverex.load(file_propmoverex)
+    propmoverex.write_new_config("xml")
+    propmoverex.write_new_config("json")
 

@@ -1,7 +1,7 @@
 class Logger:
 
     def __init__(self):
-        self.section = "test"
+        self.section = "app"
 
 
     def __print__(self, flag, args):

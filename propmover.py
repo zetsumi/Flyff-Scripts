@@ -228,6 +228,7 @@ class PropMover:
 
     def write_new_config(self):
         gLogger.set_section("promover")
+        gLogger.info("Writing propmover XML")
 
         root = ET.Element("movers")
         movers_players = ET.SubElement(root, "player")
