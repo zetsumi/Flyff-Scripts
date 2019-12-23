@@ -5,6 +5,26 @@ from text import Text
 from define import Define
 import json
 
+'''
+Information sur les drops
+9375        0.0003125%    320000
+18750        0.000625%    160000
+37500        0.00125%    80000
+75000        0.0025%        40000
+150000        0.005%        20000
+300000        0.01%        10000
+1000000        0.0333%        3000 
+1875000        0.0625%        1600
+3000000        0.1%        1000
+3750000        0.125%        800
+5000000        0.166%        600
+7500000        0.25%        400
+15000000    0.5%        200
+30000000    1%        100
+300000000    10%        10
+3000000000    100%        1
+'''
+
 class DropItem:
 
     def __init__(self):
@@ -123,7 +143,7 @@ class   PropMoverEx:
 
     def json_format(self):
         gLogger.set_section("propmoverex")
-        gLogger.info("writing XML propmoverex")
+        gLogger.info("writing JSON propmoverex")
 
         data = dict()
         data["prop_mover_extend"] = {}
@@ -131,26 +151,31 @@ class   PropMoverEx:
             prop = self.properties[key]
             data["prop_mover_extend"][str(key)] = dict()
             data["prop_mover_extend"][str(key)]["id_mover"] = str(prop.id_mover)
-            data["prop_mover_extend"][str(key)]["gold_min"] = str(prop.gold.min)
-            data["prop_mover_extend"][str(key)]["gold_max"] = str(prop.gold.max)
+            data["prop_mover_extend"][str(key)]["max_item"] = int(prop.max_item)
+            data["prop_mover_extend"][str(key)]["gold_min"] = int(prop.gold.min)
+            data["prop_mover_extend"][str(key)]["gold_max"] = int(prop.gold.max)
 
             if len(prop.items) > 0:
-                data["prop_mover_extend"][str(key)]["items"] = dict()
+                data["prop_mover_extend"][str(key)]["items"] = list()
                 for it in prop.items:
                     item = prop.items[it]
-                    data["prop_mover_extend"][str(key)]["items"]["id_item"] = item.id
-                    data["prop_mover_extend"][str(key)]["items"]["probability"] = item.probability
-                    data["prop_mover_extend"][str(key)]["items"]["level_min"] = item.level_min
-                    data["prop_mover_extend"][str(key)]["items"]["level_max"] = item.level_max
-                    data["prop_mover_extend"][str(key)]["items"]["number"] = item.number
+                    item_data = dict()
+                    item_data["id_item"] = item.id
+                    item_data["probability"] = item.probability
+                    item_data["level_min"] = item.level_min
+                    item_data["level_max"] = item.level_max
+                    item_data["number"] = item.number
+                    data["prop_mover_extend"][str(key)]["items"].append(item_data)
 
             if len(prop.kinds) > 0:
+                data["prop_mover_extend"][str(key)]["kinds"] = list()
                 for it in prop.kinds:
-                    data["prop_mover_extend"][str(key)]["kinds"] = dict()
                     kind = prop.kinds[it]
-                    data["prop_mover_extend"][str(key)]["kinds"]["id_item"] = kind.id
-                    data["prop_mover_extend"][str(key)]["kinds"]["level_min"] = kind.min
-                    data["prop_mover_extend"][str(key)]["kinds"]["level_max"] = kind.max
+                    kind_data = dict()
+                    kind_data["id_item"] = kind.id
+                    kind_data["level_min"] = kind.min
+                    kind_data["level_max"] = kind.max
+                    data["prop_mover_extend"][str(key)]["kinds"].append(kind_data)
 
         with open('json\propMoverEx.json', 'w') as fd:
             json.dump(data, fd, indent=4)
@@ -171,6 +196,7 @@ class   PropMoverEx:
             section.set("id_mover", str(prop.id_mover))
             section.set("gold_min", str(prop.gold.min))
             section.set("gold_max", str(prop.gold.max))
+            section.set("max_item", str(prop.max_item))
 
             if len(prop.items) > 0:
                 for it in prop.items:
