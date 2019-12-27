@@ -28,7 +28,6 @@ class DataMonster:
         self.position = list()
 
     def load(self, id, datas):
-        print("ID:", id)
         for it in datas:
             if "nInterval" in it:
                 arr = it.split("\t")
@@ -117,7 +116,6 @@ class RandomEventMonster(object):
         data= dict()
         data["random_event_monster"] = dict()
         for key in self.properties:
-            print(key)
             prop = self.properties[key]
             data["random_event_monster"][str(key)] = dict()
             data["random_event_monster"][str(key)]["interval"] = int(prop.interval)
