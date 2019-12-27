@@ -117,7 +117,7 @@ class   PropMoverEx:
 
     def load(self, file_prop):
         gLogger.set_section("propmoverex")
-        gLogger.info("Filtering propmoverex")
+        gLogger.info("loading", file_prop)
 
         movers = dict()
         with open(file_prop) as fd:

@@ -19,6 +19,7 @@ from mdlobj import MdlObj
 from world import Worlds
 from propquest import PropQuest
 from propmoverex import PropMoverEx
+from randomeventmonster import RandomEventMonster
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -57,6 +58,7 @@ file_text_proptroupeskill = path_resource + "propTroupeSkill.txt.txt"
 # file inc
 file_mdldyna = path_resource + "mdlDyna.inc"
 file_mdldobj = path_resource + "mdlObj.inc"
+file_random_event_monster = path_resource + "randomeventmonster.inc"
 
 # file define
 file_define = path_resource + "define.h"
@@ -125,8 +127,12 @@ if __name__ == "__main__":
     #     propquests = PropQuest()
 
     #Scope Drop
-    propmoverex = PropMoverEx()
-    propmoverex.load(file_propmoverex)
-    propmoverex.write_new_config("xml")
-    propmoverex.write_new_config("json")
+    # propmoverex = PropMoverEx()
+    # propmoverex.load(file_propmoverex)
+    # propmoverex.write_new_config("xml")
+    # propmoverex.write_new_config("json")
+
+    #Scope event monster
+    randomeventmonster = RandomEventMonster()
+    randomeventmonster.load(file_random_event_monster)
 
