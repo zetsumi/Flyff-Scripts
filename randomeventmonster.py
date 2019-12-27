@@ -103,13 +103,43 @@ class RandomEventMonster(object):
 
         for it in movers:
             data = DataMonster()
-            data.load(id, movers[id])
-            print(data.interval)
-            print(data.replace)
-            print(data.active_attack)
-            print("number position:", len(data.position))
-            for it in data.position:
-                print(it.x, it.y, it.z)
+            data.load(it, movers[it])
+            self.properties[it] = data
 
         gLogger.reset_section()
 
+
+
+    def json_format(self):
+        gLogger.set_section("RandomEventMonster")
+        gLogger.info("writing JSON randomeventmonster.json")
+
+        data= dict()
+        data["random_event_monster"] = dict()
+        for key in self.properties:
+            print(key)
+            prop = self.properties[key]
+            data["random_event_monster"][str(key)] = dict()
+            data["random_event_monster"][str(key)]["interval"] = int(prop.interval)
+            data["random_event_monster"][str(key)]["replace"] = int(prop.replace)
+            data["random_event_monster"][str(key)]["active_attack"] = int(prop.active_attack)
+            data["random_event_monster"][str(key)]["positions"] = list()
+            for position in prop.position:
+                vPos = dict()
+                vPos["world"] = position.id_world
+                vPos["x"] = position.x
+                vPos["y"] = position.y
+                vPos["z"] = position.z
+                data["random_event_monster"][str(key)]["positions"].append(vPos)
+
+
+        with open('json/randomEventMonster.json', 'w') as fd:
+            json.dump(data, fd, indent=4)
+
+        gLogger.reset_section()
+
+
+
+    def write_new_config(self, mode):
+        if mode == "json":
+            self.json_format()

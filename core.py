@@ -135,4 +135,5 @@ if __name__ == "__main__":
     #Scope event monster
     randomeventmonster = RandomEventMonster()
     randomeventmonster.load(file_random_event_monster)
+    randomeventmonster.write_new_config('json')
 
