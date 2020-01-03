@@ -5,6 +5,42 @@ class Project:
         #Common scripts
         self.version_binary = "0.0.0.0"
 
+        #module activation
+        self.module = {
+            "mdldyna": {
+                "active": False,
+                "filter": False
+            },
+            "mdlobj": {
+                "active": False,
+                "filter": False
+            },
+            "item": {
+                "active": False,
+                "filter": False
+            },
+            "mover": {
+                "active": False,
+                "filter": False
+            },
+            "world": {
+                "active": False,
+                "filter": False
+            },
+            "quest": {
+                "active": False,
+                "filter": False
+            },
+            "drop": {
+                "active": False,
+                "filter": False
+            },
+            "event_monster": {
+                "active": False,
+                "filter": False
+            }
+        }
+
         #Path
         self.path_resource = "./Ressource/"
         self.path_icon_item = self.path_resource + "Item/"

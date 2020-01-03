@@ -34,49 +34,61 @@ if __name__ == "__main__":
     #utils
     define = Define()
 
-    # Scope mdldyna
-    mdldyna = MdlDyna()
-    mdldyna.load(g_project.file_mdldyna)
+    #Scope MdlDyna
+    if g_project.module["mdldyna"]["active"] is True:
+        mdldyna = MdlDyna()
+        mdldyna.load(g_project.file_mdldyna)
 
-    # Scope mdlobj
-    mdlobj = MdlObj()
-    mdlobj.load(g_project.file_mdldobj, g_project.file_define)
-    # mdlobj.filter(g_project.pathmodel)
-    mdlobj.write_new_config()
+    #Scope MdlObj
+    if g_project.module["mdlobj"]["active"] is True:
+        mdlobj = MdlObj()
+        mdlobj.load(g_project.file_mdldobj, g_project.file_define)
+        if g_project.module["mover"]["filter"] is True:
+            mdlobj.filter(g_project.pathmodel)
+        mdlobj.write_new_config()
 
-    # Scope to filter propitem
-    propitem = PropItem()
-    propitem.load(g_project.file_propitem, g_project.file_text_propitem, g_project.file_define_item)
-    # propitem.filter(g_project.pathicon_item)
-    propitem.replace()
-    propitem.write_new_config()
+    #Scope PropItem
+    if g_project.module["item"]["active"] is True:
+        propitem = PropItem()
+        propitem.load(g_project.file_propitem, g_project.file_text_propitem, g_project.file_define_item)
+        if g_project.module["mover"]["filter"] is True:
+            propitem.filter(g_project.pathicon_item)
+        propitem.replace()
+        propitem.write_new_config()
 
-    # scope to filter propmover
-    propmover = PropMover()
-    if propmover.load(g_project.file_propmover, g_project.file_text_propmover, g_project.file_define_obj) is False:
-        gLogger.error("Error detected during the load propmover")
-    propmover.items = propitem.items
-    # propmover.filter()
-    propmover.write_new_config()
+    #Scope PropMover
+    if g_project.module["mover"]["active"] is True:
+        propmover = PropMover()
+        if propmover.load(g_project.file_propmover, g_project.file_text_propmover, g_project.file_define_obj) is False:
+            gLogger.error("Error detected during the load propmover")
+        if g_project.module["item"]["active"] is True:
+            propmover.items = propitem.items
+        if g_project.module["mover"]["filter"] is True:
+            propmover.filter()
+        propmover.write_new_config()
 
     #Scope World
-    worlds = Worlds()
-    worlds.load(g_project.path_world, OrderedDict(define.load(g_project.file_define_world)), OrderedDict(define.load(g_project.file_define)))
-    worlds.mdlobj = mdlobj
+    if g_project.module["world"]["active"] is True:
+        worlds = Worlds()
+        worlds.load(g_project.path_world, OrderedDict(define.load(g_project.file_define_world)), OrderedDict(define.load(g_project.file_define)))
+        worlds.mdlobj = mdlobj
 
     # Scope Quests
-    propquests = PropQuest()
-    if propquests.load(g_project.file_propquest) is None:
+    if g_project.module["quest"]["active"] is True:
         propquests = PropQuest()
+        if propquests.load(g_project.file_propquest) is None:
+            propquests = PropQuest()
 
     #Scope Drop
-    propmoverex = PropMoverEx()
-    propmoverex.load(g_project.file_propmoverex)
-    propmoverex.write_new_config("xml")
-    propmoverex.write_new_config("json")
+    if g_project.module["drop"]["active"] is True:
+        propmoverex = PropMoverEx()
+        propmoverex.load(g_project.file_propmoverex)
+        propmoverex.write_new_config("xml")
+        propmoverex.write_new_config("json")
 
     #Scope event monster
-    randomeventmonster = RandomEventMonster()
-    randomeventmonster.load(g_project.file_random_event_monster)
-    randomeventmonster.write_new_config('json')
+    if g_project.module["event_monster"]["active"] is True:
+        randomeventmonster = RandomEventMonster()
+        randomeventmonster.load(g_project.file_random_event_monster)
+        randomeventmonster.write_new_config('json')
 
