@@ -89,10 +89,10 @@ if __name__ == "__main__":
 
     #Scope AI
     if g_project.module["ai"]["active"] is True:
-        propmoverexai = PropMoverExAI()
-        propmoverexai.load(g_project.file_propmoverex)
-        propmoverexai.write_new_config("xml")
-        propmoverexai.write_new_config("json")
+        prop_ai = PropMoverExAI()
+        prop_ai.load(g_project.file_propmoverex)
+        prop_ai.write_new_config("xml")
+        prop_ai.write_new_config("json")
 
     #Scope event monster
     if g_project.module["event_monster"]["active"] is True:
