@@ -35,6 +35,10 @@ class Project:
                 "active": False,
                 "filter": False
             },
+            "ai": {
+                "active": True,
+                "filter": False
+            },
             "event_monster": {
                 "active": False,
                 "filter": False

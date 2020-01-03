@@ -20,6 +20,7 @@ from prop.propskill import PropSkill
 from prop.proptroupeskill import PropTroupeSkill
 from prop.propquest import PropQuest
 from prop.propmoverex import PropMoverEx
+from prop.propmoverexai import PropMoverExAI
 from prop.randomeventmonster import RandomEventMonster
 
 from model.mdldyna import MdlDyna
@@ -85,6 +86,13 @@ if __name__ == "__main__":
         propmoverex.load(g_project.file_propmoverex)
         propmoverex.write_new_config("xml")
         propmoverex.write_new_config("json")
+
+    #Scope AI
+    if g_project.module["ai"]["active"] is True:
+        propmoverexai = PropMoverExAI()
+        propmoverexai.load(g_project.file_propmoverex)
+        propmoverexai.write_new_config("xml")
+        propmoverexai.write_new_config("json")
 
     #Scope event monster
     if g_project.module["event_monster"]["active"] is True:

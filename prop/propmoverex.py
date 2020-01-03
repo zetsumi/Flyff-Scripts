@@ -121,7 +121,7 @@ class   PropMoverEx:
         gLogger.info("loading", file_prop)
 
         movers = dict()
-        with open(file_prop) as fd:
+        with open(file_prop, "r", encoding="ISO-8859-1") as fd:
             id = ""
             for line in fd:
                 line = line.replace("\t", "").replace("\n", "").replace(" ", "").replace(";", "")

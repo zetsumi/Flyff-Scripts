@@ -112,7 +112,7 @@ MI_AIBATT4
 	{
 		#Scan
                     {
-			scan
+			scan job 4
                     }
 		#battle
 		    {
