@@ -79,7 +79,7 @@ class PropMoverAI:
             if i + 1 < length:
                 value = arr[i + 1]
                 if value.isalpha():
-                    container[cmd]["cond_hp"] = value
+                    container[cmd]["cond_hp"] = int(value)
                     return i + 2
         return i + 1
 
@@ -116,7 +116,10 @@ class PropMoverAI:
                             while i < size:
                                 key = arr[i]
                                 value = arr[i + 1]
-                                container[key] = int(value)
+                                try:
+                                    container[key] = int(value)
+                                except print(0):
+                                    container[key] = str(value)
                                 i = i + 2
                 elif token == "battle":
                     arr = it.split(" ")
@@ -140,7 +143,7 @@ class PropMoverAI:
                             elif arr[i] == "d":
                                 container["loot"]["active"] = True
                             elif arr[i].isnumeric():
-                                container["loot"]["probability"] = arr[i]
+                                container["loot"]["probability"] = int(arr[i])
                             i = i + 1
 
 
