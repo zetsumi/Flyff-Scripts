@@ -2,6 +2,7 @@ import subprocess
 from collections import OrderedDict
 from utils.logger import gLogger
 from lxml import etree as ET
+from project import g_project
 from utils.define import Define
 from utils.text import Text
 
@@ -143,5 +144,5 @@ class MdlObj:
                     section.set(attr, value)
 
         tree = ET.ElementTree(root)
-        tree.write('xml/mdlobj.xml', pretty_print=True, xml_declaration=True)
+        tree.write(g_project.path_xml + "mdlobj.xml", pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

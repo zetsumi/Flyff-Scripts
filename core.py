@@ -8,6 +8,8 @@ from utils.logger import gLogger
 from utils.define import Define
 from utils.text import Text
 
+from project import g_project
+
 from network.packet import Packet
 
 from prop.propmover import PropMover
@@ -24,96 +26,34 @@ from model.mdldyna import MdlDyna
 from model.mdlobj import MdlObj
 from world.world import Worlds
 
-#Common scripts
-version_binary = "0.0.0.0"
-
-#Path
-path_resource = "./Ressource/"
-path_icon_item = path_resource + "Item/"
-path_icon = path_resource + "Icon/"
-path_model = path_resource +  "Model/"
-path_output = "./output/"
-path_filter = "./filter/"
-path_xml = "./xml/"
-path_json = "./json/"
-path_world = path_resource + "World/"
-
-# file properties
-file_propitem = path_resource + "propItem.txt"
-file_propmover = path_resource + "propMover.txt"
-file_propmoverex = path_resource + "propMoverEx.inc"
-file_propctrl = path_resource + "propCtrl.txt"
-file_propkarma = path_resource + "propKarma.txt"
-file_propskill = path_resource + "propSkill.txt"
-file_proptroupeskill = path_resource + "propTroupeSkill.txt"
-file_propquest = path_resource + "propQuest.inc"
-
-# file text
-file_txt_propitem = path_resource + "propItem.txt.txt"
-file_text_propmover = path_resource + "propMover.txt.txt"
-file_text_propitem = path_resource + "propItem.txt.txt"
-file_text_propctrl = path_resource + "propCtrl.txt.txt"
-file_text_propkarma = path_resource + "propKarma.txt.txt"
-file_text_propskill = path_resource + "propSkill.txt.txt"
-file_text_proptroupeskill = path_resource + "propTroupeSkill.txt.txt"
-
-
-# file inc
-file_mdldyna = path_resource + "mdlDyna.inc"
-file_mdldobj = path_resource + "mdlObj.inc"
-file_random_event_monster = path_resource + "randomeventmonster.inc"
-
-# file define
-file_define = path_resource + "define.h"
-file_define_item = path_resource + "defineItem.h"
-file_define_attribute = path_resource + "defineAttribute.h"
-file_define_obj = path_resource + "defineObj.h"
-file_define_neuz = path_resource + "defineNeuz.h"
-file_define_itemkind = path_resource + "defineItemkind.h"
-file_define_skill = path_resource + "defineSkill.h"
-file_define_job = path_resource + "defineJob.h"
-file_define_sound = path_resource + "defineSound.h"
-file_define_world = path_resource + "defineWorld.h"
-
-#packet
-file_msghdr = path_resource + "MsgHdr.h"
-
 if __name__ == "__main__":
-    gLogger.info("Running Flyff Properties ", version_binary)
+    gLogger.info("Running Flyff Properties ", g_project.version_binary)
 
-    # Create directories
-    if not os.path.exists(path_output):
-        os.makedirs(path_output)
-    if not os.path.exists(path_filter):
-        os.makedirs(path_filter)
-    if not os.path.exists(path_xml):
-        os.makedirs(path_xml)
-    if not os.path.exists(path_json):
-        os.makedirs(path_json)
+    g_project.create_directories()
 
     #utils
     define = Define()
 
     # Scope mdldyna
     mdldyna = MdlDyna()
-    mdldyna.load(file_mdldyna)
+    mdldyna.load(g_project.file_mdldyna)
 
     # Scope mdlobj
     mdlobj = MdlObj()
-    mdlobj.load(file_mdldobj, file_define)
-    # mdlobj.filter(path_model)
+    mdlobj.load(g_project.file_mdldobj, g_project.file_define)
+    # mdlobj.filter(g_project.pathmodel)
     mdlobj.write_new_config()
 
     # Scope to filter propitem
     propitem = PropItem()
-    propitem.load(file_propitem, file_text_propitem, file_define_item)
-    # propitem.filter(path_icon_item)
+    propitem.load(g_project.file_propitem, g_project.file_text_propitem, g_project.file_define_item)
+    # propitem.filter(g_project.pathicon_item)
     propitem.replace()
     propitem.write_new_config()
 
     # scope to filter propmover
     propmover = PropMover()
-    if propmover.load(file_propmover, file_text_propmover, file_define_obj) is False:
+    if propmover.load(g_project.file_propmover, g_project.file_text_propmover, g_project.file_define_obj) is False:
         gLogger.error("Error detected during the load propmover")
     propmover.items = propitem.items
     # propmover.filter()
@@ -121,22 +61,22 @@ if __name__ == "__main__":
 
     #Scope World
     worlds = Worlds()
-    worlds.load(path_world, OrderedDict(define.load(file_define_world)), OrderedDict(define.load(file_define)))
+    worlds.load(g_project.path_world, OrderedDict(define.load(g_project.file_define_world)), OrderedDict(define.load(g_project.file_define)))
     worlds.mdlobj = mdlobj
 
     # Scope Quests
     propquests = PropQuest()
-    if propquests.load(file_propquest) is None:
+    if propquests.load(g_project.file_propquest) is None:
         propquests = PropQuest()
 
     #Scope Drop
     propmoverex = PropMoverEx()
-    propmoverex.load(file_propmoverex)
+    propmoverex.load(g_project.file_propmoverex)
     propmoverex.write_new_config("xml")
     propmoverex.write_new_config("json")
 
     #Scope event monster
     randomeventmonster = RandomEventMonster()
-    randomeventmonster.load(file_random_event_monster)
+    randomeventmonster.load(g_project.file_random_event_monster)
     randomeventmonster.write_new_config('json')
 

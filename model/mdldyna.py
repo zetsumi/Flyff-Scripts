@@ -1,6 +1,7 @@
 from collections import OrderedDict
-from utils.logger import gLogger
 from lxml import etree as ET
+from project import g_project
+from utils.logger import gLogger
 
 ModelParams = {
     0: "szObject",
@@ -189,6 +190,6 @@ class MdlDyna:
             return None
 
         tree = ET.ElementTree(root)
-        tree.write('xml/mdldyna.xml', pretty_print=True, xml_declaration=True)
+        tree.write(g_project + 'mdldyna.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()

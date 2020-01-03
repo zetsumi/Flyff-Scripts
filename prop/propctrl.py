@@ -1,6 +1,7 @@
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
+from utils.logger import gLogger
 
 
 class PropCtrl:
@@ -179,5 +180,5 @@ class PropCtrl:
 
 
         tree = ET.ElementTree(root)
-        tree.write('xml/propCtrl.xml', pretty_print=True, xml_declaration=True)
+        tree.write(g_project.path_xml + 'propCtrl.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

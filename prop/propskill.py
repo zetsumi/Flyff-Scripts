@@ -451,5 +451,5 @@ class PropSkill:
                 section.set(key, value)
 
         tree = ET.ElementTree(root)
-        tree.write('xml/propSkill.xml', pretty_print=True, xml_declaration=True)
+        tree.write(g_project.path_xml + 'propSkill.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

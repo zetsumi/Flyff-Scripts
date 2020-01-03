@@ -1,9 +1,10 @@
+import json
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
 from utils.text import Text
 from utils.define import Define
-import json
+from project import g_project
 
 class PositionMonster:
     def __init__(self):
@@ -131,7 +132,7 @@ class RandomEventMonster(object):
                 data["random_event_monster"][str(key)]["positions"].append(vPos)
 
 
-        with open('json/randomEventMonster.json', 'w') as fd:
+        with open(g_project.path_json + 'randomEventMonster.json', 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()

@@ -1,9 +1,10 @@
+import json
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
 from utils.text import Text
 from utils.define import Define
-import json
+from project import g_project
 
 '''
 Information sur les drops
@@ -177,7 +178,7 @@ class   PropMoverEx:
                     kind_data["level_max"] = kind.max
                     data["prop_mover_extend"][str(key)]["kinds"].append(kind_data)
 
-        with open('json\propMoverEx.json', 'w') as fd:
+        with open(g_project.path_json + 'propMoverEx.json', 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()
@@ -217,7 +218,7 @@ class   PropMoverEx:
                     section_kind.set("level_max", str(kind.max))
 
         tree = ET.ElementTree(root)
-        tree.write('xml\propMoverExtend.xml', pretty_print=True, xml_declaration=True)
+        tree.write(g_project.path_xml + 'propMoverExtend.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
 

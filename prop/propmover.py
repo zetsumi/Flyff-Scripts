@@ -3,6 +3,7 @@ from collections import OrderedDict
 from utils.logger import gLogger
 from utils.text import Text
 from utils.define import Define
+from project import g_project
 
 MoverParams = {
     "dwID": 0,
@@ -288,6 +289,6 @@ class PropMover:
 
 
         tree = ET.ElementTree(root)
-        tree.write('xml/propMover.xml', pretty_print=True, xml_declaration=True)
+        tree.write(g_project.path_xml + 'propMover.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
