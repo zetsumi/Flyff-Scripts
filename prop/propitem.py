@@ -1,9 +1,9 @@
 import subprocess
 from lxml import etree as ET
 from collections import OrderedDict
-from logger import gLogger
-from text import Text
-from define import Define
+from utils.logger import gLogger
+from utils.text import Text
+from utils.define import Define
 
 ItemParameters = {
     "version": 0,
@@ -155,7 +155,7 @@ class PropItem():
     def load(self, file_item, file_text, file_define):
         gLogger.info("Loading: ", file_item, file_text, file_define)
 
-        with open(file_item, "r") as fd:
+        with open(file_item, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 if self.__skip_preproc__(line) is True or "//" in line:
                     continue

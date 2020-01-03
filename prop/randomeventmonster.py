@@ -1,8 +1,8 @@
 from lxml import etree as ET
 from collections import OrderedDict
-from logger import gLogger
-from text import Text
-from define import Define
+from utils.logger import gLogger
+from utils.text import Text
+from utils.define import Define
 import json
 
 class PositionMonster:

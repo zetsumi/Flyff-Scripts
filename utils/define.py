@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from logger import gLogger
+from utils.logger import gLogger
 
 class Define:
     def __init__(self):

@@ -1,6 +1,6 @@
 import os
 from collections import OrderedDict
-from logger import gLogger
+from utils.logger import gLogger
 
 
 class Packet:

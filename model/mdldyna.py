@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from logger import gLogger
+from utils.logger import gLogger
 from lxml import etree as ET
 
 ModelParams = {
@@ -18,7 +18,6 @@ ModelParams = {
 }
 
 ModelAnimatedParams = {
-
 }
 
 TypeItem = {
@@ -47,6 +46,8 @@ Item = {
 }
 
 class MdlDyna:
+
+
     def __init__(self):
         self.items = dict()
         self.ctrls = dict()
@@ -76,7 +77,7 @@ class MdlDyna:
         gLogger.set_section("mdldyna")
         gLogger.info("Loading: ", f)
         pointer = None
-        with open(f, "r") as fd:
+        with open(f, "r", encoding="ISO-8859-1") as fd:
             type_model = ""
             index = ""
             for line in fd:

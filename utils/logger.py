@@ -13,7 +13,6 @@ class Logger:
             text += " "
         print(text)
 
-    
     def set_section(self, new_section):
         self.section = new_section
 

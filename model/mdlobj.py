@@ -1,9 +1,9 @@
 import subprocess
 from collections import OrderedDict
-from logger import gLogger
+from utils.logger import gLogger
 from lxml import etree as ET
-from define import Define
-from text import Text
+from utils.define import Define
+from utils.text import Text
 
 MdlObjParameters = {
     "szName": 0,
@@ -31,7 +31,7 @@ class MdlObj:
         gLogger.set_section("mdlobj")
         gLogger.info("loading:", f)
         self.datas = dict()
-        with open(f, "r") as fd:
+        with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 if "//" in line:
                     continue
@@ -51,9 +51,13 @@ class MdlObj:
         gLogger.reset_section()
 
 
+    '''
+    Valable uniquement sur UNIX du a find
+    TODO : detecter unix ou windows et remplacer find
+    '''
     def filter(self, path_model):
         gLogger.set_section("mdlobj")
-        
+
         mdlobj_undeclared = list()
         mdlobj_model_missing = list()
 
@@ -81,7 +85,7 @@ class MdlObj:
     def write(self, mdlobj):
         gLogger.set_section("mdlobj")
 
-        with open("output/mdlObj.inc", "w") as fd:
+        with open("output/mdlObj.inc", "w", encoding="ISO-8859-1") as fd:
             fd.write("\"obj\" 0 \n")
             fd.write("{\n")
             for it in mdlobj:

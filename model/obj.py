@@ -1,7 +1,7 @@
 
 from collections import OrderedDict
-from logger import gLogger
-from common import Vector, Rect, splitter, bytes_to_unsigned_int
+from utils.logger import gLogger
+from utils.common import Vector, Rect, splitter, bytes_to_unsigned_int
 
 MAX_CTRLDROPITEM = 4
 MAX_CTRLDROPMOB = 3

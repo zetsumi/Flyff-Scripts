@@ -1,4 +1,4 @@
-from common import Vector, Rect
+from utils.common import Vector, Rect
 
 class Layer:
     def __init__(self):

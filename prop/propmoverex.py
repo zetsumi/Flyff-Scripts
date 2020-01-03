@@ -1,8 +1,8 @@
 from lxml import etree as ET
 from collections import OrderedDict
-from logger import gLogger
-from text import Text
-from define import Define
+from utils.logger import gLogger
+from utils.text import Text
+from utils.define import Define
 import json
 
 '''
@@ -13,7 +13,7 @@ Information sur les drops
 75000        0.0025%        40000
 150000        0.005%        20000
 300000        0.01%        10000
-1000000        0.0333%        3000 
+1000000        0.0333%        3000
 1875000        0.0625%        1600
 3000000        0.1%        1000
 3750000        0.125%        800

@@ -4,22 +4,25 @@ import os
 import shutil
 from collections import OrderedDict
 
-from packet import Packet
-from logger import gLogger
-from propmover import PropMover
-from propitem import PropItem
-from propctrl import PropCtrl
-from propkarma import PropKarma
-from propskill import PropSkill
-from proptroupeskill import PropTroupeSkill
-from define import Define
-from text import Text
-from mdldyna import MdlDyna
-from mdlobj import MdlObj
-from world import Worlds
-from propquest import PropQuest
-from propmoverex import PropMoverEx
-from randomeventmonster import RandomEventMonster
+from utils.logger import gLogger
+from utils.define import Define
+from utils.text import Text
+
+from network.packet import Packet
+
+from prop.propmover import PropMover
+from prop.propitem import PropItem
+from prop.propctrl import PropCtrl
+from prop.propkarma import PropKarma
+from prop.propskill import PropSkill
+from prop.proptroupeskill import PropTroupeSkill
+from prop.propquest import PropQuest
+from prop.propmoverex import PropMoverEx
+from prop.randomeventmonster import RandomEventMonster
+
+from model.mdldyna import MdlDyna
+from model.mdlobj import MdlObj
+from world.world import Worlds
 
 #Common scripts
 version_binary = "0.0.0.0"
@@ -92,45 +95,45 @@ if __name__ == "__main__":
     define = Define()
 
     # Scope mdldyna
-    # mdldyna = MdlDyna()
-    # mdldyna.load(file_mdldyna)
+    mdldyna = MdlDyna()
+    mdldyna.load(file_mdldyna)
 
     # Scope mdlobj
-    # mdlobj = MdlObj()
-    # mdlobj.load(file_mdldobj, file_define)
+    mdlobj = MdlObj()
+    mdlobj.load(file_mdldobj, file_define)
     # mdlobj.filter(path_model)
-    # mdlobj.write_new_config()
+    mdlobj.write_new_config()
 
     # Scope to filter propitem
-    # propitem = PropItem()
-    # propitem.load(file_propitem, file_text_propitem, file_define_item)
+    propitem = PropItem()
+    propitem.load(file_propitem, file_text_propitem, file_define_item)
     # propitem.filter(path_icon_item)
-    # propitem.replace()
-    # propitem.write_new_config()
+    propitem.replace()
+    propitem.write_new_config()
 
     # scope to filter propmover
-    # propmover = PropMover()
-    # if propmover.load(file_propmover, file_text_propmover, file_define_obj) is False:
-    #     gLogger.error("Error detected during the load propmover")
-    # propmover.items = propitem.items
+    propmover = PropMover()
+    if propmover.load(file_propmover, file_text_propmover, file_define_obj) is False:
+        gLogger.error("Error detected during the load propmover")
+    propmover.items = propitem.items
     # propmover.filter()
-    # propmover.write_new_config()
+    propmover.write_new_config()
 
     #Scope World
-    # worlds = Worlds()
-    # worlds.load(path_world, OrderedDict(define.load(file_define_world)), OrderedDict(define.load(file_define)))
-    # worlds.mdlobj = mdlobj
+    worlds = Worlds()
+    worlds.load(path_world, OrderedDict(define.load(file_define_world)), OrderedDict(define.load(file_define)))
+    worlds.mdlobj = mdlobj
 
     # Scope Quests
-    # propquests = PropQuest()
-    # if propquests.load(file_propquest) is None:
-    #     propquests = PropQuest()
+    propquests = PropQuest()
+    if propquests.load(file_propquest) is None:
+        propquests = PropQuest()
 
     #Scope Drop
-    # propmoverex = PropMoverEx()
-    # propmoverex.load(file_propmoverex)
-    # propmoverex.write_new_config("xml")
-    # propmoverex.write_new_config("json")
+    propmoverex = PropMoverEx()
+    propmoverex.load(file_propmoverex)
+    propmoverex.write_new_config("xml")
+    propmoverex.write_new_config("json")
 
     #Scope event monster
     randomeventmonster = RandomEventMonster()

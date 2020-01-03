@@ -1,14 +1,14 @@
 import subprocess
 import os
 from collections import OrderedDict
-from logger import gLogger
-from text import Text
-from define import Define
-from common import Vector, Rect, splitter, bytes_to_unsigned_int
-from structure_world import Layer, Landscape, Region, Respawn, CtrlElement
-from obj import Obj, ObjCtrl
-from mdldyna import MdlDyna
-from mdlobj import MdlObj
+from utils.logger import gLogger
+from utils.text import Text
+from utils.define import Define
+from utils.common import Vector, Rect, splitter, bytes_to_unsigned_int
+from world.structure_world import Layer, Landscape, Region, Respawn, CtrlElement
+from model.obj import Obj, ObjCtrl
+from model.mdldyna import MdlDyna
+from model.mdlobj import MdlObj
 
 file_listing_world = "Ressource/World.inc"
 MAX_CTRLDROPITEM = 4

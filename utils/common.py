@@ -1,3 +1,5 @@
+'''
+'''
 class Vector:
 
     def __init__(self, x, y, z):
@@ -6,6 +8,8 @@ class Vector:
         self.z = z
 
 
+'''
+'''
 class Rect:
 
     def __init__(self, left, top, right, bottom):
@@ -14,7 +18,8 @@ class Rect:
         self.right = bottom
 
 
-
+'''
+'''
 def splitter(line):
     if "\t" not in line and " " in line:
         return line.split(" ")
@@ -25,6 +30,7 @@ def splitter(line):
         return line.split(" ")
     return [line,]
 
-
+'''
+'''
 def bytes_to_unsigned_int(val):
     return int.from_bytes(val, byteorder="little", signed=False)

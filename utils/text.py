@@ -1,5 +1,5 @@
 
-from logger import gLogger
+from utils.logger import gLogger
 
 
 class Text:
@@ -19,7 +19,7 @@ class Text:
         gLogger.set_section("text")
         gLogger.info("Loading: ", f)
         self.datas = dict()
-        with open(f, "r") as fd:
+        with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")

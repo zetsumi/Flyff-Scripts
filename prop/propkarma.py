@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from logger import gLogger
+from utils.logger import gLogger
 from lxml import etree as ET
 
 
