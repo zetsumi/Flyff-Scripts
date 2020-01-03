@@ -1,77 +1,75 @@
 import json
 import re
 from lxml import etree as ET
-from collections import OrderedDict
+
+from project import g_project
 from utils.logger import gLogger
 from utils.text import Text
 from utils.define import Define
-from project import g_project
 
 class PropMoverAI:
 
     def __init__(self):
         self.id_mover = 0
-        self.behavior = {
-            "scan": {
-                "job": 0,
-                "range": 0,
-                "quest": 0,
-                "item": 0,
-                "chao": 0
+        self.scan = {
+            "job": 0,
+            "range": 0,
+            "quest": 0,
+            "item": 0,
+            "chao": 0
+        }
+        self.battle = {
+            "attack": {
+                "active": False,
+                "cond_hp": 0,
+                "cond_lvl": 0
             },
-            "battle": {
-                "attack": {
-                    "active": False,
-                    "cond_hp": 0,
-                    "cond_lvl": 0
-                },
-                "rangeattack": {
-                    "active": False,
-                    "range": 0
-                },
-                "keeprangeattack": {
-                    "active": False,
-                    "range": 0
-                },
-                "summon": {
-                    "active": False,
-                    "probability": 0,
-                    "number": 0,
-                    "id_mover": 0
-                },
-                "evade": {
-                    "active": False,
-                    "percent_hp": 0
-                },
-                "helper": {
-                    "active": False,
-                    "who": 0,
-                    "unit": 0,
-                    "range_multiplier": 0
-                },
-                "recovery": {
-                    "active": False,
-                    "cond": False,
-                    "cond_me": False,
-                    "cond_how": 0,
-                    "cond_hp": 0,
-                    "cond_who": 0,
-                    "cond_MP": 0
-                },
-                "berserk": {
-                    "active": False,
-                    "percent_hp": 0,
-                    "damage_multiplier": 0
-                },
-                "randomtarget": {
-                    "active": False
-                }
+            "rangeattack": {
+                "active": False,
+                "range": 0
             },
-            "move": {
-                "loot": {
-                    "active": False,
-                    "probability": 0
-                }
+            "keeprangeattack": {
+                "active": False,
+                "range": 0
+            },
+            "summon": {
+                "active": False,
+                "probability": 0,
+                "number": 0,
+                "id_mover": 0
+            },
+            "evade": {
+                "active": False,
+                "percent_hp": 0
+            },
+            "helper": {
+                "active": False,
+                "who": 0,
+                "unit": 0,
+                "range_multiplier": 0
+            },
+            "recovery": {
+                "active": False,
+                "cond": False,
+                "cond_me": False,
+                "cond_how": 0,
+                "cond_hp": 0,
+                "cond_who": 0,
+                "cond_MP": 0
+            },
+            "berserk": {
+                "active": False,
+                "percent_hp": 0,
+                "damage_multiplier": 0
+            },
+            "randomtarget": {
+                "active": False
+            }
+        }
+        self.move = {
+            "loot": {
+                "active": False,
+                "probability": 0
             }
         }
 
@@ -93,15 +91,15 @@ class PropMoverAI:
             if re.search('[a-zA-Z]', it) is None:
                 continue
             if "#Scan" in it:
-                container = self.behavior["scan"]
+                container = self.scan
                 token = "scan"
                 continue
             elif "#battle" in it:
-                container = self.behavior["battle"]
+                container = self.battle
                 token = "battle"
                 continue
             elif "#move" in it:
-                container = self.behavior["move"]
+                container = self.move
                 token = "move"
                 continue
             if "{" in it or "}" in it:
@@ -149,10 +147,10 @@ class PropMoverAI:
 class PropMoverExAI:
 
     def __init__(self):
-        pass
+        self.ais = dict()
 
     def load(self, file_prop):
-        gLogger.set_section("propmoverex")
+        gLogger.set_section("propmoverexai")
         gLogger.info("loading", file_prop)
 
         movers = dict()
@@ -172,8 +170,31 @@ class PropMoverExAI:
             mover = movers[it]
             propai = PropMoverAI()
             propai.load(it, mover)
+            self.ais[it] = propai
 
         gLogger.reset_section()
 
+
+    def json_format(self):
+        gLogger.set_section("propmoverexai")
+        gLogger.info("writing JSON propmoverexai")
+
+
+        data = dict()
+        data["ai"] = {}
+        for id_mover in self.ais:
+            data["ai"][str(id_mover)] = dict()
+            ai = data["ai"][str(id_mover)]
+            ai["scan"] =  self.ais[id_mover].scan
+            ai["battle"] = self.ais[id_mover].battle
+            ai["move"] =  self.ais[id_mover].move
+
+        with open(g_project.path_json + 'propMoverExAI.json', 'w') as fd:
+            json.dump(data, fd, indent=4)
+
+        gLogger.reset_section()
+
+
     def write_new_config(self, mode):
-        pass
+        if mode == 'json':
+            self.json_format()
