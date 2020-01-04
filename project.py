@@ -51,7 +51,7 @@ class Project:
         self.path_icon = self.path_resource + "Icon/"
         self.path_model = self.path_resource +  "Model/"
         self.path_output = "./output/"
-        self.path_filter = "./filter/"
+        self.path_filter = self.path_output + "filter/"
         self.path_xml = self.path_output + "/xml/"
         self.path_json = self.path_output + "/json/"
         self.path_world = self.path_resource + "World/"
