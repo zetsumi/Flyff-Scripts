@@ -1,31 +1,20 @@
+# system
 import sys
 import subprocess
 import os
 import shutil
 from collections import OrderedDict
 
-from utils.logger import gLogger
-from utils.define import Define
-from utils.text import Text
-
+# projet
+from utils import (gLogger, Define, Text)
 from project import g_project
-
-from network.packet import Packet
-
-from prop.propmover import PropMover
-from prop.propitem import PropItem
-from prop.propctrl import PropCtrl
-from prop.propkarma import PropKarma
-from prop.propskill import PropSkill
-from prop.proptroupeskill import PropTroupeSkill
-from prop.propquest import PropQuest
-from prop.propmoverex import PropMoverEx
-from prop.propmoverexai import PropMoverExAI
-from prop.randomeventmonster import RandomEventMonster
-
-from model.mdldyna import MdlDyna
-from model.mdlobj import MdlObj
-from world.world import Worlds
+from network import Packet
+from prop import (PropMover, PropItem, PropCtrl, PropKarma,
+    PropSkill, PropTroupeSkill, PropQuest,
+    PropMoverEx, PropMoverExAI, RandomEventMonster
+)
+from model import (MdlDyna, MdlObj)
+from world import Worlds
 
 if __name__ == "__main__":
     gLogger.info("Running Flyff Properties ", g_project.version_binary)
