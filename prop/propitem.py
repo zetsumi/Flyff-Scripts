@@ -5,6 +5,7 @@ from project import g_project
 from utils.logger import gLogger
 from utils.text import Text
 from utils.define import Define
+from .prop import Prop
 
 ItemParameters = {
     "version": 0,
@@ -134,7 +135,7 @@ ItemParameters = {
 }
 
 
-class PropItem():
+class PropItem(Prop):
 
     def __init__(self):
         self.items = dict()

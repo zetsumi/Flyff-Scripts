@@ -1,3 +1,4 @@
+from .prop import Prop
 from .propmover import PropMover
 from .propitem import PropItem
 from .propctrl import PropCtrl
@@ -8,3 +9,4 @@ from .propquest import PropQuest
 from .propmoverex import PropMoverEx
 from .propmoverexai import PropMoverExAI
 from .randomeventmonster import RandomEventMonster
+
