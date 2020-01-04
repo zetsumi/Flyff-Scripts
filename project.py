@@ -8,31 +8,31 @@ class Project:
         #module activation
         self.module = {
             "mdldyna": {
-                "active": False,
+                "active": True,
                 "filter": False
             },
             "mdlobj": {
-                "active": False,
+                "active": True,
                 "filter": False
             },
             "item": {
-                "active": False,
+                "active": True,
                 "filter": False
             },
             "mover": {
-                "active": False,
+                "active": True,
                 "filter": False
             },
             "world": {
-                "active": False,
+                "active": True,
                 "filter": False
             },
             "quest": {
-                "active": False,
+                "active": True,
                 "filter": False
             },
             "drop": {
-                "active": False,
+                "active": True,
                 "filter": False
             },
             "ai": {
@@ -40,19 +40,22 @@ class Project:
                 "filter": False
             },
             "event_monster": {
-                "active": False,
+                "active": True,
                 "filter": False
             }
         }
 
         # Path Ressource
-        self.path_resource = "./Ressource/"
-        self.path_icon_item = self.path_resource + "Item/"
-        self.path_icon = self.path_resource + "Icon/"
-        self.path_model = self.path_resource +  "Model/"
-        self.path_world = self.path_resource + "World/"
-        self.path_ressource_define = self.path_resource + "defines/"
-        self.path_ressource_network = self.path_resource + "network/"
+        self.path_ressource = "./Ressource/"
+        self.path_icon_item = self.path_ressource + "Item/"
+        self.path_icon = self.path_ressource + "Icon/"
+        self.path_model = self.path_ressource +  "Model/"
+        self.path_ressource_world = self.path_ressource + "World/"
+        self.path_ressource_define = self.path_ressource + "defines/"
+        self.path_ressource_network = self.path_ressource + "network/"
+        self.path_ressource_model = self.path_ressource + "model/"
+        self.path_ressource_text = self.path_ressource + "texts/"
+        self.path_ressource_prop = self.path_ressource + "props/"
 
         # Path output project
         self.path_output = "./output/"
@@ -62,29 +65,30 @@ class Project:
         self.path_documentation = self.path_output + "documentation/"
 
         # file properties
-        self.file_propitem = self.path_resource + "propItem.txt"
-        self.file_propmover = self.path_resource + "propMover.txt"
-        self.file_propmoverex = self.path_resource + "propMoverEx.inc"
-        self.file_propctrl = self.path_resource + "propCtrl.txt"
-        self.file_propkarma = self.path_resource + "propKarma.txt"
-        self.file_propskill = self.path_resource + "propSkill.txt"
-        self.file_proptroupeskill = self.path_resource + "propTroupeSkill.txt"
-        self.file_propquest = self.path_resource + "propQuest.inc"
+        self.file_propitem = self.path_ressource_prop + "propItem.txt"
+        self.file_propmover = self.path_ressource_prop + "propMover.txt"
+        self.file_propctrl = self.path_ressource_prop + "propCtrl.txt"
+        self.file_propkarma = self.path_ressource_prop + "propKarma.txt"
+        self.file_propskill = self.path_ressource_prop + "propSkill.txt"
+        self.file_proptroupeskill = self.path_ressource_prop + "propTroupeSkill.txt"
+        self.file_propquest = self.path_ressource_prop + "propQuest.inc"
 
         # file text
-        self.file_txt_propitem = self.path_resource + "propItem.txt.txt"
-        self.file_text_propmover = self.path_resource + "propMover.txt.txt"
-        self.file_text_propitem = self.path_resource + "propItem.txt.txt"
-        self.file_text_propctrl = self.path_resource + "propCtrl.txt.txt"
-        self.file_text_propkarma = self.path_resource + "propKarma.txt.txt"
-        self.file_text_propskill = self.path_resource + "propSkill.txt.txt"
-        self.file_text_proptroupeskill = self.path_resource + "propTroupeSkill.txt.txt"
+        self.file_txt_propitem = self.path_ressource_text + "propItem.txt.txt"
+        self.file_text_propmover = self.path_ressource_text + "propMover.txt.txt"
+        self.file_text_propitem = self.path_ressource_text + "propItem.txt.txt"
+        self.file_text_propctrl = self.path_ressource_text + "propCtrl.txt.txt"
+        self.file_text_propkarma = self.path_ressource_text + "propKarma.txt.txt"
+        self.file_text_propskill = self.path_ressource_text + "propSkill.txt.txt"
+        self.file_text_proptroupeskill = self.path_ressource_text + "propTroupeSkill.txt.txt"
 
 
         # file inc
-        self.file_mdldyna = self.path_resource + "mdlDyna.inc"
-        self.file_mdldobj = self.path_resource + "mdlObj.inc"
-        self.file_random_event_monster = self.path_resource + "randomeventmonster.inc"
+        self.file_mdldyna = self.path_ressource_model + "mdlDyna.inc"
+        self.file_mdldobj = self.path_ressource_model + "mdlObj.inc"
+        self.file_random_event_monster = self.path_ressource_prop + "randomeventmonster.inc"
+        self.file_propmoverex = self.path_ressource_prop + "propMoverEx.inc"
+        self.file_world = self.path_ressource_world + "world.inc"
 
         # file define
         self.file_define = self.path_ressource_define + "define.h"

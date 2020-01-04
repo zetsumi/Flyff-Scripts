@@ -60,7 +60,8 @@ if __name__ == "__main__":
     #Scope World
     if g_project.module["world"]["active"] is True:
         worlds = Worlds()
-        worlds.load(g_project.path_world, OrderedDict(define.load(g_project.file_define_world)), OrderedDict(define.load(g_project.file_define)))
+        worlds.set_listing_world(g_project.file_world)
+        worlds.load(g_project.path_ressource_world, OrderedDict(define.load(g_project.file_define_world)), OrderedDict(define.load(g_project.file_define)))
         worlds.mdlobj = mdlobj
 
     # Scope Quests

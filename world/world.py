@@ -10,7 +10,6 @@ from model.obj import Obj, ObjCtrl
 from model.mdldyna import MdlDyna
 from model.mdlobj import MdlObj
 
-file_listing_world = "Ressource/World.inc"
 MAX_CTRLDROPITEM = 4
 MAX_CTRLDROPMOB = 3
 MAX_TRAP = 3
@@ -71,6 +70,9 @@ class Worlds:
         self.mdldyna = None
 
 
+    def set_listing_world(self, file_world):
+        self.listing_world = file_world
+
     def __clean_arr__(self, arr):
         copy = list()
         for it in arr:
@@ -82,7 +84,7 @@ class Worlds:
 
     def __load_world_inc__(self, defineWorld):
         index = str()
-        with open(file_listing_world, "r") as fd:
+        with open(self.listing_world, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 arr = splitter(line)
@@ -324,7 +326,7 @@ class Worlds:
 
         gLogger.reset_section()
 
-    
+
     def filter(self, mdlobj):
         gLogger.set_section("world")
         obj_in_world = list()
