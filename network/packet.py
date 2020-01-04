@@ -1,7 +1,7 @@
 import os
 from collections import OrderedDict
 from utils.logger import gLogger
-from project import gProject
+from project import g_project
 
 
 class Packet:
@@ -15,9 +15,9 @@ class Packet:
         self.token_file = "FILE:"
         self.token_packet = "PACKETTYPE"
         self.token_snapshot = "SNAPSHOTTYPE"
-        self.documentation = "documentation/message_header.md"
-        self.file_packets = "config/packets.txt"
-        self.file_snapshots = "config/snapshots.txt"
+        self.documentation = g_project.path_documentation + "message_header.md"
+        self.file_packets = g_project.path_ressource_network + "packets.txt"
+        self.file_snapshots = g_project.path_ressource_network + "snapshots.txt"
         self.packets_valid = list()
         self.snapshots_valid = list()
 
@@ -145,8 +145,6 @@ class Packet:
 
 
     def doc(self):
-        if not os.path.exists("./documentation"):
-            os.makedirs("./documentation")
         with open(self.documentation, "w") as fd:
             self.__generate_doc__(self.packets_used, self.packets_valid, fd)
             self.__generate_doc__(self.snapshots_used, self.snapshots_valid, fd)

@@ -45,16 +45,21 @@ class Project:
             }
         }
 
-        #Path
+        # Path Ressource
         self.path_resource = "./Ressource/"
         self.path_icon_item = self.path_resource + "Item/"
         self.path_icon = self.path_resource + "Icon/"
         self.path_model = self.path_resource +  "Model/"
+        self.path_world = self.path_resource + "World/"
+        self.path_ressource_define = self.path_resource + "defines/"
+        self.path_ressource_network = self.path_resource + "network/"
+
+        # Path output project
         self.path_output = "./output/"
         self.path_filter = self.path_output + "filter/"
         self.path_xml = self.path_output + "/xml/"
         self.path_json = self.path_output + "/json/"
-        self.path_world = self.path_resource + "World/"
+        self.path_documentation = self.path_output + "documentation/"
 
         # file properties
         self.file_propitem = self.path_resource + "propItem.txt"
@@ -82,19 +87,19 @@ class Project:
         self.file_random_event_monster = self.path_resource + "randomeventmonster.inc"
 
         # file define
-        self.file_define = self.path_resource + "define.h"
-        self.file_define_item = self.path_resource + "defineItem.h"
-        self.file_define_attribute = self.path_resource + "defineAttribute.h"
-        self.file_define_obj = self.path_resource + "defineObj.h"
-        self.file_define_neuz = self.path_resource + "defineNeuz.h"
-        self.file_define_itemkind = self.path_resource + "defineItemkind.h"
-        self.file_define_skill = self.path_resource + "defineSkill.h"
-        self.file_define_job = self.path_resource + "defineJob.h"
-        self.file_define_sound = self.path_resource + "defineSound.h"
-        self.file_define_world = self.path_resource + "defineWorld.h"
+        self.file_define = self.path_ressource_define + "define.h"
+        self.file_define_item = self.path_ressource_define + "defineItem.h"
+        self.file_define_attribute = self.path_ressource_define + "defineAttribute.h"
+        self.file_define_obj = self.path_ressource_define + "defineObj.h"
+        self.file_define_neuz = self.path_ressource_define + "defineNeuz.h"
+        self.file_define_itemkind = self.path_ressource_define + "defineItemkind.h"
+        self.file_define_skill = self.path_ressource_define + "defineSkill.h"
+        self.file_define_job = self.path_ressource_define + "defineJob.h"
+        self.file_define_sound = self.path_ressource_define + "defineSound.h"
+        self.file_define_world = self.path_ressource_define + "defineWorld.h"
 
-        #packet
-        self.file_msghdr = self.path_resource + "MsgHdr.h"
+        # packet
+        self.file_msghdr = self.path_ressource_define + "MsgHdr.h"
 
 
     def create_directories(self):
@@ -107,5 +112,7 @@ class Project:
             os.makedirs(self.path_xml)
         if not os.path.exists(self.path_json):
             os.makedirs(self.path_json)
+        if not os.path.exists(self.path_documentation):
+            os.makedirs(self.path_documentation)
 
 g_project = Project()
