@@ -71,11 +71,11 @@ class MdlObj:
             if len(out.stdout) == 0 and it not in mdlobj_model_missing:
                 mdlobj_model_missing.append(model)
 
-        gLogger.write("./filter/mdlobj_undeclared.txt", mdlobj_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "mdlobj_undeclared.txt", mdlobj_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Obj undeclared:",
                 undeclared=len(mdlobj_undeclared),
                 total=len(self.datas)))
-        gLogger.write("./filter/mdlobj_model_missing.txt", mdlobj_model_missing, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "mdlobj_model_missing.txt", mdlobj_model_missing, "{infos}: {undeclared}/{total}".format(
                 infos="Model not found:",
                 undeclared=len(mdlobj_model_missing),
                 total=len(self.datas)))

@@ -347,7 +347,7 @@ class Worlds:
                         if sfx.dwModelID not in sfx_in_world:
                             sfx_in_world.append(sfx.dwModelID)
 
-            gLogger.write("./filter/world_"+str(world.id)+"_obj_find.txt", obj_in_world, "Unique Obj: {total}".format(total=len(obj_in_world)))
-            gLogger.write("./filter/world_sfx_find.txt", sfx_in_world, "Unique Sfx: {total}".format(total=len(sfx_in_world)))
+            gLogger.write(gProject.path_filter + "world_" + str(world.id) + "_obj_find.txt", obj_in_world, "Unique Obj: {total}".format(total=len(obj_in_world)))
+            gLogger.write(gProject.path_filter + "world_sfx_find.txt", sfx_in_world, "Unique Sfx: {total}".format(total=len(sfx_in_world)))
 
         gLogger.reset_section()

@@ -1,6 +1,7 @@
 import os
 from collections import OrderedDict
 from utils.logger import gLogger
+from project import gProject
 
 
 class Packet:
@@ -63,12 +64,12 @@ class Packet:
                     else:
                         gLogger.error("Unknow:", newelement)
 
-        gLogger.write("filter/infos_packettype.txt", self.packets, "{infos} {f}".format(
+        gLogger.write(gProject.path_filter + "infos_packettype.txt",self.packets, "{infos} {f}".format(
                 infos="writing list PACKETTYPE in:",
-                f="filter/infos_snapshottype.txt"))
-        gLogger.write("filter/infos_snapshottype.txt", self.snapshots, "{infos} {f}".format(
+                f=gProject.path_filter + "infos_snapshottype.txt"))
+        gLogger.write(gProject.path_filter + "infos_snapshottype.txt", self.snapshots, "{infos} {f}".format(
                 infos="writing list SNASHOPTYPE in:",
-                f="filter/infos_snapshottype.txt"))
+                f=gProject.path_filter + "infos_snapshottype.txt"))
 
 
     def __compare__(self, title, based, used, result):
@@ -115,11 +116,11 @@ class Packet:
                 fd.write("| Binary | File | Count  |" + "\n")
                 fd.write("| ------ | ---- | ------ |"+ "\n")
                 fd.write("| " + binary + " | " + path + " | " + str(count) + " |" + "\n")
-                fd.write("## " + path + ":" + "\n")            
+                fd.write("## " + path + ":" + "\n")
                 for value in values:
                     fd.write("- " + value + "\n")
 
-    
+
     def load(self, f):
         gLogger.set_section("msghdr")
         gLogger.info("loading:", f)
@@ -134,11 +135,11 @@ class Packet:
         gLogger.info("*********************************")
         self.packets_valid = self.__compare__("PACKETTYPE",
             self.packets, self.packets_used,
-            "filter/packettype_error.txt")
+            gProject.path_filter + "packettype_error.txt")
         gLogger.info("=================================")
         self.snapshots_valid = self.__compare__("SNAPSHOTTYPE",
             self.snapshots, self.snapshots_used,
-            "filter/snapshottype_error.txt")
+            gProject.path_filter + "snapshottype_error.txt")
         gLogger.info("*********************************")
         gLogger.reset_section()
 

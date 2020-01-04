@@ -211,23 +211,23 @@ class PropItem():
                 items_unused.append(define.key)
 
 
-        gLogger.write("./filter/items_undeclared.txt", items_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "items_undeclared.txt", items_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Items undeclared:",
                 undeclared=len(items_undeclared),
                 total=len(self.items)))
-        gLogger.write("./filter/items_undefined.txt", items_unused, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "items_undefined.txt", items_unused, "{infos}: {undeclared}/{total}".format(
                 infos="Items unused:",
                 undeclared=len(items_unused),
                 total=len(self.items)))
-        gLogger.write("./filter/items_icon_unfound.txt", items_icon_unfound, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "items_icon_unfound.txt", items_icon_unfound, "{infos}: {undeclared}/{total}".format(
                 infos="Icon unfound:",
                 undeclared=len(items_icon_unfound),
                 total=len(self.items)))
-        gLogger.write("./filter/item_name_undeclared.txt", item_name_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "item_name_undeclared.txt", item_name_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Name undeclared:",
                 undeclared=len(item_name_undeclared),
                 total=len(self.items)))
-        gLogger.write("./filter/item_comment_undeclared.txt", item_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "item_comment_undeclared.txt", item_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Comment undeclared:",
                 undeclared=len(item_comment_undeclared),
                 total=len(self.items)))

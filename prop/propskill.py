@@ -361,15 +361,15 @@ class PropSkill:
                 skill_icon_unfound.append(icon)
 
 
-        gLogger.write("./filter/skill_undeclared.txt", skill_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "skill_undeclared.txt", skill_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Skill  undeclared:",
                 undeclared=len(skill_undeclared),
                 total=len(skills)))
-        gLogger.write("./filter/skill_parameter_undeclared.txt", skill_parameter_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "skill_parameter_undeclared.txt", skill_parameter_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Parameter  undeclared:",
                 undeclared=len(skill_parameter_undeclared),
                 total=len(skills)))
-        gLogger.write("./filter/skill_icon_unfound.txt", skill_icon_unfound, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "skill_icon_unfound.txt", skill_icon_unfound, "{infos}: {undeclared}/{total}".format(
                 infos="Icon not found:",
                 undeclared=len(skill_icon_unfound),
                 total=len(skills)))

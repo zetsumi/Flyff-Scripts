@@ -181,19 +181,19 @@ class PropMover:
                 if mover["dwAtk3"] not in self.items:
                     weapon_undeclared.append(mover["dwAtk3"])
 
-        gLogger.write("filter/mover_undeclared.txt", mover_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "mover_undeclared.txt", mover_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Movers undeclared:",
                 undeclared=len(mover_undeclared),
                 total=len(self.movers)))
-        gLogger.write("filter/mover_unused.txt", mover_unused, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "mover_unused.txt", mover_unused, "{infos}: {undeclared}/{total}".format(
                 infos="Movers mover_unused:",
                 undeclared=len(mover_unused),
                 total=len(self.movers)))
-        gLogger.write("filter/mover_name_undeclared.txt", mover_name_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "mover_name_undeclared.txt", mover_name_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Movers mover_name_undeclared:",
                 undeclared=len(mover_name_undeclared),
                 total=len(self.movers)))
-        gLogger.write("filter/mover_comment_undeclared.txt", mover_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(gProject.path_filter + "mover_comment_undeclared.txt", mover_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Movers mover_comment_undeclared:",
                 undeclared=len(mover_comment_undeclared),
                 total=len(self.movers)))
