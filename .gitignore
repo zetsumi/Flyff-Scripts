@@ -485,3 +485,5 @@ filter/*
 output/*
 json/*
 xml/*
+env/*
+.idea
