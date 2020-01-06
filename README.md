@@ -36,7 +36,7 @@ Charger les fichiers :
 - [x] propSkill.txt
 - [x] propTroupeSkill.txt
 - [ ] propSkill.txt
-- [ ] propQuest.inc
+- [x] propQuest.inc
 - [ ] mdlDyna.inc
 - [ ] mdlObj.inc
 - [x] rarandomeventmonster.inc
