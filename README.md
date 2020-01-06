@@ -2,6 +2,10 @@
 
 Script ayant pour but de filtrer les ressources de flyff afin de produire des fichier propre et donnant la possibilite d'ecrire les fichiers dans d'autre formats.
 
+Refacto des class Prop :
+- [ ] load sans return les datas
+- [ ] Implementer l'heritage de Prop
+
 Lecture des fichiers texte :
 - [x] propItem.txt.txt
 - [x] propMover.txt.txt
