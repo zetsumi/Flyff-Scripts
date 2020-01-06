@@ -2,11 +2,11 @@ import subprocess
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
+from project import g_project
 
 
 class PropSkill:
 
-    
     def __init__(self):
         self.version = 0
         self.dwID = 1
@@ -133,142 +133,138 @@ class PropSkill:
         self.szTextFile = 122
         self.szComment = 123
 
-
     def toString(self):
         toString = str(str(self.version) + " " + \
-		str(self.dwID) + " " + \
-		str(self.szName) + " " + \
-		str(self.dwNum) + " " + \
-		str(self.dwPackMax) + " " + \
-		str(self.dwItemKind1) + " " + \
-		str(self.dwItemKind2) + " " + \
-		str(self.dwItemKind3) + " " + \
-		str(self.dwItemJob) + " " + \
-		str(self.bPermanence) + " " + \
-		str(self.dwUseable) + " " + \
-		str(self.dwItemSex) + " " + \
-		str(self.dwCost) + " " + \
-		str(self.dwEndurance) + " " + \
-		str(self.nAbrasion) + " " + \
-		str(self.nHardness) + " " + \
-		str(self.dwHanded) + " " + \
-		str(self.dwHeelH) + " " + \
-		str(self.dwParts) + " " + \
-		str(self.dwPartsub) + " " + \
-		str(self.bPartFile) + " " + \
-		str(self.dwExclusive) + " " + \
-		str(self.dwBasePartsIgnore) + " " + \
-		str(self.dwItemLV) + " " + \
-		str(self.dwItemRare) + " " + \
-		str(self.dwShopAble) + " " + \
-		str(self.bLog) + " " + \
-		str(self.bCharged) + " " + \
-		str(self.dwLinkKindBullet) + " " + \
-		str(self.dwLinkKind) + " " + \
-		str(self.dwAbilityMin) + " " + \
-		str(self.dwAbilityMax) + " " + \
-		str(self.eItemType) + " " + \
-		str(self.wItemEAtk) + " " + \
-		str(self.dwparry) + " " + \
-		str(self.dwblockRating) + " " + \
-		str(self.dwAddSkillMin) + " " + \
-		str(self.dwAddSkillMax) + " " + \
-		str(self.dwAtkStyle) + " " + \
-		str(self.dwWeaponType) + " " + \
-		str(self.dwItemAtkOrder1) + " " + \
-		str(self.dwItemAtkOrder2) + " " + \
-		str(self.dwItemAtkOrder3) + " " + \
-		str(self.dwItemAtkOrder4) + " " + \
-		str(self.tmContinuousPain) + " " + \
-		str(self.dwShellQuantity) + " " + \
-		str(self.dwRecoil) + " " + \
-		str(self.dwLoadingTime) + " " + \
-		str(self.nAdjHitRate) + " " + \
-		str(self.dwAttackSpeed) + " " + \
-		str(self.dwDmgShift) + " " + \
-		str(self.dwAttackRange) + " " + \
-		str(self.dwProbability) + " " + \
-		str(self.dwDestParam1) + " " + \
-		str(self.dwDestParam2) + " " + \
-		str(self.dwDestParam3) + " " + \
-		str(self.nAdjParamVal1) + " " + \
-		str(self.nAdjParamVal2) + " " + \
-		str(self.nAdjParamVal3) + " " + \
-		str(self.dwChgParamVal1) + " " + \
-		str(self.dwChgParamVal2) + " " + \
-		str(self.dwChgParamVal3) + " " + \
-		str(self.dwdestData1) + " " + \
-		str(self.dwdestData2) + " " + \
-		str(self.dwdestData3) + " " + \
-		str(self.dwactiveskill) + " " + \
-		str(self.dwactiveskillLv) + " " + \
-		str(self.dwactiveskillper) + " " + \
-		str(self.dwReqMp) + " " + \
-		str(self.dwRepFp) + " " + \
-		str(self.dwReqDisLV) + " " + \
-		str(self.dwReSkill1) + " " + \
-		str(self.dwReSkillLevel1) + " " + \
-		str(self.dwReSkill2) + " " + \
-		str(self.dwReSkillLevel2) + " " + \
-		str(self.dwSkillReadyType) + " " + \
-		str(self.dwSkillReady) + " " + \
-		str(self.dwSkillRange) + " " + \
-		str(self.dwSfxElemental) + " " + \
-		str(self.dwSfxObj) + " " + \
-		str(self.dwSfxObj2) + " " + \
-		str(self.dwSfxObj3) + " " + \
-		str(self.dwSfxObj4) + " " + \
-		str(self.dwSfxObj5) + " " + \
-		str(self.dwUseMotion) + " " + \
-		str(self.dwCircleTime) + " " + \
-		str(self.dwSkillTime) + " " + \
-		str(self.dwExeTarget) + " " + \
-		str(self.dwUseChance) + " " + \
-		str(self.dwSpellRegion) + " " + \
-		str(self.dwSpellType) + " " + \
-		str(self.dwReferStat1) + " " + \
-		str(self.dwReferStat2) + " " + \
-		str(self.dwReferTarget1) + " " + \
-		str(self.dwReferTarget2) + " " + \
-		str(self.dwReferValue1) + " " + \
-		str(self.dwReferValue2) + " " + \
-		str(self.dwSkillType) + " " + \
-		str(self.fItemResistElecricity) + " " + \
-		str(self.fItemResistFire) + " " + \
-		str(self.fItemResistWind) + " " + \
-		str(self.fItemResistWater) + " " + \
-		str(self.fItemResistEarth) + " " + \
-		str(self.nEvildoing) + " " + \
-		str(self.dwExpertLV) + " " + \
-		str(self.ExpertMax) + " " + \
-		str(self.dwSubDefine) + " " + \
-		str(self.dwExp) + " " + \
-		str(self.dwComboStyle) + " " + \
-		str(self.fFlightSpeed) + " " + \
-		str(self.fFlightLRAngle) + " " + \
-		str(self.fFlightTBAngle) + " " + \
-		str(self.dwFlightLimit) + " " + \
-		str(self.dwFFuelReMax) + " " + \
-		str(self.dwAFuelReMax) + " " + \
-		str(self.dwFuelRe) + " " + \
-		str(self.dwLimitLevel1) + " " + \
-		str(self.dwReflect) + " " + \
-		str(self.dwSndAttack1) + " " + \
-		str(self.dwSndAttack2) + " " + \
-		str(self.szIcon) + " " + \
-		str(self.dwQuestID) + " " + \
-		str(self.szTextFile) + " " + \
-		str(self.szComment))
+                       str(self.dwID) + " " + \
+                       str(self.szName) + " " + \
+                       str(self.dwNum) + " " + \
+                       str(self.dwPackMax) + " " + \
+                       str(self.dwItemKind1) + " " + \
+                       str(self.dwItemKind2) + " " + \
+                       str(self.dwItemKind3) + " " + \
+                       str(self.dwItemJob) + " " + \
+                       str(self.bPermanence) + " " + \
+                       str(self.dwUseable) + " " + \
+                       str(self.dwItemSex) + " " + \
+                       str(self.dwCost) + " " + \
+                       str(self.dwEndurance) + " " + \
+                       str(self.nAbrasion) + " " + \
+                       str(self.nHardness) + " " + \
+                       str(self.dwHanded) + " " + \
+                       str(self.dwHeelH) + " " + \
+                       str(self.dwParts) + " " + \
+                       str(self.dwPartsub) + " " + \
+                       str(self.bPartFile) + " " + \
+                       str(self.dwExclusive) + " " + \
+                       str(self.dwBasePartsIgnore) + " " + \
+                       str(self.dwItemLV) + " " + \
+                       str(self.dwItemRare) + " " + \
+                       str(self.dwShopAble) + " " + \
+                       str(self.bLog) + " " + \
+                       str(self.bCharged) + " " + \
+                       str(self.dwLinkKindBullet) + " " + \
+                       str(self.dwLinkKind) + " " + \
+                       str(self.dwAbilityMin) + " " + \
+                       str(self.dwAbilityMax) + " " + \
+                       str(self.eItemType) + " " + \
+                       str(self.wItemEAtk) + " " + \
+                       str(self.dwparry) + " " + \
+                       str(self.dwblockRating) + " " + \
+                       str(self.dwAddSkillMin) + " " + \
+                       str(self.dwAddSkillMax) + " " + \
+                       str(self.dwAtkStyle) + " " + \
+                       str(self.dwWeaponType) + " " + \
+                       str(self.dwItemAtkOrder1) + " " + \
+                       str(self.dwItemAtkOrder2) + " " + \
+                       str(self.dwItemAtkOrder3) + " " + \
+                       str(self.dwItemAtkOrder4) + " " + \
+                       str(self.tmContinuousPain) + " " + \
+                       str(self.dwShellQuantity) + " " + \
+                       str(self.dwRecoil) + " " + \
+                       str(self.dwLoadingTime) + " " + \
+                       str(self.nAdjHitRate) + " " + \
+                       str(self.dwAttackSpeed) + " " + \
+                       str(self.dwDmgShift) + " " + \
+                       str(self.dwAttackRange) + " " + \
+                       str(self.dwProbability) + " " + \
+                       str(self.dwDestParam1) + " " + \
+                       str(self.dwDestParam2) + " " + \
+                       str(self.dwDestParam3) + " " + \
+                       str(self.nAdjParamVal1) + " " + \
+                       str(self.nAdjParamVal2) + " " + \
+                       str(self.nAdjParamVal3) + " " + \
+                       str(self.dwChgParamVal1) + " " + \
+                       str(self.dwChgParamVal2) + " " + \
+                       str(self.dwChgParamVal3) + " " + \
+                       str(self.dwdestData1) + " " + \
+                       str(self.dwdestData2) + " " + \
+                       str(self.dwdestData3) + " " + \
+                       str(self.dwactiveskill) + " " + \
+                       str(self.dwactiveskillLv) + " " + \
+                       str(self.dwactiveskillper) + " " + \
+                       str(self.dwReqMp) + " " + \
+                       str(self.dwRepFp) + " " + \
+                       str(self.dwReqDisLV) + " " + \
+                       str(self.dwReSkill1) + " " + \
+                       str(self.dwReSkillLevel1) + " " + \
+                       str(self.dwReSkill2) + " " + \
+                       str(self.dwReSkillLevel2) + " " + \
+                       str(self.dwSkillReadyType) + " " + \
+                       str(self.dwSkillReady) + " " + \
+                       str(self.dwSkillRange) + " " + \
+                       str(self.dwSfxElemental) + " " + \
+                       str(self.dwSfxObj) + " " + \
+                       str(self.dwSfxObj2) + " " + \
+                       str(self.dwSfxObj3) + " " + \
+                       str(self.dwSfxObj4) + " " + \
+                       str(self.dwSfxObj5) + " " + \
+                       str(self.dwUseMotion) + " " + \
+                       str(self.dwCircleTime) + " " + \
+                       str(self.dwSkillTime) + " " + \
+                       str(self.dwExeTarget) + " " + \
+                       str(self.dwUseChance) + " " + \
+                       str(self.dwSpellRegion) + " " + \
+                       str(self.dwSpellType) + " " + \
+                       str(self.dwReferStat1) + " " + \
+                       str(self.dwReferStat2) + " " + \
+                       str(self.dwReferTarget1) + " " + \
+                       str(self.dwReferTarget2) + " " + \
+                       str(self.dwReferValue1) + " " + \
+                       str(self.dwReferValue2) + " " + \
+                       str(self.dwSkillType) + " " + \
+                       str(self.fItemResistElecricity) + " " + \
+                       str(self.fItemResistFire) + " " + \
+                       str(self.fItemResistWind) + " " + \
+                       str(self.fItemResistWater) + " " + \
+                       str(self.fItemResistEarth) + " " + \
+                       str(self.nEvildoing) + " " + \
+                       str(self.dwExpertLV) + " " + \
+                       str(self.ExpertMax) + " " + \
+                       str(self.dwSubDefine) + " " + \
+                       str(self.dwExp) + " " + \
+                       str(self.dwComboStyle) + " " + \
+                       str(self.fFlightSpeed) + " " + \
+                       str(self.fFlightLRAngle) + " " + \
+                       str(self.fFlightTBAngle) + " " + \
+                       str(self.dwFlightLimit) + " " + \
+                       str(self.dwFFuelReMax) + " " + \
+                       str(self.dwAFuelReMax) + " " + \
+                       str(self.dwFuelRe) + " " + \
+                       str(self.dwLimitLevel1) + " " + \
+                       str(self.dwReflect) + " " + \
+                       str(self.dwSndAttack1) + " " + \
+                       str(self.dwSndAttack2) + " " + \
+                       str(self.szIcon) + " " + \
+                       str(self.dwQuestID) + " " + \
+                       str(self.szTextFile) + " " + \
+                       str(self.szComment))
         return toString
-
 
     def getIdMax(self):
         return 123
 
-
     def getSize(self):
         return self.getIdMax() + 1
-
 
     def load(self, f):
         gLogger.set_section("propskill")
@@ -279,8 +275,8 @@ class PropSkill:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
                 if "//" in line or \
-                    len(line) <= 0 or \
-                    line == "":
+                        len(line) <= 0 or \
+                        line == "":
                     continue
                 arr = line.split("\t")
                 cpy = list()
@@ -296,8 +292,8 @@ class PropSkill:
         gLogger.reset_section()
         return datas
 
-
-    def filter(self, skills, defineSkill, define, defineObj, defineJob, defineAttribute, defineNeuz, defineSound, path_icon, textSkill):
+    def filter(self, skills, defineSkill, define, defineObj, defineJob, defineAttribute, defineNeuz, defineSound,
+               path_icon, text_skill):
         gLogger.set_section("propskill")
 
         skill_undeclared = list()
@@ -309,9 +305,9 @@ class PropSkill:
             skill = skills[it]
             if skill.dwID not in defineSkill and skill.dwID not in skill_undeclared:
                 skill_undeclared.append(skill.dwID)
-            if skill.szName != "=" and skill.szName not in textSkill and skill.szName not in skill_parameter_undeclared:
+            if skill.szName != "=" and skill.szName not in text_skill and skill.szName not in skill_parameter_undeclared:
                 skill_parameter_undeclared.append(skill.szName)
-            if skill.szComment != "=" and skill.szComment not in textSkill and skill.szComment not in skill_parameter_undeclared:
+            if skill.szComment != "=" and skill.szComment not in text_skill and skill.szComment not in skill_parameter_undeclared:
                 skill_parameter_undeclared.append(skill.szComment)
             if skill.dwItemKind1 != "=" and skill.dwItemKind1 not in defineJob and skill.dwItemKind1 not in skill_parameter_undeclared:
                 skill_parameter_undeclared.append(skill.dwItemKind1)
@@ -346,13 +342,12 @@ class PropSkill:
             if skill.dwSpellRegion != "=" and skill.dwSpellRegion not in defineAttribute and skill.dwSpellRegion not in skill_parameter_undeclared:
                 skill_parameter_undeclared.append(skill.dwSpellRegion)
 
-        
         gLogger.info("filtering icons")
         for it in skills:
             skill = skills[it]
             icon = skill.szIcon
             icon = icon.replace('"', "")
-            icon =  icon.replace(" ", "")
+            icon = icon.replace(" ", "")
             icon = icon.replace("\t", "")
             if len(icon) <= 0 or icon == "" or icon == "=":
                 continue
@@ -360,23 +355,24 @@ class PropSkill:
             if (out == "" or len(out) <= 0) and icon not in skill_icon_unfound:
                 skill_icon_unfound.append(icon)
 
-
-        gLogger.write(gProject.path_filter + "skill_undeclared.txt", skill_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Skill  undeclared:",
-                undeclared=len(skill_undeclared),
-                total=len(skills)))
-        gLogger.write(gProject.path_filter + "skill_parameter_undeclared.txt", skill_parameter_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Parameter  undeclared:",
-                undeclared=len(skill_parameter_undeclared),
-                total=len(skills)))
-        gLogger.write(gProject.path_filter + "skill_icon_unfound.txt", skill_icon_unfound, "{infos}: {undeclared}/{total}".format(
-                infos="Icon not found:",
-                undeclared=len(skill_icon_unfound),
-                total=len(skills)))
+        gLogger.write(g_project.path_filter + "skill_undeclared.txt", skill_undeclared,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Skill  undeclared:",
+                          undeclared=len(skill_undeclared),
+                          total=len(skills)))
+        gLogger.write(g_project.path_filter + "skill_parameter_undeclared.txt", skill_parameter_undeclared,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Parameter  undeclared:",
+                          undeclared=len(skill_parameter_undeclared),
+                          total=len(skills)))
+        gLogger.write(g_project.path_filter + "skill_icon_unfound.txt", skill_icon_unfound,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Icon not found:",
+                          undeclared=len(skill_icon_unfound),
+                          total=len(skills)))
 
         gLogger.reset_section()
 
-    
     def skip_value(self, key, value):
         if key == "dwID":
             return True
@@ -388,7 +384,6 @@ class PropSkill:
             if value == "=" or value == "":
                 return True
         return False
-
 
     def write_new_config(self, skills):
         gLogger.set_section("propskill")
