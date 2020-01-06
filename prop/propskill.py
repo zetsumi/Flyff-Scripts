@@ -391,7 +391,7 @@ class PropSkill:
         root = ET.Element("skills")
         section_master = ET.SubElement(root, "master")
         section_hero = ET.SubElement(root, "hero")
-        section_unkonw = ET.SubElement(root, "unknow")
+        section_unknow = ET.SubElement(root, "unknow")
 
         sections_job = dict()
         sections_job["JOB_VAGRANT"] = ET.SubElement(root, "vagrant")
@@ -435,7 +435,7 @@ class PropSkill:
                 section = ET.SubElement(sections_job[skill.dwItemJob], "skill")
 
             if section is None:
-                section = section_unkonw
+                section = section_unknow
 
             section.set("dwID", skill.dwID)
             for key in skill.__dict__:
