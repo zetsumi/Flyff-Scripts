@@ -73,9 +73,9 @@ if __name__ == "__main__":
 
     # Scope Quests
     if g_project.module["quest"]["active"] is True:
-        propquests = PropQuest()
-        if propquests.load(g_project.file_propquest) is None:
-            propquests = PropQuest()
+        prop_quests = PropQuest()
+        prop_quests.load(g_project.file_propquest)
+        prop_quests.write_new_config()
 
     # Scope Drop
     if g_project.module["drop"]["active"] is True:
@@ -96,4 +96,3 @@ if __name__ == "__main__":
         random_event_monster = RandomEventMonster()
         random_event_monster.load(g_project.file_random_event_monster)
         random_event_monster.write_new_config('json')
-
