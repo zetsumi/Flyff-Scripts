@@ -42,6 +42,10 @@ class Project:
             "event_monster": {
                 "active": True,
                 "filter": False
+            },
+            "skill": {
+                "active": True,
+                "filter": False
             }
         }
 

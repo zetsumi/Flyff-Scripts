@@ -2,6 +2,7 @@ import subprocess
 from collections import OrderedDict
 from utils.logger import gLogger
 from lxml import etree as ET
+from project import g_project
 
 
 class PropTroupeSkill:
@@ -346,15 +347,15 @@ class PropTroupeSkill:
             if (out == "" or len(out) <= 0) and icon not in troupeskill_icon_unfound:
                 troupeskill_icon_unfound.append(icon)
 
-        gLogger.write(gProject.path_filter + "troupeskill_undeclared.txt", troupeskill_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "troupeskill_undeclared.txt", troupeskill_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="troupeSkill undeclared:",
                 undeclared=len(troupeskill_undeclared),
                 total=len(troupeSkills)))
-        gLogger.write(gProject.path_filter + "troupeskill_parameter_undeclared.txt", troupeskill_parameter_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "troupeskill_parameter_undeclared.txt", troupeskill_parameter_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Parameter troupeskill undeclared:",
                 undeclared=len(troupeskill_parameter_undeclared),
                 total=len(troupeSkills)))
-        gLogger.write(gProject.path_filter + "troupeskill_icon_unfound.txt", troupeskill_icon_unfound, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "troupeskill_icon_unfound.txt", troupeskill_icon_unfound, "{infos}: {undeclared}/{total}".format(
                 infos="Icon troupeskill not found:",
                 undeclared=len(troupeskill_icon_unfound),
                 total=len(troupeSkills)))

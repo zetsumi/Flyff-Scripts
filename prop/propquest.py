@@ -1,6 +1,7 @@
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
+from project import g_project
 
 QAction = {
     "0": "QSAY_BEGIN1",

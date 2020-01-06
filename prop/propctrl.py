@@ -2,6 +2,7 @@ from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
 from utils.logger import gLogger
+from project import g_project
 
 
 class PropCtrl:
@@ -107,23 +108,23 @@ class PropCtrl:
             if ctrl.dwSfxCtrl not in defineObj and ctrl.dwSfxCtrl not in ctrl_sfx_undeclared:
                 ctrl_sfx_undeclared.append(ctrl.dwSfxCtrl)
 
-        gLogger.write(gProject.path_filter + "ctrl_undeclared.txt", ctrl_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "ctrl_undeclared.txt", ctrl_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Ctrl undeclared",
                 undeclared=len(ctrl_undeclared),
                 total=len(ctrls)))
-        gLogger.write(gProject.path_filter + "ctrl_name_undeclared.txt", ctrl_name_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "ctrl_name_undeclared.txt", ctrl_name_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Ctrl Name undeclared:",
                 undeclared=len(ctrl_name_undeclared),
                 total=len(ctrls)))
-        gLogger.write(gProject.path_filter + "ctrl_comment_undeclared.txt", ctrl_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "ctrl_comment_undeclared.txt", ctrl_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Ctrl Comment undeclared:",
                 undeclared=len(ctrl_comment_undeclared),
                 total=len(ctrls)))
-        gLogger.write(gProject.path_filter + "ctrl_item_kind_undeclared.txt", ctrl_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "ctrl_item_kind_undeclared.txt", ctrl_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Ctrl ItemKind undeclared:",
                 undeclared=len(ctrl_item_kind_undeclared),
                 total=len(ctrls)))
-        gLogger.write(gProject.path_filter + "ctrl_sfx_undeclared.txt", ctrl_sfx_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "ctrl_sfx_undeclared.txt", ctrl_sfx_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="Ctrl SFX undeclared:",
                 undeclared=len(ctrl_sfx_undeclared),
                 total=len(ctrls)))

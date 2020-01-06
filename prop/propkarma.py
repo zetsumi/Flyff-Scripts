@@ -96,15 +96,15 @@ class PropKarma:
                 if karma.dwColor not in karma_color_invalid:
                     karma_color_invalid.append(karma.dwColor)
 
-        gLogger.write(gProject.path_filter + "karma_name_undeclared.txt", karma_name_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "karma_name_undeclared.txt", karma_name_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="names undeclared:",
                 undeclared=len(karma_name_undeclared),
                 total=len(karmas)))
-        gLogger.write(gProject.path_filter + "karma_comment_undeclared.txt", karma_comment_undeclared, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "karma_comment_undeclared.txt", karma_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="comment undeclared:",
                 undeclared=len(karma_comment_undeclared),
                 total=len(karmas)))
-        gLogger.write(gProject.path_filter + "karma_color_invalid.txt", karma_color_invalid, "{infos}: {undeclared}/{total}".format(
+        gLogger.write(g_project.path_filter + "karma_color_invalid.txt", karma_color_invalid, "{infos}: {undeclared}/{total}".format(
                 infos="color invalid:",
                 undeclared=len(karma_color_invalid),
                 total=len(karmas)))
