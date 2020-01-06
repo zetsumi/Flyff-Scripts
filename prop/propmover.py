@@ -123,7 +123,7 @@ class PropMover:
         gLogger.set_section("propmover")
         gLogger.info("Loading: ", file_txt, file_txt, file_define)
 
-        with open(file_prop, "r") as fd:
+        with open(file_prop, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 if self.skip_preproc(line) is True:
                     continue

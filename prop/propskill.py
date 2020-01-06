@@ -270,7 +270,7 @@ class PropSkill:
         gLogger.set_section("propskill")
         gLogger.info("Loading: ", f)
         datas = OrderedDict()
-        with open(f, "r") as fd:
+        with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
