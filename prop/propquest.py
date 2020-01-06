@@ -18,6 +18,22 @@ QAction = {
     "10": "QSAY_END_FAILURE1",
     "11": "QSAY_END_FAILURE2",
     "12": "QSAY_END_FAILURE3",
+    "14": "QS_END",
+    "15": "QSAY_EXTRA01",
+    "16": "QSAY_EXTRA02",
+    "17": "QSAY_EXTRA03",
+    "18": "QSAY_EXTRA04",
+    "19": "QSAY_EXTRA05",
+    "20": "QSAY_EXTRA06",
+    "21": "QSAY_EXTRA07",
+    "22": "QSAY_EXTRA08",
+    "23": "QSAY_EXTRA09",
+    "24": "QSAY_EXTRA10",
+    "25": "QSAY_EXTRA11",
+    "26": "QSAY_EXTRA12",
+    "27": "QSAY_EXTRA13",
+    "28": "QSAY_EXTRA14",
+    "29": "QSAY_EXTRA15"
 }
 
 ParamCondition = {
@@ -320,7 +336,7 @@ class PropQuest:
 
             for value in quest.State:
                 for state in quest.State[value]:
-                    data[name_quest]["type"][value] =  quest.State[value][state]
+                    data[name_quest]["type"][QAction[value]] = quest.State[value][state]
 
         with open(g_project.path_json + 'propQuest.json', 'w') as fd:
             json.dump(data, fd, indent=4)
