@@ -1,3 +1,4 @@
+import json
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
@@ -247,11 +248,8 @@ class PropQuest:
                         return None
                     new_quest = True
 
-        # self.__print__()
-
         gLogger.reset_section()
         return True
-
 
     def __print__(self):
         for it in self.Quests:
@@ -279,8 +277,59 @@ class PropQuest:
                         ss += " "
                     print("\t\t\t", ss)
 
-    def write_new_config(self):
+    def __write_config_json__(self):
+        gLogger.set_section("propquest")
+        gLogger.info("writing quest JSON")
+
+        data = dict()
+
+        for name_quest in self.Quests:
+            quest = self.Quests[name_quest]
+            data[name_quest] = {
+                "id": quest.Id.replace("\"", ""),
+                "title": quest.Title,
+                "dialog": [],
+                "condition": {},
+                "type": {}
+            }
+
+            for action in quest.Dialog:
+                data[name_quest]["dialog"].append({
+                    "action": action,
+                    "text": quest.Dialog[action]
+                })
+
+            for name_function in quest.Setting:
+                setting = quest.Setting[name_function]
+                condition = dict()
+                if name_function == 'SetBeginCondPreviousQuest':
+                    condition["nBeginCondPreviousQuestType"] = setting[0]
+                for i in range(0, len(setting)):
+                    if name_function in ParamCondition:
+                        condition[ParamCondition[name_function][i]] = setting[i]
+                    elif name_function == "SetBeginCondJob":
+                        condition[setting[i]] = 1
+                    elif name_function == "SetBeginCondPreviousQuest":
+                        if i == 0:
+                            condition["nBeginCondPreviousQuestType"] = setting[0]
+                        else:
+                            condition["nBeginCondPreviousQuestType"] = 1
+                    else:
+                        gLogger.error("condition unknow", name_quest, name_function)
+                data[name_quest]["condition"][name_function] = condition
+
+            for value in quest.State:
+                for state in quest.State[value]:
+                    data[name_quest]["type"][value] =  quest.State[value][state]
+
+        with open(g_project.path_json + 'propQuest.json', 'w') as fd:
+            json.dump(data, fd, indent=4)
+
+        gLogger.reset_section()
+
+    def __write_config_xml__(self):
         gLogger.set_section("propQuest")
+        gLogger.info("writing quest XML")
 
         root = ET.Element("quests")
 
@@ -316,8 +365,7 @@ class PropQuest:
                         else:
                             section_condition.set(setting[i], "1")
                     else:
-                        gLogger.error("Condition unknow", fct)
-                        return None
+                        gLogger.error("condition unknow", it, fct)
 
 
             for value in quest.State:
@@ -331,4 +379,9 @@ class PropQuest:
         tree = ET.ElementTree(root)
         tree.write(g_project.path_xml + 'propQuest.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()
-        return True
+
+    def write_new_config(self, mode):
+        if mode == 'xml':
+            self.__write_config_xml__()
+        elif mode == 'json':
+            self.__write_config_json__()

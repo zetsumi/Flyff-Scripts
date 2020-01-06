@@ -75,7 +75,8 @@ if __name__ == "__main__":
     if g_project.module["quest"]["active"] is True:
         prop_quests = PropQuest()
         prop_quests.load(g_project.file_propquest)
-        prop_quests.write_new_config()
+        prop_quests.write_new_config('xml')
+        prop_quests.write_new_config('json')
 
     # Scope Drop
     if g_project.module["drop"]["active"] is True:
