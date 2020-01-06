@@ -35,6 +35,7 @@ Charger les fichiers :
 - [x] propCtrl.txt
 - [x] propSkill.txt
 - [x] propTroupeSkill.txt
+- [ ] propSkill.txt
 - [ ] propQuest.inc
 - [ ] mdlDyna.inc
 - [ ] mdlObj.inc
