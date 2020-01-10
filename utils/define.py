@@ -1,5 +1,7 @@
+import json
 from collections import OrderedDict
 from utils.logger import gLogger
+from project import g_project
 
 class Define:
     def __init__(self):
@@ -35,23 +37,23 @@ class Define:
                 line = line.replace("#define", "")
                 line = line.replace("# define", "")
                 arr = line.split("\t")
-                define = Define()
+                key = ""
+                value = ""
                 for it in arr:
                     if it != "" and len(it) > 0:
                         try:
-                            define.value = int(it)
+                            value = int(it)
                         except:
-                            if define.key == "":
-                                define.key = it
+                            if key == "":
+                                key = it
                             else:
-                                define.value = it
-                    if define.key != "" and define.value != "":
+                                value = it
+                    if key != "" and value != "":
                         break
-                if define.key != "" and define.value != "" and define.key not in self.datas:
-                    self.datas[define.key] = define
+                if key != "" and value != "" and key not in self.datas:
+                    self.datas[key] = value
         gLogger.reset_section()
         return self.datas
-
 
     def write(self, f, defines, sep="\t"):
         gLogger.set_section("define")
@@ -64,3 +66,12 @@ class Define:
                 fd.write(line + "\n")
         gLogger.reset_section()
         return True
+
+    def write_json(self, name):
+        gLogger.set_section("define")
+        gLogger.info("writing header", name)
+
+        with open(g_project.path_json + 'header_' + name + '.json', 'w') as fd:
+            json.dump(self.datas, fd, indent=4)
+
+        gLogger.reset_section()

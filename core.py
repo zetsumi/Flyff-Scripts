@@ -25,6 +25,62 @@ if __name__ == "__main__":
     # Utils
     define = Define()
 
+    # Scope Header
+    if g_project.module["header"]["active"] is True:
+        header_define = Define()
+        header_attribute = Define()
+        header_item = Define()
+        header_item_kind = Define()
+        header_job = Define()
+        header_neuz = Define()
+        header_obj = Define()
+        header_skill = Define()
+        header_sound = Define()
+        header_world = Define()
+
+        header_define.load(g_project.file_define)
+        header_attribute.load(g_project.file_define_attribute)
+        header_item.load(g_project.file_define_item)
+        header_item_kind.load(g_project.file_define_itemkind)
+        header_job.load(g_project.file_define_job)
+        header_neuz.load(g_project.file_define_neuz)
+        header_obj.load(g_project.file_define_obj)
+        header_skill.load(g_project.file_define_skill)
+        header_sound.load(g_project.file_define_sound)
+        header_world.load(g_project.file_define_world)
+
+        header_define.write_json('define')
+        header_attribute.write_json('attribute')
+        header_item.write_json('item')
+        header_item_kind.write_json('itemkind')
+        header_job.write_json('job')
+        header_neuz.write_json('neuz')
+        header_obj.write_json('obj')
+        header_skill.write_json('skill')
+        header_sound.write_json('sound')
+        header_world.write_json('world')
+
+    # Scope Text
+    if g_project.module["text"]["active"] is True:
+        text_prop_ctrl = Text()
+        text_prop_item = Text()
+        text_prop_karma = Text()
+        text_prop_mover = Text()
+        text_prop_troupe_skill = Text()
+
+        text_prop_ctrl.load(g_project.file_text_propctrl)
+        text_prop_item.load(g_project.file_text_propitem)
+        text_prop_karma.load(g_project.file_text_propkarma)
+        text_prop_mover.load(g_project.file_text_propmover)
+        text_prop_troupe_skill.load(g_project.file_text_proptroupeskill)
+
+        text_prop_ctrl.write_json('ctrl')
+        text_prop_item.write_json('item')
+        text_prop_karma.write_json('karma')
+        text_prop_mover.write_json('mover')
+        text_prop_troupe_skill.write_json('troupeskill')
+
+
     # Scope MdlDyna
     if g_project.module["mdldyna"]["active"] is True:
         mdl_dyna = MdlDyna()

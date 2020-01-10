@@ -1,5 +1,7 @@
 
+import json
 from utils.logger import gLogger
+from project import g_project
 
 
 class Text:
@@ -26,16 +28,25 @@ class Text:
                 if "//" in line or len(line) <= 0 or line == "":
                     continue
                 arr = line.split("\t")
-                text = Text()
-                text.key = arr[0]
+                key = arr[0]
+                value = ""
                 for it in arr:
-                    if len(it) <= 0 or it == "" or it == text.key or it == " ":
+                    if len(it) <= 0 or it == "" or it == key or it == " ":
                         continue
-                    if text.data == "" or len(text.data) <= 0:
-                        text.data = it
+                    if value == "" or len(value) <= 0:
+                        value = it
                     else:
-                        text.data += str(" " + it)
-                if text.key != "" and text.key not in self.datas:
-                    self.datas[text.key] = text.data
+                        value += str(" " + it)
+                if key != "" and key not in self.datas:
+                    self.datas[key] = value
         gLogger.reset_section()
         return self.datas
+
+    def write_json(self, name):
+        gLogger.set_section("text")
+        gLogger.info("writing text", name, "JSON")
+
+        with open(g_project.path_json + 'text_' + name + '.json', 'w') as fd:
+            json.dump(self.datas, fd, indent=4)
+
+        gLogger.reset_section()

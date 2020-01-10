@@ -7,6 +7,14 @@ class Project:
 
         #module activation
         self.module = {
+            "header": {
+                "active": True,
+                "filter": False
+            },
+            "text": {
+                "active": True,
+                "filter": False
+            },
             "mdldyna": {
                 "active": True,
                 "filter": False
