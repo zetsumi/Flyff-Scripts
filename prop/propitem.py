@@ -1,3 +1,4 @@
+import json
 import subprocess
 from lxml import etree as ET
 from collections import OrderedDict
@@ -266,8 +267,28 @@ class PropItem(Prop):
                 return True
         return False
 
-    def write_new_config(self):
+    def write_new_config(self, mode):
+        if mode == 'json':
+            self.write_json_config()
+        elif mode == 'xml':
+            self.write_xml_config()
+
+    def write_json_config(self):
         gLogger.set_section("propitem")
+        gLogger.info("writing config JSON")
+
+        for id_item in self.items:
+            item = self.items[id_item]
+
+
+        with open(g_project.path_json + 'propItem.json', 'w') as fd:
+            json.dump(self.items, fd, indent=4)
+        gLogger.reset_section()
+
+
+    def write_xml_config(self):
+        gLogger.set_section("propitem")
+        gLogger.info("writing config XML")
 
         root = ET.Element("items")
         section_gold = ET.SubElement(root, "gold")

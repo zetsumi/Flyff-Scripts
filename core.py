@@ -45,7 +45,8 @@ if __name__ == "__main__":
         if g_project.module["mover"]["filter"] is True:
             prop_item.filter(g_project.pathicon_item)
         prop_item.replace()
-        prop_item.write_new_config()
+        prop_item.write_new_config('xml')
+        prop_item.write_new_config('json')
 
     # Scope Skill
     if g_project.module["skill"]["active"] is True:
