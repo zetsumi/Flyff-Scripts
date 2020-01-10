@@ -5,7 +5,7 @@ from project import g_project
 
 class Define:
     def __init__(self):
-        self.datas = dict()
+        self.datas = OrderedDict()
         self.key = ""
         self.value = ""
 
