@@ -177,7 +177,13 @@ class PropItem(Prop):
                 item_id = arr[1]
                 self.items[item_id] = dict()
                 for key in ItemParameters:
-                    self.items[item_id][key] = arr[ItemParameters[key]].replace("\"", "")
+                    value = arr[ItemParameters[key]].replace("\"", "")
+                    try:
+                        if key not in "sz":
+                            value = int(value)
+                    except:
+                        pass
+                    self.items[item_id][key] = value
         self.text.load(file_text)
         self.define.load(file_define)
         return True
@@ -251,8 +257,12 @@ class PropItem(Prop):
                 if len(comment) >= 0 and comment != "" and comment in self.text.datas:
                     self.items[it]["szComment"] = self.text.datas[comment]
             if text_file != "=":
-                if len(text_file) >= 0 and text_file != "" and text_file in self.text.datas:
-                    self.items[it]["szTextFile"] = self.text.datas[text_file]
+                if isinstance(text_file, str) is True:
+                    if len(text_file) >= 0 and text_file != "" and text_file in self.text.datas:
+                        self.items[it]["szTextFile"] = self.text.datas[text_file]
+                else:
+                    # TODOS il faut chercher le texte file en fonction de son ID
+                    self.items[it]["szTextFile"] = ""
 
 
     def skip_value(self, key, value):
@@ -372,10 +382,11 @@ class PropItem(Prop):
 
             section.set("dwID", item["dwID"])
             for key in item:
-                value = item[key].replace('"', "")
+                value = str(item[key])
+                value = value.replace('"', "")
                 if self.skip_value(key, value) is True:
                     continue
-                section.set(key, value)
+                section.set(str(key), value)
 
         tree = ET.ElementTree(root)
         tree.write(g_project.path_xml + 'propItem.xml', pretty_print=True, xml_declaration=True)
