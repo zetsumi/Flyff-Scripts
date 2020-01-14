@@ -7,6 +7,7 @@ from utils.logger import gLogger
 from utils.text import Text
 from utils.define import Define
 from .prop import Prop
+from utils.common import convert_value
 
 ItemParameters = {
     "version": 0,
@@ -139,23 +140,17 @@ ItemParameters = {
 class PropItem(Prop):
 
     def __init__(self):
-        self.items = dict()
+        self.items = OrderedDict()
         self.text = Text()
         self.define = Define()
 
-
     def __skip_preproc__(self, string):
-        if "#ifdef" in string or \
-            "# ifdef" in string or \
-            "#endif" in string or \
-            "# endif" in string or \
-            "#ifndef" in string or \
-            " #ifndef" in string:
+        if "ifdef" in string or  "endif" in string or "ifndef" in string:
             return True
         return False
 
-
     def load(self, file_item, file_text, file_define):
+        gLogger.set_section("propitem")
         gLogger.info("Loading: ", file_item, file_text, file_define)
 
         with open(file_item, "r", encoding="ISO-8859-1") as fd:
@@ -177,21 +172,11 @@ class PropItem(Prop):
                 item_id = arr[1]
                 self.items[item_id] = dict()
                 for key in ItemParameters:
-                    value = arr[ItemParameters[key]].replace("\"", "")
-                    try:
-                        if value == "TRUE":
-                            value = True
-                        elif value == "FALSE":
-                            value = False
-                        elif key not in "sz":
-                            value = int(value)
-                    except:
-                        pass
+                    value = convert_value(key, arr[ItemParameters[key]].replace("\"", ""))
                     self.items[item_id][key] = value
         self.text.load(file_text)
         self.define.load(file_define)
         return True
-
 
     def filter(self, path_icon):
         gLogger.set_section("propitem")
@@ -244,9 +229,7 @@ class PropItem(Prop):
                 undeclared=len(item_comment_undeclared),
                 total=len(self.items)))
         gLogger.reset_section()
-
         return True
-
 
     def replace(self):
         for it in self.items:
@@ -267,7 +250,6 @@ class PropItem(Prop):
                 else:
                     # TODOS il faut chercher le texte file en fonction de son ID
                     self.items[it]["szTextFile"] = ""
-
 
     def skip_value(self, key, value):
         if key == "dwID":
@@ -291,14 +273,9 @@ class PropItem(Prop):
         gLogger.set_section("propitem")
         gLogger.info("writing config JSON")
 
-        for id_item in self.items:
-            item = self.items[id_item]
-
-
         with open(g_project.path_json + 'propItem.json', 'w') as fd:
             json.dump(self.items, fd, indent=4)
         gLogger.reset_section()
-
 
     def write_xml_config(self):
         gLogger.set_section("propitem")

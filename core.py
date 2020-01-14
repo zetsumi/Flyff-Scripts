@@ -100,7 +100,7 @@ if __name__ == "__main__":
         prop_item.load(g_project.file_propitem, g_project.file_text_propitem, g_project.file_define_item)
         if g_project.module["mover"]["filter"] is True:
             prop_item.filter(g_project.pathicon_item)
-        prop_item.replace()
+            prop_item.replace()
         prop_item.write_new_config('xml')
         prop_item.write_new_config('json')
 
