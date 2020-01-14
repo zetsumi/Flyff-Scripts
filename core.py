@@ -94,6 +94,15 @@ if __name__ == "__main__":
             mdl_obj.filter(g_project.pathmodel)
         mdl_obj.write_new_config()
 
+    # Scope PropCtrl
+    if g_project.module["ctrl"]["active"] is True:
+        prop_ctrl = PropCtrl()
+        prop_ctrl.load(g_project.file_propctrl)
+        if g_project.module["ctrl"]["filter"] is True:
+            prop_ctrl.filter()
+        prop_ctrl.write_new_config('json')
+        prop_ctrl.write_new_config('xml')
+
     # Scope PropItem
     if g_project.module["item"]["active"] is True:
         prop_item = PropItem()

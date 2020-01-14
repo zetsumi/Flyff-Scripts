@@ -54,6 +54,10 @@ class Project:
             "skill": {
                 "active": True,
                 "filter": False
+            },
+            "ctrl": {
+                "active": True,
+                "filter": False
             }
         }
 
