@@ -94,6 +94,15 @@ if __name__ == "__main__":
             mdl_obj.filter(g_project.pathmodel)
         mdl_obj.write_new_config()
 
+    # Scope Karma
+    if g_project.module["karma"]["active"] is True:
+        prop_karma = PropKarma()
+        prop_karma.load(g_project.file_propkarma)
+        if g_project.module["karma"]["filter"] is True:
+            prop_karma.filter()
+        prop_karma.write_new_config('json')
+        prop_karma.write_new_config('xml')
+
     # Scope PropCtrl
     if g_project.module["ctrl"]["active"] is True:
         prop_ctrl = PropCtrl()

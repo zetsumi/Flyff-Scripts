@@ -2,7 +2,6 @@ import json
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
-from utils.logger import gLogger
 from project import g_project
 from utils.common import convert_value
 
@@ -39,6 +38,8 @@ class PropCtrl:
                     if it != "" and len(it) > 0:
                         cpy.append(it)
                 arr = cpy
+                if len(arr) < len(CtrlProperties):
+                    continue
                 id_ctrl = arr[CtrlProperties["dwID"]]
                 self.ctrls[id_ctrl] = dict()
                 for key in CtrlProperties:

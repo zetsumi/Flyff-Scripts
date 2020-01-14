@@ -164,10 +164,7 @@ class PropItem(Prop):
                     if it != "":
                         copy.append(it)
                 arr = copy
-                if len(arr) <= 1:
-                    continue
-                if len(arr) != len(ItemParameters):
-                    gLogger.error("Syntaxe error detected", line)
+                if len(arr) < len(ItemParameters):
                     continue
                 item_id = arr[1]
                 self.items[item_id] = dict()

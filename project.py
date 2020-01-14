@@ -58,6 +58,10 @@ class Project:
             "ctrl": {
                 "active": True,
                 "filter": False
+            },
+            "karma": {
+                "active": True,
+                "filter": False
             }
         }
 

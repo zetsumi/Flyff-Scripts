@@ -1,55 +1,42 @@
+import json
 from collections import OrderedDict
 from utils.logger import gLogger
 from lxml import etree as ET
+from utils.common import convert_value
+from project import g_project
+
+KarmaProperties = {
+    "nGrade": 0,
+    "szName": 1,
+    "dwKarmaPoint": 2,
+    "dwGrade": 3,
+    "dwColor": 4,
+    "dwKarmaRecoverPoint": 5,
+    "dwDiscountRate": 6,
+    "dwSellPenaltyRate": 7,
+    "dwGuardReaction": 8,
+    "SubtractExpRate": 9,
+    "nDropGoldPercent": 10,
+    "nDropItem": 11,
+    "nDropPercent": 12,
+    "dwKarmaRecoverNum": 13,
+    "dwStatLimitTime": 14,
+    "dwStatLimitNum": 15,
+    "dwStatLimitRate": 16,
+    "szComment": 17
+}
 
 
 class PropKarma:
 
 
     def __init__(self):
-        self.nGrade = 0
-        self.szName = 1
-        self.dwKarmaPoint = 2
-        self.dwGrade = 3
-        self.dwColor = 4
-        self.dwKarmaRecoverPoint = 5
-        self.dwDiscountRate = 6
-        self.dwSellPenaltyRate = 7
-        self.dwGuardReaction = 8
-        self.SubtractExpRate = 9
-        self.nDropGoldPercent = 10
-        self.nDropItem = 11
-        self.nDropPercent = 12
-        self.dwKarmaRecoverNum = 13
-        self.dwStatLimitTime = 14
-        self.dwStatLimitNum = 15
-        self.dwStatLimitRate = 16
-        self.szComment = 17
-
-
-    def toString(self):
-        toString = str(str(self.nGrade) + " " + str(self.szName) + " " + str(self.dwKarmaPoint) + " " + \
-		str(self.dwGrade) + " " + str(self.dwColor) + " " + str(self.dwKarmaRecoverPoint) + " " + \
-		str(self.dwDiscountRate) + " " + str(self.dwSellPenaltyRate) + " " + str(self.dwGuardReaction) + " " + \
-		str(self.SubtractExpRate) + " " + str(self.nDropGoldPercent) + " " + str(self.nDropItem) + " " + \
-		str(self.nDropPercent) + " " + str(self.dwKarmaRecoverNum) + " " + str(self.dwStatLimitTime) + " " + \
-		str(self.dwStatLimitNum) + " " + str(self.dwStatLimitRate) + " " + str(self.szComment))
-        return toString
-
-
-    def getIdMax(self):
-        return 17
-
-
-    def getSize(self):
-        return self.getIdMax() + 1
-
+        self.karmas = OrderedDict()
 
     def load(self, f):
         gLogger.set_section("propkarma")
         gLogger.info("Loading: ", f)
-        datas = OrderedDict()
-        with open(f, "r") as fd:
+        with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
@@ -60,19 +47,21 @@ class PropKarma:
                 arr = line.split("\t")
                 cpy = list()
                 for it in arr:
-                    if it != "" and len(it) > 0:
+                    if len(it) > 0:
                         cpy.append(it)
                 arr = cpy
-                if len(arr) < self.getSize():
+                if len(arr) < len(KarmaProperties):
                     continue
-                datas[arr[self.nGrade]] = PropKarma()
-                for key in self.__dict__:
-                    setattr(datas[arr[self.nGrade]], key, arr[getattr(self, key)])
+                id_karma = arr[KarmaProperties["nGrade"]]
+                self.karmas[id_karma] = dict()
+                print(arr)
+                for key in KarmaProperties:
+                    value = convert_value(key, arr[KarmaProperties[key]].replace("\"", "").replace(" ", ""))
+                    self.karmas[id_karma][key] = value
         gLogger.reset_section()
-        return datas
 
 
-    def filter(self, karmas, textKarma):
+    def filter(self, textKarma):
         gLogger.set_section("propkarma")
 
         karma_name_undeclared = list()
@@ -80,7 +69,7 @@ class PropKarma:
         karma_color_invalid = list()
 
         gLogger.info("name and comment")
-        for it in karmas:
+        for it in self.karmas:
             karma = karmas[it]
             if karma.szName not in textKarma and karma.szName not in karma_name_undeclared:
                 karma_name_undeclared.append(karma.szName)
@@ -88,7 +77,7 @@ class PropKarma:
                 karma_comment_undeclared.append(karma.szComment)
 
         gLogger.info("color")
-        for it in karmas:
+        for it in self.karmas:
             karma = karmas[it]
             try:
                 nb = int(str(karma.dwColor), 16)
@@ -113,32 +102,32 @@ class PropKarma:
 
         return karma_name_undeclared, karma_comment_undeclared
 
+    def write_new_config(self, mode):
+        if mode == 'json':
+            self.write_json_config()
+        elif mode == 'xml':
+            self.write_xml_config()
 
-    def skip_value(self, key, value):
-        try:
-            v = int(value)
-            if v == 0:
-                return True
-        except:
-            if value == "=" or value == "":
-                return True
-        return False
+    def write_json_config(self):
+        gLogger.set_section("propkarma")
+        gLogger.info("writing config JSON")
 
+        with open(g_project.path_json + 'propKarma.json', 'w') as fd:
+            json.dump(self.karmas, fd, indent=4)
+        gLogger.reset_section()
 
-    def write_new_config(self, karmas):
-        gLogger.set_section("propctrls")
+    def write_xml_config(self):
+        gLogger.set_section("propkarma")
+        gLogger.info("writing config XML")
 
         root = ET.Element("karmas")
 
-        for it in karmas:
-            karma = karmas[it]
+        for it in self.karmas:
+            karma = self.karmas[it]
             section = ET.SubElement(root, "grade")
-            for key in karma.__dict__:
-                value = getattr(karma, key)
-                value = value.replace('"', "")
-                if self.skip_value(key, value) is True:
-                    continue
-                section.set(key, value)
+            for key in karma:
+                value = karma[key]
+                section.set(str(key), str(value))
         tree = ET.ElementTree(root)
-        tree.write(g_projectpath_xml + 'propKarma.xml', pretty_print=True, xml_declaration=True)
+        tree.write(g_project.path_xml + 'propKarma.xml', pretty_print=True, xml_declaration=True)
         gLogger.reset_section()
