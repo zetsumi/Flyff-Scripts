@@ -179,7 +179,11 @@ class PropItem(Prop):
                 for key in ItemParameters:
                     value = arr[ItemParameters[key]].replace("\"", "")
                     try:
-                        if key not in "sz":
+                        if value == "TRUE":
+                            value = True
+                        elif value == "FALSE":
+                            value = False
+                        elif key not in "sz":
                             value = int(value)
                     except:
                         pass
