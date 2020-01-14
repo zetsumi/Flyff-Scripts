@@ -39,14 +39,16 @@ def convert_value(key, value):
         return False
     if value == "=":
         return int(0)
-    if "." in value:
-        return float(0)
-    if value.isdigit():
+    if ("." in value.lower() or "," in value.lower()) \
+            and ".dds" not in value.lower() and ".tga" not in value.lower() and ".png" not in value.lower() \
+            and ".txt" not in value.lower():
+        return float(value.replace(",", "."))
+    if value.isdigit() and "sz" not in key:
         return int(value)
 
     # Surcouche par les type Windows
     if "sz" in key:
-        return value
+        return str(value)
     if "dw" in key:
         try:
             return int(value)

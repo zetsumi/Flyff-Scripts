@@ -172,7 +172,7 @@ class PropItem(Prop):
                 item_id = arr[1]
                 self.items[item_id] = dict()
                 for key in ItemParameters:
-                    value = convert_value(key, arr[ItemParameters[key]].replace("\"", ""))
+                    value = convert_value(key, arr[ItemParameters[key]].replace("\"", "").replace(" ", ""))
                     self.items[item_id][key] = value
         self.text.load(file_text)
         self.define.load(file_define)
