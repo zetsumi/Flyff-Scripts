@@ -1,275 +1,160 @@
+import json
 import subprocess
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
 from project import g_project
+from utils.common import convert_value
+
+SkillProperties = {
+    "version": 0,
+    "dwID": 1,
+    "szName": 2,
+    "dwNum": 3,
+    "dwPackMax": 4,
+    "dwItemKind1": 5,
+    "dwItemKind2": 6,
+    "dwItemKind3": 7,
+    "dwItemJob": 8,
+    "bPermanence": 9,
+    "dwUseable": 10,
+    "dwItemSex": 11,
+    "dwCost": 12,
+    "dwEndurance": 13,
+    "nAbrasion": 14,
+    "nHardness": 15,
+    "dwHanded": 16,
+    "dwHeelH": 17,
+    "dwParts": 18,
+    "dwPartsub": 19,
+    "bPartFile": 20,
+    "dwExclusive": 21,
+    "dwBasePartsIgnore": 22,
+    "dwItemLV": 23,
+    "dwItemRare": 24,
+    "dwShopAble": 25,
+    "bLog": 26,
+    "bCharged": 27,
+    "dwLinkKindBullet": 28,
+    "dwLinkKind": 29,
+    "dwAbilityMin": 30,
+    "dwAbilityMax": 31,
+    "eItemType": 32,
+    "wItemEAtk": 33,
+    "dwparry": 34,
+    "dwblockRating": 35,
+    "dwAddSkillMin": 36,
+    "dwAddSkillMax": 37,
+    "dwAtkStyle": 38,
+    "dwWeaponType": 39,
+    "dwItemAtkOrder1": 40,
+    "dwItemAtkOrder2": 41,
+    "dwItemAtkOrder3": 42,
+    "dwItemAtkOrder4": 43,
+    "tmContinuousPain": 44,
+    "dwShellQuantity": 45,
+    "dwRecoil": 46,
+    "dwLoadingTime": 47,
+    "nAdjHitRate": 48,
+    "dwAttackSpeed": 49,
+    "dwDmgShift": 50,
+    "dwAttackRange": 51,
+    "dwProbability": 52,
+    "dwDestParam1": 53,
+    "dwDestParam2": 54,
+    "dwDestParam3": 55,
+    "nAdjParamVal1": 56,
+    "nAdjParamVal2": 57,
+    "nAdjParamVal3": 58,
+    "dwChgParamVal1": 59,
+    "dwChgParamVal2": 60,
+    "dwChgParamVal3": 61,
+    "dwdestData1": 62,
+    "dwdestData2": 63,
+    "dwdestData3": 64,
+    "dwactiveskill": 65,
+    "dwactiveskillLv": 66,
+    "dwactiveskillper": 67,
+    "dwReqMp": 68,
+    "dwRepFp": 69,
+    "dwReqDisLV": 70,
+    "dwReSkill1": 71,
+    "dwReSkillLevel1": 72,
+    "dwReSkill2": 73,
+    "dwReSkillLevel2": 74,
+    "dwSkillReadyType": 75,
+    "dwSkillReady": 76,
+    "dwSkillRange": 77,
+    "dwSfxElemental": 78,
+    "dwSfxObj": 79,
+    "dwSfxObj2": 80,
+    "dwSfxObj3": 81,
+    "dwSfxObj4": 82,
+    "dwSfxObj5": 83,
+    "dwUseMotion": 84,
+    "dwCircleTime": 85,
+    "dwSkillTime": 86,
+    "dwExeTarget": 87,
+    "dwUseChance": 88,
+    "dwSpellRegion": 89,
+    "dwSpellType": 90,
+    "dwReferStat1": 91,
+    "dwReferStat2": 92,
+    "dwReferTarget1": 93,
+    "dwReferTarget2": 94,
+    "dwReferValue1": 95,
+    "dwReferValue2": 96,
+    "dwSkillType": 97,
+    "fItemResistElecricity": 98,
+    "fItemResistFire": 99,
+    "fItemResistWind": 100,
+    "fItemResistWater": 101,
+    "fItemResistEarth": 102,
+    "nEvildoing": 103,
+    "dwExpertLV": 104,
+    "ExpertMax": 105,
+    "dwSubDefine": 106,
+    "dwExp": 107,
+    "dwComboStyle": 108,
+    "fFlightSpeed": 109,
+    "fFlightLRAngle": 110,
+    "fFlightTBAngle": 111,
+    "dwFlightLimit": 112,
+    "dwFFuelReMax": 113,
+    "dwAFuelReMax": 114,
+    "dwFuelRe": 115,
+    "dwLimitLevel1": 116,
+    "dwReflect": 117,
+    "dwSndAttack1": 118,
+    "dwSndAttack2": 119,
+    "szIcon": 120,
+    "dwQuestID": 121,
+    "szTextFile": 122,
+    "szComment": 123
+}
+
+
+def skip_value(key, value):
+    if key == "dwID":
+        return True
+    try:
+        v = int(value)
+        if v == 0:
+            return True
+    except ValueError:
+        if value == "=" or value == "":
+            return True
+    return False
 
 
 class PropSkill:
 
     def __init__(self):
-        self.version = 0
-        self.dwID = 1
-        self.szName = 2
-        self.dwNum = 3
-        self.dwPackMax = 4
-        self.dwItemKind1 = 5
-        self.dwItemKind2 = 6
-        self.dwItemKind3 = 7
-        self.dwItemJob = 8
-        self.bPermanence = 9
-        self.dwUseable = 10
-        self.dwItemSex = 11
-        self.dwCost = 12
-        self.dwEndurance = 13
-        self.nAbrasion = 14
-        self.nHardness = 15
-        self.dwHanded = 16
-        self.dwHeelH = 17
-        self.dwParts = 18
-        self.dwPartsub = 19
-        self.bPartFile = 20
-        self.dwExclusive = 21
-        self.dwBasePartsIgnore = 22
-        self.dwItemLV = 23
-        self.dwItemRare = 24
-        self.dwShopAble = 25
-        self.bLog = 26
-        self.bCharged = 27
-        self.dwLinkKindBullet = 28
-        self.dwLinkKind = 29
-        self.dwAbilityMin = 30
-        self.dwAbilityMax = 31
-        self.eItemType = 32
-        self.wItemEAtk = 33
-        self.dwparry = 34
-        self.dwblockRating = 35
-        self.dwAddSkillMin = 36
-        self.dwAddSkillMax = 37
-        self.dwAtkStyle = 38
-        self.dwWeaponType = 39
-        self.dwItemAtkOrder1 = 40
-        self.dwItemAtkOrder2 = 41
-        self.dwItemAtkOrder3 = 42
-        self.dwItemAtkOrder4 = 43
-        self.tmContinuousPain = 44
-        self.dwShellQuantity = 45
-        self.dwRecoil = 46
-        self.dwLoadingTime = 47
-        self.nAdjHitRate = 48
-        self.dwAttackSpeed = 49
-        self.dwDmgShift = 50
-        self.dwAttackRange = 51
-        self.dwProbability = 52
-        self.dwDestParam1 = 53
-        self.dwDestParam2 = 54
-        self.dwDestParam3 = 55
-        self.nAdjParamVal1 = 56
-        self.nAdjParamVal2 = 57
-        self.nAdjParamVal3 = 58
-        self.dwChgParamVal1 = 59
-        self.dwChgParamVal2 = 60
-        self.dwChgParamVal3 = 61
-        self.dwdestData1 = 62
-        self.dwdestData2 = 63
-        self.dwdestData3 = 64
-        self.dwactiveskill = 65
-        self.dwactiveskillLv = 66
-        self.dwactiveskillper = 67
-        self.dwReqMp = 68
-        self.dwRepFp = 69
-        self.dwReqDisLV = 70
-        self.dwReSkill1 = 71
-        self.dwReSkillLevel1 = 72
-        self.dwReSkill2 = 73
-        self.dwReSkillLevel2 = 74
-        self.dwSkillReadyType = 75
-        self.dwSkillReady = 76
-        self.dwSkillRange = 77
-        self.dwSfxElemental = 78
-        self.dwSfxObj = 79
-        self.dwSfxObj2 = 80
-        self.dwSfxObj3 = 81
-        self.dwSfxObj4 = 82
-        self.dwSfxObj5 = 83
-        self.dwUseMotion = 84
-        self.dwCircleTime = 85
-        self.dwSkillTime = 86
-        self.dwExeTarget = 87
-        self.dwUseChance = 88
-        self.dwSpellRegion = 89
-        self.dwSpellType = 90
-        self.dwReferStat1 = 91
-        self.dwReferStat2 = 92
-        self.dwReferTarget1 = 93
-        self.dwReferTarget2 = 94
-        self.dwReferValue1 = 95
-        self.dwReferValue2 = 96
-        self.dwSkillType = 97
-        self.fItemResistElecricity = 98
-        self.fItemResistFire = 99
-        self.fItemResistWind = 100
-        self.fItemResistWater = 101
-        self.fItemResistEarth = 102
-        self.nEvildoing = 103
-        self.dwExpertLV = 104
-        self.ExpertMax = 105
-        self.dwSubDefine = 106
-        self.dwExp = 107
-        self.dwComboStyle = 108
-        self.fFlightSpeed = 109
-        self.fFlightLRAngle = 110
-        self.fFlightTBAngle = 111
-        self.dwFlightLimit = 112
-        self.dwFFuelReMax = 113
-        self.dwAFuelReMax = 114
-        self.dwFuelRe = 115
-        self.dwLimitLevel1 = 116
-        self.dwReflect = 117
-        self.dwSndAttack1 = 118
-        self.dwSndAttack2 = 119
-        self.szIcon = 120
-        self.dwQuestID = 121
-        self.szTextFile = 122
-        self.szComment = 123
-
-    def toString(self):
-        toString = str(str(self.version) + " " + \
-                       str(self.dwID) + " " + \
-                       str(self.szName) + " " + \
-                       str(self.dwNum) + " " + \
-                       str(self.dwPackMax) + " " + \
-                       str(self.dwItemKind1) + " " + \
-                       str(self.dwItemKind2) + " " + \
-                       str(self.dwItemKind3) + " " + \
-                       str(self.dwItemJob) + " " + \
-                       str(self.bPermanence) + " " + \
-                       str(self.dwUseable) + " " + \
-                       str(self.dwItemSex) + " " + \
-                       str(self.dwCost) + " " + \
-                       str(self.dwEndurance) + " " + \
-                       str(self.nAbrasion) + " " + \
-                       str(self.nHardness) + " " + \
-                       str(self.dwHanded) + " " + \
-                       str(self.dwHeelH) + " " + \
-                       str(self.dwParts) + " " + \
-                       str(self.dwPartsub) + " " + \
-                       str(self.bPartFile) + " " + \
-                       str(self.dwExclusive) + " " + \
-                       str(self.dwBasePartsIgnore) + " " + \
-                       str(self.dwItemLV) + " " + \
-                       str(self.dwItemRare) + " " + \
-                       str(self.dwShopAble) + " " + \
-                       str(self.bLog) + " " + \
-                       str(self.bCharged) + " " + \
-                       str(self.dwLinkKindBullet) + " " + \
-                       str(self.dwLinkKind) + " " + \
-                       str(self.dwAbilityMin) + " " + \
-                       str(self.dwAbilityMax) + " " + \
-                       str(self.eItemType) + " " + \
-                       str(self.wItemEAtk) + " " + \
-                       str(self.dwparry) + " " + \
-                       str(self.dwblockRating) + " " + \
-                       str(self.dwAddSkillMin) + " " + \
-                       str(self.dwAddSkillMax) + " " + \
-                       str(self.dwAtkStyle) + " " + \
-                       str(self.dwWeaponType) + " " + \
-                       str(self.dwItemAtkOrder1) + " " + \
-                       str(self.dwItemAtkOrder2) + " " + \
-                       str(self.dwItemAtkOrder3) + " " + \
-                       str(self.dwItemAtkOrder4) + " " + \
-                       str(self.tmContinuousPain) + " " + \
-                       str(self.dwShellQuantity) + " " + \
-                       str(self.dwRecoil) + " " + \
-                       str(self.dwLoadingTime) + " " + \
-                       str(self.nAdjHitRate) + " " + \
-                       str(self.dwAttackSpeed) + " " + \
-                       str(self.dwDmgShift) + " " + \
-                       str(self.dwAttackRange) + " " + \
-                       str(self.dwProbability) + " " + \
-                       str(self.dwDestParam1) + " " + \
-                       str(self.dwDestParam2) + " " + \
-                       str(self.dwDestParam3) + " " + \
-                       str(self.nAdjParamVal1) + " " + \
-                       str(self.nAdjParamVal2) + " " + \
-                       str(self.nAdjParamVal3) + " " + \
-                       str(self.dwChgParamVal1) + " " + \
-                       str(self.dwChgParamVal2) + " " + \
-                       str(self.dwChgParamVal3) + " " + \
-                       str(self.dwdestData1) + " " + \
-                       str(self.dwdestData2) + " " + \
-                       str(self.dwdestData3) + " " + \
-                       str(self.dwactiveskill) + " " + \
-                       str(self.dwactiveskillLv) + " " + \
-                       str(self.dwactiveskillper) + " " + \
-                       str(self.dwReqMp) + " " + \
-                       str(self.dwRepFp) + " " + \
-                       str(self.dwReqDisLV) + " " + \
-                       str(self.dwReSkill1) + " " + \
-                       str(self.dwReSkillLevel1) + " " + \
-                       str(self.dwReSkill2) + " " + \
-                       str(self.dwReSkillLevel2) + " " + \
-                       str(self.dwSkillReadyType) + " " + \
-                       str(self.dwSkillReady) + " " + \
-                       str(self.dwSkillRange) + " " + \
-                       str(self.dwSfxElemental) + " " + \
-                       str(self.dwSfxObj) + " " + \
-                       str(self.dwSfxObj2) + " " + \
-                       str(self.dwSfxObj3) + " " + \
-                       str(self.dwSfxObj4) + " " + \
-                       str(self.dwSfxObj5) + " " + \
-                       str(self.dwUseMotion) + " " + \
-                       str(self.dwCircleTime) + " " + \
-                       str(self.dwSkillTime) + " " + \
-                       str(self.dwExeTarget) + " " + \
-                       str(self.dwUseChance) + " " + \
-                       str(self.dwSpellRegion) + " " + \
-                       str(self.dwSpellType) + " " + \
-                       str(self.dwReferStat1) + " " + \
-                       str(self.dwReferStat2) + " " + \
-                       str(self.dwReferTarget1) + " " + \
-                       str(self.dwReferTarget2) + " " + \
-                       str(self.dwReferValue1) + " " + \
-                       str(self.dwReferValue2) + " " + \
-                       str(self.dwSkillType) + " " + \
-                       str(self.fItemResistElecricity) + " " + \
-                       str(self.fItemResistFire) + " " + \
-                       str(self.fItemResistWind) + " " + \
-                       str(self.fItemResistWater) + " " + \
-                       str(self.fItemResistEarth) + " " + \
-                       str(self.nEvildoing) + " " + \
-                       str(self.dwExpertLV) + " " + \
-                       str(self.ExpertMax) + " " + \
-                       str(self.dwSubDefine) + " " + \
-                       str(self.dwExp) + " " + \
-                       str(self.dwComboStyle) + " " + \
-                       str(self.fFlightSpeed) + " " + \
-                       str(self.fFlightLRAngle) + " " + \
-                       str(self.fFlightTBAngle) + " " + \
-                       str(self.dwFlightLimit) + " " + \
-                       str(self.dwFFuelReMax) + " " + \
-                       str(self.dwAFuelReMax) + " " + \
-                       str(self.dwFuelRe) + " " + \
-                       str(self.dwLimitLevel1) + " " + \
-                       str(self.dwReflect) + " " + \
-                       str(self.dwSndAttack1) + " " + \
-                       str(self.dwSndAttack2) + " " + \
-                       str(self.szIcon) + " " + \
-                       str(self.dwQuestID) + " " + \
-                       str(self.szTextFile) + " " + \
-                       str(self.szComment))
-        return toString
-
-    def getIdMax(self):
-        return 123
-
-    def getSize(self):
-        return self.getIdMax() + 1
+        self.skills = OrderedDict()
 
     def load(self, f):
         gLogger.set_section("propskill")
         gLogger.info("Loading: ", f)
-        datas = OrderedDict()
         with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 line = line.replace("\n", "")
@@ -284,15 +169,13 @@ class PropSkill:
                     if it != "" and len(it) > 0:
                         cpy.append(it)
                 arr = cpy
-                if len(arr) < self.getSize():
-                    continue
-                datas[arr[self.dwID]] = PropSkill()
-                for key in self.__dict__:
-                    setattr(datas[arr[self.dwID]], key, arr[getattr(self, key)])
+                id_skill = arr[SkillProperties["dwID"]]
+                self.skills[id_skill] = dict()
+                for key in SkillProperties:
+                    self.skills[id_skill][key] = convert_value(key, arr[SkillProperties[key]].replace("\"", ""))
         gLogger.reset_section()
-        return datas
 
-    def filter(self, skills, defineSkill, define, defineObj, defineJob, defineAttribute, defineNeuz, defineSound,
+    def filter(self, defineSkill, define, defineObj, defineJob, defineAttribute, defineNeuz, defineSound,
                path_icon, text_skill):
         gLogger.set_section("propskill")
 
@@ -301,8 +184,8 @@ class PropSkill:
         skill_icon_unfound = list()
 
         gLogger.info("filtering parameter")
-        for it in skills:
-            skill = skills[it]
+        for it in self.skills:
+            skill = self.skills[it]
             if skill.dwID not in defineSkill and skill.dwID not in skill_undeclared:
                 skill_undeclared.append(skill.dwID)
             if skill.szName != "=" and skill.szName not in text_skill and skill.szName not in skill_parameter_undeclared:
@@ -343,8 +226,8 @@ class PropSkill:
                 skill_parameter_undeclared.append(skill.dwSpellRegion)
 
         gLogger.info("filtering icons")
-        for it in skills:
-            skill = skills[it]
+        for it in self.skills:
+            skill = self.skills[it]
             icon = skill.szIcon
             icon = icon.replace('"', "")
             icon = icon.replace(" ", "")
@@ -359,33 +242,35 @@ class PropSkill:
                       "{infos}: {undeclared}/{total}".format(
                           infos="Skill  undeclared:",
                           undeclared=len(skill_undeclared),
-                          total=len(skills)))
+                          total=len(self.skills)))
         gLogger.write(g_project.path_filter + "skill_parameter_undeclared.txt", skill_parameter_undeclared,
                       "{infos}: {undeclared}/{total}".format(
                           infos="Parameter  undeclared:",
                           undeclared=len(skill_parameter_undeclared),
-                          total=len(skills)))
+                          total=len(self.skills)))
         gLogger.write(g_project.path_filter + "skill_icon_unfound.txt", skill_icon_unfound,
                       "{infos}: {undeclared}/{total}".format(
                           infos="Icon not found:",
                           undeclared=len(skill_icon_unfound),
-                          total=len(skills)))
+                          total=len(self.skills)))
 
         gLogger.reset_section()
 
-    def skip_value(self, key, value):
-        if key == "dwID":
-            return True
-        try:
-            v = int(value)
-            if v == 0:
-                return True
-        except:
-            if value == "=" or value == "":
-                return True
-        return False
+    def write_new_config(self, mode):
+        if mode == 'json':
+            self.write_json_config()
+        elif mode == 'xml':
+            self.write_xml_config()
 
-    def write_new_config(self, skills):
+    def write_json_config(self):
+        gLogger.set_section("propskill")
+        gLogger.info("writing config JSON")
+
+        with open(g_project.path_json + 'propSkill.json', 'w') as fd:
+            json.dump(self.skills, fd, indent=4)
+        gLogger.reset_section()
+
+    def write_xml_config(self):
         gLogger.set_section("propskill")
 
         root = ET.Element("skills")
@@ -427,23 +312,22 @@ class PropSkill:
         sections_job["JOB_PSYCHIKEEPER_HERO"] = ET.SubElement(section_hero, "psychikeeper")
         sections_job["JOB_ELEMENTOR_HERO"] = ET.SubElement(section_hero, "elementor")
 
-        for it in skills:
-            skill = skills[it]
+        for it in self.skills:
+            skill = self.skills[it]
             section = None
 
-            if skill.dwItemJob in sections_job:
-                section = ET.SubElement(sections_job[skill.dwItemJob], "skill")
+            if skill["dwItemJob"] in sections_job:
+                section = ET.SubElement(sections_job[skill["dwItemJob"]], "skill")
 
             if section is None:
                 section = section_unknow
 
-            section.set("dwID", skill.dwID)
-            for key in skill.__dict__:
-                value = getattr(skill, key)
-                value = value.replace('"', "")
-                if self.skip_value(key, value) is True:
+            section.set("dwID", skill["dwID"])
+            for key in skill:
+                value = skill[key]
+                if skip_value(key, value) is True:
                     continue
-                section.set(key, value)
+                section.set(key, str(value))
 
         tree = ET.ElementTree(root)
         tree.write(g_project.path_xml + 'propSkill.xml', pretty_print=True, xml_declaration=True)

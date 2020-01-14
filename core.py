@@ -107,8 +107,9 @@ if __name__ == "__main__":
     # Scope Skill
     if g_project.module["skill"]["active"] is True:
         prop_skill = PropSkill()
-        skills = prop_skill.load(g_project.file_propskill)
-        prop_skill.write_new_config(skills)
+        prop_skill.load(g_project.file_propskill)
+        prop_skill.write_new_config('xml')
+        prop_skill.write_new_config('json')
 
     # Scope PropMover
     if g_project.module["mover"]["active"] is True:
