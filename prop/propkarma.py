@@ -29,7 +29,6 @@ KarmaProperties = {
 
 class PropKarma:
 
-
     def __init__(self):
         self.karmas = OrderedDict()
 
@@ -54,7 +53,6 @@ class PropKarma:
                     continue
                 id_karma = arr[KarmaProperties["nGrade"]]
                 self.karmas[id_karma] = dict()
-                print(arr)
                 for key in KarmaProperties:
                     value = convert_value(key, arr[KarmaProperties[key]].replace("\"", "").replace(" ", ""))
                     self.karmas[id_karma][key] = value
@@ -70,7 +68,7 @@ class PropKarma:
 
         gLogger.info("name and comment")
         for it in self.karmas:
-            karma = karmas[it]
+            karma = self.karmas[it]
             if karma.szName not in textKarma and karma.szName not in karma_name_undeclared:
                 karma_name_undeclared.append(karma.szName)
             if karma.szComment not in textKarma and karma.szComment not in karma_name_undeclared:
@@ -78,7 +76,7 @@ class PropKarma:
 
         gLogger.info("color")
         for it in self.karmas:
-            karma = karmas[it]
+            karma = self.karmas[it]
             try:
                 nb = int(str(karma.dwColor), 16)
             except:
@@ -88,15 +86,15 @@ class PropKarma:
         gLogger.write(g_project.path_filter + "karma_name_undeclared.txt", karma_name_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="names undeclared:",
                 undeclared=len(karma_name_undeclared),
-                total=len(karmas)))
+                total=len(self.karmas)))
         gLogger.write(g_project.path_filter + "karma_comment_undeclared.txt", karma_comment_undeclared, "{infos}: {undeclared}/{total}".format(
                 infos="comment undeclared:",
                 undeclared=len(karma_comment_undeclared),
-                total=len(karmas)))
+                total=len(self.karmas)))
         gLogger.write(g_project.path_filter + "karma_color_invalid.txt", karma_color_invalid, "{infos}: {undeclared}/{total}".format(
                 infos="color invalid:",
                 undeclared=len(karma_color_invalid),
-                total=len(karmas)))
+                total=len(self.karmas)))
 
         gLogger.reset_section()
 
