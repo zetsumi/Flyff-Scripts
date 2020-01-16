@@ -15,4 +15,4 @@ Script ayant pour but de filtrer les ressources de flyff afin de produire des fi
 
 # Version 2.0:
 - [ ] Chargement des models
-- [ ] Ecriture des models en `JSON` et `XML`
+- [ ] Ecriture des models en `AES` `FBX`
