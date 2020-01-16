@@ -66,18 +66,21 @@ if __name__ == "__main__":
         text_prop_item = Text()
         text_prop_karma = Text()
         text_prop_mover = Text()
+        text_prop_skill = Text()
         text_prop_troupe_skill = Text()
 
         text_prop_ctrl.load(g_project.file_text_propctrl)
         text_prop_item.load(g_project.file_text_propitem)
         text_prop_karma.load(g_project.file_text_propkarma)
         text_prop_mover.load(g_project.file_text_propmover)
+        text_prop_skill.load(g_project.file_text_propskill)
         text_prop_troupe_skill.load(g_project.file_text_proptroupeskill)
 
         text_prop_ctrl.write_json('ctrl')
         text_prop_item.write_json('item')
         text_prop_karma.write_json('karma')
         text_prop_mover.write_json('mover')
+        text_prop_skill.write_json('skill')
         text_prop_troupe_skill.write_json('troupeskill')
 
 

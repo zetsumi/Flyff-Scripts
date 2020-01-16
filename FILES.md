@@ -1,7 +1,4 @@
 # Fichier .txt :
-- [ ] Ultimate_GemAbility.txt
-- [ ] Ultimate_UltimateWeapon.txt
-- [ ] WorldDialog.txt
 - [ ] conv.txt
 - [ ] CreateMonster.txt
 - [ ] EnvironmentEffect.txt
@@ -15,18 +12,21 @@
 - [ ] MiniGame_KawiBawiBo.txt
 - [ ] MiniGame_Reassemble.txt
 - [ ] PiercingSize.txt
-- [ ] propCtrl.txt
-- [ ] propItem.txt
-- [ ] propKarma.txt
+- [x] propCtrl.txt
+- [x] propItem.txt
+- [x] propKarma.txt
 - [ ] propLang.txt
 - [ ] propMotion.txt
-- [ ] propMover.txt
-- [ ] propSkill.txt
-- [ ] propTroupeSkill.txt
+- [x] propMover.txt
+- [x] propSkill.txt
+- [x] propTroupeSkill.txt
 - [ ] removequest.txt
 - [ ] s.txt
 - [ ] spevent.txt
 - [ ] textEmotion.txt
+- [ ] Ultimate_GemAbility.txt
+- [ ] Ultimate_UltimateWeapon.txt
+- [ ] WorldDialog.txt
 
 # Fichier .txt.txt :
 - [ ] DuBear.txt.txt
@@ -78,19 +78,19 @@
 - [ ] honorList.txt.txt
 - [ ] lordskill.txt.txt
 - [ ] PatrolDestination.txt.txt
-- [ ] propCtrl.txt.txt
-- [ ] propItem.txt.txt
+- [x] propCtrl.txt.txt
+- [x] propItem.txt.txt
 - [ ] propItemEtc.txt.txt
-- [ ] propKarma.txt.txt
+- [x] propKarma.txt.txt
 - [ ] propMotion.txt.txt
-- [ ] propMover.txt.txt
+- [x] propMover.txt.txt
 - [ ] propQuest-DungeonandPK.txt.txt
 - [ ] propQuest-RequestBox.txt.txt
 - [ ] propQuest-RequestBox2.txt.txt
 - [ ] propQuest-Scenario.txt.txt
 - [ ] propQuest.txt.txt
-- [ ] propSkill.txt.txt
-- [ ] propTroupeSkill.txt.txt
+- [x] propSkill.txt.txt
+- [x] propTroupeSkill.txt.txt
 - [ ] QuestDestination.txt.txt
 - [ ] resData.txt.txt
 - [ ] textClient.txt.txt
@@ -129,63 +129,28 @@
 
 # Fichier .h:
 - [ ] ContinentDef.h
-- [ ] define.h
-- [ ] defineAttribute.h
+- [x] define.h
+- [x] defineAttribute.h
 - [ ] defineEvent.h
 - [ ] defineHonor.h
-- [ ] defineItem.h
-- [ ] defineItemkind.h
-- [ ] defineJob.h
+- [x] defineItem.h
+- [x] defineItemkind.h
+- [x] defineJob.h
 - [ ] definelordskill.h
-- [ ] defineModuleJob.h
-- [ ] defineNeuz.h
-- [ ] defineObj.h
+- [x] defineNeuz.h
+- [x] defineObj.h
 - [ ] definequest.h
-- [ ] defineRift.h
 - [ ] defineSkill.h
-- [ ] defineSound.h
+- [x] defineSound.h
 - [ ] defineText.h
-- [ ] defineWorld.h
+- [x] defineWorld.h
 - [ ] lang.h
 - [ ] ResData.h
 - [ ] WndStyle.h
 
 # Fichier .inc:
-- [ ] accessory.inc
-- [ ] alchemist.inc
-- [ ] backsmith.inc
-- [ ] character-etc.inc
-- [ ] character-school.inc
-- [ ] character.inc
-- [ ] ticket.inc
-- [ ] transformitem.inc
-- [ ] wordToolTip.inc
-- [ ] World.inc
-- [ ] collecting.inc
-- [ ] Constant.inc
-- [ ] couple.inc
-- [ ] DiePenalty.inc
-- [ ] election.inc
-- [ ] etc.inc
-- [ ] expTable.inc
-- [ ] filter.inc
-- [ ] filter_CHI.inc
-- [ ] filter_ENG.inc
-- [ ] filter_FRE.inc
-- [ ] filter_GER.inc
-- [ ] filter_JAP.inc
-- [ ] filter_KOR.inc
-- [ ] filter_SPA.inc
-- [ ] filter_THA.inc
-- [ ] filter_TWN.inc
-- [ ] icon_FlightTargetArrow.inc
-- [ ] icon_FlightTargetB.inc
-- [ ] icon_Iconmessenger.inc
-- [ ] icon_IconSkillLevel.inc
-- [ ] Icon_MonElemantkind.inc
-- [ ] icon_PlayerData.inc
-- [ ] icon_QuestEmoticon.inc
-- [ ] icon_target.inc
+
+## Invalid:
 - [ ] InvalidName.inc
 - [ ] InvalidName_CHI.inc
 - [ ] InvalidName_ENG.inc
@@ -196,15 +161,60 @@
 - [ ] InvalidName_SPA.inc
 - [ ] InvalidName_THA.inc
 - [ ] InvalidName_TWN.inc
-- [ ] jeweller.inc
-- [ ] jobItem.inc
-- [ ] layer.inc
+
+## Filter:
+- [ ] filter.inc
+- [ ] filter_CHI.inc
+- [ ] filter_ENG.inc
+- [ ] filter_FRE.inc
+- [ ] filter_GER.inc
+- [ ] filter_JAP.inc
+- [ ] filter_KOR.inc
+- [ ] filter_SPA.inc
+- [ ] filter_THA.inc
+- [ ] filter_TWN.inc
+
+## Icon:
+- [ ] icon_FlightTargetArrow.inc
+- [ ] icon_FlightTargetB.inc
+- [ ] icon_Iconmessenger.inc
+- [ ] icon_IconSkillLevel.inc
+- [ ] Icon_MonElemantkind.inc
+- [ ] icon_PlayerData.inc
+- [ ] icon_QuestEmoticon.inc
+- [ ] icon_target.inc
+
+## Letter:
 - [ ] Letter2_FRE.inc
 - [ ] Letter2_GER.inc
 - [ ] Letter_ENG.inc
 - [ ] Letter_FRE.inc
 - [ ] Letter_GER.inc
 - [ ] Letter_SPA.inc
+
+## Quest:
+- [ ] propPartyQuest.inc
+- [ ] propQuest-DungeonandPK.inc
+- [ ] propQuest-RequestBox.inc
+- [ ] propQuest-RequestBox2.inc
+- [ ] propQuest-Scenario.inc
+- [ ] propQuest.inc
+
+## Common:
+- [ ] accessory.inc
+- [ ] character-etc.inc
+- [ ] character-school.inc
+- [ ] character.inc
+- [ ] collecting.inc
+- [ ] Constant.inc
+- [ ] couple.inc
+- [ ] DiePenalty.inc
+- [ ] DmgEffect.inc
+- [ ] election.inc
+- [ ] etc.inc
+- [ ] expTable.inc
+- [ ] jobItem.inc
+- [ ] layer.inc
 - [ ] lordevent.inc
 - [ ] mdlDyna.inc
 - [ ] mdlObj.inc
@@ -219,36 +229,43 @@
 - [ ] propJob.inc
 - [ ] propMoverEx.inc
 - [ ] propPackItem.inc
-- [ ] propPartyQuest.inc
-- [ ] propQuest-DungeonandPK.inc
-- [ ] propQuest-RequestBox.inc
-- [ ] propQuest-RequestBox2.inc
-- [ ] propQuest-Scenario.inc
-- [ ] propQuest.inc
-- [ ] randomeventmonster.inc
+- [x] randomeventmonster.inc
 - [ ] randomoption.inc
 - [ ] resdata.inc
 - [ ] CountFight.inc
-- [ ] DmgEffect.inc
 - [ ] SkillLevel.inc
 - [ ] Terrain.inc
 - [ ] textClient.inc
+- [ ] ticket.inc
+- [ ] transformitem.inc
+- [ ] wordToolTip.inc
+- [x] World.inc
+
 
 ## Theme:
 - [ ] hotkey.inc
 - [ ] navigator.inc
 - [ ] NavPosition.inc
 - [ ] Openning.inc
+- [ ] TexBannerList.inc
+- [ ] texChatEmoticon.inc
+- [ ] Theme_FontDigital1.inc
+- [ ] Theme_GauFlight.inc
+
+### Rainbow:
 - [ ] RainbowCardPenaltyNumber.inc
 - [ ] RainbowDiceNumber.inc
 - [ ] RainbowStopWatchNumber.inc
-- [ ] TexBannerList.inc
-- [ ] texChatEmoticon.inc
+
+
+### Dialog:
 - [ ] texDialog.inc
 - [ ] texDialogBox.inc
 - [ ] texDialogBoxGuild.inc
 - [ ] texDialogBoxParty.inc
 - [ ] texDialogEmoticon.inc
+
+### Map:
 - [ ] texMapButton.inc
 - [ ] texMapMonster_Darkon12.inc
 - [ ] texMapMonster_Darkon3.inc
@@ -260,40 +277,10 @@
 - [ ] texMapQuizEventButton.inc
 - [ ] texMapRainbowButton.inc
 - [ ] texMapRainbow_NPC.inc
-- [ ] Theme_FontDigital1.inc
-- [ ] Theme_GauFlight.inc
 
 ## Client:
-- [ ] ChangeAttribute.inc
-- [ ] ChangeUltimateWeaponInfo.inc
-- [ ] ChangeUniqueWeaponInfo.inc
-- [ ] CoupleSkillInfo.inc
-- [ ] faq.inc
-- [ ] GameGuard.inc
-- [ ] Guide.inc
-- [ ] GuildCombatRedChipGuild.inc
-- [ ] GuildCombatTEXT_1_ENG.inc
-- [ ] GuildCombatTEXT_2_ENG.inc
-- [ ] GuildCombatTEXT_3_ENG.inc
-- [ ] GuildCombatTEXT_4_ENG.inc
-- [ ] GuildCombatTEXT_5_ENG.inc
-- [ ] GuildCombatTEXT_6_ENG.inc
-- [ ] help.inc
-- [ ] HeroSkillUp.inc
-- [ ] instantHelp.inc
-- [ ] ItemAwakening.inc
-- [ ] ItemBlessingCancel.inc
-- [ ] lordcandidate.inc
-- [ ] lordInfo.inc
-- [ ] lordrpInfo.inc
-- [ ] MiniGameDiceDesc.inc
-- [ ] MiniGameFindWordDesc.inc
-- [ ] MiniGamePuzzleDesc.inc
-- [ ] notice_ENG.inc
-- [ ] PatchClient.inc
-- [ ] PetAwakCancel.inc
-- [ ] PetMiracle.inc
-- [ ] PetTransEggs.inc
+
+### Rainbow:
 - [ ] RainbowRaceArithmetic.inc
 - [ ] RainbowRaceCard.inc
 - [ ] RainbowRaceDice.inc
@@ -305,8 +292,17 @@
 - [ ] RainbowRaceRule.inc
 - [ ] RainbowRaceStopwatch.inc
 - [ ] RainbowRaceTyping.inc
-- [ ] RemoveAttribute.inc
-- [ ] ReqLvDown.inc
+
+### Guilde:
+- [ ] GuildCombatRedChipGuild.inc
+- [ ] GuildCombatTEXT_1_ENG.inc
+- [ ] GuildCombatTEXT_2_ENG.inc
+- [ ] GuildCombatTEXT_3_ENG.inc
+- [ ] GuildCombatTEXT_4_ENG.inc
+- [ ] GuildCombatTEXT_5_ENG.inc
+- [ ] GuildCombatTEXT_6_ENG.inc
+
+### MiniGame:
 - [ ] RRMinigameArithmetic.inc
 - [ ] RRMinigameCard.inc
 - [ ] RRMinigameDice.inc
@@ -314,10 +310,17 @@
 - [ ] RRMinigameLadder.inc
 - [ ] RRMinigameStopwatch.inc
 - [ ] RRMinigameTyping.inc
+- [ ] MiniGameDiceDesc.inc
+- [ ] MiniGameFindWordDesc.inc
+- [ ] MiniGamePuzzleDesc.inc
+
+### Secret Room:
 - [ ] SecretRoomBoard.inc
 - [ ] SecretRoomChangeTaxRate.inc
 - [ ] SecretRoomCheckTaxRate.inc
 - [ ] SecretRoomDesc.inc
+
+### Smelt:
 - [ ] SmeltChangeUltimateWeapon.inc
 - [ ] SmeltChangeUniqueWeapon.inc
 - [ ] SmeltExtraction.inc
@@ -325,6 +328,34 @@
 - [ ] SmeltMixJewel.inc
 - [ ] SmeltRemoveJewel.inc
 - [ ] SmeltRemovePiercing.inc
+
+### Lord:
+- [ ] lordcandidate.inc
+- [ ] lordInfo.inc
+- [ ] lordrpInfo.inc
+
+### Pet:
+- [ ] PetAwakCancel.inc
+- [ ] PetMiracle.inc
+- [ ] PetTransEggs.inc
+
+### Common:
+- [ ] ChangeAttribute.inc
+- [ ] ChangeUltimateWeaponInfo.inc
+- [ ] ChangeUniqueWeaponInfo.inc
+- [ ] CoupleSkillInfo.inc
+- [ ] faq.inc
+- [ ] GameGuard.inc
+- [ ] Guide.inc
+- [ ] help.inc
+- [ ] HeroSkillUp.inc
+- [ ] instantHelp.inc
+- [ ] ItemAwakening.inc
+- [ ] ItemBlessingCancel.inc
+- [ ] notice_ENG.inc
+- [ ] PatchClient.inc
+- [ ] RemoveAttribute.inc
+- [ ] ReqLvDown.inc
 - [ ] sound.inc
 - [ ] summonAngelQuest.inc
 - [ ] tip.inc
