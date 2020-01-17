@@ -71,7 +71,7 @@ class Define:
         gLogger.set_section("define")
         gLogger.info("writing header", name)
 
-        with open(g_project.path_json + 'header_' + name + '.json', 'w') as fd:
+        with open(g_project.path_json_header + 'header_' + name + '.json', 'w') as fd:
             json.dump(self.datas, fd, indent=4)
 
         gLogger.reset_section()
