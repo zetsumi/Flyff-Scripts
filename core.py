@@ -130,7 +130,17 @@ defines = OrderedDict({
     "skill": Define(),
     "sound": Define(),
     "world": Define(),
+    "continent": Define(),
+    "event": Define(),
+    "lord_skill": Define(),
+    "quest": Define(),
+    "honor": Define(),
+    "lang": Define(),
+    "msghdr": Define(),
+    "resdata": Define(),
+    "wnd_style": Define(),
 })
+
 mdl_dyna = MdlDyna()
 mdl_obj = MdlObj()
 prop_item = PropItem()
@@ -147,18 +157,18 @@ def module_header():
     defines["skill"].load(g_project.file_define_skill)
     defines["sound"].load(g_project.file_define_sound)
     defines["world"].load(g_project.file_define_world)
+    defines["continent"].load(g_project.file_define_world)
+    defines["event"].load(g_project.file_define_world)
+    defines["lord_skill"].load(g_project.file_define_world)
+    defines["quest"].load(g_project.file_define_world)
+    defines["honor"].load(g_project.file_define_world)
+    defines["lang"].load(g_project.file_define_world)
+    defines["msghdr"].load(g_project.file_define_world)
+    defines["resdata"].load(g_project.file_define_world)
+    defines["wnd_style"].load(g_project.file_define_world)
 
-    defines["define"].write_json('define')
-    defines["attribute"].write_json('attribute')
-    defines["item"].write_json('item')
-    defines["item_kind"].write_json('itemkind')
-    defines["job"].write_json('job')
-    defines["neuz"].write_json('neuz')
-    defines["obj"].write_json('obj')
-    defines["skill"].write_json('skill')
-    defines["sound"].write_json('sound')
-    defines["world"].write_json('world')
-
+    for k in defines:
+        defines[k].write_json(k)
 
 def module_text():
     texts["ctrl"].load(g_project.file_text_propctrl)

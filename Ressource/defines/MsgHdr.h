@@ -1,4 +1,4 @@
-#ifndef __MSGHDR_H__
+﻿#ifndef __MSGHDR_H__
 #define __MSGHDR_H__
 
 #pragma once

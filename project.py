@@ -215,6 +215,16 @@ class Project:
         self.file_define_job = self.path_ressource_define + "defineJob.h"
         self.file_define_sound = self.path_ressource_define + "defineSound.h"
         self.file_define_world = self.path_ressource_define + "defineWorld.h"
+        self.file_define_continent_def = self.path_ressource_define + "ContinentDef.h"
+        self.file_define_event = self.path_ressource_define + "defineEvent.h"
+        self.file_define_lord_skill = self.path_ressource_define + "definelordskill.h"
+
+        self.file_define_quest = self.path_ressource_define + "definequest.h"
+        self.file_define_honor = self.path_ressource_define + "defineHonor.h"
+        self.file_define_lang = self.path_ressource_define + "lang.h"
+        self.file_define_msg_hdr = self.path_ressource_define + "MsgHdr.h"
+        self.file_define_resdata = self.path_ressource_define + "ResData.h"
+        self.file_define_wnd_style = self.path_ressource_define + "WndStyle.h"
 
         # packet
         self.file_msghdr = self.path_ressource_define + "MsgHdr.h"
@@ -238,5 +248,6 @@ class Project:
             os.makedirs(self.path_json_prop)
         if not os.path.exists(self.path_documentation):
             os.makedirs(self.path_documentation)
+
 
 g_project = Project()

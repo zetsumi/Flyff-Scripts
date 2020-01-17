@@ -110,7 +110,7 @@ class PropKarma:
         gLogger.set_section("propkarma")
         gLogger.info("writing config JSON")
 
-        with open(g_project.path_json + 'propKarma.json', 'w') as fd:
+        with open(g_project.path_json_prop + 'propKarma.json', 'w') as fd:
             json.dump(self.karmas, fd, indent=4)
         gLogger.reset_section()
 

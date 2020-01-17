@@ -141,7 +141,6 @@ class   PropMoverEx:
 
         gLogger.reset_section()
 
-
     def json_format(self):
         gLogger.set_section("propmoverex")
         gLogger.info("writing JSON propmoverex")
@@ -178,7 +177,7 @@ class   PropMoverEx:
                     kind_data["level_max"] = kind.max
                     data["prop_mover_extend"][str(key)]["kinds"].append(kind_data)
 
-        with open(g_project.path_json + 'propMoverEx.json', 'w') as fd:
+        with open(g_project.path_json_prop + 'propMoverEx.json', 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()

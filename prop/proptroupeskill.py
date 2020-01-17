@@ -362,7 +362,6 @@ class PropTroupeSkill:
 
         gLogger.reset_section()
 
-
     def skip_value(self, key, value):
         if key == "dwID":
             return True

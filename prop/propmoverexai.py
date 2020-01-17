@@ -177,7 +177,6 @@ class PropMoverExAI:
 
         gLogger.reset_section()
 
-
     def json_format(self):
         gLogger.set_section("propmoverexai")
         gLogger.info("writing JSON propmoverexai")
@@ -192,7 +191,7 @@ class PropMoverExAI:
             ai["battle"] = self.ais[id_mover].battle
             ai["move"] =  self.ais[id_mover].move
 
-        with open(g_project.path_json + 'propMoverExAI.json', 'w') as fd:
+        with open(g_project.path_json_prop + 'propMoverExAI.json', 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()

@@ -139,7 +139,7 @@ class PropCtrl:
         gLogger.set_section("propctrl")
         gLogger.info("writing config JSON")
 
-        with open(g_project.path_json + 'propCtrl.json', 'w') as fd:
+        with open(g_project.path_json_prop + 'propCtrl.json', 'w') as fd:
             json.dump(self.ctrls, fd, indent=4)
         gLogger.reset_section()
 

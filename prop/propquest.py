@@ -338,7 +338,7 @@ class PropQuest:
                 for state in quest.State[value]:
                     data[name_quest]["type"][QAction[value]] = quest.State[value][state]
 
-        with open(g_project.path_json + 'propQuest.json', 'w') as fd:
+        with open(g_project.path_json_prop + 'propQuest.json', 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()

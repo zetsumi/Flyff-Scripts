@@ -246,7 +246,7 @@ class PropItem(Prop):
         gLogger.set_section("propitem")
         gLogger.info("writing config JSON")
 
-        with open(g_project.path_json + 'propItem.json', 'w') as fd:
+        with open(g_project.path_json_prop + 'propItem.json', 'w') as fd:
             json.dump(self.items, fd, indent=4)
         gLogger.reset_section()
 

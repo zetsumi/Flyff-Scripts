@@ -28,7 +28,7 @@ class DataMonster:
         self.active_attack = False
         self.position = list()
 
-    def load(self, id, datas):
+    def load(self, datas):
         for it in datas:
             if "nInterval" in it:
                 arr = it.split("\t")
@@ -103,7 +103,7 @@ class RandomEventMonster(object):
 
         for it in movers:
             data = DataMonster()
-            data.load(it, movers[it])
+            data.load(movers[it])
             self.properties[it] = data
 
         gLogger.reset_section()
@@ -132,7 +132,7 @@ class RandomEventMonster(object):
                 data["random_event_monster"][str(key)]["positions"].append(vPos)
 
 
-        with open(g_project.path_json + 'randomEventMonster.json', 'w') as fd:
+        with open(g_project.path_json_prop + 'randomEventMonster.json', 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()

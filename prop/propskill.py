@@ -266,7 +266,7 @@ class PropSkill:
         gLogger.set_section("propskill")
         gLogger.info("writing config JSON")
 
-        with open(g_project.path_json + 'propSkill.json', 'w') as fd:
+        with open(g_project.path_json_prop + 'propSkill.json', 'w') as fd:
             json.dump(self.skills, fd, indent=4)
         gLogger.reset_section()
 
