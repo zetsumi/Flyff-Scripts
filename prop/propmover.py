@@ -95,18 +95,7 @@ class PropMover:
 
     def __init__(self):
         self.movers = dict()
-        self.text = Text()
-        self.define = Define()
         self.items = None
-
-
-    def getIdMax(self):
-        return 82
-
-
-    def getSize(self):
-        return self.getIdMax() + 1
-
 
     def skip_preproc(self, string):
         if "#ifdef" in string or \
@@ -118,10 +107,9 @@ class PropMover:
             return True
         return False
 
-
-    def load(self, file_prop, file_txt, file_define):
+    def load(self, file_prop,):
         gLogger.set_section("propmover")
-        gLogger.info("Loading: ", file_txt, file_txt, file_define)
+        gLogger.info("Loading: ", file_prop)
 
         with open(file_prop, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
@@ -145,14 +133,8 @@ class PropMover:
                 for key in MoverParams:
                     self.movers[mover_id][key] = arr[MoverParams[key]].replace("\"", "")
 
-        if len(self.text.load(file_txt)) <= 0:
-            return False
-        if len(self.define.load(file_define)) <= 0:
-            return False
-
         gLogger.reset_section()
         return True
-
 
     def filter(self):
         gLogger.info("Filtering propmover")
@@ -167,12 +149,12 @@ class PropMover:
         #pass
         for key in self.movers:
             mover = self.movers[key]
-            if key not in self.define.datas:
-                mover_undeclared.append(key)
-            if mover["szComment"] not in self.text.datas:
-                mover_comment_undeclared.append(key)
-            if mover["szName"] not in self.text.datas:
-                mover_name_undeclared.append(key)
+#            if key not in self.define.datas:
+#                mover_undeclared.append(key)
+#           if mover["szComment"] not in self.text.datas:
+#                mover_comment_undeclared.append(key)
+#            if mover["szName"] not in self.text.datas:
+#                mover_name_undeclared.append(key)
             if self.items is not None:
                 if mover["dwAtk1"] not in self.items:
                     weapon_undeclared.append(mover["dwAtk1"])
@@ -201,7 +183,6 @@ class PropMover:
 
         return mover_undeclared, mover_unused, weapon_undeclared, mover_name_undeclared, mover_comment_undeclared
 
-
     def replace(self, textMover):
         if self.szName != "=":
             if len(self.szName) >= 0 and self.szName != "" and self.szName in textMover:
@@ -209,7 +190,6 @@ class PropMover:
         if self.szComment != "=":
             if self.szComment != "" and len(self.szComment) > 0 and self.szComment in textMover:
                 self.szComment = '\"' + textMover[self.szComment] + '\"'
-
 
     def skip_value(self, key, value):
         if value is None or value == "=":
@@ -222,7 +202,7 @@ class PropMover:
             v = int(value)
             if v == 0:
                 return True
-        except:
+        except ValueError:
             if value == "=" or value == "":
                 return True
         return False
@@ -261,8 +241,8 @@ class PropMover:
             elif mover["dwAI"] == "AII_PET" or mover["dwAI"] == "AII_EGG":
                 section = movers_pets
             elif mover["dwAI"] == "AII_MONSTER"or mover["dwAI"] == "AII_CLOCKWORKS" or \
-                mover["dwAI"] == "AII_BIGMUSCLE" or mover["dwAI"] == "AII_KRRR" or \
-                mover["dwAI"] == "AII_BEAR" or mover["dwAI"] == "AII_METEONYKER":
+                    mover["dwAI"] == "AII_BIGMUSCLE" or mover["dwAI"] == "AII_KRRR" or \
+                    mover["dwAI"] == "AII_BEAR" or mover["dwAI"] == "AII_METEONYKER":
                 section = movers_monsters
 
             if section is not None:
@@ -286,7 +266,6 @@ class PropMover:
                 if self.skip_value(key, value) is True:
                     continue
                 section.set(key, value)
-
 
         tree = ET.ElementTree(root)
         tree.write(g_project.path_xml + 'propMover.xml', pretty_print=True, xml_declaration=True)

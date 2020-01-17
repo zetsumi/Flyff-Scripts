@@ -141,17 +141,15 @@ class PropItem(Prop):
 
     def __init__(self):
         self.items = OrderedDict()
-        self.text = Text()
-        self.define = Define()
 
     def __skip_preproc__(self, string):
         if "ifdef" in string or  "endif" in string or "ifndef" in string:
             return True
         return False
 
-    def load(self, file_item, file_text, file_define):
+    def load(self, file_item):
         gLogger.set_section("propitem")
-        gLogger.info("Loading: ", file_item, file_text, file_define)
+        gLogger.info("Loading: ", file_item)
 
         with open(file_item, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
@@ -171,8 +169,6 @@ class PropItem(Prop):
                 for key in ItemParameters:
                     value = convert_value(key, arr[ItemParameters[key]].replace("\"", "").replace(" ", ""))
                     self.items[item_id][key] = value
-        self.text.load(file_text)
-        self.define.load(file_define)
         return True
 
     def filter(self, path_icon):
@@ -187,22 +183,22 @@ class PropItem(Prop):
 
         for key in self.items:
             item = self.items[key]
-            if key not in self.define.datas:
-                items_undeclared.append(key)
-            if item["szName"] not in self.text.datas:
-                item_name_undeclared.append(key)
-            if item["szComment"] not in self.text.datas:
-                item_comment_undeclared.append(key)
+#            if key not in self.define.datas:
+#                items_undeclared.append(key)
+#            if item["szName"] not in self.text.datas:
+#                item_name_undeclared.append(key)
+#            if item["szComment"] not in self.text.datas:
+#                item_comment_undeclared.append(key)
             if len(item["szIcon"]) > 0:
                 icon = item["szIcon"]
                 out = subprocess.check_output(['find', path_icon, '-iname', icon])
                 if out == "" or len(out) <= 0:
                     items_icon_unfound.append(icon)
 
-        for it in self.define.datas:
-            define = self.define.datas[it]
-            if define.key not in self.items:
-                items_unused.append(define.key)
+#        for it in self.define.datas:
+#            define = self.define.datas[it]
+#            if define.key not in self.items:
+#                items_unused.append(define.key)
 
 
         gLogger.write(g_project.path_filter + "items_undeclared.txt", items_undeclared, "{infos}: {undeclared}/{total}".format(
@@ -227,26 +223,6 @@ class PropItem(Prop):
                 total=len(self.items)))
         gLogger.reset_section()
         return True
-
-    def replace(self):
-        for it in self.items:
-            item = self.items[it]
-            name = item["szName"]
-            comment = item["szComment"]
-            text_file = item["szTextFile"]
-            if name != "=":
-                if len(name) >= 0 and name != "" and name in self.text.datas:
-                    self.items[it]["szName"] = self.text.datas[name]
-            if comment != "=":
-                if len(comment) >= 0 and comment != "" and comment in self.text.datas:
-                    self.items[it]["szComment"] = self.text.datas[comment]
-            if text_file != "=":
-                if isinstance(text_file, str) is True:
-                    if len(text_file) >= 0 and text_file != "" and text_file in self.text.datas:
-                        self.items[it]["szTextFile"] = self.text.datas[text_file]
-                else:
-                    # TODOS il faut chercher le texte file en fonction de son ID
-                    self.items[it]["szTextFile"] = ""
 
     def skip_value(self, key, value):
         if key == "dwID":

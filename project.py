@@ -84,6 +84,7 @@ class Project:
         self.path_json = self.path_output + "/json/"
         self.path_json_text = self.path_output + "/json/text/"
         self.path_json_header = self.path_output + "/json/header/"
+        self.path_json_prop = self.path_output + "/json/prop/"
         self.path_documentation = self.path_output + "documentation/"
 
         # file properties
@@ -233,6 +234,8 @@ class Project:
             os.makedirs(self.path_json_text)
         if not os.path.exists(self.path_json_header):
             os.makedirs(self.path_json_header)
+        if not os.path.exists(self.path_json_prop):
+            os.makedirs(self.path_json_prop)
         if not os.path.exists(self.path_documentation):
             os.makedirs(self.path_documentation)
 

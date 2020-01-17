@@ -294,7 +294,7 @@ def module_ctrl():
 
 
 def module_item():
-    prop_item.load(g_project.file_propitem, g_project.file_text_propitem, g_project.file_define_item)
+    prop_item.load(g_project.file_propitem)
     if g_project.module["mover"]["filter"] is True:
         prop_item.filter(g_project.pathicon_item)
         prop_item.replace()
@@ -311,7 +311,7 @@ def module_skill():
 
 def module_mover():
     prop_mover = PropMover()
-    if prop_mover.load(g_project.file_propmover, g_project.file_text_propmover, g_project.file_define_obj) is False:
+    if prop_mover.load(g_project.file_propmover) is False:
         gLogger.error("Error detected during the load propmover")
     if g_project.module["item"]["active"] is True:
         prop_mover.items = prop_item.items
@@ -358,34 +358,34 @@ if __name__ == "__main__":
     gLogger.set_section("core")
     gLogger.info("Running Flyff Properties ", g_project.version_binary)
 
-    # if g_project.module["header"]["active"] is True:
-    #     module_header()
+    if g_project.module["header"]["active"] is True:
+        module_header()
     if g_project.module["text"]["active"] is True:
         module_text()
-    # if g_project.module["mdldyna"]["active"] is True:
-    #     module_mdldyna()
-    # if g_project.module["mdlobj"]["active"] is True:
-    #     module_mdlobj()
-    # if g_project.module["karma"]["active"] is True:
-    #     module_karma()
-    # if g_project.module["ctrl"]["active"] is True:
-    #     module_ctrl()
-    # if g_project.module["item"]["active"] is True:
-    #     module_item()
-    # if g_project.module["skill"]["active"] is True:
-    #     module_skill()
-    # if g_project.module["mover"]["active"] is True:
-    #     module_mover()
-    # if g_project.module["world"]["active"] is True:
-    #     module_world()
-    # if g_project.module["quest"]["active"] is True:
-    #     module_quest()
-    # if g_project.module["drop"]["active"] is True:
-    #     module_drop()
-    # if g_project.module["ai"]["active"] is True:
-    #     module_ai()
-    # if g_project.module["event_monster"]["active"] is True:
-    #     module_event_monster()
+    if g_project.module["mdldyna"]["active"] is True:
+        module_mdldyna()
+    if g_project.module["mdlobj"]["active"] is True:
+        module_mdlobj()
+    if g_project.module["karma"]["active"] is True:
+        module_karma()
+    if g_project.module["ctrl"]["active"] is True:
+        module_ctrl()
+    if g_project.module["item"]["active"] is True:
+        module_item()
+    if g_project.module["skill"]["active"] is True:
+        module_skill()
+    if g_project.module["mover"]["active"] is True:
+        module_mover()
+    if g_project.module["world"]["active"] is True:
+        module_world()
+    if g_project.module["quest"]["active"] is True:
+        module_quest()
+    if g_project.module["drop"]["active"] is True:
+        module_drop()
+    if g_project.module["ai"]["active"] is True:
+        module_ai()
+    if g_project.module["event_monster"]["active"] is True:
+        module_event_monster()
 
     gLogger.info("process finished")
     gLogger.reset_section()

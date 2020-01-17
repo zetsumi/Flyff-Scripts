@@ -22,7 +22,6 @@ class Text:
         self.datas = dict()
         with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
-                print(line)
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
                 if "//" in line or len(line) <= 0 or line == "":
