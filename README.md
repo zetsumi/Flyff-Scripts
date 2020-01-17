@@ -3,7 +3,7 @@
 Script ayant pour but de filtrer les ressources de flyff afin de produire des fichier propre et donnant la possibilite d'ecrire les fichiers dans d'autre formats.
 
 # Version 1.0:
-- [ ] Lecture de tous les fichiers `.txt.txt`
+- [x] Lecture de tous les fichiers `.txt.txt`
 - [ ] Lecture de tous les fichiers `.h`
 - [ ] Lecture de tous les fichiers `.inc`
 - [ ] Lecture de tous les fichiers `.txt`
