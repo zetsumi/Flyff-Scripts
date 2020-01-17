@@ -26,7 +26,98 @@ texts = OrderedDict({
     "karma": Text(),
     "mover": Text(),
     "skill": Text(),
-    "troupeskill": Text()
+    "troupeskill": Text(),
+    "dubear": Text(),
+    "dudadk": Text(),
+    "dudreadfulcave": Text(),
+    "duflmas": Text(),
+    "dukrr": Text(),
+    "dumuscle": Text(),
+    "duominous": Text(),
+    "duominous_1": Text(),
+    "durustia": Text(),
+    "durustia_1": Text(),
+    "dusatemple": Text(),
+    "dusatempleboss": Text(),
+    "wdarena": Text(),
+    "wdguildhouselarge": Text(),
+    "wdguildhousemiddle": Text(),
+    "wdguildhousesmall": Text(),
+    "wdguildwar": Text(),
+    "wdguildwar1to1": Text(),
+    "wdheaven01": Text(),
+    "wdheaven02": Text(),
+    "wdheaven03": Text(),
+    "wdheaven04": Text(),
+    "wdheaven05": Text(),
+    "wdheaven06": Text(),
+    "wdheaven06_1": Text(),
+    "wdkebaras": Text(),
+    "wdmadrigal": Text(),
+    "wdminiroom": Text(),
+    "wdquiz": Text(),
+    "wdvolcane": Text(),
+    "wdvolcanered": Text(),
+    "wdvolcaneyellow": Text(),
+    "faq": Text(),
+    "gameguard": Text(),
+    "guide": Text(),
+    "help": Text(),
+    "instanthelp": Text(),
+    "minigame_alphabet": Text(),
+    "patchclient": Text(),
+    "tip": Text(),
+    "treehelp": Text(),
+    "tutorial": Text(),
+    "character_etc": Text(),
+    "character_school": Text(),
+    "character": Text(),
+    "etc": Text(),
+    "honorlist": Text(),
+    "lordskill": Text(),
+    "patroldestination": Text(),
+    "propitemetc": Text(),
+    "propmotion": Text(),
+    "propquest_dungeonandpk": Text(),
+    "propquest_requestbox": Text(),
+    "propquest_requestbox2": Text(),
+    "propquest_scenario": Text(),
+    "propquest": Text(),
+    "questdestination": Text(),
+    "resdata": Text(),
+    "textclient": Text(),
+    "textemotion": Text(),
+    "dubear": Text(),
+    "dudadk": Text(),
+    "dudreadfulcave": Text(),
+    "duflmas": Text(),
+    "dukrr": Text(),
+    "dumuscle": Text(),
+    "duominous": Text(),
+    "duominous_1": Text(),
+    "durustia": Text(),
+    "durustia_1": Text(),
+    "dusatempleboss": Text(),
+    "wdarena": Text(),
+    "wdguildhouselarge": Text(),
+    "wdguildhousemiddle": Text(),
+    "wdguildhousesmall": Text(),
+    "wdguildwar": Text(),
+    "wdheaven01": Text(),
+    "wdheaven02": Text(),
+    "wdheaven03": Text(),
+    "wdheaven04": Text(),
+    "wdheaven05": Text(),
+    "wdheaven06": Text(),
+    "wdheaven06_1": Text(),
+    "wdkebaras": Text(),
+    "wdmadrigal": Text(),
+    "wdminiroom": Text(),
+    "wdquiz": Text(),
+    "wdvolcane": Text(),
+    "wdvolcanered": Text(),
+    "wdvolcaneyellow": Text(),
+    "world": Text()
 })
 defines = OrderedDict({
     "define": Define(),
@@ -43,6 +134,7 @@ defines = OrderedDict({
 mdl_dyna = MdlDyna()
 mdl_obj = MdlObj()
 prop_item = PropItem()
+
 
 def module_header():
     defines["define"].load(g_project.file_define)
@@ -76,12 +168,197 @@ def module_text():
     texts["skill"].load(g_project.file_text_propskill)
     texts["troupeskill"].load(g_project.file_text_proptroupeskill)
 
+    texts["dubear"].load(g_project.file_text_dubear)
+    texts["dudadk"].load(g_project.file_text_dudadk)
+    texts["dudreadfulcave"].load(g_project.file_text_dudreadfulcave)
+    texts["duflmas"].load(g_project.file_text_duflmas)
+    texts["dukrr"].load(g_project.file_text_dukrr)
+    texts["dumuscle"].load(g_project.file_text_dumuscle)
+    texts["duominous"].load(g_project.file_text_duominous)
+    texts["duominous_1"].load(g_project.file_text_duominous_1)
+    texts["durustia"].load(g_project.file_text_durustia)
+    texts["durustia_1"].load(g_project.file_text_durustia_1)
+    texts["dusatemple"].load(g_project.file_text_dusatemple)
+    texts["dusatempleboss"].load(g_project.file_text_dusatempleboss)
+    texts["wdarena"].load(g_project.file_text_wdarena)
+    texts["wdguildhouselarge"].load(g_project.file_text_wdguildhouselarge)
+    texts["wdguildhousemiddle"].load(g_project.file_text_wdguildhousemiddle)
+    texts["wdguildhousesmall"].load(g_project.file_text_wdguildhousesmall)
+    texts["wdguildwar"].load(g_project.file_text_wdguildwar)
+    texts["wdguildwar1to1"].load(g_project.file_text_wdguildwar1to1)
+    texts["wdheaven01"].load(g_project.file_text_wdheaven01)
+    texts["wdheaven02"].load(g_project.file_text_wdheaven02)
+    texts["wdheaven03"].load(g_project.file_text_wdheaven03)
+    texts["wdheaven04"].load(g_project.file_text_wdheaven04)
+    texts["wdheaven05"].load(g_project.file_text_wdheaven05)
+    texts["wdheaven06"].load(g_project.file_text_wdheaven06)
+    texts["wdheaven06_1"].load(g_project.file_text_wdheaven06_1)
+    texts["wdkebaras"].load(g_project.file_text_wdkebaras)
+    texts["wdmadrigal"].load(g_project.file_text_wdmadrigal)
+    texts["wdminiroom"].load(g_project.file_text_wdminiroom)
+    texts["wdquiz"].load(g_project.file_text_wdquiz)
+    texts["wdvolcane"].load(g_project.file_text_wdvolcane)
+    texts["wdvolcanered"].load(g_project.file_text_wdvolcanered)
+    texts["wdvolcaneyellow"].load(g_project.file_text_wdvolcaneyellow)
+    texts["faq"].load(g_project.file_text_faq)
+    texts["gameguard"].load(g_project.file_text_gameguard)
+    texts["guide"].load(g_project.file_text_guide)
+    texts["help"].load(g_project.file_text_help)
+    texts["instanthelp"].load(g_project.file_text_instanthelp)
+    texts["minigame_alphabet"].load(g_project.file_text_minigame_alphabet)
+    texts["patchclient"].load(g_project.file_text_patchclient)
+    texts["tip"].load(g_project.file_text_tip)
+    texts["treehelp"].load(g_project.file_text_treehelp)
+    texts["tutorial"].load(g_project.file_text_tutorial)
+    texts["character_etc"].load(g_project.file_text_character_etc)
+    texts["character_school"].load(g_project.file_text_character_school)
+    texts["character"].load(g_project.file_text_character)
+    texts["etc"].load(g_project.file_text_etc)
+    texts["honorlist"].load(g_project.file_text_honorlist)
+    texts["lordskill"].load(g_project.file_text_lordskill)
+    texts["patroldestination"].load(g_project.file_text_patroldestination)
+    texts["propitemetc"].load(g_project.file_text_propitemetc)
+    texts["propmotion"].load(g_project.file_text_propmotion)
+    texts["propquest_dungeonandpk"].load(g_project.file_text_propquest_dungeonandpk)
+    texts["propquest_requestbox"].load(g_project.file_text_propquest_requestbox)
+    texts["propquest_requestbox2"].load(g_project.file_text_propquest_requestbox2)
+    texts["propquest_scenario"].load(g_project.file_text_propquest_scenario)
+    texts["propquest"].load(g_project.file_text_propquest)
+    texts["questdestination"].load(g_project.file_text_questdestination)
+    texts["resdata"].load(g_project.file_text_resdata)
+    texts["textclient"].load(g_project.file_text_textclient)
+    texts["textemotion"].load(g_project.file_text_textemotion)
+    texts["dubear"].load(g_project.file_text_dubear)
+    texts["dudadk"].load(g_project.file_text_dudadk)
+    texts["dudreadfulcave"].load(g_project.file_text_dudreadfulcave)
+    texts["duflmas"].load(g_project.file_text_duflmas)
+    texts["dukrr"].load(g_project.file_text_dukrr)
+    texts["dumuscle"].load(g_project.file_text_dumuscle)
+    texts["duominous"].load(g_project.file_text_duominous)
+    texts["duominous_1"].load(g_project.file_text_duominous_1)
+    texts["durustia"].load(g_project.file_text_durustia)
+    texts["durustia_1"].load(g_project.file_text_durustia_1)
+    texts["dusatempleboss"].load(g_project.file_text_dusatempleboss)
+    texts["wdarena"].load(g_project.file_text_wdarena)
+    texts["wdguildhouselarge"].load(g_project.file_text_wdguildhouselarge)
+    texts["wdguildhousemiddle"].load(g_project.file_text_wdguildhousemiddle)
+    texts["wdguildhousesmall"].load(g_project.file_text_wdguildhousesmall)
+    texts["wdguildwar"].load(g_project.file_text_wdguildwar)
+    texts["wdheaven01"].load(g_project.file_text_wdheaven01)
+    texts["wdheaven02"].load(g_project.file_text_wdheaven02)
+    texts["wdheaven03"].load(g_project.file_text_wdheaven03)
+    texts["wdheaven04"].load(g_project.file_text_wdheaven04)
+    texts["wdheaven05"].load(g_project.file_text_wdheaven05)
+    texts["wdheaven06"].load(g_project.file_text_wdheaven06)
+    texts["wdheaven06_1"].load(g_project.file_text_wdheaven06_1)
+    texts["wdkebaras"].load(g_project.file_text_wdkebaras)
+    texts["wdmadrigal"].load(g_project.file_text_wdmadrigal)
+    texts["wdminiroom"].load(g_project.file_text_wdminiroom)
+    texts["wdquiz"].load(g_project.file_text_wdquiz)
+    texts["wdvolcane"].load(g_project.file_text_wdvolcane)
+    texts["wdvolcanered"].load(g_project.file_text_wdvolcanered)
+    texts["wdvolcaneyellow"].load(g_project.file_text_wdvolcaneyellow)
+    texts["world"].load(g_project.file_text_world)
+
+
     texts["ctrl"].write_json('ctrl')
     texts["item"].write_json('item')
     texts["karma"].write_json('karma')
     texts["mover"].write_json('mover')
     texts["skill"].write_json('skill')
     texts["troupeskill"].write_json('troupeskill')
+
+    texts["dubear"].write_json("dubear")
+    texts["dudadk"].write_json("dudadk")
+    texts["dudreadfulcave"].write_json("dudreadfulcave")
+    texts["duflmas"].write_json("duflmas")
+    texts["dukrr"].write_json("dukrr")
+    texts["dumuscle"].write_json("dumuscle")
+    texts["duominous"].write_json("duominous")
+    texts["duominous_1"].write_json("duominous_1")
+    texts["durustia"].write_json("durustia")
+    texts["durustia_1"].write_json("durustia_1")
+    texts["dusatemple"].write_json("dusatemple")
+    texts["dusatempleboss"].write_json("dusatempleboss")
+    texts["wdarena"].write_json("wdarena")
+    texts["wdguildhouselarge"].write_json("wdguildhouselarge")
+    texts["wdguildhousemiddle"].write_json("wdguildhousemiddle")
+    texts["wdguildhousesmall"].write_json("wdguildhousesmall")
+    texts["wdguildwar"].write_json("wdguildwar")
+    texts["wdguildwar1to1"].write_json("wdguildwar1to1")
+    texts["wdheaven01"].write_json("wdheaven01")
+    texts["wdheaven02"].write_json("wdheaven02")
+    texts["wdheaven03"].write_json("wdheaven03")
+    texts["wdheaven04"].write_json("wdheaven04")
+    texts["wdheaven05"].write_json("wdheaven05")
+    texts["wdheaven06"].write_json("wdheaven06")
+    texts["wdheaven06_1"].write_json("wdheaven06_1")
+    texts["wdkebaras"].write_json("wdkebaras")
+    texts["wdmadrigal"].write_json("wdmadrigal")
+    texts["wdminiroom"].write_json("wdminiroom")
+    texts["wdquiz"].write_json("wdquiz")
+    texts["wdvolcane"].write_json("wdvolcane")
+    texts["wdvolcanered"].write_json("wdvolcanered")
+    texts["wdvolcaneyellow"].write_json("wdvolcaneyellow")
+    texts["faq"].write_json("faq")
+    texts["gameguard"].write_json("gameguard")
+    texts["guide"].write_json("guide")
+    texts["help"].write_json("help")
+    texts["instanthelp"].write_json("instanthelp")
+    texts["minigame_alphabet"].write_json("minigame_alphabet")
+    texts["patchclient"].write_json("patchclient")
+    texts["tip"].write_json("tip")
+    texts["treehelp"].write_json("treehelp")
+    texts["tutorial"].write_json("tutorial")
+    texts["character_etc"].write_json("character_etc")
+    texts["character_school"].write_json("character_school")
+    texts["character"].write_json("character")
+    texts["etc"].write_json("etc")
+    texts["honorlist"].write_json("honorlist")
+    texts["lordskill"].write_json("lordskill")
+    texts["patroldestination"].write_json("patroldestination")
+    texts["propitemetc"].write_json("propitemetc")
+    texts["propmotion"].write_json("propmotion")
+    texts["propquest_dungeonandpk"].write_json("propquest_dungeonandpk")
+    texts["propquest_requestbox"].write_json("propquest_requestbox")
+    texts["propquest_requestbox2"].write_json("propquest_requestbox2")
+    texts["propquest_scenario"].write_json("propquest_scenario")
+    texts["propquest"].write_json("propquest")
+    texts["questdestination"].write_json("questdestination")
+    texts["resdata"].write_json("resdata")
+    texts["textclient"].write_json("textclient")
+    texts["textemotion"].write_json("textemotion")
+    texts["dubear"].write_json("dubear")
+    texts["dudadk"].write_json("dudadk")
+    texts["dudreadfulcave"].write_json("dudreadfulcave")
+    texts["duflmas"].write_json("duflmas")
+    texts["dukrr"].write_json("dukrr")
+    texts["dumuscle"].write_json("dumuscle")
+    texts["duominous"].write_json("duominous")
+    texts["duominous_1"].write_json("duominous_1")
+    texts["durustia"].write_json("durustia")
+    texts["durustia_1"].write_json("durustia_1")
+    texts["dusatempleboss"].write_json("dusatempleboss")
+    texts["wdarena"].write_json("wdarena")
+    texts["wdguildhouselarge"].write_json("wdguildhouselarge")
+    texts["wdguildhousemiddle"].write_json("wdguildhousemiddle")
+    texts["wdguildhousesmall"].write_json("wdguildhousesmall")
+    texts["wdguildwar"].write_json("wdguildwar")
+    texts["wdheaven01"].write_json("wdheaven01")
+    texts["wdheaven02"].write_json("wdheaven02")
+    texts["wdheaven03"].write_json("wdheaven03")
+    texts["wdheaven04"].write_json("wdheaven04")
+    texts["wdheaven05"].write_json("wdheaven05")
+    texts["wdheaven06"].write_json("wdheaven06")
+    texts["wdheaven06_1"].write_json("wdheaven06_1")
+    texts["wdkebaras"].write_json("wdkebaras")
+    texts["wdmadrigal"].write_json("wdmadrigal")
+    texts["wdminiroom"].write_json("wdminiroom")
+    texts["wdquiz"].write_json("wdquiz")
+    texts["wdvolcane"].write_json("wdvolcane")
+    texts["wdvolcanered"].write_json("wdvolcanered")
+    texts["wdvolcaneyellow"].write_json("wdvolcaneyellow")
+    texts["world"].write_json("world")
 
 
 def module_mdldyna():
