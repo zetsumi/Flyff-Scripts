@@ -129,13 +129,10 @@ class RandomEventMonster(object):
                 vPos["z"] = position.z
                 data["random_event_monster"][str(key)]["positions"].append(vPos)
 
-
         with open(g_project.path_json_prop + 'randomEventMonster.json', 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()
-
-
 
     def write_new_config(self, mode):
         if mode == "json":
