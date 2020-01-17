@@ -29,103 +29,103 @@
 - [ ] WorldDialog.txt
 
 # Fichier .txt.txt :
-- [ ] DuBear.txt.txt
-- [ ] DuDaDk.txt.txt
-- [ ] DudreadfulCave.txt.txt
-- [ ] DuFlMas.txt.txt
-- [ ] DuKrr.txt.txt
-- [ ] DuMuscle.txt.txt
-- [ ] DuOminous.txt.txt
-- [ ] DuOminous_1.txt.txt
-- [ ] DuRustia.txt.txt
-- [ ] DuRustia_1.txt.txt
-- [ ] DuSaTemple.txt.txt
-- [ ] DuSaTempleBoss.txt.txt
-- [ ] WdArena.txt.txt
-- [ ] Wdguildhouselarge.txt.txt
-- [ ] Wdguildhousemiddle.txt.txt
-- [ ] WdGuildhousesmall.txt.txt
-- [ ] WdGuildWar.txt.txt
-- [ ] WdGuildWar1To1.txt.txt
-- [ ] WdHeaven01.txt.txt
-- [ ] WdHeaven02.txt.txt
-- [ ] WdHeaven03.txt.txt
-- [ ] WdHeaven04.txt.txt
-- [ ] WdHeaven05.txt.txt
-- [ ] WdHeaven06.txt.txt
-- [ ] WdHeaven06_1.txt.txt
-- [ ] WdKebaras.txt.txt
-- [ ] wdMadrigal.txt.txt
-- [ ] WdMiniroom.txt.txt
-- [ ] WdQuiz.txt.txt
-- [ ] WdVolcane.txt.txt
-- [ ] WdVolcaneRed.txt.txt
-- [ ] WdVolcaneYellow.txt.txt
-- [ ] faq.txt.txt
-- [ ] GameGuard.txt.txt
-- [ ] Guide.txt.txt
-- [ ] help.txt.txt
-- [ ] InstantHelp.txt.txt
-- [ ] MiniGame_Alphabet.txt.txt
-- [ ] PatchClient.txt.txt
-- [ ] tip.txt.txt
-- [ ] treeHelp.txt.txt
-- [ ] tutorial.txt.txt
-- [ ] character-etc.txt.txt
-- [ ] character-school.txt.txt
-- [ ] character.txt.txt
-- [ ] etc.txt.txt
-- [ ] honorList.txt.txt
-- [ ] lordskill.txt.txt
-- [ ] PatrolDestination.txt.txt
+- [x] DuBear.txt.txt
+- [x] DuDaDk.txt.txt
+- [x] DudreadfulCave.txt.txt
+- [x] DuFlMas.txt.txt
+- [x] DuKrr.txt.txt
+- [x] DuMuscle.txt.txt
+- [x] DuOminous.txt.txt
+- [x] DuOminous_1.txt.txt
+- [x] DuRustia.txt.txt
+- [x] DuRustia_1.txt.txt
+- [x] DuSaTemple.txt.txt
+- [x] DuSaTempleBoss.txt.txt
+- [x] WdArena.txt.txt
+- [x] Wdguildhouselarge.txt.txt
+- [x] Wdguildhousemiddle.txt.txt
+- [x] WdGuildhousesmall.txt.txt
+- [x] WdGuildWar.txt.txt
+- [x] WdGuildWar1To1.txt.txt
+- [x] WdHeaven01.txt.txt
+- [x] WdHeaven02.txt.txt
+- [x] WdHeaven03.txt.txt
+- [x] WdHeaven04.txt.txt
+- [x] WdHeaven05.txt.txt
+- [x] WdHeaven06.txt.txt
+- [x] WdHeaven06_1.txt.txt
+- [x] WdKebaras.txt.txt
+- [x] wdMadrigal.txt.txt
+- [x] WdMiniroom.txt.txt
+- [x] WdQuiz.txt.txt
+- [x] WdVolcane.txt.txt
+- [x] WdVolcaneRed.txt.txt
+- [x] WdVolcaneYellow.txt.txt
+- [x] faq.txt.txt
+- [x] GameGuard.txt.txt
+- [x] Guide.txt.txt
+- [x] help.txt.txt
+- [x] InstantHelp.txt.txt
+- [x] MiniGame_Alphabet.txt.txt
+- [x] PatchClient.txt.txt
+- [x] tip.txt.txt
+- [x] treeHelp.txt.txt
+- [x] tutorial.txt.txt
+- [x] character-etc.txt.txt
+- [x] character-school.txt.txt
+- [x] character.txt.txt
+- [x] etc.txt.txt
+- [x] honorList.txt.txt
+- [x] lordskill.txt.txt
+- [x] PatrolDestination.txt.txt
 - [x] propCtrl.txt.txt
 - [x] propItem.txt.txt
-- [ ] propItemEtc.txt.txt
+- [x] propItemEtc.txt.txt
 - [x] propKarma.txt.txt
-- [ ] propMotion.txt.txt
+- [x] propMotion.txt.txt
 - [x] propMover.txt.txt
-- [ ] propQuest-DungeonandPK.txt.txt
-- [ ] propQuest-RequestBox.txt.txt
-- [ ] propQuest-RequestBox2.txt.txt
-- [ ] propQuest-Scenario.txt.txt
-- [ ] propQuest.txt.txt
+- [x] propQuest-DungeonandPK.txt.txt
+- [x] propQuest-RequestBox.txt.txt
+- [x] propQuest-RequestBox2.txt.txt
+- [x] propQuest-Scenario.txt.txt
+- [x] propQuest.txt.txt
 - [x] propSkill.txt.txt
 - [x] propTroupeSkill.txt.txt
-- [ ] QuestDestination.txt.txt
-- [ ] resData.txt.txt
-- [ ] textClient.txt.txt
-- [ ] textEmotion.txt.txt
-- [ ] DuBear.txt.txt
-- [ ] DuDaDk.txt.txt
-- [ ] DudreadfulCave.txt.txt
-- [ ] DuFlMas.txt.txt
-- [ ] DuKrr.txt.txt
-- [ ] DuMuscle.txt.txt
-- [ ] DuOminous.txt.txt
-- [ ] DuOminous_1.txt.txt
-- [ ] DuRustia.txt.txt
-- [ ] DuRustia_1.txt.txt
-- [ ] DuSaTempleBoss.txt.txt
-- [ ] WdArena.txt.txt
-- [ ] Wdguildhouselarge.txt.txt
-- [ ] Wdguildhousemiddle.txt.txt
-- [ ] WdGuildhousesmall.txt.txt
-- [ ] WdGuildWar.txt.txt
-- [ ] WdHeaven01.txt.txt
-- [ ] WdHeaven02.txt.txt
-- [ ] WdHeaven03.txt.txt
-- [ ] WdHeaven04.txt.txt
-- [ ] WdHeaven05.txt.txt
-- [ ] WdHeaven06.txt.txt
-- [ ] WdHeaven06_1.txt.txt
-- [ ] WdKebaras.txt.txt
-- [ ] wdMadrigal.txt.txt
-- [ ] WdMiniroom.txt.txt
-- [ ] WdQuiz.txt.txt
-- [ ] WdVolcane.txt.txt
-- [ ] WdVolcaneRed.txt.txt
-- [ ] WdVolcaneYellow.txt.txt
-- [ ] world.txt.txt
+- [x] QuestDestination.txt.txt
+- [x] resData.txt.txt
+- [x] textClient.txt.txt
+- [x] textEmotion.txt.txt
+- [x] DuBear.txt.txt
+- [x] DuDaDk.txt.txt
+- [x] DudreadfulCave.txt.txt
+- [x] DuFlMas.txt.txt
+- [x] DuKrr.txt.txt
+- [x] DuMuscle.txt.txt
+- [x] DuOminous.txt.txt
+- [x] DuOminous_1.txt.txt
+- [x] DuRustia.txt.txt
+- [x] DuRustia_1.txt.txt
+- [x] DuSaTempleBoss.txt.txt
+- [x] WdArena.txt.txt
+- [x] Wdguildhouselarge.txt.txt
+- [x] Wdguildhousemiddle.txt.txt
+- [x] WdGuildhousesmall.txt.txt
+- [x] WdGuildWar.txt.txt
+- [x] WdHeaven01.txt.txt
+- [x] WdHeaven02.txt.txt
+- [x] WdHeaven03.txt.txt
+- [x] WdHeaven04.txt.txt
+- [x] WdHeaven05.txt.txt
+- [x] WdHeaven06.txt.txt
+- [x] WdHeaven06_1.txt.txt
+- [x] WdKebaras.txt.txt
+- [x] wdMadrigal.txt.txt
+- [x] WdMiniroom.txt.txt
+- [x] WdQuiz.txt.txt
+- [x] WdVolcane.txt.txt
+- [x] WdVolcaneRed.txt.txt
+- [x] WdVolcaneYellow.txt.txt
+- [x] world.txt.txt
 
 # Fichier .h:
 - [ ] ContinentDef.h
