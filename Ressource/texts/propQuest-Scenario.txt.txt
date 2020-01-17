@@ -1,0 +1,799 @@
+﻿IDS_PROPQUEST_SCENARIO_INC_000000	Clown Miracle
+IDS_PROPQUEST_SCENARIO_INC_000001	Clown Miracle
+IDS_PROPQUEST_SCENARIO_INC_000002	Hey! What do you think you are looking at?
+IDS_PROPQUEST_SCENARIO_INC_000003	You look like a vagrant to me. Go away. I do not have time for you.
+IDS_PROPQUEST_SCENARIO_INC_000004	Thank you Little Vagrant. I will never forget your help.
+IDS_PROPQUEST_SCENARIO_INC_000005	I will only reward you if you do your best.
+IDS_PROPQUEST_SCENARIO_INC_000006	The adventures you have now will shape histroy. You should be aware of the consequences of your actions.
+IDS_PROPQUEST_SCENARIO_INC_000007	Maybe you cannot understand now but give it more time and I am sure you will.
+IDS_PROPQUEST_SCENARIO_INC_000008	Well done. But we need more evidence if we are to prove the existance of the three clowns.
+IDS_PROPQUEST_SCENARIO_INC_000009	Time is limited. Do not cling to weak evidence.
+IDS_PROPQUEST_SCENARIO_INC_000010	A historian named Herney and the Dwarpet Geron fought over the existence of the three clowns. Geron insisted that they were responsible for the creation of our world and Herney refused to accept that. I am looking for evidence of the Clown Miracle to prove to Herney that they exist.
+IDS_PROPQUEST_SCENARIO_INC_000011	Geron, a Dwarpet, asked me to bring three evidences of clown miracles: about clockworks, the sun, and dungeons.
+IDS_PROPQUEST_SCENARIO_INC_000012	Finding evidence.
+IDS_PROPQUEST_SCENARIO_INC_000013	We lack the eveidence to prove the existence of the Three Clowns and yet no one can deny the presence of unknown power in Madrigal.
+IDS_PROPQUEST_SCENARIO_INC_000014	I delivered all the evidence to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000015	Collecting Evidence.
+IDS_PROPQUEST_SCENARIO_INC_000016	Find Astro Paper
+IDS_PROPQUEST_SCENARIO_INC_000017	Welcome to the oldest astronomical observatory in Madrigal.
+IDS_PROPQUEST_SCENARIO_INC_000018	Flaris is the most beautiful of the continents of Madrigal.
+IDS_PROPQUEST_SCENARIO_INC_000019	Thank you for your all of your help. Do not hesitate to ask if you need me for something.
+IDS_PROPQUEST_SCENARIO_INC_000020	Deliver the Astro Paper to Herney.
+IDS_PROPQUEST_SCENARIO_INC_000021	Valin will be more than happy to help you.
+IDS_PROPQUEST_SCENARIO_INC_000022	Thank you for your help. I have the materials for the sun observatory.
+IDS_PROPQUEST_SCENARIO_INC_000023	As soon as I gave them to Noier, Noier said to go to Valin. I think I saw him in the west astronomical observatory.
+IDS_PROPQUEST_SCENARIO_INC_000024	You should go to Valin
+IDS_PROPQUEST_SCENARIO_INC_000025	You are on the way to Valin.
+IDS_PROPQUEST_SCENARIO_INC_000026	Valin said that if you hunt 2nd Class Fefern and bring him 50 White Tarin Root, he would give us the Sun Paper.
+IDS_PROPQUEST_SCENARIO_INC_000027	Hunt 2nd Class Fefern and bring 50 White Tarin Root.
+IDS_PROPQUEST_SCENARIO_INC_000028	Collecting White Tarin Root
+IDS_PROPQUEST_SCENARIO_INC_000029	You should get the Sun Paper after giving the materials to Noier
+IDS_PROPQUEST_SCENARIO_INC_000030	You should go back to Noier.
+IDS_PROPQUEST_SCENARIO_INC_000031	You are on the way to Noier.
+IDS_PROPQUEST_SCENARIO_INC_000032	You obtained the Sun Paper and should submit it to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000033	You should go to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000034	You are on your way to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000035	Get the Big Snake Skull.
+IDS_PROPQUEST_SCENARIO_INC_000036	Welcome to the Mars Dungeon!
+IDS_PROPQUEST_SCENARIO_INC_000037	This is a dangerous place. You should really turn back.
+IDS_PROPQUEST_SCENARIO_INC_000038	Do you want to go into dungeon now? If you need my help, let me know.
+IDS_PROPQUEST_SCENARIO_INC_000039	Is there an anything that you want me to do?
+IDS_PROPQUEST_SCENARIO_INC_000040	Please bring me 50 Shining Star Stones.
+IDS_PROPQUEST_SCENARIO_INC_000041	Oh, you have finally collected them all. Thank you so much.
+IDS_PROPQUEST_SCENARIO_INC_000042	Why are you still here? You had better get out of here.
+IDS_PROPQUEST_SCENARIO_INC_000043	Thanks to you, you have made my life much easier.
+IDS_PROPQUEST_SCENARIO_INC_000044	Is it possible that the Nyangyang are still alive?
+IDS_PROPQUEST_SCENARIO_INC_000045	Wow, you removed all of the Nyangyang. Nice work.
+IDS_PROPQUEST_SCENARIO_INC_000046	I live on my own. I do not need anyone.
+IDS_PROPQUEST_SCENARIO_INC_000047	Roji said that, if I brought him 50 Sining Star Stones, he would introduce you to Zaikun. He knows a great deal about the secrets of that dungeon.
+IDS_PROPQUEST_SCENARIO_INC_000048	You should collect 50 Shining Star Stones.
+IDS_PROPQUEST_SCENARIO_INC_000049	Collecting 50 Shining Star Stones.
+IDS_PROPQUEST_SCENARIO_INC_000050	I think I had better ask Zaikun about the dungeon.
+IDS_PROPQUEST_SCENARIO_INC_000051	You should go to Zaikun.
+IDS_PROPQUEST_SCENARIO_INC_000052	You are on the way to Zaikun.
+IDS_PROPQUEST_SCENARIO_INC_000053	Zaikun said that, if I brought him 50 Teeth of Dungeon Rats he would give me an article on the Mars Dungeon expedition.
+IDS_PROPQUEST_SCENARIO_INC_000054	Should bring the 50 Teeth of Dungeon Rats to Zaikun.
+IDS_PROPQUEST_SCENARIO_INC_000055	Collecting Teeth of Dungeon Rats.
+IDS_PROPQUEST_SCENARIO_INC_000056	You obtained the Big Snake Skull. Submit that and the rest of the evidence to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000057	You should give the Big Snake Skull to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000058	You are on the way to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000059	Get the Testimony!
+IDS_PROPQUEST_SCENARIO_INC_000060	Welcome to the historical place of Clockworks.
+IDS_PROPQUEST_SCENARIO_INC_000061	Have you come to here to study? Ahh, excellent.
+IDS_PROPQUEST_SCENARIO_INC_000062	You are the one who is going to give me Clockworks Good luck.
+IDS_PROPQUEST_SCENARIO_INC_000063	Herney will be waiting for you.
+IDS_PROPQUEST_SCENARIO_INC_000064	I hope you know how to get there.
+IDS_PROPQUEST_SCENARIO_INC_000065	I am not interested in a Vagrant like you.
+IDS_PROPQUEST_SCENARIO_INC_000066	The Big Blue Honey that you gave me was truly delicious.
+IDS_PROPQUEST_SCENARIO_INC_000067	Please say Hello to Geron for me would you?
+IDS_PROPQUEST_SCENARIO_INC_000068	You will not be the one to help me? I am not surprised.
+IDS_PROPQUEST_SCENARIO_INC_000069	Wow, it looks delicious. Thank you!
+IDS_PROPQUEST_SCENARIO_INC_000070	Nobody can stop me! Clockworks will die at my hand!
+IDS_PROPQUEST_SCENARIO_INC_000071	We should find the Dwarpet that stole the pieces of Clockworks.
+IDS_PROPQUEST_SCENARIO_INC_000072	Find the Dwarpet
+IDS_PROPQUEST_SCENARIO_INC_000073	Finding the Dwarpet
+IDS_PROPQUEST_SCENARIO_INC_000074	Geron said the Dwarpet will be in Northwest Benkura.
+IDS_PROPQUEST_SCENARIO_INC_000075	You should go to Benkura.
+IDS_PROPQUEST_SCENARIO_INC_000076	You are on the way to Benku.
+IDS_PROPQUEST_SCENARIO_INC_000077	Hunt Captain Wagsaacs and collect 50 Big Blue Honey to exchange for Clockworks with the Dwarpet Benku.
+IDS_PROPQUEST_SCENARIO_INC_000078	You should collect 50 Big Blue Honey.
+IDS_PROPQUEST_SCENARIO_INC_000079	Collecting 50 Big Blue Honey
+IDS_PROPQUEST_SCENARIO_INC_000080	You should give the pieces of Clockworks to Macus.
+IDS_PROPQUEST_SCENARIO_INC_000081	You should go to Macus.
+IDS_PROPQUEST_SCENARIO_INC_000082	You are on the way to Macus.
+IDS_PROPQUEST_SCENARIO_INC_000083	Submit the testimony and the rest of the evidence to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000084	You should give the testimony to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000085	You are on the way to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000086	War of Unification
+IDS_PROPQUEST_SCENARIO_INC_000087	War of Unification
+IDS_PROPQUEST_SCENARIO_INC_000088	I heard from Dunkan that war had once ravaged Flaris.
+IDS_PROPQUEST_SCENARIO_INC_000089	I will deliver the report that Dunkan assembled to Julia.
+IDS_PROPQUEST_SCENARIO_INC_000090	You are on the way to Julia.
+IDS_PROPQUEST_SCENARIO_INC_000091	Julia said she is looking for evidence of the war that almost destroyed Flaris.
+IDS_PROPQUEST_SCENARIO_INC_000092	Volunteer to to help Julia find evidence of the war.
+IDS_PROPQUEST_SCENARIO_INC_000093	Volunteer to find evidence of the war.
+IDS_PROPQUEST_SCENARIO_INC_000094	I should find evidence that Nerbal once invaded Flaris. People in town might have more information.
+IDS_PROPQUEST_SCENARIO_INC_000095	I should find Proviso. He might have more evidence.
+IDS_PROPQUEST_SCENARIO_INC_000096	Find Proviso
+IDS_PROPQUEST_SCENARIO_INC_000097	I received a sword from a Nerbal soldier. The blood on the blade is old, and belongs to a citizen of Flaris. There may be more information at the Lodelight.
+IDS_PROPQUEST_SCENARIO_INC_000098	You should bring the Nerbal sword to the Flaris Lodelight.
+IDS_PROPQUEST_SCENARIO_INC_000099	You are on the way to Lodelight.
+IDS_PROPQUEST_SCENARIO_INC_000100	The Pang told me everything I needed to hear. I will bring the sword to Julia.
+IDS_PROPQUEST_SCENARIO_INC_000101	I should bring the Nerbal sword to Julia.
+IDS_PROPQUEST_SCENARIO_INC_000102	On the way to Julia.
+IDS_PROPQUEST_SCENARIO_INC_000103	Flaris won the war and the three continents were united.
+IDS_PROPQUEST_SCENARIO_INC_000104	
+IDS_PROPQUEST_SCENARIO_INC_000105	Finished
+IDS_PROPQUEST_SCENARIO_INC_000106	Agony of Priest
+IDS_PROPQUEST_SCENARIO_INC_000107	Agony of Priest
+IDS_PROPQUEST_SCENARIO_INC_000108	We all see the world differently, but no matter what the truth will not disappear, it will not be ruined. Hmmm.
+IDS_PROPQUEST_SCENARIO_INC_000109	Thank you for you help. Because of you I can talk to travelers and spread my beliefs.
+IDS_PROPQUEST_SCENARIO_INC_000110	Who are you? You are not a priest. Leave me!
+IDS_PROPQUEST_SCENARIO_INC_000111	Really! If so, you had better go to Flaris and ask Marche.
+IDS_PROPQUEST_SCENARIO_INC_000112	You have a real talent for religion!
+IDS_PROPQUEST_SCENARIO_INC_000113	Really! If so,  you had better go to town and ask Helena
+IDS_PROPQUEST_SCENARIO_INC_000114	May the Gods of Madrigal bless you.
+IDS_PROPQUEST_SCENARIO_INC_000115	Wow, is that a token of faith?! What did you do to deserve that?
+IDS_PROPQUEST_SCENARIO_INC_000116	I cannot believe it! The Holy Branch!
+IDS_PROPQUEST_SCENARIO_INC_000117	I have been blessed through the assistance of the people of Flaris.
+IDS_PROPQUEST_SCENARIO_INC_000118	I am not thrilled to have to go that way but if I have no choice I guess I will go. Anything as long as I can become a priest again.
+IDS_PROPQUEST_SCENARIO_INC_000119	I should go back to work, I did not know what a real Rinen is.
+IDS_PROPQUEST_SCENARIO_INC_000120	I have been blessed through the assistance of the people of Flaris.
+IDS_PROPQUEST_SCENARIO_INC_000121	You decide to help Neidn the dismissed Priest. First, you should ask Marche for information.
+IDS_PROPQUEST_SCENARIO_INC_000122	You should go to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000123	You are on the way to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000124	You decide to help Neidn, the dismissed Priest. First, you should ask Helena for information.
+IDS_PROPQUEST_SCENARIO_INC_000125	You should go to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000126	You are on the way to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000127	I should ask Valin for help.
+IDS_PROPQUEST_SCENARIO_INC_000128	You should go to Valin for a quick answer.
+IDS_PROPQUEST_SCENARIO_INC_000129	On the way to Valin.
+IDS_PROPQUEST_SCENARIO_INC_000130	I should ask Bulrox for help.
+IDS_PROPQUEST_SCENARIO_INC_000131	You should go to Bulrox for a quick answer.
+IDS_PROPQUEST_SCENARIO_INC_000132	On the way to Bulrox.
+IDS_PROPQUEST_SCENARIO_INC_000133	I should ask Dunkan for help.
+IDS_PROPQUEST_SCENARIO_INC_000134	You should submit the evidence to Dunkan.
+IDS_PROPQUEST_SCENARIO_INC_000135	You are on the way to Dunkan.
+IDS_PROPQUEST_SCENARIO_INC_000136	I should ask Martin for help.
+IDS_PROPQUEST_SCENARIO_INC_000137	You should show the evidence to Martin.
+IDS_PROPQUEST_SCENARIO_INC_000138	On the way to Martin.
+IDS_PROPQUEST_SCENARIO_INC_000139	I should as Dior for help.
+IDS_PROPQUEST_SCENARIO_INC_000140	You should go to Dior.
+IDS_PROPQUEST_SCENARIO_INC_000141	You are on the way to Dior.
+IDS_PROPQUEST_SCENARIO_INC_000142	I should ask Tina for help.
+IDS_PROPQUEST_SCENARIO_INC_000143	You should go to Tina.
+IDS_PROPQUEST_SCENARIO_INC_000144	You are on the way to Tina.
+IDS_PROPQUEST_SCENARIO_INC_000145	You should go back to Neidn. I have finished preparing his pardon.
+IDS_PROPQUEST_SCENARIO_INC_000146	You should go back to Neidn.
+IDS_PROPQUEST_SCENARIO_INC_000147	You are on your way to Neidn.
+IDS_PROPQUEST_SCENARIO_INC_000148	You should go to the worried client.
+IDS_PROPQUEST_SCENARIO_INC_000149	You should go to the people who are bringing things to pardon Neidn.
+IDS_PROPQUEST_SCENARIO_INC_000150	You are on the way to the followers of Neidn.
+IDS_PROPQUEST_SCENARIO_INC_000151	He will go on to become a great Priest.
+IDS_PROPQUEST_SCENARIO_INC_000152	
+IDS_PROPQUEST_SCENARIO_INC_000153	Finished
+IDS_PROPQUEST_SCENARIO_INC_000154	Pendant of Faith
+IDS_PROPQUEST_SCENARIO_INC_000155	Valin promised to exchange the Pendant of Faith for a Corrupted Flybat Claw.
+IDS_PROPQUEST_SCENARIO_INC_000156	You should collect a Corrupted Flybat Claw.
+IDS_PROPQUEST_SCENARIO_INC_000157	Collecting a Corrupted Flybat Claw.
+IDS_PROPQUEST_SCENARIO_INC_000158	You should deliver the Pendant of Faith to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000159	You should deliver the Pendant of Faith to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000160	On the way to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000161	Evidence of Rinen.
+IDS_PROPQUEST_SCENARIO_INC_000162	Dunkan is trying to prove that Rinen exists.
+IDS_PROPQUEST_SCENARIO_INC_000163	Give Dunkan fifty Sworn Mia Dolls.
+IDS_PROPQUEST_SCENARIO_INC_000164	Collecting Sworn Mia Dolls.
+IDS_PROPQUEST_SCENARIO_INC_000165	You should give the Holy Branch to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000166	You should go to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000167	You are on your way to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000168	Killer Habits
+IDS_PROPQUEST_SCENARIO_INC_000169	Hunt Mr. Pumpkin to get a letter of recommendation.
+IDS_PROPQUEST_SCENARIO_INC_000170	Bring 50 Mr. Pumpkin Heads to Dior.
+IDS_PROPQUEST_SCENARIO_INC_000171	Collecting Mr. Pumpkin Heads.
+IDS_PROPQUEST_SCENARIO_INC_000172	Deliever the letter of recommendation to Dior.
+IDS_PROPQUEST_SCENARIO_INC_000173	You should go to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000174	You are on the way to Marche.
+IDS_PROPQUEST_SCENARIO_INC_000175	Irrationality of the Priest
+IDS_PROPQUEST_SCENARIO_INC_000176	Bulrox asked me to save Neidn instead of him.
+IDS_PROPQUEST_SCENARIO_INC_000177	Collect 50 Flaris Pumpkin Heads.
+IDS_PROPQUEST_SCENARIO_INC_000178	Collecting Flaris Pumpkin Heads.
+IDS_PROPQUEST_SCENARIO_INC_000179	You should bring the Silver Candle Stick to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000180	You should bring the Silver Candle Stick to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000181	On the way to Helena
+IDS_PROPQUEST_SCENARIO_INC_000182	False Faith
+IDS_PROPQUEST_SCENARIO_INC_000183	You should bring 50 Sworn Mia Dolls to Martin.
+IDS_PROPQUEST_SCENARIO_INC_000184	You should bring 50 Sworn Mia Dolls to Martin.
+IDS_PROPQUEST_SCENARIO_INC_000185	Collecting Sworn Mia Dolls.
+IDS_PROPQUEST_SCENARIO_INC_000186	You should bring the Holy Branch to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000187	You should bring the Holy Branch to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000188	On the way to Helena
+IDS_PROPQUEST_SCENARIO_INC_000189	Evidence of Faith
+IDS_PROPQUEST_SCENARIO_INC_000190	You should bring 50 Red Cardrin to Tina.
+IDS_PROPQUEST_SCENARIO_INC_000191	You should bring 50 Red Cardrin to Tina.
+IDS_PROPQUEST_SCENARIO_INC_000192	Collecting Red Cardrin
+IDS_PROPQUEST_SCENARIO_INC_000193	You should bring the Letter of Pardon to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000194	You should bring the Letter of Pardon to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000195	On the way to Helena
+IDS_PROPQUEST_SCENARIO_INC_000196	War of the Clowns
+IDS_PROPQUEST_SCENARIO_INC_000197	War of the Clowns
+IDS_PROPQUEST_SCENARIO_INC_000198	You have done many great things since we last met. You are worthy of being a member of the Royal Troupe.
+IDS_PROPQUEST_SCENARIO_INC_000199	Word has reached me of your exploits. The Queen has commanded me to allow you to become a member of the Royal Troupe.
+IDS_PROPQUEST_SCENARIO_INC_000200	I do not like people disturbing me.
+IDS_PROPQUEST_SCENARIO_INC_000201	My guess that the followers of Maal were criminals was right. Bring the Crest of Maal to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000202	Welcome. I have been waiting for you. There is no time to wait for an official command. First, go to Stima. She will help you.
+IDS_PROPQUEST_SCENARIO_INC_000203	Many soldiers saw Clowns in the Maal camp. Keep this information to yourself.
+IDS_PROPQUEST_SCENARIO_INC_000204	I hope to see you again. Remember always, that you are a member of the Royal Troupe.
+IDS_PROPQUEST_SCENARIO_INC_000205	Get out of here!
+IDS_PROPQUEST_SCENARIO_INC_000206	I met Molang, a supervisor of the Royal Troupe. Molang commanded me to go to Stima.
+IDS_PROPQUEST_SCENARIO_INC_000207	You should go to Stima.
+IDS_PROPQUEST_SCENARIO_INC_000208	You are on the way to Stima.
+IDS_PROPQUEST_SCENARIO_INC_000209	The Crest of Maal was dropped by a suspicious man that Stima chased away. Stima asked me to bring it to her. This will convince the Royal Troupe that the followers of Maal are criminals.
+IDS_PROPQUEST_SCENARIO_INC_000210	You should bring Crest of Maal to Molang
+IDS_PROPQUEST_SCENARIO_INC_000211	You are on the way to Molang.
+IDS_PROPQUEST_SCENARIO_INC_000212	Molang was happy to have evidence that Maal was a criminal.
+IDS_PROPQUEST_SCENARIO_INC_000213	You should deliver Crest of Maal to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000214	You are on the way to Helena.
+IDS_PROPQUEST_SCENARIO_INC_000215	The Crest of Maal will be kept in with the Royal Family. Helena asked me to go to Molang.
+IDS_PROPQUEST_SCENARIO_INC_000216	You should ask Molang what to do.
+IDS_PROPQUEST_SCENARIO_INC_000217	You are on the way to Molang.
+IDS_PROPQUEST_SCENARIO_INC_000218	I was commanded to go to Stima by Molang.
+IDS_PROPQUEST_SCENARIO_INC_000219	I should get a mission from Stima.
+IDS_PROPQUEST_SCENARIO_INC_000220	On the way to Stima.
+IDS_PROPQUEST_SCENARIO_INC_000221	We will need 10 Ranglass to get through the fog. I should start hunting Trangforma.
+IDS_PROPQUEST_SCENARIO_INC_000222	You should deliver 10 Ranglass to Stima.
+IDS_PROPQUEST_SCENARIO_INC_000223	Collecting Ranglass to get through the fog.
+IDS_PROPQUEST_SCENARIO_INC_000224	The Ranglass was Delivered to Stima. She asked me to persuade a Dwarpet to help her cause.
+IDS_PROPQUEST_SCENARIO_INC_000225	You should ask where the Dwarpet Acto is.
+IDS_PROPQUEST_SCENARIO_INC_000226	On the way to Acto.
+IDS_PROPQUEST_SCENARIO_INC_000227	You should go to Redy.
+IDS_PROPQUEST_SCENARIO_INC_000228	You should ask Redy for help.
+IDS_PROPQUEST_SCENARIO_INC_000229	On the way to Redy.
+IDS_PROPQUEST_SCENARIO_INC_000230	Redy said she will help if I bring 50 Good Knightlers.
+IDS_PROPQUEST_SCENARIO_INC_000231	Captain Steel Knights will drop Good Knightlers.
+IDS_PROPQUEST_SCENARIO_INC_000232	Collecting Good Knightlers.
+IDS_PROPQUEST_SCENARIO_INC_000233	Redy promised to patrol. I should tell Stima.
+IDS_PROPQUEST_SCENARIO_INC_000234	You should let Stima know that Redy promised to patrol.
+IDS_PROPQUEST_SCENARIO_INC_000235	On the way to Stima.
+IDS_PROPQUEST_SCENARIO_INC_000236	Redy promised to help.
+IDS_PROPQUEST_SCENARIO_INC_000237	You should let Stima know that Redy promised to patrol.
+IDS_PROPQUEST_SCENARIO_INC_000238	You are on your way to Stima.
+IDS_PROPQUEST_SCENARIO_INC_000239	I will help Stima attack the Maal follower and the Captian Drillers.
+IDS_PROPQUEST_SCENARIO_INC_000240	Hunt the Captain Drillers to get 50 Clean Droils.
+IDS_PROPQUEST_SCENARIO_INC_000241	Collecting Clean Droil.
+IDS_PROPQUEST_SCENARIO_INC_000242	The Maal followers have been swept from Darkon. Tell Molang.
+IDS_PROPQUEST_SCENARIO_INC_000243	You should go back to Molang.
+IDS_PROPQUEST_SCENARIO_INC_000244	You are on the way to Molang.
+IDS_PROPQUEST_SCENARIO_INC_000245	Molang gave me a reward.
+IDS_PROPQUEST_SCENARIO_INC_000246	
+IDS_PROPQUEST_SCENARIO_INC_000247	Finished
+IDS_PROPQUEST_SCENARIO_INC_000248	Clockworks
+IDS_PROPQUEST_SCENARIO_INC_000249	Clockworks
+IDS_PROPQUEST_SCENARIO_INC_000250	Why am I studying in such a dangerous place? Passion, my friend, passion.
+IDS_PROPQUEST_SCENARIO_INC_000251	You should help the Dwarpet Adin and ask Kerhi why Clockworks moved from the West to East Darkon.
+IDS_PROPQUEST_SCENARIO_INC_000252	Deliver what Adin needs then ask Phacham where Kerhi is.
+IDS_PROPQUEST_SCENARIO_INC_000253	On the way to Kerhi.
+IDS_PROPQUEST_SCENARIO_INC_000254	I will help Phacham while he find Kerhi.
+IDS_PROPQUEST_SCENARIO_INC_000255	You should obtain three Core Guardieye by hunting Captain Elderguards.
+IDS_PROPQUEST_SCENARIO_INC_000256	Collecting Core Guardieye.
+IDS_PROPQUEST_SCENARIO_INC_000257	I heard from Phacharm that Kerhi is Northwest of the Volt habitat.
+IDS_PROPQUEST_SCENARIO_INC_000258	You should go to Kerhi.
+IDS_PROPQUEST_SCENARIO_INC_000259	You are on the way to Kerhi.
+IDS_PROPQUEST_SCENARIO_INC_000260	Kerhi is trapped by the Volts. Hunting down Captain Volts and collecting 10 Giga Ampere should save Kerhi.
+IDS_PROPQUEST_SCENARIO_INC_000261	Captain Volts will drop Giga Ampere.
+IDS_PROPQUEST_SCENARIO_INC_000262	Collecting Giga Ampere.
+IDS_PROPQUEST_SCENARIO_INC_000263	Haven will tell me about Clockworks. He is in the middle of Darken.
+IDS_PROPQUEST_SCENARIO_INC_000264	You should go to Haven.
+IDS_PROPQUEST_SCENARIO_INC_000265	You are on the way to Haven.
+IDS_PROPQUEST_SCENARIO_INC_000266	To learn about Clockworks I need the Flaris Citizen Recommendation.
+IDS_PROPQUEST_SCENARIO_INC_000267	I should get recommendation from Achaben, Bolpor, and Remine.
+IDS_PROPQUEST_SCENARIO_INC_000268	Collecting recommendations
+IDS_PROPQUEST_SCENARIO_INC_000269	After talking to Haven I wonder who made Clockworks. I will talk to Adin for more information.
+IDS_PROPQUEST_SCENARIO_INC_000270	You should go talk to Adin.
+IDS_PROPQUEST_SCENARIO_INC_000271	You are on the way to Adin.
+IDS_PROPQUEST_SCENARIO_INC_000272	Adin does not know why Clockworks is here. I should talk to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000273	You should go to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000274	You are on the way to Geron.
+IDS_PROPQUEST_SCENARIO_INC_000275	I will find out more about who controls Madrigal after I gain my 2nd Job.
+IDS_PROPQUEST_SCENARIO_INC_000276	
+IDS_PROPQUEST_SCENARIO_INC_000277	Finished
+IDS_PROPQUEST_SCENARIO_INC_000278	Persuade Remine.
+IDS_PROPQUEST_SCENARIO_INC_000279	Obtain 50 Hellish Sycales by hunting Grownup Syliaca. Trade them to Remine for a recommendation.
+IDS_PROPQUEST_SCENARIO_INC_000280	Grownup Syliaca will drop Hellish Sycales.
+IDS_PROPQUEST_SCENARIO_INC_000281	Collecting Hellish Sycales.
+IDS_PROPQUEST_SCENARIO_INC_000282	Received a recommendation from Remine. If that is all, go to Haven.
+IDS_PROPQUEST_SCENARIO_INC_000283	
+IDS_PROPQUEST_SCENARIO_INC_000284	Finished
+IDS_PROPQUEST_SCENARIO_INC_000285	Pursuade Achaben
+IDS_PROPQUEST_SCENARIO_INC_000286	Obtain 5 Clean Mongtear by hunting Captain Greemongs. Trade them in for a recommendation.
+IDS_PROPQUEST_SCENARIO_INC_000287	Captain Greemongs will drop Clean Mongtear.
+IDS_PROPQUEST_SCENARIO_INC_000288	Collecting Clean Mongtear.
+IDS_PROPQUEST_SCENARIO_INC_000289	Received a recommendation from Achaben. If that is all, go to Haven.
+IDS_PROPQUEST_SCENARIO_INC_000290	
+IDS_PROPQUEST_SCENARIO_INC_000291	Finished
+IDS_PROPQUEST_SCENARIO_INC_000292	Pursuade Bolpor
+IDS_PROPQUEST_SCENARIO_INC_000293	Obtain 5 Tough Bombtimers by hunting Captain Carrierbombs. Trade them in for a recommendation.
+IDS_PROPQUEST_SCENARIO_INC_000294	Captain Carrierbombs will drop Tough Bombtimers.
+IDS_PROPQUEST_SCENARIO_INC_000295	Collecting Tough Bombtimer
+IDS_PROPQUEST_SCENARIO_INC_000296	Received a recommendation from Bolpor. If that is all, go to Haven.
+IDS_PROPQUEST_SCENARIO_INC_000297	
+IDS_PROPQUEST_SCENARIO_INC_000298	Finished
+IDS_PROPQUEST_SCENARIO_INC_000299	Prologue
+IDS_PROPQUEST_SCENARIO_INC_000300	Act 1
+IDS_PROPQUEST_SCENARIO_INC_000301	Act 2
+IDS_PROPQUEST_SCENARIO_INC_000302	Act 3
+IDS_PROPQUEST_SCENARIO_INC_000303	Final Act
+IDS_PROPQUEST_SCENARIO_INC_000304	Questioning 
+IDS_PROPQUEST_SCENARIO_INC_000305	Hmm.. What should I do? Hey, can you help me?
+IDS_PROPQUEST_SCENARIO_INC_000306	I have been worried for so long, I know I must look a mess. It is good to have a friendly ear to turn to.
+IDS_PROPQUEST_SCENARIO_INC_000307	I am studying recent history, but it is really hard. So would you please help me? Please?
+IDS_PROPQUEST_SCENARIO_INC_000308	Really? Wow! Thanks a lot! Please go to the office and deliver my application for a scholarship. Thank you.
+IDS_PROPQUEST_SCENARIO_INC_000309	What? Awww I knew it was too good to be true.
+IDS_PROPQUEST_SCENARIO_INC_000310	Oh, it seems like Martinyc is too busy to deliver her own applications.
+IDS_PROPQUEST_SCENARIO_INC_000311	May I help you? You want to fill out an application? The form is on the right side of the office.
+IDS_PROPQUEST_SCENARIO_INC_000312	Go to the office and deliver a scholarship application to the Mayor.
+IDS_PROPQUEST_SCENARIO_INC_000313	
+IDS_PROPQUEST_SCENARIO_INC_000314	Cracked Continent
+IDS_PROPQUEST_SCENARIO_INC_000315	Thank you very much for your help! I received plenty of money to study history thanks to you. Listen, it looks like all of the data about Madrigal is distorted.
+IDS_PROPQUEST_SCENARIO_INC_000316	I have been studying Madrigal history apart from the History Society and it seems that they do not want to correct the distorted history in these books.
+IDS_PROPQUEST_SCENARIO_INC_000317	The other day I was almost killed by renegade Blades but I cannot stop now. No matter what the History Society wants.
+IDS_PROPQUEST_SCENARIO_INC_000318	I will found out the true history of Madrigal, I have to. Would you please help me? The danger for you could be great however.
+IDS_PROPQUEST_SCENARIO_INC_000319	Will you help me regardless of the danger?
+IDS_PROPQUEST_SCENARIO_INC_000320	I knew you would! First, bring me 5 rocks from each of the 3 inhabited continents. Each continent has an Altar, bring me the rocks from each of these.
+IDS_PROPQUEST_SCENARIO_INC_000321	Thanks for listening to me anyway. I understand if you are unwilling to risk your life.
+IDS_PROPQUEST_SCENARIO_INC_000322	Hmm.. This is exactly what I expected. I will study these some more but before you go please.. 
+IDS_PROPQUEST_SCENARIO_INC_000323	..you should be very, very careful. I am almost sure that the assassins that tried to kill me will come after you.
+IDS_PROPQUEST_SCENARIO_INC_000324	Please bring me 5 rocks from each continent - Flaris, Darkon, and Saint Morning. Good luck!
+IDS_PROPQUEST_SCENARIO_INC_000325	There are ancient altars on each continent. Please bring me 5 rocks from each contient.
+IDS_PROPQUEST_SCENARIO_INC_000326	
+IDS_PROPQUEST_SCENARIO_INC_000327	Plot Begins
+IDS_PROPQUEST_SCENARIO_INC_000328	This is evidence that the continents were once one land mass. I am trusting you with this information because, well..
+IDS_PROPQUEST_SCENARIO_INC_000329	..we are in the same boat now. We are in danger together. Would you go through with me to the end?
+IDS_PROPQUEST_SCENARIO_INC_000330	Okay. Now please deliver this to Gothante. He is the chairman of the History Society in Saint City. Do not forget to be aware of the assasins.
+IDS_PROPQUEST_SCENARIO_INC_000331	I do not want to force you, but never forget that you are in danger.
+IDS_PROPQUEST_SCENARIO_INC_000332	This.. This is.. Bubble protect us. Martinyc has finally crossed the line. It is about time.
+IDS_PROPQUEST_SCENARIO_INC_000333	Thank you very much. Take this letter of recommendation and visit Hachal in Darkon 1.
+IDS_PROPQUEST_SCENARIO_INC_000334	I am sure he can help you. Take care!
+IDS_PROPQUEST_SCENARIO_INC_000335	Do you want to know about the true history of Madrigal? Then I am the man to talk to.
+IDS_PROPQUEST_SCENARIO_INC_000336	Deliver this to Gothante, he is the Chairman of the History Society in Saint City.
+IDS_PROPQUEST_SCENARIO_INC_000337	
+IDS_PROPQUEST_SCENARIO_INC_000338	Chapter 1 The Field of Bubble
+IDS_PROPQUEST_SCENARIO_INC_000339	Hmm? Did Gothante tell you to visit me? Why?
+IDS_PROPQUEST_SCENARIO_INC_000340	Oh, I see. Iblis watch over me, what is this information!? Who could have dug up this much of the past? Only one person?
+IDS_PROPQUEST_SCENARIO_INC_000341	Martinyc of course. She has finally done what we all knew she would. She does not fear death like she should. The young are too fearless these days.
+IDS_PROPQUEST_SCENARIO_INC_000342	Aw well we all knew that the true history of Madrigal would be discovered eventually. And we all knew that Martinyc would be the one to uncover it.
+IDS_PROPQUEST_SCENARIO_INC_000343	By the way... Are you going to continue with this?
+IDS_PROPQUEST_SCENARIO_INC_000344	Good. We will go to the Field of Bubble. There is more evidence to be found there. Hurry.
+IDS_PROPQUEST_SCENARIO_INC_000345	What? No, you cannot stop now. You have come so far.
+IDS_PROPQUEST_SCENARIO_INC_000346	Ahhh you are here finally. Give me the data and letter of recommendation.
+IDS_PROPQUEST_SCENARIO_INC_000347	This place is very strange.. Hmm.. Field of Bubble.. What do you think about it?
+IDS_PROPQUEST_SCENARIO_INC_000348	You know the Field of Bubble, right? I think we can find some evidence there. Lets go! Hurry up!
+IDS_PROPQUEST_SCENARIO_INC_000349	
+IDS_PROPQUEST_SCENARIO_INC_000350	Chapter 1: Field of Bubble: The Strange Pattern
+IDS_PROPQUEST_SCENARIO_INC_000351	Before you showed up I took a look around and found something strange to the North. The ground was dug up and..
+IDS_PROPQUEST_SCENARIO_INC_000352	..it looked like some kind of pattern. I could get a close look at it because it was surrounded .
+IDS_PROPQUEST_SCENARIO_INC_000353	Strange fellows were hanging around there. I think they were defending something. There was no way I could have fought them off.
+IDS_PROPQUEST_SCENARIO_INC_000354	Would you check? I am sure they are no match for you.
+IDS_PROPQUEST_SCENARIO_INC_000355	Great! I am sure that there is something to that pattern. Check it closely and bring me what you find.
+IDS_PROPQUEST_SCENARIO_INC_000356	Are you really ready to give up? I cannot force you but think about the future.
+IDS_PROPQUEST_SCENARIO_INC_000357	Oh! This! The legend is..!  Martinyc was right!.. Oh.. What should we do now.. Iblis watch over me!
+IDS_PROPQUEST_SCENARIO_INC_000358	Were those fellows too strong for you? Bring more people with you and continue checking. I am not strong enough to help you with them.
+IDS_PROPQUEST_SCENARIO_INC_000359	I am sure we can find out something by checking the pattern. Please check it carefully and bring me whatever you get.
+IDS_PROPQUEST_SCENARIO_INC_000360	
+IDS_PROPQUEST_SCENARIO_INC_000361	Chapter 1: Field of Bubble: The Violet Magician Troupe
+IDS_PROPQUEST_SCENARIO_INC_000362	Hmm.. I checked the cloth piece you brought me. It seems like the pattern on the cloth piece is the same as the one I saw on the ground.
+IDS_PROPQUEST_SCENARIO_INC_000363	However, there is a mystrious power in this cloth piece. I will check it out some more. By the way, have you ever heard of the Magic Troupe in Purple? I found out about them by chance.
+IDS_PROPQUEST_SCENARIO_INC_000364	I do not know the details, but I know that this group has something to do with the secrets of Madrigal.
+IDS_PROPQUEST_SCENARIO_INC_000365	I think we need more information about this Troupe. How about helping me once more? Would you do that for me?
+IDS_PROPQUEST_SCENARIO_INC_000366	Great! Please gather information about the Troupe and its members. You will have to fight them to get any information out of them.
+IDS_PROPQUEST_SCENARIO_INC_000367	You are afraid of them? I can hardly believe that. Ha ha ha.
+IDS_PROPQUEST_SCENARIO_INC_000368	Hmm.. That was exactly what I thought.. Now go back and take a rest. But please visit me again later. Thank you very much.
+IDS_PROPQUEST_SCENARIO_INC_000369	Was it too much for you? Ah...but we need information about them.
+IDS_PROPQUEST_SCENARIO_INC_000370	Fight them to get information from them. I will meet you in Darken.
+IDS_PROPQUEST_SCENARIO_INC_000371	
+IDS_PROPQUEST_SCENARIO_INC_000372	Chapter 2 Hill of Shade
+IDS_PROPQUEST_SCENARIO_INC_000373	Hey! Great timing! I have just found out about something very interesting.
+IDS_PROPQUEST_SCENARIO_INC_000374	Do you know what this is? Well, I am sure you do not but I will tell you.
+IDS_PROPQUEST_SCENARIO_INC_000375	This is an entire picture of the pattern we found. I found it in one of my books but it was the only picture I could find.
+IDS_PROPQUEST_SCENARIO_INC_000376	I need your help once again. Would you do ma a favor?
+IDS_PROPQUEST_SCENARIO_INC_000377	Take this picture. Please deliver it to Robanett in the National Library in Saint City. You can find him at Saint Hall.
+IDS_PROPQUEST_SCENARIO_INC_000378	Hey we are in this together. We are all in the same boat. You would do better to help me You know that.
+IDS_PROPQUEST_SCENARIO_INC_000379	Hmm.. Is this what Hachal said? Good job. Thank you very much. Let me check.
+IDS_PROPQUEST_SCENARIO_INC_000380	History is always more interesting than current events but this is especially mysterious.
+IDS_PROPQUEST_SCENARIO_INC_000381	Here. Take this picture. Please deliver it to Robanett who is working in the National Library in Saint City. You can find him in Saint Hall.
+IDS_PROPQUEST_SCENARIO_INC_000382	
+IDS_PROPQUEST_SCENARIO_INC_000383	Chapter 2 Hill of Shade: The Great Troupe Leader.
+IDS_PROPQUEST_SCENARIO_INC_000384	Oh your story about the pattern reminds me of something I read in one of the ancient texts.
+IDS_PROPQUEST_SCENARIO_INC_000385	Do you know the Hill of Shade? I found it in one of my books but have only dared to venture there once.
+IDS_PROPQUEST_SCENARIO_INC_000386	There is a pattern similar to the one that you saw in the Field of Bubble. Or maybe it was exactly the same. If those two patterns are the same..
+IDS_PROPQUEST_SCENARIO_INC_000387	..maybe you can also find a cloth piece over there. Would you please go and check?
+IDS_PROPQUEST_SCENARIO_INC_000388	Thank you. Please check around for the pattern in the Hill of Shade. Oh! Please be careful because there is something very fierce over there!
+IDS_PROPQUEST_SCENARIO_INC_000389	I understand but if you ever get the chance would you please check?
+IDS_PROPQUEST_SCENARIO_INC_000390	Iblis above, you look terrible. I appreciate your hard work. You did exceptional work. Let me compare the two cloth pieces.
+IDS_PROPQUEST_SCENARIO_INC_000391	Maybe the monster I mentioned earlier was too much for you to handle? You can try again if you wish or not up to you.
+IDS_PROPQUEST_SCENARIO_INC_000392	Please check around for the pattern in the Hill of Shade. Oh! Please be careful because there is something very fierce over there!
+IDS_PROPQUEST_SCENARIO_INC_000393	
+IDS_PROPQUEST_SCENARIO_INC_000394	Chapter 2 Hill of Shade: History of Hardship
+IDS_PROPQUEST_SCENARIO_INC_000395	I finished checking the data that Haka provided. Please deliver this to Hachal.
+IDS_PROPQUEST_SCENARIO_INC_000396	I hope you will continue to be as lucky as you have been.
+IDS_PROPQUEST_SCENARIO_INC_000397	If not you then who? No one can take this job!
+IDS_PROPQUEST_SCENARIO_INC_000398	Hmm.. History of Hardship. So did he give this to you? Excellent. If he says this will be useful then I am sure it will.
+IDS_PROPQUEST_SCENARIO_INC_000399	See you later. Take care.
+IDS_PROPQUEST_SCENARIO_INC_000400	Did Robanett say anything? That makes no sense. Please visit him again. He must have something to say to you.
+IDS_PROPQUEST_SCENARIO_INC_000401	I finished checking the data which Haka requested. Please deliver this to Hachal.
+IDS_PROPQUEST_SCENARIO_INC_000402	
+IDS_PROPQUEST_SCENARIO_INC_000403	Chapter 3 Purple Magician
+IDS_PROPQUEST_SCENARIO_INC_000404	Hey. It seems like the altar and Magic Troupe have something to do with..
+IDS_PROPQUEST_SCENARIO_INC_000405	..the Purple Magician in this book. History of Hardship. Only it says that the Black Magician and the Magician in Purple are the same person. The same person that fought alongside the heroes in the Hero Wars. That does not make sense.
+IDS_PROPQUEST_SCENARIO_INC_000406	It is something really unbelievable, but it is also something we should believe.
+IDS_PROPQUEST_SCENARIO_INC_000407	I think this is the best I can do for now but I will never stop looking for the truth.
+IDS_PROPQUEST_SCENARIO_INC_000408	You! I want you to show this to someone. Can you do that right now?
+IDS_PROPQUEST_SCENARIO_INC_000409	Yes! Please deliver this to Gothante in Saint City. He is he head of the History Society.
+IDS_PROPQUEST_SCENARIO_INC_000410	I understand that you have other things to do. But this is very important. Come back soon.
+IDS_PROPQUEST_SCENARIO_INC_000411	Hey! Long time no see! Did you meet Haka? What is this?
+IDS_PROPQUEST_SCENARIO_INC_000412	Oh.. Bubble protect us! Is this true? Oh.. Oh.. This is too big to deal with alone.
+IDS_PROPQUEST_SCENARIO_INC_000413	I am really glad to see you again, but did Haka tell you to meet me? For what?
+IDS_PROPQUEST_SCENARIO_INC_000414	Please deliver this to Gothante in Saint City.
+IDS_PROPQUEST_SCENARIO_INC_000415	
+IDS_PROPQUEST_SCENARIO_INC_000416	Chapter 3 Purple Magician: The Secret of the Altar
+IDS_PROPQUEST_SCENARIO_INC_000417	Hmm.. I have some good theories but we are going to need more information about the altar and the Magic Troupe.
+IDS_PROPQUEST_SCENARIO_INC_000418	I think there is something in the altar. I have a strong feeling that we could find something there if we look closely enough.
+IDS_PROPQUEST_SCENARIO_INC_000419	Listen. This is very important. Just stick with this until the end. Would you?
+IDS_PROPQUEST_SCENARIO_INC_000420	Please check the altar until you can find some evidence.
+IDS_PROPQUEST_SCENARIO_INC_000421	What could be more important than this? Oh fine, just go.
+IDS_PROPQUEST_SCENARIO_INC_000422	Hmm.. Everything is written in an ancient language. But we can translate it. Thanks.
+IDS_PROPQUEST_SCENARIO_INC_000423	Please come back to me after the translation is over. Let me bring this book to the translator.
+IDS_PROPQUEST_SCENARIO_INC_000424	You can check all of the 3 altars, bring any evidence you find at any of them.
+IDS_PROPQUEST_SCENARIO_INC_000425	Please check the altar until you find out something of importance.
+IDS_PROPQUEST_SCENARIO_INC_000426	
+IDS_PROPQUEST_SCENARIO_INC_000427	Chapter 3 Purple Magician: A Mysterious Bead.
+IDS_PROPQUEST_SCENARIO_INC_000428	I have finished translating the book. The Purple Magician and the Black Magician are the same person! Just as Hachal said!
+IDS_PROPQUEST_SCENARIO_INC_000429	It looks like the purple altar was made by the Maigician in Purple for some kind of religious service.
+IDS_PROPQUEST_SCENARIO_INC_000430	It seems that they were attempting to transcend to a better existence but how?
+IDS_PROPQUEST_SCENARIO_INC_000431	As always, I have a few good theories but I need more data. Always more data! I want answers now!
+IDS_PROPQUEST_SCENARIO_INC_000432	Would you help me again? I can see the curiosity in your eyes, same as mine. Am I right?
+IDS_PROPQUEST_SCENARIO_INC_000433	Very well! Then please check the Field of Bubble and the Hill of Shade more carefully. I am really sure there is something over there!
+IDS_PROPQUEST_SCENARIO_INC_000434	Fine, return to me when you get the time.
+IDS_PROPQUEST_SCENARIO_INC_000435	Oh.. What a strong magical power this bead has.. Oh.. What a surprise!
+IDS_PROPQUEST_SCENARIO_INC_000436	Good job..But something like this is completely out of my range. Let me think for a moment. Yes, I have it!
+IDS_PROPQUEST_SCENARIO_INC_000437	Please deliver this to the Great Magician Laola in Darkon 3.
+IDS_PROPQUEST_SCENARIO_INC_000438	I have a bad feeling about this. I have never been wrong about anything. I hope I am this time.
+IDS_PROPQUEST_SCENARIO_INC_000439	Please, once more, check the Field of Bubble and the Hill of Shade. I am sure that there is more to be found!
+IDS_PROPQUEST_SCENARIO_INC_000440	
+IDS_PROPQUEST_SCENARIO_INC_000441	Chapter 3 Purple Magician: The Great Magician Laola
+IDS_PROPQUEST_SCENARIO_INC_000442	Oh, you are here finally. I cannot say that your arrival is entirely a surprise. I am Laola the Great Magician *cough* *cough*.
+IDS_PROPQUEST_SCENARIO_INC_000443	I can see in your face that you do not believe me. I guess, looking at myself, I do not look like such a Great Magician.
+IDS_PROPQUEST_SCENARIO_INC_000444	Magic always has a high cost and I used some terrible magic back then.
+IDS_PROPQUEST_SCENARIO_INC_000445	But never mind that, show me the bead you brought, I can feel its power from here.
+IDS_PROPQUEST_SCENARIO_INC_000446	Yes, this is it. I have to check this first, so please come back to me in a minute. 
+IDS_PROPQUEST_SCENARIO_INC_000447	*cough* *cough* Hey, do not be too greedy. Something that powerful could corrupt you to your core. *cough* *cough*
+IDS_PROPQUEST_SCENARIO_INC_000448	Hmmm I did not know he could make something like this, but I cannot say that I am surprised.
+IDS_PROPQUEST_SCENARIO_INC_000449	It is no secret why I am called the Great Magician. Though, I have learned that being a great magician, does not make you a great person. *cough*
+IDS_PROPQUEST_SCENARIO_INC_000450	This is it. I have to check this first, so please come back to me in a minute.
+IDS_PROPQUEST_SCENARIO_INC_000451	
+IDS_PROPQUEST_SCENARIO_INC_000452	Chapter3 Purple Magician: Identity of the Purple Magician
+IDS_PROPQUEST_SCENARIO_INC_000453	*cough* *cough* This bead, with all of its power, was crafted by the only pupil I ever had, Lapranche. *cough*
+IDS_PROPQUEST_SCENARIO_INC_000454	He is the Black Magician. I was also the Black Magician at one point. We have often been confused for each other throughout history. *Sigh* It seems that Lapranche found out about them.
+IDS_PROPQUEST_SCENARIO_INC_000455	You believe in them now right? If you are looking to me for answers about what they were, you are wasting your time. All I know is that they created all of Madrigal and that they were once agents of Rhisis.
+IDS_PROPQUEST_SCENARIO_INC_000456	Yes Lapranche found out about them and attempted to bring them back to this world with the Purple Magic, the same magic that drained me of so much.
+IDS_PROPQUEST_SCENARIO_INC_000457	Do me a favor would you?
+IDS_PROPQUEST_SCENARIO_INC_000458	Please deliver this book to Gothante. This may not be enough to save the world but it should be useful. Thank you and good luck.
+IDS_PROPQUEST_SCENARIO_INC_000459	You are afraid. I am not surprised. The world hangs in the balance. Who would not be scared? Go on. Get out of here.
+IDS_PROPQUEST_SCENARIO_INC_000460	What a terrible.. Where did they come from? Did you see them? Renegade Blades seemingly hired to kill me. It would appear that I know too much. What is that you have there?
+IDS_PROPQUEST_SCENARIO_INC_000461	Oh, this! Is this the book that Laola wrote? Amazing 
+IDS_PROPQUEST_SCENARIO_INC_000462	Fine. Now we can begin the real reconstruction of the history of our world. Thank you. Oh, I may need you later on. See you then.
+IDS_PROPQUEST_SCENARIO_INC_000463	You could not find Loala? It is not like he is hiding or anything. Please try again.
+IDS_PROPQUEST_SCENARIO_INC_000464	Please deliver this book to Gothante. This may not be enough to save the world but it should be useful. Thank you and good luck.
+IDS_PROPQUEST_SCENARIO_INC_000465	
+IDS_PROPQUEST_SCENARIO_INC_000466	Chapter 4 Their Shadow
+IDS_PROPQUEST_SCENARIO_INC_000467	Oh, nice to see you again. I have found something based on the data you gave me. You know more than most about the Clowns at this point.
+IDS_PROPQUEST_SCENARIO_INC_000468	People have been talking about them for some time now. They are known as three devils that created our continents on accident and are bent on destroying them. During the Hero War, they were said to stand against the heroes of our land.
+IDS_PROPQUEST_SCENARIO_INC_000469	Loala was there, at the end of the Hero War, he was made the slave of one of the three Clown Goddesses. Shade, Goddess of Evil. Shade, marrying her Godly presence to the great power of Laola, attempted to destroy Bubble, the Goddess of Good, while Iblis, Gooddess of Neutrality, watched unmoved. Bubble rallied the heroes of Madrigal and stood against Shade with the strongest army our world has ever know at her back. 
+IDS_PROPQUEST_SCENARIO_INC_000470	Poor Laola, the things he must have gone through  And all this history has been distorted by the History Society. Curse them!
+IDS_PROPQUEST_SCENARIO_INC_000471	*sigh* Would you help me return this to Martinyc. She deserves to know what she helped uncover.
+IDS_PROPQUEST_SCENARIO_INC_000472	Here is all the data I have. Please deliver this to Martinyc.
+IDS_PROPQUEST_SCENARIO_INC_000473	I see, you have something important to do. Would you come back to me after finishing that?
+IDS_PROPQUEST_SCENARIO_INC_000474	Long time no see! Are you coming back to let me know that I was right?
+IDS_PROPQUEST_SCENARIO_INC_000475	Yeah! I knew it! By the way, what is that?
+IDS_PROPQUEST_SCENARIO_INC_000476	Oh, now I wish I had been wrong! Thank you for bringing this to me. We will see each other again. Goodbye.
+IDS_PROPQUEST_SCENARIO_INC_000477	Have you brought something from the History Society? No? Then are you coming back just to talk to me? I am too shy for that.
+IDS_PROPQUEST_SCENARIO_INC_000478	Here is all the data I have. Please deliver this to Martinyc.
+IDS_PROPQUEST_SCENARIO_INC_000479	
+IDS_PROPQUEST_SCENARIO_INC_000480	Journal of an Adventurer
+IDS_PROPQUEST_SCENARIO_INC_000481	
+IDS_PROPQUEST_SCENARIO_INC_000482	Journal of an Adventurer. (1)
+IDS_PROPQUEST_SCENARIO_INC_000483	Hello Adventurer.  Although you don't know me, I must ask a favor of you.  I have found something… incredible.  Bring it to the Mayor of Darkon right away. 
+IDS_PROPQUEST_SCENARIO_INC_000484	Thank you, I am in your debt.
+IDS_PROPQUEST_SCENARIO_INC_000485	You can not understand the implications of this quest… He needs this book!
+IDS_PROPQUEST_SCENARIO_INC_000486	You seem to have something important to say, what is it?
+IDS_PROPQUEST_SCENARIO_INC_000487	OH MY!  I can't believe this!  The diary of the adventurer Bartholomew Hunt…
+IDS_PROPQUEST_SCENARIO_INC_000488	Deliver the Diary to the Mayor of Darkon.
+IDS_PROPQUEST_SCENARIO_INC_000489	
+IDS_PROPQUEST_SCENARIO_INC_000490	Journal of an Adventurer. (2)
+IDS_PROPQUEST_SCENARIO_INC_000491	You should hear this.  This is the diary of the adventurer Bartholomew Hunt.  My grand father knew of him, he was a legend at one time…
+IDS_PROPQUEST_SCENARIO_INC_000492	HA! Look at this… he is claiming that he discovered a new continent. New continent? How absurd! 
+IDS_PROPQUEST_SCENARIO_INC_000493	I can't read the writing here, it appears to be a code of some sort.  Maybe the Sage Radion can figure out what this writing is.  Please bring him the diary.
+IDS_PROPQUEST_SCENARIO_INC_000494	Sage Radion is is in the Northern Leren Mountains, near the Fountain of Dead Person.
+IDS_PROPQUEST_SCENARIO_INC_000495	You are to busy?  If this information is accurate do you know what this could mean?
+IDS_PROPQUEST_SCENARIO_INC_000496	What brings you to see me?
+IDS_PROPQUEST_SCENARIO_INC_000497	If the Mayor of Darkon sent you, it must be important.  Let me see the Diary.
+IDS_PROPQUEST_SCENARIO_INC_000498	Find the Sage Radion to decode the writing in the Diary. 
+IDS_PROPQUEST_SCENARIO_INC_000499	
+IDS_PROPQUEST_SCENARIO_INC_000500	
+IDS_PROPQUEST_SCENARIO_INC_000501	Journal of an Adventurer. (3)
+IDS_PROPQUEST_SCENARIO_INC_000502	Why, this is not a code… Amazing!  The language of the Ancient Tribe.  This Bartholomew Hunt must have really known his stuff. Maybe there is more to this…
+IDS_PROPQUEST_SCENARIO_INC_000503	I have translated the Ancient language.  Bring this Translated Document to the Mayor of Darkon.  Keep it safe, this is truly a special thing!
+IDS_PROPQUEST_SCENARIO_INC_000504	You are playing an important role in historic events.
+IDS_PROPQUEST_SCENARIO_INC_000505	I can't believe it!  The possibility of a new land and you are not interested???
+IDS_PROPQUEST_SCENARIO_INC_000506	You can't imagine how eagerly I've been waiting for you to return. Have you met the Sage Radion?  Is there news?
+IDS_PROPQUEST_SCENARIO_INC_000507	He was able to translate it?  Wonderful.  Now we can see if this is real or just a wild goose chase… Give me a moment to read through this.
+IDS_PROPQUEST_SCENARIO_INC_000508	Bring the translated document to the Mayor of Darkon.
+IDS_PROPQUEST_SCENARIO_INC_000509	
+IDS_PROPQUEST_SCENARIO_INC_000510	
+IDS_PROPQUEST_SCENARIO_INC_000511	
+IDS_PROPQUEST_SCENARIO_INC_000512	
+IDS_PROPQUEST_SCENARIO_INC_000513	Discovering the new continent
+IDS_PROPQUEST_SCENARIO_INC_000514	
+IDS_PROPQUEST_SCENARIO_INC_000515	Discovering the new continent! (1)
+IDS_PROPQUEST_SCENARIO_INC_000516	Long time no see. I have finished reading the translated diary.  It seems that this might just be legitimate.  
+IDS_PROPQUEST_SCENARIO_INC_000517	The diary tells of how Bartholomew Hunt traveled to this new land.  We think we can retrace his steps.  All we need now is an adventurer brave enough to try… 
+IDS_PROPQUEST_SCENARIO_INC_000518	Great, I knew you would of help me. Go to Gouthan Mountains in Darkon 1 area.  The diary speaks of a man named Esop,  maybe he has descendants in the area still who can help you.
+IDS_PROPQUEST_SCENARIO_INC_000519	I can't believe you are not willing to help!
+IDS_PROPQUEST_SCENARIO_INC_000520	It is very uncommon to see people in this mountains.
+IDS_PROPQUEST_SCENARIO_INC_000521	Did you say Esop? Yes I heard that name before. He is my great grand father.
+IDS_PROPQUEST_SCENARIO_INC_000522	Find the descendant of Esop in the Gouthan Mountains.
+IDS_PROPQUEST_SCENARIO_INC_000523	
+IDS_PROPQUEST_SCENARIO_INC_000524	Discovering the new continent! (2)
+IDS_PROPQUEST_SCENARIO_INC_000525	New continent… I have heard legends of it when I was young.  The legend claims you fly far north past the Gouthan Mountains… Will you trust in my memory of the legend?
+IDS_PROPQUEST_SCENARIO_INC_000526	Hahaha.. Excellent choice. You will not regret for this. Go to northside of Gouthan Mountains.
+IDS_PROPQUEST_SCENARIO_INC_000527	Young people these day don't have much of faith in them… oh well. Goodbye.
+IDS_PROPQUEST_SCENARIO_INC_000528	I guess you are not from here, since it is my first time seeing you around here.
+IDS_PROPQUEST_SCENARIO_INC_000529	You are from Madrigal?  You must be an incredible hero to have travel this far.  This continent is called Shaduwar.
+IDS_PROPQUEST_SCENARIO_INC_000530	Go to the northside of the Gouthan Mountains and find the new continent.
+IDS_PROPQUEST_SCENARIO_INC_000531	
+IDS_PROPQUEST_SCENARIO_INC_000532	Discovering the new continent! (3)
+IDS_PROPQUEST_SCENARIO_INC_000533	You came here to find traces of a person named Bartholomew Hunt? I guess you should go talk to Ryan. He might now something about it.
+IDS_PROPQUEST_SCENARIO_INC_000534	Who are you?  You don't seem familiar to me…
+IDS_PROPQUEST_SCENARIO_INC_000535	Lasa sent you? Hmm, You can not expect me to just open up to some stranger.  If you help me this this one thing, I might trust you… Are you willing to help me?
+IDS_PROPQUEST_SCENARIO_INC_000536	Lasa wants you to find Ryan.
+IDS_PROPQUEST_SCENARIO_INC_000537	
+IDS_PROPQUEST_SCENARIO_INC_000538	
+IDS_PROPQUEST_SCENARIO_INC_000539	Discovering the new continent! (4)
+IDS_PROPQUEST_SCENARIO_INC_000540	So the agreement is you help me with this task and I tell you want you came to hear, deal?
+IDS_PROPQUEST_SCENARIO_INC_000541	If you go north from here, there are monsters called Battle Toadrin.  Bring 10 hearts of Battle Toadrins to me.
+IDS_PROPQUEST_SCENARIO_INC_000542	If you can't help me, I can't help you. So, get out of here.
+IDS_PROPQUEST_SCENARIO_INC_000543	Wow, all ten hearts.  I guess Lasa was right about you.  I didn't think you could do it.  I am surprised…
+IDS_PROPQUEST_SCENARIO_INC_000544	You didn't bring me enough hearts. I knew you couldn't be trusted.
+IDS_PROPQUEST_SCENARIO_INC_000545	Bring ten Toadrin' Hearts to Ryan in an effort to prove yourself. 
+IDS_PROPQUEST_SCENARIO_INC_000546	
+IDS_PROPQUEST_SCENARIO_INC_000547	
+IDS_PROPQUEST_SCENARIO_INC_000548	Discovering the new continent! (5)
+IDS_PROPQUEST_SCENARIO_INC_000549	I figured you wouldn't be able to complete my task and I felt sorry for you.  I sent the information to Lasa to give to you  earlier… 
+IDS_PROPQUEST_SCENARIO_INC_000550	Ryan gave me the information to relate to you.  I guess he didn't have much faith in you.  Don't worry, I knew you would come through!
+IDS_PROPQUEST_SCENARIO_INC_000551	Go see Lasa to get information that you need.
+IDS_PROPQUEST_SCENARIO_INC_000552	
+IDS_PROPQUEST_SCENARIO_INC_000553	
+IDS_PROPQUEST_SCENARIO_INC_000554	Discovering the new continent! (6)
+IDS_PROPQUEST_SCENARIO_INC_000555	Here is another one of Bartholomew Hunt diaries. I heard there are 3 total. I couldn't understand the language correctly, but if you study this, I'm sure you will find other information.
+IDS_PROPQUEST_SCENARIO_INC_000556	Welcome. So, there is a new continent after all!  You say it is called Shaduwar.  How exciting! 
+IDS_PROPQUEST_SCENARIO_INC_000557	What is this, a second Diary!  This is so exciting, I wonder what is in this one…
+IDS_PROPQUEST_SCENARIO_INC_000558	I can see already Sage Radion will be needed to translate again.  I will send this diary to him myself.  You should explore Shaduwar!
+IDS_PROPQUEST_SCENARIO_INC_000559	Speak to the Mayor of Darkon.  
+IDS_PROPQUEST_SCENARIO_INC_000560	
+IDS_PROPQUEST_SCENARIO_INC_000561	
+IDS_PROPQUEST_SCENARIO_INC_000562	Bartholomew Hunt's Second Diary
+IDS_PROPQUEST_SCENARIO_INC_000563	
+IDS_PROPQUEST_SCENARIO_INC_000564	Deciphering the 2nd Diary (1)
+IDS_PROPQUEST_SCENARIO_INC_000565	Long time no see! How are you? I asked Radion to decipher the 2nd Diary that you found, but I haven't got any reply from him. This should be his highest priority!
+IDS_PROPQUEST_SCENARIO_INC_000566	Can you go check to see if Radion has finished yet?
+IDS_PROPQUEST_SCENARIO_INC_000567	Fabulous!  Please go now and check to see if Radion has completed his work.
+IDS_PROPQUEST_SCENARIO_INC_000568	This remains extremely important, please do not wait too long to assist me in this.
+IDS_PROPQUEST_SCENARIO_INC_000569	Good to see you. I knew he would send you.
+IDS_PROPQUEST_SCENARIO_INC_000570	Oh… the second Diary… There is a slight problem with that unfortunately.
+IDS_PROPQUEST_SCENARIO_INC_000571	Check the status of the Second Diary with Sage Radion. 
+IDS_PROPQUEST_SCENARIO_INC_000572	
+IDS_PROPQUEST_SCENARIO_INC_000573	Materials of Deciphering (2)
+IDS_PROPQUEST_SCENARIO_INC_000574	You have already waited a long time. I'm sorry, when I was translating the text, something weird happened.  The last part of the document was blank. I'm sure it was not blank when I first received the Diary.
+IDS_PROPQUEST_SCENARIO_INC_000575	I looked through the library of my ancestors, and I found an article that claimed 'To see hidden letters, you must sprinkle "Red Powder" over them'. Can you find me some information about Red Powder?
+IDS_PROPQUEST_SCENARIO_INC_000576	Oddly enough, you will need to speak to Gergantes of Flarine.  You may need luck in this area, as Gergantes now lives at the bottom of a bottle.  It was not always so… 
+IDS_PROPQUEST_SCENARIO_INC_000577	If you will not help me research Red Powder, I will not be able to help you read the Diary.
+IDS_PROPQUEST_SCENARIO_INC_000578	Oh curshh my… hic.. luck!  I hhhuve drunk all my drink… hiccup... 
+IDS_PROPQUEST_SCENARIO_INC_000579	Oh! I'm dizzy... hiccup... Why is Flaris spinning… Who are you?
+IDS_PROPQUEST_SCENARIO_INC_000580	Confront Gergantes to learn about Red Powder.
+IDS_PROPQUEST_SCENARIO_INC_000581	
+IDS_PROPQUEST_SCENARIO_INC_000582	Gergantes's request (3)
+IDS_PROPQUEST_SCENARIO_INC_000583	Red Powder? Only eye no about… hic... Red Powder, but do you think I will tell you for free? If you do me a favor, I might tell… hiccup… you.
+IDS_PROPQUEST_SCENARIO_INC_000584	As you can see im all out of Magical Liquor.  I need some more, but this obv... hiccup... obviously isn't the cheap stuff! Can you find it and bring it back to me? Then, I will give you the information.
+IDS_PROPQUEST_SCENARIO_INC_000585	I think I dropped a bottle of the liquor under a tree I was using for… hiccup… shade in Rhisis Garden. You will have hard time to find it though. 
+IDS_PROPQUEST_SCENARIO_INC_000586	Fine… hic… Be that way, I'll go get my own drinks then!
+IDS_PROPQUEST_SCENARIO_INC_000587	WOOT!  You have found it.  Another day, another bot… hiccup… bottle! Wait here, I will need to do an official taste test… 
+IDS_PROPQUEST_SCENARIO_INC_000588	You haven't found the Magical Liquor? I guess you don't really need that information…
+IDS_PROPQUEST_SCENARIO_INC_000589	Gergantes will trade the information you need for a bottle of Magical Liquor.
+IDS_PROPQUEST_SCENARIO_INC_000590	
+IDS_PROPQUEST_SCENARIO_INC_000591	Information about Red Powder (4)
+IDS_PROPQUEST_SCENARIO_INC_000592	I am enjoying the Magical Liquor that you brought me… hiccup… it is perfect!  Anyway, you said you want to know about the Red Powder? Red Powder was discovered by a famous scientist named Lertes.
+IDS_PROPQUEST_SCENARIO_INC_000593	I interviewed him once, he explained what Red Powder is to me. I never wrote about the Red Powder, so I thought nobody knew about it… Will you try to find it?
+IDS_PROPQUEST_SCENARIO_INC_000594	Since you brought me my liquor, I will share my secrets. I was told Red Powder can be found in the Darkon 3 area. I hope you can find it and bring it to Radion.
+IDS_PROPQUEST_SCENARIO_INC_000595	I am the last to carry this knowledge, if you need to know where it is, you will have to come to me.
+IDS_PROPQUEST_SCENARIO_INC_000596	Wow! Red Powder really existed. Thank you! Wait one second.
+IDS_PROPQUEST_SCENARIO_INC_000597	What are you doing here? You were supposed to go find Red Powder in Darkon 3.
+IDS_PROPQUEST_SCENARIO_INC_000598	Gergantes has asked you to find Red Powder in Darkon 3 and bring it to Radion.
+IDS_PROPQUEST_SCENARIO_INC_000599	
+IDS_PROPQUEST_SCENARIO_INC_000600	Complete the Deciphering (5)
+IDS_PROPQUEST_SCENARIO_INC_000601	Here is the translated Diary. The Mayor of Darkon is really anxious for this, so you should get going, don't you agree?
+IDS_PROPQUEST_SCENARIO_INC_000602	Do not lose this diary. Be careful.
+IDS_PROPQUEST_SCENARIO_INC_000603	Then, you may have to ask the Mayor of Darkon to come here directly, even though he is much busier then you.
+IDS_PROPQUEST_SCENARIO_INC_000604	Thank you so much! I will read this Diary closely!
+IDS_PROPQUEST_SCENARIO_INC_000605	Deliver the Diary to the Mayor of Darkon.
+IDS_PROPQUEST_SCENARIO_INC_000606	
+IDS_PROPQUEST_SCENARIO_INC_000607	Bartholomew Hunt's Third Diary
+IDS_PROPQUEST_SCENARIO_INC_000608	
+IDS_PROPQUEST_SCENARIO_INC_000609	Locating the Third Diary (1)
+IDS_PROPQUEST_SCENARIO_INC_000610	I have closely looked at the Second Diary and I was amazed. I found some information that leads to location of Bartholomew Hunt's Third Diary!
+IDS_PROPQUEST_SCENARIO_INC_000611	But, the information that I found is very limited, so you will need to go find the Historian Ryan. You will be able to get more information from him.  
+IDS_PROPQUEST_SCENARIO_INC_000612	Ryan lives in Fallen Leaf Camp. I hope you can get good information from him.
+IDS_PROPQUEST_SCENARIO_INC_000613	I guess you are busy. Ok then, I will ask someone else.
+IDS_PROPQUEST_SCENARIO_INC_000614	Good to see you. How are you doing? Oh, you want to know about this document? Let me just take a quick look here...
+IDS_PROPQUEST_SCENARIO_INC_000615	Go see Ryan to find information about Bartholomew Hunt's Third Diary.
+IDS_PROPQUEST_SCENARIO_INC_000616	
+IDS_PROPQUEST_SCENARIO_INC_000617	Exploration of New area (2)
+IDS_PROPQUEST_SCENARIO_INC_000618	I have read the Diary that you gave me. I was very surprised about the contents of this document. I found out that at north edge of Shaduwar, you can find a path to new land!
+IDS_PROPQUEST_SCENARIO_INC_000619	Also, this Diary leads me to believe that the Third Diary may be found there.   Will you search this new land for the Diary?
+IDS_PROPQUEST_SCENARIO_INC_000620	That’s what I like to hear!  A little excitement and enthusiasm.  What is the worst that could happen?
+IDS_PROPQUEST_SCENARIO_INC_000621	I figured a young one like you would be excited for the challenge of a new land.
+IDS_PROPQUEST_SCENARIO_INC_000622	You found this box eh? I feel that this must solve some mystery of Bartholomew Hunt's Third Diary. 
+IDS_PROPQUEST_SCENARIO_INC_000623	You still haven't found any clues about Bartholomew Hunt's Third Diary?  You must look harder.
+IDS_PROPQUEST_SCENARIO_INC_000624	Explore The Valley of the Risen and find a long lost clue to help locate the third diary.
+IDS_PROPQUEST_SCENARIO_INC_000625	
+IDS_PROPQUEST_SCENARIO_INC_000626	Clue of the Diary (3)
+IDS_PROPQUEST_SCENARIO_INC_000627	I'm sorry, I can't open this box… Maybe Vespu might know how to open it, he has seen a lot in his years.  Will you bring it to him?
+IDS_PROPQUEST_SCENARIO_INC_000628	You should hurry and visit him now.  You never know when he will be off leading another expedition. 
+IDS_PROPQUEST_SCENARIO_INC_000629	I can keep trying, but I am telling you now, I do not think I can open this box.
+IDS_PROPQUEST_SCENARIO_INC_000630	Ah, so now you finally come and say hello eh?  No problem, I know I am not the most popular in town.
+IDS_PROPQUEST_SCENARIO_INC_000631	Open this box?  I may be able to, just give me a second here… 
+IDS_PROPQUEST_SCENARIO_INC_000632	Find Vespu and ask him about how to open the box.
+IDS_PROPQUEST_SCENARIO_INC_000633	
+IDS_PROPQUEST_SCENARIO_INC_000634	Mysterious Box (4)
+IDS_PROPQUEST_SCENARIO_INC_000635	Well I'll be darned!  I just can't seem to get it open. I once came across a box like this, but I had special tools to open it at the time.
+IDS_PROPQUEST_SCENARIO_INC_000636	I have heard that Risen Warriors have tools similar to the tools required to open this box.  Will you gather some tools for me?
+IDS_PROPQUEST_SCENARIO_INC_000637	I admire your courage. You can find Risen Warriors in the Valley of the Risen, good luck.
+IDS_PROPQUEST_SCENARIO_INC_000638	Oh well, then I can't help you. Good Bye.
+IDS_PROPQUEST_SCENARIO_INC_000639	It's been a long time since I have seen tools like this, but this should work. Wait here, I will open it now.
+IDS_PROPQUEST_SCENARIO_INC_000640	I knew these Tools would be hard to find.  Keep trying, you will come across them eventually.
+IDS_PROPQUEST_SCENARIO_INC_000641	Find a Warrior's Toolbox so that Vespu can open the box.
+IDS_PROPQUEST_SCENARIO_INC_000642	
+IDS_PROPQUEST_SCENARIO_INC_000643	Scroll of dire information (5)
+IDS_PROPQUEST_SCENARIO_INC_000644	I found a scroll inside of the Box. You need to give this scroll to Ryan. Please hurry, something terrible might be on the horizon.  Will you deliver it to him?
+IDS_PROPQUEST_SCENARIO_INC_000645	This is very important, please be extra careful, I can't tell you the content of this scroll.
+IDS_PROPQUEST_SCENARIO_INC_000646	This is important, it cannot wait!  Please reconsider.
+IDS_PROPQUEST_SCENARIO_INC_000647	This scroll may lead to Bartholomew Hunt's Third Diary.
+IDS_PROPQUEST_SCENARIO_INC_000648	Bring the Scroll of Dire Information to Ryan.
+IDS_PROPQUEST_SCENARIO_INC_000649	
+IDS_PROPQUEST_SCENARIO_INC_000650	Discovering the Catacombs
+IDS_PROPQUEST_SCENARIO_INC_000651	
+IDS_PROPQUEST_SCENARIO_INC_000652	Search for the Catacombs (1)
+IDS_PROPQUEST_SCENARIO_INC_000653	I've looked into the content in the scroll you gave me. I found out that there is an evil place in the Valley of Risen.  A place of supreme evil. 
+IDS_PROPQUEST_SCENARIO_INC_000654	It appears the Diary is inside of the Catacombs.  Do you dare go in search of the Diary?
+IDS_PROPQUEST_SCENARIO_INC_000655	I'd appreciate if you can find Bartholomew Hunt's Third Diary. If you can, please give it to Ryan.
+IDS_PROPQUEST_SCENARIO_INC_000656	Please, I am so excited at these new discoveries!  Aren't you curious as well?
+IDS_PROPQUEST_SCENARIO_INC_000657	It looks like we are really starting to find some interesting information!
+IDS_PROPQUEST_SCENARIO_INC_000658	Please try harder, all of this information points to the Diary being located inside of those Catacombs!.
+IDS_PROPQUEST_SCENARIO_INC_000659	Search the Catacombs of Anguish for the Diary, bring your findings to Ryan.
+IDS_PROPQUEST_SCENARIO_INC_000660	
+IDS_PROPQUEST_SCENARIO_INC_000661	Learning about the Diary (2)
+IDS_PROPQUEST_SCENARIO_INC_000662	I am sorry but this is simply too hard for me to translate! Can you visit Sage Radion once again and ask him?
+IDS_PROPQUEST_SCENARIO_INC_000663	Now that you have recovered this piece, it is time we solve this mess once and for all.  Visit Radion as soon as you can.
+IDS_PROPQUEST_SCENARIO_INC_000664	I cannot understand why you would want to wait at this point.
+IDS_PROPQUEST_SCENARIO_INC_000665	You again!  You must have learned of something important to bother me again.
+IDS_PROPQUEST_SCENARIO_INC_000666	Well, this is challenging indeed. Give me a moment to think.
+IDS_PROPQUEST_SCENARIO_INC_000667	Visit Sage Radion and have him inspect your findings. 
+IDS_PROPQUEST_SCENARIO_INC_000668	
+IDS_PROPQUEST_SCENARIO_INC_000669	The Third Diary uncovered (3)
+IDS_PROPQUEST_SCENARIO_INC_000670	I cannot be positive as to the meaning of every word as the text has sustained damage.  I can however get the main points.
+IDS_PROPQUEST_SCENARIO_INC_000671	You should bring this to Ryan so that he can properly interpret what I have translated.  Will you bring it to him. 
+IDS_PROPQUEST_SCENARIO_INC_000672	Surely Ryan can find the answers now, between these pieces of the Diary and your adventures.
+IDS_PROPQUEST_SCENARIO_INC_000673	Ryan must be waiting for this. Why wouldn't you bring him the text?
+IDS_PROPQUEST_SCENARIO_INC_000674	Good to see you. I am glad to see you already returned.
+IDS_PROPQUEST_SCENARIO_INC_000675	I am very impressed Radion was able to translate this so fast.  Now, let's see what we have here… 
+IDS_PROPQUEST_SCENARIO_INC_000676	Bring the translated text to Ryan in Fallen Leaf Camp. 
+IDS_PROPQUEST_SCENARIO_INC_000677	
+IDS_PROPQUEST_SCENARIO_INC_000678	The final chapter  (4)
+IDS_PROPQUEST_SCENARIO_INC_000679	This cannot be right, this last entry starts "I, Kheldor, Vilest of the vile, King of the Rise..."  How can this be!  He must have found the Diary!
+IDS_PROPQUEST_SCENARIO_INC_000680	The pages are ruined from this point on.  There must be more we can find out.   There may be one more mission for you yet.
+IDS_PROPQUEST_SCENARIO_INC_000681	You will need a hardy group to handle this task.  Will you accept the challenge and recover the final piece?
+IDS_PROPQUEST_SCENARIO_INC_000682	Oh! Outstanding! Here's the reward as promised. You saved Madrigal. There must be so much more information inside of this Diary.  I cannot wait to examine it!
+IDS_PROPQUEST_SCENARIO_INC_000683	I trusted you... No one else could manage this task… I am in a trouble.
+IDS_PROPQUEST_SCENARIO_INC_000684	Still can't find it?  Do not give up yet! Continue your search.
+IDS_PROPQUEST_SCENARIO_INC_000685	Defeat Kheldor and recover the final Diary.
+IDS_PROPQUEST_SCENARIO_INC_000686	
+IDS_PROPQUEST_SCENARIO_INC_000687	Mentors of Madrigal
+IDS_PROPQUEST_SCENARIO_INC_000688	
+IDS_PROPQUEST_SCENARIO_INC_000689	Mentors of Madrigal (1)
+IDS_PROPQUEST_SCENARIO_INC_000690	Hail, adventurer. I am Inisis, the most honored Mentor in Madrigal. I've dedicated myself to training young warriors for 35 years, but now my time is coming to an end.
+IDS_PROPQUEST_SCENARIO_INC_000691	I am recruiting new Mentors to train the Pupils of Madrigal instead of me.
+IDS_PROPQUEST_SCENARIO_INC_000692	Anyone who is willing and meets the basic requirements can apply.  Would you like to know how to apply?
+IDS_PROPQUEST_SCENARIO_INC_000693	Visit instructor Master Drillmaster Elic in Flaris if you are interested. I've instructed him to weed out those who don't belong.
+IDS_PROPQUEST_SCENARIO_INC_000694	Young people nowadays are afraid of anything challenging.  I will just keep on recruiting.  
+IDS_PROPQUEST_SCENARIO_INC_000695	The road to becoming a Mentor starts here.
+IDS_PROPQUEST_SCENARIO_INC_000696	I can trust you since Inisis sent you here, I suppose you want to learn more now?
+IDS_PROPQUEST_SCENARIO_INC_000697	Visit Master Drillmaster Elic for detailed information on how to become a Mentor. 
+IDS_PROPQUEST_SCENARIO_INC_000698	
+IDS_PROPQUEST_SCENARIO_INC_000699	Mentors of Madrigal (2)
+IDS_PROPQUEST_SCENARIO_INC_000700	Madrigal has relied on Mentor Inisis for a long time for her vast knowledge.  Unfortunately that time has come to an end.
+IDS_PROPQUEST_SCENARIO_INC_000701	Now we are looking for Mentors to step up and take responsibility. Being a Mentor is a difficult job, you may not be ready for the challenge.
+IDS_PROPQUEST_SCENARIO_INC_000702	Are you sure this is the correct path for you?
+IDS_PROPQUEST_SCENARIO_INC_000703	Yes.. I can see that you are ready.  You may continue on the path, please contact Master Drillmaster Mustang for further instruction.
+IDS_PROPQUEST_SCENARIO_INC_000704	I could tell you were not prepared for this path.
+IDS_PROPQUEST_SCENARIO_INC_000705	You are interested in becoming a Mentor eh?
+IDS_PROPQUEST_SCENARIO_INC_000706	I suppose ole Elic signed off on you did he?
+IDS_PROPQUEST_SCENARIO_INC_000707	Visit Master Drillmaster Mustang to find out more on how to become a Mentor.
+IDS_PROPQUEST_SCENARIO_INC_000708	
+IDS_PROPQUEST_SCENARIO_INC_000709	Mentors of Madrigal (3)
+IDS_PROPQUEST_SCENARIO_INC_000710	Well I suppose it is time to start letting you know some more specific details about becoming a Mentor.
+IDS_PROPQUEST_SCENARIO_INC_000711	There will be a few more Mentors that will want to meet you in order to help us further weed out those who do not belong in this field.  After this, there will be a final confirmation in Darkon.
+IDS_PROPQUEST_SCENARIO_INC_000712	If you are up for meeting these Mentors, go on to visit Winge in Saint Morning.  What do you say, will you continue? 
+IDS_PROPQUEST_SCENARIO_INC_000713	As I said, Magician Drillmaster Winge is in Sanit Morning. Be off with you now.
+IDS_PROPQUEST_SCENARIO_INC_000714	Okay. Thanks for wasting my time.
+IDS_PROPQUEST_SCENARIO_INC_000715	Hi there. How are you?
+IDS_PROPQUEST_SCENARIO_INC_000716	Please be patient, I am completing my studies.
+IDS_PROPQUEST_SCENARIO_INC_000717	Visit Magician Drillmaster Winge for more detail.
+IDS_PROPQUEST_SCENARIO_INC_000718	
+IDS_PROPQUEST_SCENARIO_INC_000719	Mentors of Madrigal (4)
+IDS_PROPQUEST_SCENARIO_INC_000720	You came here to be a Mentor? Do you understand what that means?  Pupils will look up to you for guidance. This is important as the young ones tend to have difficulties when left alone. 
+IDS_PROPQUEST_SCENARIO_INC_000721	There will be a lot of work involved in teaching your Pupils and keeping them happy.  But don't worry, there are also rewards to being a Mentor!
+IDS_PROPQUEST_SCENARIO_INC_000722	Since I don't know you that well, I will have to insist you meet Hent, who now the lead Mentor in Madrigal now. If you can please him, you will surely become a Mentor.  Do you care to try and impress him? 
+IDS_PROPQUEST_SCENARIO_INC_000723	Since Inisis has finished teaching, Hent has taken over.  You can find him in Darkon as well.  Good luck!
+IDS_PROPQUEST_SCENARIO_INC_000724	Being a Mentor is not for everyone.
+IDS_PROPQUEST_SCENARIO_INC_000725	Winge sent you here? Please give me a minute, I just finished teaching class.
+IDS_PROPQUEST_SCENARIO_INC_000726	Visit Instructor Hent for the final confirmation.
+IDS_PROPQUEST_SCENARIO_INC_000727	
+IDS_PROPQUEST_SCENARIO_INC_000728	Mentors of Madrigal (5)
+IDS_PROPQUEST_SCENARIO_INC_000729	I believe you heard about what it means being a Mentor. A good Mentor is supposed to put everything he has into his Pupils. It is not always easy for me to spot a good Mentor in the making…
+IDS_PROPQUEST_SCENARIO_INC_000730	I am supposed to test you whether you are qualified to be a Mentor, but I can see your eagerness. I can count on it. I will get you approved.
+IDS_PROPQUEST_SCENARIO_INC_000731	Just remember, you will not be a good Mentor over night!  Are you ready to accept the title Mentor? 
+IDS_PROPQUEST_SCENARIO_INC_000732	 Ah, you need to see the Great Mentor Inisis in Darkon and let her know that you have become a Mentor. Then you are registered officially.
+IDS_PROPQUEST_SCENARIO_INC_000733	I suppose you really must not want this, to come so far and turn back at the end. 
+IDS_PROPQUEST_SCENARIO_INC_000734	Congratulations! You should always think back when you started. I want you to cultivate many talented Pupils.
+IDS_PROPQUEST_SCENARIO_INC_000735	You need to get approved by Hent and then inform to the Great Mentor Inisis.
+IDS_PROPQUEST_SCENARIO_INC_000736	
+IDS_PROPQUEST_SCENARIO_INC_000737	Flaris
+IDS_PROPQUEST_SCENARIO_INC_000738	Saintmorning
+IDS_PROPQUEST_SCENARIO_INC_000739	Darkon
+IDS_PROPQUEST_SCENARIO_INC_000740	Shaduwar
+IDS_PROPQUEST_SCENARIO_INC_000741	Scenario
+IDS_PROPQUEST_SCENARIO_INC_000742	General
+IDS_PROPQUEST_SCENARIO_INC_000743	Request Office
+IDS_PROPQUEST_SCENARIO_INC_000744	Event
+IDS_PROPQUEST_SCENARIO_INC_000745	
+IDS_PROPQUEST_SCENARIO_INC_000746	Promise of the Scroll (6)
+IDS_PROPQUEST_SCENARIO_INC_000747	This scroll proves the stories my father told me growing up.  Amazing!   I cannot explain right now.  We need to tell the Mayor of Darkon about this immediately.
+IDS_PROPQUEST_SCENARIO_INC_000748	This is extremely important to the future of Madrigal.  Will you help me?
+IDS_PROPQUEST_SCENARIO_INC_000749	Thank you.  Bring this to the Mayor of Darkon immediately!
+IDS_PROPQUEST_SCENARIO_INC_000750	I suppose you think you are above all else?  If Madrigal falls, you will too. 
+IDS_PROPQUEST_SCENARIO_INC_000751	What are you still doing here? You should go now. This is very urgent.
+IDS_PROPQUEST_SCENARIO_INC_000752	Oh, it is good to see you. Do you have any news?
+IDS_PROPQUEST_SCENARIO_INC_000753	Oh.. This is…amazing and terrifying!  Give me one second to look something up… I may have more information on this legend!
+IDS_PROPQUEST_SCENARIO_INC_000754	Ryan requested you immediately contact the Darkon Mayor regarding the contents of the scroll.
+IDS_PROPQUEST_SCENARIO_INC_000755	
+IDS_PROPQUEST_SCENARIO_INC_000756	Oh I just forgot. According to the document, it is not the place where you can't enter alone. It would be because of a group of Masquerpet and complicate area. Keep this in mind you should bring your group.
+IDS_PROPQUEST_SCENARIO_INC_000757	I will try to find out a clue investigating Book 3. You can expect. I will you later.
+IDS_PROPQUEST_SCENARIO_INC_000758	
+IDS_PROPQUEST_SCENARIO_INC_000759	// 15차 시나리오 퀘스트 미 완료 대사 빠진 부분 추가 //
+IDS_PROPQUEST_SCENARIO_INC_000760	
+IDS_PROPQUEST_SCENARIO_INC_000761	Can't you find out how it goes? This is very urgent. Hurry.
+IDS_PROPQUEST_SCENARIO_INC_000762	You haven't found Gergantes yet? He is the last person with any information on Red Powder.  You will have to talk to him. 
+IDS_PROPQUEST_SCENARIO_INC_000763	You didn't deliver it yet? Please hurry. It is very urgent.
+IDS_PROPQUEST_SCENARIO_INC_000764	
+IDS_PROPQUEST_SCENARIO_INC_000765	
+IDS_PROPQUEST_SCENARIO_INC_000766	Ryan is very knowledgeable regarding the history of Madrigal.  Please go and see him. 
+IDS_PROPQUEST_SCENARIO_INC_000767	There is no way I can help you open the box.  You must go and see him to get further help. 
+IDS_PROPQUEST_SCENARIO_INC_000768	You didn't leave yet. What are you still doing here? Please deliver.
+IDS_PROPQUEST_SCENARIO_INC_000769	
+IDS_PROPQUEST_SCENARIO_INC_000770	
+IDS_PROPQUEST_SCENARIO_INC_000771	There is no way I can interpret the contents of this Journal.
+IDS_PROPQUEST_SCENARIO_INC_000772	Translating this is very difficult.  There is no time to waste!
+IDS_PROPQUEST_SCENARIO_INC_000773	
+IDS_PROPQUEST_SCENARIO_INC_000774	// 15차 시나리오 스승 퀘스트 관련 미 완료 대사 빠진 부분 추가 //
+IDS_PROPQUEST_SCENARIO_INC_000775	
+IDS_PROPQUEST_SCENARIO_INC_000776	You Should be on your way to visiting Elic by now!
+IDS_PROPQUEST_SCENARIO_INC_000777	Mustang is busy, too? Then you need to wait. 
+IDS_PROPQUEST_SCENARIO_INC_000778	You didn't go yet? Saint Morning is not too far from here. Wingyei is such a busy person. You better get going now.
+IDS_PROPQUEST_SCENARIO_INC_000779	That's all I can do for you. You should go see Hent.
+IDS_PROPQUEST_SCENARIO_INC_000780	You need to inform her officially that you have become a Mater. 
+IDS_PROPQUEST_SCENARIO_INC_000781	
+IDS_PROPQUEST_SCENARIO_INC_000782	
+IDS_PROPQUEST_SCENARIO_INC_000783	// 15차 어느 모험가의 일기장 시나리오 퀘스트 미 완료 대사 추가 //
+IDS_PROPQUEST_SCENARIO_INC_000784	
+IDS_PROPQUEST_SCENARIO_INC_000785	I will pay you good. Please send it soon.
+IDS_PROPQUEST_SCENARIO_INC_000786	This is very important. Please hurry.
+IDS_PROPQUEST_SCENARIO_INC_000787	Darkon Mayor must be waiting for you so badly. Hurry up.
+IDS_PROPQUEST_SCENARIO_INC_000788	You said you could help me. Help me. I'm in rush.
+IDS_PROPQUEST_SCENARIO_INC_000789	I guess you haven't found it. Why don’t you work little harder? It is not easy to find.
+IDS_PROPQUEST_SCENARIO_INC_000790	You're still here? Rayan is so busy that you need to hurry up.
+IDS_PROPQUEST_SCENARIO_INC_000791	I gave information to Lasa. Pleas go see her.
+IDS_PROPQUEST_SCENARIO_INC_000792	I know how hard you worked to get the information. Hurry up.
+IDS_PROPQUEST_SCENARIO_INC_000793	This may be information you need. Go~
+IDS_PROPQUEST_SCENARIO_INC_000794	It doesn't have to be now. You can go whenever you need.
+IDS_PROPQUEST_SCENARIO_INC_000795	Be careful not to lose~ I hope it is an information what you need.
+IDS_PROPQUEST_SCENARIO_INC_000796	Come back to me anytime. I will keep it in safe for you.
+IDS_PROPQUEST_SCENARIO_INC_000797	I hope you can have information you need.
+IDS_PROPQUEST_SCENARIO_INC_000798	Go see Ryan if you have any questions.

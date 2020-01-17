@@ -1,0 +1,15 @@
+﻿IDS_CLIENT_TIP_INC_000000	in order to change the camera view, move the mouse or use the arrow keys with clicking the right mouse button (in new version) or clicking the wheel button (in old version)
+IDS_CLIENT_TIP_INC_000001	By pressing the space bar, player can jump on the ground. and also, it will move the flight in the flying mode
+IDS_CLIENT_TIP_INC_000002	Flying is possible at level 20 regardless of your job class. Flying items can be purchased from the [Station] NPC in each town.
+IDS_CLIENT_TIP_INC_000003	If you need HP, you can take a rest thru a sitting order which you can choose in the motion interface menu. it will take the time but save the money.
+IDS_CLIENT_TIP_INC_000004	When you are dead, revive through ‘Loadstar’ if you want to go to town. If you want to revive from the place you've died, then use a ‘Scroll of Resurrection’ or have a Resurrection skill cast on you.
+IDS_CLIENT_TIP_INC_000005	Items that restore HP, MP, and FP such as Food, Refresher, and Vita drink restore a certain amount. Check the amount they restore for maximum efficiency.
+IDS_CLIENT_TIP_INC_000006	When you reach level 15 go complete your Job transfer quest as soon as possible. If you don’t you won’t be bale to gain any more EXP.
+IDS_CLIENT_TIP_INC_000007	Click ESC to disable targeting.
+IDS_CLIENT_TIP_INC_000008	Troupe means Party.
+IDS_CLIENT_TIP_INC_000009	To use a skill, open the skill window (Hot Key ‘K’) and drag the skill icon to the bottom of the screen (F1~F10). To use a combined skill, drag a skill icon to the action slot (Right bottom of the screen) and designate a target and click ‘C’ to use the combined skill.
+IDS_CLIENT_TIP_INC_000010	You have to put the Clean Hit skill first to use the flurry skill in the ACTION SLOT.
+IDS_CLIENT_TIP_INC_000011	After selecting the character, click the left mouse button while holding down ALT and choose ‘Follow’ in the menu to follow the character. Press Space Bar while holding ‘Z’ when you are flying.
+IDS_CLIENT_TIP_INC_000012	Clicking the target while holding down 'ALT' activates the menu for Guild, Messenger, following, etc.. 
+IDS_CLIENT_TIP_INC_000013	Press 'X' to togle walking and running.
+IDS_CLIENT_TIP_INC_000014	Double clicking on the monster or set on the auto attack in game option, it will attack automatically.

@@ -1,0 +1,3 @@
+﻿IDS_DUDREADFULCAVE_WLD_000000	Catacombs of Anguish: 1st Floor
+IDS_DUDREADFULCAVE_WLD_000001	Catacombs of Anguish: 1st Floor
+IDS_DUDREADFULCAVE_WLD_000002	Catacombs of Anguish: 2nd Floor

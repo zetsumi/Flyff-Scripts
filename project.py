@@ -82,6 +82,7 @@ class Project:
         self.path_filter = self.path_output + "filter/"
         self.path_xml = self.path_output + "/xml/"
         self.path_json = self.path_output + "/json/"
+        self.path_json_text = self.path_output + "/json/text/"
         self.path_documentation = self.path_output + "documentation/"
 
         # file properties
@@ -227,6 +228,8 @@ class Project:
             os.makedirs(self.path_xml)
         if not os.path.exists(self.path_json):
             os.makedirs(self.path_json)
+        if not os.path.exists(self.path_json_text):
+            os.makedirs(self.path_json_text)
         if not os.path.exists(self.path_documentation):
             os.makedirs(self.path_documentation)
 

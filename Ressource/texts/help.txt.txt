@@ -1,0 +1,710 @@
+﻿IDS_CLIENT_HELP_INC_000000	How to Operate Basic Functions
+IDS_CLIENT_HELP_INC_000001	This explains the basic in-game functions such as movement, flying, combat, equipping items, picking up items, dropping items, trading with a NPC, trading with other players, etc.
+IDS_CLIENT_HELP_INC_000002	If you would like to get more information, go to the official website and look for the game manual and guide icons. If you need further assistance, file a report through the customer support page.
+IDS_CLIENT_HELP_INC_000003	Rest
+IDS_CLIENT_HELP_INC_000004	If you want to sit and take a break, open the motion window (Press the O key), choose the sitting down icon. You can stand up by clicking the sitting down icon again or attacking a monster.
+IDS_CLIENT_HELP_INC_000005	Move
+IDS_CLIENT_HELP_INC_000006	placholder 1
+IDS_CLIENT_HELP_INC_000007	To move using the keyboard, press the “W” (forward), “A” (left), “S” (Backward), “D” (right) keys to walk/run in the direction you want to go to. To jump, simply press spacebar. You can also click with your on the spot you want to go.
+IDS_CLIENT_HELP_INC_000008	Camera
+IDS_CLIENT_HELP_INC_000009	You control the camera view by holding down the right mouse button and moving the mouse around, by holding the mouse wheel down and moving the mouse (Select Old Interface in Options), or by using the arrow keys.
+IDS_CLIENT_HELP_INC_000010	Roll your mouse wheel to zoom in and out. If you do not have a mouse wheel use the arrow keys to control your camera and to zoom in and out.
+IDS_CLIENT_HELP_INC_000011	Flying
+IDS_CLIENT_HELP_INC_000012	Equip a flying board or broom and press the space bar. You will accelerate towards your maximum speed until your hit the space bar again. 
+IDS_CLIENT_HELP_INC_000013	Steer with your mouse or the W,A,S,D keys while flying.
+IDS_CLIENT_HELP_INC_000014	You can buy fuel to increase the speed of your broom or board. Double-click the fuel and press the X key to activate/de-activate the fuel.
+IDS_CLIENT_HELP_INC_000015	placholder 2
+IDS_CLIENT_HELP_INC_000016	placholder 3
+IDS_CLIENT_HELP_INC_000017	placholder 4
+IDS_CLIENT_HELP_INC_000018	placholder 5
+IDS_CLIENT_HELP_INC_000019	Flying object
+IDS_CLIENT_HELP_INC_000020	There are brooms and boards that you can buy from Dior or any of the Station NPCs. Check the premium shop for faster and more unique things to fly on.
+IDS_CLIENT_HELP_INC_000021	A character who has reached level 20 and has finished the flying quest can automatically use a broom/board.
+IDS_CLIENT_HELP_INC_000022	You can purchase brooms and boards from any Station NPC but keep an eye on the premium shop for new things to fly on.
+IDS_CLIENT_HELP_INC_000023	placholder 6
+IDS_CLIENT_HELP_INC_000024	placholder 7
+IDS_CLIENT_HELP_INC_000025	placholder 8
+IDS_CLIENT_HELP_INC_000026	placholder 9
+IDS_CLIENT_HELP_INC_000027	placholder 10
+IDS_CLIENT_HELP_INC_000028	Combat
+IDS_CLIENT_HELP_INC_000029	placholder 11
+IDS_CLIENT_HELP_INC_000030	To attack players (In the PvP server) and monsters double-click on the tartget or press CTRL and click on the target.
+IDS_CLIENT_HELP_INC_000031	placholder 12
+IDS_CLIENT_HELP_INC_000032	Melee Attack
+IDS_CLIENT_HELP_INC_000033	Melee attacks are done with, staffs, axes, and swords.
+IDS_CLIENT_HELP_INC_000034	Raged Attack
+IDS_CLIENT_HELP_INC_000035	Ranged attacks are done with Yo-yos, and bows.
+IDS_CLIENT_HELP_INC_000036	Magic Ranged Attack
+IDS_CLIENT_HELP_INC_000037	Magic based attacks are ranged attacks that work only with Wands.
+IDS_CLIENT_HELP_INC_000038	Equipping items
+IDS_CLIENT_HELP_INC_000039	To equip an item, Open your inventory then double click the item you want to equip. It will then automatically replace the item you currently have equipped in that slot. Double click on equipped item to unequip it.
+IDS_CLIENT_HELP_INC_000040	Using Items
+IDS_CLIENT_HELP_INC_000041	You can use an item by double clicking it. To set the time, drag the time with the mouse to the time you want. The item drops to the ground if you place the item outside your inventory.
+IDS_CLIENT_HELP_INC_000042	You can place an item in the quick task bar located at the bottom of your screen. It is possible to use it instantly with a Hot Key or by clicking with your Mouse. Right click an item to remove the item from the quick slot.
+IDS_CLIENT_HELP_INC_000043	placholder 13
+IDS_CLIENT_HELP_INC_000044	Chatting
+IDS_CLIENT_HELP_INC_000045	Press enter to toggle the chat window on/off.
+IDS_CLIENT_HELP_INC_000046	NPC Trading
+IDS_CLIENT_HELP_INC_000047	To trade with an NPC, left click the NPC and choose “TRADE”. If you are trying to purchase an item, point to the item you want to purchase then drag it into your inventory. If you are trying to sell items, just drag the item you want to sell from your inventory, into the NPC trade window.
+IDS_CLIENT_HELP_INC_000048	To trade with an NPC, left click the NPC and choose Trade. You can also listen to what the NPCs have to say by choosing Dialog.
+IDS_CLIENT_HELP_INC_000049	You can purchase an item you want by dragging it into your inventory. The price of the item will show and if you accept the price a confirmation window will pop-up. Accept the confirmation window to finish the transaction.
+IDS_CLIENT_HELP_INC_000050	Trade
+IDS_CLIENT_HELP_INC_000051	If you would like to trade with another player character, hold down the ALT key and click on the player you would like to trade with. A menu will appear, select trade, and wait for the other player to apporve the trade. Once the trade window opens you can drag items or Penya into the window. Make very sure that everything is just how you want it before clicking OK and ACCEPT. Never let anyone BORROW any items as they may not return what you lend them. Make sure you are getting the right items and right amount of Penya before you go through with a trade. All trades are done at your own risk so please be very careful. If you lose something, get the wrong item, or the wrong Penya amount there is nothing that can be done to get the item back. So be careful. If at any time you feel uncomfortable with a trade click the CANCEL button to end the trade.
+IDS_CLIENT_HELP_INC_000052	Once you put items in a trade window and select OK and ACCEPT the trade will go through and the items you traded for will be in your inventory. If your inventory box is full the trade will be canceled.
+IDS_CLIENT_HELP_INC_000053	placholder 14
+IDS_CLIENT_HELP_INC_000054	Quest
+IDS_CLIENT_HELP_INC_000055	placholder 15
+IDS_CLIENT_HELP_INC_000056	Try to talk with NPCs often to see if they have any new quests for you. 
+IDS_CLIENT_HELP_INC_000057	Interface
+IDS_CLIENT_HELP_INC_000058	placholder 16
+IDS_CLIENT_HELP_INC_000059	Status Window
+IDS_CLIENT_HELP_INC_000060	You are dead when your HP reaches 0, you are then not able to play the game until you have been revived by Loadstar, a Scroll of Resurrection, or by a Resurrection Skill. Your total HP increases as you increase STA.
+IDS_CLIENT_HELP_INC_000061	MP is necessary for magician and assist skills. Your total MP increases as you increase your INT. FP is necessary for the melee attack skills of a mercenary, your total FP increases as you increase your STA.
+IDS_CLIENT_HELP_INC_000062	EXP notes the necessary amount of experience needed to level up. EXP is gained by hunting monsters and completing quests.
+IDS_CLIENT_HELP_INC_000063	Character window
+IDS_CLIENT_HELP_INC_000064	It displays the information about the character. The basic tab displays basic information such as character name, job, level, etc.. The advance tab displays the character status according to the equipment and level, and you can distribute GP points in the advance tab.
+IDS_CLIENT_HELP_INC_000065	Attack is how much damage you can deliver to the enemy and it varies according to the weapon. Defense means how much damage you can absorb from an enemy's attack. Critical means how much chance you have to make a critical attack, and attack speed means how fast your character will attack.
+IDS_CLIENT_HELP_INC_000066	GP points are gained as you level up, and you can increase your ability by distributing GP points.
+IDS_CLIENT_HELP_INC_000067	STR affects the attack power of your weapon except for wands. STA affects defense, maximum HP, maximum FP, and HP/FP restoration. DEX affects attack speed, dodge, blocking, critical chance and bow attack power. INT affects maximum MP, MP restoration, magical spell damage and defense.
+IDS_CLIENT_HELP_INC_000068	placholder 17
+IDS_CLIENT_HELP_INC_000069	Chatting window
+IDS_CLIENT_HELP_INC_000070	It is located right above the task bar. It is for chatting, click ENTER to activate it and you can type in it. Chat, Whisper, Shout, and Guild Chat are possible. You can activate the SYSTEM window by clicking the SYSTEM button to view any system messages.
+IDS_CLIENT_HELP_INC_000071	If you want to copy a message and paste it with the Shortcut key then type the message into the chat window, don’t press enter, then drag the balloon mark located on the left side of the chat window to your quick slot. 
+IDS_CLIENT_HELP_INC_000072	Navigator
+IDS_CLIENT_HELP_INC_000073	The Navigator is the mini-map located at the upper-right of your screen. It will show Masquerpets and player names as well as the location of certain mines and dungeons.
+IDS_CLIENT_HELP_INC_000074	placholder 18
+IDS_CLIENT_HELP_INC_000075	You can zoom the mini-map in and out using the + and - icons.
+IDS_CLIENT_HELP_INC_000076	Skill window
+IDS_CLIENT_HELP_INC_000077	This window displays the skills and skill tree of your character. You can upgrade skills if you have the necessary requirements.
+IDS_CLIENT_HELP_INC_000078	To use skills, drag the skill to the quick slots in the bottom center of the screen and use F1 - F9. Otherwise, drag the skill in the skill window to the Action Slot on the bottom right of the screen and press C.
+IDS_CLIENT_HELP_INC_000079	Skill points are necessary to level up your skill. Skill points are earned as you level up. Click the skill you want to increase and adjust the skill level with +,- button and click Finish.
+IDS_CLIENT_HELP_INC_000080	Inventory
+IDS_CLIENT_HELP_INC_000081	You can store weapons, armor, quest items, restoration items and Penya. You can also equip and unequip weapons, armor, and accessories.
+IDS_CLIENT_HELP_INC_000082	Messenger
+IDS_CLIENT_HELP_INC_000083	You can talk to other users and check their current conditions. It will be updated as you add friends and guild members. To add your friend, hold down ALT and left click the character, then select ‘add to my list’ or click the + icon located below the messenger window. Guild masters automatically update the list when they add a member.
+IDS_CLIENT_HELP_INC_000084	Quest window
+IDS_CLIENT_HELP_INC_000085	You can check the progress and information about your quests. You can easily understand it since it is divided into quest list, quest detail, reward list and quest condition.
+IDS_CLIENT_HELP_INC_000086	Emoticon Window
+IDS_CLIENT_HELP_INC_000087	This window displays emoticons and motion icons. You can activate it by clicking the  hot key 'o'. You can left click the icon to use it instantly or drag it the shortcut window and use it.
+IDS_CLIENT_HELP_INC_000088	placholder 19
+IDS_CLIENT_HELP_INC_000089	placholder 20
+IDS_CLIENT_HELP_INC_000090	Party Window.
+IDS_CLIENT_HELP_INC_000091	This window manages your party. There are basic parties and advanced parties. Basic parties are groups that you share exp and items with, while an advanced party uses various party skills. When a basic party reaches level 10 you can change it to an advanced party and use party skills.
+IDS_CLIENT_HELP_INC_000092	Guild Window
+IDS_CLIENT_HELP_INC_000093	A Guild is a bigger community then a party and anyone level 40 or higher can create one. You have to complete the quest from NPC Helena to make a guild. The Info tab shows general information and notices, the member tab allows you to manage guild members, the title tab shows titles and allows you to pay members, and the duel tab shows info on your guild duels.
+IDS_CLIENT_HELP_INC_000094	Video and sound
+IDS_CLIENT_HELP_INC_000095	This window is for video and sound settings. Adjust setting according to your hardware performance.
+IDS_CLIENT_HELP_INC_000096	Option
+IDS_CLIENT_HELP_INC_000097	This window configures the basic details for the game. There is a video tab and a game tab.
+IDS_CLIENT_HELP_INC_000098	Game Option
+IDS_CLIENT_HELP_INC_000099	This window blocks and allows requests from other players. You can allow or block Trade, Whisper, add to messenger, PVP request, messenger online alarm, party requests, auto attack, Shout state, and view equipment.  
+IDS_CLIENT_HELP_INC_000100	Announcements.
+IDS_CLIENT_HELP_INC_000101	This window announces any new updates and relevant details. Please go over this page if there is any updated information.
+IDS_CLIENT_HELP_INC_000102	Help
+IDS_CLIENT_HELP_INC_000103	This window contains general game features. Read it if you have any questions.
+IDS_CLIENT_HELP_INC_000104	Today’s Tip
+IDS_CLIENT_HELP_INC_000105	This window contains tips that help with game play and things easily overlooked.  
+IDS_CLIENT_HELP_INC_000106	FAQ
+IDS_CLIENT_HELP_INC_000107	This is the FAQ window. Please read it before asking a question.
+IDS_CLIENT_HELP_INC_000108	Game over
+IDS_CLIENT_HELP_INC_000109	This function window is used to close the game client.
+IDS_CLIENT_HELP_INC_000110	Resurrection window
+IDS_CLIENT_HELP_INC_000111	This window opens when your HP reaches 0. There are three options, 'Lodestar' to revive from the nearest town, if you have a 'Scroll of Resurrection' you can revive from the spot where you died, and you can also visit the Cash item shop through this menu.
+IDS_CLIENT_HELP_INC_000112	Trading window
+IDS_CLIENT_HELP_INC_000113	This window is for trading Penya and items between users. Mutual agreement is necessary to confirm the trade.
+IDS_CLIENT_HELP_INC_000114	Storage window
+IDS_CLIENT_HELP_INC_000115	This window is for depositing and withdrawing items to the [Public office] NPC in each town. Click the Penya icon in your inventory and drag it to deposit Penya.
+IDS_CLIENT_HELP_INC_000116	Task Bar
+IDS_CLIENT_HELP_INC_000117	placholder 21
+IDS_CLIENT_HELP_INC_000118	Start menu
+IDS_CLIENT_HELP_INC_000119	The button used to immediately access all the information and options that are available in the game.
+IDS_CLIENT_HELP_INC_000120	System slot
+IDS_CLIENT_HELP_INC_000121	This slot is placed on the right of the Start menu, for arranging the frequently used Start menu functions, users can set each space with hotkey as they want.
+IDS_CLIENT_HELP_INC_000122	Quick slot
+IDS_CLIENT_HELP_INC_000123	This slot is placed in the center of the Task bar and allows a player to set hotkeys for items and skills that are frequently used.
+IDS_CLIENT_HELP_INC_000124	Action slot
+IDS_CLIENT_HELP_INC_000125	placholder 22
+IDS_CLIENT_HELP_INC_000126	How to use the action slot
+IDS_CLIENT_HELP_INC_000127	To use the Action slot, select a target and press C. For the old version of the Action slot, press the right mouse button instead of C. 
+IDS_CLIENT_HELP_INC_000128	Using the action slot continuously
+IDS_CLIENT_HELP_INC_000129	Use action slot in succession
+IDS_CLIENT_HELP_INC_000130	Collating the action slot
+IDS_CLIENT_HELP_INC_000131	Skills can be used in a succession as long as you follow the order of the different types of skills. The order is; Step > Circle > Finish. You can only use the action icons if the skills are in order.
+IDS_CLIENT_HELP_INC_000132	Example on how to collate skills on action slot
+IDS_CLIENT_HELP_INC_000133	An example on how to collate skills in the action slot  (1) Step > Circle > Finish (2) Step > Finish (3) Step > Circle > Circle > Finish (4) General > General > General.
+IDS_CLIENT_HELP_INC_000134	Community
+IDS_CLIENT_HELP_INC_000135	placholder 23
+IDS_CLIENT_HELP_INC_000136	The party system
+IDS_CLIENT_HELP_INC_000137	placholder 24
+IDS_CLIENT_HELP_INC_000138	Creating a party
+IDS_CLIENT_HELP_INC_000139	To make a party, at least 2 people are needed, and up to 8 people can join a party. There are no job or level requirements to create normal party.
+IDS_CLIENT_HELP_INC_000140	Inviting members to a party
+IDS_CLIENT_HELP_INC_000141	to invite a player, hold the ALT key and left click on the player that you wish to invite. The Player to Player options will appear, choose INVITE and wait for the player to accept the offer.
+IDS_CLIENT_HELP_INC_000142	Joining a party
+IDS_CLIENT_HELP_INC_000143	Select ACCEPT when you are invited to join a party.
+IDS_CLIENT_HELP_INC_000144	Leave a party
+IDS_CLIENT_HELP_INC_000145	To leave a party, open the Party window and click on the LEAVE icon. A party will be disbanded automatically if everyone leaves the party.
+IDS_CLIENT_HELP_INC_000146	Removing a party member
+IDS_CLIENT_HELP_INC_000147	The leader of the party can remove a party member by clicking on the LEAVE button on the party interface menu while the party member is selected.
+IDS_CLIENT_HELP_INC_000148	Changing party leader
+IDS_CLIENT_HELP_INC_000149	To transfer leadership in a Basic party the leader must choose a party member and click the Transfer button. In case the leader leaves the party, then the party member placed next to leader becomes the party leader.
+IDS_CLIENT_HELP_INC_000150	Changing into an advanced party
+IDS_CLIENT_HELP_INC_000151	When a basic party’s level reaches 10 it is able to change to an advanced party. The 'Change' button will be activated when the basic party's level reaches 10. As your party changes to an advanced party the window for naming the advanced party will appear.
+IDS_CLIENT_HELP_INC_000152	An advanced party
+IDS_CLIENT_HELP_INC_000153	The information for a Party of Players.
+IDS_CLIENT_HELP_INC_000154	Creating the advanced party
+IDS_CLIENT_HELP_INC_000155	The party leader can choose the name of the party as the party is changed to advanced party. Up to 8 people can join the advanced party. All Advanced Party decisions are made by the leader. Make sure your group has a trustworthy leader!
+IDS_CLIENT_HELP_INC_000156	Inviting members to the advanced party
+IDS_CLIENT_HELP_INC_000157	To invite other user to the advanced party, ALT + Left click on a player then choose Invite to Party.
+IDS_CLIENT_HELP_INC_000158	Joining an advanced party.
+IDS_CLIENT_HELP_INC_000159	Select ACCEPT when you are invited to join a party.
+IDS_CLIENT_HELP_INC_000160	Development of the advanced party
+IDS_CLIENT_HELP_INC_000161	The Advanced party will get stronger as your party earns EXP. Points are acquired as the party gains EXP, these points are then consumed to use party skills. The party skills and points are different according to the level of the party.
+IDS_CLIENT_HELP_INC_000162	Leaving the advanced party
+IDS_CLIENT_HELP_INC_000163	Players can leave their advanced party by clicking on the LEAVE button on his party menu.
+IDS_CLIENT_HELP_INC_000164	Removing an advanced party member
+IDS_CLIENT_HELP_INC_000165	The leader of the advanced party can remove a player from the group by clicking on the LEAVE button on the party menu with the party member selected.
+IDS_CLIENT_HELP_INC_000166	Changing  the advanced party leader
+IDS_CLIENT_HELP_INC_000167	To transfer leadership in an Advanced party the leader must choose a party member and click the Transfer button. In case the leader leaves the party, then the party member placed next to leader becomes the party leader.
+IDS_CLIENT_HELP_INC_000168	Disbanding the advanced party
+IDS_CLIENT_HELP_INC_000169	An advanced party is automatically disbanded if its total members who are online is less than 2.
+IDS_CLIENT_HELP_INC_000170	Advanced party skills
+IDS_CLIENT_HELP_INC_000171	Only the advanced party leader can use the advanced party skills. The advanced party skills will be acquired as you reach a certain party level and consume the party point to use that skill.
+IDS_CLIENT_HELP_INC_000172	Call out
+IDS_CLIENT_HELP_INC_000173	This skill throws a sign that tells party members to stay close to the party leader. It does not consume any party skill points.
+IDS_CLIENT_HELP_INC_000174	Blitz
+IDS_CLIENT_HELP_INC_000175	This skill throws a sign that tells party members to attack the party leader's target. It does not consume any party skill points.
+IDS_CLIENT_HELP_INC_000176	Retreat
+IDS_CLIENT_HELP_INC_000177	This skill throws the sign to escape. It does not consume any party skill points.
+IDS_CLIENT_HELP_INC_000178	placholder 25
+IDS_CLIENT_HELP_INC_000179	placholder 26
+IDS_CLIENT_HELP_INC_000180	Sphere Circle
+IDS_CLIENT_HELP_INC_000181	This skill increases the critical hit chance for a certain period of time according to the number of party members, available at party level 17. Consumes 1 party point.
+IDS_CLIENT_HELP_INC_000182	Link Attack
+IDS_CLIENT_HELP_INC_000183	This skill increases the damage to the target for a certain period of time, and the damage increases according to the number of party members attacking the same target as the party leader, available at party level 20. Consumes 1 party point.
+IDS_CLIENT_HELP_INC_000184	Fortune Circle
+IDS_CLIENT_HELP_INC_000185	This skill increases the chance of getting unique items by double, available at party level 25. Consumes 1 party point.
+IDS_CLIENT_HELP_INC_000186	Stretching
+IDS_CLIENT_HELP_INC_000187	The party members take a rest around the party leader and during that time the recovery increases 50%, and if the party leader is an assist then the recovery increases 100%, available at party level 30. Consumes 2 party points.
+IDS_CLIENT_HELP_INC_000188	Gift Box
+IDS_CLIENT_HELP_INC_000189	This skill makes two times the items drop when the monster dies, available from party level 40.
+IDS_CLIENT_HELP_INC_000190	Explanation about the skills per job
+IDS_CLIENT_HELP_INC_000191	This is the information of the Job and corresponding skills that player can choose and develop in Flyff.
+IDS_CLIENT_HELP_INC_000192	A player can strengthen his skills by raising the corresponding stat points.
+IDS_CLIENT_HELP_INC_000193	A player can strengthen his skills by levelling up.
+IDS_CLIENT_HELP_INC_000194	Vagrants are the basic class everyone plays before their first job change. They use direct attacks and use weapons like swords and axes.
+IDS_CLIENT_HELP_INC_000195	This is the beginner status before the character gets a job/class.
+IDS_CLIENT_HELP_INC_000196	Clean Hit
+IDS_CLIENT_HELP_INC_000197	You can use the Stab skill when you reach level3. Strike hard with a sword or an axe.
+IDS_CLIENT_HELP_INC_000198	Brandish
+IDS_CLIENT_HELP_INC_000199	This is a circle skill which will be acquired when you reach level 5.  Using a sword or an axe to pierce the target.
+IDS_CLIENT_HELP_INC_000200	Over Cutter
+IDS_CLIENT_HELP_INC_000201	It is a finishing skill which will be acquired when you reach level 10. Gathering all the power the vagrant have and strongly striking the enemy upwards for a finishing blow.
+IDS_CLIENT_HELP_INC_000202	Mercenary
+IDS_CLIENT_HELP_INC_000203	This is the job which usually do the in-fight with the opponent. Based on the strong strength, player learns the skills with the weapon which gives the direct damage from it such as a sword or an axe.
+IDS_CLIENT_HELP_INC_000204	placholder 27
+IDS_CLIENT_HELP_INC_000205	Clean Hit
+IDS_CLIENT_HELP_INC_000206	A powerful, downward strike.
+IDS_CLIENT_HELP_INC_000207	Flurry
+IDS_CLIENT_HELP_INC_000208	Rapid, stabbing attack.
+IDS_CLIENT_HELP_INC_000209	Over Cut
+IDS_CLIENT_HELP_INC_000210	Powerful, upward, finishing move.
+IDS_CLIENT_HELP_INC_000211	Special Hit
+IDS_CLIENT_HELP_INC_000212	skill that delivers one powerful dash hit.
+IDS_CLIENT_HELP_INC_000213	This skill strikes an enemy and regains some HP from the damage dealt.
+IDS_CLIENT_HELP_INC_000214	A melee attack in which a portion of the damage dealt is gained HP by the attacker.
+IDS_CLIENT_HELP_INC_000215	Reflect Hit
+IDS_CLIENT_HELP_INC_000216	Reflects a percentage of the damage received from an enemy attack.
+IDS_CLIENT_HELP_INC_000217	Guillotine
+IDS_CLIENT_HELP_INC_000218	Accumulates energy and attack with a ranged burst.
+IDS_CLIENT_HELP_INC_000219	Protection
+IDS_CLIENT_HELP_INC_000220	Increases defense against melee attacks.  A shield is required for this skill.
+IDS_CLIENT_HELP_INC_000221	Pan Barrier
+IDS_CLIENT_HELP_INC_000222	Protect Increases the evasion rate against ranged attacks. A shield is required for this skill.
+IDS_CLIENT_HELP_INC_000223	Sneaker
+IDS_CLIENT_HELP_INC_000224	Slows the target with an energy web.
+IDS_CLIENT_HELP_INC_000225	Empower Weapon
+IDS_CLIENT_HELP_INC_000226	This is a Mercenary support skill that adds elemental damage to their weapon. It is not applied if there is no elemental attack power on the weapon.
+IDS_CLIENT_HELP_INC_000227	Smite Axe
+IDS_CLIENT_HELP_INC_000228	Increases the attack level of an axe and gives additional defense. An Axe is required for this skill.
+IDS_CLIENT_HELP_INC_000229	Axe Mastery
+IDS_CLIENT_HELP_INC_000230	Increases the attack level of an axe. An Axe is required for this skill.
+IDS_CLIENT_HELP_INC_000231	Blazing Sword
+IDS_CLIENT_HELP_INC_000232	Increases the attack level of a sword.
+IDS_CLIENT_HELP_INC_000233	Sword Mastery
+IDS_CLIENT_HELP_INC_000234	Increases the attack level of a sword.
+IDS_CLIENT_HELP_INC_000235	Acrobat
+IDS_CLIENT_HELP_INC_000236	This class uses Yoyos and Bows to attack enemies fast.
+IDS_CLIENT_HELP_INC_000237	placholder 28
+IDS_CLIENT_HELP_INC_000238	Yo-yo Mastery
+IDS_CLIENT_HELP_INC_000239	Increases Yo-yo damage.
+IDS_CLIENT_HELP_INC_000240	Bow Mastery
+IDS_CLIENT_HELP_INC_000241	Increases Bow damage.
+IDS_CLIENT_HELP_INC_000242	Dark Illusion
+IDS_CLIENT_HELP_INC_000243	Turn a character invisible for a short time.
+IDS_CLIENT_HELP_INC_000244	Junk Arrow
+IDS_CLIENT_HELP_INC_000245	This skill shoots many arrows wildly.
+IDS_CLIENT_HELP_INC_000246	Fast walker
+IDS_CLIENT_HELP_INC_000247	Moving speed will be increased in a short time.
+IDS_CLIENT_HELP_INC_000248	Aimed shot
+IDS_CLIENT_HELP_INC_000249	A Chance to deal double damage.
+IDS_CLIENT_HELP_INC_000250	Slow step
+IDS_CLIENT_HELP_INC_000251	You can decrease the moving speed of enemy with a certain probability when you use Yo-yo
+IDS_CLIENT_HELP_INC_000252	Silent Shot
+IDS_CLIENT_HELP_INC_000253	Your attack speed is increased when this skill is used. If you are in Dark Illusion, your damage will be increased.
+IDS_CLIENT_HELP_INC_000254	Perfect Block
+IDS_CLIENT_HELP_INC_000255	Blocking rate will be increased.
+IDS_CLIENT_HELP_INC_000256	Arrow Rain
+IDS_CLIENT_HELP_INC_000257	A rain of arrows will fall on surrounding enemies
+IDS_CLIENT_HELP_INC_000258	Cross Line
+IDS_CLIENT_HELP_INC_000259	Gather energy into your Yo-yo and strike an enemy with a cross attack.
+IDS_CLIENT_HELP_INC_000260	Auto Shot
+IDS_CLIENT_HELP_INC_000261	Shoot several arrows at once. Has a chance to blind an enemy.
+IDS_CLIENT_HELP_INC_000262	Snitch
+IDS_CLIENT_HELP_INC_000263	Steal some Penya with a strong attack. This only works when you are behind the enemy and in Dark Illusion status.
+IDS_CLIENT_HELP_INC_000264	Counterattack
+IDS_CLIENT_HELP_INC_000265	Evade from the enemy attack and strike back.
+IDS_CLIENT_HELP_INC_000266	Deadly swing
+IDS_CLIENT_HELP_INC_000267	Critical attack with Yo-yo. Also has a chance to cause the enemy to bleed. 
+IDS_CLIENT_HELP_INC_000268	Pulling
+IDS_CLIENT_HELP_INC_000269	Pulls a target to you.
+IDS_CLIENT_HELP_INC_000270	Assist
+IDS_CLIENT_HELP_INC_000271	Professinal healer, buffers, and overall support class.
+IDS_CLIENT_HELP_INC_000272	placholder 29
+IDS_CLIENT_HELP_INC_000273	Healing
+IDS_CLIENT_HELP_INC_000274	Primary heal spell. Recovers the target's HP
+IDS_CLIENT_HELP_INC_000275	Patience
+IDS_CLIENT_HELP_INC_000276	Increases the target’s maximum HP.
+IDS_CLIENT_HELP_INC_000277	Resurrection
+IDS_CLIENT_HELP_INC_000278	Revives the targeted player recovering a small amount of HP. 
+IDS_CLIENT_HELP_INC_000279	Circle Healing
+IDS_CLIENT_HELP_INC_000280	Heals party members within a specified range.
+IDS_CLIENT_HELP_INC_000281	Prevention
+IDS_CLIENT_HELP_INC_000282	A healing skill that causes automatic HP recovery when lost.
+IDS_CLIENT_HELP_INC_000283	Quick Step
+IDS_CLIENT_HELP_INC_000284	Increases the target’s moving ability. The higher the level, the faster the target walks.
+IDS_CLIENT_HELP_INC_000285	Haste
+IDS_CLIENT_HELP_INC_000286	Increases targets attack speed greatly.
+IDS_CLIENT_HELP_INC_000287	Cat's Reflex
+IDS_CLIENT_HELP_INC_000288	Increases the target’s evasion rate.
+IDS_CLIENT_HELP_INC_000289	Cannonball
+IDS_CLIENT_HELP_INC_000290	Increase targets dexterity greatly for a short time.
+IDS_CLIENT_HELP_INC_000291	Mental Sign
+IDS_CLIENT_HELP_INC_000292	Increase targets intelligence greatly for a short time.
+IDS_CLIENT_HELP_INC_000293	Heap Up
+IDS_CLIENT_HELP_INC_000294	Increase targets stamina greatly for a short time.
+IDS_CLIENT_HELP_INC_000295	Beef Up
+IDS_CLIENT_HELP_INC_000296	Increase targets strength greatly for a short time.
+IDS_CLIENT_HELP_INC_000297	Accuracy
+IDS_CLIENT_HELP_INC_000298	Increase the target’s hit ratio for a short time.
+IDS_CLIENT_HELP_INC_000299	Straight Punch
+IDS_CLIENT_HELP_INC_000300	A knuckle hammer skill that strikes the enemy with a concentrated attack. 
+IDS_CLIENT_HELP_INC_000301	Stone Hand
+IDS_CLIENT_HELP_INC_000302	Adds a chance for stun to knuckle attacks.
+IDS_CLIENT_HELP_INC_000303	Burst Crack
+IDS_CLIENT_HELP_INC_000304	Smashes the ground and inflicts damage to enemies within the surrounding area
+IDS_CLIENT_HELP_INC_000305	Power Fist
+IDS_CLIENT_HELP_INC_000306	Inflicts strong knuckle-based damage
+IDS_CLIENT_HELP_INC_000307	Magician
+IDS_CLIENT_HELP_INC_000308	Magicians control powerful elemental magic with the use of wands or staves. Magicians benefit from high intelligence. 
+IDS_CLIENT_HELP_INC_000309	placholder 30
+IDS_CLIENT_HELP_INC_000310	Mental Strike
+IDS_CLIENT_HELP_INC_000311	Deals non elemental magic damage to the target. Damage dealt varies by the difference of INT between the caster and the target. 
+IDS_CLIENT_HELP_INC_000312	Blinkpool
+IDS_CLIENT_HELP_INC_000313	Teleports the user in a specified location within the limited range. The range increases as the skill level goes up.
+IDS_CLIENT_HELP_INC_000314	Fire Ball
+IDS_CLIENT_HELP_INC_000315	Fire spell that enables the caster to ball of fire to its target causing basic fire damage.
+IDS_CLIENT_HELP_INC_000316	Hot Air
+IDS_CLIENT_HELP_INC_000317	Inflicts intermediate fire damage to the target with a DOT (Damage Over Time) effect.
+IDS_CLIENT_HELP_INC_000318	Fire Strike
+IDS_CLIENT_HELP_INC_000319	A strong fireball engulfs the enemy, dealing heavy fire damage. Also causes the enemy to burn.
+IDS_CLIENT_HELP_INC_000320	Swordwind
+IDS_CLIENT_HELP_INC_000321	Wind spell that enables a player to form and throw a violent wind causing basic wind damage.
+IDS_CLIENT_HELP_INC_000322	Strongwind
+IDS_CLIENT_HELP_INC_000323	A tornado of wind deals medium damage to the target. Also knocks them back for a short time.
+IDS_CLIENT_HELP_INC_000324	Wind Cutter
+IDS_CLIENT_HELP_INC_000325	A blade of wind that deals medium damage to the target.
+IDS_CLIENT_HELP_INC_000326	Ice Missile
+IDS_CLIENT_HELP_INC_000327	Inflicts basic water damage with a chance of slowing down the target’s movement.
+IDS_CLIENT_HELP_INC_000328	Waterball
+IDS_CLIENT_HELP_INC_000329	Shoots balls of water at the target, dealing medium damage. The number of balls fired increases as the skill level increases.
+IDS_CLIENT_HELP_INC_000330	Springwater
+IDS_CLIENT_HELP_INC_000331	A spell that throws columns of water at the target, dealing a large amount of damage.
+IDS_CLIENT_HELP_INC_000332	Lightning Ball
+IDS_CLIENT_HELP_INC_000333	Lightning spell that gathers static electricity forming a small ball causing basic lightning damage.
+IDS_CLIENT_HELP_INC_000334	Lightning Parm
+IDS_CLIENT_HELP_INC_000335	Deals a medium amount of lightning damage to the target.
+IDS_CLIENT_HELP_INC_000336	Lightning Shock
+IDS_CLIENT_HELP_INC_000337	Lightning strikes the enemy, shocking them for a period of time.
+IDS_CLIENT_HELP_INC_000338	Spike Stone
+IDS_CLIENT_HELP_INC_000339	Inflicts an earth elemental damage to the opponent. It also has a chance of stunning the target.
+IDS_CLIENT_HELP_INC_000340	Rock Crash
+IDS_CLIENT_HELP_INC_000341	Drops a huge rock on the enemy.
+IDS_CLIENT_HELP_INC_000342	Looting
+IDS_CLIENT_HELP_INC_000343	Using the power of the earth, has a certain chance to stop the enemy.
+IDS_CLIENT_HELP_INC_000344	Power Stomp
+IDS_CLIENT_HELP_INC_000345	Hits the ground with the handle of the axe. The shock wave deals damage to all nearby enemies, and also has a chance to stun them.
+IDS_CLIENT_HELP_INC_000346	Knight
+IDS_CLIENT_HELP_INC_000347	The first job class for Mercenaries, uses 2-handed swords and axes, and has increased defense from heavy armor.
+IDS_CLIENT_HELP_INC_000348	Charge
+IDS_CLIENT_HELP_INC_000349	Attacks the enemy in front with a huge swing, going from bottom to top.
+IDS_CLIENT_HELP_INC_000350	Earth Divider
+IDS_CLIENT_HELP_INC_000351	Attacks the enemy in front with a huge swing, going from top to bottom.
+IDS_CLIENT_HELP_INC_000352	Pain Dealer
+IDS_CLIENT_HELP_INC_000353	Attacks the enemy with an axe, and also reduces the enemies defense.
+IDS_CLIENT_HELP_INC_000354	Guard
+IDS_CLIENT_HELP_INC_000355	Increases the characters defense and reduces the characters attack power.
+IDS_CLIENT_HELP_INC_000356	Rage
+IDS_CLIENT_HELP_INC_000357	Increases the characters attack power and HP, and reduces the characters defense.
+IDS_CLIENT_HELP_INC_000358	Pain Reflection
+IDS_CLIENT_HELP_INC_000359	Reflects a certain amount of damage back at the target.
+IDS_CLIENT_HELP_INC_000360	Power Swing
+IDS_CLIENT_HELP_INC_000361	A huge horizontal swing that deals damage, and knocks enemies back.
+IDS_CLIENT_HELP_INC_000362	Blade
+IDS_CLIENT_HELP_INC_000363	The second job class for Mercenaries, they use swords and axes, just like a Mercenary. They can dual-wield, and specialize in fast attack speeds.
+IDS_CLIENT_HELP_INC_000364	Silent Strike
+IDS_CLIENT_HELP_INC_000365	Uses speed to slash through the enemy.
+IDS_CLIENT_HELP_INC_000366	Blade Dance
+IDS_CLIENT_HELP_INC_000367	Uses both swords to attack all enemies around the wielder.
+IDS_CLIENT_HELP_INC_000368	Spring Attack
+IDS_CLIENT_HELP_INC_000369	Deals 4 strikes in a row with axes in each hand.
+IDS_CLIENT_HELP_INC_000370	Hawk Attack
+IDS_CLIENT_HELP_INC_000371	Jumps, striking the enemy with both weapons. Deals massive damage and blinds the enemy for a certain period of time. Can only be done with axes.
+IDS_CLIENT_HELP_INC_000372	Armor Penetrate
+IDS_CLIENT_HELP_INC_000373	An attack that ignores the enemies defense.
+IDS_CLIENT_HELP_INC_000374	Berserk
+IDS_CLIENT_HELP_INC_000375	Temporarily raises attack power and attack speed, but can not use any skills for the duration of the spell. 
+IDS_CLIENT_HELP_INC_000376	Sonic Blade
+IDS_CLIENT_HELP_INC_000377	Gathers aura and transfers it to sword or axe in hand, and deals damage to the closest enemy.
+IDS_CLIENT_HELP_INC_000378	Cross Strike
+IDS_CLIENT_HELP_INC_000379	A strong attack is dealt to the enemy by attacking with both weapons at once.
+IDS_CLIENT_HELP_INC_000380	Jester
+IDS_CLIENT_HELP_INC_000381	The first job class for Acrobats, they specialize in strong attacks made with a Yo-yo.
+IDS_CLIENT_HELP_INC_000382	placholder 31
+IDS_CLIENT_HELP_INC_000383	Critical swing
+IDS_CLIENT_HELP_INC_000384	Increase the probability of a critical strike.
+IDS_CLIENT_HELP_INC_000385	Enchant Poison
+IDS_CLIENT_HELP_INC_000386	Plastering poison on the weapon to increase the normal damage and available to infect the enemy with poision
+IDS_CLIENT_HELP_INC_000387	Enchant Bleed
+IDS_CLIENT_HELP_INC_000388	Increase the normal damage with the bleeding attribute and available to make the enemy bleeding.
+IDS_CLIENT_HELP_INC_000389	Enchant Absorb
+IDS_CLIENT_HELP_INC_000390	You can drain the HP of enemy with striking.  The drain will be occurred with certain probability.
+IDS_CLIENT_HELP_INC_000391	Back Step
+IDS_CLIENT_HELP_INC_000392	When attacking from behind, deals a critical strike to the enemy. Also has a chance to stun the enemy.
+IDS_CLIENT_HELP_INC_000393	Penya Strike
+IDS_CLIENT_HELP_INC_000394	Uses a Yo-yo and a small amount of Penya to deal massive damage.
+IDS_CLIENT_HELP_INC_000395	Escape
+IDS_CLIENT_HELP_INC_000396	Enables character to escape from any movement impairing effects.
+IDS_CLIENT_HELP_INC_000397	Vital Stab
+IDS_CLIENT_HELP_INC_000398	While using Dark Illusion, allows for a sudden attack from the shadows.
+IDS_CLIENT_HELP_INC_000399	Ranger
+IDS_CLIENT_HELP_INC_000400	The second job class for Acrobats, they specialize in long distance attacks, mainly with a bow.
+IDS_CLIENT_HELP_INC_000401	placholder 32
+IDS_CLIENT_HELP_INC_000402	Fast Shot
+IDS_CLIENT_HELP_INC_000403	The attack sppeed will be increased for a certain time.
+IDS_CLIENT_HELP_INC_000404	Ice Arrow
+IDS_CLIENT_HELP_INC_000405	This skill causes an explosion of frost, slowing all enemies in a certain area for a certain period of time.
+IDS_CLIENT_HELP_INC_000406	Flame Arrow
+IDS_CLIENT_HELP_INC_000407	This skill causes an explosion of frost, slowing the enemy for a certain period of time.
+IDS_CLIENT_HELP_INC_000408	Piercing Arrow
+IDS_CLIENT_HELP_INC_000409	This skill pierces monsters who are a straight line, dealing damage to all of them.
+IDS_CLIENT_HELP_INC_000410	Poison Arrow
+IDS_CLIENT_HELP_INC_000411	The strong damage and continuous poisonous damage will be occurred simutaneously.
+IDS_CLIENT_HELP_INC_000412	Silent Arrow
+IDS_CLIENT_HELP_INC_000413	Deals strong damage and silences the target. While silenced, the target cannot cast spells of any kind.
+IDS_CLIENT_HELP_INC_000414	Nature
+IDS_CLIENT_HELP_INC_000415	Resistance against some elemental magic will be increased.
+IDS_CLIENT_HELP_INC_000416	Triple shot
+IDS_CLIENT_HELP_INC_000417	Triple arrows will be shot to deal strong damage.
+IDS_CLIENT_HELP_INC_000418	Ringmaster
+IDS_CLIENT_HELP_INC_000419	The first job class for Assists, uses a staff like an Assist. Focuses more on supporting party than damaging monsters.
+IDS_CLIENT_HELP_INC_000420	Protect
+IDS_CLIENT_HELP_INC_000421	This buff increases the physical defense of the target.
+IDS_CLIENT_HELP_INC_000422	Holy Guard
+IDS_CLIENT_HELP_INC_000423	This buff increases the elemental resistance or magical defense of the target.
+IDS_CLIENT_HELP_INC_000424	Holy Cross
+IDS_CLIENT_HELP_INC_000425	The enemy will take double damage.
+IDS_CLIENT_HELP_INC_000426	Spiriture Fortune
+IDS_CLIENT_HELP_INC_000427	Greatly increases your melee attack power for a period of time.
+IDS_CLIENT_HELP_INC_000428	Gebura Tiphreth
+IDS_CLIENT_HELP_INC_000429	Increases accuracy, speed and attack power for all party members within range.
+IDS_CLIENT_HELP_INC_000430	Gvur Tialla
+IDS_CLIENT_HELP_INC_000431	Cleanses any abnormal conditions.
+IDS_CLIENT_HELP_INC_000432	Heal Rain
+IDS_CLIENT_HELP_INC_000433	Recovers a large amount of HP for all party members.
+IDS_CLIENT_HELP_INC_000434	Merkaba Hanzelrusha
+IDS_CLIENT_HELP_INC_000435	Deals damage over time to all enemies in a certain area.
+IDS_CLIENT_HELP_INC_000436	Billposter
+IDS_CLIENT_HELP_INC_000437	The second job class for Assists, they use a knuckle hammer like Assists. They specialize in Critical attacks but have a slower attack speed.
+IDS_CLIENT_HELP_INC_000438	Belial Smashing
+IDS_CLIENT_HELP_INC_000439	A skill that delivers one powerful dashing punch.
+IDS_CLIENT_HELP_INC_000440	Blood Fist
+IDS_CLIENT_HELP_INC_000441	Strikes the enemy, making it bleed. Bleeding causes additional damage over time.
+IDS_CLIENT_HELP_INC_000442	Piercing Serpent
+IDS_CLIENT_HELP_INC_000443	Dashes forward with a burning fist, striking the enemy.
+IDS_CLIENT_HELP_INC_000444	Asmodeus
+IDS_CLIENT_HELP_INC_000445	Increases the attack power bonus of knuckles.
+IDS_CLIENT_HELP_INC_000446	Baraqijal Esna
+IDS_CLIENT_HELP_INC_000447	When the skill works, it reduces the monsters defense and increases the monsters attack power.
+IDS_CLIENT_HELP_INC_000448	Grvub Tialbold
+IDS_CLIENT_HELP_INC_000449	An energy wave deals damage to all monsters around the caster.
+IDS_CLIENT_HELP_INC_000450	Sonic Hand
+IDS_CLIENT_HELP_INC_000451	Uses a knuckle hammer to strike with deadly speed.
+IDS_CLIENT_HELP_INC_000452	Asalraalaikum
+IDS_CLIENT_HELP_INC_000453	Strikes the enemy with concentrated power, consumes all MP.
+IDS_CLIENT_HELP_INC_000454	Elementor
+IDS_CLIENT_HELP_INC_000455	The first job class for Magicians, they use staves like Magicians. They specialize in magic effecting large numbers of enemies at once.
+IDS_CLIENT_HELP_INC_000456	Firebird
+IDS_CLIENT_HELP_INC_000457	A fireball strikes the enemy.
+IDS_CLIENT_HELP_INC_000458	Burning Field
+IDS_CLIENT_HELP_INC_000459	Sheets of flame burn the enemy for a period of time.
+IDS_CLIENT_HELP_INC_000460	Fire Master
+IDS_CLIENT_HELP_INC_000461	Increases damage done by fire skills.
+IDS_CLIENT_HELP_INC_000462	Stone Spear
+IDS_CLIENT_HELP_INC_000463	A spear made of rock strikes the enemy.
+IDS_CLIENT_HELP_INC_000464	Earthquake
+IDS_CLIENT_HELP_INC_000465	Make a huge earthquake which deals a large amount of damage.
+IDS_CLIENT_HELP_INC_000466	Earth Master
+IDS_CLIENT_HELP_INC_000467	Increases damage done by earth skills.
+IDS_CLIENT_HELP_INC_000468	Void
+IDS_CLIENT_HELP_INC_000469	Strong Wind damage is dealt to a single target.
+IDS_CLIENT_HELP_INC_000470	Windfield
+IDS_CLIENT_HELP_INC_000471	A strong wind slows all enemies around the caster for a period of time.
+IDS_CLIENT_HELP_INC_000472	Wind Master
+IDS_CLIENT_HELP_INC_000473	Increases damage done by wind skills.
+IDS_CLIENT_HELP_INC_000474	Thunder Strike
+IDS_CLIENT_HELP_INC_000475	Strong Lightning damage is dealt to a single target.
+IDS_CLIENT_HELP_INC_000476	Electric Shock
+IDS_CLIENT_HELP_INC_000477	Deals lightning damage to all enemies around the caster, also lowering their defense temporarily.
+IDS_CLIENT_HELP_INC_000478	Lightning Master
+IDS_CLIENT_HELP_INC_000479	Increases damage done by lightning skills.
+IDS_CLIENT_HELP_INC_000480	Iceshark
+IDS_CLIENT_HELP_INC_000481	A shark made of ice strikes the enemy.
+IDS_CLIENT_HELP_INC_000482	Poison Cloud
+IDS_CLIENT_HELP_INC_000483	A poison cloud engulfs the enemy, dealing poison and wind damage.
+IDS_CLIENT_HELP_INC_000484	Water Master
+IDS_CLIENT_HELP_INC_000485	Increases damage done by water skills.
+IDS_CLIENT_HELP_INC_000486	Meteo Shower
+IDS_CLIENT_HELP_INC_000487	Meteors strike all the enemies in a certain area, dealing fire and earth damage.
+IDS_CLIENT_HELP_INC_000488	Lightning Storm
+IDS_CLIENT_HELP_INC_000489	Lightning and wind damage is dealt to all enemies in the area of effect.
+IDS_CLIENT_HELP_INC_000490	Sandstorm
+IDS_CLIENT_HELP_INC_000491	A sand storm strikes all the enemies in a certain area, dealing wind and earth damage.
+IDS_CLIENT_HELP_INC_000492	Avalanche
+IDS_CLIENT_HELP_INC_000493	A blizzard strikes all the enemies in a certain area, dealing earth and water damage as well as stunning them.
+IDS_CLIENT_HELP_INC_000494	Psykeeper
+IDS_CLIENT_HELP_INC_000495	The second job class for Magicians, they use a wand like a Magician. They specialize in magic attacks that assault the mind of the enemy.
+IDS_CLIENT_HELP_INC_000496	Demonology
+IDS_CLIENT_HELP_INC_000497	Deals damage to the mind of the enemy, by creating illusions of devils.
+IDS_CLIENT_HELP_INC_000498	Satanology
+IDS_CLIENT_HELP_INC_000499	Confuses the enemy, and binds them in place for a certain amount of time.
+IDS_CLIENT_HELP_INC_000500	Psychic Bomb
+IDS_CLIENT_HELP_INC_000501	Builds up spiritual power, and releases it to do massive damage.
+IDS_CLIENT_HELP_INC_000502	Spirit Bomb
+IDS_CLIENT_HELP_INC_000503	Collapse the spirit of the enemy, deals damage based on MP.
+IDS_CLIENT_HELP_INC_000504	Psychic Wall
+IDS_CLIENT_HELP_INC_000505	Creates a psychic barrier in front of the caster that the monster cannot pass.
+IDS_CLIENT_HELP_INC_000506	Crucio Spell
+IDS_CLIENT_HELP_INC_000507	Gives a certain chance to reflect skill and magic attacks, at double damage.
+IDS_CLIENT_HELP_INC_000508	Maximum Crisis
+IDS_CLIENT_HELP_INC_000509	If it works then it deals huge damage to the monster. If not, the caster takes the damage instead.
+IDS_CLIENT_HELP_INC_000510	Psychic Square
+IDS_CLIENT_HELP_INC_000511	Dazzles the monster and deals a large amount of damage.
+IDS_CLIENT_HELP_INC_000512	Information of the ability
+IDS_CLIENT_HELP_INC_000513	This explains the information of various abilities that can be increased by growth of character.
+IDS_CLIENT_HELP_INC_000514	Name
+IDS_CLIENT_HELP_INC_000515	The given name of the avatar/character.
+IDS_CLIENT_HELP_INC_000516	Job
+IDS_CLIENT_HELP_INC_000517	This shows the job/class that the player has chosen for his character.
+IDS_CLIENT_HELP_INC_000518	Level
+IDS_CLIENT_HELP_INC_000519	This increases according to the accumulated EXP gain, GP(Growing point) according to level up, and you can increases ability with GP.
+IDS_CLIENT_HELP_INC_000520	placholder 33
+IDS_CLIENT_HELP_INC_000521	placholder 34
+IDS_CLIENT_HELP_INC_000522	placholder 35
+IDS_CLIENT_HELP_INC_000523	placholder 36
+IDS_CLIENT_HELP_INC_000524	Strength
+IDS_CLIENT_HELP_INC_000525	Weapon attack rate increases except for wands.
+IDS_CLIENT_HELP_INC_000526	Stamina
+IDS_CLIENT_HELP_INC_000527	Affects HP, FP, Defense and HP/FP restoration rate.
+IDS_CLIENT_HELP_INC_000528	Dexterity
+IDS_CLIENT_HELP_INC_000529	Affects accuracy, attack speed, dodge rate, block rate, critical chance and bow attack power.
+IDS_CLIENT_HELP_INC_000530	Intelligence
+IDS_CLIENT_HELP_INC_000531	Affects maximum MP, MP restoration amount, magic power and magic defense.
+IDS_CLIENT_HELP_INC_000532	HP (life)
+IDS_CLIENT_HELP_INC_000533	This is the vitality of the character and the character will die if it reaches 0. You can recover it with food and pill items.
+IDS_CLIENT_HELP_INC_000534	MP (spirit)
+IDS_CLIENT_HELP_INC_000535	This is for using magic, you can revive it by drinking refresher.
+IDS_CLIENT_HELP_INC_000536	FP (endurance)
+IDS_CLIENT_HELP_INC_000537	This is needed to use physical skills. It can be replenished by resting/sitting down but it can be immediately recovered by using vitality drink items.
+IDS_CLIENT_HELP_INC_000538	EXP (experience)
+IDS_CLIENT_HELP_INC_000539	This is required to raise the level of a character. It can be earned by killing monsters or through quests.
+IDS_CLIENT_HELP_INC_000540	Skills
+IDS_CLIENT_HELP_INC_000541	Skills get stronger as you level and put more points into them.
+IDS_CLIENT_HELP_INC_000542	Stat points
+IDS_CLIENT_HELP_INC_000543	This is the point you get when you level up. You can distribute the points to your STR,STA,DEX, and INT.
+IDS_CLIENT_HELP_INC_000544	Extra ability
+IDS_CLIENT_HELP_INC_000545	placholder 37
+IDS_CLIENT_HELP_INC_000546	Attack
+IDS_CLIENT_HELP_INC_000547	This shows the Attack Capacity of a character. The character’s equipment and supportive skills cast on the character also influences this.
+IDS_CLIENT_HELP_INC_000548	Defense
+IDS_CLIENT_HELP_INC_000549	This shows the Defense Capacity of a character. The character’s equipment and supportive skills cast on the character also influences this.
+IDS_CLIENT_HELP_INC_000550	Critical hit rate
+IDS_CLIENT_HELP_INC_000551	This means how much chance you have to make a critical hit.
+IDS_CLIENT_HELP_INC_000552	Speed
+IDS_CLIENT_HELP_INC_000553	This shows the Attack Rate of a character when attacking.
+IDS_CLIENT_HELP_INC_000554	Resisting power
+IDS_CLIENT_HELP_INC_000555	This indicates how much “Reduced/Weakened magical damage” a character can receive.
+IDS_CLIENT_HELP_INC_000556	Properties
+IDS_CLIENT_HELP_INC_000557	There are 5 elemental properties or attributes that exist in FLYFF. Each of these properties has a strength and weakness. A player can achieve the highest possible damage when he uses a weapon which is imbued with the property that is the weakness of his enemy’s property.
+IDS_CLIENT_HELP_INC_000558	Fire
+IDS_CLIENT_HELP_INC_000559	Fire A property that is weak against the Wind property but is weak against the Water property.
+IDS_CLIENT_HELP_INC_000560	Water
+IDS_CLIENT_HELP_INC_000561	Water. A property that is as strong against the Fire Property but is weak against the Electricity property.
+IDS_CLIENT_HELP_INC_000562	Electricity
+IDS_CLIENT_HELP_INC_000563	A property that is strong against the Water Property but weak against the Earth Property.
+IDS_CLIENT_HELP_INC_000564	Earth
+IDS_CLIENT_HELP_INC_000565	earth A property that is strong against the Electricity Property but weak against the Wind Property.
+IDS_CLIENT_HELP_INC_000566	Wind
+IDS_CLIENT_HELP_INC_000567	A property that is strong against the Earth Property but weak against the Fire property.
+IDS_CLIENT_HELP_INC_000568	Enchant
+IDS_CLIENT_HELP_INC_000569	Upgrading means making the item more powerful. Each item can be upgraded 10 levels for both normal and elemental upgrades.  If the upgrade fails, there is no penalty between levels 1 and 3,  but from levels 4-10, there is a chance the item will be lost.
+IDS_CLIENT_HELP_INC_000570	Attribute Enchant
+IDS_CLIENT_HELP_INC_000571	placholder 38
+IDS_CLIENT_HELP_INC_000572	Fire Upgrade
+IDS_CLIENT_HELP_INC_000573	When you refine an item with the Fire property, you’ll need a Fire Property Card. When an item is imbued with the Fire Property the item becomes weak to Wind but stronger against Water.
+IDS_CLIENT_HELP_INC_000574	Water Upgrade
+IDS_CLIENT_HELP_INC_000575	When you refine an item with the Water property, you’ll need a Water Property Card. When an item is imbued with the Water Property the item becomes weak to Fire but stronger against Electricity.
+IDS_CLIENT_HELP_INC_000576	Electric Upgrade
+IDS_CLIENT_HELP_INC_000577	When you refine an item with the Electricity property, you’ll need an Electricity Property Card. When an item is imbued with the Electricity Property the item becomes weak to Water but stronger against Earth.
+IDS_CLIENT_HELP_INC_000578	Wind Upgrade
+IDS_CLIENT_HELP_INC_000579	When you refine an item with the Wind property, you’ll need a Wind Property Card. When an item is imbued with the Wind Property the item becomes weak to Earth but stronger against Fire.
+IDS_CLIENT_HELP_INC_000580	Earth Upgrade
+IDS_CLIENT_HELP_INC_000581	When you refine an item with the Earth property, you’ll need an Earth Property Card. When an item is imbued with the Earth Property the item becomes weak to Electricity but stronger against Wind.
+IDS_CLIENT_HELP_INC_000582	General Upgrade
+IDS_CLIENT_HELP_INC_000583	Normal upgrade means a non-element upgrade. Power Dice are required to upgrade, there are 5 types of Power Dice, 4, 6, 8, 10 and 12.
+IDS_CLIENT_HELP_INC_000584	Ultimate Weapon Upgrade
+IDS_CLIENT_HELP_INC_000585	You can make an Ultimate Weapon with a +10 upgraded unique weapon by using the Ultimate Weapon Upgrade. The maximum upgrade for an Ultimate weapon is up to +10 the same as any other item upgrade but it needs 'Shining Orikalkum'. The Ultimate upgrade is available only for weapons, and the item is destroyed in case of a failure. From +6 you are able to socket your weapon.
+IDS_CLIENT_HELP_INC_000586	placholder 39
+IDS_CLIENT_HELP_INC_000587	placholder 40
+IDS_CLIENT_HELP_INC_000588	placholder 41
+IDS_CLIENT_HELP_INC_000589	placholder 42
+IDS_CLIENT_HELP_INC_000590	placholder 43
+IDS_CLIENT_HELP_INC_000591	placholder 44
+IDS_CLIENT_HELP_INC_000592	placholder 45
+IDS_CLIENT_HELP_INC_000593	placholder 46
+IDS_CLIENT_HELP_INC_000594	placholder 47
+IDS_CLIENT_HELP_INC_000595	placholder 48
+IDS_CLIENT_HELP_INC_000596	Building
+IDS_CLIENT_HELP_INC_000597	Information about the buildings that provide services.
+IDS_CLIENT_HELP_INC_000598	Lodestar
+IDS_CLIENT_HELP_INC_000599	This is a structure that gathers spiritual life and resurrects players who died. It is located inside a city or a wide open clearing.
+IDS_CLIENT_HELP_INC_000600	Lodelight
+IDS_CLIENT_HELP_INC_000601	This is a structure that functions like a Lodestar but it resurrects a player in a place near the hunting grounds.
+IDS_CLIENT_HELP_INC_000602	Weapon shop
+IDS_CLIENT_HELP_INC_000603	This place sells weapons for the 1st job class such as vagrant, mercenary, and acrobat. It also sells weapons for the 2nd job class such as knight, blade, ringmaster, billposter, jester, and ranger.  
+IDS_CLIENT_HELP_INC_000604	Armor shop
+IDS_CLIENT_HELP_INC_000605	This place sells armor for Mercenaries, Assists, and Acrobats.
+IDS_CLIENT_HELP_INC_000606	Magic store
+IDS_CLIENT_HELP_INC_000607	This place sells weapons, armor, and magic items best suited for Magicians.
+IDS_CLIENT_HELP_INC_000608	Food shop
+IDS_CLIENT_HELP_INC_000609	This shop sells food items that help recover HP
+IDS_CLIENT_HELP_INC_000610	General merchandise
+IDS_CLIENT_HELP_INC_000611	This place sells Arrows, Posters, and those sorts of things.
+IDS_CLIENT_HELP_INC_000612	Public Office
+IDS_CLIENT_HELP_INC_000613	This place is for selling Perin, using your personal bank, and guild bank.
+IDS_CLIENT_HELP_INC_000614	Station
+IDS_CLIENT_HELP_INC_000615	This shop sells Flight related items like Flight gears as well as guide’s player on how to fly.
+IDS_CLIENT_HELP_INC_000616	Duel
+IDS_CLIENT_HELP_INC_000617	A duel is a battle between 2 players. This is different from PK. It is called PvP (Player Vs Player) which can only start when 2 players agree to a duel. A duel has no penalties associated with it.
+IDS_CLIENT_HELP_INC_000618	Fame
+IDS_CLIENT_HELP_INC_000619	You will gain the fame if you keep winning duels. You will also gain  different titles as well.
+IDS_CLIENT_HELP_INC_000620	Guild Combat Center
+IDS_CLIENT_HELP_INC_000621	This place is for applying and running guild sieges and 1 on 1 guild sieges. Only available on the 1st sub server.
+IDS_CLIENT_HELP_INC_000622	Other inquiries
+IDS_CLIENT_HELP_INC_000623	Please visit the official homepage:  flyff.gpotato.com for more inquiries. Have a nice day.
+IDS_CLIENT_HELP_INC_000624	Beauty shop
+IDS_CLIENT_HELP_INC_000625	You can change your hair style and color. The price varies based on the color and style you choose.
+IDS_CLIENT_HELP_INC_000626	Private Shop
+IDS_CLIENT_HELP_INC_000627	Items can be conveniently presented for sale to through this option. You can set the quantity and the price.
+IDS_CLIENT_HELP_INC_000628	Open the Start menu, select Personal Shop, and the Personal Shop window will appear.
+IDS_CLIENT_HELP_INC_000629	Drag the items you wish to sell from your inventory and drop them into the Personal Shop window.
+IDS_CLIENT_HELP_INC_000630	After dragging the item into the window, you can set the price for the item, and the quantity you wish to sell.
+IDS_CLIENT_HELP_INC_000631	Put a name in the Shop Name Window, and press OK. You can start selling items after that.
+IDS_CLIENT_HELP_INC_000632	Creating a guild
+IDS_CLIENT_HELP_INC_000633	Available to create a guild when your level reaches 40 by completing a quest through Public office NPC Helena. Once finished you and your party members will become a guild.
+IDS_CLIENT_HELP_INC_000634	Development of the guild
+IDS_CLIENT_HELP_INC_000635	Contributions and contributed Penya are necessary to raise a guild, not only by the guild master but also by the guild member's contribution through the guild bank. Contribution increases as you supply items to the guild bank and supply Penya in scheduled intervals.
+IDS_CLIENT_HELP_INC_000636	Joining a guild
+IDS_CLIENT_HELP_INC_000637	Initially only a Guild Master has the authority to invite guild members. But a Guild Leader can give authority to any guild member to recruit other members to his guild.
+IDS_CLIENT_HELP_INC_000638	Disbanding a guild
+IDS_CLIENT_HELP_INC_000639	The guild master can dismiss the guild by pressing the DISMISS button on the guild information window. Once the guild is dismissed, it takes 2 days before a new guild can be created.
+IDS_CLIENT_HELP_INC_000640	Managing guild members
+IDS_CLIENT_HELP_INC_000641	You can manage guild members with the member manage tab in the guild window such as promotion, demotion, nickname, kicking from guild, and guild master change. 
+IDS_CLIENT_HELP_INC_000642	Managing guild ranks
+IDS_CLIENT_HELP_INC_000643	You can manage titles in the title management tab in the guild window. You can set the authority of the title, degree, admission, access to items and monthly payment.
+IDS_CLIENT_HELP_INC_000644	Announcement
+IDS_CLIENT_HELP_INC_000645	You can make a notice by clicking the Notice button in the guild information tab in the guild window. Choose 'New' in the guild notice setting window and enter in your notice and click the Start button. If you want to modify the notice then click 'Edit' and make the appropriate changes. This is only available to the guild master.
+IDS_CLIENT_HELP_INC_000646	Guild logo
+IDS_CLIENT_HELP_INC_000647	The Guild Logo is the symbol or emblem of the guild. This can be chosen only once and only by the guild leader. To use this function, select Logo button in the guild information tab.
+IDS_CLIENT_HELP_INC_000648	Guild storage
+IDS_CLIENT_HELP_INC_000649	You can use the guild bank only on the 1st sub server. Anyone can deposit items and penya into the guild bank but only authorized guild members can withdraw items and penya from guild bank. Support Button is for supporting EXP and Penya to raise the guild, and the Cloak Button shows the guild logo.
+IDS_CLIENT_HELP_INC_000650	Auto guide
+IDS_CLIENT_HELP_INC_000651	The auto guide shows all the necessary information that a character needs to know in a certain level.
+IDS_CLIENT_HELP_INC_000652	Show
+IDS_CLIENT_HELP_INC_000653	You can choose whether to activate or deactivate the Guide when a new character first logs in. You can also choose among <Use Full Option>, <Do Not Use>, <Use Part of Opt> on the <Etc> menu in the <Option> menu, which is located in the <Start> menu.
+IDS_CLIENT_HELP_INC_000654	Hide
+IDS_CLIENT_HELP_INC_000655	To deactivate the Guide, right-click on the Info Pang and choose Hide. Also, you can choose <Do Not Use> or <Use Part of Opt> on the <Etc> menu in the <Option> menu, which is located in the <Start> menu.
+IDS_CLIENT_HELP_INC_000656	Duel among users
+IDS_CLIENT_HELP_INC_000657	This is a duel between 2 players.
+IDS_CLIENT_HELP_INC_000658	PvP
+IDS_CLIENT_HELP_INC_000659	It means a fight between characters by mutual agreement. Affects PVP fame and PVP point.
+IDS_CLIENT_HELP_INC_000660	Asking for PvP
+IDS_CLIENT_HELP_INC_000661	If you right-click with ALT key on the player whom you want to have duel with, you can have a duel with the player in case of that the user accepts that.
+IDS_CLIENT_HELP_INC_000662	In case of that you are the leader of your troupe and the clicked one is another leader of other troupe, you can have a group duel, if the other lead accept it.
+IDS_CLIENT_HELP_INC_000663	The result of PVP and Fame
+IDS_CLIENT_HELP_INC_000664	PVP fame and PVP point change according to PvP record.
+IDS_CLIENT_HELP_INC_000665	placholder 49
+IDS_CLIENT_HELP_INC_000666	placholder 50
+IDS_CLIENT_HELP_INC_000667	placholder 51
+IDS_CLIENT_HELP_INC_000668	placholder 52
+IDS_CLIENT_HELP_INC_000669	placholder 53
+IDS_CLIENT_HELP_INC_000670	placholder 54
+IDS_CLIENT_HELP_INC_000671	placholder 55
+IDS_CLIENT_HELP_INC_000672	placholder 56
+IDS_CLIENT_HELP_INC_000673	placholder 57
+IDS_CLIENT_HELP_INC_000674	placholder 58
+IDS_CLIENT_HELP_INC_000675	placholder 59
+IDS_CLIENT_HELP_INC_000676	placholder 60
+IDS_CLIENT_HELP_INC_000677	placholder 61
+IDS_CLIENT_HELP_INC_000678	placholder 62
+IDS_CLIENT_HELP_INC_000679	placholder 63
+IDS_CLIENT_HELP_INC_000680	placholder 64
+IDS_CLIENT_HELP_INC_000681	placholder 65
+IDS_CLIENT_HELP_INC_000682	placholder 66
+IDS_CLIENT_HELP_INC_000683	Server
+IDS_CLIENT_HELP_INC_000684	Guild bank and Guild sieges are available only at the 1st sub server of each server set.
+IDS_CLIENT_HELP_INC_000685	placholder 67
+IDS_CLIENT_HELP_INC_000686	placholder 68
+IDS_CLIENT_HELP_INC_000687	placholder 69
+IDS_CLIENT_HELP_INC_000688	placholder 70
+IDS_CLIENT_HELP_INC_000689	placholder 71
+IDS_CLIENT_HELP_INC_000690	placholder 72
+IDS_CLIENT_HELP_INC_000691	placholder 73
+IDS_CLIENT_HELP_INC_000692	placholder 74
+IDS_CLIENT_HELP_INC_000693	placholder 75
+IDS_CLIENT_HELP_INC_000694	placholder 76
+IDS_CLIENT_HELP_INC_000695	placholder 77
+IDS_CLIENT_HELP_INC_000696	placholder 78
+IDS_CLIENT_HELP_INC_000697	placholder 79
+IDS_CLIENT_HELP_INC_000698	placholder 80
+IDS_CLIENT_HELP_INC_000699	placholder 81
+IDS_CLIENT_HELP_INC_000700	placholder 82
+IDS_CLIENT_HELP_INC_000701	placholder 83
+IDS_CLIENT_HELP_INC_000702	placholder 84
+IDS_CLIENT_HELP_INC_000703	placholder 85
+IDS_CLIENT_HELP_INC_000704	placholder 86
+IDS_CLIENT_HELP_INC_000705	placholder 87
+IDS_CLIENT_HELP_INC_000706	placholder 88
+IDS_CLIENT_HELP_INC_000707	placholder 89	
+IDS_CLIENT_HELP_INC_000708	placholder 90
+IDS_CLIENT_HELP_INC_000709	placholder 91

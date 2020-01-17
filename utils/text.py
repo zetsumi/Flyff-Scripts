@@ -11,18 +11,18 @@ class Text:
         self.key = ""
         self.data = ""
 
-
-    def toString(self):
+    def to_string(self):
         value = str(self.key) + "\t" + str(self.data)
         return value
-
 
     def load(self, f):
         gLogger.set_section("text")
         gLogger.info("Loading: ", f)
+
         self.datas = dict()
         with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
+                print(line)
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
                 if "//" in line or len(line) <= 0 or line == "":
@@ -40,13 +40,12 @@ class Text:
                 if key != "" and key not in self.datas:
                     self.datas[key] = value
         gLogger.reset_section()
-        return self.datas
 
     def write_json(self, name):
         gLogger.set_section("text")
         gLogger.info("writing text", name, "JSON")
 
-        with open(g_project.path_json + 'text_' + name + '.json', 'w') as fd:
+        with open(g_project.path_json_text + 'text_' + name + '.json', 'w') as fd:
             json.dump(self.datas, fd, indent=4)
 
         gLogger.reset_section()

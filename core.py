@@ -167,7 +167,6 @@ def module_text():
     texts["mover"].load(g_project.file_text_propmover)
     texts["skill"].load(g_project.file_text_propskill)
     texts["troupeskill"].load(g_project.file_text_proptroupeskill)
-
     texts["dubear"].load(g_project.file_text_dubear)
     texts["dudadk"].load(g_project.file_text_dudadk)
     texts["dudreadfulcave"].load(g_project.file_text_dudreadfulcave)
@@ -260,105 +259,9 @@ def module_text():
     texts["wdvolcaneyellow"].load(g_project.file_text_wdvolcaneyellow)
     texts["world"].load(g_project.file_text_world)
 
+    for k in texts:
+        texts[k].write_json(k)
 
-    texts["ctrl"].write_json('ctrl')
-    texts["item"].write_json('item')
-    texts["karma"].write_json('karma')
-    texts["mover"].write_json('mover')
-    texts["skill"].write_json('skill')
-    texts["troupeskill"].write_json('troupeskill')
-
-    texts["dubear"].write_json("dubear")
-    texts["dudadk"].write_json("dudadk")
-    texts["dudreadfulcave"].write_json("dudreadfulcave")
-    texts["duflmas"].write_json("duflmas")
-    texts["dukrr"].write_json("dukrr")
-    texts["dumuscle"].write_json("dumuscle")
-    texts["duominous"].write_json("duominous")
-    texts["duominous_1"].write_json("duominous_1")
-    texts["durustia"].write_json("durustia")
-    texts["durustia_1"].write_json("durustia_1")
-    texts["dusatemple"].write_json("dusatemple")
-    texts["dusatempleboss"].write_json("dusatempleboss")
-    texts["wdarena"].write_json("wdarena")
-    texts["wdguildhouselarge"].write_json("wdguildhouselarge")
-    texts["wdguildhousemiddle"].write_json("wdguildhousemiddle")
-    texts["wdguildhousesmall"].write_json("wdguildhousesmall")
-    texts["wdguildwar"].write_json("wdguildwar")
-    texts["wdguildwar1to1"].write_json("wdguildwar1to1")
-    texts["wdheaven01"].write_json("wdheaven01")
-    texts["wdheaven02"].write_json("wdheaven02")
-    texts["wdheaven03"].write_json("wdheaven03")
-    texts["wdheaven04"].write_json("wdheaven04")
-    texts["wdheaven05"].write_json("wdheaven05")
-    texts["wdheaven06"].write_json("wdheaven06")
-    texts["wdheaven06_1"].write_json("wdheaven06_1")
-    texts["wdkebaras"].write_json("wdkebaras")
-    texts["wdmadrigal"].write_json("wdmadrigal")
-    texts["wdminiroom"].write_json("wdminiroom")
-    texts["wdquiz"].write_json("wdquiz")
-    texts["wdvolcane"].write_json("wdvolcane")
-    texts["wdvolcanered"].write_json("wdvolcanered")
-    texts["wdvolcaneyellow"].write_json("wdvolcaneyellow")
-    texts["faq"].write_json("faq")
-    texts["gameguard"].write_json("gameguard")
-    texts["guide"].write_json("guide")
-    texts["help"].write_json("help")
-    texts["instanthelp"].write_json("instanthelp")
-    texts["minigame_alphabet"].write_json("minigame_alphabet")
-    texts["patchclient"].write_json("patchclient")
-    texts["tip"].write_json("tip")
-    texts["treehelp"].write_json("treehelp")
-    texts["tutorial"].write_json("tutorial")
-    texts["character_etc"].write_json("character_etc")
-    texts["character_school"].write_json("character_school")
-    texts["character"].write_json("character")
-    texts["etc"].write_json("etc")
-    texts["honorlist"].write_json("honorlist")
-    texts["lordskill"].write_json("lordskill")
-    texts["patroldestination"].write_json("patroldestination")
-    texts["propitemetc"].write_json("propitemetc")
-    texts["propmotion"].write_json("propmotion")
-    texts["propquest_dungeonandpk"].write_json("propquest_dungeonandpk")
-    texts["propquest_requestbox"].write_json("propquest_requestbox")
-    texts["propquest_requestbox2"].write_json("propquest_requestbox2")
-    texts["propquest_scenario"].write_json("propquest_scenario")
-    texts["propquest"].write_json("propquest")
-    texts["questdestination"].write_json("questdestination")
-    texts["resdata"].write_json("resdata")
-    texts["textclient"].write_json("textclient")
-    texts["textemotion"].write_json("textemotion")
-    texts["dubear"].write_json("dubear")
-    texts["dudadk"].write_json("dudadk")
-    texts["dudreadfulcave"].write_json("dudreadfulcave")
-    texts["duflmas"].write_json("duflmas")
-    texts["dukrr"].write_json("dukrr")
-    texts["dumuscle"].write_json("dumuscle")
-    texts["duominous"].write_json("duominous")
-    texts["duominous_1"].write_json("duominous_1")
-    texts["durustia"].write_json("durustia")
-    texts["durustia_1"].write_json("durustia_1")
-    texts["dusatempleboss"].write_json("dusatempleboss")
-    texts["wdarena"].write_json("wdarena")
-    texts["wdguildhouselarge"].write_json("wdguildhouselarge")
-    texts["wdguildhousemiddle"].write_json("wdguildhousemiddle")
-    texts["wdguildhousesmall"].write_json("wdguildhousesmall")
-    texts["wdguildwar"].write_json("wdguildwar")
-    texts["wdheaven01"].write_json("wdheaven01")
-    texts["wdheaven02"].write_json("wdheaven02")
-    texts["wdheaven03"].write_json("wdheaven03")
-    texts["wdheaven04"].write_json("wdheaven04")
-    texts["wdheaven05"].write_json("wdheaven05")
-    texts["wdheaven06"].write_json("wdheaven06")
-    texts["wdheaven06_1"].write_json("wdheaven06_1")
-    texts["wdkebaras"].write_json("wdkebaras")
-    texts["wdmadrigal"].write_json("wdmadrigal")
-    texts["wdminiroom"].write_json("wdminiroom")
-    texts["wdquiz"].write_json("wdquiz")
-    texts["wdvolcane"].write_json("wdvolcane")
-    texts["wdvolcanered"].write_json("wdvolcanered")
-    texts["wdvolcaneyellow"].write_json("wdvolcaneyellow")
-    texts["world"].write_json("world")
 
 
 def module_mdldyna():
@@ -455,34 +358,34 @@ if __name__ == "__main__":
     gLogger.set_section("core")
     gLogger.info("Running Flyff Properties ", g_project.version_binary)
 
-    if g_project.module["header"]["active"] is True:
-        module_header()
+    # if g_project.module["header"]["active"] is True:
+    #     module_header()
     if g_project.module["text"]["active"] is True:
         module_text()
-    if g_project.module["mdldyna"]["active"] is True:
-        module_mdldyna()
-    if g_project.module["mdlobj"]["active"] is True:
-        module_mdlobj()
-    if g_project.module["karma"]["active"] is True:
-        module_karma()
-    if g_project.module["ctrl"]["active"] is True:
-        module_ctrl()
-    if g_project.module["item"]["active"] is True:
-        module_item()
-    if g_project.module["skill"]["active"] is True:
-        module_skill()
-    if g_project.module["mover"]["active"] is True:
-        module_mover()
-    if g_project.module["world"]["active"] is True:
-        module_world()
-    if g_project.module["quest"]["active"] is True:
-        module_quest()
-    if g_project.module["drop"]["active"] is True:
-        module_drop()
-    if g_project.module["ai"]["active"] is True:
-        module_ai()
-    if g_project.module["event_monster"]["active"] is True:
-        module_event_monster()
+    # if g_project.module["mdldyna"]["active"] is True:
+    #     module_mdldyna()
+    # if g_project.module["mdlobj"]["active"] is True:
+    #     module_mdlobj()
+    # if g_project.module["karma"]["active"] is True:
+    #     module_karma()
+    # if g_project.module["ctrl"]["active"] is True:
+    #     module_ctrl()
+    # if g_project.module["item"]["active"] is True:
+    #     module_item()
+    # if g_project.module["skill"]["active"] is True:
+    #     module_skill()
+    # if g_project.module["mover"]["active"] is True:
+    #     module_mover()
+    # if g_project.module["world"]["active"] is True:
+    #     module_world()
+    # if g_project.module["quest"]["active"] is True:
+    #     module_quest()
+    # if g_project.module["drop"]["active"] is True:
+    #     module_drop()
+    # if g_project.module["ai"]["active"] is True:
+    #     module_ai()
+    # if g_project.module["event_monster"]["active"] is True:
+    #     module_event_monster()
 
     gLogger.info("process finished")
     gLogger.reset_section()

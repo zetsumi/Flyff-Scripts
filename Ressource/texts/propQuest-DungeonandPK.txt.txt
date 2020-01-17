@@ -1,0 +1,627 @@
+﻿IDS_PROPQUEST_DUNGEONANDPK_INC_000000	Dungeon
+IDS_PROPQUEST_DUNGEONANDPK_INC_000001	P.K
+IDS_PROPQUEST_DUNGEONANDPK_INC_000002	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000003	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000004	Hunt 200 Criminal Wagsaac.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000005	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000006	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000007	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000008	Hunting Criminal Wagsaacs will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000009	Return after hunting 200 Criminal Wagsaacs.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000010	Keep hunting Criminal Wagsaacs.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000011	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000012	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000013	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000014	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000015	Hunt 200 Criminall Mr. Pumpkin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000016	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000017	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000018	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000019	Hunting Criminal Mr. Pumpkin will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000020	Return after hunting 200 Criminal Mr. Pumpkin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000021	Keep hunting Criminal Mr. Pumpkin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000022	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000023	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000024	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000025	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000026	Hunt 200 Criminal Giggle Box.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000027	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000028	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000029	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000030	Hunting Criminal Giggle Box will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000031	Return after hunting 200 Criminal Giggle Box.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000032	Keep hunting Criminal Giggle Box.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000033	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000034	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000035	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000036	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000037	Hunt 200 Criminal Hobo.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000038	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000039	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000040	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000041	Hunting Criminal Hobo will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000042	Return after hunting 200 Criminal Hobo.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000043	Keep hunting Criminal Hobo.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000044	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000045	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000046	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000047	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000048	Hunt 200 Criminal Cardpuppet.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000049	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000050	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000051	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000052	Hunting Criminal Carpuppet will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000053	Return after hunting 200 Criminal Cardpuppet.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000054	Keep hunting Criminal Cardpuppet.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000055	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000056	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000057	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000058	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000059	Hunt 200 Criminal Basque.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000060	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000061	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000062	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000063	Hunting Criminal Baque will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000064	Return after hunting 200 Criminal Basque.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000065	Keep hunting Criminal Basque.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000066	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000067	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000068	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000069	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000070	Hunt 200 Criminal Leyena.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000071	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000072	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000073	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000074	Hunting Criminal Leyena will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000075	Return after hunting 200 Criminal Leyena.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000076	Keep hunting Criminal Leyena
+IDS_PROPQUEST_DUNGEONANDPK_INC_000077	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000078	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000079	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000080	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000081	Hunt 200 Criminal Steel Knight.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000082	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000083	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000084	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000085	Hunting Criminal Steel Knight will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000086	Return after hunting 200 Criminal Steel Knight.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000087	Keep hunting Criminal Steel Knight
+IDS_PROPQUEST_DUNGEONANDPK_INC_000088	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000089	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000090	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000091	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000092	Hunt 200 Criminal Volt.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000093	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000094	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000095	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000096	Hunting Criminal Volt will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000097	Return after hunting 200 Criminal Volt.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000098	Keep hunting Criminal Volt.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000099	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000100	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000101	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000102	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000103	Hunt 200 Criminal Garbagepider.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000104	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000105	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000106	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000107	Hunting Criminal Garbagepider will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000108	Return after hunting 200 Criminal Garbagepider.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000109	Keep hunting Criminal Garbagepider
+IDS_PROPQUEST_DUNGEONANDPK_INC_000110	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000111	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000112	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000113	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000114	Hunt 200 Criminal Greemong.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000115	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000116	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000117	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000118	Hunting Criminal Greemong will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000119	Return after hunting 200 Criminal Greemong.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000120	Keep hunting Criminal Greemong
+IDS_PROPQUEST_DUNGEONANDPK_INC_000121	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000122	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000123	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000124	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000125	Hunt 200 Criminal Hoppre.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000126	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000127	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000128	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000129	Hunting Criminal Hoppre will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000130	Return after hunting 200 Criminal Hoppre.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000131	Keep hunting Criminal Hoppre.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000132	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000133	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000134	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000135	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000136	Hunt 200 Criminal Iren.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000137	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000138	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000139	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000140	Hunting Criminal Iren will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000141	Return after hunting 200 Criminal Iren.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000142	Keep hunting Criminal Iren.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000143	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000144	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000145	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000146	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000147	Hunt 200 Criminal Watangka.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000148	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000149	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000150	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000151	Hunting Criminal Watangka will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000152	Return after hunting 200 Criminal Watangka.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000153	Keep hunting Criminal Watangka
+IDS_PROPQUEST_DUNGEONANDPK_INC_000154	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000155	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000156	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000157	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000158	Hunt 200 Criminal Luia.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000159	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000160	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000161	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000162	Hunting Criminal Luia will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000163	Return after hunting 200 Criminal Luia.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000164	Keep hunting Criminal Luia
+IDS_PROPQUEST_DUNGEONANDPK_INC_000165	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000166	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000167	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000168	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000169	Hunt 200 Criminal Shuhamma.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000170	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000171	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000172	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000173	Hunting Criminal Shuhamma will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000174	Return after hunting 200 Criminal Shuhamma.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000175	Keep hunting Criminal Shuhamma.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000176	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000177	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000178	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000179	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000180	Hunt 200 Criminal Glaphan.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000181	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000182	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000183	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000184	Hunting Criminal Glaphan will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000185	Return after hunting 200 Criminal Glaphan.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000186	Keep hunting Criminal Glaphan.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000187	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000188	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000189	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000190	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000191	Hunt 50 Criminal Wagsaac.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000192	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000193	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000194	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000195	Hunting Criminal Wagsaacs will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000196	Return after hunting 50 Criminal Wagsaac.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000197	Keep hunting Criminal Wagsaac.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000198	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000199	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000200	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000201	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000202	Hunt 50 Criminal Wagsaac Mr. Pumpkin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000203	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000204	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000205	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000206	Hunting Criminal Mr. Pumpkin will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000207	Return after hunting 50 Criminal Mr. Pumpkin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000208	Keep hunting Criminal Mr. Pumpkin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000209	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000210	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000211	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000212	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000213	Hunt 50 Criminal Giggle Box.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000214	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000215	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000216	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000217	Hunting Criminal Giggle Box will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000218	Return after hunting 50 Criminal Giggle Box.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000219	Keep hunting Criminal Giggle Box.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000220	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000221	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000222	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000223	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000224	Hunt 50 Criminal Hobo.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000225	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000226	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000227	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000228	Hunting Criminal Hobo will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000229	Return after hunting 50 Criminal Hobo.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000230	Keep hunting Criminal Hobo.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000231	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000232	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000233	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000234	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000235	Hunt 50 Criminal Cardpuppet.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000236	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000237	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000238	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000239	Hunting Criminal Cardpuppet will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000240	Return after hunting 50 Criminal Cardpuppet.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000241	Keep hunting Criminal Cardpuppet.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000242	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000243	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000244	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000245	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000246	Hunt 50 Criminal Basque.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000247	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000248	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000249	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000250	Hunting Criminal Basque will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000251	Return after hunting 50 Criminal Basque.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000252	Keep hunting Criminal Basque.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000253	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000254	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000255	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000256	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000257	Hunt 50 Criminal Leyena.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000258	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000259	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000260	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000261	Hunting Criminal Leyena will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000262	Return after hunting 50 Criminal Leyena.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000263	Keep hunting Criminal Leyena.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000264	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000265	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000266	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000267	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000268	Hunt 50 Criminal Steel Knight.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000269	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000270	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000271	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000272	Hunting Criminal Steel Knight will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000273	Return after hunting 50 Criminal Steel Knight.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000274	Keep hunting Criminal Steel Knight
+IDS_PROPQUEST_DUNGEONANDPK_INC_000275	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000276	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000277	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000278	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000279	Hunt 50 Criminal Volt.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000280	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000281	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000282	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000283	Hunting Criminal Volt will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000284	Return after hunting 50 Criminal Volt.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000285	Keep hunting Criminal Volt.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000286	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000287	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000288	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000289	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000290	Hunt 50 Criminal Garbagepider.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000291	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000292	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000293	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000294	Hunting Criminal Garbagepider will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000295	Return after hunting 50 Criminal Garbagepider.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000296	Keep hunting Criminal Garbagepider.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000297	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000298	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000299	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000300	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000301	Hunt 50 Criminal Greemong.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000302	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000303	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000304	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000305	Hunting Criminal Greemong will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000306	Return after hunting 50 Criminal Greemong.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000307	Keep hunting Criminal Greemong.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000308	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000309	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000310	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000311	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000312	Hunt 50 Criminal Hoppre.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000313	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000314	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000315	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000316	Hunting Criminal Hoppre will recover your Karma points
+IDS_PROPQUEST_DUNGEONANDPK_INC_000317	Return after hunting 50 Criminal Hoppre.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000318	Keep hunting Criminal Hoppre
+IDS_PROPQUEST_DUNGEONANDPK_INC_000319	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000320	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000321	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000322	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000323	Hunt 50 Criminal Iren.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000324	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000325	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000326	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000327	Hunting Criminal Iren will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000328	Return after hunting 50 Criminal Iren.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000329	Keep hunting Criminal Iren.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000330	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000331	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000332	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000333	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000334	Hunt 50 Criminal Watangka.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000335	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000336	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000337	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000338	Hunting Criminal Watangka will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000339	Return after hunting 50 Criminal Watangka.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000340	Keep hunting Criminal Watangka.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000341	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000342	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000343	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000344	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000345	Hunt 50 Criminal Luia.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000346	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000347	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000348	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000349	Hunting Criminal Luia will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000350	Return after hunting 50 Criminal Luia.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000351	Keep hunting Criminal Luia.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000352	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000353	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000354	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000355	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000356	Hunt 50 Criminal Shuhamma.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000357	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000358	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000359	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000360	Hunting Criminal Shuhamma will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000361	Return after hunting 50 Criminal Shuhamma.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000362	Keep hunting Criminal Shuhamma.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000363	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000364	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000365	Hunting Monsters to recover Karma
+IDS_PROPQUEST_DUNGEONANDPK_INC_000366	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000367	Hunt 50 Criminal Glaphan.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000368	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000369	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000370	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000371	Hunting Criminal Glaphan will recover your Karma points.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000372	Return after hunting 50 Criminal Glaphan.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000373	Keep hunting Criminal Glaphan.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000374	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000375	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000376	Get the Key to escape Kebaras Island
+IDS_PROPQUEST_DUNGEONANDPK_INC_000377	You can warp away from here at the Warp Zone but you need the Key. Are you ready to earn it?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000378	I will give you the Key if you can bring me 10 Beads of Sin. You can get the beads in the empty lot beside the campsite.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000379	How long until you are ready to leave this place?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000380	Here is the Key. Now go and never return.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000381	I will give you your freedom for only 10 beads. How could you pass on an offer like that?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000382	Keep gathering your beads.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000383	Gather 10 beads of sin in the empty lot beside of the campsite.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000384	Keeps Gathering Beads of Sin
+IDS_PROPQUEST_DUNGEONANDPK_INC_000385	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000386	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000387	Get the Key to escape Kebaras Island
+IDS_PROPQUEST_DUNGEONANDPK_INC_000388	You can warp away from here at the Warp Zone but you need the Key. Are you ready to earn it?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000389	I will give you the Key if you can bring me 30 Beads of Sin. You can get the beads in the empty lot beside the campsite.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000390	You are welcome to stay for as long as you would like.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000391	Here is the Key. Now go and never return.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000392	I will give you your freedom for only 30 beads. How could you pass on an offer like that?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000393	Keep gathering your beads.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000394	Gather 30 beads of sin in the empty lot beside of the campsite.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000395	Keeps Gathering Beads of Sin
+IDS_PROPQUEST_DUNGEONANDPK_INC_000396	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000397	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000398	Hunting Monsters(+2000)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000399	Your Karma can be redeemed. Are you ready to pay for your sins?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000400	Hunt 200 Criminal Peperns.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000401	You have yet to pay for your sins…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000402	Your quest has been accomplished. Your sins have been forgiven.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000403	If you are truly unwilling to fight for forgiveness, then there is no hope for you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000404	You have to hunt monsters to get back you Karma Point(+2000).
+IDS_PROPQUEST_DUNGEONANDPK_INC_000405	Hunt 200 Feferns which committed a lot of sin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000406	In the Progress of Hunting Feferns Which Committed A Lot of Sin
+IDS_PROPQUEST_DUNGEONANDPK_INC_000407	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000408	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000409	Hunting Monsters(Karma point will recover to 0)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000410	There is a quest for reducing your sin. Do you want to complete it?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000411	Then hunt 50 Peperns which commited a lot of sin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000412	Nobody knows when people can overcome their sin…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000413	Now I let you free from your sin because you complete your duty. Be nice from now on.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000414	It is meaningless if you do not want to expiate your sin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000415	You have to hunt monsters to get back you Karma Point(+2000).
+IDS_PROPQUEST_DUNGEONANDPK_INC_000416	Hunt 200 Feferns which committed a lot of sin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000417	In the Progress of Hunting Feferns Which Committed A Lot of Sin
+IDS_PROPQUEST_DUNGEONANDPK_INC_000418	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000419	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000420	Entering the Dekane Mine
+IDS_PROPQUEST_DUNGEONANDPK_INC_000421	You are really willing to enter the Dekane Mine?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000422	Then visit the Dwarpet, Rankashu, in front of the Dekane Mine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000423	Ha ha ha. Of course not. It is far too frightening.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000424	Here is the Mine Entrance Card. It is up to you to enter but I advise against it. You may die.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000425	Is it so hard to tell me what I want to know? Leave quickly.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000426	Visit the Dwarpet Rankashu and get the informatin Cell wanted.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000427	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000428	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000429	You have the Mine Entrance Card. Now to find out what everyone is so afraid of.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000430	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000431	Keakoon Mine (1)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000432	I am Drian son of Nevil, great chief of the original Keakoon. We were once friendly with the humans.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000433	We helped humans develop the mine long ago but when they left some of us were locked up by a new breed of Keakoons.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000434	My father is old and cannot last much longer in his prison. Please help me rescue him.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000435	The key to the cell where my is being kept has three pieces. These false Keakoons are inside, keeping them hidden. Go and bring them to me.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000436	How could you…? To think I thought to count you as a friend.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000437	Oh…Thank you…so much. I could never repay you fully. Thank you so much.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000438	You have to gather all three pieces of the Key.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000439	Hunt Keakoon and get all 3 pieces of the prison key.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000440	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000441	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000442	You have delivered all the pieces of the key but it looks like he still has something to say.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000443	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000444	Keakoon Mine (2)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000445	I still have a need for you. Would you help me yet again?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000446	You are a true friend. Take this key and free my father. I am not strong enough. Please.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000447	You show yourself to be no better than the fiends that imprisoned my father.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000448	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000449	My father is in a prison on the outskirts of Keakoon village. Please hurry he cannot last much longer.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000450	Rescue Nevil, father of Drian.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000451	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000452	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000453	You have saved Nevil. Go and talk to him.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000454	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000455	Keakoon in Mine(3)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000456	Many thanks, friend. You have done so much for us but would you do something more?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000457	Please bring me the seal that proves I am the one true Chief of the Keakoon. Would you also please bring me the package my son is keeping safe for me.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000458	What kind of person are you if you refuse to help those with less power than you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000459	Thank you. It is my great hope that Keakoon and human can thrive together once again. Take this ring as a gift.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000460	If, by any chance, you want more adventure visit Bernard in Darken. Be careful. I would hate for something to happen to you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000461	Hrmm… It might not be that dangerous for someone as strong as you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000462	Bring the seal of the chief amd the package that Drian is holding.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000463	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000464	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000465	You rescued Nevil, chief of the Keakoon. You can feel the secrets around this place. Maybe you can get some information from Bernard.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000466	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000467	Death Mine and Roaches (1)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000468	Hmm… Is that the ring of Nevil around your finger?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000469	Your strength has been proven then. Would you prove yourself further? The Roach is somehow connected to the death of people in the mine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000470	There is a mystery to be unlocked here. Would you bring me the blood of the Roach larva?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000471	Thank you. There are two kinds of Roach - Pinky and Blue. Break the eggs and hunt them down.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000472	There will be no revelation without danger.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000473	Ahh, there is much to be learned from the blood of these Roaches.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000474	No! No! No! Bring me more information! 
+IDS_PROPQUEST_DUNGEONANDPK_INC_000475	Bring the blood of Roaches by destroying their eggs.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000476	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000477	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000478	Looks like he still has a need of you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000479	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000480	Death Mine and Roaches (2)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000481	The toxicity of Roaches has poisoned many humans in the mine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000482	It seems that the Roach Queens are the source of the poison.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000483	Bring me the blood of Pinky and Blue Roach Queens so that I can make a vaccine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000484	Sprinkle this liquid on the Roach Queen egg to wake her up. Be careful.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000485	You really will not see this through to the end?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000486	This vaccine will save many lives. Thank you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000487	Take this weapon as a token of grattitude and this card to venture deeper into the mine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000488	The Roaches appeared very suddenly in the mine. Maybe you can find out the reason by going deeper into the mine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000489	I am sure that you can handle the upcoming danger.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000490	Gather the blood of Pinky and Blue Roach Queen.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000491	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000492	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000493	Something about the way Bernard talks suggessts that the Roaches were placed in the mines intentionally. Maybe you can find out.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000494	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000495	Dwarpet Kazen
+IDS_PROPQUEST_DUNGEONANDPK_INC_000496	What brings you here? I am sure you know of the many deaths surrounding this place.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000497	You will not be able to find out what happened here without my help. I will tell you what you want to know if you do me a favor. What do you think?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000498	Bring me 30 Cillin and I will tell you everything you need to know.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000499	Pssh, some great hero, you cannot even bring me some simple stones.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000500	Hmm…I did not think you would be back so soon. Take this money as a gift.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000501	I said 30. Not 29 or 28. Bring me 30 Cillin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000502	Gather 30 Cillin.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000503	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000504	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000505	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000506	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000507	Bring Ribenuum.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000508	I am here in Dekane mining for Ribenuum. In all of Madrigal Ribenuum can only be found in the Darkon area.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000509	Ribenuum is made when a Green Trillipy eats a stone and metabolizes it.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000510	Would you bring me some Ribenuum? A Green Tillipy is dangerous but you look equally as dangerous.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000511	Green Trillipy are in the room to the right of the exit of the mine. The room to the left is blocked.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000512	Are you kidding me? Go on and get out of here, I may not look it but I am an old Dwarpet and I do not have time for games.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000513	Ahhh...you brought the Ribenuum. But what is this? It is flawed!
+IDS_PROPQUEST_DUNGEONANDPK_INC_000514	How hard is it to bring me what I asked for? 30 pieces of Ribenuum?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000515	Gather 30 pieces of Ribenuum
+IDS_PROPQUEST_DUNGEONANDPK_INC_000516	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000517	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000518	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000519	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000520	Refine Ribenuum
+IDS_PROPQUEST_DUNGEONANDPK_INC_000521	The Ribenuum you brought is impure. I could take it home and refine it myself but the other Dwarpets would laugh me back to Flarine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000522	It will have to be refined in a human village then. There is only one human I trust to do it it right. There is man named Nein, he was one of the last humans to work in these mines. Maybe the very last human.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000523	Bring this Ribenuum to Nein and have him refine them. Then bring them back to me, would you?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000524	I heard that Nein lives somewhere in the Dead Walderness. He will refine the 30 pieces of impure Ribenuum into 10 pieces of high quality Ribenuum.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000525	Are you kidding me? Get lost! I do not have patience for games!
+IDS_PROPQUEST_DUNGEONANDPK_INC_000526	Oh…Thank you, thank you, thank you! Take this necklace and some money with you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000527	Hmmm…maybe I was asking too much of you. You can just go home.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000528	Gather 10 pieces of high quality Ribenuum
+IDS_PROPQUEST_DUNGEONANDPK_INC_000529	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000530	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000531	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000532	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000533	Bring Triduum
+IDS_PROPQUEST_DUNGEONANDPK_INC_000534	Ribenuum is useless to most humans. Maybe you have a Dwarpet friend you can give it to? Here, let me see it. These samples are too impure and even I cannot refine them without the right materials.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000535	I need a special metal called Triduum in order to refine this. You can get it by hunting Violet Trillipy but they live deep in the Dekane Mine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000536	Well…If you really need the Ribenuum refined bring me 20 Triduums. You are going to need a special ID card to go in there.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000537	Go and get an ID card from the guys I used to work with.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000538	Ha ha ha.You can do that if you need to. I hope you are not doing this for some Dwarpet.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000539	Here is your refined Ribenuum. But, a word of warning, if the Dwarpet Kazen asked you for this…he is thinking more than he is saying.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000540	Kazen has hated humans for as long as I have known him and him working with you means he is on to something big. You know…there is a rumor that he had a hand in all the deaths in that mine.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000541	You let me know if he is acting suspiciously. Maybe I can do something to help you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000542	Why not just let it go? Go home and get some rest.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000543	Get the ID card that will allow you into the room with the Violet Trillipy. Hunt them down and bring 20 pieces of Triduum to Nein.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000544	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000545	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000546	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000547	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000548	ID Card (1)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000549	What? You want to know where the Violet Trillipy live?  You seem so curious about this accursed mine. Unfortunately, there are not many people left who know much about it.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000550	Only a few of the mine workers go that deep into the mine. I know about them or the ID card they use to get down there. Oh! You would do better to visit Bernard.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000551	Would you please say Hi to Bernard for me?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000552	No, you are right. You should not be the next one to suffer.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000553	Violet Trillipy…. Do you mean you are going in there with them?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000554	Why not just relax and give it up?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000555	Find the mine workers and ask them where the ID card is.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000556	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000557	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000558	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000559	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000560	ID card (2)
+IDS_PROPQUEST_DUNGEONANDPK_INC_000561	Look, I have no problem giving you the ID card…I just do not want to see you die…But if you really insist, then fine. Hunt some Watangka and I will give you the card.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000562	If you can hunt Watangka you can probably hunt Violet Trillipy.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000563	Bye bye then! Take care of yourself…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000564	Hmm…Violet Trillipy may be stronger than Watangka.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000565	Alright, here is the ID card. Just make sure you come out of there alive. I do not need a guilty conscience.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000566	I guess we all get tired sometime.?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000567	Get the ID cards and hunt Violet Trillipy.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000568	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000569	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000570	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000571	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000572	Door of Dark
+IDS_PROPQUEST_DUNGEONANDPK_INC_000573	Excuse me. If you are not busy, would you please listen to my story? Have you ever heard of the Ivillis Temple?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000574	The Ivillis Temple was built by the followers of Ivillis, a leader from before the first age of Madrigal.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000575	The temple is located in the Fantasy Desert, in the southern part of Saint Morning.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000576	You see…every mayor has to explore all the Islands of Madrigal. In the course of these travels we have to visit the Ivillis Temple but.. I am so afraid.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000577	Would you please help me? I beg of you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000578	Thank you! Please, investigate the entrance of the temple for anything dangerous. Would you?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000579	I cannot force you to help me if you are busy. But maybe, when you have the time, you could come back and help me.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000580	Thank you, you did a great job.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000581	It is very easy to find the entrance of the temple in Fantasy Desert.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000582	Investigate the temple entrace.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000583	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000584	Temple of Crowns
+IDS_PROPQUEST_DUNGEONANDPK_INC_000585	Oh.. Back so soon? I am glad you are back but I am still so worried.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000586	I guess I am still worrying about the Ivillis Temple. I know you said that there is nothing to worry about but I still have a bad feeling about that place.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000587	Would you please help me once more? I will not be able to rest until I know for sure…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000588	I heard that there is a copy of the Ivillis Revelation in the temple. Please bring me a rubbed copy of it, I need to see what it says.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000589	..but I.. I..need your help…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000590	This…this is more shocking than I could have imagined. Bubble please protect us.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000591	There is a copy of the Ivillis Revelation in the Ivillis Temple. Bring a rubbed copy of it.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000592	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000593	The Revival
+IDS_PROPQUEST_DUNGEONANDPK_INC_000594	What should we do?! What should we do?!
+IDS_PROPQUEST_DUNGEONANDPK_INC_000595	I read the revelation and it speaks of the revival of Ivillis as the trigger to the end of the world!
+IDS_PROPQUEST_DUNGEONANDPK_INC_000596	If this is true, we have to stop it! This could be worse than the Hero Wars of long ago.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000597	You told me that you saw new types of masquerpets while you were getting the revelation right? I think that maybe…
+IDS_PROPQUEST_DUNGEONANDPK_INC_000598	..they are the scouts of the army of Ivillis. It looks like we may have to work together for a little while longer. Are you willing to help?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000599	Excellent. Go in to the temple and gather any information you can about the strange masquerpets.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000600	What?! Are you really going to stand by and let the world end? 
+IDS_PROPQUEST_DUNGEONANDPK_INC_000601	Hmm.. Ivillis Crasher.. So, that is one of the masquerpets? Alright, give me some time to study this information. Thank you.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000602	Any information about any marcquerpets is good.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000603	Go into the temple and gather any information you can.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000604	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000605	Into the Dark
+IDS_PROPQUEST_DUNGEONANDPK_INC_000606	Hi. I have studied the information you brought me and I have found that there is an altar in the Ivillis Temple. There is also evidence that there are masquerpets guarding the altar.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000607	Do you see? They do not want anyone to interupt the revival of Ivillis. We need to do something. We need to stop them!
+IDS_PROPQUEST_DUNGEONANDPK_INC_000608	Are you ready for one last journey into the dark?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000609	I knew you would be. There is a masquerpet name Ivillis Guarder. If you can defeat it, you can enter the altar.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000610	Are you serious? What could be more important than saving the world?
+IDS_PROPQUEST_DUNGEONANDPK_INC_000611	Great job, now you can enter the altar. I am counting on you to defeat to followers of Ivillis. We all are. Go to the altar now.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000612	I do not know exactly where Ivillis Guarder is. But we have to find it and destroy it.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000613	Defeat Ivillis Guarder and enter the altar.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000614	
+IDS_PROPQUEST_DUNGEONANDPK_INC_000615	If you can defeat the Ivillis Guarder you can enter the altar.
+IDS_PROPQUEST_DUNGEONANDPK_INC_000616
+IDS_PROPQUEST_DUNGEONANDPK_INC_000617 	Flaris 
+IDS_PROPQUEST_DUNGEONANDPK_INC_000618 	Saintmorning
+IDS_PROPQUEST_DUNGEONANDPK_INC_000619 	Darkon
+IDS_PROPQUEST_DUNGEONANDPK_INC_000620 	Harmonin
+IDS_PROPQUEST_DUNGEONANDPK_INC_000621 	Scenario
+IDS_PROPQUEST_DUNGEONANDPK_INC_000622 	General
+IDS_PROPQUEST_DUNGEONANDPK_INC_000623 	Request Office
+IDS_PROPQUEST_DUNGEONANDPK_INC_000624 	Event
+IDS_PROPQUEST_DUNGEONANDPK_INC_000625	Dekanes Dungeon
+IDS_PROPQUEST_DUNGEONANDPK_INC_000626	Ivillis Temple

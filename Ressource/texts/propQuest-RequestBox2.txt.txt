@@ -1,0 +1,31 @@
+﻿IDS_PROPQUEST_REQUESTBOX2_INC_000000	테스트 퀘스트
+IDS_PROPQUEST_REQUESTBOX2_INC_000001	퀘스트500
+IDS_PROPQUEST_REQUESTBOX2_INC_000002	집창촌
+IDS_PROPQUEST_REQUESTBOX2_INC_000003	이스가 고기 파티를 열게 되어서 의뢰소에 고기를 구울 수 있는 재료인 츄핌의 수집을 의뢰했습니다. 의뢰를 접수 하시겠어요?
+IDS_PROPQUEST_REQUESTBOX2_INC_000004	츄핌은 푸케푸케 무리에서 수집할 수 있어요. 부하 푸케푸케, 푸케푸케, 두목 푸케푸케, 거대 푸케푸케 모두에게서 수집 가능해요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000005	수집이 불가능 하다는 것이지요? 알겠습니다. 혹시 다시 의뢰를 접수하실 의향이 생기시면 저를 찾아 오세요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000006	수고하셨습니다. 의뢰를 성공적으로 수행하셨네요. 의뢰에 대한 보상입니다. 받으세요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000007	음 아직 츄핌을 다 모으지 못했나봐요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000008	빨리 구해서 가져다 주세요~
+IDS_PROPQUEST_REQUESTBOX2_INC_000009	이스가 고기 파티를 열기 위해서 고기를 구울 수 있는 재료인 츄핌의 수집을 의뢰했다.
+IDS_PROPQUEST_REQUESTBOX2_INC_000010	미키엘은 이 어려운 의뢰가 무사히 끝난 것을 기뻐하며 다시 본연의 임무인 의뢰 수집에 몰두한다.
+IDS_PROPQUEST_REQUESTBOX2_INC_000011	퀘스트501
+IDS_PROPQUEST_REQUESTBOX2_INC_000012	이스가 고기 파티를 열게 되어서 의뢰소에 고기를 구울 수 있는 재료인 츄핌의 수집을 의뢰했습니다. 의뢰를 접수 하시겠어요?
+IDS_PROPQUEST_REQUESTBOX2_INC_000013	의뢰를 접수 하시겠어요?
+IDS_PROPQUEST_REQUESTBOX2_INC_000014	츄핌은 푸케푸케 무리에서 수집할 수 있어요. 부하 푸케푸케, 푸케푸케, 두목 푸케푸케, 거대 푸케푸케 모두에게서 수집 가능해요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000015	수집이 불가능 하다는 것이지요? 알겠습니다. 혹시 다시 의뢰를 접수하실 의향이 생기시면 저를 찾아 오세요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000016	수고하셨습니다. 의뢰를 성공적으로 수행하셨네요. 의뢰에 대한 보상입니다. 받으세요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000017	음 아직 츄핌을 다 모으지 못했나봐요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000018	빨리 구해서 가져다 주세요~
+IDS_PROPQUEST_REQUESTBOX2_INC_000019	이스가 고기 파티를 열기 위해서 고기를 구울 수 있는 재료인 츄핌의 수집을 의뢰했다.
+IDS_PROPQUEST_REQUESTBOX2_INC_000020	미키엘은 이 어려운 의뢰가 무사히 끝난 것을 기뻐하며 다시 본연의 임무인 의뢰 수집에 몰두한다.
+IDS_PROPQUEST_REQUESTBOX2_INC_000021	멀티퀘스트
+IDS_PROPQUEST_REQUESTBOX2_INC_000022	이스가 고기 파티를 열게 되어서 의뢰소에 고기를 구울 수 있는 재료인 츄핌의 수집을 의뢰했습니다. 의뢰를 접수 하시겠어요?
+IDS_PROPQUEST_REQUESTBOX2_INC_000023	의뢰를 접수 하시겠어요?
+IDS_PROPQUEST_REQUESTBOX2_INC_000024	츄핌은 푸케푸케 무리에서 수집할 수 있어요. 부하 푸케푸케, 푸케푸케, 두목 푸케푸케, 거대 푸케푸케 모두에게서 수집 가능해요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000025	수집이 불가능 하다는 것이지요? 알겠습니다. 혹시 다시 의뢰를 접수하실 의향이 생기시면 저를 찾아 오세요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000026	수고하셨습니다. 의뢰를 성공적으로 수행하셨네요. 의뢰에 대한 보상입니다. 받으세요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000027	음 아직 츄핌을 다 모으지 못했나봐요.
+IDS_PROPQUEST_REQUESTBOX2_INC_000028	빨리 구해서 가져다 주세요~
+IDS_PROPQUEST_REQUESTBOX2_INC_000029	이스가 고기 파티를 열기 위해서 고기를 구울 수 있는 재료인 츄핌의 수집을 의뢰했다.
+IDS_PROPQUEST_REQUESTBOX2_INC_000030	미키엘은 이 어려운 의뢰가 무사히 끝난 것을 기뻐하며 다시 본연의 임무인 의뢰 수집에 몰두한다.

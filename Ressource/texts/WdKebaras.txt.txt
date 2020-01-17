@@ -1,0 +1,4 @@
+﻿IDS_WORLD_WDKEBARAS_WDKEBARAS_RGN_000000	Azria
+IDS_WORLD_WDKEBARAS_WDKEBARAS_RGN_000001	This is the town Kebaras. This place closed, please move to another place or teleport zone.
+IDS_WORLD_WDKEBARAS_WDKEBARAS_RGN_000002	Azria
+

@@ -1,0 +1,48 @@
+﻿IDS_CLIENT_FAQ_INC_000000	How can I be resurrected?
+IDS_CLIENT_FAQ_INC_000001	You can revive in the nearest town by choosing 'Lodestar' in the revive window. If you have a 'Scroll of Resurrection' or a resurrection skill is cast on you, you can revive instantly on the place you died.
+IDS_CLIENT_FAQ_INC_000002	Where are the monsters?
+IDS_CLIENT_FAQ_INC_000003	They are out in the fields. Make sure to fight only those that you can handle.
+IDS_CLIENT_FAQ_INC_000004	How can I designate a target and deselect it?
+IDS_CLIENT_FAQ_INC_000005	Double click a target with your mouse to attack it, click once just to target it, and click ESC to deselect it.
+IDS_CLIENT_FAQ_INC_000006	How can I attack continuously?
+IDS_CLIENT_FAQ_INC_000007	Continuously click the target to keep attacking or press and hold CTRL then left click to auto attack a target.
+IDS_CLIENT_FAQ_INC_000008	How do you use the skills?
+IDS_CLIENT_FAQ_INC_000009	Press K for the Skills menu and drag skill icons that you want to use into the action slot on the lower right side of your screen. 
+IDS_CLIENT_FAQ_INC_000010	How do you use the skills continuously?
+IDS_CLIENT_FAQ_INC_000011	Place skills in the action slot and press C when targeting something to use those skills. Moves that are shaped like puzzle pieces need to be placed together.
+IDS_CLIENT_FAQ_INC_000012	How do I gain my health back?
+IDS_CLIENT_FAQ_INC_000013	Food and certain other items will restore your health when you double click them. The amount of HP each item restores is noted in the item description.
+IDS_CLIENT_FAQ_INC_000014	How do I get a Job?
+IDS_CLIENT_FAQ_INC_000015	When you reach level 15, talk to Julia in Flarine to get your job transfer quests. The Mercenary and Assist quests start in Flaris, the Magician quest starts in Saint Morning, and the Acrobat quest starts in Darken.
+IDS_CLIENT_FAQ_INC_000016	How come I do not gain anymore experience at level 15.
+IDS_CLIENT_FAQ_INC_000017	When you reach level 15 and you can't gain EXP anymore, you have to complete your 1st job transfer quest to gain EXP again. Go see the job trainer and complete the quest for the job you want when you reach level 15.
+IDS_CLIENT_FAQ_INC_000018	
+IDS_CLIENT_FAQ_INC_000019	In case you cannot acquire a skill, check your character level and the preceding skill to make sure you meet the requirements for that skill.
+IDS_CLIENT_FAQ_INC_000020	How do I fly?
+IDS_CLIENT_FAQ_INC_000021	When you reach level 20 you can buy a board or broomstick from a player or NPC. Then equip the by double-clicking on it and you can fly.
+IDS_CLIENT_FAQ_INC_000022	How do I move the camera.
+IDS_CLIENT_FAQ_INC_000023	There are two main ways to move the camera. Old Version: Press and hold the mouse wheel. Then move the mouse around. New Version: Press and hold the right mouse button. Then move the mouse around. Use the mouse wheel to zoom in or out and to rotate your camera.
+IDS_CLIENT_FAQ_INC_000024	How do I return to my default camera position?
+IDS_CLIENT_FAQ_INC_000025	Old Version: Double click the mouse wheel. New Version: Double click the right mouse button.
+IDS_CLIENT_FAQ_INC_000026	While flying, the camera is hard to move.
+IDS_CLIENT_FAQ_INC_000027	While flying, double click on the right mouse button or use the arrow keys
+IDS_CLIENT_FAQ_INC_000028	How can I use Emoticons?
+IDS_CLIENT_FAQ_INC_000029	Click 'F9' to take a rest and click 'F9' again to stand up. You can also click 'O' and choose the sit emotion and drag it to your window.
+IDS_CLIENT_FAQ_INC_000030	How do you trade with other characters?
+IDS_CLIENT_FAQ_INC_000031	Left click on a character while holding down Alt and choose the Trade menu. Using items as well as dropping items, along with NPC shops, are not available while trading.
+IDS_CLIENT_FAQ_INC_000032	Where can I get a quest?
+IDS_CLIENT_FAQ_INC_000033	If you want to find out about taking on a quest you can do so by talking with the NPCs.
+IDS_CLIENT_FAQ_INC_000034	What is a duel?
+IDS_CLIENT_FAQ_INC_000035	It means a duel between players, or PvP (Player Vs Player) by mutual consent. There is no penalty for dueling.
+IDS_CLIENT_FAQ_INC_000036	How can I become famous?
+IDS_CLIENT_FAQ_INC_000037	The more you win tournament the more famous you become. If you become a high level player people will recognize you no matter where you are.
+IDS_CLIENT_FAQ_INC_000038	Someone asked for my password and other account information. Is it safe to give it to them?
+IDS_CLIENT_FAQ_INC_000039	PK and PK proposition rate increase as you continue to kill other players. It is the same concept with Chaos characters; you character will be penalized as your PK and PK proposition rate increase. A PK character's name is displayed in red. Your PK rate can be redeemed by completing a Confession quest.
+IDS_CLIENT_FAQ_INC_000040	If I encounter a bug, what can I do?
+IDS_CLIENT_FAQ_INC_000041	When you encounter any bugs please inform us by posting the bug on our forums at flyff.gpotato.com
+IDS_CLIENT_FAQ_INC_000042	What is a guild?
+IDS_CLIENT_FAQ_INC_000043	A Guild is a community that is much larger than a Party. Many functions are available as your guild level increases such as a Guild Bank, a Guild Cloak, and 1 on 1 Guild Battle.
+IDS_CLIENT_FAQ_INC_000044	Where can we form a guild?
+IDS_CLIENT_FAQ_INC_000045	To make a Guild, your character's level should be 40 or higher. Once you are level 40 go talk to NPC Helena in Saint Morning and complete the guild quest she gives you.
+IDS_CLIENT_FAQ_INC_000046	How about a Party?
+IDS_CLIENT_FAQ_INC_000047	You can form a party to casually join together with other players.

@@ -1,0 +1,1478 @@
+﻿IDS_PROPQUEST_REQUESTBOX_INC_000000	Consultant Agency
+IDS_PROPQUEST_REQUESTBOX_INC_000001	Party of Is
+IDS_PROPQUEST_REQUESTBOX_INC_000002	Is needs you to gather chumpim for her party. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000003	You can collect chupim from all kinds of Pukepuke
+IDS_PROPQUEST_REQUESTBOX_INC_000004	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000005	Well done, you have completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000006	You do not have enough chupim.
+IDS_PROPQUEST_REQUESTBOX_INC_000007	Is  asking you to collect chupim for her party.
+IDS_PROPQUEST_REQUESTBOX_INC_000008	Collect 5 chupim.
+IDS_PROPQUEST_REQUESTBOX_INC_000009	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000010	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000011	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000012	Unknown Situation (1)
+IDS_PROPQUEST_REQUESTBOX_INC_000013	Flaris Pang needs you collect unknown letters. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000014	You can collect unknown letters near a bridge in north.
+IDS_PROPQUEST_REQUESTBOX_INC_000015	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000016	Well done. You have successfully completed quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000017	You do not have enough unknown letters.
+IDS_PROPQUEST_REQUESTBOX_INC_000018	Flaris Pang wants you to collect unknown letters.
+IDS_PROPQUEST_REQUESTBOX_INC_000019	Collect 10 unknown letters.
+IDS_PROPQUEST_REQUESTBOX_INC_000020	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000021	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000022	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000023	Unknown Situation (1)
+IDS_PROPQUEST_REQUESTBOX_INC_000024	Flaris Pang needs you to collect unknown IDs. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000025	You can collect unknown IDs near the Bangs.
+IDS_PROPQUEST_REQUESTBOX_INC_000026	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000027	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000028	You do not have enough unknown IDs.
+IDS_PROPQUEST_REQUESTBOX_INC_000029	Flaris Pang wants you to collect unknown Cerificates.
+IDS_PROPQUEST_REQUESTBOX_INC_000030	Collect 10 unknown IDs
+IDS_PROPQUEST_REQUESTBOX_INC_000031	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000032	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000033	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000034	Flying Board
+IDS_PROPQUEST_REQUESTBOX_INC_000035	Diol needs you to collect peakyrinds. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000036	You can collect peakyrinds from all types of Peakyturtles.
+IDS_PROPQUEST_REQUESTBOX_INC_000037	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000038	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000039	You do not have enough peakyrinds.
+IDS_PROPQUEST_REQUESTBOX_INC_000040	Diol wants you to collect peakyrinds.
+IDS_PROPQUEST_REQUESTBOX_INC_000041	Collect 7 peakyrinds
+IDS_PROPQUEST_REQUESTBOX_INC_000042	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000043	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000044	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000045	Fresh Start for Teddy Bears
+IDS_PROPQUEST_REQUESTBOX_INC_000046	House of Children needs you to collect Teddy Bears for their children. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000047	You can collect Teddy Bears from all types of Demians.
+IDS_PROPQUEST_REQUESTBOX_INC_000048	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000049	Well done. You have successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000050	
+IDS_PROPQUEST_REQUESTBOX_INC_000051	House of Children wants you to collect  7 Teddy Bears.
+IDS_PROPQUEST_REQUESTBOX_INC_000052	Collect 7 Teddy Bears.
+IDS_PROPQUEST_REQUESTBOX_INC_000053	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000054	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000055	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000056	Gems for Wands
+IDS_PROPQUEST_REQUESTBOX_INC_000057	Madrigal Magician Union wants you to collect poporam for their wands. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000058	You can collect poporam from all type of Doridoma.
+IDS_PROPQUEST_REQUESTBOX_INC_000059	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000060	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000061	You do not have enough poporam.
+IDS_PROPQUEST_REQUESTBOX_INC_000062	Madrigal Magician Union wants you to collect 10 poporam.
+IDS_PROPQUEST_REQUESTBOX_INC_000063	Collect 10 poporams
+IDS_PROPQUEST_REQUESTBOX_INC_000064	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000065	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000066	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000067	Cookie Machine, Valin Baget
+IDS_PROPQUEST_REQUESTBOX_INC_000068	Valin needs you to collect fangs to fuel his Cookie Machine. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000069	You can collect fangs from all types of Lawolf.
+IDS_PROPQUEST_REQUESTBOX_INC_000070	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000071	Well done. You have successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000072	You do not have enough fangs.
+IDS_PROPQUEST_REQUESTBOX_INC_000073	Valin needs you to collect fangs for his cookie machine.
+IDS_PROPQUEST_REQUESTBOX_INC_000074	Collect 10 Fangs
+IDS_PROPQUEST_REQUESTBOX_INC_000075	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000076	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000077	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000078	Magic Quill
+IDS_PROPQUEST_REQUESTBOX_INC_000079	Mule wants you to collect tarin roots so he can make a new magic quill. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000080	You can collect tarinroot from all types of Fefern.
+IDS_PROPQUEST_REQUESTBOX_INC_000081	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000082	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000083	You do not have enough tarin roots.
+IDS_PROPQUEST_REQUESTBOX_INC_000084	Mule needs you to collect tarin roots.
+IDS_PROPQUEST_REQUESTBOX_INC_000085	Collect 12 tarin roots
+IDS_PROPQUEST_REQUESTBOX_INC_000086	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000087	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000088	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000089	Lyangglatang
+IDS_PROPQUEST_REQUESTBOX_INC_000090	Rooney wants you to collect nyanyangs for her party. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000091	You can collect nyanyang near the Giant Nyangnyang.
+IDS_PROPQUEST_REQUESTBOX_INC_000092	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000093	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000094	You do not have enough nyanyangs.
+IDS_PROPQUEST_REQUESTBOX_INC_000095	Rooney needs you to collect nyanyangs.
+IDS_PROPQUEST_REQUESTBOX_INC_000096	Collect 10 nyanyangs
+IDS_PROPQUEST_REQUESTBOX_INC_000097	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000098	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000099	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000100	10 Year anniversary gift
+IDS_PROPQUEST_REQUESTBOX_INC_000101	Marche wants you to collect starstones to make a 10 year anniversary gift. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000102	You can collect star stone from all types of Nyangnyang.
+IDS_PROPQUEST_REQUESTBOX_INC_000103	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000104	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000105	You do not have enough starstones.
+IDS_PROPQUEST_REQUESTBOX_INC_000106	Marche needs starstones
+IDS_PROPQUEST_REQUESTBOX_INC_000107	Collect 14 startstones
+IDS_PROPQUEST_REQUESTBOX_INC_000108	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000109	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000110	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000111	Liquor for Dunkan
+IDS_PROPQUEST_REQUESTBOX_INC_000112	Dunkan needs you to collect golden wings to make a new liquor. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000113	You can collect golden wing from all types of Bang.
+IDS_PROPQUEST_REQUESTBOX_INC_000114	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000115	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000116	You do not have enough golden wings.
+IDS_PROPQUEST_REQUESTBOX_INC_000117	Dunkan wants golden wings.
+IDS_PROPQUEST_REQUESTBOX_INC_000118	Collect 15 golden wings
+IDS_PROPQUEST_REQUESTBOX_INC_000119	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000120	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000121	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000122	Sweet Dessert
+IDS_PROPQUEST_REQUESTBOX_INC_000123	Daminan needs you to collect Blue Honey to make a new dessert. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000124	You can collect Blue Honey from all types of Wagsaac.
+IDS_PROPQUEST_REQUESTBOX_INC_000125	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000126	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000127	You do not have enough Blue Honey.
+IDS_PROPQUEST_REQUESTBOX_INC_000128	Damian needs Blue Honey
+IDS_PROPQUEST_REQUESTBOX_INC_000129	Collect 15 Blue Honeys
+IDS_PROPQUEST_REQUESTBOX_INC_000130	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000131	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000132	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000133	Blessed Doll
+IDS_PROPQUEST_REQUESTBOX_INC_000134	House of Children needs you to collect Mia Dolls as presents for the children. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000135	You can collect Mia Dolls from all types of Mia.
+IDS_PROPQUEST_REQUESTBOX_INC_000136	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000137	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000138	You do not have enough Mia Dolls.
+IDS_PROPQUEST_REQUESTBOX_INC_000139	House of Children wants Mia Dolls.
+IDS_PROPQUEST_REQUESTBOX_INC_000140	Collect 17 Mia Dolls
+IDS_PROPQUEST_REQUESTBOX_INC_000141	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000142	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000143	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000144	Lost Documents
+IDS_PROPQUEST_REQUESTBOX_INC_000145	Julia needs you to collect office documents stolen by the Mias. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000146	You can collect the office documents near Mias.
+IDS_PROPQUEST_REQUESTBOX_INC_000147	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000148	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000149	You do not have enough of the documents.
+IDS_PROPQUEST_REQUESTBOX_INC_000150	Julia wants the office documents that the mia stole.
+IDS_PROPQUEST_REQUESTBOX_INC_000151	Collect 20 documents
+IDS_PROPQUEST_REQUESTBOX_INC_000152	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000153	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000154	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000155	Brightly Burning Flame
+IDS_PROPQUEST_REQUESTBOX_INC_000156	Boboko needs you to collect furious matches to use at his blast furnace. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000157	You can collect furious matches from all types of Mr. Pumpkins.
+IDS_PROPQUEST_REQUESTBOX_INC_000158	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000159	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000160	You do not have enough furious matches.
+IDS_PROPQUEST_REQUESTBOX_INC_000161	Boboko wants furious matches
+IDS_PROPQUEST_REQUESTBOX_INC_000162	Collect 17 blast furnaces
+IDS_PROPQUEST_REQUESTBOX_INC_000163	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000164	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000165	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000166	Unknown Situation (2)
+IDS_PROPQUEST_REQUESTBOX_INC_000167	Flaris Pang needs you to collect unknown letters.
+IDS_PROPQUEST_REQUESTBOX_INC_000168	You can collect unknown let near a bridge in north.
+IDS_PROPQUEST_REQUESTBOX_INC_000169	You do not want to collect them. Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000170	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000171	You do not have enough unknown letters.
+IDS_PROPQUEST_REQUESTBOX_INC_000172	Flaris Pang needs unknown letters again.
+IDS_PROPQUEST_REQUESTBOX_INC_000173	Collect 30 unknown letters
+IDS_PROPQUEST_REQUESTBOX_INC_000174	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000175	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000176	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000177	Delicious Sauce
+IDS_PROPQUEST_REQUESTBOX_INC_000178	Kalin needs you to collect Cardrin to make delicious sauce.
+IDS_PROPQUEST_REQUESTBOX_INC_000179	You can collect Cardrin from all types of Red Mantis.
+IDS_PROPQUEST_REQUESTBOX_INC_000180	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000181	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000182	You do not have enough Cardrin.
+IDS_PROPQUEST_REQUESTBOX_INC_000183	Kalin wants Cardrin.
+IDS_PROPQUEST_REQUESTBOX_INC_000184	Collect 30 Cardrin.
+IDS_PROPQUEST_REQUESTBOX_INC_000185	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000186	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000187	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000188	Magic Orb
+IDS_PROPQUEST_REQUESTBOX_INC_000189	Martin needs Hammarble to make a magic orb. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000190	You can collect Hammarble from all types of Jack the Hammer.
+IDS_PROPQUEST_REQUESTBOX_INC_000191	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000192	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000193	You do not have enough Hammarbles.
+IDS_PROPQUEST_REQUESTBOX_INC_000194	Martin wants Hammarbles.
+IDS_PROPQUEST_REQUESTBOX_INC_000195	Collect 30 Hammarbles
+IDS_PROPQUEST_REQUESTBOX_INC_000196	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000197	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000198	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000199	Mark of Bill
+IDS_PROPQUEST_REQUESTBOX_INC_000200	Bill needs you to collect gigglande so that he can make his mark. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000201	You can collect gigglande from all types of Giggle Box.
+IDS_PROPQUEST_REQUESTBOX_INC_000202	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000203	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000204	You do not have enough gigglandes.
+IDS_PROPQUEST_REQUESTBOX_INC_000205	Bill wants gigglande.
+IDS_PROPQUEST_REQUESTBOX_INC_000206	Collect 30 gigglandes
+IDS_PROPQUEST_REQUESTBOX_INC_000207	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000208	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000209	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000210	Repair Work on Saint Hall
+IDS_PROPQUEST_REQUESTBOX_INC_000211	Helena needs you to collect Crescent Stones to repair Saint Hall. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000212	You can collect Crescent Stones from all types of Rock Muscle.
+IDS_PROPQUEST_REQUESTBOX_INC_000213	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000214	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000215	You do not have enough Crescent Stones.
+IDS_PROPQUEST_REQUESTBOX_INC_000216	Helena wants Crescent Stones.
+IDS_PROPQUEST_REQUESTBOX_INC_000217	Collect 30 Crescent Stones
+IDS_PROPQUEST_REQUESTBOX_INC_000218	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000219	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000220	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000221	Helping injured animals
+IDS_PROPQUEST_REQUESTBOX_INC_000222	Madrigal Animal Association needs you to collect Bobands to help their injured animals. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000223	You can collect Boband from all types of Hobo.
+IDS_PROPQUEST_REQUESTBOX_INC_000224	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000225	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000226	You do not have enough Bobands.
+IDS_PROPQUEST_REQUESTBOX_INC_000227	Madrigal Animal Association wants Bobands.
+IDS_PROPQUEST_REQUESTBOX_INC_000228	Collect 30 Bobands
+IDS_PROPQUEST_REQUESTBOX_INC_000229	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000230	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000231	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000232	Strange Collector
+IDS_PROPQUEST_REQUESTBOX_INC_000233	Strange Collector needs you to collect Dumblings for his collection. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000234	You can collect Dumbling from all types of Dumb Bulls.
+IDS_PROPQUEST_REQUESTBOX_INC_000235	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000236	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000237	You do not have enough Dumblings.
+IDS_PROPQUEST_REQUESTBOX_INC_000238	Strange Collector wants Dumblings.
+IDS_PROPQUEST_REQUESTBOX_INC_000239	Collect 30 Dumblings
+IDS_PROPQUEST_REQUESTBOX_INC_000240	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000241	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000242	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000243	For the Wife
+IDS_PROPQUEST_REQUESTBOX_INC_000244	Mayer needs Kalin to make a present for his wife. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000245	You can collect Kalin from all types of Totemia.
+IDS_PROPQUEST_REQUESTBOX_INC_000246	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000247	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000248	You do not have enough Kalins.
+IDS_PROPQUEST_REQUESTBOX_INC_000249	Mayer wants Kalin.
+IDS_PROPQUEST_REQUESTBOX_INC_000250	Collect 35 Kalin
+IDS_PROPQUEST_REQUESTBOX_INC_000251	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000252	Mikyl was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000253	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000254	Weak Heart
+IDS_PROPQUEST_REQUESTBOX_INC_000255	Helena needs clock hearts to make a new heart for her sick brother. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000256	You can collect clock hearts from all types of Cardpuppets.
+IDS_PROPQUEST_REQUESTBOX_INC_000257	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000258	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000259	You don't have enough Clock Hearts.
+IDS_PROPQUEST_REQUESTBOX_INC_000260	Helena wants clock hearts.
+IDS_PROPQUEST_REQUESTBOX_INC_000261	Collect 35 clockhearts
+IDS_PROPQUEST_REQUESTBOX_INC_000262	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000263	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000264	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000265	Devil Marble
+IDS_PROPQUEST_REQUESTBOX_INC_000266	Bill needs Tomb Marbles to make the Devil Marble. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000267	You can collect Tomb Marble from all types of Tombstonebearers.
+IDS_PROPQUEST_REQUESTBOX_INC_000268	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000269	Well done. You successfully complete quest
+IDS_PROPQUEST_REQUESTBOX_INC_000270	You do not have enough Tomb Marbles.
+IDS_PROPQUEST_REQUESTBOX_INC_000271	Bill wants Tomb Marbles.
+IDS_PROPQUEST_REQUESTBOX_INC_000272	Collect 35 Tomb Marbles
+IDS_PROPQUEST_REQUESTBOX_INC_000273	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000274	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000275	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000276	Dream of the Fighter
+IDS_PROPQUEST_REQUESTBOX_INC_000277	Fighter needs you to collect Golden Fists to make a golden glove. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000278	You can collect Golden Fists from all types of Basque.
+IDS_PROPQUEST_REQUESTBOX_INC_000279	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000280	Well done. You successfully completed the quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000281	You do not have enough Golden Fists.
+IDS_PROPQUEST_REQUESTBOX_INC_000282	Fighter wants Golden Fists.
+IDS_PROPQUEST_REQUESTBOX_INC_000283	Collect 35 Golden Fists
+IDS_PROPQUEST_REQUESTBOX_INC_000284	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000285	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000286	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000287	Marbles for the Son
+IDS_PROPQUEST_REQUESTBOX_INC_000288	Mayer needs orbin to make marbles for his son. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000289	You can collect orbrin from all types of Pranksters.
+IDS_PROPQUEST_REQUESTBOX_INC_000290	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000291	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000292	You do not have enough orbrin.
+IDS_PROPQUEST_REQUESTBOX_INC_000293	Mayer wants orbin.
+IDS_PROPQUEST_REQUESTBOX_INC_000294	Collect 35 orbrin.
+IDS_PROPQUEST_REQUESTBOX_INC_000295	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000296	Lancomi was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000297	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000298	Strange Collector (2)
+IDS_PROPQUEST_REQUESTBOX_INC_000299	Strange Collector needs you to collect toma for his collection. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000300	You can collect toma from all types of Leyenas.
+IDS_PROPQUEST_REQUESTBOX_INC_000301	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000302	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000303	You do not have enough toma.
+IDS_PROPQUEST_REQUESTBOX_INC_000304	Strange Collector wants toma.
+IDS_PROPQUEST_REQUESTBOX_INC_000305	Collect 40 tomas
+IDS_PROPQUEST_REQUESTBOX_INC_000306	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000307	Lurif was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000308	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000309	Lens of Olien
+IDS_PROPQUEST_REQUESTBOX_INC_000310	Olien needs you to collect steam tears to make a new lens. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000311	You can collect steam tear from all types of Steam Walkers.
+IDS_PROPQUEST_REQUESTBOX_INC_000312	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000313	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000314	You do not have enough Steam Tears.
+IDS_PROPQUEST_REQUESTBOX_INC_000315	Olien wants steam tears.
+IDS_PROPQUEST_REQUESTBOX_INC_000316	Collect 40 Steam Tears
+IDS_PROPQUEST_REQUESTBOX_INC_000317	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000318	Lurif was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000319	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000320	Red Muffler
+IDS_PROPQUEST_REQUESTBOX_INC_000321	Soldier needs you to collect knightlers to make a new scarf. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000322	You can collect knightler from all types of Steel Knight.
+IDS_PROPQUEST_REQUESTBOX_INC_000323	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000324	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000325	You do not have enough knightlers.
+IDS_PROPQUEST_REQUESTBOX_INC_000326	Soldier wants knightler.
+IDS_PROPQUEST_REQUESTBOX_INC_000327	Collect 40 knightlers
+IDS_PROPQUEST_REQUESTBOX_INC_000328	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000329	Lurif was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000330	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000331	Dwarpet Festival
+IDS_PROPQUEST_REQUESTBOX_INC_000332	The Dwarpet needs you to collect wheeshoes for their festival. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000333	You can collect wheeshoe from all types of Nutty Wheel.
+IDS_PROPQUEST_REQUESTBOX_INC_000334	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000335	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000336	You do not have enough wheeshoes.
+IDS_PROPQUEST_REQUESTBOX_INC_000337	The Dwarpet wants wheesoes.
+IDS_PROPQUEST_REQUESTBOX_INC_000338	Collect 40 wheeshoes
+IDS_PROPQUEST_REQUESTBOX_INC_000339	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000340	Lurif was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000341	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000342	Crane Repair
+IDS_PROPQUEST_REQUESTBOX_INC_000343	The Erons Industrial Manager needs Droil to repair their crane. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000344	You can collect Droil from all types of Drillers.
+IDS_PROPQUEST_REQUESTBOX_INC_000345	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000346	Well done. You successfully completed the quest
+IDS_PROPQUEST_REQUESTBOX_INC_000347	You do not have enough Droils.
+IDS_PROPQUEST_REQUESTBOX_INC_000348	Erons want Droils.
+IDS_PROPQUEST_REQUESTBOX_INC_000349	Collect 40 Droils
+IDS_PROPQUEST_REQUESTBOX_INC_000350	In Progress
+IDS_PROPQUEST_REQUESTBOX_INC_000351	Lurif was happy to see the quest completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000352	Complete
+IDS_PROPQUEST_REQUESTBOX_INC_000353	Urgently looking for a bandage
+IDS_PROPQUEST_REQUESTBOX_INC_000354	A request for Grrr Bandages has gone out. Will you accept this quest?
+IDS_PROPQUEST_REQUESTBOX_INC_000355	You can get Grr Bandages from any type of Grrr.
+IDS_PROPQUEST_REQUESTBOX_INC_000356	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000357	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000358	You need more Grrr Bandages.
+IDS_PROPQUEST_REQUESTBOX_INC_000359	A request for Grrr Bandages has gone out.
+IDS_PROPQUEST_REQUESTBOX_INC_000360	
+IDS_PROPQUEST_REQUESTBOX_INC_000361	
+IDS_PROPQUEST_REQUESTBOX_INC_000362	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000363	
+IDS_PROPQUEST_REQUESTBOX_INC_000364	Portable Power
+IDS_PROPQUEST_REQUESTBOX_INC_000365	A request for Amperes has gone out. Will you accept this quest?
+IDS_PROPQUEST_REQUESTBOX_INC_000366	You can get ampere from any type of Volt.
+IDS_PROPQUEST_REQUESTBOX_INC_000367	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000368	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000369	You need more ampere.
+IDS_PROPQUEST_REQUESTBOX_INC_000370	A request for Amperes has gone out
+IDS_PROPQUEST_REQUESTBOX_INC_000371	
+IDS_PROPQUEST_REQUESTBOX_INC_000372	
+IDS_PROPQUEST_REQUESTBOX_INC_000373	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000374	
+IDS_PROPQUEST_REQUESTBOX_INC_000375	Strange Collector (3)
+IDS_PROPQUEST_REQUESTBOX_INC_000376	Strange Collector needs you to collect Guardieye for his collection. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000377	You can get Guardieye from any type of Elderguard.
+IDS_PROPQUEST_REQUESTBOX_INC_000378	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000379	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000380	You need more Guardieye.
+IDS_PROPQUEST_REQUESTBOX_INC_000381	Strange Collector wants Guardieye.
+IDS_PROPQUEST_REQUESTBOX_INC_000382	
+IDS_PROPQUEST_REQUESTBOX_INC_000383	
+IDS_PROPQUEST_REQUESTBOX_INC_000384	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000385	
+IDS_PROPQUEST_REQUESTBOX_INC_000386	Replacement Tires
+IDS_PROPQUEST_REQUESTBOX_INC_000387	The Dwarpet needs you to collect Dumptires to replace his flat tires. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000388	You can get Dumptires from any type of Dump.
+IDS_PROPQUEST_REQUESTBOX_INC_000389	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000390	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000391	You need more Dumptire.
+IDS_PROPQUEST_REQUESTBOX_INC_000392	The Dwarpet wants Dumptire.
+IDS_PROPQUEST_REQUESTBOX_INC_000393	
+IDS_PROPQUEST_REQUESTBOX_INC_000394	
+IDS_PROPQUEST_REQUESTBOX_INC_000395	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000396	
+IDS_PROPQUEST_REQUESTBOX_INC_000397	Strange Collector (4)
+IDS_PROPQUEST_REQUESTBOX_INC_000398	Mysterious collector needs garbageton for his collection. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000399	You can get garbageton from any type of Garbagepider.
+IDS_PROPQUEST_REQUESTBOX_INC_000400	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000401	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000402	You need more garbageton.
+IDS_PROPQUEST_REQUESTBOX_INC_000403	Strange Collector wants garbageton.
+IDS_PROPQUEST_REQUESTBOX_INC_000404	
+IDS_PROPQUEST_REQUESTBOX_INC_000405	
+IDS_PROPQUEST_REQUESTBOX_INC_000406	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000407	
+IDS_PROPQUEST_REQUESTBOX_INC_000408	Relics of a Husband
+IDS_PROPQUEST_REQUESTBOX_INC_000409	A widow has asked that you collect Eronior so that she can re-make the ring of her husband. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000410	You can get Eronior from any type of Crane.
+IDS_PROPQUEST_REQUESTBOX_INC_000411	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000412	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000413	You need more Eronior
+IDS_PROPQUEST_REQUESTBOX_INC_000414	A widow wants some Eronior.
+IDS_PROPQUEST_REQUESTBOX_INC_000415	
+IDS_PROPQUEST_REQUESTBOX_INC_000416	
+IDS_PROPQUEST_REQUESTBOX_INC_000417	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000418	
+IDS_PROPQUEST_REQUESTBOX_INC_000419	Disguise of Remina
+IDS_PROPQUEST_REQUESTBOX_INC_000420	Remina needs you to collect repygle to make a pair of disguising sunglasses. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000421	You can get repygle from any type of  Nautrepy.
+IDS_PROPQUEST_REQUESTBOX_INC_000422	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000423	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000424	You need more repygle.
+IDS_PROPQUEST_REQUESTBOX_INC_000425	Remina wants repygle.
+IDS_PROPQUEST_REQUESTBOX_INC_000426	
+IDS_PROPQUEST_REQUESTBOX_INC_000427	
+IDS_PROPQUEST_REQUESTBOX_INC_000428	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000429	
+IDS_PROPQUEST_REQUESTBOX_INC_000430	Beautiful Keil Wallpaper
+IDS_PROPQUEST_REQUESTBOX_INC_000431	Haven needs you to collect Sycale to re-model the Magic Shop. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000432	You can get Sycale from any type of Syliaca.
+IDS_PROPQUEST_REQUESTBOX_INC_000433	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000434	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000435	You need more Sycale.
+IDS_PROPQUEST_REQUESTBOX_INC_000436	Heaven wants Sycale.
+IDS_PROPQUEST_REQUESTBOX_INC_000437	
+IDS_PROPQUEST_REQUESTBOX_INC_000438	
+IDS_PROPQUEST_REQUESTBOX_INC_000439	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000440	
+IDS_PROPQUEST_REQUESTBOX_INC_000441	Strange Collector (5)
+IDS_PROPQUEST_REQUESTBOX_INC_000442	Strange Collector needs Mong Tear for his collection. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000443	You can get Mong Tear from any type of Greemong.
+IDS_PROPQUEST_REQUESTBOX_INC_000444	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000445	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000446	You need more Mong Tear.
+IDS_PROPQUEST_REQUESTBOX_INC_000447	Strange collector want Mong Tear
+IDS_PROPQUEST_REQUESTBOX_INC_000448	
+IDS_PROPQUEST_REQUESTBOX_INC_000449	
+IDS_PROPQUEST_REQUESTBOX_INC_000450	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000451	
+IDS_PROPQUEST_REQUESTBOX_INC_000452	Anesthetic Needs
+IDS_PROPQUEST_REQUESTBOX_INC_000453	A request has gone out for Boopoison to make an antidote. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000454	You can get Boopoison from any type of Boo.
+IDS_PROPQUEST_REQUESTBOX_INC_000455	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000456	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000457	You need more Boopoison
+IDS_PROPQUEST_REQUESTBOX_INC_000458	A request has gone out for Boopoison.
+IDS_PROPQUEST_REQUESTBOX_INC_000459	
+IDS_PROPQUEST_REQUESTBOX_INC_000460	
+IDS_PROPQUEST_REQUESTBOX_INC_000461	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000462	
+IDS_PROPQUEST_REQUESTBOX_INC_000463	New Kind of Firework
+IDS_PROPQUEST_REQUESTBOX_INC_000464	The Fireworks Producer needs Bomb Timers to make a new kind of firework. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000465	You get bombtimers from any type of Carrierbomb.
+IDS_PROPQUEST_REQUESTBOX_INC_000466	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000467	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000468	You need more Bomb Timer.
+IDS_PROPQUEST_REQUESTBOX_INC_000469	The Firework Producer wants Bomb Timers.
+IDS_PROPQUEST_REQUESTBOX_INC_000470	
+IDS_PROPQUEST_REQUESTBOX_INC_000471	
+IDS_PROPQUEST_REQUESTBOX_INC_000472	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000473	
+IDS_PROPQUEST_REQUESTBOX_INC_000474	Snack for the Children
+IDS_PROPQUEST_REQUESTBOX_INC_000475	Bolpor needs prewing to make some snacks for the children. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000476	You can get prewing from any type of Hoppre.
+IDS_PROPQUEST_REQUESTBOX_INC_000477	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000478	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000479	You need more prewing.
+IDS_PROPQUEST_REQUESTBOX_INC_000480	Bolpor wants prewing.
+IDS_PROPQUEST_REQUESTBOX_INC_000481	
+IDS_PROPQUEST_REQUESTBOX_INC_000482	
+IDS_PROPQUEST_REQUESTBOX_INC_000483	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000484	
+IDS_PROPQUEST_REQUESTBOX_INC_000485	Mushroom Farm of Chitller
+IDS_PROPQUEST_REQUESTBOX_INC_000486	Chitller needs you to collect Poiespore for his mushroom farm will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000487	You can poiespore from any type of Mushpoie.
+IDS_PROPQUEST_REQUESTBOX_INC_000488	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000489	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000490	You need more Poiespore
+IDS_PROPQUEST_REQUESTBOX_INC_000491	Chitller wants Poiespore.
+IDS_PROPQUEST_REQUESTBOX_INC_000492	
+IDS_PROPQUEST_REQUESTBOX_INC_000493	
+IDS_PROPQUEST_REQUESTBOX_INC_000494	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000495	
+IDS_PROPQUEST_REQUESTBOX_INC_000496	New Yo-Yo
+IDS_PROPQUEST_REQUESTBOX_INC_000497	An Acrobat master needs you to gather Renyken to make a new Yo-Yo. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000498	You can get renyken from any type of Iren.
+IDS_PROPQUEST_REQUESTBOX_INC_000499	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000500	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000501	You need more Renyken.
+IDS_PROPQUEST_REQUESTBOX_INC_000502	An Acrobat master wants Renyken.
+IDS_PROPQUEST_REQUESTBOX_INC_000503	
+IDS_PROPQUEST_REQUESTBOX_INC_000504	
+IDS_PROPQUEST_REQUESTBOX_INC_000505	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000506	
+IDS_PROPQUEST_REQUESTBOX_INC_000507	Disguise of a Native
+IDS_PROPQUEST_REQUESTBOX_INC_000508	Darkon natives need you to collect Tangkask. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000509	You can get Tangkask from any type of Watangka.
+IDS_PROPQUEST_REQUESTBOX_INC_000510	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000511	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000512	You need more Tangkask.
+IDS_PROPQUEST_REQUESTBOX_INC_000513	Darkon natives want Tankask.
+IDS_PROPQUEST_REQUESTBOX_INC_000514	
+IDS_PROPQUEST_REQUESTBOX_INC_000515	
+IDS_PROPQUEST_REQUESTBOX_INC_000516	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000517	
+IDS_PROPQUEST_REQUESTBOX_INC_000518	Woodworking Material
+IDS_PROPQUEST_REQUESTBOX_INC_000519	A request has gone out for Rootioe to be used as woodworking material. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000520	You can get Rootioe from any type of Antiquery.
+IDS_PROPQUEST_REQUESTBOX_INC_000521	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000522	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000523	You need moreRootioe
+IDS_PROPQUEST_REQUESTBOX_INC_000524	A request has gone out for Rootioe.
+IDS_PROPQUEST_REQUESTBOX_INC_000525	
+IDS_PROPQUEST_REQUESTBOX_INC_000526	
+IDS_PROPQUEST_REQUESTBOX_INC_000527	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000528	
+IDS_PROPQUEST_REQUESTBOX_INC_000529	The Best Shield
+IDS_PROPQUEST_REQUESTBOX_INC_000530	Remina needs Luchest to make the strongest shield in the world. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000531	You can get Luchest from any type of Luia.
+IDS_PROPQUEST_REQUESTBOX_INC_000532	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000533	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000534	You need more Luchest.
+IDS_PROPQUEST_REQUESTBOX_INC_000535	Remina wants Luchest.
+IDS_PROPQUEST_REQUESTBOX_INC_000536	
+IDS_PROPQUEST_REQUESTBOX_INC_000537	
+IDS_PROPQUEST_REQUESTBOX_INC_000538	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000539	
+IDS_PROPQUEST_REQUESTBOX_INC_000540	Beauty Contest Award
+IDS_PROPQUEST_REQUESTBOX_INC_000541	The Madrigal Beauty Contest needs Eronsimint for making an award. Will  you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000542	You can get Eronsimint from any type of Gongury.
+IDS_PROPQUEST_REQUESTBOX_INC_000543	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000544	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000545	You need more Eronsimit.
+IDS_PROPQUEST_REQUESTBOX_INC_000546	The Madrigal Beauty Contest sponsor wants Eronsimint.
+IDS_PROPQUEST_REQUESTBOX_INC_000547	
+IDS_PROPQUEST_REQUESTBOX_INC_000548	
+IDS_PROPQUEST_REQUESTBOX_INC_000549	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000550	
+IDS_PROPQUEST_REQUESTBOX_INC_000551	Lucky Tool
+IDS_PROPQUEST_REQUESTBOX_INC_000552	Lucky needs Hammamer to make a lucky hammer. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000553	You can get Hammamer from any type of Shuhamma.
+IDS_PROPQUEST_REQUESTBOX_INC_000554	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000555	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000556	You need more Hammamer.
+IDS_PROPQUEST_REQUESTBOX_INC_000557	Lucky wants Hammamer.
+IDS_PROPQUEST_REQUESTBOX_INC_000558	
+IDS_PROPQUEST_REQUESTBOX_INC_000559	
+IDS_PROPQUEST_REQUESTBOX_INC_000560	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000561	
+IDS_PROPQUEST_REQUESTBOX_INC_000562	Strange Collector (6)
+IDS_PROPQUEST_REQUESTBOX_INC_000563	Strange Collector needs Rnamond for his collection. Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000564	You can get Rnamond from any type of Kern.
+IDS_PROPQUEST_REQUESTBOX_INC_000565	You do not want to collect them? Ok.
+IDS_PROPQUEST_REQUESTBOX_INC_000566	Good Job! You successfully completed the quest. Take this for your trouble.
+IDS_PROPQUEST_REQUESTBOX_INC_000567	You need more Rnamond.
+IDS_PROPQUEST_REQUESTBOX_INC_000568	Strange Collector wants Rnamond
+IDS_PROPQUEST_REQUESTBOX_INC_000569	
+IDS_PROPQUEST_REQUESTBOX_INC_000570	
+IDS_PROPQUEST_REQUESTBOX_INC_000571	Lurif was happy that the quest was completed.
+IDS_PROPQUEST_REQUESTBOX_INC_000572	
+IDS_PROPQUEST_REQUESTBOX_INC_000573	Request of Lurif
+IDS_PROPQUEST_REQUESTBOX_INC_000574	Could you do me a favor? I need Phanbubble. Can you help me please?
+IDS_PROPQUEST_REQUESTBOX_INC_000575	You can get Phanbubble from any type of Glaphan.
+IDS_PROPQUEST_REQUESTBOX_INC_000576	You not want to help me? Ok, then.
+IDS_PROPQUEST_REQUESTBOX_INC_000577	Good Job! You successfully completed the quest. Please take this will all my gratitude.
+IDS_PROPQUEST_REQUESTBOX_INC_000578	You need more Phanbubble
+IDS_PROPQUEST_REQUESTBOX_INC_000579	Lurif needs many Phanbubbles.
+IDS_PROPQUEST_REQUESTBOX_INC_000580	
+IDS_PROPQUEST_REQUESTBOX_INC_000581	
+IDS_PROPQUEST_REQUESTBOX_INC_000582	Lurif is very grateful to you for completing this quest.
+IDS_PROPQUEST_REQUESTBOX_INC_000583	
+IDS_PROPQUEST_REQUESTBOX_INC_000584	Find Grrrbandage
+IDS_PROPQUEST_REQUESTBOX_INC_000585	Can you please go find Grunbandage for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000586	You can collect them from Small Grrr, Grrr, Captain Grrr and Giant Grrr.
+IDS_PROPQUEST_REQUESTBOX_INC_000587	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000588	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000589	You do not have enough Grbandage. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000590	Mysterious Robe girl requested you to collect Grbandage.
+IDS_PROPQUEST_REQUESTBOX_INC_000591	
+IDS_PROPQUEST_REQUESTBOX_INC_000592	
+IDS_PROPQUEST_REQUESTBOX_INC_000593	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000594	
+IDS_PROPQUEST_REQUESTBOX_INC_000595	Find Ampere
+IDS_PROPQUEST_REQUESTBOX_INC_000596	Can you please go find Ampere for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000597	You can collect them from Small Volt, Volt, Captain Volt and Giant Volt.
+IDS_PROPQUEST_REQUESTBOX_INC_000598	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000599	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000600	You do not have enough Ampere. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000601	Mysterious Robe girl requested you to collect Ampere.
+IDS_PROPQUEST_REQUESTBOX_INC_000602	
+IDS_PROPQUEST_REQUESTBOX_INC_000603	
+IDS_PROPQUEST_REQUESTBOX_INC_000604	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000605	
+IDS_PROPQUEST_REQUESTBOX_INC_000606	Find Guardieye
+IDS_PROPQUEST_REQUESTBOX_INC_000607	Can you please go find Guardieye for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000608	You can collect them from Small Elderguard, Elderguard, Captain Elderguard and Giant Elderguard.
+IDS_PROPQUEST_REQUESTBOX_INC_000609	You won'tt collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000610	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000611	You do not have enough Guardieye. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000612	Mysterious Robe girl requested you to collect Guardieye.
+IDS_PROPQUEST_REQUESTBOX_INC_000613	
+IDS_PROPQUEST_REQUESTBOX_INC_000614	
+IDS_PROPQUEST_REQUESTBOX_INC_000615	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000616	
+IDS_PROPQUEST_REQUESTBOX_INC_000617	Find Dumptire
+IDS_PROPQUEST_REQUESTBOX_INC_000618	Can you please go find Dumptire for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000619	You can collect them from Small Dump, Dump, Captain Dump and Giant Dump.
+IDS_PROPQUEST_REQUESTBOX_INC_000620	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000621	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000622	You do not have enough Dumptire. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000623	Mysterious Robe girl requested you to collect Dumptire.
+IDS_PROPQUEST_REQUESTBOX_INC_000624	
+IDS_PROPQUEST_REQUESTBOX_INC_000625	
+IDS_PROPQUEST_REQUESTBOX_INC_000626	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000627	
+IDS_PROPQUEST_REQUESTBOX_INC_000628	Find Garbageton
+IDS_PROPQUEST_REQUESTBOX_INC_000629	Can you please go find Garbageton for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000630	You can collect them from Small Garbagepider, Garbagepider, Captain Garbagepider and Giant Garbagepider.
+IDS_PROPQUEST_REQUESTBOX_INC_000631	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000632	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000633	You do not have enough Garbageton. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000634	Mysterious Robe girl requested you to collect Garbageton.
+IDS_PROPQUEST_REQUESTBOX_INC_000635	
+IDS_PROPQUEST_REQUESTBOX_INC_000636	
+IDS_PROPQUEST_REQUESTBOX_INC_000637	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000638	
+IDS_PROPQUEST_REQUESTBOX_INC_000639	Find Eronior
+IDS_PROPQUEST_REQUESTBOX_INC_000640	Can you please go find Eronior for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000641	You can collect them from Small Crane Machinery, Crane Machinery, Captain Crane Machinery and Giant Crane Machinery.
+IDS_PROPQUEST_REQUESTBOX_INC_000642	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000643	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000644	You do not have enough Eronior. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000645	Mysterious Robe girl requested you to collect Eronior.
+IDS_PROPQUEST_REQUESTBOX_INC_000646	
+IDS_PROPQUEST_REQUESTBOX_INC_000647	
+IDS_PROPQUEST_REQUESTBOX_INC_000648	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000649	
+IDS_PROPQUEST_REQUESTBOX_INC_000650	Find Repygle
+IDS_PROPQUEST_REQUESTBOX_INC_000651	Can you please go find Repygle for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000652	You can collect them from Small Nautrepy, Nautrepy, Captain Nautrepy and Giant Nautrepy.
+IDS_PROPQUEST_REQUESTBOX_INC_000653	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000654	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000655	You do not have enough Repygle. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000656	Mysterious Robe girl requested you to collect Repygle.
+IDS_PROPQUEST_REQUESTBOX_INC_000657	
+IDS_PROPQUEST_REQUESTBOX_INC_000658	
+IDS_PROPQUEST_REQUESTBOX_INC_000659	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000660	
+IDS_PROPQUEST_REQUESTBOX_INC_000661	Find Sycale
+IDS_PROPQUEST_REQUESTBOX_INC_000662	Can you please go find Sycale for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000663	You can collect them from Small Syliaca, Syliaca, Captain Syliaca and Giant Syliaca.
+IDS_PROPQUEST_REQUESTBOX_INC_000664	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000665	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000666	You do not have enough Sycale. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000667	Mysterious Robe girl requested you to collect Sycale.
+IDS_PROPQUEST_REQUESTBOX_INC_000668	
+IDS_PROPQUEST_REQUESTBOX_INC_000669	
+IDS_PROPQUEST_REQUESTBOX_INC_000670	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000671	
+IDS_PROPQUEST_REQUESTBOX_INC_000672	Find MongTear
+IDS_PROPQUEST_REQUESTBOX_INC_000673	Can you please go find MongTear for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000674	You can collect them from Small Greemong, Greemong, Captain Greemong and Giant Greemong.
+IDS_PROPQUEST_REQUESTBOX_INC_000675	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000676	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000677	You do not have enough MongTear. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000678	Mysterious Robe girl requested you to collect MongTear.
+IDS_PROPQUEST_REQUESTBOX_INC_000679	
+IDS_PROPQUEST_REQUESTBOX_INC_000680	
+IDS_PROPQUEST_REQUESTBOX_INC_000681	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000682	
+IDS_PROPQUEST_REQUESTBOX_INC_000683	Find Booposn
+IDS_PROPQUEST_REQUESTBOX_INC_000684	Can you please go find Booposn for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000685	You can collect them from Small Boo, Boo, Captain Boo and Giant Boo.
+IDS_PROPQUEST_REQUESTBOX_INC_000686	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000687	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000688	You do not have enough Booposn. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000689	Mysterious Robe girl requested you to collect Booposn.
+IDS_PROPQUEST_REQUESTBOX_INC_000690	
+IDS_PROPQUEST_REQUESTBOX_INC_000691	
+IDS_PROPQUEST_REQUESTBOX_INC_000692	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000693	
+IDS_PROPQUEST_REQUESTBOX_INC_000694	Find BombTimer
+IDS_PROPQUEST_REQUESTBOX_INC_000695	Can you please go find BombTimer for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000696	You can collect them from Small Carrierbomb, Carrierbomb, Captain Carrierbomb and Giant Carrierbomb.
+IDS_PROPQUEST_REQUESTBOX_INC_000697	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000698	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000699	You do not have enough BombTimer. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000700	Mysterious Robe girl requested you to collect BombTimer.
+IDS_PROPQUEST_REQUESTBOX_INC_000701	
+IDS_PROPQUEST_REQUESTBOX_INC_000702	
+IDS_PROPQUEST_REQUESTBOX_INC_000703	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000704	
+IDS_PROPQUEST_REQUESTBOX_INC_000705	Find Prewing
+IDS_PROPQUEST_REQUESTBOX_INC_000706	Can you please go find Prewing for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000707	You can collect them from Small Hoppre, Hoppre, Captain Hoppre and Giant Hoppre.
+IDS_PROPQUEST_REQUESTBOX_INC_000708	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000709	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000710	You do not have enough Prewing. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000711	Mysterious Robe girl requested you to collect Prewing.
+IDS_PROPQUEST_REQUESTBOX_INC_000712	
+IDS_PROPQUEST_REQUESTBOX_INC_000713	
+IDS_PROPQUEST_REQUESTBOX_INC_000714	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000715	
+IDS_PROPQUEST_REQUESTBOX_INC_000716	Find Poiespore
+IDS_PROPQUEST_REQUESTBOX_INC_000717	Can you please go find Poiespore for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000718	You can collect them from Small Mushpoie, Mushpoie, Captain Mushpoie and Giant Mushpoie.
+IDS_PROPQUEST_REQUESTBOX_INC_000719	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000720	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000721	You do not have enough Poiespore. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000722	Mysterious Robe girl requested you to collect Poiespore.
+IDS_PROPQUEST_REQUESTBOX_INC_000723	
+IDS_PROPQUEST_REQUESTBOX_INC_000724	
+IDS_PROPQUEST_REQUESTBOX_INC_000725	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000726	
+IDS_PROPQUEST_REQUESTBOX_INC_000727	Find Renyken
+IDS_PROPQUEST_REQUESTBOX_INC_000728	Can you please go find Renyken for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000729	You can collect them from Small Iren, Iren, Captain Iren and Giant Iren.
+IDS_PROPQUEST_REQUESTBOX_INC_000730	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000731	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000732	You do not have enough Renyken. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000733	Mysterious Robe girl requested you to collect Renyken.
+IDS_PROPQUEST_REQUESTBOX_INC_000734	
+IDS_PROPQUEST_REQUESTBOX_INC_000735	
+IDS_PROPQUEST_REQUESTBOX_INC_000736	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000737	
+IDS_PROPQUEST_REQUESTBOX_INC_000738	Find Tangkask
+IDS_PROPQUEST_REQUESTBOX_INC_000739	Can you please go find Tangkask for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000740	You can collect them from Small Watangka, Watangka, Captain Watangka and Giant Watangka.
+IDS_PROPQUEST_REQUESTBOX_INC_000741	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000742	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000743	You do not have enough Tangkask. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000744	Mysterious Robe girl requested you to collect Tangkask.
+IDS_PROPQUEST_REQUESTBOX_INC_000745	
+IDS_PROPQUEST_REQUESTBOX_INC_000746	
+IDS_PROPQUEST_REQUESTBOX_INC_000747	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000748	
+IDS_PROPQUEST_REQUESTBOX_INC_000749	Find Rootioe
+IDS_PROPQUEST_REQUESTBOX_INC_000750	Can you please go find Rootioe for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000751	You can collect them from Small Antiquery, Antiquery, Captain Antiquery and Giant Antiquery.
+IDS_PROPQUEST_REQUESTBOX_INC_000752	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000753	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000754	You do not have enough Rootioe. You should the have exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000755	Mysterious Robe girl requested you to collect Rootioe.
+IDS_PROPQUEST_REQUESTBOX_INC_000756	
+IDS_PROPQUEST_REQUESTBOX_INC_000757	
+IDS_PROPQUEST_REQUESTBOX_INC_000758	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000759	
+IDS_PROPQUEST_REQUESTBOX_INC_000760	Find Luchest
+IDS_PROPQUEST_REQUESTBOX_INC_000761	Can you please go find Luchest for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000762	You can collect them from Small Luia, Luia, Captain Luia and Giant Luia.
+IDS_PROPQUEST_REQUESTBOX_INC_000763	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000764	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000765	You do not have enough Luchest. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000766	Mysterious Robe girl requested you to collect Luchest.
+IDS_PROPQUEST_REQUESTBOX_INC_000767	
+IDS_PROPQUEST_REQUESTBOX_INC_000768	
+IDS_PROPQUEST_REQUESTBOX_INC_000769	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000770	
+IDS_PROPQUEST_REQUESTBOX_INC_000771	Find Eronsimint
+IDS_PROPQUEST_REQUESTBOX_INC_000772	Can you please go find Eronsimint for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000773	You can collect them from Small Gongury, Gongury, Captain Gongury and Giant Gongury.
+IDS_PROPQUEST_REQUESTBOX_INC_000774	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000775	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000776	You do not have enough Eronsimint. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000777	Mysterious Robe girl requested you to collect Eronsimint.
+IDS_PROPQUEST_REQUESTBOX_INC_000778	
+IDS_PROPQUEST_REQUESTBOX_INC_000779	
+IDS_PROPQUEST_REQUESTBOX_INC_000780	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000781	
+IDS_PROPQUEST_REQUESTBOX_INC_000782	Find Hammamer
+IDS_PROPQUEST_REQUESTBOX_INC_000783	Can you please go find Hammamer for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000784	You can collect them from Small Shuhamma, Shuhamma, Captain Shuhamma and Giant Shuhamma.
+IDS_PROPQUEST_REQUESTBOX_INC_000785	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000786	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000787	You do not have enough Hammamer. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000788	Mysterious Robe girl requested you to collect Hammamer.
+IDS_PROPQUEST_REQUESTBOX_INC_000789	
+IDS_PROPQUEST_REQUESTBOX_INC_000790	
+IDS_PROPQUEST_REQUESTBOX_INC_000791	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000792	
+IDS_PROPQUEST_REQUESTBOX_INC_000793	Find Rnamond
+IDS_PROPQUEST_REQUESTBOX_INC_000794	Can you please go find Rnamond for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000795	You can collect them from Small Kern, Kern, Captain Kern and Giant Kern.
+IDS_PROPQUEST_REQUESTBOX_INC_000796	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000797	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000798	You do not have enough Rnamond. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000799	Mysterious Robe girl requested you to collect Rnamond.
+IDS_PROPQUEST_REQUESTBOX_INC_000800	
+IDS_PROPQUEST_REQUESTBOX_INC_000801	
+IDS_PROPQUEST_REQUESTBOX_INC_000802	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000803	
+IDS_PROPQUEST_REQUESTBOX_INC_000804	Find Phanbuble
+IDS_PROPQUEST_REQUESTBOX_INC_000805	Can you please go find Phanbuble for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000806	You can collect them from Small Glaphan, Glaphan, Captain Glaphan and Giant Glaphan.
+IDS_PROPQUEST_REQUESTBOX_INC_000807	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000808	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000809	You do not have enough Phanbuble. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000810	Mysterious Robe girl requested you to collect Phanbuble.
+IDS_PROPQUEST_REQUESTBOX_INC_000811	
+IDS_PROPQUEST_REQUESTBOX_INC_000812	
+IDS_PROPQUEST_REQUESTBOX_INC_000813	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000814	
+IDS_PROPQUEST_REQUESTBOX_INC_000815	Find Merahook
+IDS_PROPQUEST_REQUESTBOX_INC_000816	Can you please go find Merahook for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000817	You can collect them from the group of Kimeradon.
+IDS_PROPQUEST_REQUESTBOX_INC_000818	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000819	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000820	You do not have enough Merahook. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000821	Mysterious Robe girl requested you to collect Merahook.
+IDS_PROPQUEST_REQUESTBOX_INC_000822	
+IDS_PROPQUEST_REQUESTBOX_INC_000823	
+IDS_PROPQUEST_REQUESTBOX_INC_000824	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000825	
+IDS_PROPQUEST_REQUESTBOX_INC_000826	Find NerkyMane
+IDS_PROPQUEST_REQUESTBOX_INC_000827	Can you please go find NerkyMane for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000828	You can collect them from the group of Bearnerky.
+IDS_PROPQUEST_REQUESTBOX_INC_000829	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000830	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000831	You do not have enough NerkyMane. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000832	Mysterious Robe girl requested you to collect NerkyMane.
+IDS_PROPQUEST_REQUESTBOX_INC_000833	
+IDS_PROPQUEST_REQUESTBOX_INC_000834	
+IDS_PROPQUEST_REQUESTBOX_INC_000835	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000836	
+IDS_PROPQUEST_REQUESTBOX_INC_000837	Find Rincruet
+IDS_PROPQUEST_REQUESTBOX_INC_000838	Can you please go find Rincruet for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000839	You can collect them from the group of Muffrin.
+IDS_PROPQUEST_REQUESTBOX_INC_000840	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000841	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000842	You do not have enough Rincruet. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000843	Mysterious Robe girl requested you to collect Rincruet.
+IDS_PROPQUEST_REQUESTBOX_INC_000844	
+IDS_PROPQUEST_REQUESTBOX_INC_000845	
+IDS_PROPQUEST_REQUESTBOX_INC_000846	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000847	
+IDS_PROPQUEST_REQUESTBOX_INC_000848	Find Popshift
+IDS_PROPQUEST_REQUESTBOX_INC_000849	Can you please go find Popshift for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000850	You can collect them from the group of Popcrank.
+IDS_PROPQUEST_REQUESTBOX_INC_000851	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000852	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000853	You do not have enough Popshift. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000854	Mysterious Robe girl requested you to collect Popshift.
+IDS_PROPQUEST_REQUESTBOX_INC_000855	
+IDS_PROPQUEST_REQUESTBOX_INC_000856	
+IDS_PROPQUEST_REQUESTBOX_INC_000857	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000858	
+IDS_PROPQUEST_REQUESTBOX_INC_000859	Find Canine tooth of Dragon
+IDS_PROPQUEST_REQUESTBOX_INC_000860	Can you please go find Canine tooth of Dragon for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000861	You can collect them from Meteonyker.
+IDS_PROPQUEST_REQUESTBOX_INC_000862	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000863	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000864	You do not have enough Canine tooth of Dragon. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000865	Mysterious Robe girl requested you to collect Canine tooth of Dragon.
+IDS_PROPQUEST_REQUESTBOX_INC_000866	
+IDS_PROPQUEST_REQUESTBOX_INC_000867	
+IDS_PROPQUEST_REQUESTBOX_INC_000868	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000869	
+IDS_PROPQUEST_REQUESTBOX_INC_000870	Find Mysterious eyeball
+IDS_PROPQUEST_REQUESTBOX_INC_000871	Can you please go find Mysterious eyeball for me without asking why?
+IDS_PROPQUEST_REQUESTBOX_INC_000872	You can collect them from Cyclops X.
+IDS_PROPQUEST_REQUESTBOX_INC_000873	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000874	Well done. You successfully completed the quest. Here is compensation for the quest. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000875	You do not have enough Mysterious eyeball. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000876	Mysterious Robe girl requested you to collect Mysterious eyeball.
+IDS_PROPQUEST_REQUESTBOX_INC_000877	
+IDS_PROPQUEST_REQUESTBOX_INC_000878	
+IDS_PROPQUEST_REQUESTBOX_INC_000879	Mysterious Robe girl has a smile on her face. Some kind of force can be felt from her.
+IDS_PROPQUEST_REQUESTBOX_INC_000880	
+IDS_PROPQUEST_REQUESTBOX_INC_000881	Mysterious Magic Material
+IDS_PROPQUEST_REQUESTBOX_INC_000882	Magician Master requested you to collect Merahook which is magic material. Will you accept this request?
+IDS_PROPQUEST_REQUESTBOX_INC_000883	You can collect them from the group of Kimeradon.
+IDS_PROPQUEST_REQUESTBOX_INC_000884	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000885	Good Job! You successfully completed the request. Here is compensation for the request. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000886	You do not have enough Merahook. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000887	Magician Master requested you to collect Merahook which is magic material.
+IDS_PROPQUEST_REQUESTBOX_INC_000888	
+IDS_PROPQUEST_REQUESTBOX_INC_000889	
+IDS_PROPQUEST_REQUESTBOX_INC_000890	Lurif is happy that this tough request is completed, but she continues working diligently on other requests.
+IDS_PROPQUEST_REQUESTBOX_INC_000891	
+IDS_PROPQUEST_REQUESTBOX_INC_000892	Revenge of Pet
+IDS_PROPQUEST_REQUESTBOX_INC_000893	Pet Taimer's Bearnerky got attacked. Pet Taimer requested you to collect NerkyMane for revenge. Will you accept this request?
+IDS_PROPQUEST_REQUESTBOX_INC_000894	You can collect NerkyMane from the group of Bearnerky.
+IDS_PROPQUEST_REQUESTBOX_INC_000895	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000896	Good Job! You successfully completed the request. Here is compensation for the request. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000897	You do not have enough NerkyMane. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000898	Pet Taimer requested you to collect NerkyMane for revenge.
+IDS_PROPQUEST_REQUESTBOX_INC_000899	
+IDS_PROPQUEST_REQUESTBOX_INC_000900	
+IDS_PROPQUEST_REQUESTBOX_INC_000901	Lurif is happy that this tough request is completed, but she continues working diligently on other requests.
+IDS_PROPQUEST_REQUESTBOX_INC_000902	
+IDS_PROPQUEST_REQUESTBOX_INC_000903	Bolpor's favor
+IDS_PROPQUEST_REQUESTBOX_INC_000904	Bolpor requested you to collect Rincruet for making some special food. Will you accept this request?
+IDS_PROPQUEST_REQUESTBOX_INC_000905	You can collect Rincruet from the group of Muffrin.
+IDS_PROPQUEST_REQUESTBOX_INC_000906	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000907	Good Job! You successfully completed the request. Here is compensation for the request. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000908	You do not have enough Rincruet. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000909	Bolpor requested you to collect Rincruet.
+IDS_PROPQUEST_REQUESTBOX_INC_000910	
+IDS_PROPQUEST_REQUESTBOX_INC_000911	
+IDS_PROPQUEST_REQUESTBOX_INC_000912	Lurif is happy that this tough request is completed, but she continues working diligently on other requests.
+IDS_PROPQUEST_REQUESTBOX_INC_000913	
+IDS_PROPQUEST_REQUESTBOX_INC_000914	Toy Materials
+IDS_PROPQUEST_REQUESTBOX_INC_000915	Toy Marchant requested you to collect Popshift for making fancy toys. Will you accept this request?
+IDS_PROPQUEST_REQUESTBOX_INC_000916	You can collelct Popshift from the group of Popcrank.
+IDS_PROPQUEST_REQUESTBOX_INC_000917	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000918	Good Job! You successfully completed the request. Here is compensation for the request. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000919	You do not have enough Popshift. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000920	Toy Marchant requested you to collect Popshift for making fancy toys.
+IDS_PROPQUEST_REQUESTBOX_INC_000921	
+IDS_PROPQUEST_REQUESTBOX_INC_000922	
+IDS_PROPQUEST_REQUESTBOX_INC_000923	Lurif is happy that this tough request is completed, but she continues working diligently on other requests.
+IDS_PROPQUEST_REQUESTBOX_INC_000924	
+IDS_PROPQUEST_REQUESTBOX_INC_000925	Strong blade of sword
+IDS_PROPQUEST_REQUESTBOX_INC_000926	Some marchant requested you to collect Canine tooth of Dragon for making strong blade of sword. Will you accept this request?
+IDS_PROPQUEST_REQUESTBOX_INC_000927	You can collect Canine tooth of Dragon from Meteonyker.
+IDS_PROPQUEST_REQUESTBOX_INC_000928	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000929	Good Job! You successfully completed the request. Here is compensation for the request. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000930	You do not have enough Canine tooth of Dragon. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000931	Some marchant requested you to collect Canine tooth of Dragon for making strong blade of sword.
+IDS_PROPQUEST_REQUESTBOX_INC_000932	
+IDS_PROPQUEST_REQUESTBOX_INC_000933	
+IDS_PROPQUEST_REQUESTBOX_INC_000934	Lurif is happy that this tough request is completed, but she continues working diligently on other requests.
+IDS_PROPQUEST_REQUESTBOX_INC_000935	
+IDS_PROPQUEST_REQUESTBOX_INC_000936	Mysterious Collector 7
+IDS_PROPQUEST_REQUESTBOX_INC_000937	Mysterious Collector requested you to collect Mysterious eyeball.
+IDS_PROPQUEST_REQUESTBOX_INC_000938	You can collect Mysterious eyeball from Cyclops X.
+IDS_PROPQUEST_REQUESTBOX_INC_000939	You won't collect them? OK. If you change your mind, come back to me.
+IDS_PROPQUEST_REQUESTBOX_INC_000940	Good Job! You successfully completed the request. Here is compensation for the request. Take it.
+IDS_PROPQUEST_REQUESTBOX_INC_000941	You do not have enough Mysterious eyeball. You should have the exact amount.
+IDS_PROPQUEST_REQUESTBOX_INC_000942	Mysterious Collelctor requested you to collect Mysterious eyeball.
+IDS_PROPQUEST_REQUESTBOX_INC_000943	
+IDS_PROPQUEST_REQUESTBOX_INC_000944	
+IDS_PROPQUEST_REQUESTBOX_INC_000945	Lurif is happy that this tough request is completed, but she continues working diligently on other requests.
+IDS_PROPQUEST_REQUESTBOX_INC_000946	
+IDS_PROPQUEST_REQUESTBOX_INC_000947	The Threat of the Battle Toadrin
+IDS_PROPQUEST_REQUESTBOX_INC_000948	The Battle Toadrin are poisoning the river and killing the fish!  Please get rid of the Battle Toadrin and collect their Poison Bags. Try not to mess this up… Will you help?
+IDS_PROPQUEST_REQUESTBOX_INC_000949	There are ruins located north of Fallen Leaf Camp. Even YOU should be able to find the Battle Toadrins out in this area……
+IDS_PROPQUEST_REQUESTBOX_INC_000950	Ah, I get it.  You must be too busy to help.  They are just fish after all, they don’t have feelings or anything...
+IDS_PROPQUEST_REQUESTBOX_INC_000951	I didn't think you had it in you, but you did succeed in wiping out the threat from the Battle Toadrin. I guess I have to give you that reward I mentioned.
+IDS_PROPQUEST_REQUESTBOX_INC_000952	No, No, No!  This is not enough!  I require a total of 70 Poison Bags.
+IDS_PROPQUEST_REQUESTBOX_INC_000953	Collect 70 Poison Bags from Battle Toadrins and bring them to Jano at the Fallen Leaf Camp in order to preserve the river.
+IDS_PROPQUEST_REQUESTBOX_INC_000954	
+IDS_PROPQUEST_REQUESTBOX_INC_000955	
+IDS_PROPQUEST_REQUESTBOX_INC_000956	You have successfully exploded several Battle Toadrins.  Jano was pleased.
+IDS_PROPQUEST_REQUESTBOX_INC_000957	
+IDS_PROPQUEST_REQUESTBOX_INC_000958	Troglodon Disturbance
+IDS_PROPQUEST_REQUESTBOX_INC_000959	It's time started pulling your weight around here.  Why don’t you try and fend off some of those filthy lizard looking creatures!  Interested?
+IDS_PROPQUEST_REQUESTBOX_INC_000960	Bring me 70 Troglodon Swords as proof you made a contribution.
+IDS_PROPQUEST_REQUESTBOX_INC_000961	It's ok, if your scared you can just tell me.  I won't laugh… much.
+IDS_PROPQUEST_REQUESTBOX_INC_000962	Hmm… These look unused,  I'll bet you just picked them up off the ground after they were discarded.  Oh well, a deal is a deal.
+IDS_PROPQUEST_REQUESTBOX_INC_000963	I don't care how you get their blades, just get them.  All 70 of them!
+IDS_PROPQUEST_REQUESTBOX_INC_000964	Collect 70 Troglodon Swords from the Troglodons in Northern Shaduwar. 
+IDS_PROPQUEST_REQUESTBOX_INC_000965	
+IDS_PROPQUEST_REQUESTBOX_INC_000966	
+IDS_PROPQUEST_REQUESTBOX_INC_000967	You've successfully stolen 70 Troglodon Swords from those poor Troglodons, and killed them too.  How do you feel about that?
+IDS_PROPQUEST_REQUESTBOX_INC_000968	
+IDS_PROPQUEST_REQUESTBOX_INC_000969	Retribution 
+IDS_PROPQUEST_REQUESTBOX_INC_000970	Those brutes!  They keep invading our camp!  REVENGE!  I need revenge… Go, take their precious necklaces… Destroy the Bolo!  
+IDS_PROPQUEST_REQUESTBOX_INC_000971	Those filthy beasts are along the eastern edge of Shaduwar… Bring me 70 of their Skull Necklaces as proof.
+IDS_PROPQUEST_REQUESTBOX_INC_000972	Just when I was beginning to think you may be alright after all...
+IDS_PROPQUEST_REQUESTBOX_INC_000973	Finally, revenge is mine.  I guess we couldn't have done it without you.  Maybe your not half-bad after all. 
+IDS_PROPQUEST_REQUESTBOX_INC_000974	Where are all of the skulls?  How can I have my revenge?
+IDS_PROPQUEST_REQUESTBOX_INC_000975	Collect 70 Bolo Necklaces from Bolo in Northeastern Shaduwar.
+IDS_PROPQUEST_REQUESTBOX_INC_000976	
+IDS_PROPQUEST_REQUESTBOX_INC_000977	
+IDS_PROPQUEST_REQUESTBOX_INC_000978	You are officially a Bolo hater.  Good job, quest completed!
+IDS_PROPQUEST_REQUESTBOX_INC_000979	
+IDS_PROPQUEST_REQUESTBOX_INC_000980	Control the Araknoids!
+IDS_PROPQUEST_REQUESTBOX_INC_000981	I'll admit that maybe you aren't one of these flash-in-the-pan adventurers.  You might be legitimate but don't go getting all excited yet… We still have work to do!
+IDS_PROPQUEST_REQUESTBOX_INC_000982	Araknoids are running a muck in Shaduwar.  They are destroying everything out in the wild.  You must stop them and preserve Shaduwar.  Will you help us?
+IDS_PROPQUEST_REQUESTBOX_INC_000983	You will find these spider monsters northeast of Fallen Leaf Camp.  Destroy them, cut 'em open, and bring me their Araknoid Flowers!
+IDS_PROPQUEST_REQUESTBOX_INC_000984	Hmpf!  I knew it was too good to be true.  Maybe someday a real hero will come to Shaduwar.
+IDS_PROPQUEST_REQUESTBOX_INC_000985	Once again you have followed through on your task.  I see you must care about Shaduwar after all.
+IDS_PROPQUEST_REQUESTBOX_INC_000986	Come on tough guy…just get the 70 Araknoid Flowers I asked for. There are more pressing issues to get to!
+IDS_PROPQUEST_REQUESTBOX_INC_000987	Wipe out Araknoids to collect 70 Araknoid Flowers.
+IDS_PROPQUEST_REQUESTBOX_INC_000988	
+IDS_PROPQUEST_REQUESTBOX_INC_000989	
+IDS_PROPQUEST_REQUESTBOX_INC_000990	You successfully removed 70 Araknoid Flowers from the Araknoids.  Now please, go wash your hands.  Quest completed!
+IDS_PROPQUEST_REQUESTBOX_INC_000991	
+IDS_PROPQUEST_REQUESTBOX_INC_000992	Strike against the Reptilions!
+IDS_PROPQUEST_REQUESTBOX_INC_000993	We received word that the Club-tailed Reptilion's are gathering in mass.  We fear they may be coming to invade us.  Would you be willing to lend a hand?
+IDS_PROPQUEST_REQUESTBOX_INC_000994	Launch a pre-emptive strike on the Club-tailed Reptilions at the lake in central Shaduwar.  Then, return to me with 70 Reptilion Teeth.
+IDS_PROPQUEST_REQUESTBOX_INC_000995	I hope the Club-tailed Reptilions haven't marched against us by the time you make up your mind.
+IDS_PROPQUEST_REQUESTBOX_INC_000996	The people of Shaduwar have avoided an attack from those pesky Reptilions and it's all thanks to you!
+IDS_PROPQUEST_REQUESTBOX_INC_000997	You need to thin the Club-tailed Reptilion ranks even more, your quest is not yet done.
+IDS_PROPQUEST_REQUESTBOX_INC_000998	Collect 70 Reptilion Teeth from the Club-tailed Reptilions in Central Shaduwar and return to Jano.
+IDS_PROPQUEST_REQUESTBOX_INC_000999	
+IDS_PROPQUEST_REQUESTBOX_INC_001000	
+IDS_PROPQUEST_REQUESTBOX_INC_001001	Jano was thrilled that you prevented the massacre.  Quest completed!
+IDS_PROPQUEST_REQUESTBOX_INC_001002	
+IDS_PROPQUEST_REQUESTBOX_INC_001003	Revenge of the Battle Toadrin!
+IDS_PROPQUEST_REQUESTBOX_INC_001004	There are so many dead fish!  What can we do against the evil Battle Toadrin?  Can you help us?
+IDS_PROPQUEST_REQUESTBOX_INC_001005	Hmmmm, you might be strong enough.  Hunt the Battle Toadrins and stop them from poisoning the river!  Afterward, bring me 70 Poison Bags.
+IDS_PROPQUEST_REQUESTBOX_INC_001006	You can't take time to help Fallen Leaf Camp?  We will remember this!
+IDS_PROPQUEST_REQUESTBOX_INC_001007	You successfully eliminated the Battle Toadrins. Thank you. Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001008	You don't have enough Poison Bags yet. Please hunt more Battle Toadrins and bring me 70 more Poison Bags.
+IDS_PROPQUEST_REQUESTBOX_INC_001009	Collect 70 Poison Bags from all kinds of Battle Toadrins.
+IDS_PROPQUEST_REQUESTBOX_INC_001010	
+IDS_PROPQUEST_REQUESTBOX_INC_001011	
+IDS_PROPQUEST_REQUESTBOX_INC_001012	You have once again successfully exploded several Battle Toadrins.  Jano was pleased.
+IDS_PROPQUEST_REQUESTBOX_INC_001013	
+IDS_PROPQUEST_REQUESTBOX_INC_001014	Troglodon Steel
+IDS_PROPQUEST_REQUESTBOX_INC_001015	Disarm the Troglodons!  Bring us their swords so they can't use the nasty things against us anymore!  Are you ready to rend flesh once more?
+IDS_PROPQUEST_REQUESTBOX_INC_001016	You can find Troglodon Swords on pretty much any Troglodon.  There should be no shortage of these beasts in the north.
+IDS_PROPQUEST_REQUESTBOX_INC_001017	I'm so disappointed... Come back to me later, when you aren't so scared.
+IDS_PROPQUEST_REQUESTBOX_INC_001018	Thank you so much for bringing me their Swords! Here is the reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001019	You don't have enough Troglodon Swords.  Why are you even talking to me?
+IDS_PROPQUEST_REQUESTBOX_INC_001020	Jano wants you to collect 70 Troglodon Swords from Troglodons in Northern Shaduwar.
+IDS_PROPQUEST_REQUESTBOX_INC_001021	
+IDS_PROPQUEST_REQUESTBOX_INC_001022	
+IDS_PROPQUEST_REQUESTBOX_INC_001023	You've once again successfully stolen 70 Troglodon Swords from those poor Troglodons, and killed them too.  How do you feel about that?
+IDS_PROPQUEST_REQUESTBOX_INC_001024	
+IDS_PROPQUEST_REQUESTBOX_INC_001025	The Bolo Are Back
+IDS_PROPQUEST_REQUESTBOX_INC_001026	The previous attacks against the Bolo appear to have only motivated even more disastrous raids against Fallen Leaf Camp.  Will you help us?
+IDS_PROPQUEST_REQUESTBOX_INC_001027	Collect more of those Bolo Necklaces.  Hopefully you can scare them for good this time. 
+IDS_PROPQUEST_REQUESTBOX_INC_001028	Look at the big tough hero, too busy to help the little guy eh?
+IDS_PROPQUEST_REQUESTBOX_INC_001029	I am impressed!  This time it seems you have finally eliminated the threat from the Bolo.  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001030	More Bolo Necklaces…MORE!!!
+IDS_PROPQUEST_REQUESTBOX_INC_001031	Jano wants you to collect 70 more Bolo Necklaces from the Bolo. 
+IDS_PROPQUEST_REQUESTBOX_INC_001032	
+IDS_PROPQUEST_REQUESTBOX_INC_001033	
+IDS_PROPQUEST_REQUESTBOX_INC_001034	You have once again claimed the title of Bolo hater.  Good job, quest completed!
+IDS_PROPQUEST_REQUESTBOX_INC_001035	
+IDS_PROPQUEST_REQUESTBOX_INC_001036	More Araknoid Flowers
+IDS_PROPQUEST_REQUESTBOX_INC_001037	You have proven yourself to truly be one of the rare heroes out there.  We here at Fallen Leaf Camp are in your debt.  Unfortunately for you, there is more work.
+IDS_PROPQUEST_REQUESTBOX_INC_001038	The Araknoids are at it again.  We need to stop them from tearing up the Shaduwar wilderness!  Will you stop them, please?
+IDS_PROPQUEST_REQUESTBOX_INC_001039	70 Araknoid Flowers.  Get moving.  You KNOW what to do.
+IDS_PROPQUEST_REQUESTBOX_INC_001040	So, you can't get it? I'm so disappointed. Come back to me later, when you have the intention to helping us.
+IDS_PROPQUEST_REQUESTBOX_INC_001041	You successfully eliminated the Araknoids. Thank you. Here is the reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001042	You don't have enough Araknoid Flowers. Please check your inventory.
+IDS_PROPQUEST_REQUESTBOX_INC_001043	Kill Araknoids to collect 70 Araknoid Flowers.
+IDS_PROPQUEST_REQUESTBOX_INC_001044	
+IDS_PROPQUEST_REQUESTBOX_INC_001045	
+IDS_PROPQUEST_REQUESTBOX_INC_001046	You've once again successfully removed 70 Araknoid Flowers from the Araknoids.  Now please, go wash your hands.  Quest completed!
+IDS_PROPQUEST_REQUESTBOX_INC_001047	
+IDS_PROPQUEST_REQUESTBOX_INC_001048	Reptilion Revenge!
+IDS_PROPQUEST_REQUESTBOX_INC_001049	It seems our pre-emptive strike against the Club-tailed Reptilion forces has made us targets.  We are now fighting back their forces, but we need your help to turn the tide.
+IDS_PROPQUEST_REQUESTBOX_INC_001050	Go again to the Club-tailed Reptilion masses and make a dent in their numbers. 
+IDS_PROPQUEST_REQUESTBOX_INC_001051	You must have a good reason to turn your back on us in our time of need.
+IDS_PROPQUEST_REQUESTBOX_INC_001052	With your heroic actions, the Club-tailed Reptilion are sure to not bother us again!  
+IDS_PROPQUEST_REQUESTBOX_INC_001053	Not enough, you must defeat more of the Club-tailed Reptilion or all will be lost. 
+IDS_PROPQUEST_REQUESTBOX_INC_001054	Jano requires 70 more Reptilian Teeth from Club-tailed Reptilion.
+IDS_PROPQUEST_REQUESTBOX_INC_001055	
+IDS_PROPQUEST_REQUESTBOX_INC_001056	
+IDS_PROPQUEST_REQUESTBOX_INC_001057	Jano was thrilled once again that you prevented the massacre and delivered the teeth.  Quest completed!
+IDS_PROPQUEST_REQUESTBOX_INC_001058	
+IDS_PROPQUEST_REQUESTBOX_INC_001059	
+IDS_PROPQUEST_REQUESTBOX_INC_001060	Hope for the Farm!
+IDS_PROPQUEST_REQUESTBOX_INC_001061	Our farm has been destroyed!  I want to rebuild the farm but we don't have enough manpower.  Hey, wait a minute, we can use Axe-Jaw Ants as workers!  Can you help me?
+IDS_PROPQUEST_REQUESTBOX_INC_001062	I will need 50 Slimy Ant Eggs. I have heard that Axe-Jaw Ants only live in the Amines Dungeon.  I can tell you will need help in the dungeon.  Find a party first…
+IDS_PROPQUEST_REQUESTBOX_INC_001063	The farm provides us with food.  Food provides us with nourishment.  Nourishment provides us with life… what don't you get about this?
+IDS_PROPQUEST_REQUESTBOX_INC_001064	Thank you.  Hopefully the farm is not too far gone to save.
+IDS_PROPQUEST_REQUESTBOX_INC_001065	I said 50 Eggs!  Even I didn't think that would be too hard for you to understand…
+IDS_PROPQUEST_REQUESTBOX_INC_001066	Jano needs 50 Slimy Ant Eggs to create workers to rebuild the farm. 
+IDS_PROPQUEST_REQUESTBOX_INC_001067	
+IDS_PROPQUEST_REQUESTBOX_INC_001068	
+IDS_PROPQUEST_REQUESTBOX_INC_001069	Jano is grateful that you were able to provide him with an army of ants to rebuild his farm.
+IDS_PROPQUEST_REQUESTBOX_INC_001070	
+IDS_PROPQUEST_REQUESTBOX_INC_001071	Medicine Needed
+IDS_PROPQUEST_REQUESTBOX_INC_001072	The oldest man in Shaduwar has fallen ill from unknown causes. The Doctor said medicine can be made from Scorpede legs.  Run along and fetch some…
+IDS_PROPQUEST_REQUESTBOX_INC_001073	I have heard Scorpedes live in the Aminus Dungeon. The doctor will require 50 Juicy Scorpede Legs to make the medicine…are you still here…?
+IDS_PROPQUEST_REQUESTBOX_INC_001074	There are no small tasks…just small men…
+IDS_PROPQUEST_REQUESTBOX_INC_001075	Took you long enough!  You probably don't even deserve this reward, but I promised…so…
+IDS_PROPQUEST_REQUESTBOX_INC_001076	This is not the amount of Juicy Scorpede Legs I asked for…maybe you think you know more than the Doctor...
+IDS_PROPQUEST_REQUESTBOX_INC_001077	Jano has asked you to collect Juicy Scorpede Legs from Scorpedes in order to make medicine. 
+IDS_PROPQUEST_REQUESTBOX_INC_001078	
+IDS_PROPQUEST_REQUESTBOX_INC_001079	
+IDS_PROPQUEST_REQUESTBOX_INC_001080	Quest complete!  The oldest man in Shaduwar thanks you!
+IDS_PROPQUEST_REQUESTBOX_INC_001081	
+IDS_PROPQUEST_REQUESTBOX_INC_001082	We Are Starving
+IDS_PROPQUEST_REQUESTBOX_INC_001083	We have run out of food because of the damaged farm.  I have heard rumors that the Maul Rats have Swiss Cheese.  If we can gather enough we can survive.  
+IDS_PROPQUEST_REQUESTBOX_INC_001084	Maul Rats live in the Aminus Dungeon.  We will need 50 Swiss Cheese to survive until the farm has recovered.
+IDS_PROPQUEST_REQUESTBOX_INC_001085	So, since you are not starving this is not that important of an issue, eh?
+IDS_PROPQUEST_REQUESTBOX_INC_001086	I have never seen so much cheese.  Would it have been too much to ask for a little variety… 
+IDS_PROPQUEST_REQUESTBOX_INC_001087	You don't have enough Swiss Cheese. At this rate we will all starve…
+IDS_PROPQUEST_REQUESTBOX_INC_001088	Jano has requested Swiss Cheese from Maul Rats in the Aminus Dungeon in order to get through the food shortage. 
+IDS_PROPQUEST_REQUESTBOX_INC_001089	
+IDS_PROPQUEST_REQUESTBOX_INC_001090	
+IDS_PROPQUEST_REQUESTBOX_INC_001091	You have successfully satisfied Jano's request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001092	
+IDS_PROPQUEST_REQUESTBOX_INC_001093	
+IDS_PROPQUEST_REQUESTBOX_INC_001094	Material for a New Weapon
+IDS_PROPQUEST_REQUESTBOX_INC_001095	Since you "Heroes" can't seem to hold off the Masquerpets, I am going to need to do it myself.  The least you could do is provide me some materials for a decent weapon.
+IDS_PROPQUEST_REQUESTBOX_INC_001096	I heard you can find Lykanos the Malevolent inside of the Aminus Dungeon.  I will need 10 Claw of Lykanos to forge the special weapon.
+IDS_PROPQUEST_REQUESTBOX_INC_001097	Well, I will just need to find someone who isn't afraid to help then...
+IDS_PROPQUEST_REQUESTBOX_INC_001098	Now I can do some real damage…you know what they say, if you want something done right, you have to do it yourself...
+IDS_PROPQUEST_REQUESTBOX_INC_001099	Take your time… It isn't like we have Masquerpets over running Shaduwar or anything…
+IDS_PROPQUEST_REQUESTBOX_INC_001100	Provide Jano with Claw of Lykanos from Lykanos the Malevolent in the Aminus Dungeon.
+IDS_PROPQUEST_REQUESTBOX_INC_001101	
+IDS_PROPQUEST_REQUESTBOX_INC_001102	
+IDS_PROPQUEST_REQUESTBOX_INC_001103	You have successfully satisfied Jano's request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001104	
+IDS_PROPQUEST_REQUESTBOX_INC_001105	
+IDS_PROPQUEST_REQUESTBOX_INC_001106	Mysterious Epidemic
+IDS_PROPQUEST_REQUESTBOX_INC_001107	A horrible plague is spreading to Shaduwar. Sage Radeon told me he can create a cure!  He will need blood from Drakul the Diabolic. Can you please bring it to me?
+IDS_PROPQUEST_REQUESTBOX_INC_001108	Drakul the Diabolic resides in the Aminus Dungeon. Sage Radeon will need 5 containers of blood.
+IDS_PROPQUEST_REQUESTBOX_INC_001109	You must reconsider!  All of Shaduwar should not suffer because of your cowardess! 
+IDS_PROPQUEST_REQUESTBOX_INC_001110	Finally, jeez... Sage Radeon will be able to start making the cure.  Hopefully it's not too late.
+IDS_PROPQUEST_REQUESTBOX_INC_001111	Thanks! We are forever in your debt… wait this is not enough… I should have guessed…
+IDS_PROPQUEST_REQUESTBOX_INC_001112	Collect 5 Blood of Drakul from Drakul the Diabolic in the Aminus Dungeon.
+IDS_PROPQUEST_REQUESTBOX_INC_001113	
+IDS_PROPQUEST_REQUESTBOX_INC_001114	
+IDS_PROPQUEST_REQUESTBOX_INC_001115	You have successfully satisfied Jano's request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001116	
+IDS_PROPQUEST_REQUESTBOX_INC_001117	
+IDS_PROPQUEST_REQUESTBOX_INC_001118	Farm Problems
+IDS_PROPQUEST_REQUESTBOX_INC_001119	Life on the farm has not been so easy even with the help.  I need more help.  Stronger workers.  Bring me Cursed Slimy Ant Eggs…if you can manage it.
+IDS_PROPQUEST_REQUESTBOX_INC_001120	You will need to bring me 50 Cursed Slimy Ant Eggs from the Cursed Aminus Dungeon so that I can run the farm properly.
+IDS_PROPQUEST_REQUESTBOX_INC_001121	But the farm can not function without stronger workers…There will be no food.
+IDS_PROPQUEST_REQUESTBOX_INC_001122	If I ever doubted you, I don’t know why!  Here is your reward!
+IDS_PROPQUEST_REQUESTBOX_INC_001123	You can do this task, it can not be difficult for someone as strong as you… Or can it?
+IDS_PROPQUEST_REQUESTBOX_INC_001124	Jano requires Cursed Slimy Ant Eggs from the Cursed Axe-Jaw Ants in the Cursed Aminus Dungeon
+IDS_PROPQUEST_REQUESTBOX_INC_001125	
+IDS_PROPQUEST_REQUESTBOX_INC_001126	
+IDS_PROPQUEST_REQUESTBOX_INC_001127	You have successfully satisfied Jano's request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001128	
+IDS_PROPQUEST_REQUESTBOX_INC_001129	Older and Sicker
+IDS_PROPQUEST_REQUESTBOX_INC_001130	The oldest man in Shaduwar is older, but now he is sicker…We need to get him more medicine.  Are you up to helping gather more materials?
+IDS_PROPQUEST_REQUESTBOX_INC_001131	This time we need to increase the strength of the medicine.  We need 50  Juicy Scorpede Legs from Cursed Creepy Scorpedes.
+IDS_PROPQUEST_REQUESTBOX_INC_001132	Don't you want him to get older…or are you after the record yourself…
+IDS_PROPQUEST_REQUESTBOX_INC_001133	Amazing!  You must be a fierce warrior indeed.  Here is your well deserved reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001134	That is a good start, but we need more Juicy Scorpede Legs.  50 to be exact.
+IDS_PROPQUEST_REQUESTBOX_INC_001135	Kill Cursed Creepy Scorpedes and collect 50 Juicy Scorpede Legs to make more medicine.
+IDS_PROPQUEST_REQUESTBOX_INC_001136	
+IDS_PROPQUEST_REQUESTBOX_INC_001137	
+IDS_PROPQUEST_REQUESTBOX_INC_001138	You have successfully satisfied Jano's request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001139	
+IDS_PROPQUEST_REQUESTBOX_INC_001140	Restock the Food Supply
+IDS_PROPQUEST_REQUESTBOX_INC_001141	We have eaten through the Swiss Cheese you were good enough to bring us before.  We need more cheese and since your going to the Cursed Aminus Dungeon anyway…
+IDS_PROPQUEST_REQUESTBOX_INC_001142	Take Cursed Swiss Cheese from the Cursed Maul Mat that are found in the Cursed Aminus Dungeon.
+IDS_PROPQUEST_REQUESTBOX_INC_001143	I can hear the stomachs grumbling from here…can't you?
+IDS_PROPQUEST_REQUESTBOX_INC_001144	*eat yammy yammy = )
+IDS_PROPQUEST_REQUESTBOX_INC_001145	Those Cursed Maul Rat must want their cheese as bad as we do!  Please gather us some more.
+IDS_PROPQUEST_REQUESTBOX_INC_001146	Fallen Leaf Camp requires Cursed Swiss Cheese to fight off starvation.
+IDS_PROPQUEST_REQUESTBOX_INC_001147	
+IDS_PROPQUEST_REQUESTBOX_INC_001148	
+IDS_PROPQUEST_REQUESTBOX_INC_001149	You have successfully satisfied Jano's request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001150	
+IDS_PROPQUEST_REQUESTBOX_INC_001151	
+IDS_PROPQUEST_REQUESTBOX_INC_001152	Another New Weapon
+IDS_PROPQUEST_REQUESTBOX_INC_001153	The last special weapon I was able to create with your help has broken!  What am I to do without it.  Well will surely be overrun now!
+IDS_PROPQUEST_REQUESTBOX_INC_001154	What…You can help me?  This will be truly dangerous.  I would need 10 Cursed Claw of Lykanos to create a powerful enough weapon…
+IDS_PROPQUEST_REQUESTBOX_INC_001155	I know, I know… This quest maybe to hard for anyone to complete… I don't blame you for not helping this time.
+IDS_PROPQUEST_REQUESTBOX_INC_001156	With these materials I will be able to create a super special weapon!  I will be able to hold the line! 
+IDS_PROPQUEST_REQUESTBOX_INC_001157	I can't believe you have gotten as far as you have.  Unfortunately, we need 10 to craft the new weapon.
+IDS_PROPQUEST_REQUESTBOX_INC_001158	Jano requires 10 Cursed Claw of Lykanos from Dread Lykanos the Malevolent in the Cursed Aminus Dungeon.
+IDS_PROPQUEST_REQUESTBOX_INC_001159	
+IDS_PROPQUEST_REQUESTBOX_INC_001160	
+IDS_PROPQUEST_REQUESTBOX_INC_001161	Quest complete!  Jano thoroughly enjoys his new weapon!
+IDS_PROPQUEST_REQUESTBOX_INC_001162	
+IDS_PROPQUEST_REQUESTBOX_INC_001163	
+IDS_PROPQUEST_REQUESTBOX_INC_001164	We're Doomed!
+IDS_PROPQUEST_REQUESTBOX_INC_001165	The plague has returned!  Now it seems it is a different strain, a more intense strain.  We are doomed for sure without a cure! None Hone their skills like you, HELP US!
+IDS_PROPQUEST_REQUESTBOX_INC_001166	What… you think have an answer?  Blood from the Dread Drakul the Diabolic?  You're right, Sage Radeon may be able to make a cure from his blood!  Will you help us?
+IDS_PROPQUEST_REQUESTBOX_INC_001167	This plague will wipe out all of Shaduwar without your help!
+IDS_PROPQUEST_REQUESTBOX_INC_001168	I can't believe it… You have saved us all!  There is no greater hero!  Please take this as a token of our gratitude. 
+IDS_PROPQUEST_REQUESTBOX_INC_001169	The sick are wasting away… Please, help us!  We need more blood to make the cure.
+IDS_PROPQUEST_REQUESTBOX_INC_001170	Gather 5 Cursed Blood of Drakul from the Cursed Aminus Dungeon
+IDS_PROPQUEST_REQUESTBOX_INC_001171	
+IDS_PROPQUEST_REQUESTBOX_INC_001172	
+IDS_PROPQUEST_REQUESTBOX_INC_001173	Quest completed!  You've saved many lives. 
+IDS_PROPQUEST_REQUESTBOX_INC_001174	
+IDS_PROPQUEST_REQUESTBOX_INC_001175	Threat of the Hellhound
+IDS_PROPQUEST_REQUESTBOX_INC_001176	It appears that defeating the evil of Shaduwar was only the beginning.  Now that the way is clear to the Valley of the Risen all new horrors have been unleashed!
+IDS_PROPQUEST_REQUESTBOX_INC_001177	There are beasts that resemble hounds, only they are skeletal remains come back to life!  Can you possibly find a way to hunt these beasts?
+IDS_PROPQUEST_REQUESTBOX_INC_001178	Kill these Hellhounds.  Bring me 40 Hellhound Teeth as proof you were able to permanently destroy these beasts.
+IDS_PROPQUEST_REQUESTBOX_INC_001179	I suppose you are too busy, some things never change I guess.
+IDS_PROPQUEST_REQUESTBOX_INC_001180	I am relieved to see that it is possible to kill these undead fiends after all.  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001181	You have not brought me enough of the Hellhound teeth.  Please continue your mission.
+IDS_PROPQUEST_REQUESTBOX_INC_001182	Jano requires you to collect 40 of the Hellhound Teeth
+IDS_PROPQUEST_REQUESTBOX_INC_001183	
+IDS_PROPQUEST_REQUESTBOX_INC_001184	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001185	
+IDS_PROPQUEST_REQUESTBOX_INC_001186	Armor of the Gladiator
+IDS_PROPQUEST_REQUESTBOX_INC_001187	I am getting reports that the Risen Gladiators are extremely difficult to take down.  There must be something special about their armor.
+IDS_PROPQUEST_REQUESTBOX_INC_001188	I want you to go and collect 50 Gladiator's Mantles so that we can study the armor and find its weaknesses.  Will you take on this task?
+IDS_PROPQUEST_REQUESTBOX_INC_001189	Risen Gladiators can be found in the Valley of the Risen.  Bring me 50 Gladiator's Mantles.
+IDS_PROPQUEST_REQUESTBOX_INC_001190	Just because you think you can take them on does not mean others would not benefit from this knowledge.
+IDS_PROPQUEST_REQUESTBOX_INC_001191	I am already seeing some flaws in their armor we did not know about!  This is wonderful news indeed.  Here is your reward. 
+IDS_PROPQUEST_REQUESTBOX_INC_001192	There is not enough samples here to draw any concrete conclusions. 
+IDS_PROPQUEST_REQUESTBOX_INC_001193	Jano require 50 samples of the Gladiator's Mantle from Risen Gladiators.
+IDS_PROPQUEST_REQUESTBOX_INC_001194	
+IDS_PROPQUEST_REQUESTBOX_INC_001195	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001196	
+IDS_PROPQUEST_REQUESTBOX_INC_001197	Skull of a worthy foe
+IDS_PROPQUEST_REQUESTBOX_INC_001198	The more I learn of the Valley of the Risen the more relieved I am that I do not have to travel there myself!
+IDS_PROPQUEST_REQUESTBOX_INC_001199	This time I need you to go and hunt the dangerous Risen Pikeman.  Will you be able to engage the Pikemen in battle?
+IDS_PROPQUEST_REQUESTBOX_INC_001200	You can find the Risen Pikemen wandering the Valley of the Risen.  Bring me 40 of their skulls as proof you defeated this dangerous advisary.
+IDS_PROPQUEST_REQUESTBOX_INC_001201	I suppose you are too busy, some things never change I guess.
+IDS_PROPQUEST_REQUESTBOX_INC_001202	Amazing, truly amazing!  You are becoming a force to be reckoned with.  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001203	You have not made a big enough dent in the ranks of the Risen Pikeman troops.  Continue your mission. 
+IDS_PROPQUEST_REQUESTBOX_INC_001204	Jano needs you to bring him the 40 of the Pikeman's Skulls. 
+IDS_PROPQUEST_REQUESTBOX_INC_001205	
+IDS_PROPQUEST_REQUESTBOX_INC_001206	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001207	
+IDS_PROPQUEST_REQUESTBOX_INC_001208	Death of Madrigal
+IDS_PROPQUEST_REQUESTBOX_INC_001209	You may have not noticed, but if you open your eyes in the Valley of the Risen you will see that Madrigal itself is dying.  The cause can be partially attributed to the evil magic of the Risen Mages.
+IDS_PROPQUEST_REQUESTBOX_INC_001210	Their Evil staffs are responsible for destroying the land around them.  Will you target them and attempt to stop their magic's from killing Madrigal?
+IDS_PROPQUEST_REQUESTBOX_INC_001211	Defeat the Risen Mages, bring me 40 Staff Pieces to show you have been destroying them and their tools.
+IDS_PROPQUEST_REQUESTBOX_INC_001212	I suppose you are too busy, some things never change I guess.
+IDS_PROPQUEST_REQUESTBOX_INC_001213	You have successfully saved Madrigal, for now.  They do not have the numbers to inflict more damage on Madrigal any longer.
+IDS_PROPQUEST_REQUESTBOX_INC_001214	You have not done enough, Madrigal is still in danger!  There is more to be done.
+IDS_PROPQUEST_REQUESTBOX_INC_001215	Jano has requested that you kill Risen Mages until you have collected 40 Staff Pieces.
+IDS_PROPQUEST_REQUESTBOX_INC_001216	
+IDS_PROPQUEST_REQUESTBOX_INC_001217	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001218	
+IDS_PROPQUEST_REQUESTBOX_INC_001219	Reverse the tide
+IDS_PROPQUEST_REQUESTBOX_INC_001220	We have come to a standstill battling these Risen Assassins.  If only we could arm our forces with their superior weapons we could stand a chance of turning the tide.
+IDS_PROPQUEST_REQUESTBOX_INC_001221	The gives me an idea.  If you can help me retrieve even just 40 of their blades, we could use these weapons against them!  Will you help me arm our forces?
+IDS_PROPQUEST_REQUESTBOX_INC_001222	Risen Assassins can be found in the Valley of the Risen.  Go to them.  Kill them, and steal the Blade Pieces.
+IDS_PROPQUEST_REQUESTBOX_INC_001223	Either you are too busy or you don't like my idea, which is it?
+IDS_PROPQUEST_REQUESTBOX_INC_001224	You have successfully collected enough weapons to help us, not to mention thinning their ranks some yourself!  Here is your reward. 
+IDS_PROPQUEST_REQUESTBOX_INC_001225	You don't have enough Blade Pieces. Bring me more.
+IDS_PROPQUEST_REQUESTBOX_INC_001226	You have agreed to fetch 40 Blade Pieces for Jano.
+IDS_PROPQUEST_REQUESTBOX_INC_001227	
+IDS_PROPQUEST_REQUESTBOX_INC_001228	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001229	
+IDS_PROPQUEST_REQUESTBOX_INC_001230	Constructing a new city
+IDS_PROPQUEST_REQUESTBOX_INC_001231	The Mayor of Darkon has informed me that simply fighting the Risen is not enough.  He wants us to construct a new city to help hold back their forces.
+IDS_PROPQUEST_REQUESTBOX_INC_001232	This will be a long and hard road.  It will start with gathering proper tools for the job.  Will you help us by gathering 40 Warrior's Toolboxes from the Valley of the Risen?
+IDS_PROPQUEST_REQUESTBOX_INC_001233	Find the Risen Warriors, some of them will have exceptional magic tools that we can use to help us construct the city.
+IDS_PROPQUEST_REQUESTBOX_INC_001234	Either you are too busy or you don't like my idea, which is it?
+IDS_PROPQUEST_REQUESTBOX_INC_001235	You have collected enough tools so that we can begin construction.  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001236	This is no good,  we cannot do anything until we have 40 sets of tools.
+IDS_PROPQUEST_REQUESTBOX_INC_001237	Collect 40 of the Warrior's Toolboxes from Risen Warriors. 
+IDS_PROPQUEST_REQUESTBOX_INC_001238	
+IDS_PROPQUEST_REQUESTBOX_INC_001239	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001240	
+IDS_PROPQUEST_REQUESTBOX_INC_001241	Horns of the Risen General
+IDS_PROPQUEST_REQUESTBOX_INC_001242	There is a great Evil lurking in the Valley of the Risen, General Razgul.  He wields devilish horns that are said to raise the dead from their graves. 
+IDS_PROPQUEST_REQUESTBOX_INC_001243	If this legend is true it explains the Risen warriors.  We must take this evil item from the General.  Will you face him?
+IDS_PROPQUEST_REQUESTBOX_INC_001244	General Razgul can be found in the deepest recesses of the Valley of the Risen.  Bring me 5 of General Razgul's Horns.
+IDS_PROPQUEST_REQUESTBOX_INC_001245	We need you to complete this task.  Please do not wait long.
+IDS_PROPQUEST_REQUESTBOX_INC_001246	You have successfully defeated the Risen General.  You have accomplished a monumental task this day.  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001247	I realize he is quite intimidating, but please, you must come through.  You must collect all 5 of General Razgul's Horns.
+IDS_PROPQUEST_REQUESTBOX_INC_001248	Collect 5 of General Razgul's Horns and return them to Jano. 
+IDS_PROPQUEST_REQUESTBOX_INC_001249	
+IDS_PROPQUEST_REQUESTBOX_INC_001250	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001251	
+IDS_PROPQUEST_REQUESTBOX_INC_001252	Supply and Demand
+IDS_PROPQUEST_REQUESTBOX_INC_001253	I hear the feathers of the Gryphon have a sweet odor.  I do not see it myself, but sometimes you have to give the people what they want.
+IDS_PROPQUEST_REQUESTBOX_INC_001254	If you will hunt the Blighted Gryphon and bring me 50 Gryphon Feathers I can make perfume.  If you help me, we can split the profits, what do you say?
+IDS_PROPQUEST_REQUESTBOX_INC_001255	Blighted Gryphons can be found in the Valley of the Risen.
+IDS_PROPQUEST_REQUESTBOX_INC_001256	Either you are too busy or you don't like my idea, which is it?
+IDS_PROPQUEST_REQUESTBOX_INC_001257	You have gathered enough Gryphon Feathers for me to create the perfume.  Here is your portion of the profits.
+IDS_PROPQUEST_REQUESTBOX_INC_001258	That is not enough feathers.  We have a lot of demand to fill, I will need all 50 Gryphon Feathers I told you to get. 
+IDS_PROPQUEST_REQUESTBOX_INC_001259	Collect 50 Gryphon Feathers from Blighted Gryphons. 
+IDS_PROPQUEST_REQUESTBOX_INC_001260	
+IDS_PROPQUEST_REQUESTBOX_INC_001261	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001262	
+IDS_PROPQUEST_REQUESTBOX_INC_001263	Research Scythe (1)
+IDS_PROPQUEST_REQUESTBOX_INC_001264	Hail adventurer! I heard Scythe Protectors Bone Scythe is very strong and sharp. I'm currently researching the Bone Scythe, but I'm having hard time finding it.
+IDS_PROPQUEST_REQUESTBOX_INC_001265	Can you bring me 50 Bone Scythes by hunting Scythe Protectors? 
+IDS_PROPQUEST_REQUESTBOX_INC_001266	Scythe Protectors can be found in the Catacombs of Anguish.  Be careful, they are very dangerous foes.
+IDS_PROPQUEST_REQUESTBOX_INC_001267	I will need this done, now or later is your decision. 
+IDS_PROPQUEST_REQUESTBOX_INC_001268	You have successfully collected all of the required Bone Scythes.  Here is your Reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001269	You don't have enough Bone Scythes yet.  Please return to the Catacombs and continue your search.
+IDS_PROPQUEST_REQUESTBOX_INC_001270	Jano has asked you to collect 50 Bone Scythe from Scythe Protectors.
+IDS_PROPQUEST_REQUESTBOX_INC_001271	
+IDS_PROPQUEST_REQUESTBOX_INC_001272	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001273	
+IDS_PROPQUEST_REQUESTBOX_INC_001274	Research Scythe (2)
+IDS_PROPQUEST_REQUESTBOX_INC_001275	Hail adventurer! I heard Vile Flayer Razor Scythe is very strong and sharp. I'm currently researching the Razor Scythe, but I'm having hard time finding it.
+IDS_PROPQUEST_REQUESTBOX_INC_001276	Can you bring me 50 Razor Scythes by hunting Vile Flayer? 
+IDS_PROPQUEST_REQUESTBOX_INC_001277	Vile Flayer can be found in the Catacombs of Anguish.  Be careful, they are very dangerous foes.
+IDS_PROPQUEST_REQUESTBOX_INC_001278	I will need this done, now or later is your decision. 
+IDS_PROPQUEST_REQUESTBOX_INC_001279	You have successfully collected all of the required Razor Scythe.  Here is your Reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001280	You don't have enough Razor Scythes yet.  Please return to the Catacombs and continue your search.
+IDS_PROPQUEST_REQUESTBOX_INC_001281	Jano has asked you to collect 50 Razor Scythe from Vile Flayer.
+IDS_PROPQUEST_REQUESTBOX_INC_001282	
+IDS_PROPQUEST_REQUESTBOX_INC_001283	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001284	
+IDS_PROPQUEST_REQUESTBOX_INC_001285	Secrets of the Necromancer
+IDS_PROPQUEST_REQUESTBOX_INC_001286	The Catacombs of Anguish live up to their names.  Part of the main reason is the vile Fallen Necromancers.  If we could learn their secrets we could better defend ourselves.
+IDS_PROPQUEST_REQUESTBOX_INC_001287	Bring me their books, and we will hand them over to the Sages so they can learn their vile ways.  Do you think you can gather their books?
+IDS_PROPQUEST_REQUESTBOX_INC_001288	Bring me 50 copies of Necromancy 101 from the Fallen Necromancers inside of the Catacombs of Anguish.
+IDS_PROPQUEST_REQUESTBOX_INC_001289	Think you know everything do you?
+IDS_PROPQUEST_REQUESTBOX_INC_001290	Excellent!  With this knowledge we can definitely start to piece together a stronger defense.
+IDS_PROPQUEST_REQUESTBOX_INC_001291	While you have a good start, we are going to need even more books.
+IDS_PROPQUEST_REQUESTBOX_INC_001292	Bring 50 copies of Necromancy 101 from the Fallen Necromancers to Jano.
+IDS_PROPQUEST_REQUESTBOX_INC_001293	
+IDS_PROPQUEST_REQUESTBOX_INC_001294	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001295	
+IDS_PROPQUEST_REQUESTBOX_INC_001296	Power of the Banshee
+IDS_PROPQUEST_REQUESTBOX_INC_001297	I have heard of the horrors of the Catacombs of Anguish.  I know the Forsaken Banshee is among the worst the Catacombs has to offer.
+IDS_PROPQUEST_REQUESTBOX_INC_001298	Their power comes from the Magic Orbs of Darkness.  Cripple their power, bring me 50 of the Magic Orb of Darkness!  Will you do this for me?
+IDS_PROPQUEST_REQUESTBOX_INC_001299	The Forsaken Banshee can be found in the Catacombs of Anguish, take their power from them.
+IDS_PROPQUEST_REQUESTBOX_INC_001300	I know I ask a lot of you, but there is no one else capable of defeating them.
+IDS_PROPQUEST_REQUESTBOX_INC_001301	You have truly done a fantastic thing here!  They may never recover from this loss.  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001302	You need to collect all 50 Magic Orbs in order to complete your task. 
+IDS_PROPQUEST_REQUESTBOX_INC_001303	Gather 50 Magic Orb of Darkness from the Forsaken Banshees.
+IDS_PROPQUEST_REQUESTBOX_INC_001304	
+IDS_PROPQUEST_REQUESTBOX_INC_001305	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001306	
+IDS_PROPQUEST_REQUESTBOX_INC_001307	The final challenge
+IDS_PROPQUEST_REQUESTBOX_INC_001308	This is my final quest for you brave soul.  I have never asked as much of you before.
+IDS_PROPQUEST_REQUESTBOX_INC_001309	I need you to face the master of the Catacombs of Anguish, and I need you to kill him.  Will you attempt the impossible?
+IDS_PROPQUEST_REQUESTBOX_INC_001310	Bring me Kheldor's Helm!
+IDS_PROPQUEST_REQUESTBOX_INC_001311	I didn't expect you to be up to this challenge, even I would not brave this task!
+IDS_PROPQUEST_REQUESTBOX_INC_001312	You are truly a Hero among Heroes.  There is none braver in all of Madrigal.  Here your reward, I hope you consider it enough for your brave deed. 
+IDS_PROPQUEST_REQUESTBOX_INC_001313	Do you think you will be able to complete this monumental task?
+IDS_PROPQUEST_REQUESTBOX_INC_001314	Slay [Deathbringer] Kheldor and bring Kheldor's Helm to Jano
+IDS_PROPQUEST_REQUESTBOX_INC_001315	
+IDS_PROPQUEST_REQUESTBOX_INC_001316	You have successfully satisfied Jano’s request. 
+IDS_PROPQUEST_REQUESTBOX_INC_001317	
+IDS_PROPQUEST_REQUESTBOX_INC_001318	Poison of the Prismatic Cobras
+IDS_PROPQUEST_REQUESTBOX_INC_001319	Something troublesome has come to my attention.  Some of the adventures who discovered The Wilds have been poisoned by Prismatic Cobras.
+IDS_PROPQUEST_REQUESTBOX_INC_001320	The Prismatic Cobra contains poison that I can study in order to create an antidote.   Can you bring me 40 of their Poison Canine?
+IDS_PROPQUEST_REQUESTBOX_INC_001321	Prismatic Cobras live in The Wilds.  Be careful when you battle the Cobras, their poison is dangerous.
+IDS_PROPQUEST_REQUESTBOX_INC_001322	I understand you are busy, but please return soon to help me.
+IDS_PROPQUEST_REQUESTBOX_INC_001323	You've collected enough Poison Canine.  Amazing! Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001324	I require more Poison Canines.  Please bring more as fast as you can!
+IDS_PROPQUEST_REQUESTBOX_INC_001325	You have agreed to bring 40 Poison Canine to Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001326	
+IDS_PROPQUEST_REQUESTBOX_INC_001327	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001328	
+IDS_PROPQUEST_REQUESTBOX_INC_001329	Quality Snake Hides
+IDS_PROPQUEST_REQUESTBOX_INC_001330	Greetings adventurer.  The Cobra Skin of the Twinstrike Cobras is rumored to be able to be woven into an incredible fabric. 
+IDS_PROPQUEST_REQUESTBOX_INC_001331	I can give you a hefty reward if you can help me.  Will you bring me 40 of these Cobra Skins from the Twinstrike Cobra? 
+IDS_PROPQUEST_REQUESTBOX_INC_001332	 I warn you to be weary of the Twinstrike Cobras, they are the most deadly snakes in The Wilds.
+IDS_PROPQUEST_REQUESTBOX_INC_001333	I understand you are busy, but please return soon to help me.
+IDS_PROPQUEST_REQUESTBOX_INC_001334	You have gathered enough Cobra Skin that I can begin to make beautiful fabrics!  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001335	I need you to gather more of the Cobra Skins so I can begin making fabric.
+IDS_PROPQUEST_REQUESTBOX_INC_001336	Lurif has asked you to gather 40 Cobra Skin from Twinstrike Cobras in The Wilds.
+IDS_PROPQUEST_REQUESTBOX_INC_001337	
+IDS_PROPQUEST_REQUESTBOX_INC_001338	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001339	
+IDS_PROPQUEST_REQUESTBOX_INC_001340	Coming cold
+IDS_PROPQUEST_REQUESTBOX_INC_001341	The weather has begun to turn cold.  Soon the Crops will be affected by this chilled air.  I have a solution though…
+IDS_PROPQUEST_REQUESTBOX_INC_001342	I can insulate the more fragile crops with the Soft Fur of the Tanuki Enforcers.  Can you help us save the crops?
+IDS_PROPQUEST_REQUESTBOX_INC_001343	Collect 40 pieces of the Soft Fur from the Tanuki Enforcers in The Wilds.
+IDS_PROPQUEST_REQUESTBOX_INC_001344	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001345	Thanks to you we will have no problem ensuring our crops will survive. 
+IDS_PROPQUEST_REQUESTBOX_INC_001346	You have not yet collected enough pieces of Soft Fur.
+IDS_PROPQUEST_REQUESTBOX_INC_001347	You have been tasked with gathering 40 Soft Furs from the Tanuki Enforcers.
+IDS_PROPQUEST_REQUESTBOX_INC_001348	
+IDS_PROPQUEST_REQUESTBOX_INC_001349	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001350	
+IDS_PROPQUEST_REQUESTBOX_INC_001351	Duplicating weapons
+IDS_PROPQUEST_REQUESTBOX_INC_001352	Greetings, adventurer. The blacksmith wants to research the weapons of the Tanuki Protectors.  If we can supply him with examples he may be able to copy them.
+IDS_PROPQUEST_REQUESTBOX_INC_001353	Can you bring me 40 of Shattered Blades from the Tanuki Protector? 
+IDS_PROPQUEST_REQUESTBOX_INC_001354	Tanuki Protector can be found in The Wilds.  Watch out for their dangerous blades, we are trying to duplicate them for a reason!
+IDS_PROPQUEST_REQUESTBOX_INC_001355	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001356	I am pleased to have these weapons, hopefully they will be good enough specimens to complete the task.
+IDS_PROPQUEST_REQUESTBOX_INC_001357	The Blacksmith will require more samples before he can complete the process. 
+IDS_PROPQUEST_REQUESTBOX_INC_001358	Collect 40 Shattered Blades from the Tanuki Protectors for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001359	
+IDS_PROPQUEST_REQUESTBOX_INC_001360	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001361	
+IDS_PROPQUEST_REQUESTBOX_INC_001362	Wildwood Stalker Bands
+IDS_PROPQUEST_REQUESTBOX_INC_001363	I hear there are strange markings on the jewelry that the Wildwood Stalkers wear on their wrists.
+IDS_PROPQUEST_REQUESTBOX_INC_001364	I would like to study these markings, I have an interesting hunch about them.  Will you collect 40 Tribal Bracelets for me?
+IDS_PROPQUEST_REQUESTBOX_INC_001365	Wildwood Stalkers can be found in the villages of The Wilds.
+IDS_PROPQUEST_REQUESTBOX_INC_001366	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001367	If I am correct in my theory, these bracelets could be very important.  Thank you for your efforts, here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001368	You have not yet gathered 40 Tribal Bracelets
+IDS_PROPQUEST_REQUESTBOX_INC_001369	Find 40 Tribal Bracelets from the Wildwood Stalkers
+IDS_PROPQUEST_REQUESTBOX_INC_001370	
+IDS_PROPQUEST_REQUESTBOX_INC_001371	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001372	
+IDS_PROPQUEST_REQUESTBOX_INC_001373	Faces of The Wild
+IDS_PROPQUEST_REQUESTBOX_INC_001374	The Masks that the Wildwood Shamans wear are rumored to give them the ability to see secret doors and walkways.
+IDS_PROPQUEST_REQUESTBOX_INC_001375	Seeing the unseen could be very beneficial to us.  Can you bring me 40 of Tribal Masks worn by the Wildwood Shamans? 
+IDS_PROPQUEST_REQUESTBOX_INC_001376	You can find Wildwood Shamans in The Wilds.  They use dangerous magical powers, be careful.
+IDS_PROPQUEST_REQUESTBOX_INC_001377	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001378	You have done an amazing job gathering these masks, think of everything we can find now.
+IDS_PROPQUEST_REQUESTBOX_INC_001379	This is not enough masks for us, we need all 40.
+IDS_PROPQUEST_REQUESTBOX_INC_001380	You have been tasked with collecting 40 Tribal Masks from the Wildwood Stalkers.
+IDS_PROPQUEST_REQUESTBOX_INC_001381	
+IDS_PROPQUEST_REQUESTBOX_INC_001382	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001383	
+IDS_PROPQUEST_REQUESTBOX_INC_001384	Healing properties of the heart
+IDS_PROPQUEST_REQUESTBOX_INC_001385	For all our efforts to inflict pain on the Wildwood tribes, they seem to be healing as fast as they fall!
+IDS_PROPQUEST_REQUESTBOX_INC_001386	Word is they are able to harness this great healing ability from the heart of the Beast King Khan.  Can you bring me an Oversized Heart that I can study?
+IDS_PROPQUEST_REQUESTBOX_INC_001387	Kill the Beast King Khan and bring me his Brilliant Oversized Heart!
+IDS_PROPQUEST_REQUESTBOX_INC_001388	Typically I would suggest you are too busy, but this time, I think I see fear behind your eyes.
+IDS_PROPQUEST_REQUESTBOX_INC_001389	You are truly a brave warrior!  I almost did not think I would find someone who could defeat the Beast King Khan.
+IDS_PROPQUEST_REQUESTBOX_INC_001390	I fear you may be too scared to face the Beast King Khan.  We may never get the upper hand on the Wildwood tribes without this knowledge. 
+IDS_PROPQUEST_REQUESTBOX_INC_001391	Return to Lurif with the Oversized Heart.
+IDS_PROPQUEST_REQUESTBOX_INC_001392	
+IDS_PROPQUEST_REQUESTBOX_INC_001393	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001394	
+IDS_PROPQUEST_REQUESTBOX_INC_001395	Some people never learn.
+IDS_PROPQUEST_REQUESTBOX_INC_001396	We have a terrible problem! The adventurers who are attempting to conquer The Savage Wilds are returning poisoned by the bite of the Mythic Prismatic Cobra. 
+IDS_PROPQUEST_REQUESTBOX_INC_001397	I need to prepare a stronger antidote. If you can kill Mythic Prismatic Cobras and collect 40 of their Brilliant Poison Canines I can make the medicine.  Will you brave The Savage Wilds? 
+IDS_PROPQUEST_REQUESTBOX_INC_001398	Mythic Prismatic Cobras can be found in The Savage Wilds.  Be mindful of their venom!
+IDS_PROPQUEST_REQUESTBOX_INC_001399	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001400	You succeeded in supplying me with enough samples to produce enough antidote to cure the sick.
+IDS_PROPQUEST_REQUESTBOX_INC_001401	You do not have enough Brilliant Poison Canines yet.  You must work a little harder in order to complete your task.
+IDS_PROPQUEST_REQUESTBOX_INC_001402	You have agreed to collect 40 Brilliant Poison Canines from Mythic Prismatic Cobras.
+IDS_PROPQUEST_REQUESTBOX_INC_001403	
+IDS_PROPQUEST_REQUESTBOX_INC_001404	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001405	
+IDS_PROPQUEST_REQUESTBOX_INC_001406	The finest silk.
+IDS_PROPQUEST_REQUESTBOX_INC_001407	As it turns out, the Twinstrike Cobra does not produce the best fabric, the best materials come from the Mythic Twinstrike Cobra!
+IDS_PROPQUEST_REQUESTBOX_INC_001408	Please bring me 40 Brilliant Cobra Skins so that I can produce the finest silk.  Will you help me?
+IDS_PROPQUEST_REQUESTBOX_INC_001409	Mythic Twinstrike Cobras can be found in The Savage Wilds.
+IDS_PROPQUEST_REQUESTBOX_INC_001410	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001411	You succeeded in bringing me all the materials I need!  I am excited to start making beautiful silks!  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001412	You have not yet gathered 40 Brilliant Cobra Skins.
+IDS_PROPQUEST_REQUESTBOX_INC_001413	Gather 40 Brilliant Cobra Skins from Mythic Twinstrike Cobra in The Savage Wilds.
+IDS_PROPQUEST_REQUESTBOX_INC_001414	
+IDS_PROPQUEST_REQUESTBOX_INC_001415	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001417	Harsh winter.
+IDS_PROPQUEST_REQUESTBOX_INC_001418	This winter will be exceptionally cold and harsh. Luckily Brilliant Soft Fur from the Elite Tanuki Enforcer can help us last through the winter.
+IDS_PROPQUEST_REQUESTBOX_INC_001419	In order to make one winter outfit I will require 40 pieces of Brilliant Soft Fur.  Will you help me to collect these pieces?
+IDS_PROPQUEST_REQUESTBOX_INC_001420	Elite Tanuki Enforcers can be found in The Savage Wilds, please hurry, I sense the change of seasons coming soon.
+IDS_PROPQUEST_REQUESTBOX_INC_001421	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001422	Your hard work will ensure someone is able to survive the coming winter in comfort! Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001423	You have not yet collected enough pieces of Brilliant Soft Fur.
+IDS_PROPQUEST_REQUESTBOX_INC_001424	You have been tasked with gathering 40 Brilliant Soft Furs from the Elite Tanuki Enforcers.
+IDS_PROPQUEST_REQUESTBOX_INC_001425	
+IDS_PROPQUEST_REQUESTBOX_INC_001426	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001427	
+IDS_PROPQUEST_REQUESTBOX_INC_001428	New weapon experiment.
+IDS_PROPQUEST_REQUESTBOX_INC_001429	I have some unfortunate news.  It appears the Blacksmith was unable to duplicate the Shattered Blade of the Tanuki Protector.  If we can collect better samples for him he may be able to come through.
+IDS_PROPQUEST_REQUESTBOX_INC_001430	Would you be willing to travel to The Savage Wilds and return to me with 40 Brilliant Shattered Blades?
+IDS_PROPQUEST_REQUESTBOX_INC_001431	You will need to get the Brilliant Shattered Blades from the Elite Tanuki Protectors.
+IDS_PROPQUEST_REQUESTBOX_INC_001432	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001433	You have brought me wonderful samples!  I am positive this will be good enough!  Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001434	You have still not found enough of the Brilliant Shattered Blades.
+IDS_PROPQUEST_REQUESTBOX_INC_001435	Collect 40 Brilliant Shattered Blades from the Elite Tanuki Protectors.
+IDS_PROPQUEST_REQUESTBOX_INC_001436	
+IDS_PROPQUEST_REQUESTBOX_INC_001437	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001438	
+IDS_PROPQUEST_REQUESTBOX_INC_001439	Secrets of The Savage Wilds
+IDS_PROPQUEST_REQUESTBOX_INC_001440	My hunch has proved correct!  The secrets of their culture are right there, carved into their jewelry.
+IDS_PROPQUEST_REQUESTBOX_INC_001441	The more we learn about them, the better we can fight them.  Will you bring me 40 of their Brilliant Tribal Bracelets?
+IDS_PROPQUEST_REQUESTBOX_INC_001442	Mythic Wildwood Stalkers can be found in the villages of The Savage Wilds.
+IDS_PROPQUEST_REQUESTBOX_INC_001443	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001444	I can already tell there is much information to be learned from these bracelets. Here is your reward.
+IDS_PROPQUEST_REQUESTBOX_INC_001445	You have not yet gathered 40 Brilliant Tribal Bracelets
+IDS_PROPQUEST_REQUESTBOX_INC_001446	Find 40 Brilliant Tribal Bracelets from the Mythic Wildwood Stalkers
+IDS_PROPQUEST_REQUESTBOX_INC_001447	
+IDS_PROPQUEST_REQUESTBOX_INC_001448	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001449	
+IDS_PROPQUEST_REQUESTBOX_INC_001450	Mysterious Tribal Mask 
+IDS_PROPQUEST_REQUESTBOX_INC_001451	While the mask of the Wildwood Shaman can show us some secrets, we will need the mask of the Shadowy Wildwood Shaman to see even more.
+IDS_PROPQUEST_REQUESTBOX_INC_001452	With 40 of the Brilliant Tribal Masks we think we will be able to detect the paths to more undiscovered continents some day.  Will you help us yet again?
+IDS_PROPQUEST_REQUESTBOX_INC_001453	Shadowy Wildwood Shamans can be found in the villages of The Savage Wilds.  Beware of their strong magic abilities.
+IDS_PROPQUEST_REQUESTBOX_INC_001454	Ah, you must be too busy. I suppose I will ask you later.
+IDS_PROPQUEST_REQUESTBOX_INC_001455	We may never discover new lands without harnessing the powers of the Brilliant Tribal Masks.
+IDS_PROPQUEST_REQUESTBOX_INC_001456	There are not enough masks here to be helpful.  Please gather all 40.
+IDS_PROPQUEST_REQUESTBOX_INC_001457	Take 40 Brilliant Tribal Masks from the Shadowy Wildwood Shamans.
+IDS_PROPQUEST_REQUESTBOX_INC_001458	
+IDS_PROPQUEST_REQUESTBOX_INC_001459	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001460	
+IDS_PROPQUEST_REQUESTBOX_INC_001461	Full healing potential
+IDS_PROPQUEST_REQUESTBOX_INC_001462	I have been hearing lately that the Wildwood tribe uses a mixture of both Khan hearts to create the magical healing effects.
+IDS_PROPQUEST_REQUESTBOX_INC_001463	As I already have the Heart of Beast King Khan, I only now require the Heart of the Beast Overlord Khan.  Can you bring me his heart?
+IDS_PROPQUEST_REQUESTBOX_INC_001464	Kill the Beast Overlord Khan and bring me his Brilliant Oversized Heart!
+IDS_PROPQUEST_REQUESTBOX_INC_001465	Typically I would suggest you are too busy, but this time, I think I see fear behind your eyes.
+IDS_PROPQUEST_REQUESTBOX_INC_001466	You are truly a brave warrior!  I almost did not think I would find someone who could defeat the Beast Overlord Khan.
+IDS_PROPQUEST_REQUESTBOX_INC_001467	I fear you may be too scared to face the Beast Overlord Khan.  We may never uncover the full healing potentials of the Khan Heart.
+IDS_PROPQUEST_REQUESTBOX_INC_001468	Return to Lurif with the Brilliant Oversized Heart.
+IDS_PROPQUEST_REQUESTBOX_INC_001469	
+IDS_PROPQUEST_REQUESTBOX_INC_001470	You were able to complete this task for Lurif.
+IDS_PROPQUEST_REQUESTBOX_INC_001471	
+IDS_PROPQUEST_REQUESTBOX_INC_001472	Flaris
+IDS_PROPQUEST_REQUESTBOX_INC_001473	Saintmorning
+IDS_PROPQUEST_REQUESTBOX_INC_001474	Darkon
+IDS_PROPQUEST_REQUESTBOX_INC_001475	Shaduwar
+IDS_PROPQUEST_REQUESTBOX_INC_001476	Scenario
+IDS_PROPQUEST_REQUESTBOX_INC_001478	Quest Office
+IDS_PROPQUEST_REQUESTBOX_INC_001479	Event

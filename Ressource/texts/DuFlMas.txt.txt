@@ -1,0 +1,4 @@
+﻿IDS_WORLD_DUFLMAS_DUFLMAS_RGN_000000	Mars Mine(Dungeon)
+IDS_WORLD_DUFLMAS_DUFLMAS_RGN_000001	Something gross and dangerous is here in this cave.
+
+

@@ -1,0 +1,5 @@
+﻿IDS_WDHEAVEN06_1_WLD_000000	6th floor of Forsaken Tower 
+IDS_WDHEAVEN06_1_WLD_000001	Secret Room
+IDS_WDHEAVEN06_1_WLD_000002	6th floor of Forsaken Tower 
+IDS_WDHEAVEN06_1_WLD_000003	Secret Room
+

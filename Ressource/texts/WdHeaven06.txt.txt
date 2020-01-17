@@ -1,0 +1,2 @@
+﻿IDS_WDHEAVEN06_WLD_000000	Hunting zone for occupying guild
+IDS_WDHEAVEN06_WLD_000001	Hunting zone for occupying guild

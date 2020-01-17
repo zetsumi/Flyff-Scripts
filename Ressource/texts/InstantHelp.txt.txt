@@ -1,0 +1,19 @@
+﻿IDS_CLIENT_INSTANTHELP_INC_000000	Purchasing penya from any website is a direct violation of the Terms Of Service and can result in a permanent ban of your account. If you see a player advertising a penya selling site, please report it to the FlyFF Game Master Team at flyff@gala-net.com. Thank you.
+IDS_CLIENT_INSTANTHELP_INC_000001	Ignore: You can *ignore* any player's chat messages and whispers by typing the following in the chat box without the quotes: /Block "playername".
+IDS_CLIENT_INSTANTHELP_INC_000002	Movement: You can move your character by clicking on the ground with the Left Mouse Button or using the W, A, S, and D Keys.  Pressing the Space Bar makes your character jump.
+IDS_CLIENT_INSTANTHELP_INC_000003	Walk/Run: You can click the X Key to toggle walking and running.
+IDS_CLIENT_INSTANTHELP_INC_000004	Camera: Rotate the camera around your character by holding down the Right Mouse Button and moving the mouse in any direction.  Double clicking the Right Mouse Button centers the camera behind your character.
+IDS_CLIENT_INSTANTHELP_INC_000005	Contact a GM: To contact a GM (Game Master), please visit the official website at http://flyff.gpotato.com and select the Support Link at the top of the page.
+IDS_CLIENT_INSTANTHELP_INC_000006	Chat: Press the Enter Key to toggle the text cursor on and off in the Chat Window.  You can switch chat channels by selecting Chat, Whisper, Shout, Party or Guild.
+IDS_CLIENT_INSTANTHELP_INC_000007	Attack: Attack a Masquerpet by double-clicking the target, holding CNTRL and clicking the target, or simply targetting an enemy and pressing any attack ability.
+IDS_CLIENT_INSTANTHELP_INC_000008	Item usage: Many items have a "Use" function.  To use most items, you can simply double-click them in your inventory.
+IDS_CLIENT_INSTANTHELP_INC_000009	Resurrection:  If your character meets an untimely demise, you can resurrect your character at a Lodestar in the nearest town.
+IDS_CLIENT_INSTANTHELP_INC_000010	Buying Items: There are many NPC shop characters that you can buy basic equipment and items from.  You can also buy items from other players who open a Private Shop.
+IDS_CLIENT_INSTANTHELP_INC_000011	Trading: Press and hold the Alt Key and click on another player with the Left Mouse Button to trade.  You can trade penya by dragging the penya stack in your inventory to the trade window.
+IDS_CLIENT_INSTANTHELP_INC_000012	Reporting Bugs: If you happen to find a bug in the game, please send an email to flyffbugs@gala-net.com with as much details as possible.
+IDS_CLIENT_INSTANTHELP_INC_000013	Stat Points: When you level up, you get Stat Points that can be allocated to specific stats on your character.  Press the H Key and select the stat you wish to increase.
+IDS_CLIENT_INSTANTHELP_INC_000014	Stuck: If you ever have the misfortunate of getting your character stuck in Madrigal, simply use the "Nearest Town Teleport" icon in the Motion Window (O Key).
+IDS_CLIENT_INSTANTHELP_INC_000015	Emotes: Press the O Key to access the Emotes Menu.  You can use these emotes straight from that menu, or you can move them to your hotkey bar.
+IDS_CLIENT_INSTANTHELP_INC_000016	Picking up Items:  Picking up items can be done by simply clicking on the item, using the "Pick-up Nearby Item" icon from the Motion Window, or simply using a Pick-up Pet.
+IDS_CLIENT_INSTANTHELP_INC_000017	Hotkey Bar: At the bottom of the screen, there are slots that you can put abilities into.  You can click and drag abilities from your Skills Menu (K), your inventory (I), or even your Motion Window (O).
+IDS_CLIENT_INSTANTHELP_INC_000018	Lord  Election : Every 2 weeks "Lord Election" is started Saturday (00:00) ~ Sunday 23:59 <2Days>

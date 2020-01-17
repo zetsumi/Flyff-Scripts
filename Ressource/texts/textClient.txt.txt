@@ -1,0 +1,2972 @@
+﻿IDS_TEXTCLIENT_INC_000000	
+IDS_TEXTCLIENT_INC_000001	Navigator
+IDS_TEXTCLIENT_INC_000002	Send Mail
+IDS_TEXTCLIENT_INC_000003	Inbox
+IDS_TEXTCLIENT_INC_000004	Character
+IDS_TEXTCLIENT_INC_000005	Inventory
+IDS_TEXTCLIENT_INC_000006	Private Shop
+IDS_TEXTCLIENT_INC_000007	Skill
+IDS_TEXTCLIENT_INC_000008	Macro
+IDS_TEXTCLIENT_INC_000009	Style
+IDS_TEXTCLIENT_INC_000010	Motion
+IDS_TEXTCLIENT_INC_000011	Emoticon
+IDS_TEXTCLIENT_INC_000012	Trade
+IDS_TEXTCLIENT_INC_000013	Quest Diary
+IDS_TEXTCLIENT_INC_000014	PvP
+IDS_TEXTCLIENT_INC_000015	Friend
+IDS_TEXTCLIENT_INC_000016	Party
+IDS_TEXTCLIENT_INC_000017	Guild
+IDS_TEXTCLIENT_INC_000018	Club
+IDS_TEXTCLIENT_INC_000019	Chatting
+IDS_TEXTCLIENT_INC_000020	Message
+IDS_TEXTCLIENT_INC_000021	Messenger
+IDS_TEXTCLIENT_INC_000022	Email
+IDS_TEXTCLIENT_INC_000023	BBS
+IDS_TEXTCLIENT_INC_000024	User Search
+IDS_TEXTCLIENT_INC_000025	Guild Search
+IDS_TEXTCLIENT_INC_000026	Club Search
+IDS_TEXTCLIENT_INC_000027	Shop Search
+IDS_TEXTCLIENT_INC_000028	Video and Audio Option
+IDS_TEXTCLIENT_INC_000029	Audio Settings
+IDS_TEXTCLIENT_INC_000030	BGM Settings
+IDS_TEXTCLIENT_INC_000031	Change Password
+IDS_TEXTCLIENT_INC_000032	Window Effect
+IDS_TEXTCLIENT_INC_000033	Set chat filter
+IDS_TEXTCLIENT_INC_000034	Mouse Sensitivity
+IDS_TEXTCLIENT_INC_000035	My Information
+IDS_TEXTCLIENT_INC_000036	Hotkey
+IDS_TEXTCLIENT_INC_000037	Theme
+IDS_TEXTCLIENT_INC_000038	Options
+IDS_TEXTCLIENT_INC_000039	Game Option
+IDS_TEXTCLIENT_INC_000040	Notice
+IDS_TEXTCLIENT_INC_000041	Event Information
+IDS_TEXTCLIENT_INC_000042	Version
+IDS_TEXTCLIENT_INC_000043	Development Schedule
+IDS_TEXTCLIENT_INC_000044	Help
+IDS_TEXTCLIENT_INC_000045	Tips
+IDS_TEXTCLIENT_INC_000046	FAQ
+IDS_TEXTCLIENT_INC_000047	Vote
+IDS_TEXTCLIENT_INC_000048	Participate in Event
+IDS_TEXTCLIENT_INC_000049	Screenshot
+IDS_TEXTCLIENT_INC_000050	Logout
+IDS_TEXTCLIENT_INC_000051	Quit
+IDS_TEXTCLIENT_INC_000052	Taskbar
+IDS_TEXTCLIENT_INC_000053	Applet
+IDS_TEXTCLIENT_INC_000054	Managing Function
+IDS_TEXTCLIENT_INC_000055	World
+IDS_TEXTCLIENT_INC_000056	Dialog
+IDS_TEXTCLIENT_INC_000057	Debug
+IDS_TEXTCLIENT_INC_000058	Status
+IDS_TEXTCLIENT_INC_000059	Control Test
+IDS_TEXTCLIENT_INC_000060	Community
+IDS_TEXTCLIENT_INC_000061	Communication
+IDS_TEXTCLIENT_INC_000062	Search
+IDS_TEXTCLIENT_INC_000063	Option
+IDS_TEXTCLIENT_INC_000064	Information
+IDS_TEXTCLIENT_INC_000065	Helper
+IDS_TEXTCLIENT_INC_000066	Join
+IDS_TEXTCLIENT_INC_000067	Etc.
+IDS_TEXTCLIENT_INC_000068	Premium Items
+IDS_TEXTCLIENT_INC_000069	Flyff Shop
+IDS_TEXTCLIENT_INC_000070	Duration
+IDS_TEXTCLIENT_INC_000071	A mini-map to help you find your way.
+IDS_TEXTCLIENT_INC_000072	Shows detailed information about your character.
+IDS_TEXTCLIENT_INC_000073	Opens your inventory.
+IDS_TEXTCLIENT_INC_000074	Allows you to open a Private Shop.
+IDS_TEXTCLIENT_INC_000075	Shows the Skils Window. 
+IDS_TEXTCLIENT_INC_000076	Create shortcuts for commands or text.
+IDS_TEXTCLIENT_INC_000077	What is your style?
+IDS_TEXTCLIENT_INC_000078	Use emoticons and motions to express yourself.
+IDS_TEXTCLIENT_INC_000079	Use emoticons and motions to express yourself.
+IDS_TEXTCLIENT_INC_000080	Trade items or Penya with other players.
+IDS_TEXTCLIENT_INC_000081	Shows the Quest Diary.
+IDS_TEXTCLIENT_INC_000082	Show duel information.
+IDS_TEXTCLIENT_INC_000083	Change your hair color or style.
+IDS_TEXTCLIENT_INC_000084	Manage your Friends List
+IDS_TEXTCLIENT_INC_000085	Manage your Party.
+IDS_TEXTCLIENT_INC_000086	Manage your Guild.
+IDS_TEXTCLIENT_INC_000087	Manage your Club.
+IDS_TEXTCLIENT_INC_000088	Open a chat window.
+IDS_TEXTCLIENT_INC_000089	Send a message to other players.
+IDS_TEXTCLIENT_INC_000090	Send a message to other players.
+IDS_TEXTCLIENT_INC_000091	Write an E-mail.
+IDS_TEXTCLIENT_INC_000092	Use forum.
+IDS_TEXTCLIENT_INC_000093	Search characters.
+IDS_TEXTCLIENT_INC_000094	Search Guild.
+IDS_TEXTCLIENT_INC_000095	Club Search
+IDS_TEXTCLIENT_INC_000096	Shop Search
+IDS_TEXTCLIENT_INC_000097	Video Options
+IDS_TEXTCLIENT_INC_000098	Audio Options
+IDS_TEXTCLIENT_INC_000099	BGM Options
+IDS_TEXTCLIENT_INC_000100	Change Password
+IDS_TEXTCLIENT_INC_000101	Window Effects
+IDS_TEXTCLIENT_INC_000102	Filter Slang
+IDS_TEXTCLIENT_INC_000103	Mouse Options
+IDS_TEXTCLIENT_INC_000104	My Information
+IDS_TEXTCLIENT_INC_000105	Shortcut Option
+IDS_TEXTCLIENT_INC_000106	Interface Theme
+IDS_TEXTCLIENT_INC_000107	Other Options
+IDS_TEXTCLIENT_INC_000108	Game Options
+IDS_TEXTCLIENT_INC_000109	Notice
+IDS_TEXTCLIENT_INC_000110	Event
+IDS_TEXTCLIENT_INC_000111	Current Version
+IDS_TEXTCLIENT_INC_000112	Development Schedule
+IDS_TEXTCLIENT_INC_000113	Help
+IDS_TEXTCLIENT_INC_000114	Tips
+IDS_TEXTCLIENT_INC_000115	FAQ
+IDS_TEXTCLIENT_INC_000116	Vote
+IDS_TEXTCLIENT_INC_000117	Join Event
+IDS_TEXTCLIENT_INC_000118	Screenshot
+IDS_TEXTCLIENT_INC_000119	Use Total Functions
+IDS_TEXTCLIENT_INC_000120	GM Management
+IDS_TEXTCLIENT_INC_000121	World Window
+IDS_TEXTCLIENT_INC_000122	Chat Window
+IDS_TEXTCLIENT_INC_000123	Debug Window
+IDS_TEXTCLIENT_INC_000124	Character Status
+IDS_TEXTCLIENT_INC_000125	Control Test
+IDS_TEXTCLIENT_INC_000126	Exit Program
+IDS_TEXTCLIENT_INC_000127	Logout 
+IDS_TEXTCLIENT_INC_000128	Opens the Premium Item Shop.
+IDS_TEXTCLIENT_INC_000129	Displays the duration of Cash Shop items.
+IDS_TEXTCLIENT_INC_000130	Welcome to FlyFF!
+IDS_TEXTCLIENT_INC_000131	Disconnecting... Please wait.
+IDS_TEXTCLIENT_INC_000132	Welcome to the wonderful world of %ss!
+IDS_TEXTCLIENT_INC_000133	The next step of the quest has started.
+IDS_TEXTCLIENT_INC_000134	Quest Complete!
+IDS_TEXTCLIENT_INC_000135	You received %s.
+IDS_TEXTCLIENT_INC_000136	Now it's time to choose your job.
+IDS_TEXTCLIENT_INC_000137	You've received the quest: %s. Open your Quest Window for details.
+IDS_TEXTCLIENT_INC_000138	Congratulations!  %s has been completed.
+IDS_TEXTCLIENT_INC_000139	You have cancelled the quest: %s.
+IDS_TEXTCLIENT_INC_000140	Please wait until it has been started.
+IDS_TEXTCLIENT_INC_000141	Move to the Battle Zone!
+IDS_TEXTCLIENT_INC_000142	Start!
+IDS_TEXTCLIENT_INC_000143	Finish!
+IDS_TEXTCLIENT_INC_000144	Ready!
+IDS_TEXTCLIENT_INC_000145	Result: Rank %d / Belongs to: %s / No. of Survivors: %d
+IDS_TEXTCLIENT_INC_000146	Move to the Battle Zone!
+IDS_TEXTCLIENT_INC_000147	Start!
+IDS_TEXTCLIENT_INC_000148	You cannot use that item.
+IDS_TEXTCLIENT_INC_000149	Dead men tell no tales....
+IDS_TEXTCLIENT_INC_000150	You are in Observation Mode. Chat is not permitted.
+IDS_TEXTCLIENT_INC_000151	Sever: %s / Entire No: %d
+IDS_TEXTCLIENT_INC_000152	Playing time %d min / Belongs to %s / No. of Survivors: %d / No. of Dead: %d
+IDS_TEXTCLIENT_INC_000153	You are now on the entry list.
+IDS_TEXTCLIENT_INC_000154	You cannot register your name on the entry list at this time.
+IDS_TEXTCLIENT_INC_000155	Level up! You can increase your stats in your character window.
+IDS_TEXTCLIENT_INC_000156	Press ESC and go back to Lodestar(Town) or Lodelight(Field) for resurrecting.
+IDS_TEXTCLIENT_INC_000157	You can feel yourself getting stronger!
+IDS_TEXTCLIENT_INC_000158	You can feel your body flowing with more energy!
+IDS_TEXTCLIENT_INC_000159	You can feel yourself getting more nimble!
+IDS_TEXTCLIENT_INC_000160	You can feel yourself getting stronger!
+IDS_TEXTCLIENT_INC_000161	You have learned more about your chosen profession.
+IDS_TEXTCLIENT_INC_000162	Flying level up!
+IDS_TEXTCLIENT_INC_000163	You've learned %s.  You can now allocate skill points to this ability.
+IDS_TEXTCLIENT_INC_000164	You are learning new attack patterns!
+IDS_TEXTCLIENT_INC_000165	This area is inaccessible.
+IDS_TEXTCLIENT_INC_000166	In order to ride a flying vehicle, you must reach level 20.
+IDS_TEXTCLIENT_INC_000167	Cannot recover HP right now.
+IDS_TEXTCLIENT_INC_000168	Cannot recover your MP right now.
+IDS_TEXTCLIENT_INC_000169	Not enough FP.
+IDS_TEXTCLIENT_INC_000170	Not enough MP.
+IDS_TEXTCLIENT_INC_000171	You need more STR to use %s.
+IDS_TEXTCLIENT_INC_000172	You need more STA to use %s.
+IDS_TEXTCLIENT_INC_000173	You need more DEX to use %s.
+IDS_TEXTCLIENT_INC_000174	You need more INT to use %s.
+IDS_TEXTCLIENT_INC_000175	You cannot equip the %s.  Requirements not met.
+IDS_TEXTCLIENT_INC_000176	%s is not for your gender.
+IDS_TEXTCLIENT_INC_000177	You dropped %s.
+IDS_TEXTCLIENT_INC_000178	This item belongs to someone else.
+IDS_TEXTCLIENT_INC_000179	You do not have enough Penya.
+IDS_TEXTCLIENT_INC_000180	Inventory is full. Please make room and try again..
+IDS_TEXTCLIENT_INC_000181	Please unequip the item before selling it.
+IDS_TEXTCLIENT_INC_000182	You received %s.
+IDS_TEXTCLIENT_INC_000183	You have chosen the Lodelight as your re-spawn point.
+IDS_TEXTCLIENT_INC_000184	You cannot drop items while flying.
+IDS_TEXTCLIENT_INC_000185	You received %s Penya (Total: %s Penya).
+IDS_TEXTCLIENT_INC_000186	You need to equip the correct weapon or item to use that skill.
+IDS_TEXTCLIENT_INC_000187	You cannot drop more than 30,000 Penya. Please use the trade function.
+IDS_TEXTCLIENT_INC_000188	Vagrants cannot use %s.
+IDS_TEXTCLIENT_INC_000189	You cannot trade with another player while vending.
+IDS_TEXTCLIENT_INC_000190	You cannot drop items while trading.
+IDS_TEXTCLIENT_INC_000191	You cannot use items while trading.
+IDS_TEXTCLIENT_INC_000192	You cannot trade with a player and an NPC at the same time.
+IDS_TEXTCLIENT_INC_000193	You cannot trade with a player and an NPC at the same time.
+IDS_TEXTCLIENT_INC_000194	Only the party leader can use this function.
+IDS_TEXTCLIENT_INC_000195	%s has created a party.
+IDS_TEXTCLIENT_INC_000196	%s has left the party.
+IDS_TEXTCLIENT_INC_000197	%s has been removed from the party.
+IDS_TEXTCLIENT_INC_000198	You are not a party member.
+IDS_TEXTCLIENT_INC_000199	The party has been disbanded.
+IDS_TEXTCLIENT_INC_000200	The party has been disbanded.
+IDS_TEXTCLIENT_INC_000201	%s is currently in another party.
+IDS_TEXTCLIENT_INC_000202	%s invites you to join a party.
+IDS_TEXTCLIENT_INC_000203	%s has gained %s.
+IDS_TEXTCLIENT_INC_000204	%s has received %s.
+IDS_TEXTCLIENT_INC_000205	Item distribution was changed to %s.
+IDS_TEXTCLIENT_INC_000206	Exp distribution was changed to %s.
+IDS_TEXTCLIENT_INC_000207	A novice party has been reorganized as %s party.
+IDS_TEXTCLIENT_INC_000208	%s party has been reorganized as a novice party.
+IDS_TEXTCLIENT_INC_000209	You cannot attack a monster that is fighting against another player.
+IDS_TEXTCLIENT_INC_000210	The %s belongs to another player at the moment. Please wait a while.
+IDS_TEXTCLIENT_INC_000211	%s belongs to another party at the moment. Please wait a while.
+IDS_TEXTCLIENT_INC_000212	You cannot equip a two-handed weapon while wearing a shield.
+IDS_TEXTCLIENT_INC_000213	You cannot equip items that are still in the bank.
+IDS_TEXTCLIENT_INC_000214	You cannot drop items that are still in the bank.
+IDS_TEXTCLIENT_INC_000215	Bank has insufficient Penya.
+IDS_TEXTCLIENT_INC_000216	Unable to trade. Target player is using the bank.
+IDS_TEXTCLIENT_INC_000217	You cannot trade while using the bank.
+IDS_TEXTCLIENT_INC_000218	You have been slain by %s.
+IDS_TEXTCLIENT_INC_000219	You recovered your Karma points by %s.
+IDS_TEXTCLIENT_INC_000220	%s Karma points have been reduced.
+IDS_TEXTCLIENT_INC_000221	That player is already in a duel.
+IDS_TEXTCLIENT_INC_000222	You cannot fly while dueling.
+IDS_TEXTCLIENT_INC_000223	Skill level of %s has increased to %d.
+IDS_TEXTCLIENT_INC_000224	This action has been blocked by an obstacle..
+IDS_TEXTCLIENT_INC_000225	Your trade with %s has been completed.
+IDS_TEXTCLIENT_INC_000226	%s has completed the trade.
+IDS_TEXTCLIENT_INC_000227	The trade has been cancelled.
+IDS_TEXTCLIENT_INC_000228	You are already in a guild. Leave the guild first then try again.
+IDS_TEXTCLIENT_INC_000229	Only the guild leader can disband the guild.
+IDS_TEXTCLIENT_INC_000230	Cannot cancel because you do not belong to a guild.
+IDS_TEXTCLIENT_INC_000231	Guild name is too long.
+IDS_TEXTCLIENT_INC_000232	Guild name already exists.
+IDS_TEXTCLIENT_INC_000233	%s has formed the guild '%s'.
+IDS_TEXTCLIENT_INC_000234	%s has disbanded the %s guild.
+IDS_TEXTCLIENT_INC_000235	That guild does not exist.
+IDS_TEXTCLIENT_INC_000236	You are not authorized to recruit new guild members.
+IDS_TEXTCLIENT_INC_000237	You are already in a guild.
+IDS_TEXTCLIENT_INC_000238	The guild is full.
+IDS_TEXTCLIENT_INC_000239	You have joined the %s guild.
+IDS_TEXTCLIENT_INC_000240	%s has joined the guild.
+IDS_TEXTCLIENT_INC_000241	You are not a guild member.
+IDS_TEXTCLIENT_INC_000242	%s is not a member of the guild.
+IDS_TEXTCLIENT_INC_000243	Only Guild Masters can kick guild members out.
+IDS_TEXTCLIENT_INC_000244	Guild masters cannot leave the guild.
+IDS_TEXTCLIENT_INC_000245	%s has left the guild.
+IDS_TEXTCLIENT_INC_000246	You are no longer a member of the %s guild.
+IDS_TEXTCLIENT_INC_000247	%s is already in a guild.
+IDS_TEXTCLIENT_INC_000248	You invited %s to your guild.
+IDS_TEXTCLIENT_INC_000249	You are not authorized to recruit new guild members.
+IDS_TEXTCLIENT_INC_000250	%s has declined your invitation.
+IDS_TEXTCLIENT_INC_000251	Please wait for a moment.
+IDS_TEXTCLIENT_INC_000252	You are still using the %s party skill. Try again later.
+IDS_TEXTCLIENT_INC_000253	The party skill %s has been used.
+IDS_TEXTCLIENT_INC_000254	The effect of %s is about to end.
+IDS_TEXTCLIENT_INC_000255	Player
+IDS_TEXTCLIENT_INC_000256	Party
+IDS_TEXTCLIENT_INC_000257	NPC
+IDS_TEXTCLIENT_INC_000258	Monster
+IDS_TEXTCLIENT_INC_000259	You cannot trade while dueling.
+IDS_TEXTCLIENT_INC_000260	You cannot add someone to your friends list while dueling.
+IDS_TEXTCLIENT_INC_000261	Online
+IDS_TEXTCLIENT_INC_000262	Offline
+IDS_TEXTCLIENT_INC_000263	Block
+IDS_TEXTCLIENT_INC_000264	AFK
+IDS_TEXTCLIENT_INC_000265	Addict Mode
+IDS_TEXTCLIENT_INC_000266	Resting / Vending
+IDS_TEXTCLIENT_INC_000267	Eating
+IDS_TEXTCLIENT_INC_000268	Moving
+IDS_TEXTCLIENT_INC_000269	Move
+IDS_TEXTCLIENT_INC_000270	Delete
+IDS_TEXTCLIENT_INC_000271	Death
+IDS_TEXTCLIENT_INC_000272	Threaten
+IDS_TEXTCLIENT_INC_000273	Unblock
+IDS_TEXTCLIENT_INC_000274	Dialog
+IDS_TEXTCLIENT_INC_000275	Quest
+IDS_TEXTCLIENT_INC_000276	Trade
+IDS_TEXTCLIENT_INC_000277	Duel
+IDS_TEXTCLIENT_INC_000278	Message
+IDS_TEXTCLIENT_INC_000279	Add to my list
+IDS_TEXTCLIENT_INC_000280	Invite to join party
+IDS_TEXTCLIENT_INC_000281	Invite to join guild
+IDS_TEXTCLIENT_INC_000282	Mailbox
+IDS_TEXTCLIENT_INC_000283	Cheer
+IDS_TEXTCLIENT_INC_000284	Apply
+IDS_TEXTCLIENT_INC_000285	Status
+IDS_TEXTCLIENT_INC_000286	Cancel
+IDS_TEXTCLIENT_INC_000287	Join
+IDS_TEXTCLIENT_INC_000288	Ranking
+IDS_TEXTCLIENT_INC_000289	Place of Resurrection
+IDS_TEXTCLIENT_INC_000290	Deposit
+IDS_TEXTCLIENT_INC_000291	Duel
+IDS_TEXTCLIENT_INC_000292	Request Party Duel
+IDS_TEXTCLIENT_INC_000293	Follow
+IDS_TEXTCLIENT_INC_000294	Beauty Shop
+IDS_TEXTCLIENT_INC_000295	Guild Warehouse
+IDS_TEXTCLIENT_INC_000296	Guild Ranking
+IDS_TEXTCLIENT_INC_000297	Guild Duel ranking
+IDS_TEXTCLIENT_INC_000298	Overall guild ranking
+IDS_TEXTCLIENT_INC_000299	Upgrade
+IDS_TEXTCLIENT_INC_000300	View equipment
+IDS_TEXTCLIENT_INC_000301	The party is full. Parties below level 5 can only have a maximum of 3 members. Increase your party level first and try again.
+IDS_TEXTCLIENT_INC_000302	The party is full. Parties below level 10 can only have a maximum of 4 members. Increase your party level first and try again.
+IDS_TEXTCLIENT_INC_000303	The party is full. The maximum number of party members is 8.
+IDS_TEXTCLIENT_INC_000304	Party does not exist.
+IDS_TEXTCLIENT_INC_000305	Player cannot join the party.
+IDS_TEXTCLIENT_INC_000306	That Party Name is already being used. Please try again.
+IDS_TEXTCLIENT_INC_000307	Insufficient party points.
+IDS_TEXTCLIENT_INC_000308	Skill not yet learned.
+IDS_TEXTCLIENT_INC_000309	Cannot attack, no monster targeted.
+IDS_TEXTCLIENT_INC_000310	Party has been created.
+IDS_TEXTCLIENT_INC_000311	%s has joined the party.
+IDS_TEXTCLIENT_INC_000312	%s has joined the party.
+IDS_TEXTCLIENT_INC_000313	%s has left the party.
+IDS_TEXTCLIENT_INC_000314	You have left the party.
+IDS_TEXTCLIENT_INC_000315	Party has been disbanded.
+IDS_TEXTCLIENT_INC_000316	Duel with %s started!
+IDS_TEXTCLIENT_INC_000317	%s refused to duel.
+IDS_TEXTCLIENT_INC_000318	The duel has been cancelled.
+IDS_TEXTCLIENT_INC_000319	Party level increased.
+IDS_TEXTCLIENT_INC_000320	Unable to move while vending.
+IDS_TEXTCLIENT_INC_000321	Player is not in your party.
+IDS_TEXTCLIENT_INC_000322	Player is already in your party.
+IDS_TEXTCLIENT_INC_000323	Player is not the party leader.
+IDS_TEXTCLIENT_INC_000324	You cannot attack a player in the safe zone.
+IDS_TEXTCLIENT_INC_000325	You cannot attack in the safe zone.
+IDS_TEXTCLIENT_INC_000326	PVP is only available to players above level 15.
+IDS_TEXTCLIENT_INC_000327	Player level is too low.
+IDS_TEXTCLIENT_INC_000328	%s gained some fame points.
+IDS_TEXTCLIENT_INC_000329	%s lost some fame points.
+IDS_TEXTCLIENT_INC_000330	Your inventory is full.
+IDS_TEXTCLIENT_INC_000331	Only the party leader can invite new members.
+IDS_TEXTCLIENT_INC_000332	Party name has been changed to %s.
+IDS_TEXTCLIENT_INC_000333	The party has been changed to an Advanced Party.
+IDS_TEXTCLIENT_INC_000334	Invitation has been refused.
+IDS_TEXTCLIENT_INC_000335	You cannot drop an item while talking to an NPC.
+IDS_TEXTCLIENT_INC_000336	That player is not connected.
+IDS_TEXTCLIENT_INC_000337	[World CCU] %d
+IDS_TEXTCLIENT_INC_000338	%s
+IDS_TEXTCLIENT_INC_000339	Undying1
+IDS_TEXTCLIENT_INC_000340	Undying2
+IDS_TEXTCLIENT_INC_000341	Invisible
+IDS_TEXTCLIENT_INC_000342	OneKill
+IDS_TEXTCLIENT_INC_000343	Silence player
+IDS_TEXTCLIENT_INC_000344	Freeze player
+IDS_TEXTCLIENT_INC_000345	Status
+IDS_TEXTCLIENT_INC_000346	Normal
+IDS_TEXTCLIENT_INC_000347	Item does not exist.
+IDS_TEXTCLIENT_INC_000348	You cannot send a PM to yourself, silly.
+IDS_TEXTCLIENT_INC_000349	%s does not exist.
+IDS_TEXTCLIENT_INC_000350	Unable to attack player in a safe zone.
+IDS_TEXTCLIENT_INC_000351	Unable to attack in a safe zone.
+IDS_TEXTCLIENT_INC_000352	PVP is only available with players above level 20.
+IDS_TEXTCLIENT_INC_000353	Character level is too low.
+IDS_TEXTCLIENT_INC_000354	Unable to attack a player engaged in a duel.
+IDS_TEXTCLIENT_INC_000355	Unable to attack the same player for 10 min.
+IDS_TEXTCLIENT_INC_000356	You have gained Experience.
+IDS_TEXTCLIENT_INC_000357	Unable to enter the same sentence twice in a row.
+IDS_TEXTCLIENT_INC_000358	Unable to use the party chat function.
+IDS_TEXTCLIENT_INC_000359	/pc %s
+IDS_TEXTCLIENT_INC_000360	Position : x = %f, y = %f, z = %f
+IDS_TEXTCLIENT_INC_000361	Please unequip the item first.
+IDS_TEXTCLIENT_INC_000362	[Help]
+IDS_TEXTCLIENT_INC_000363	Please wait.
+IDS_TEXTCLIENT_INC_000364	The current position was saved as Position.txt.
+IDS_TEXTCLIENT_INC_000365	flyff%05d.bmp has been saved into the capture folder.
+IDS_TEXTCLIENT_INC_000366	You have asked for permission to add %s to your messenger.
+IDS_TEXTCLIENT_INC_000367	You are already using the bank.
+IDS_TEXTCLIENT_INC_000368	You have offered to trade with %s.
+IDS_TEXTCLIENT_INC_000369	You cannot trade items when using the bank.
+IDS_TEXTCLIENT_INC_000370	You cannot use the bank while trading
+IDS_TEXTCLIENT_INC_000371	Player is not in the duel zone.
+IDS_TEXTCLIENT_INC_000372	You must issue challenges in the duel zone.
+IDS_TEXTCLIENT_INC_000373	Unable to duel, character level is too low.
+IDS_TEXTCLIENT_INC_000374	Player is already in a duel.
+IDS_TEXTCLIENT_INC_000375	Failure to send message, %s is blocked.
+IDS_TEXTCLIENT_INC_000376	Duel has started with %s party.
+IDS_TEXTCLIENT_INC_000377	Duel has been cancelled.
+IDS_TEXTCLIENT_INC_000378	You won the party duel.
+IDS_TEXTCLIENT_INC_000379	You lost the party duel.
+IDS_TEXTCLIENT_INC_000380	%s is in the 'Refuse to Whisper/Messenger' setting.
+IDS_TEXTCLIENT_INC_000381	%s is in the 'Refuse Messenger' setting.
+IDS_TEXTCLIENT_INC_000382	%s is in the 'Refuse Trade' setting.
+IDS_TEXTCLIENT_INC_000383	You cannot use the beauty shop while trading.
+IDS_TEXTCLIENT_INC_000384	You are using the beauty shop.
+IDS_TEXTCLIENT_INC_000385	Position : x = %f, y = %f, z = %f
+IDS_TEXTCLIENT_INC_000386	%s has refused to join the party.
+IDS_TEXTCLIENT_INC_000387	%s already belongs to another party.
+IDS_TEXTCLIENT_INC_000388	You have failed to join the party.
+IDS_TEXTCLIENT_INC_000389	%s is currently not accepting Party Invitations
+IDS_TEXTCLIENT_INC_000390	Cannot invite a player from a different server.
+IDS_TEXTCLIENT_INC_000391	Area inaccessible.
+IDS_TEXTCLIENT_INC_000392	Maximum distance reached.
+IDS_TEXTCLIENT_INC_000393	You cannot attack a party member.
+IDS_TEXTCLIENT_INC_000394	The permission of a parent or guardian is required for players under 13 years old.
+IDS_TEXTCLIENT_INC_000395	In 'Refuse Trade' setting.
+IDS_TEXTCLIENT_INC_000396	The trade has been cancelled.
+IDS_TEXTCLIENT_INC_000397	Sharing of Experience is not applied yet.
+IDS_TEXTCLIENT_INC_000398	User ID must be 3 to 16 characters long. It can be a combination of letters and numbers, however it cannot start with a number.
+IDS_TEXTCLIENT_INC_000399	User ID already exists.
+IDS_TEXTCLIENT_INC_000400	Unable to invite player. Either you are not the party leader, or the party is already full.
+IDS_TEXTCLIENT_INC_000401	The settings can only be changed by the party leader or an advance party member.
+IDS_TEXTCLIENT_INC_000402	Not enough Penya.
+IDS_TEXTCLIENT_INC_000403	Resurrect at Lodelight.
+IDS_TEXTCLIENT_INC_000404	Enter a name between 2 to 12 letters.
+IDS_TEXTCLIENT_INC_000405	The name must be 6 to 18 characters long.
+IDS_TEXTCLIENT_INC_000406	The name cannot start with a number.
+IDS_TEXTCLIENT_INC_000407	You cannot use special characters or spaces in a name.
+IDS_TEXTCLIENT_INC_000408	You cannot use special characters in a name.
+IDS_TEXTCLIENT_INC_000409	This account is banned. Contact FlyFF Support for assistance.
+IDS_TEXTCLIENT_INC_000410	Login details incorrect.  Please try again.
+IDS_TEXTCLIENT_INC_000411	A bug has been detected! Please go to http://support.netgames.ph to report.
+IDS_TEXTCLIENT_INC_000412	The slot is in use.
+IDS_TEXTCLIENT_INC_000413	Unable to use skill.
+IDS_TEXTCLIENT_INC_000414	Character name is not allowed.
+IDS_TEXTCLIENT_INC_000415	The delete function will be added.
+IDS_TEXTCLIENT_INC_000416	Your new password is different from the password you confirmed. Please try again.
+IDS_TEXTCLIENT_INC_000417	Disconnected from the server.
+IDS_TEXTCLIENT_INC_000418	An advanced party may use the ‘Scout Skill’ to look for new party members.
+IDS_TEXTCLIENT_INC_000419	Password should have 4 digits. Please try again.
+IDS_TEXTCLIENT_INC_000420	Account verification required. Please visit the Flyff website.
+IDS_TEXTCLIENT_INC_000421	Feature unavailable.
+IDS_TEXTCLIENT_INC_000422	Wrong password.  Please try again.
+IDS_TEXTCLIENT_INC_000423	Your password must be 3 to 16 characters long. It can be any combination of letters and numbers.
+IDS_TEXTCLIENT_INC_000424	Your password must be 3 to 16 characters long. It can be any combination of letters and numbers.
+IDS_TEXTCLIENT_INC_000425	Enter name.
+IDS_TEXTCLIENT_INC_000426	That ID is already in use.
+IDS_TEXTCLIENT_INC_000427	That party name is already in use. Please choose another one.
+IDS_TEXTCLIENT_INC_000428	That character name is already in use.
+IDS_TEXTCLIENT_INC_000429	Old version of client.
+IDS_TEXTCLIENT_INC_000430	Insufficient space in your inventory.
+IDS_TEXTCLIENT_INC_000431	You can only change your job.
+IDS_TEXTCLIENT_INC_000432	Login details incorrect.  Please try again.
+IDS_TEXTCLIENT_INC_000433	Oops. Try again.
+IDS_TEXTCLIENT_INC_000434	Disconnecting... Please wait.
+IDS_TEXTCLIENT_INC_000435	Server capacity has been reached.
+IDS_TEXTCLIENT_INC_000436	This account is already connected.  Do you want to disconnect it?
+IDS_TEXTCLIENT_INC_000437	Cannot connect to the game. Please check the network.
+IDS_TEXTCLIENT_INC_000438	Please Re-enter SSN.
+IDS_TEXTCLIENT_INC_000439	Will you quit the quest?
+IDS_TEXTCLIENT_INC_000440	Cannot use skill. Insufficient party experience.
+IDS_TEXTCLIENT_INC_000441	Only the party leader can use party skills
+IDS_TEXTCLIENT_INC_000442	Not enough penya.
+IDS_TEXTCLIENT_INC_000443	Cannot use skill. Insufficient party experience.
+IDS_TEXTCLIENT_INC_000444	Sorry. Children below 12 years of age are not permitted to play FlyFF.
+IDS_TEXTCLIENT_INC_000445	That player is already in your friends list.
+IDS_TEXTCLIENT_INC_000446	Please choose a character.
+IDS_TEXTCLIENT_INC_000447	Service currently unavailable. Please check flyff web site for details.
+IDS_TEXTCLIENT_INC_000448	You cannot add into or remove items from the trading window anymore after the first confirmation.
+IDS_TEXTCLIENT_INC_000449	Active Desktop button controller test
+IDS_TEXTCLIENT_INC_000450	You cannot add yourself to your list.  Please choose another character.
+IDS_TEXTCLIENT_INC_000451	That name is too long.  Please try again.
+IDS_TEXTCLIENT_INC_000452	You must be 15 years old or older to play FlyFF.
+IDS_TEXTCLIENT_INC_000453	%s is already in your messenger.
+IDS_TEXTCLIENT_INC_000454	%s is not connected.
+IDS_TEXTCLIENT_INC_000455	The player %s does not exist in the game.
+IDS_TEXTCLIENT_INC_000456	Iblis
+IDS_TEXTCLIENT_INC_000457	Shade
+IDS_TEXTCLIENT_INC_000458	Bubble
+IDS_TEXTCLIENT_INC_000459	Dwarpet
+IDS_TEXTCLIENT_INC_000460	Master Dwarpet
+IDS_TEXTCLIENT_INC_000461	You cannot equip this item because your level is too low. (Req Lev: %s)
+IDS_TEXTCLIENT_INC_000462	[User Shop] %s
+IDS_TEXTCLIENT_INC_000463	This feature is currently being tested.
+IDS_TEXTCLIENT_INC_000464	Server Started
+IDS_TEXTCLIENT_INC_000465	Error Code : %d, Message : %s
+IDS_TEXTCLIENT_INC_000466	Exp., Penya, and Itemdrop rate have changed to %d (1~4)
+IDS_TEXTCLIENT_INC_000467	You have to choose a job at Lv 15.
+IDS_TEXTCLIENT_INC_000468	You can choose a level between 2 and 99.
+IDS_TEXTCLIENT_INC_000469	Set %s' skill level: 1 ~ %d.
+IDS_TEXTCLIENT_INC_000470	/slv %d %d
+IDS_TEXTCLIENT_INC_000471	Please select from the skills in your skill window.
+IDS_TEXTCLIENT_INC_000472	Attack:
+IDS_TEXTCLIENT_INC_000473	Attack:
+IDS_TEXTCLIENT_INC_000474	Attack speed: %s
+IDS_TEXTCLIENT_INC_000475	One-handed weapon.
+IDS_TEXTCLIENT_INC_000476	Two-handed weapon.
+IDS_TEXTCLIENT_INC_000477	Maximum capacity: %d
+IDS_TEXTCLIENT_INC_000478	Caliber : %d
+IDS_TEXTCLIENT_INC_000479	Reloading time: %d
+IDS_TEXTCLIENT_INC_000480	You can use this after changing your job.
+IDS_TEXTCLIENT_INC_000481	Speed influence: %d
+IDS_TEXTCLIENT_INC_000482	Req Job: Vagrant
+IDS_TEXTCLIENT_INC_000483	Req Job: Mercenary
+IDS_TEXTCLIENT_INC_000484	Req Job: Acrobat
+IDS_TEXTCLIENT_INC_000485	Req Job: Assist
+IDS_TEXTCLIENT_INC_000486	Req Job: Magician
+IDS_TEXTCLIENT_INC_000487	Req Job: Puppeteer
+IDS_TEXTCLIENT_INC_000488	Req Job: Knight
+IDS_TEXTCLIENT_INC_000489	Req Job: Blade
+IDS_TEXTCLIENT_INC_000490	Req Job: Jester
+IDS_TEXTCLIENT_INC_000491	Req Job: Ranger
+IDS_TEXTCLIENT_INC_000492	Req Job: Ringmaster
+IDS_TEXTCLIENT_INC_000493	Req Job: Billposter
+IDS_TEXTCLIENT_INC_000494	Req Job: Psykeeper
+IDS_TEXTCLIENT_INC_000495	Req Job: Elementor
+IDS_TEXTCLIENT_INC_000496	Req Job: Gatekeeper
+IDS_TEXTCLIENT_INC_000497	Req Job: Doppler
+IDS_TEXTCLIENT_INC_000498	Req STR: %d
+IDS_TEXTCLIENT_INC_000499	Req CON: %d
+IDS_TEXTCLIENT_INC_000500	Req DEX: %d
+IDS_TEXTCLIENT_INC_000501	Req INT: %d
+IDS_TEXTCLIENT_INC_000502	Durability:
+IDS_TEXTCLIENT_INC_000503	MP Recovery: %d
+IDS_TEXTCLIENT_INC_000504	HP Recovery: %d
+IDS_TEXTCLIENT_INC_000505	FP Recovery: %d
+IDS_TEXTCLIENT_INC_000506	Max. Recovery: %d
+IDS_TEXTCLIENT_INC_000507	Remaining EXP: %d
+IDS_TEXTCLIENT_INC_000508	Weight: %d
+IDS_TEXTCLIENT_INC_000509	Cost: %d
+IDS_TEXTCLIENT_INC_000510	Selling price: %d
+IDS_TEXTCLIENT_INC_000511	SEX: Male
+IDS_TEXTCLIENT_INC_000512	SEX: Female
+IDS_TEXTCLIENT_INC_000513	Level: %d
+IDS_TEXTCLIENT_INC_000514	Job Level: %d
+IDS_TEXTCLIENT_INC_000515	Advance Party
+IDS_TEXTCLIENT_INC_000516	Boss Monster Detected!!!
+IDS_TEXTCLIENT_INC_000517	Attack: %d
+IDS_TEXTCLIENT_INC_000518	DEF
+IDS_TEXTCLIENT_INC_000519	DEF
+IDS_TEXTCLIENT_INC_000520	DEF: %d
+IDS_TEXTCLIENT_INC_000521	Evasion: %d
+IDS_TEXTCLIENT_INC_000522	Electricity Resistance : %d
+IDS_TEXTCLIENT_INC_000523	Water Resistance : %d
+IDS_TEXTCLIENT_INC_000524	Required Level : %d
+IDS_TEXTCLIENT_INC_000525	Fire Resistance : %d
+IDS_TEXTCLIENT_INC_000526	Dark Resistance : %d
+IDS_TEXTCLIENT_INC_000527	Wind Resistance : %d
+IDS_TEXTCLIENT_INC_000528	Earth Resistance : %d
+IDS_TEXTCLIENT_INC_000529	ConnectServer : %s / MultiServer : %d
+IDS_TEXTCLIENT_INC_000530	#cffff0000%s Connection impossible#nc
+IDS_TEXTCLIENT_INC_000531	Normal
+IDS_TEXTCLIENT_INC_000532	Busy
+IDS_TEXTCLIENT_INC_000533	Strength : %d
+IDS_TEXTCLIENT_INC_000534	Stamina : %d
+IDS_TEXTCLIENT_INC_000535	Dexterity : %d
+IDS_TEXTCLIENT_INC_000536	Intelligence : %d
+IDS_TEXTCLIENT_INC_000537	Level : %d
+IDS_TEXTCLIENT_INC_000538	Repair Costs : %d
+IDS_TEXTCLIENT_INC_000539	This item does not need to be repaired.
+IDS_TEXTCLIENT_INC_000540	This item cannot be repaired.
+IDS_TEXTCLIENT_INC_000541	You cannot repair an equipped item.
+IDS_TEXTCLIENT_INC_000542	You cannot trade with %s while the player is repairing an item.
+IDS_TEXTCLIENT_INC_000543	You cannot use an item while it is being repaired.
+IDS_TEXTCLIENT_INC_000544	You cannot use an item while repairing.
+IDS_TEXTCLIENT_INC_000545	You cannot discard an item while repairing.
+IDS_TEXTCLIENT_INC_000546	You do not have enough penya.
+IDS_TEXTCLIENT_INC_000547	You are already repairing an item.
+IDS_TEXTCLIENT_INC_000548	You cannot repair an item while vending.
+IDS_TEXTCLIENT_INC_000549	There is no item to be repaired.
+IDS_TEXTCLIENT_INC_000550	The item does not need repairing.
+IDS_TEXTCLIENT_INC_000551	You cannot repair an item while using the bank.
+IDS_TEXTCLIENT_INC_000552	You cannot repair an item being used in trade.
+IDS_TEXTCLIENT_INC_000553	You cannot repair an item while trading.
+IDS_TEXTCLIENT_INC_000554	You cannot repair an item while using the beauty shop.
+IDS_TEXTCLIENT_INC_000555	(Male)
+IDS_TEXTCLIENT_INC_000556	(Female)
+IDS_TEXTCLIENT_INC_000557	Hotkey
+IDS_TEXTCLIENT_INC_000558	Repair
+IDS_TEXTCLIENT_INC_000559	All items have been repaired.
+IDS_TEXTCLIENT_INC_000560	Condition : Finished
+IDS_TEXTCLIENT_INC_000561	All
+IDS_TEXTCLIENT_INC_000562	Connecting. Please wait.
+IDS_TEXTCLIENT_INC_000563	This account is already connected. Would you like to cut the existing connection?
+IDS_TEXTCLIENT_INC_000564	%s challenges you to a duel. Do you accept?
+IDS_TEXTCLIENT_INC_000565	%s challenges your party to a duel. Do you accept?
+IDS_TEXTCLIENT_INC_000566	Inbox
+IDS_TEXTCLIENT_INC_000567	Do you want to disconnect?
+IDS_TEXTCLIENT_INC_000568	Do you want to exit the program?
+IDS_TEXTCLIENT_INC_000569	%s wants to be your friend. Do you accept?
+IDS_TEXTCLIENT_INC_000570	%s invites you to join the party. Do you accept?
+IDS_TEXTCLIENT_INC_000571	You cannot use this character.
+IDS_TEXTCLIENT_INC_000572	Account log in impossible.
+IDS_TEXTCLIENT_INC_000573	Loading, Please wait.
+IDS_TEXTCLIENT_INC_000574	Job : Vagrant
+IDS_TEXTCLIENT_INC_000575	Job : Mercenary
+IDS_TEXTCLIENT_INC_000576	Job : Acrobat
+IDS_TEXTCLIENT_INC_000577	Job : Assist
+IDS_TEXTCLIENT_INC_000578	Job : Magician
+IDS_TEXTCLIENT_INC_000579	Job : Puppeteer
+IDS_TEXTCLIENT_INC_000580	Job : Guard
+IDS_TEXTCLIENT_INC_000581	Job : Strongman
+IDS_TEXTCLIENT_INC_000582	Job : Jester
+IDS_TEXTCLIENT_INC_000583	Job : Dancer
+IDS_TEXTCLIENT_INC_000584	Job : Ringmaster
+IDS_TEXTCLIENT_INC_000585	Job : Billposter
+IDS_TEXTCLIENT_INC_000586	Job : Rainmaker
+IDS_TEXTCLIENT_INC_000587	Job : Earthweiler
+IDS_TEXTCLIENT_INC_000588	Job : Gatekeeper
+IDS_TEXTCLIENT_INC_000589	Job : Doppler
+IDS_TEXTCLIENT_INC_000590	Item
+IDS_TEXTCLIENT_INC_000591	Motion
+IDS_TEXTCLIENT_INC_000592	Base
+IDS_TEXTCLIENT_INC_000593	Detail
+IDS_TEXTCLIENT_INC_000594	Job
+IDS_TEXTCLIENT_INC_000595	Lodelight is a spawning point where a character can be resurrected.
+IDS_TEXTCLIENT_INC_000596	Lodestar is a place near the closest city where a character can choose to be resurrected.
+IDS_TEXTCLIENT_INC_000597	Job Skill
+IDS_TEXTCLIENT_INC_000598	Information
+IDS_TEXTCLIENT_INC_000599	Skill
+IDS_TEXTCLIENT_INC_000600	Party
+IDS_TEXTCLIENT_INC_000601	Advance Party
+IDS_TEXTCLIENT_INC_000602	State: In Progress
+IDS_TEXTCLIENT_INC_000603	State: Completed
+IDS_TEXTCLIENT_INC_000604	Are you going to increase Strength?
+IDS_TEXTCLIENT_INC_000605	Are you going to increase Stamina?
+IDS_TEXTCLIENT_INC_000606	Are you going to increase Dexterity?
+IDS_TEXTCLIENT_INC_000607	Are you going to increase Intelligence?
+IDS_TEXTCLIENT_INC_000608	Please indicate the amount of items you want to sell/buy (1 ~ 99).
+IDS_TEXTCLIENT_INC_000609	Your demand exceeds item supply.
+IDS_TEXTCLIENT_INC_000610	Permission to view equipment denied.
+IDS_TEXTCLIENT_INC_000611	You are out of aviation fuel. Please refill.
+IDS_TEXTCLIENT_INC_000612	You are out of accelerating fuel. Please refill.
+IDS_TEXTCLIENT_INC_000613	You can only use a broomstick.
+IDS_TEXTCLIENT_INC_000614	You can only use a board.
+IDS_TEXTCLIENT_INC_000615	The board is only for Mercenaries and Assists.
+IDS_TEXTCLIENT_INC_000616	The broomstick is only for Magicians.
+IDS_TEXTCLIENT_INC_000617	Your level is too low.
+IDS_TEXTCLIENT_INC_000618	Current Level : %d
+IDS_TEXTCLIENT_INC_000619	Playtime : %d Hour %d Minute
+IDS_TEXTCLIENT_INC_000620	Current Quest
+IDS_TEXTCLIENT_INC_000621	Trainer
+IDS_TEXTCLIENT_INC_000622	Fighter
+IDS_TEXTCLIENT_INC_000623	Gladiator
+IDS_TEXTCLIENT_INC_000624	Berserker
+IDS_TEXTCLIENT_INC_000625	Wardancer
+IDS_TEXTCLIENT_INC_000626	Apprentice
+IDS_TEXTCLIENT_INC_000627	Mage
+IDS_TEXTCLIENT_INC_000628	War Mage
+IDS_TEXTCLIENT_INC_000629	Grand Mage
+IDS_TEXTCLIENT_INC_000630	Arch Mage
+IDS_TEXTCLIENT_INC_000631	Protector
+IDS_TEXTCLIENT_INC_000632	Guardian
+IDS_TEXTCLIENT_INC_000633	Knight
+IDS_TEXTCLIENT_INC_000634	Paladin
+IDS_TEXTCLIENT_INC_000635	Crusader
+IDS_TEXTCLIENT_INC_000636	%s wants to trade.
+IDS_TEXTCLIENT_INC_000637	From:
+IDS_TEXTCLIENT_INC_000638	 
+IDS_TEXTCLIENT_INC_000639	has logged into the game.
+IDS_TEXTCLIENT_INC_000640	How many do you want to move?
+IDS_TEXTCLIENT_INC_000641	Move how many items?
+IDS_TEXTCLIENT_INC_000642	Penya:
+IDS_TEXTCLIENT_INC_000643	Number:
+IDS_TEXTCLIENT_INC_000644	L
+IDS_TEXTCLIENT_INC_000645	M
+IDS_TEXTCLIENT_INC_000646	Your stat values will reset after your 1st job change.
+IDS_TEXTCLIENT_INC_000647	Do you accept the trade?
+IDS_TEXTCLIENT_INC_000648	Are you going to leave the party?
+IDS_TEXTCLIENT_INC_000649	Are you going to leave the party?
+IDS_TEXTCLIENT_INC_000650	%d new message(s) has(have) arrived.
+IDS_TEXTCLIENT_INC_000651	Your message cannot be sent. The receiving inbox may be full.
+IDS_TEXTCLIENT_INC_000652	Your message cannot be sent. The contents may be too long.
+IDS_TEXTCLIENT_INC_000653	You are already reading that.
+IDS_TEXTCLIENT_INC_000654	Please select a member.
+IDS_TEXTCLIENT_INC_000655	Only the party leader can select a member from the party window.
+IDS_TEXTCLIENT_INC_000656	The item is unfit for battle. It needs to be repaired.
+IDS_TEXTCLIENT_INC_000657	Send a memo.
+IDS_TEXTCLIENT_INC_000658	The maximum number of players that can be registered into the messenger is 200.
+IDS_TEXTCLIENT_INC_000659	%s has registered you in the messenger.
+IDS_TEXTCLIENT_INC_000660	You use %s.
+IDS_TEXTCLIENT_INC_000661	%s uses %s.
+IDS_TEXTCLIENT_INC_000662	You sent the memo.
+IDS_TEXTCLIENT_INC_000663	You agreed to trade.
+IDS_TEXTCLIENT_INC_000664	You refused to trade.
+IDS_TEXTCLIENT_INC_000665	Whisper allowed.
+IDS_TEXTCLIENT_INC_000666	Whisper refused.
+IDS_TEXTCLIENT_INC_000667	You joined the party.
+IDS_TEXTCLIENT_INC_000668	You refused to join the party
+IDS_TEXTCLIENT_INC_000669	Post connection status
+IDS_TEXTCLIENT_INC_000670	Do not post connection status.
+IDS_TEXTCLIENT_INC_000671	Allow messenger
+IDS_TEXTCLIENT_INC_000672	Refuse messenger
+IDS_TEXTCLIENT_INC_000673	You may shout now.
+IDS_TEXTCLIENT_INC_000674	You are way too noisy.
+IDS_TEXTCLIENT_INC_000675	You cannot leave the party during party PvP.
+IDS_TEXTCLIENT_INC_000676	You cannot invite another character to join the party during party PvP.
+IDS_TEXTCLIENT_INC_000677	You cannot surrender party leadership during party PvP.
+IDS_TEXTCLIENT_INC_000678	Unable to do party PvP. You have a member whose level is below 15.
+IDS_TEXTCLIENT_INC_000679	Unable to do party PvP. The other party has a member whose level is below 15.
+IDS_TEXTCLIENT_INC_000680	Unable to use an aviation item during party PvP.
+IDS_TEXTCLIENT_INC_000681	Unable to use blinkwing during party PvP.
+IDS_TEXTCLIENT_INC_000682	Party PvP has started.
+IDS_TEXTCLIENT_INC_000683	You won the party PvP. You gained %d fame.
+IDS_TEXTCLIENT_INC_000684	You lost the party PvP. You lost %d fame.
+IDS_TEXTCLIENT_INC_000685	Party is already in party PvP mode.
+IDS_TEXTCLIENT_INC_000686	There are no members in the party.
+IDS_TEXTCLIENT_INC_000687	That player is currently busy. Please try again after few minutes.
+IDS_TEXTCLIENT_INC_000688	That player is currently busy. Please try again after few minutes.
+IDS_TEXTCLIENT_INC_000689	You have already invited this player. Try again after a few minutes.
+IDS_TEXTCLIENT_INC_000690	You have already challenged this party to a duel. Try again after a few minutes.
+IDS_TEXTCLIENT_INC_000691	You are already using this item. Try again after its effects have worn off.
+IDS_TEXTCLIENT_INC_000692	You cannot trade a premium item.
+IDS_TEXTCLIENT_INC_000693	You cannot drop a premium item on the ground.
+IDS_TEXTCLIENT_INC_000694	Information
+IDS_TEXTCLIENT_INC_000695	Member
+IDS_TEXTCLIENT_INC_000696	Title
+IDS_TEXTCLIENT_INC_000697	Contribution:
+IDS_TEXTCLIENT_INC_000698	Penya Contribution:
+IDS_TEXTCLIENT_INC_000699	Number of times surrendered
+IDS_TEXTCLIENT_INC_000700	Promote Member
+IDS_TEXTCLIENT_INC_000701	Demote Member
+IDS_TEXTCLIENT_INC_000702	Class Up
+IDS_TEXTCLIENT_INC_000703	Class Down
+IDS_TEXTCLIENT_INC_000704	Leave Guild
+IDS_TEXTCLIENT_INC_000705	Create Nickname
+IDS_TEXTCLIENT_INC_000706	Guild salary of %d Penya received. Log in again to acquire the amount.
+IDS_TEXTCLIENT_INC_000707	%s guild has changed their name to %s.
+IDS_TEXTCLIENT_INC_000708	%s has been promoted.
+IDS_TEXTCLIENT_INC_000709	%s has been demoted.
+IDS_TEXTCLIENT_INC_000710	%s's class has gone up.
+IDS_TEXTCLIENT_INC_000711	%s's class has gone down.
+IDS_TEXTCLIENT_INC_000712	%s is now also known as %s.
+IDS_TEXTCLIENT_INC_000713	Player already has a nickname.
+IDS_TEXTCLIENT_INC_000714	Guild level has increased.
+IDS_TEXTCLIENT_INC_000715	Unable to create guild cloak. Insufficient Penya in the guild warehouse.
+IDS_TEXTCLIENT_INC_000716	You have Contributed to the guild.
+IDS_TEXTCLIENT_INC_000717	Unable to make a contribution. The guild has reached its maximum level.
+IDS_TEXTCLIENT_INC_000718	You can only contribute a full (100%) Pxp.
+IDS_TEXTCLIENT_INC_000719	Maximum Penya contribution reached.
+IDS_TEXTCLIENT_INC_000720	You can only have a maximum of 420 million Penya in the guild bank.
+IDS_TEXTCLIENT_INC_000721	Unable to deposit to guild warehouse. You do not have enough Penya.
+IDS_TEXTCLIENT_INC_000722	System error. Contribution cancelled.
+IDS_TEXTCLIENT_INC_000723	You need to be level 15 to change your job.
+IDS_TEXTCLIENT_INC_000724	You cannot send a message to yourself, silly.
+IDS_TEXTCLIENT_INC_000725	A new Guild Notice has been posted. Please check it in the guild window.
+IDS_TEXTCLIENT_INC_000726	Guild cloak has been created.
+IDS_TEXTCLIENT_INC_000727	You do not have a guild logo yet. Please set the guild logo.
+IDS_TEXTCLIENT_INC_000728	The guild name can only be changed once.
+IDS_TEXTCLIENT_INC_000729	Can only be used by the Guild Leader
+IDS_TEXTCLIENT_INC_000730	Guild logo has already been set.
+IDS_TEXTCLIENT_INC_000731	Guild level is too low.
+IDS_TEXTCLIENT_INC_000732	Authority for each title has been changed.
+IDS_TEXTCLIENT_INC_000733	Salary for each title has been changed.
+IDS_TEXTCLIENT_INC_000734	Please enter the number.
+IDS_TEXTCLIENT_INC_000735	The guild warehouse is full.
+IDS_TEXTCLIENT_INC_000736	The character is no longer a member of the %s guild.
+IDS_TEXTCLIENT_INC_000737	The character you invited is offline.
+IDS_TEXTCLIENT_INC_000738	You cannot change the rank of a player whose class is higher than yours.
+IDS_TEXTCLIENT_INC_000739	You are not authorized to do this.
+IDS_TEXTCLIENT_INC_000740	You are not authorized to do this.
+IDS_TEXTCLIENT_INC_000741	The maximum number for that title has been reached.
+IDS_TEXTCLIENT_INC_000742	You are not authorized to do this.
+IDS_TEXTCLIENT_INC_000743	Unable to make a contribution. Ask your Guild Leader to set the guild name first.
+IDS_TEXTCLIENT_INC_000744	Best Guild
+IDS_TEXTCLIENT_INC_000745	Best Guild of Unity
+IDS_TEXTCLIENT_INC_000746	Richest Guild
+IDS_TEXTCLIENT_INC_000747	Most Wins
+IDS_TEXTCLIENT_INC_000748	Most Losses
+IDS_TEXTCLIENT_INC_000749	Most Surrenders
+IDS_TEXTCLIENT_INC_000750	Highest Guild Level
+IDS_TEXTCLIENT_INC_000751	Longest Playtime
+IDS_TEXTCLIENT_INC_000752	Guild Duel
+IDS_TEXTCLIENT_INC_000753	You cannot duel during a guild duel.
+IDS_TEXTCLIENT_INC_000754	Unable to use the member management function during a guild duel.
+IDS_TEXTCLIENT_INC_000755	You cannot disband your guild during a guild duel.
+IDS_TEXTCLIENT_INC_000756	You cannot change your guild logo during a guild duel.
+IDS_TEXTCLIENT_INC_000757	You cannot have a guild duel in this server.
+IDS_TEXTCLIENT_INC_000758	Unable to create a guild cloak. Please set your guild logo first.
+IDS_TEXTCLIENT_INC_000759	Only the Guild Leader can make a guild cloak.
+IDS_TEXTCLIENT_INC_000760	The Guild Leader of %s, %s , declares a Guild duel. Do you Accept?
+IDS_TEXTCLIENT_INC_000761	Unable to use the member management function during a guild duel.
+IDS_TEXTCLIENT_INC_000762	The guild duel between %s and %s has finished. The Guild %s has won. %s.
+IDS_TEXTCLIENT_INC_000763	%s and %s have agreed to a truce.
+IDS_TEXTCLIENT_INC_000764	The guild duel between %s and %s resulted in a tie.
+IDS_TEXTCLIENT_INC_000765	%s of %s Guild has given up.
+IDS_TEXTCLIENT_INC_000766	A guild duel has started between %s Guild and %s Guild.
+IDS_TEXTCLIENT_INC_000767	A guild duel between %s Guild and %s Guild is in progress.
+IDS_TEXTCLIENT_INC_000768	You are at war with another guild.
+IDS_TEXTCLIENT_INC_000769	You are either not participating in a guild duel or have already given up.
+IDS_TEXTCLIENT_INC_000770	You are not at war with another guild.
+IDS_TEXTCLIENT_INC_000771	A warrior of %s Guild, %s , has been killed.
+IDS_TEXTCLIENT_INC_000772	You cannot disband your guild during a guild duel.
+IDS_TEXTCLIENT_INC_000773	Cannot join a guild during a guild duel.
+IDS_TEXTCLIENT_INC_000774	You cannot change your guild logo during a guild duel.
+IDS_TEXTCLIENT_INC_000775	A Guild Leader has been killed!
+IDS_TEXTCLIENT_INC_000776	Victory! Opponent guild has conceded.
+IDS_TEXTCLIENT_INC_000777	Victory by default!
+IDS_TEXTCLIENT_INC_000778	Victory due to number of opponents killed!
+IDS_TEXTCLIENT_INC_000779	Unable to accept guild duel challenge during a guild duel.
+IDS_TEXTCLIENT_INC_000780	Cannot find the guild that declared a guild duel.
+IDS_TEXTCLIENT_INC_000781	Current Guild Leader did not declare a guild duel.
+IDS_TEXTCLIENT_INC_000782	That guild is already participating in a guild duel.
+IDS_TEXTCLIENT_INC_000783	Your guild level has to be higher than 5 to declare a guild duel.
+IDS_TEXTCLIENT_INC_000784	Unable to declare war during guild duel.
+IDS_TEXTCLIENT_INC_000785	That Guild does not exist.
+IDS_TEXTCLIENT_INC_000786	The opposing Guild Leader is offline.
+IDS_TEXTCLIENT_INC_000787	The other guild is already participating in a guild duel.
+IDS_TEXTCLIENT_INC_000788	The opposing guild must have at least 10 members.
+IDS_TEXTCLIENT_INC_000789	%d Penya
+IDS_TEXTCLIENT_INC_000790	%d Units
+IDS_TEXTCLIENT_INC_000791	%.f%%
+IDS_TEXTCLIENT_INC_000792	The item has upgraded successfully.
+IDS_TEXTCLIENT_INC_000793	The item has failed to upgrade.
+IDS_TEXTCLIENT_INC_000794	You cannot put two different elements on one item.
+IDS_TEXTCLIENT_INC_000795	Wrong supplement item.
+IDS_TEXTCLIENT_INC_000796	Not enough Penya
+IDS_TEXTCLIENT_INC_000797	Not enough supplement item.
+IDS_TEXTCLIENT_INC_000798	Upgrade cancelled.
+IDS_TEXTCLIENT_INC_000799	Can only upgrade up to Level 20.
+IDS_TEXTCLIENT_INC_000800	Using wrong item to upgrade.
+IDS_TEXTCLIENT_INC_000801	You cannot upgrade a unique item.
+IDS_TEXTCLIENT_INC_000802	Unable to upgrade to more than Lv %d.
+IDS_TEXTCLIENT_INC_000803	Place an item to be upgraded first.
+IDS_TEXTCLIENT_INC_000804	Unable to connect to the game. Account may have been terminated by user.
+IDS_TEXTCLIENT_INC_000805	Fire Card
+IDS_TEXTCLIENT_INC_000806	Water Card
+IDS_TEXTCLIENT_INC_000807	Electric Card
+IDS_TEXTCLIENT_INC_000808	Wind Card
+IDS_TEXTCLIENT_INC_000809	Earth Card
+IDS_TEXTCLIENT_INC_000810	Insufficient supplements.
+IDS_TEXTCLIENT_INC_000811	Fire
+IDS_TEXTCLIENT_INC_000812	Water
+IDS_TEXTCLIENT_INC_000813	Electric
+IDS_TEXTCLIENT_INC_000814	Wind
+IDS_TEXTCLIENT_INC_000815	Earth
+IDS_TEXTCLIENT_INC_000816	Item cannot be upgraded using this element.
+IDS_TEXTCLIENT_INC_000817	Unable to collect resource from a monster killed by another player.
+IDS_TEXTCLIENT_INC_000818	Ask about %s
+IDS_TEXTCLIENT_INC_000819	%s pushed final confirmation.
+IDS_TEXTCLIENT_INC_000820	You need to wait for approval.
+IDS_TEXTCLIENT_INC_000821	Unable to declare a guild duel. Opposing guild level is below 6.
+IDS_TEXTCLIENT_INC_000822	Unable to join a new guild. Please wait 48 hours and try again.
+IDS_TEXTCLIENT_INC_000823	STR
+IDS_TEXTCLIENT_INC_000824	DEX
+IDS_TEXTCLIENT_INC_000825	INT
+IDS_TEXTCLIENT_INC_000826	STA
+IDS_TEXTCLIENT_INC_000827	Sex
+IDS_TEXTCLIENT_INC_000828	Speed
+IDS_TEXTCLIENT_INC_000829	Min. Ability
+IDS_TEXTCLIENT_INC_000830	Max. Ability
+IDS_TEXTCLIENT_INC_000831	Attack Speed
+IDS_TEXTCLIENT_INC_000832	DEF
+IDS_TEXTCLIENT_INC_000833	Magic-defense
+IDS_TEXTCLIENT_INC_000834	Electric-defense
+IDS_TEXTCLIENT_INC_000835	All Elements
+IDS_TEXTCLIENT_INC_000836	Dark-defense
+IDS_TEXTCLIENT_INC_000837	Fire-defense
+IDS_TEXTCLIENT_INC_000838	Wind-defense
+IDS_TEXTCLIENT_INC_000839	Water-defense
+IDS_TEXTCLIENT_INC_000840	Earth-defense
+IDS_TEXTCLIENT_INC_000841	Max. HP
+IDS_TEXTCLIENT_INC_000842	Max. MP
+IDS_TEXTCLIENT_INC_000843	Max. FP
+IDS_TEXTCLIENT_INC_000844	HP
+IDS_TEXTCLIENT_INC_000845	MP
+IDS_TEXTCLIENT_INC_000846	FP
+IDS_TEXTCLIENT_INC_000847	HP Recovery
+IDS_TEXTCLIENT_INC_000848	MP Recovery
+IDS_TEXTCLIENT_INC_000849	FP Recovery
+IDS_TEXTCLIENT_INC_000850	HP Recovery
+IDS_TEXTCLIENT_INC_000851	MP Recovery
+IDS_TEXTCLIENT_INC_000852	FP Recovery
+IDS_TEXTCLIENT_INC_000853	Hit
+IDS_TEXTCLIENT_INC_000854	Magic Hit
+IDS_TEXTCLIENT_INC_000855	Durability
+IDS_TEXTCLIENT_INC_000856	Consumption
+IDS_TEXTCLIENT_INC_000857	Stun
+IDS_TEXTCLIENT_INC_000858	Additional Damage
+IDS_TEXTCLIENT_INC_000859	Additional Attribute
+IDS_TEXTCLIENT_INC_000860	Parry
+IDS_TEXTCLIENT_INC_000861	Energy Consumption
+IDS_TEXTCLIENT_INC_000862	Attack Delay
+IDS_TEXTCLIENT_INC_000863	Jumping Height
+IDS_TEXTCLIENT_INC_000864	Jumping Distance
+IDS_TEXTCLIENT_INC_000865	%d Day(s) %d Hr(s) %d Min(s) %d Sec(s)
+IDS_TEXTCLIENT_INC_000866	Use : %s
+IDS_TEXTCLIENT_INC_000867	Time Left
+IDS_TEXTCLIENT_INC_000868	No information about charging
+IDS_TEXTCLIENT_INC_000869	Your time is up.
+IDS_TEXTCLIENT_INC_000870	DB Error
+IDS_TEXTCLIENT_INC_000871	Other DB Error
+IDS_TEXTCLIENT_INC_000872	Time is up. Your account has been automatically logged out.
+IDS_TEXTCLIENT_INC_000873	Your account has %d hour(s) and %d minute(s) remaining.
+IDS_TEXTCLIENT_INC_000874	Your account has one hour left.
+IDS_TEXTCLIENT_INC_000875	Your account has %d minute(s) remaining.
+IDS_TEXTCLIENT_INC_000876	Item Name : %s / Time Left :
+IDS_TEXTCLIENT_INC_000877	Unable to use equipped item. Item needs an elemental upgrade first.
+IDS_TEXTCLIENT_INC_000878	You cannot connect after 22:00.
+IDS_TEXTCLIENT_INC_000879	You have %d minute(s) to play.
+IDS_TEXTCLIENT_INC_000880	You have %d second(s) to play.
+IDS_TEXTCLIENT_INC_000881	Guild Vote
+IDS_TEXTCLIENT_INC_000882	You need to connect to the main server in order to use the commercial function.
+IDS_TEXTCLIENT_INC_000883	You cannot invite others to join your guild during a battle.
+IDS_TEXTCLIENT_INC_000884	You cannot invite others to join your party during a battle.
+IDS_TEXTCLIENT_INC_000885	Video
+IDS_TEXTCLIENT_INC_000886	Etc.
+IDS_TEXTCLIENT_INC_000887	Game / Audio
+IDS_TEXTCLIENT_INC_000888	Description: %s
+IDS_TEXTCLIENT_INC_000889	%s has just logged in.
+IDS_TEXTCLIENT_INC_000890	%s has disconnected.
+IDS_TEXTCLIENT_INC_000891	%s has purchased %s.
+IDS_TEXTCLIENT_INC_000892	Cancel Quest
+IDS_TEXTCLIENT_INC_000893	%s quest has been cancelled.
+IDS_TEXTCLIENT_INC_000894	Full
+IDS_TEXTCLIENT_INC_000895	Open Quest Window
+IDS_TEXTCLIENT_INC_000896	Open Guild Info. Window
+IDS_TEXTCLIENT_INC_000897	Open Party Info. Window
+IDS_TEXTCLIENT_INC_000898	Open Messenger
+IDS_TEXTCLIENT_INC_000899	Open Guild Vote Window
+IDS_TEXTCLIENT_INC_000900	Open Private Shop Window
+IDS_TEXTCLIENT_INC_000901	Open Navigator Window
+IDS_TEXTCLIENT_INC_000902	Open Premium Item Duration Window
+IDS_TEXTCLIENT_INC_000903	Use Chat
+IDS_TEXTCLIENT_INC_000904	Cancel Target
+IDS_TEXTCLIENT_INC_000905	Use Keyboard Help
+IDS_TEXTCLIENT_INC_000906	Camera Zoom In
+IDS_TEXTCLIENT_INC_000907	Camera Zoom Out
+IDS_TEXTCLIENT_INC_000908	On the Ground: Move forward, During Flight: Go up
+IDS_TEXTCLIENT_INC_000909	On the Ground: Turn to the left, During Flight: Turn to the left
+IDS_TEXTCLIENT_INC_000910	On the Ground: Turn to the right, During Flight: Turn to the right
+IDS_TEXTCLIENT_INC_000911	On the Ground: Move backward, During Flight: Go down
+IDS_TEXTCLIENT_INC_000912	Follow
+IDS_TEXTCLIENT_INC_000913	Walk/Run, During Flight: Start/Stop Turbo
+IDS_TEXTCLIENT_INC_000914	Use Skill
+IDS_TEXTCLIENT_INC_000915	Jump, During Flight: Move/Stop
+IDS_TEXTCLIENT_INC_000916	Change Camera Focus
+IDS_TEXTCLIENT_INC_000917	Open Character Status Window
+IDS_TEXTCLIENT_INC_000918	Open Character Info Window
+IDS_TEXTCLIENT_INC_000919	Open Character Motion Window
+IDS_TEXTCLIENT_INC_000920	Open Inventory
+IDS_TEXTCLIENT_INC_000921	Use Hotkey
+IDS_TEXTCLIENT_INC_000922	Change Hotkey Set
+IDS_TEXTCLIENT_INC_000923	Take a Screenshot
+IDS_TEXTCLIENT_INC_000924	Save Position
+IDS_TEXTCLIENT_INC_000925	Auto Attack
+IDS_TEXTCLIENT_INC_000926	Hide
+IDS_TEXTCLIENT_INC_000927	Open
+IDS_TEXTCLIENT_INC_000928	You cannot input more than 100 times of the original price for the Item trade.
+IDS_TEXTCLIENT_INC_000929	You cannot connect from outside the service for flyff.
+IDS_TEXTCLIENT_INC_000930	Very slow
+IDS_TEXTCLIENT_INC_000931	Slow
+IDS_TEXTCLIENT_INC_000932	Normal
+IDS_TEXTCLIENT_INC_000933	Fast
+IDS_TEXTCLIENT_INC_000934	Very fast
+IDS_TEXTCLIENT_INC_000935	Fastest
+IDS_TEXTCLIENT_INC_000936	General
+IDS_TEXTCLIENT_INC_000937	Scenario
+IDS_TEXTCLIENT_INC_000938	Request
+IDS_TEXTCLIENT_INC_000939	Skill Tree Info
+IDS_TEXTCLIENT_INC_000940	Guild Chat
+IDS_TEXTCLIENT_INC_000941	Only the leader can use the party PvP function.
+IDS_TEXTCLIENT_INC_000942	You can neither disband the guild nor leave it from it here.
+IDS_TEXTCLIENT_INC_000943	The number of characters exceeds the limit. Please shorten it.
+IDS_TEXTCLIENT_INC_000944	
+IDS_TEXTCLIENT_INC_000945	Are you going to cancel the quest?
+IDS_TEXTCLIENT_INC_000946	To Increase the Skill Level\n –Double Click the Left Mouse Button\n\nTo Decrease the Skill Level\n –Double Click the Right Mouse Button.
+IDS_TEXTCLIENT_INC_000947	You can only use this after skill redistribution.
+IDS_TEXTCLIENT_INC_000948	\n * Please redistribute the points until it reaches 0.
+IDS_TEXTCLIENT_INC_000949	Do you want to stop skill redistribution?
+IDS_TEXTCLIENT_INC_000950	Current Lv : %d
+IDS_TEXTCLIENT_INC_000951	Experience Point Required for Next Level : %d
+IDS_TEXTCLIENT_INC_000952	The skill redistribution was finished successfully.
+IDS_TEXTCLIENT_INC_000953	There was a problem during skill redistribution. Please try again.
+IDS_TEXTCLIENT_INC_000954	Due to a change in the skill system, you need to redistribute experience points.
+IDS_TEXTCLIENT_INC_000955	
+IDS_TEXTCLIENT_INC_000956	–Skill experience point is accumulated everytime you use it. However you cannot use the skill until the redistribution has been completed.
+IDS_TEXTCLIENT_INC_000957	–You can try out the skill redistribution function in advance in the test server.
+IDS_TEXTCLIENT_INC_000958	–Please lower the skill point above.
+IDS_TEXTCLIENT_INC_000959	%s Skill level %d is needed.
+IDS_TEXTCLIENT_INC_000960	You need to equip a Poster to use this skill.
+IDS_TEXTCLIENT_INC_000961	Unable to use skill. Your level is too low.
+IDS_TEXTCLIENT_INC_000962	Skill Level: %d
+IDS_TEXTCLIENT_INC_000963	Character Level: %d
+IDS_TEXTCLIENT_INC_000964	Please finish the skill redistribution before using the skill.
+IDS_TEXTCLIENT_INC_000965	The attribute of the selected item has been deleted.
+IDS_TEXTCLIENT_INC_000966	The attribute of %s and the applied attribute of the item are not the same.
+IDS_TEXTCLIENT_INC_000967	The attribute has not been applied to the selected item. Please finish the attribute refining first.
+IDS_TEXTCLIENT_INC_000968	Inappropriate item. Please use the premium item for attribute strengthening.
+IDS_TEXTCLIENT_INC_000969	Attribute Strengthening
+IDS_TEXTCLIENT_INC_000970	You can only trade or unequip the item after removing its elemental attributes. Will you remove them?
+IDS_TEXTCLIENT_INC_000971	You used the face-change function once.
+IDS_TEXTCLIENT_INC_000972	You used the face-change function twice.
+IDS_TEXTCLIENT_INC_000973	You can only use the face-change function twice.
+IDS_TEXTCLIENT_INC_000974	Change Face %d
+IDS_TEXTCLIENT_INC_000975	You cannot fly here.
+IDS_TEXTCLIENT_INC_000976	You need %s item to open it.
+IDS_TEXTCLIENT_INC_000977	Wrong level, unable to open itembox.
+IDS_TEXTCLIENT_INC_000978	Wrong sex, uanble to open itembox.
+IDS_TEXTCLIENT_INC_000979	You need to be on the %s quest to open it.
+IDS_TEXTCLIENT_INC_000980	Wrong job, unable to open itembox.
+IDS_TEXTCLIENT_INC_000981	Charge attribute has already been applied.
+IDS_TEXTCLIENT_INC_000982	Price : %s
+IDS_TEXTCLIENT_INC_000983	Selling Price : %s
+IDS_TEXTCLIENT_INC_000984	Premium item cannot be refined.
+IDS_TEXTCLIENT_INC_000985	You are not finished with the skill redistribution yet.
+IDS_TEXTCLIENT_INC_000986	FP recovery rate decreased.
+IDS_TEXTCLIENT_INC_000987	This item cannot be used.
+IDS_TEXTCLIENT_INC_000988	Walk
+IDS_TEXTCLIENT_INC_000989	Run
+IDS_TEXTCLIENT_INC_000990	GM HELP
+IDS_TEXTCLIENT_INC_000991	%s Guild Cloak
+IDS_TEXTCLIENT_INC_000992	%s skill cannot be registered in the action slot.
+IDS_TEXTCLIENT_INC_000993	Your character is being checked at the moment. Please log in after a while.
+IDS_TEXTCLIENT_INC_000994	Please wait a while before using the item again.
+IDS_TEXTCLIENT_INC_000995	Motion
+IDS_TEXTCLIENT_INC_000996	Emoticon
+IDS_TEXTCLIENT_INC_000997	Changes will be applied after you restart Flyff.
+IDS_TEXTCLIENT_INC_000998	Blaster
+IDS_TEXTCLIENT_INC_000999	Eraser
+IDS_TEXTCLIENT_INC_001000	Champion
+IDS_TEXTCLIENT_INC_001001	Warrior
+IDS_TEXTCLIENT_INC_001002	Bearcat
+IDS_TEXTCLIENT_INC_001003	Sorcerer
+IDS_TEXTCLIENT_INC_001004	Warlock
+IDS_TEXTCLIENT_INC_001005	Sage
+IDS_TEXTCLIENT_INC_001006	Arch Sage
+IDS_TEXTCLIENT_INC_001007	Elder
+IDS_TEXTCLIENT_INC_001008	Crusader
+IDS_TEXTCLIENT_INC_001009	Chaplain
+IDS_TEXTCLIENT_INC_001010	Luminary
+IDS_TEXTCLIENT_INC_001011	Prophet
+IDS_TEXTCLIENT_INC_001012	Oracle
+IDS_TEXTCLIENT_INC_001013	Rogue
+IDS_TEXTCLIENT_INC_001014	Outlaw
+IDS_TEXTCLIENT_INC_001015	Vigilante
+IDS_TEXTCLIENT_INC_001016	Pathfinder
+IDS_TEXTCLIENT_INC_001017	Pursuer
+IDS_TEXTCLIENT_INC_001018	Hejerdor
+IDS_TEXTCLIENT_INC_001019	Phoenix
+IDS_TEXTCLIENT_INC_001020	Splitter
+IDS_TEXTCLIENT_INC_001021	Valcan
+IDS_TEXTCLIENT_INC_001022	Lamia
+IDS_TEXTCLIENT_INC_001023	You died as a criminal. You can atone for your sins by going through certain ordeals. Do you want to atone for your sins?
+IDS_TEXTCLIENT_INC_001024	Only criminals can wear this item.
+IDS_TEXTCLIENT_INC_001025	Only people with good status can wear this item.
+IDS_TEXTCLIENT_INC_001026	[Hangame] Delete Character
+IDS_TEXTCLIENT_INC_001027	Do you really want to delete it?
+IDS_TEXTCLIENT_INC_001028	The trial has just started. Your abilities are weakened for a certain period.
+IDS_TEXTCLIENT_INC_001029	Put Bounty
+IDS_TEXTCLIENT_INC_001030	See the Bounty List
+IDS_TEXTCLIENT_INC_001031	You have never been killed by other character.
+IDS_TEXTCLIENT_INC_001032	Do you want to check your position?
+IDS_TEXTCLIENT_INC_001033	(consuming %d Penya)
+IDS_TEXTCLIENT_INC_001034	You have overcome all trials.
+IDS_TEXTCLIENT_INC_001035	%d Karma has been recovered.
+IDS_TEXTCLIENT_INC_001036	You cannot quit during combat.
+IDS_TEXTCLIENT_INC_001037	Quit after %d sec.
+IDS_TEXTCLIENT_INC_001038	Blocking Rate of Melee attacks
+IDS_TEXTCLIENT_INC_001039	Blocking Rate of Ranged attacks
+IDS_TEXTCLIENT_INC_001040	Do you want to delete it?
+IDS_TEXTCLIENT_INC_001041	How many items do you want to delete?
+IDS_TEXTCLIENT_INC_001042	How much Penya do you want to delete?
+IDS_TEXTCLIENT_INC_001043	You are not in Dark Illusion mode.
+IDS_TEXTCLIENT_INC_001044	Yes
+IDS_TEXTCLIENT_INC_001045	No
+IDS_TEXTCLIENT_INC_001046	Cancel
+IDS_TEXTCLIENT_INC_001047	Time Left: #b%d minutes#nb
+IDS_TEXTCLIENT_INC_001048	#bYou exceeded the time limit#nb
+IDS_TEXTCLIENT_INC_001049	Defeat %s #b(%d/%d)#nb
+IDS_TEXTCLIENT_INC_001050	%s Search
+IDS_TEXTCLIENT_INC_001051	%s number #b(%d/%d)#nb
+IDS_TEXTCLIENT_INC_001052	Karma Point #b(%d %s %d)#nb
+IDS_TEXTCLIENT_INC_001053	%s Skill Level #b(%d/%d)#nb
+IDS_TEXTCLIENT_INC_001054	Chat with %s
+IDS_TEXTCLIENT_INC_001055	#bMeet %s#nb
+IDS_TEXTCLIENT_INC_001056	Item: %s(%d)
+IDS_TEXTCLIENT_INC_001057	Item: ????
+IDS_TEXTCLIENT_INC_001058	Penya: %d
+IDS_TEXTCLIENT_INC_001059	Penya: %d~%d
+IDS_TEXTCLIENT_INC_001060	Penya: ????
+IDS_TEXTCLIENT_INC_001061	Experience Gained.
+IDS_TEXTCLIENT_INC_001062	Collected Karma Point : %d
+IDS_TEXTCLIENT_INC_001063	Collected Karma Point : ????
+IDS_TEXTCLIENT_INC_001064	Added Karma Point : %d
+IDS_TEXTCLIENT_INC_001065	Added Karma Point : ????
+IDS_TEXTCLIENT_INC_001066	You became a criminal.
+IDS_TEXTCLIENT_INC_001067	You have been acquitted of your crimes.
+IDS_TEXTCLIENT_INC_001068	Transformed into %s
+IDS_TEXTCLIENT_INC_001069	Transformed into a human
+IDS_TEXTCLIENT_INC_001070	You cannot fly while transforming.
+IDS_TEXTCLIENT_INC_001071	Unable to complete quest. Not enough room in your inventory.
+IDS_TEXTCLIENT_INC_001072	Going solo
+IDS_TEXTCLIENT_INC_001073	Create party
+IDS_TEXTCLIENT_INC_001074	Party Leader
+IDS_TEXTCLIENT_INC_001075	Non-Party Leader
+IDS_TEXTCLIENT_INC_001076	Number of Party Members #b(%d %s %d)#nb
+IDS_TEXTCLIENT_INC_001077	Party Leader, Number of Party Members #b(%d %s %d)#nb
+IDS_TEXTCLIENT_INC_001078	Non-Party Leader, Number of Party Members #b(%d %s %d)#nb
+IDS_TEXTCLIENT_INC_001079	Non-Guild Mode
+IDS_TEXTCLIENT_INC_001080	Create Guild
+IDS_TEXTCLIENT_INC_001081	Guild Leader
+IDS_TEXTCLIENT_INC_001082	Non-Guild Leader
+IDS_TEXTCLIENT_INC_001083	Number of Guild Members #b(%d
+IDS_TEXTCLIENT_INC_001084	Guild Leader, Number of Guild Members #b(%d %s %d)#nb
+IDS_TEXTCLIENT_INC_001085	Non-Guild Leader, Number of Guild Members #b(%d %s %d)#nb
+IDS_TEXTCLIENT_INC_001086	Quest completed.
+IDS_TEXTCLIENT_INC_001087	Quest cancelled.
+IDS_TEXTCLIENT_INC_001088	You cannot use the skill.
+IDS_TEXTCLIENT_INC_001089	Equip arrows first.
+IDS_TEXTCLIENT_INC_001090	The quest will not progress without this item. Continue discarding item?
+IDS_TEXTCLIENT_INC_001091	The Bounty is currently at (X=%.2f, Y=%.2f, Z=%.2f). An arrow will be pointing at it for an hour.
+IDS_TEXTCLIENT_INC_001092	The Bounty is currently %s at (X=%.2f, Y=%.2f, Z=%.2f).
+IDS_TEXTCLIENT_INC_001093	It could be that you were never PKed, or the player who PKed you was deleted.
+IDS_TEXTCLIENT_INC_001094	Keep your comments concise.
+IDS_TEXTCLIENT_INC_001095	The price entered exceeded the range of (%d – %d).
+IDS_TEXTCLIENT_INC_001096	– Data was made at %H o clock %M minute(s) %S second(s).
+IDS_TEXTCLIENT_INC_001097	The reward disappears when the player status is crossed out. Do you really want to offer a reward?
+IDS_TEXTCLIENT_INC_001098	Waiting Time for reuse: %.2d:%.2d
+IDS_TEXTCLIENT_INC_001099	You cannot use it during skill motion.
+IDS_TEXTCLIENT_INC_001100	You can use it when you stand up.
+IDS_TEXTCLIENT_INC_001101	You cannot duel with party members.
+IDS_TEXTCLIENT_INC_001102	The other player is in duel rejection mode.
+IDS_TEXTCLIENT_INC_001103	You are not the Party leader.
+IDS_TEXTCLIENT_INC_001104	The other member is not the Party leader.
+IDS_TEXTCLIENT_INC_001105	Flying is forbidden inside.
+IDS_TEXTCLIENT_INC_001106	Unable to connect to servers 1 and 2 if your Karma point is negative..
+IDS_TEXTCLIENT_INC_001107	%.1dmin
+IDS_TEXTCLIENT_INC_001108	%.1dsec
+IDS_TEXTCLIENT_INC_001109	%.1dhr
+IDS_TEXTCLIENT_INC_001110	%.1dday
+IDS_TEXTCLIENT_INC_001111	Character has negative Karma points. Can only connect to PK server.
+IDS_TEXTCLIENT_INC_001112	You cannot use a blinkwing at %s.
+IDS_TEXTCLIENT_INC_001113	Unable to use while flying.
+IDS_TEXTCLIENT_INC_001114	Unable to duel. Level gap is more than 30.
+IDS_TEXTCLIENT_INC_001115	You cannot duel in a safety zone.
+IDS_TEXTCLIENT_INC_001116	You can duel only if the other player is in the same place as you.
+IDS_TEXTCLIENT_INC_001117	You can only duel after your 1st job-change.
+IDS_TEXTCLIENT_INC_001118	Unable to change the party leader during a party duel.
+IDS_TEXTCLIENT_INC_001119	You cannot duel while flying.
+IDS_TEXTCLIENT_INC_001120	You collected %s Penya for the bounty of %s.
+IDS_TEXTCLIENT_INC_001121	You cannot do quests while in a party.
+IDS_TEXTCLIENT_INC_001122	You cannot use stores if your Karma grade is Vicious.
+IDS_TEXTCLIENT_INC_001123	You can change to your 2nd job at level 60.
+IDS_TEXTCLIENT_INC_001124	You cannot use this yet.
+IDS_TEXTCLIENT_INC_001125	Block
+IDS_TEXTCLIENT_INC_001126	Hit
+IDS_TEXTCLIENT_INC_001127	Add HP
+IDS_TEXTCLIENT_INC_001128	Add Magical Power
+IDS_TEXTCLIENT_INC_001129	All Stat
+IDS_TEXTCLIENT_INC_001130	Piercing
+IDS_TEXTCLIENT_INC_001131	You can pierce 4 sockets into suits.
+IDS_TEXTCLIENT_INC_001132	The item cannot be pierced.
+IDS_TEXTCLIENT_INC_001133	Increased HP
+IDS_TEXTCLIENT_INC_001134	Increased MP
+IDS_TEXTCLIENT_INC_001135	Increased DEF
+IDS_TEXTCLIENT_INC_001136	Increased Attack
+IDS_TEXTCLIENT_INC_001137	Increased FP
+IDS_TEXTCLIENT_INC_001138	Critical Chance
+IDS_TEXTCLIENT_INC_001139	Attribute Attack
+IDS_TEXTCLIENT_INC_001140	Mastery: Earth
+IDS_TEXTCLIENT_INC_001141	Mastery: Fire
+IDS_TEXTCLIENT_INC_001142	Mastery: Water
+IDS_TEXTCLIENT_INC_001143	Mastery: Electricity
+IDS_TEXTCLIENT_INC_001144	Mastery: Wind
+IDS_TEXTCLIENT_INC_001145	Reflect Damage
+IDS_TEXTCLIENT_INC_001146	Decreased MP Consumption
+IDS_TEXTCLIENT_INC_001147	Decreased FP Consumption
+IDS_TEXTCLIENT_INC_001148	Decreased Casting Time
+IDS_TEXTCLIENT_INC_001149	Max. Spell
+IDS_TEXTCLIENT_INC_001150	Additional Damage of Critical Hits
+IDS_TEXTCLIENT_INC_001151	Increased Attack Power (Yo-Yo)
+IDS_TEXTCLIENT_INC_001152	Increased Attack Power (Bow)
+IDS_TEXTCLIENT_INC_001153	Increased Attack Power (Knuckle)
+IDS_TEXTCLIENT_INC_001154	Increased Attack Power (Sword)
+IDS_TEXTCLIENT_INC_001155	Increased Attack Power (Axe)
+IDS_TEXTCLIENT_INC_001156	Do you want to pierce this item?
+IDS_TEXTCLIENT_INC_001157	There is no space to put a card.
+IDS_TEXTCLIENT_INC_001158	Player name successfully changed.
+IDS_TEXTCLIENT_INC_001159	You successfully changed your Job to %s.
+IDS_TEXTCLIENT_INC_001160	Recovered 1 Karma.
+IDS_TEXTCLIENT_INC_001161	Only criminals can use this item.
+IDS_TEXTCLIENT_INC_001162	Party level increased to 10.
+IDS_TEXTCLIENT_INC_001163	This item takes effect once your character dies. Do you want to use it?
+IDS_TEXTCLIENT_INC_001164	Takes effect when player dies.
+IDS_TEXTCLIENT_INC_001165	This item resets your skills. Do you want to use this item?
+IDS_TEXTCLIENT_INC_001166	Your character’s skill points have been reset.  Please redistribute your points in the Skill Tree window.
+IDS_TEXTCLIENT_INC_001167	Either you are not a party member or the party level is higher than 10.
+IDS_TEXTCLIENT_INC_001168	Please unequip the item first.
+IDS_TEXTCLIENT_INC_001169	Your stats will reset after you change your job. Do you want to change your job?
+IDS_TEXTCLIENT_INC_001170	You can use this item after your 1st job change.
+IDS_TEXTCLIENT_INC_001171	Please select a job.
+IDS_TEXTCLIENT_INC_001172	You will be revived where you died.
+IDS_TEXTCLIENT_INC_001173	Cheer Message Point(s): %d/3
+IDS_TEXTCLIENT_INC_001174	Time left until the next point
+IDS_TEXTCLIENT_INC_001175	%s sent you a cheer message of friendship!
+IDS_TEXTCLIENT_INC_001176	%s sent you a cheer message of love!
+IDS_TEXTCLIENT_INC_001177	Unable to send cheer message. Please try again after %s minutes.
+IDS_TEXTCLIENT_INC_001178	Please select a player to cheer. You can only send cheer messages to players other than yourself.
+IDS_TEXTCLIENT_INC_001179	You cannot pass party leadership to an offline player.
+IDS_TEXTCLIENT_INC_001180	Piercing Succeeded.
+IDS_TEXTCLIENT_INC_001181	Piercing failed.
+IDS_TEXTCLIENT_INC_001182	The item cannot be equipped or moved during refining.
+IDS_TEXTCLIENT_INC_001183	Your cheer point increased.
+IDS_TEXTCLIENT_INC_001184	Guild name was successfully changed.
+IDS_TEXTCLIENT_INC_001185	Effective when the item is destroyed after piercing.
+IDS_TEXTCLIENT_INC_001186	Effective after refining
+IDS_TEXTCLIENT_INC_001187	Effective after piercing
+IDS_TEXTCLIENT_INC_001188	The item loses its potency 4 hours after being equipped if not returned to the inventory . Do you want to use the item?
+IDS_TEXTCLIENT_INC_001189	Return to your former position.
+IDS_TEXTCLIENT_INC_001190	You cannot use these items at the same time.
+IDS_TEXTCLIENT_INC_001191	You can use it when you have joined a party or if you are a party leader.
+IDS_TEXTCLIENT_INC_001192	You used the same item earlier. Try again after its effects have worn off.
+IDS_TEXTCLIENT_INC_001193	This item is consumed regardless of its success or failure. Do you continue?
+IDS_TEXTCLIENT_INC_001194	Unable to use item in the limit zone.
+IDS_TEXTCLIENT_INC_001195	This item has no effect when refining items higher than +7. Do you still use it?
+IDS_TEXTCLIENT_INC_001196	This item can only be used when piercing.
+IDS_TEXTCLIENT_INC_001197	Period
+IDS_TEXTCLIENT_INC_001198	within %1.d minutes
+IDS_TEXTCLIENT_INC_001199	You can use the %s for %d days.
+IDS_TEXTCLIENT_INC_001200	The duration of %s is %d.
+IDS_TEXTCLIENT_INC_001201	Unable to use %s . Item has expired.
+IDS_TEXTCLIENT_INC_001202	Set
+IDS_TEXTCLIENT_INC_001203	#cff0000ff I am your father!#nc
+IDS_TEXTCLIENT_INC_001204	#cff0000ff I am your mother!#nc
+IDS_TEXTCLIENT_INC_001205	Party duel mode of %s was finished. If you join duel again, you will be penalized according to PK rules.
+IDS_TEXTCLIENT_INC_001206	Will you register for the Guild Siege?
+IDS_TEXTCLIENT_INC_001207	Do you want to withdraw from the Guild Siege?
+IDS_TEXTCLIENT_INC_001208	Do you join the Guild Siege?
+IDS_TEXTCLIENT_INC_001209	The guild is not in the list.
+IDS_TEXTCLIENT_INC_001210	%d Round
+IDS_TEXTCLIENT_INC_001211	You did not register for the Guild Siege.
+IDS_TEXTCLIENT_INC_001212	You are already registered in the Guild Siege.
+IDS_TEXTCLIENT_INC_001213	You either do not have a guild or you are not the guild master.
+IDS_TEXTCLIENT_INC_001214	Welcome to the Guild Siege.
+IDS_TEXTCLIENT_INC_001215	The Guild Siege will begin soon. You will be automatically teleported to Flaris after %d seconds.
+IDS_TEXTCLIENT_INC_001216	The Guild Siege has ended.
+IDS_TEXTCLIENT_INC_001217	The winning guild for this week: %s guild.
+IDS_TEXTCLIENT_INC_001218	MVP is %s.
+IDS_TEXTCLIENT_INC_001219	Congratulations!
+IDS_TEXTCLIENT_INC_001220	The Guild Siege will begin after %d seconds.
+IDS_TEXTCLIENT_INC_001221	From now on, Franky in Flarine can let you into the Guild Siege arena,
+IDS_TEXTCLIENT_INC_001222	You are guild master! Don't forget that if you defeat the enemy, you will get a bonus.
+IDS_TEXTCLIENT_INC_001223	You are defender! If you are defeated by the enemy, they will get a bonus.
+IDS_TEXTCLIENT_INC_001224	Defeat your opponent for glory of your guild! Defeating the defender, you will get a bonus.
+IDS_TEXTCLIENT_INC_001225	Your guild has registered to attend the guild siege.
+IDS_TEXTCLIENT_INC_001226	The guild master has gained %s!!
+IDS_TEXTCLIENT_INC_001227	Your guild has gained %s!!
+IDS_TEXTCLIENT_INC_001228	Your defender is dead!! %s guild has gained points!!
+IDS_TEXTCLIENT_INC_001229	You gained remained resurrection %s points!!
+IDS_TEXTCLIENT_INC_001230	Guild Siege is closed.
+IDS_TEXTCLIENT_INC_001231	The guild siege is held for this week.
+IDS_TEXTCLIENT_INC_001232	Please enter from Franky in Flarine.
+IDS_TEXTCLIENT_INC_001233	You qualified to enter the guild siege. Please finish "line up for the guild siege" with Franky in Flaris now.
+IDS_TEXTCLIENT_INC_001234	You have failed to qualify. Please challenge again next week. After finishing the guild siege, receive an admission fee from Donalis in Flaris.
+IDS_TEXTCLIENT_INC_001235	Entrance has started. Would you like to teleport to the Guild Siege arena?
+IDS_TEXTCLIENT_INC_001236	A vagrant should not be the leader in a Guild Siege.
+IDS_TEXTCLIENT_INC_001237	Your guild level must be at least %d in order to apply for the siege.
+IDS_TEXTCLIENT_INC_001238	It will cost you at least %d penya to apply to the siege
+IDS_TEXTCLIENT_INC_001239	It will cost you  %d penya to apply to the siege.
+IDS_TEXTCLIENT_INC_001240	You can apply to the guild siege if you have the required Penya.
+IDS_TEXTCLIENT_INC_001241	You cannot use Blinkwings to escape the Guild Siege arena.
+IDS_TEXTCLIENT_INC_001242	Registration for guild siege has finished.
+IDS_TEXTCLIENT_INC_001243	The guild siege you joined was cancelled.
+IDS_TEXTCLIENT_INC_001244	Maintenance Schedule
+IDS_TEXTCLIENT_INC_001245	Combat starts right after server maintenance. Prepare for war!
+IDS_TEXTCLIENT_INC_001246	Start Combat
+IDS_TEXTCLIENT_INC_001247	End combat
+IDS_TEXTCLIENT_INC_001248	Teleporting to Flaris
+IDS_TEXTCLIENT_INC_001249	Unable to join during guild siege.
+IDS_TEXTCLIENT_INC_001250	You cannot use it right now.
+IDS_TEXTCLIENT_INC_001251	Time Limit
+IDS_TEXTCLIENT_INC_001252	Please join after a while.
+IDS_TEXTCLIENT_INC_001253	Congratulations, you get the guild map!
+IDS_TEXTCLIENT_INC_001254	Preparations underway.
+IDS_TEXTCLIENT_INC_001255	Guild Siege mode is now available.
+IDS_TEXTCLIENT_INC_001256	You can zoom in the camera by pressing the [Scroll Lock] key.
+IDS_TEXTCLIENT_INC_001257	Set Effect
+IDS_TEXTCLIENT_INC_001258	Wrong Password. Cannot log into account for 15 seconds.
+IDS_TEXTCLIENT_INC_001259	Wrong Passwords 3 times. Cannot log into account for 15 minutes.
+IDS_TEXTCLIENT_INC_001260	Server Verification Error
+IDS_TEXTCLIENT_INC_001261	Now gaining Exp. At an increased rate.
+IDS_TEXTCLIENT_INC_001262	Rate Increased
+IDS_TEXTCLIENT_INC_001263	You cannot stack this scroll anymore. At level %s, this scroll can only be stacked %s times.
+IDS_TEXTCLIENT_INC_001264	You cannot use this scroll. This scroll is only available for level %s.
+IDS_TEXTCLIENT_INC_001265	You can use multiple copies of this scroll at your current level.
+IDS_TEXTCLIENT_INC_001266	The time left
+IDS_TEXTCLIENT_INC_001267	First:
+IDS_TEXTCLIENT_INC_001268	Second:
+IDS_TEXTCLIENT_INC_001269	Third:
+IDS_TEXTCLIENT_INC_001270	Mastery: All Elements
+IDS_TEXTCLIENT_INC_001271	Change of Guild Leader.
+IDS_TEXTCLIENT_INC_001272	HP, MP, FP Recovery Power
+IDS_TEXTCLIENT_INC_001273	HP, MP, FP Recovery Rate
+IDS_TEXTCLIENT_INC_001274	HP Recovery Power once you kill NPC
+IDS_TEXTCLIENT_INC_001275	MP Recovery Power once you kill NPC
+IDS_TEXTCLIENT_INC_001276	FP Recovery Power once you kill NPC
+IDS_TEXTCLIENT_INC_001277	HP, MP, FP Recovery Power once you kill NPC
+IDS_TEXTCLIENT_INC_001278	HP Recovery Rate once you kill NPC
+IDS_TEXTCLIENT_INC_001279	MP Recovery Rate once you kill NPC
+IDS_TEXTCLIENT_INC_001280	FP Recovery Rate once you kill NPC
+IDS_TEXTCLIENT_INC_001281	HP, MP, FP Recovery Rate once you kill NPC
+IDS_TEXTCLIENT_INC_001282	Decrease Rate of MP, FP Consumption
+IDS_TEXTCLIENT_INC_001283	Suit Socket Card
+IDS_TEXTCLIENT_INC_001284	Weapon/Shield Socket Card
+IDS_TEXTCLIENT_INC_001285	
+IDS_TEXTCLIENT_INC_001286	Would you like to send mail?\n Received mail will be deleted after %d days.
+IDS_TEXTCLIENT_INC_001287	You have sent mail.
+IDS_TEXTCLIENT_INC_001288	New mail has arrived
+IDS_TEXTCLIENT_INC_001289	Do you want to delete this mail? \nIf you do, items and penya in this mail will be deleted as well.
+IDS_TEXTCLIENT_INC_001290	Unknown user
+IDS_TEXTCLIENT_INC_001291	Not available
+IDS_TEXTCLIENT_INC_001292	The remained points : %d
+IDS_TEXTCLIENT_INC_001293	The received date : %s
+IDS_TEXTCLIENT_INC_001294	You can not use the premium items.
+IDS_TEXTCLIENT_INC_001295	%s asked to summon you %s.\n Would you like to accept?
+IDS_TEXTCLIENT_INC_001296	You don't have %s. You cannot summon %s.
+IDS_TEXTCLIENT_INC_001297	%s is not online.
+IDS_TEXTCLIENT_INC_001298	You have asked to summon %s
+IDS_TEXTCLIENT_INC_001299	You can summon party members.\nThey should be in the same area(%s),\nThe area can't be event arean(Clockwork).\nIf party leader move to other area(dungeon)\nmember can't be summoned.\nIt will be activated for a minute.\nWould you like to request the summons?
+IDS_TEXTCLIENT_INC_001300	You can not summon without %s.
+IDS_TEXTCLIENT_INC_001301	%s Party has asked to summon you. \nYou will be summoned to the Party Leader.\n You have one minute to decide.
+IDS_TEXTCLIENT_INC_001302	If you click the icon(%s) on the upper of the right \nyou will be teleported to the leader.
+IDS_TEXTCLIENT_INC_001303	You should be close for the summon to work,(%s)\n Make sure you are not in an Event arena. \n Do you want to be teleported?
+IDS_TEXTCLIENT_INC_001304	You can go to the Party leader once you click double.
+IDS_TEXTCLIENT_INC_001305	You can not go.
+IDS_TEXTCLIENT_INC_001306	%s is summoned
+IDS_TEXTCLIENT_INC_001307	You are summoned to %s
+IDS_TEXTCLIENT_INC_001308	The name of %s on a ring was already carved. Give your sweetheart a present.
+IDS_TEXTCLIENT_INC_001309	The name of %s on a ring was carved. Give your sweetheart a present.
+IDS_TEXTCLIENT_INC_001310	This item has expired.
+IDS_TEXTCLIENT_INC_001311	The name of %s was carved into the ring.
+IDS_TEXTCLIENT_INC_001312	You can not go to %s from here.
+IDS_TEXTCLIENT_INC_001313	You can not go to who is flying.
+IDS_TEXTCLIENT_INC_001314	Trading
+IDS_TEXTCLIENT_INC_001315	Because the person is trading.
+IDS_TEXTCLIENT_INC_001316	If the person is dead
+IDS_TEXTCLIENT_INC_001317	Because the person is dead
+IDS_TEXTCLIENT_INC_001318	On opening a private shop
+IDS_TEXTCLIENT_INC_001319	Because the person is on opening a private shop
+IDS_TEXTCLIENT_INC_001320	In Combat
+IDS_TEXTCLIENT_INC_001321	Because the person is in combat.
+IDS_TEXTCLIENT_INC_001322	On flying
+IDS_TEXTCLIENT_INC_001323	Because the person is flying.
+IDS_TEXTCLIENT_INC_001324	In event area
+IDS_TEXTCLIENT_INC_001325	Because the person is in an event area
+IDS_TEXTCLIENT_INC_001326	Because %s and %s are in different area
+IDS_TEXTCLIENT_INC_001327	Because the leader went to another area
+IDS_TEXTCLIENT_INC_001328	You cannot use %s
+IDS_TEXTCLIENT_INC_001329	You cannot summon %s
+IDS_TEXTCLIENT_INC_001330	You cannot accept %s
+IDS_TEXTCLIENT_INC_001331	%s has cancelled the summon.
+IDS_TEXTCLIENT_INC_001332	You can not use item to yourself.
+IDS_TEXTCLIENT_INC_001333	This item is not available. Please input another item.
+IDS_TEXTCLIENT_INC_001334	Only 1-60 level items are usable.
+IDS_TEXTCLIENT_INC_001335	Only 61-120 level items are usable.
+IDS_TEXTCLIENT_INC_001336	The change from %s to %s was successful.
+IDS_TEXTCLIENT_INC_001337	Please input an item which you want to change.
+IDS_TEXTCLIENT_INC_001338	Please input an item on the left column.
+IDS_TEXTCLIENT_INC_001339	This item is for gaining Party Exp. at twice the normal rate.\nYou have to be the Party Leader to use it\nDo you want to use it?
+IDS_TEXTCLIENT_INC_001340	Summoning should be used on players that are 15 meters or closer to you.
+IDS_TEXTCLIENT_INC_001341	You can not summon there.
+IDS_TEXTCLIENT_INC_001342	You have summoned %s.
+IDS_TEXTCLIENT_INC_001343	%s has become the guild master.
+IDS_TEXTCLIENT_INC_001344	You cannot send this item.
+IDS_TEXTCLIENT_INC_001345	You have failed to send.
+IDS_TEXTCLIENT_INC_001346	This channel is not available. Please enter another.
+IDS_TEXTCLIENT_INC_001347	You can not send that much Penya.
+IDS_TEXTCLIENT_INC_001348	Use skills in the Action Slot (Hotkey: C)
+IDS_TEXTCLIENT_INC_001349	Strengthens Attack Power of Weapon
+IDS_TEXTCLIENT_INC_001350	Except for wand
+IDS_TEXTCLIENT_INC_001351	Strengthens Defense, Max. HP, Max. FP
+IDS_TEXTCLIENT_INC_001352	HP, FP recovery rate increased
+IDS_TEXTCLIENT_INC_001353	Attack speed increased
+IDS_TEXTCLIENT_INC_001354	Evasion Rate, Blocking Rate increased
+IDS_TEXTCLIENT_INC_001355	Increases Critical Hit Chance.
+IDS_TEXTCLIENT_INC_001356	Striking power of bow is increased.
+IDS_TEXTCLIENT_INC_001357	Amount of Max. MP is increased.
+IDS_TEXTCLIENT_INC_001358	Magic Attack Power
+IDS_TEXTCLIENT_INC_001359	Points for STR, STA, DEX and INT
+IDS_TEXTCLIENT_INC_001360	Weapon
+IDS_TEXTCLIENT_INC_001361	Shield
+IDS_TEXTCLIENT_INC_001362	Bow
+IDS_TEXTCLIENT_INC_001363	Helmet
+IDS_TEXTCLIENT_INC_001364	Suit
+IDS_TEXTCLIENT_INC_001365	Gauntlet
+IDS_TEXTCLIENT_INC_001366	Boots
+IDS_TEXTCLIENT_INC_001367	Cloak
+IDS_TEXTCLIENT_INC_001368	Mask
+IDS_TEXTCLIENT_INC_001369	Ring
+IDS_TEXTCLIENT_INC_001370	Ear ring
+IDS_TEXTCLIENT_INC_001371	Necklace
+IDS_TEXTCLIENT_INC_001372	Flying board
+IDS_TEXTCLIENT_INC_001373	Fashion hat
+IDS_TEXTCLIENT_INC_001374	Fashion costume
+IDS_TEXTCLIENT_INC_001375	Fashion gloves
+IDS_TEXTCLIENT_INC_001376	Fashion shoes
+IDS_TEXTCLIENT_INC_001377	Sub Weapon(Bow, Poster)
+IDS_TEXTCLIENT_INC_001378	You have dropped %s Penya.
+IDS_TEXTCLIENT_INC_001379	Entry
+IDS_TEXTCLIENT_INC_001380	Receipt of prize money and application money
+IDS_TEXTCLIENT_INC_001381	Detach Piercing Card.
+IDS_TEXTCLIENT_INC_001382	You can not set %s into %s
+IDS_TEXTCLIENT_INC_001383	Input the above item.
+IDS_TEXTCLIENT_INC_001384	Select the lower card.
+IDS_TEXTCLIENT_INC_001385	Input the item with a card.
+IDS_TEXTCLIENT_INC_001386	Would you like to delete card that is piercing the suit?
+IDS_TEXTCLIENT_INC_001387	Today's Guild Siege was not held because participating guild is short 1 person.
+IDS_TEXTCLIENT_INC_001388	Have a good day!
+IDS_TEXTCLIENT_INC_001389	Experience Offer: %d~%d
+IDS_TEXTCLIENT_INC_001390	Experience Offer 
+IDS_TEXTCLIENT_INC_001391	If your Penya count is fool ask for prize money after clearing some space.
+IDS_TEXTCLIENT_INC_001392	Because the amount exceeds the   penya of inventory after adding prize money of guild siege, please asked to get the prize money to GM on web site. Sorry for your inconvenience.
+IDS_TEXTCLIENT_INC_001393	You received %I64d penya as prize money for the guild siege. Congratulations!!!
+IDS_TEXTCLIENT_INC_001394	You received %I64d penya minus the amount you paid for the application.
+IDS_TEXTCLIENT_INC_001395	\n1 Win : Dragon Cloak of Challenge\n2 Wins Straight : Dragon Cloak of Bravery\n3 Wins Straight : Dragon Cloak of Desire\n4 Wins Straight : Dragon Cloak of Majesty
+IDS_TEXTCLIENT_INC_001396	Information about Prize Money
+IDS_TEXTCLIENT_INC_001397	Acceptance of prize money for MVP
+IDS_TEXTCLIENT_INC_001398	Information to Participate
+IDS_TEXTCLIENT_INC_001399	Basic Rule
+IDS_TEXTCLIENT_INC_001400	Conditions to Win
+IDS_TEXTCLIENT_INC_001401	Commission Information
+IDS_TEXTCLIENT_INC_001402	Refund of application fee
+IDS_TEXTCLIENT_INC_001403	You have asked for %d penya first. And then you asked for an additional %d penya.
+IDS_TEXTCLIENT_INC_001404	Gain entrance when one of your guild mates dies.
+IDS_TEXTCLIENT_INC_001405	Be ready!
+IDS_TEXTCLIENT_INC_001406	After %d, you enter %s.
+IDS_TEXTCLIENT_INC_001407	You have already received the prize money or, you are not one who needs to receive the application fee back.
+IDS_TEXTCLIENT_INC_001408	You have already received the prize money for MVP or, you are not MVP.
+IDS_TEXTCLIENT_INC_001409	You have received %I64d penya as MVP. Congratulation!!!
+IDS_TEXTCLIENT_INC_001410	A vagrant cannot participate in Guild Siege.
+IDS_TEXTCLIENT_INC_001411	Line up for guild siege was completed.
+IDS_TEXTCLIENT_INC_001412	From now on, you can organize the entry of guild siege.
+IDS_TEXTCLIENT_INC_001413	It should be  .
+IDS_TEXTCLIENT_INC_001414	You have successfully applied to the guild siege. You can organize the entry of guild from 5 pm (PST) every Saturday.
+IDS_TEXTCLIENT_INC_001415	The application fee is refunded when you fail to join the guild siege.
+IDS_TEXTCLIENT_INC_001416	You cannot use skills in auditorium.
+IDS_TEXTCLIENT_INC_001417	You cannot use items in auditorium.
+IDS_TEXTCLIENT_INC_001418	You can add friends in the Guild Siege arena.
+IDS_TEXTCLIENT_INC_001419	You can trade in the Guild Siege arena.
+IDS_TEXTCLIENT_INC_001420	You can make a Party in the Guild Siege arena.
+IDS_TEXTCLIENT_INC_001421	You can disband a guild that has applied for a Guild Siege.
+IDS_TEXTCLIENT_INC_001422	You can not quit from a guild while in Guild Siege.
+IDS_TEXTCLIENT_INC_001423	You can not invite someone to the guild while in Guild Siege.
+IDS_TEXTCLIENT_INC_001424	You have already received penya or your cannot receive the penya during guild siege.
+IDS_TEXTCLIENT_INC_001425	You have been awarded %d penya as MVP. Congratulations!
+IDS_TEXTCLIENT_INC_001426	Time for organizing line up and preparation for Guild Siege.
+IDS_TEXTCLIENT_INC_001427	Please make a application with more money than the minimum.
+IDS_TEXTCLIENT_INC_001428	Please make a application with more money than existing.
+IDS_TEXTCLIENT_INC_001429	You have paid %d penya. Do you want to pay additional %d penya.
+IDS_TEXTCLIENT_INC_001430	Would like to organize line up for guild siege again?
+IDS_TEXTCLIENT_INC_001431	For now, you can not organize an entry.
+IDS_TEXTCLIENT_INC_001432	You didn't apply the guild siege or, you are not accepted to attend the guild siege.
+IDS_TEXTCLIENT_INC_001433	You should be over level 30 for an entry.
+IDS_TEXTCLIENT_INC_001434	You are not a guild member for attending the guild siege.
+IDS_TEXTCLIENT_INC_001435	Be registered. Register again.
+IDS_TEXTCLIENT_INC_001436	There is no defender. Select a defender.
+IDS_TEXTCLIENT_INC_001437	There is no participant. Select participant.
+IDS_TEXTCLIENT_INC_001438	There is no kingpin or guild master in an entry.
+IDS_TEXTCLIENT_INC_001439	The Guild Master cannot be a defender.
+IDS_TEXTCLIENT_INC_001440	A vagrant is not eligible for guild siege. Try again after your first job chance.
+IDS_TEXTCLIENT_INC_001441	It takes 1000 penya to create a dragon cloak. Would you like to create it?
+IDS_TEXTCLIENT_INC_001442	We will play an exhibition game for now. Therefore, the record will not affect to ranking.
+IDS_TEXTCLIENT_INC_001443	The '%s' event is underway! Visit http://flyff.gpotato.com/community for event details!
+IDS_TEXTCLIENT_INC_001444	The '%s' event has just started.
+IDS_TEXTCLIENT_INC_001445	The '%s' event is over.
+IDS_TEXTCLIENT_INC_001446	Register an entry for guild siege.   Starting member %d (Maximum member %d)
+IDS_TEXTCLIENT_INC_001447	The  number %d of people was exceeded.
+IDS_TEXTCLIENT_INC_001448	Thanks for your joining the guild siege
+IDS_TEXTCLIENT_INC_001449	%s's mail box is full.
+IDS_TEXTCLIENT_INC_001450	Did you really delete your character?
+IDS_TEXTCLIENT_INC_001451	The time %d for basic custody expired. Therefore you should pay %d penya as charges for custody.
+IDS_TEXTCLIENT_INC_001452	Individual rank:
+IDS_TEXTCLIENT_INC_001453	Current rank:
+IDS_TEXTCLIENT_INC_001454	The text should be under %d letters.
+IDS_TEXTCLIENT_INC_001455	The title should be under %d letters.
+IDS_TEXTCLIENT_INC_001456	if a member of party is over Lv%d, he cannot enter.
+IDS_TEXTCLIENT_INC_001457	How dare you come here!
+IDS_TEXTCLIENT_INC_001458	You have no fear!!!
+IDS_TEXTCLIENT_INC_001459	I will be your executioner!!!
+IDS_TEXTCLIENT_INC_001460	Don't make me angry!!! 
+IDS_TEXTCLIENT_INC_001461	%s, you fool! How dare you!!!
+IDS_TEXTCLIENT_INC_001462	I will crush your bones!
+IDS_TEXTCLIENT_INC_001463	I will destroy you all!!!
+IDS_TEXTCLIENT_INC_001464	I will break you!!!
+IDS_TEXTCLIENT_INC_001465	Who woke me?
+IDS_TEXTCLIENT_INC_001466	%s!!!My axe and I will destroy you!!!
+IDS_TEXTCLIENT_INC_001467	Go to Hell!!
+IDS_TEXTCLIENT_INC_001468	Log was saved to %s file
+IDS_TEXTCLIENT_INC_001469	United Rank
+IDS_TEXTCLIENT_INC_001470	Battle Log
+IDS_TEXTCLIENT_INC_001471	Guild Master   
+IDS_TEXTCLIENT_INC_001472	Defender
+IDS_TEXTCLIENT_INC_001473	[%s]
+IDS_TEXTCLIENT_INC_001474	(%d grade)
+IDS_TEXTCLIENT_INC_001475	Basic Point +2
+IDS_TEXTCLIENT_INC_001476	Guild Master Bonus +1
+IDS_TEXTCLIENT_INC_001477	Defender Bonus +1
+IDS_TEXTCLIENT_INC_001478	Kill bonus +1
+IDS_TEXTCLIENT_INC_001479	Resurrecting Bonus +1
+IDS_TEXTCLIENT_INC_001480	Payback Penya
+IDS_TEXTCLIENT_INC_001481	Hello. I am a guild manager named Donaris.\nI am going to give you money back because of your cancellation. I have deducted 2% as a commission.\nHave a good day!
+IDS_TEXTCLIENT_INC_001482	Refund from failure of a tender for the guild siege
+IDS_TEXTCLIENT_INC_001483	Hello. I am a guild manager named Donaris.\nI am going to give you some of your money back. I have deducted 2% as a commission.\nI hope to see you at the Guild Siege again.\nThanks for your interest
+IDS_TEXTCLIENT_INC_001484	Rank
+IDS_TEXTCLIENT_INC_001485	Name
+IDS_TEXTCLIENT_INC_001486	Job
+IDS_TEXTCLIENT_INC_001487	Grade
+IDS_TEXTCLIENT_INC_001488	Thank you for buying premium items
+IDS_TEXTCLIENT_INC_001489	%s have sent you %s as a present 
+IDS_TEXTCLIENT_INC_001490	Attack
+IDS_TEXTCLIENT_INC_001491	Winner: %s
+IDS_TEXTCLIENT_INC_001492	Loser: %s
+IDS_TEXTCLIENT_INC_001493	Winner gained %d points
+IDS_TEXTCLIENT_INC_001494	You can not use it.
+IDS_TEXTCLIENT_INC_001495	You have recovered 30%% of decreased exp from your death.
+IDS_TEXTCLIENT_INC_001496	%s exp box
+IDS_TEXTCLIENT_INC_001497	The rate of attack speed
+IDS_TEXTCLIENT_INC_001498	You can recover some of your Exp. If you return to the place where you died.
+IDS_TEXTCLIENT_INC_001499	To give the skill point
+IDS_TEXTCLIENT_INC_001500	New Skill Points are now available.
+IDS_TEXTCLIENT_INC_001501	This item cannot be traded.
+IDS_TEXTCLIENT_INC_001502	This item cannot be traded while you are being summoned.
+IDS_TEXTCLIENT_INC_001503	This item cannot be added to the private shop while you are being summoned.
+IDS_TEXTCLIENT_INC_001504	This item cannot be added to the guild bank while you are being summoned.
+IDS_TEXTCLIENT_INC_001505	This item cannot be sent while you are being summoned.
+IDS_TEXTCLIENT_INC_001506	Congratulations! Level up!
+IDS_TEXTCLIENT_INC_001507	Confirm changes to skill points?
+IDS_TEXTCLIENT_INC_001508	Does not match with the number of items. Please input again.
+IDS_TEXTCLIENT_INC_001509	Number of %s deleted: %s.
+IDS_TEXTCLIENT_INC_001510	Name
+IDS_TEXTCLIENT_INC_001511	Level
+IDS_TEXTCLIENT_INC_001512	Job Level
+IDS_TEXTCLIENT_INC_001513	Flying Level
+IDS_TEXTCLIENT_INC_001514	Flying EXP
+IDS_TEXTCLIENT_INC_001515	Trip EXP
+IDS_TEXTCLIENT_INC_001516	Stat Points
+IDS_TEXTCLIENT_INC_001517	Duel Fame
+IDS_TEXTCLIENT_INC_001518	Duel Point
+IDS_TEXTCLIENT_INC_001519	Killing Point
+IDS_TEXTCLIENT_INC_001520	Karma Level
+IDS_TEXTCLIENT_INC_001521	Karma Point
+IDS_TEXTCLIENT_INC_001522	ATK
+IDS_TEXTCLIENT_INC_001523	Critical
+IDS_TEXTCLIENT_INC_001524	A.Speed
+IDS_TEXTCLIENT_INC_001525	Letter Edit
+IDS_TEXTCLIENT_INC_001526	Up to 2 sockets are available for one-handed weapons and shields, and up to 4 sockets for two-handed weapons and suits.
+IDS_TEXTCLIENT_INC_001527    This item can only be used on applicable weapons and armor.	
+IDS_TEXTCLIENT_INC_001528    Do you want to apply a random\n stat upgrade to the following item?\n %s	
+IDS_TEXTCLIENT_INC_001529    This will overwrite the previous\n random stat upgrade that was applied. \nDo you want to continue?	
+IDS_TEXTCLIENT_INC_001530    %s has been enchanted with %s +%d.	
+IDS_TEXTCLIENT_INC_001531	Shouting is only allowed 5 times per 60 seconds.
+IDS_TEXTCLIENT_INC_001532	The item dragged here is removed.
+IDS_TEXTCLIENT_INC_001533	That is unavailable during Guild Siege.
+IDS_TEXTCLIENT_INC_001534	Result of Coca Cola Event
+IDS_TEXTCLIENT_INC_001535	Only available for level 16 or higher characters.
+IDS_TEXTCLIENT_INC_001536	Damage absorb
+IDS_TEXTCLIENT_INC_001537	Session is over. Please try again.
+IDS_TEXTCLIENT_INC_001538	You can shout only when your level is over than 15.
+IDS_TEXTCLIENT_INC_001539	Penya
+IDS_TEXTCLIENT_INC_001540	
+IDS_TEXTCLIENT_INC_001541	
+IDS_TEXTCLIENT_INC_001542	It cannot be registered because its price is too high.
+IDS_TEXTCLIENT_INC_001543	You cannot drop your Penya on the ground.
+IDS_TEXTCLIENT_INC_001544	%d day(s) of event attendance verified. You have been awarded %s.  Log in every day for better rewards!\nHave a nice day, FlyFFer!
+IDS_TEXTCLIENT_INC_001545	Event Reward:  
+IDS_TEXTCLIENT_INC_001546	Will you open your shop?
+IDS_TEXTCLIENT_INC_001547	Will you close your shop?
+IDS_TEXTCLIENT_INC_001548	Private Shop
+IDS_TEXTCLIENT_INC_001549	(Shop is opening)
+IDS_TEXTCLIENT_INC_001550	Your Reward!
+IDS_TEXTCLIENT_INC_001551	You received a play time reward!
+IDS_TEXTCLIENT_INC_001552	Cosmetic Upgrades
+IDS_TEXTCLIENT_INC_001553	You are using Cosmetic Upgrades.
+IDS_TEXTCLIENT_INC_001554	You cannot receive Cosmetic Upgrades during trading.
+IDS_TEXTCLIENT_INC_001555	PVP/PK
+IDS_TEXTCLIENT_INC_001556	PVP Fame
+IDS_TEXTCLIENT_INC_001557	PVP
+IDS_TEXTCLIENT_INC_001558	PK
+IDS_TEXTCLIENT_INC_001559	Disposition
+IDS_TEXTCLIENT_INC_001560	You have summoned an Angel.
+IDS_TEXTCLIENT_INC_001561	You cannot summon an Angel while trading.
+IDS_TEXTCLIENT_INC_001562	Too many Gems.
+IDS_TEXTCLIENT_INC_001563	You need at least 3 Sunstones and 3 Moonstones to summon an Angel.
+IDS_TEXTCLIENT_INC_001564	You cannot use the Mailbox while trading.
+IDS_TEXTCLIENT_INC_001565	Cannot use the skill at this time.
+IDS_TEXTCLIENT_INC_001566	A character with a bad Disposition cannot use bank.
+IDS_TEXTCLIENT_INC_001567	A character with a bad Disposition cannot use the shop.
+IDS_TEXTCLIENT_INC_001568	A character with a bad Disposition cannot open a private shop.
+IDS_TEXTCLIENT_INC_001569	A character with a bad Disposition cannot fly.
+IDS_TEXTCLIENT_INC_001570	Cannot PK a character under level 20.
+IDS_TEXTCLIENT_INC_001571	Cannot PK a character under level 20.
+IDS_TEXTCLIENT_INC_001572	PK is unavailable in this area.
+IDS_TEXTCLIENT_INC_001573	You can only use this after you have PK-ed a character.
+IDS_TEXTCLIENT_INC_001574	Heavenly Angel
+IDS_TEXTCLIENT_INC_001575	Total price per space cannot exceed 1,000,000,000 Penya.
+IDS_TEXTCLIENT_INC_001576	The amount of Penya in your inventory and the price of what you are selling cannot exceed 2,100,000,000.
+IDS_TEXTCLIENT_INC_001577	Please try again after taking off the head item
+IDS_TEXTCLIENT_INC_001578	You cannot use that item while using Hair Stylist or Plastic Surgeon.
+IDS_TEXTCLIENT_INC_001579	Your Angel has reached full Exp.
+IDS_TEXTCLIENT_INC_001580	There is no space in your inventory. Make a space and try again.
+IDS_TEXTCLIENT_INC_001581	You have to get the Confession quest before you can summon an Angel.
+IDS_TEXTCLIENT_INC_001582	You already have an Angel with full Exp.
+IDS_TEXTCLIENT_INC_001583	%s loses the Duel!
+IDS_TEXTCLIENT_INC_001584	%s wins the Duel!
+IDS_TEXTCLIENT_INC_001585	You killed %s.
+IDS_TEXTCLIENT_INC_001586	You were killed by %s. 
+IDS_TEXTCLIENT_INC_001587	Please click the Angle buff icon.
+IDS_TEXTCLIENT_INC_001588	Lower PK Amount.
+IDS_TEXTCLIENT_INC_001589	Must meet one of the listed requirements.
+IDS_TEXTCLIENT_INC_001590	Summon Angel
+IDS_TEXTCLIENT_INC_001591	Cannot create characters right now. Please try again later.
+IDS_TEXTCLIENT_INC_001592	You cannot use the coupon.
+IDS_TEXTCLIENT_INC_001593	Using the Free Coupon.
+IDS_TEXTCLIENT_INC_001594	You have a Free Coupon. Do you want to use it now?
+IDS_TEXTCLIENT_INC_001595	Do you want to use your Free Coupon now?
+IDS_TEXTCLIENT_INC_001596	Once used, the coupon is gone forever.
+IDS_TEXTCLIENT_INC_001597	%s has won %d times in a row.
+IDS_TEXTCLIENT_INC_001598	As reward
+IDS_TEXTCLIENT_INC_001599	was sent to Guild Bank.
+IDS_TEXTCLIENT_INC_001600	You need a Rock-Paper-Scissors Coupon in order to play.
+IDS_TEXTCLIENT_INC_001601	I challenge you to a game of Rock-Paper-Scissors!
+IDS_TEXTCLIENT_INC_001602	Press END if you want to claim your current prize and stop playing or press NEXT to continue playing for more prizes - 
+IDS_TEXTCLIENT_INC_001603	Please Note: You will not receive your current prize if you choose to continue playing.
+IDS_TEXTCLIENT_INC_001604	Congratulations, you won %d time(s)!  You receive %s x%d.
+IDS_TEXTCLIENT_INC_001605	You Lose!
+IDS_TEXTCLIENT_INC_001606	The minimum application fee should be over %d Penya.
+IDS_TEXTCLIENT_INC_001607	Please fill-in the blank and try again.
+IDS_TEXTCLIENT_INC_001608	Congratulations! The reward was sent. Keep playing for various rewards.
+IDS_TEXTCLIENT_INC_001609	Sorry, no matches this time. Try Again!
+IDS_TEXTCLIENT_INC_001610	%d was the winning number. Congratulations! You received %s Penya.
+IDS_TEXTCLIENT_INC_001611	Not correct. Please try again next time.
+IDS_TEXTCLIENT_INC_001612	Please wager at least 10 Penya.
+IDS_TEXTCLIENT_INC_001613	Rock-Paper-Scissors
+IDS_TEXTCLIENT_INC_001614	Word Puzzle
+IDS_TEXTCLIENT_INC_001615	Dice
+IDS_TEXTCLIENT_INC_001616	Jigsaw Puzzle
+IDS_TEXTCLIENT_INC_001617	You are playing a game now!
+IDS_TEXTCLIENT_INC_001618	Item / Penya was sent to your mailbox.
+IDS_TEXTCLIENT_INC_001619	Item / Penya was sent to your mailbox.
+IDS_TEXTCLIENT_INC_001620	Created a Shining Oricalkum.
+IDS_TEXTCLIENT_INC_001621	You have no space in your inventory. Please make space and try again!
+IDS_TEXTCLIENT_INC_001622	Exp.
+IDS_TEXTCLIENT_INC_001623	Lifesteal (HP)
+IDS_TEXTCLIENT_INC_001624	Damage increase vs. Monsters
+IDS_TEXTCLIENT_INC_001625	Damage increase during PvP.
+IDS_TEXTCLIENT_INC_001626	Place a General Weapon in the window to upgrade it to a Unique Weapon.
+IDS_TEXTCLIENT_INC_001627	Place a +10 Unique Weapon in the window to upgrade it to an Ultimate Weapon.
+IDS_TEXTCLIENT_INC_001628	You need to use a Shining Oricalkum.
+IDS_TEXTCLIENT_INC_001629	Please use the correct Jewels.
+IDS_TEXTCLIENT_INC_001630	Feed pet
+IDS_TEXTCLIENT_INC_001631	Pet State
+IDS_TEXTCLIENT_INC_001632	Un-summon pet
+IDS_TEXTCLIENT_INC_001633	Create Shining Oricalkum
+IDS_TEXTCLIENT_INC_001634	Jewel Setting
+IDS_TEXTCLIENT_INC_001635	Create Jewels
+IDS_TEXTCLIENT_INC_001636	Create Unique Weapon
+IDS_TEXTCLIENT_INC_001637	Create Ultimate Weapon
+IDS_TEXTCLIENT_INC_001638	Level-up Hero Skill!
+IDS_TEXTCLIENT_INC_001639	You are already using the conversion window.
+IDS_TEXTCLIENT_INC_001640	You are already using this window!
+IDS_TEXTCLIENT_INC_001641	Jewel creation succeeded!
+IDS_TEXTCLIENT_INC_001642	Jewel creation failed!
+IDS_TEXTCLIENT_INC_001643	The last jewel that was set will be removed. Continue?
+IDS_TEXTCLIENT_INC_001644	Jewel removal succeeded!
+IDS_TEXTCLIENT_INC_001645	Jewel removal failed!
+IDS_TEXTCLIENT_INC_001646	Private Shops are unavailable in this area.
+IDS_TEXTCLIENT_INC_001647	Cure
+IDS_TEXTCLIENT_INC_001648	The window is already opened!
+IDS_TEXTCLIENT_INC_001649	Egg
+IDS_TEXTCLIENT_INC_001650	D Level
+IDS_TEXTCLIENT_INC_001651	C Level
+IDS_TEXTCLIENT_INC_001652	B Level
+IDS_TEXTCLIENT_INC_001653	A Level
+IDS_TEXTCLIENT_INC_001654	S Level
+IDS_TEXTCLIENT_INC_001655	Bonus
+IDS_TEXTCLIENT_INC_001656	You are not allowed to pulverize this item!
+IDS_TEXTCLIENT_INC_001657	Your pet does not meet the class requirements for this item.
+IDS_TEXTCLIENT_INC_001658	This item can be used with a D - S Level pet.
+IDS_TEXTCLIENT_INC_001659	You do not have a summoned pet.
+IDS_TEXTCLIENT_INC_001660	You cannot do that.
+IDS_TEXTCLIENT_INC_001661	You cannot feed your pet Equipped items.
+IDS_TEXTCLIENT_INC_001662	You cannot feed your pet Premium items.
+IDS_TEXTCLIENT_INC_001663	Use on your egg.
+IDS_TEXTCLIENT_INC_001664	Return your pet to its previous level and remove its current Exp.
+IDS_TEXTCLIENT_INC_001665	Turns an egg into a D Level pet. Pet class will be decided at random.
+IDS_TEXTCLIENT_INC_001666	How much will you feed your Pet.
+IDS_TEXTCLIENT_INC_001667	Check the amount of food you have.
+IDS_TEXTCLIENT_INC_001668	(Active)
+IDS_TEXTCLIENT_INC_001669	Double-click to use.
+IDS_TEXTCLIENT_INC_001670	The amount of Pet Feed in your inventory decreases rather than the HP of your pet.  Disappears 6 hours after activation.
+IDS_TEXTCLIENT_INC_001671	Pet food count:
+IDS_TEXTCLIENT_INC_001672	%d Day(s)
+IDS_TEXTCLIENT_INC_001673	%d Hour(s)
+IDS_TEXTCLIENT_INC_001674	%d Minute(s)
+IDS_TEXTCLIENT_INC_001675	%d Second(s)
+IDS_TEXTCLIENT_INC_001676	Upgrade to a Unique Weapon
+IDS_TEXTCLIENT_INC_001677	Upgrade to an Ultimate Weapon
+IDS_TEXTCLIENT_INC_001678	Use Coupon
+IDS_TEXTCLIENT_INC_001679	Change your Hair
+IDS_TEXTCLIENT_INC_001680	Change your Appearance.
+IDS_TEXTCLIENT_INC_001681	Do you want to change your hair?
+IDS_TEXTCLIENT_INC_001682	Do you want to change your appearance?
+IDS_TEXTCLIENT_INC_001683	End
+IDS_TEXTCLIENT_INC_001684	Next
+IDS_TEXTCLIENT_INC_001685	%d win(s)
+IDS_TEXTCLIENT_INC_001686	Count : %d
+IDS_TEXTCLIENT_INC_001687	You are already using that item
+IDS_TEXTCLIENT_INC_001688	Select the item you want to turn into Pet Feed.
+IDS_TEXTCLIENT_INC_001689	Check the amount of items you have.
+IDS_TEXTCLIENT_INC_001690	How many items will you use?
+IDS_TEXTCLIENT_INC_001691	We can make everyone happy!
+IDS_TEXTCLIENT_INC_001692	30,000 Happy Money : 1 Syila Hoverbike
+IDS_TEXTCLIENT_INC_001693	15,000 Happy Money : 1 Plug Ear ring +6 
+IDS_TEXTCLIENT_INC_001694	11,300 Happy Money : 1 Meteofy
+IDS_TEXTCLIENT_INC_001695	7,500 Happy Money: 1 Frog Set (M)
+IDS_TEXTCLIENT_INC_001696	5,300 Happy Money: 1 Soccerball Angel
+IDS_TEXTCLIENT_INC_001697	3,800 Happy Money : 1 Pink Balloon
+IDS_TEXTCLIENT_INC_001698	3,800 Happy Money : 1 Blue Balloon
+IDS_TEXTCLIENT_INC_001699	3,800 Happy Money : 1 Yellow Balloon
+IDS_TEXTCLIENT_INC_001700	750 Happy Money : Summon of Party Leader
+IDS_TEXTCLIENT_INC_001701	380 Happy Money : 1 Medicine of Happiness 
+IDS_TEXTCLIENT_INC_001702	230 Happy Money : 1 Cracker Box
+IDS_TEXTCLIENT_INC_001703	150 Happy Money : 1 Cupid Wing
+IDS_TEXTCLIENT_INC_001704	80 Happy Money : 1 Mysterious Trans
+IDS_TEXTCLIENT_INC_001705	40 Happy Money : 1 Goodbye Bomb 
+IDS_TEXTCLIENT_INC_001706	Welcome to the Happy Store! You can choose from a variety of mysterious goods here.
+IDS_TEXTCLIENT_INC_001707	You can only buy items with Happy Money here.
+IDS_TEXTCLIENT_INC_001708	I hope that you are happy with everything you do!
+IDS_TEXTCLIENT_INC_001709	Attack
+IDS_TEXTCLIENT_INC_001710	As a reward, 1 Syila Hoverbike was added to your inventory.
+IDS_TEXTCLIENT_INC_001711	You do not have 30,000 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001712	As a reward, 1 Plug Ear ring +6 was added to your inventory.
+IDS_TEXTCLIENT_INC_001713	You do not have 15,000 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001714	As a reward, 1 Meteofy was added to your inventory.
+IDS_TEXTCLIENT_INC_001715	You do not have 11,300 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001716	As a reward, 1 Frog Set (M) was added to your inventory.
+IDS_TEXTCLIENT_INC_001717	You do not have 7,500 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001718	As a reward, 1 Soccerball Angel was added to your inventory.
+IDS_TEXTCLIENT_INC_001719	You do not have 5,300 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001720	As a reward, 1 Pink Balloon was added to your inventory.
+IDS_TEXTCLIENT_INC_001721	You do not have 3,800 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001722	As a reward, 1 Blue Balloon was added to your inventory.
+IDS_TEXTCLIENT_INC_001723	You do not have 3,800 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001724	As a reward, 1 Yellow Balloon was added to your inventory.
+IDS_TEXTCLIENT_INC_001725	You do not have 3,800 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001726	As a reward, 1 Summon of Troupe Leader was added to your inventory.
+IDS_TEXTCLIENT_INC_001727	You do not have 750 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001728	As a reward, 1 Medicine for happiness was added to your inventory.
+IDS_TEXTCLIENT_INC_001729	You do not have 380 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001730	As a reward, 1 Cracker Box was added to your inventory.
+IDS_TEXTCLIENT_INC_001731	You do not have 230 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001732	As a reward, 1 Cupid Wing was added to your inventory.
+IDS_TEXTCLIENT_INC_001733	You do not have 150 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001734	As reward, 1 Mysterious Trans was to your inventory.
+IDS_TEXTCLIENT_INC_001735	You do not have 80 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001736	As reward, 1 Goodbye Bomb was to your inventory.
+IDS_TEXTCLIENT_INC_001737	You do not have 40 Happy Money. Check your Happy Money and try again when you have enough.
+IDS_TEXTCLIENT_INC_001738	You made %d Pet Feed.
+IDS_TEXTCLIENT_INC_001739	Bring your Pet to the Pet Tamer to upgrade it!
+IDS_TEXTCLIENT_INC_001740	This item can be used with a C - S Level pet.
+IDS_TEXTCLIENT_INC_001741	You cannot fly while you are using a Pet.
+IDS_TEXTCLIENT_INC_001742	You cannot summon your pet while you are flying!
+IDS_TEXTCLIENT_INC_001743	This item gives your hatched pet 1 - 5 lives at random.  Proceed?
+IDS_TEXTCLIENT_INC_001744	(Inactive)
+IDS_TEXTCLIENT_INC_001745	Your pet has died.
+IDS_TEXTCLIENT_INC_001746	7,500 Happy Money: 1 Frog Set (F) Set
+IDS_TEXTCLIENT_INC_001747	As a reward, 1 Frog Set (F) was added to your inventory.
+IDS_TEXTCLIENT_INC_001748	Wait till your feed bag has expired before trying to use another one.
+IDS_TEXTCLIENT_INC_001749	You cannot open a Private Shop near an NPC.
+IDS_TEXTCLIENT_INC_001750	Attribute changes will be applied when you are ready.
+IDS_TEXTCLIENT_INC_001751	Attribute changes have been applied.
+IDS_TEXTCLIENT_INC_001752	Select Apply after you change your Stat points.
+IDS_TEXTCLIENT_INC_001753	Select Apply after you change your Stat points.
+IDS_TEXTCLIENT_INC_001754	Apply new Stats.
+IDS_TEXTCLIENT_INC_001755	Return to Previous Stats.
+IDS_TEXTCLIENT_INC_001756	Do you want to use the current Stat setup?
+IDS_TEXTCLIENT_INC_001757	You cannot use a Trans and Wing item at the same time.
+IDS_TEXTCLIENT_INC_001758	Hero Skill Level-up Successful!
+IDS_TEXTCLIENT_INC_001759	Hero Skill Level-up has failed.
+IDS_TEXTCLIENT_INC_001760	Your Hero Skill is at the maximum level.
+IDS_TEXTCLIENT_INC_001761	Scissors
+IDS_TEXTCLIENT_INC_001762	Rock
+IDS_TEXTCLIENT_INC_001763	Paper
+IDS_TEXTCLIENT_INC_001764	Unequip your weapon and try again.
+IDS_TEXTCLIENT_INC_001765	No available sockets.
+IDS_TEXTCLIENT_INC_001766	You cannot use a Blinkwing while sitting.
+IDS_TEXTCLIENT_INC_001767	[Notice] A GM (Game Master) will never ask for your Account or Bank Password.
+IDS_TEXTCLIENT_INC_001768	[Notice] Do not lend or let a player borrow your items. If they do not give the item back it is lost forever.
+IDS_TEXTCLIENT_INC_001769	Conversion to Ultimate weapon successful.
+IDS_TEXTCLIENT_INC_001770	Conversion to Unique Weapon successful.
+IDS_TEXTCLIENT_INC_001771	Conversion to Ultimate weapon failed.
+IDS_TEXTCLIENT_INC_001772	Conversion to Unique weapon failed.
+IDS_TEXTCLIENT_INC_001773	Jewel creation failed.
+IDS_TEXTCLIENT_INC_001774	You have created %s %d.
+IDS_TEXTCLIENT_INC_001775	Jewel Removal successful.
+IDS_TEXTCLIENT_INC_001776	Jewel Removal failed.
+IDS_TEXTCLIENT_INC_001777	Red Angel
+IDS_TEXTCLIENT_INC_001778	Blue Angel
+IDS_TEXTCLIENT_INC_001779	Green Angel
+IDS_TEXTCLIENT_INC_001780	With a white Angel,
+IDS_TEXTCLIENT_INC_001781	it depends mostly on
+IDS_TEXTCLIENT_INC_001782	how many characters you have killed.
+IDS_TEXTCLIENT_INC_001783	You can use a Premium item.
+IDS_TEXTCLIENT_INC_001784	Feed Bag
+IDS_TEXTCLIENT_INC_001785	#NAME?
+IDS_TEXTCLIENT_INC_001786	#NAME?
+IDS_TEXTCLIENT_INC_001787	#NAME?
+IDS_TEXTCLIENT_INC_001788	HERO
+IDS_TEXTCLIENT_INC_001789	You already have a pet summoned.
+IDS_TEXTCLIENT_INC_001790	Character Name must be 4 to 16 characters long.
+IDS_TEXTCLIENT_INC_001791	World Map
+IDS_TEXTCLIENT_INC_001792	A Map of the World
+IDS_TEXTCLIENT_INC_001793	Version mismatch.  Try to patch again.
+IDS_TEXTCLIENT_INC_001794	Increases damage while using a one-handed weapon.
+IDS_TEXTCLIENT_INC_001795	Increases damage while using a two-handed weapon.
+IDS_TEXTCLIENT_INC_001796	Increases damage while using a Yo-Yo.
+IDS_TEXTCLIENT_INC_001797	Increases damage while using a Bow
+IDS_TEXTCLIENT_INC_001798	Increases damage while using a Knuckle.
+IDS_TEXTCLIENT_INC_001799	Increases the range of a Bow.
+IDS_TEXTCLIENT_INC_001800	You can not use the Map in this Dungeon.
+IDS_TEXTCLIENT_INC_001801	Selected
+IDS_TEXTCLIENT_INC_001802	Price is
+IDS_TEXTCLIENT_INC_001803	Penya.
+IDS_TEXTCLIENT_INC_001804	Your pet has gained %d life.
+IDS_TEXTCLIENT_INC_001805	Fools!!! I will melt you all!!!
+IDS_TEXTCLIENT_INC_001806	You will burn!!! You will all burn!!!
+IDS_TEXTCLIENT_INC_001807	%s!! Come closer!!! Face me!!! Burn!!!
+IDS_TEXTCLIENT_INC_001808	Decrease the Magic defense of a target
+IDS_TEXTCLIENT_INC_001809	%s Cage
+IDS_TEXTCLIENT_INC_001810	You cannot stack this item anymore.
+IDS_TEXTCLIENT_INC_001811	Server
+IDS_TEXTCLIENT_INC_001812	Channel
+IDS_TEXTCLIENT_INC_001813	That weapon is not possible to remove the element upgrading. Try again after checking.
+IDS_TEXTCLIENT_INC_001814	That weapon will be removed element upgrading. And 100,000 Penya will be paid from your inventory.
+IDS_TEXTCLIENT_INC_001815	The element of weapon was removed.
+IDS_TEXTCLIENT_INC_001816	Remove Element upgrading
+IDS_TEXTCLIENT_INC_001817	(Death)
+IDS_TEXTCLIENT_INC_001818	Mark : 
+IDS_TEXTCLIENT_INC_001819	None
+IDS_TEXTCLIENT_INC_001820	Lv. C
+IDS_TEXTCLIENT_INC_001821	Lv. B
+IDS_TEXTCLIENT_INC_001822	Lv. A
+IDS_TEXTCLIENT_INC_001823	Lv. S
+IDS_TEXTCLIENT_INC_001824	Collecting has begun.
+IDS_TEXTCLIENT_INC_001825	Cannot collect pieces here.
+IDS_TEXTCLIENT_INC_001826	This will replace current Battery life. Confirm?
+IDS_TEXTCLIENT_INC_001827	Cannot refill battery life if you are collecting or do not have the Collector equipped.
+IDS_TEXTCLIENT_INC_001828	Collector can be upgraded up to +5.
+IDS_TEXTCLIENT_INC_001829	1vs1 Guild Siege- Apply
+IDS_TEXTCLIENT_INC_001830	1vs1 Guild Siege- Cancel
+IDS_TEXTCLIENT_INC_001831	1vs1 Guild Siege- Check Current Status
+IDS_TEXTCLIENT_INC_001832	1vs1 Guild Siege- Set Member List
+IDS_TEXTCLIENT_INC_001833	1vs1 Guild Siege- Enter
+IDS_TEXTCLIENT_INC_001834	1vs1 Guild Siege- Application Fee
+IDS_TEXTCLIENT_INC_001835	1vs1 Guild Siege- Rewards
+IDS_TEXTCLIENT_INC_001836	1vs1 Guild Siege- Join
+IDS_TEXTCLIENT_INC_001837	1vs1 Guild Siege- Basic Rules
+IDS_TEXTCLIENT_INC_001838	1vs1 Guild Siege- Winning Condition
+IDS_TEXTCLIENT_INC_001839	Guild Siege - Apply 
+IDS_TEXTCLIENT_INC_001840	1vs1 Guild Siege - Apply
+IDS_TEXTCLIENT_INC_001841	Guild Siege - Info.
+IDS_TEXTCLIENT_INC_001842	1vs1 Guild Siege - Info.
+IDS_TEXTCLIENT_INC_001843	Guild Siege - Applying Situation
+IDS_TEXTCLIENT_INC_001844	1vs1 Guild Siege - Applying Situation
+IDS_TEXTCLIENT_INC_001845	Guild Siege - Cancel Application
+IDS_TEXTCLIENT_INC_001846	1vs1 Guild Siege - Cancel Applying
+IDS_TEXTCLIENT_INC_001847	1vs1 Guild Siege - Set Entry Members & Prepare
+IDS_TEXTCLIENT_INC_001848	1vs1 Guild Siege - Time for Entering
+IDS_TEXTCLIENT_INC_001849	1vs1 Guild Siege - Minimum amount of Members that can apply is %d.
+IDS_TEXTCLIENT_INC_001850	Guild Siege: Guide
+IDS_TEXTCLIENT_INC_001851	1vs1 Guild Siege: Guide
+IDS_TEXTCLIENT_INC_001852	You can now enter the 1vs1 Guild Siege Arena. Teleport to [1vs1 Guild Siege Manager] Amos?
+IDS_TEXTCLIENT_INC_001853	Enter 1vs1 Guild Siege arena?
+IDS_TEXTCLIENT_INC_001854	Entering Guild Siege Arena
+IDS_TEXTCLIENT_INC_001855	Enter 1vs1 Guild Siege Arena
+IDS_TEXTCLIENT_INC_001856	Standby
+IDS_TEXTCLIENT_INC_001857	Win
+IDS_TEXTCLIENT_INC_001858	Lose
+IDS_TEXTCLIENT_INC_001859	End in a Tie
+IDS_TEXTCLIENT_INC_001860	☆ Winnings☆
+IDS_TEXTCLIENT_INC_001861	Battle is finished.
+IDS_TEXTCLIENT_INC_001862	Awakening Available
+IDS_TEXTCLIENT_INC_001863	Awakening Options
+IDS_TEXTCLIENT_INC_001864	Blessed Options
+IDS_TEXTCLIENT_INC_001865	※ Blessed items cannot be dropped, traded, or placed in a Bank.
+IDS_TEXTCLIENT_INC_001866	Number of Character's Battles: No. %d
+IDS_TEXTCLIENT_INC_001867	Battle
+IDS_TEXTCLIENT_INC_001868	Online
+IDS_TEXTCLIENT_INC_001869	Offline
+IDS_TEXTCLIENT_INC_001870	Jewelry can be upgraded to +20.
+IDS_TEXTCLIENT_INC_001871	You've won the 1vs1 Guild Siege! %d Red Chips will be sent to your inventory or mailbox. Please remain in the arena until you rewards are received.
+IDS_TEXTCLIENT_INC_001872	You've lost the 1vs1 Guild Siege.
+IDS_TEXTCLIENT_INC_001873	1vs1 Guild Siege has ended in a tie.
+IDS_TEXTCLIENT_INC_001874	Remain in the arena until your Guild has received their prizes.
+IDS_TEXTCLIENT_INC_001875	Would you like to leave?
+IDS_TEXTCLIENT_INC_001876	1vs1 Guild Siege is finished. Please teleport to Flarine.
+IDS_TEXTCLIENT_INC_001877	Your Guild was not selected for the 1vs1 Guild Siege.
+IDS_TEXTCLIENT_INC_001878	Only %d members can join.
+IDS_TEXTCLIENT_INC_001879	Only members level 30+ are allowed.
+IDS_TEXTCLIENT_INC_001880	This character was not selected for 1vs1 Guild Siege.
+IDS_TEXTCLIENT_INC_001881	That character is already listed. Please try again.
+IDS_TEXTCLIENT_INC_001882	Please select members to enter.
+IDS_TEXTCLIENT_INC_001883	There must be a Guild Leader or Kingpin.
+IDS_TEXTCLIENT_INC_001884	You require more Penya to apply.
+IDS_TEXTCLIENT_INC_001885	Apply with the minimum Application Fee or higher.
+IDS_TEXTCLIENT_INC_001886	You have applied with %d Penya. Do you wish to add %d Penya?
+IDS_TEXTCLIENT_INC_001887	Reset entrance members list?
+IDS_TEXTCLIENT_INC_001888	Your Guild has won the 1vs1 Guild Siege.
+IDS_TEXTCLIENT_INC_001889	Your Guild has lost the 1vs1 Guild Siege.
+IDS_TEXTCLIENT_INC_001890	The 1vs1 Guild Siege has ended in a tie.
+IDS_TEXTCLIENT_INC_001891	%s Red Chips have been sent to your inventory or mail box.
+IDS_TEXTCLIENT_INC_001892	There is no opponent to battle. You have won!  Lucky you!
+IDS_TEXTCLIENT_INC_001893	Today's 1vs1 Guild Siege has been cancelled. There are not enough participating Guilds.
+IDS_TEXTCLIENT_INC_001894	Today's 1vs1 Guild Siege has begun.
+IDS_TEXTCLIENT_INC_001895	Guild Leader, please set your 1vs1 Guild Siege entrance members.
+IDS_TEXTCLIENT_INC_001896	1vs1 Guild Siege has started. You cannot do that.
+IDS_TEXTCLIENT_INC_001897	Only Guild Leaders can do that.
+IDS_TEXTCLIENT_INC_001898	Once a guild has applied for the Guild Siege, they cannot apply for the 1vs1 Guild Siege.
+IDS_TEXTCLIENT_INC_001899	Guild level is too low.  You can't apply for the 1vs1 Guild Siege.
+IDS_TEXTCLIENT_INC_001900	%d Penya has been added. Total Application Fee is now: %d Penya.
+IDS_TEXTCLIENT_INC_001901	%d Penya has been offered.
+IDS_TEXTCLIENT_INC_001902	You cannot set 1vs1 Guild Siege entry members.
+IDS_TEXTCLIENT_INC_001903	You were not selected to participate. %d Penya has been returned to you.
+IDS_TEXTCLIENT_INC_001904	Only the Guild Leader or Kingpin can set the 1vs1 Guild Siege member list.
+IDS_TEXTCLIENT_INC_001905	Must have at least  %s members signed up.
+IDS_TEXTCLIENT_INC_001906	1vs1 Guild Siege members have been set.
+IDS_TEXTCLIENT_INC_001907	You can now enter the 1vs1 Guild Siege arena!
+IDS_TEXTCLIENT_INC_001908	You cannot enter right now.
+IDS_TEXTCLIENT_INC_001909	For battle #%s, %s Guild's member '%s' has won.
+IDS_TEXTCLIENT_INC_001910	Battle #%s ended in a tie.
+IDS_TEXTCLIENT_INC_001911	Receive 1vs1 Guild Siege Application Fee.
+IDS_TEXTCLIENT_INC_001912	You were not selected %d Penya will be returned to you.
+IDS_TEXTCLIENT_INC_001913	Once a Guild has applied for the 1vs1 Guild Siege, it cannot apply for the Guild Siege.
+IDS_TEXTCLIENT_INC_001914	Today's 1vs1 Guild Siege is finished.
+IDS_TEXTCLIENT_INC_001915	Time to start: %.2d seconds.
+IDS_TEXTCLIENT_INC_001916	Red Chips have been sent to your mail box. There is no room in your inventory.
+IDS_TEXTCLIENT_INC_001917	Please wait a moment before attacking again.
+IDS_TEXTCLIENT_INC_001918	There seems to be a problem with your board, please relog and try again.
+IDS_TEXTCLIENT_INC_001919	You cannot use a Blinkwing in the 1vs1 Guild Siege arena.
+IDS_TEXTCLIENT_INC_001920	Guild Members cannot leave the Guild until the 1vs1 Guild Siege is over.
+IDS_TEXTCLIENT_INC_001921	You cannot invite new Guild Members until the 1vs1 Guild Siege is over.
+IDS_TEXTCLIENT_INC_001922	Remove Level Reduction
+IDS_TEXTCLIENT_INC_001923	Remove a Pierced Card
+IDS_TEXTCLIENT_INC_001924	Only suits pierced with cards can be used.
+IDS_TEXTCLIENT_INC_001925	Element Card was removed successfully.
+IDS_TEXTCLIENT_INC_001926	Upgrade the Collector with Moonstones. The higher the upgrade, the faster it collects.
+IDS_TEXTCLIENT_INC_001927	Re-fill Battery life to extend your collecting time.
+IDS_TEXTCLIENT_INC_001928	Your guild was not selected. Receive your Penya from [1vs1 Guild Siege Manager] Anny.
+IDS_TEXTCLIENT_INC_001929	There is no Application Fee to be returned.
+IDS_TEXTCLIENT_INC_001930	More Red Chips are needed.
+IDS_TEXTCLIENT_INC_001931	Too much Penya in your inventory.
+IDS_TEXTCLIENT_INC_001932	Cannot be done.
+IDS_TEXTCLIENT_INC_001933	Item has already been awakened.
+IDS_TEXTCLIENT_INC_001934	Better effect has already been activated.
+IDS_TEXTCLIENT_INC_001935	Add Item
+IDS_TEXTCLIENT_INC_001936	Remove Item
+IDS_TEXTCLIENT_INC_001937	Deposit Penya
+IDS_TEXTCLIENT_INC_001938	Withdraw Penya
+IDS_TEXTCLIENT_INC_001939	Red Chip
+IDS_TEXTCLIENT_INC_001940	More Red Chips are needed.
+IDS_TEXTCLIENT_INC_001941	Character: %s has purchased %s(%d), it is spent %d penya.
+IDS_TEXTCLIENT_INC_001942	Add %s    %s    %s    %d
+IDS_TEXTCLIENT_INC_001943	Remove %s    %s    %s    %d
+IDS_TEXTCLIENT_INC_001944	Deposit Penya %s         %s         %d
+IDS_TEXTCLIENT_INC_001945	Withdraw Penya %s         %s         %d
+IDS_TEXTCLIENT_INC_001946	Character Sealing : \n- There must be more than 1 character\n on the account.\n- There must be no items or Penya in the Inventory.\n- There must be no Jewelry.\n- The character's bank should be empty.\n- The character cannot be in a Guild.\n\n Once the character is sealed\n- the character's mail box is erased\n- as well as the messenger.n\n Seal Character?
+IDS_TEXTCLIENT_INC_001947	There must be more than 1 character on the account.
+IDS_TEXTCLIENT_INC_001948	The character's inventory must be empty.
+IDS_TEXTCLIENT_INC_001949	The character should have no Penya.
+IDS_TEXTCLIENT_INC_001950	The character's bank should be empty.
+IDS_TEXTCLIENT_INC_001951	The character you are attempting to seal is in a Guild and cannot be sealed.
+IDS_TEXTCLIENT_INC_001952	Lv%d
+IDS_TEXTCLIENT_INC_001953	Exp : 99.99%%
+IDS_TEXTCLIENT_INC_001954	Exp : %.2f%%
+IDS_TEXTCLIENT_INC_001955	Life : %d
+IDS_TEXTCLIENT_INC_001956	P.Hp : %d / %d
+IDS_TEXTCLIENT_INC_001957	Level
+IDS_TEXTCLIENT_INC_001958	Ability
+IDS_TEXTCLIENT_INC_001959	P.Hp
+IDS_TEXTCLIENT_INC_001960	Exp
+IDS_TEXTCLIENT_INC_001961	When the character is sealed, it becomes a "Sealed Character". It can only be sent to a character on the same account. Which character would you like to send the sealed character to?
+IDS_TEXTCLIENT_INC_001962	Send the Sealed Character to %s?
+IDS_TEXTCLIENT_INC_001963	Awaken Item
+IDS_TEXTCLIENT_INC_001964	You cannot use %s right now.
+IDS_TEXTCLIENT_INC_001965	Are you a collector?  If you bring me 10 pieces of any item, I'll exchange them for a whole one!  Just click the item you want to exchange and press OK!
+IDS_TEXTCLIENT_INC_001966	Folks from all over Madrigal visit my Collecting Fields every day to try and strike it rich.  It's sad, really.  If you're new, you'll need a Collector and a Battery to get started.
+IDS_TEXTCLIENT_INC_001967	Lucky for you, I have some on sale!  My Collectors can be upgraded to +5 using a common Moonstone.  The higher the upgrade, the faster the collecting speed!
+IDS_TEXTCLIENT_INC_001968	Claim a Lucky Cloud Box!  [10 Cloud Pieces]
+IDS_TEXTCLIENT_INC_001969	You have received a Lucky Cloud Box!
+IDS_TEXTCLIENT_INC_001970	There are not enough Cloud Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001971	Claim a Sunstone!  [10 Sunstone Pieces]
+IDS_TEXTCLIENT_INC_001972	You have received a Sunstone!
+IDS_TEXTCLIENT_INC_001973	There are not enough Sunstone Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001974	Claim a Moonstone!  [10 Moonstone Pieces]
+IDS_TEXTCLIENT_INC_001975	You have received a Moonstone!
+IDS_TEXTCLIENT_INC_001976	There are not enough Moonstone Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001977	Claim a Topaz!  [10 Topaz Pieces]
+IDS_TEXTCLIENT_INC_001978	You have received a Topaz!
+IDS_TEXTCLIENT_INC_001979	There are not enough Topaz Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001980	Claim a Ruby!  [10 Ruby Pieces]
+IDS_TEXTCLIENT_INC_001981	You have received a Ruby!
+IDS_TEXTCLIENT_INC_001982	There are not enough Ruby Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001983	Claim a Sapphire!  [10 Sapphire Pieces]
+IDS_TEXTCLIENT_INC_001984	You have received a Sapphire!
+IDS_TEXTCLIENT_INC_001985	There are not enough Sapphire Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001986	Claim an Emerald!  [10 Emerald Pieces]
+IDS_TEXTCLIENT_INC_001987	You have received an Emerald!
+IDS_TEXTCLIENT_INC_001988	There are not enough Emerald Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001989	Claim a Diamond!  [10 Diamond Pieces]
+IDS_TEXTCLIENT_INC_001990	You have received a Diamond!
+IDS_TEXTCLIENT_INC_001991	There are not enough Diamond Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001992	[Click] Exchange 10 Lightning Card(2%) Pieces
+IDS_TEXTCLIENT_INC_001993	You have received a Lightning Card(2%)!
+IDS_TEXTCLIENT_INC_001994	There are not enough Lightning Card(2%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001995	[Click] Exchange 10 Lightning Card(4%) Pieces
+IDS_TEXTCLIENT_INC_001996	You have received a Lightning Card(4%)!
+IDS_TEXTCLIENT_INC_001997	There are not enough Lightning Card(4%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_001998	[Click] Exchange 10 Lightning Card(7%) Pieces
+IDS_TEXTCLIENT_INC_001999	You have received a Lightning Card(7%)!
+IDS_TEXTCLIENT_INC_002000	There are not enough Lightning Card(7%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002001	[Click] Exchange 10 Earthquake Card(2%) Pieces
+IDS_TEXTCLIENT_INC_002002	You have received an Earthquake Card(2%)!
+IDS_TEXTCLIENT_INC_002003	There are not enough Earthquake Card(2%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002004	[Click] Exchange 10 Earthquake Card(4%) Pieces
+IDS_TEXTCLIENT_INC_002005	You have received an Earthquake Card(4%)!
+IDS_TEXTCLIENT_INC_002006	There are not enough Earthquake Card(4%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002007	[Click] Exchange 10 Earthquake Card(7%) Pieces
+IDS_TEXTCLIENT_INC_002008	You have received an Earthquake Card(7%)!
+IDS_TEXTCLIENT_INC_002009	There are not enough Earthquake Card(7%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002010	[Click] Exchange 10 Volcano Card(2%) Pieces
+IDS_TEXTCLIENT_INC_002011	You have received a Volcano Card(2%)!
+IDS_TEXTCLIENT_INC_002012	There are not enough Volcano Card(2%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002013	[Click] Exchange 10 Volcano Card(4%) Pieces
+IDS_TEXTCLIENT_INC_002014	You have received a Volcano Card(4%)!
+IDS_TEXTCLIENT_INC_002015	There are not enough Volcano Card(4%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002016	[Click] Exchange 10 Volcano Card(7%) Pieces
+IDS_TEXTCLIENT_INC_002017	You have received a Volcano Card(7%)!
+IDS_TEXTCLIENT_INC_002018	There are not enough Volcano Card(7%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002019	[Click] Exchange 10 Vacuum Card(2%) Pieces
+IDS_TEXTCLIENT_INC_002020	You have received a Vacuum Card(2%)!
+IDS_TEXTCLIENT_INC_002021	There are not enough Vacuum Card(2%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002022	[Click] Exchange 10 Vacuum Card(4%) Pieces
+IDS_TEXTCLIENT_INC_002023	You have received a Vacuum Card(4%)!
+IDS_TEXTCLIENT_INC_002024	There are not enough Vacuum Card(4%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002025	[Click] Exchange 10 Vacuum Card(7%) Pieces
+IDS_TEXTCLIENT_INC_002026	You have received a Vacuum Card(7%)!
+IDS_TEXTCLIENT_INC_002027	There are not enough Vacuum Card(7%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002028	[Click] Exchange 10 Ocean Card(2%) Pieces
+IDS_TEXTCLIENT_INC_002029	You have received an Ocean Card(2%)!
+IDS_TEXTCLIENT_INC_002030	There are not enough Ocean Card(2%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002031	[Click] Exchange 10 Ocean Card(4%) Pieces
+IDS_TEXTCLIENT_INC_002032	You have received an Ocean Card(4%)!
+IDS_TEXTCLIENT_INC_002033	There are not enough Ocean Card(4%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002034	[Click] Exchange 10 Ocean Card(7%) Pieces
+IDS_TEXTCLIENT_INC_002035	You have received an Ocean Card(7%)!
+IDS_TEXTCLIENT_INC_002036	There are not enough Ocean Card(7%) Pieces in your inventory.
+IDS_TEXTCLIENT_INC_002037	Exchange Rare Item Pieces
+IDS_TEXTCLIENT_INC_002038	Exchange Card Pieces
+IDS_TEXTCLIENT_INC_002039	Only level %s~%s character can get buffs.
+IDS_TEXTCLIENT_INC_002040	Get Buffed!
+IDS_TEXTCLIENT_INC_002041	Item has been awakened.
+IDS_TEXTCLIENT_INC_002042	Can only use on Awakened items.
+IDS_TEXTCLIENT_INC_002043	Item has been reverted.
+IDS_TEXTCLIENT_INC_002044	Use now?
+IDS_TEXTCLIENT_INC_002045	Coupon offered. Login to the homepage and check.
+IDS_TEXTCLIENT_INC_002046	Your Pet has been revived.
+IDS_TEXTCLIENT_INC_002047	Can only be used on dead pets.
+IDS_TEXTCLIENT_INC_002048	Use a Scroll that matches the class of your Pet.
+IDS_TEXTCLIENT_INC_002049	Exchange for Scroll of Pet Revival pieces. 
+IDS_TEXTCLIENT_INC_002050	Exchange Pets for Scroll pieces of the same class.
+IDS_TEXTCLIENT_INC_002051	Only living pets can be exchanged.
+IDS_TEXTCLIENT_INC_002052	Exchange Successful
+IDS_TEXTCLIENT_INC_002053	Add Pet To Be Exchanged
+IDS_TEXTCLIENT_INC_002054	Sealed Character
+IDS_TEXTCLIENT_INC_002055	Character Name
+IDS_TEXTCLIENT_INC_002056	Level    :
+IDS_TEXTCLIENT_INC_002057	Class  :
+IDS_TEXTCLIENT_INC_002058	Stat
+IDS_TEXTCLIENT_INC_002059	- STA   :
+IDS_TEXTCLIENT_INC_002060	- STR   :
+IDS_TEXTCLIENT_INC_002061	- DEX   :
+IDS_TEXTCLIENT_INC_002062	- INT   :
+IDS_TEXTCLIENT_INC_002063	- POINT :
+IDS_TEXTCLIENT_INC_002064	Only Guild Leader or Kingpin can check Guild Bank logs.
+IDS_TEXTCLIENT_INC_002065	Exchange for Scroll of Pet Revival.
+IDS_TEXTCLIENT_INC_002066	Did your Pet die? Oh, the poor thing. I can help you revive it if you'd like.
+IDS_TEXTCLIENT_INC_002067	But I can only help with S, A, or B class pets. Bring me Pets with the same class as the one that died. For each one you bring me I will give you a Scroll of Pet Revival Piece.
+IDS_TEXTCLIENT_INC_002068	Exchange 5 pieces for a Scroll of Pet Revival(S Class)
+IDS_TEXTCLIENT_INC_002069	You have received a Scroll of Pet Revival(S Class)
+IDS_TEXTCLIENT_INC_002070	You don't have enough S Class Pet Revival pieces.
+IDS_TEXTCLIENT_INC_002071	Exchange 5 pieces for a Scroll of Pet Revival(A Class)
+IDS_TEXTCLIENT_INC_002072	You have received a Scroll of Pet Revival(A Class)
+IDS_TEXTCLIENT_INC_002073	You don't have enough A Class Pet Revival pieces.
+IDS_TEXTCLIENT_INC_002074	Exchange 5 pieces for a Scroll of Pet Revival(B Class)
+IDS_TEXTCLIENT_INC_002075	You have received a Scroll of Pet Revival(B Class)
+IDS_TEXTCLIENT_INC_002076	You don't have enough B Class Pet Revival pieces.
+IDS_TEXTCLIENT_INC_002077	Backpack
+IDS_TEXTCLIENT_INC_002078	You cannot collect while flying.
+IDS_TEXTCLIENT_INC_002079	Blessing of the Goddess has been removed.
+IDS_TEXTCLIENT_INC_002080	This feature can only be used on blessed items.
+IDS_TEXTCLIENT_INC_002081	You can only place 10 sentences here.
+IDS_TEXTCLIENT_INC_002082	Remove Premium Item Blessing
+IDS_TEXTCLIENT_INC_002083	Unsealing of character cannot be canceled. Unseal character?
+IDS_TEXTCLIENT_INC_002084	You are already using the ticket.
+IDS_TEXTCLIENT_INC_002085	%d Days %d Hours %d Minutes left
+IDS_TEXTCLIENT_INC_002086	Place the Extra Bag icon here.
+IDS_TEXTCLIENT_INC_002087	You are already using an Extra Bag.
+IDS_TEXTCLIENT_INC_002088	More Red Chips are needed.
+IDS_TEXTCLIENT_INC_002089	Acquired EXP
+IDS_TEXTCLIENT_INC_002090	Increases
+IDS_TEXTCLIENT_INC_002091	Can only Bless Premium Shop suits and Cloaks that have not been Blessed already.
+IDS_TEXTCLIENT_INC_002092	That item cannot be Blessed.
+IDS_TEXTCLIENT_INC_002093	Maximum members: %s.
+IDS_TEXTCLIENT_INC_002094	Characters under 20 level cannot shout.
+IDS_TEXTCLIENT_INC_002095	Your level is too low. You can use that at level %s.
+IDS_TEXTCLIENT_INC_002096	You have received %s as a reward!
+IDS_TEXTCLIENT_INC_002097	Enter Arena
+IDS_TEXTCLIENT_INC_002098	Leave Arena
+IDS_TEXTCLIENT_INC_002099	Silver Heart Merchant
+IDS_TEXTCLIENT_INC_002100	Hi there! I am the Silver Heart Merchant. Bring me the Silver Hearts that the Monsters stole and I will trade you something nice for it.
+IDS_TEXTCLIENT_INC_002101	Bring me the Silver Heart of any Monster level 15 or higher. The more Silver Hearts you bring me, the more valuable  the item I will give you.
+IDS_TEXTCLIENT_INC_002102	Silver Heart 50000: Riding Cloud (Light pink)
+IDS_TEXTCLIENT_INC_002103	Trade Complete, 50000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002104	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002105	Silver Heart 35000: Tiger Board
+IDS_TEXTCLIENT_INC_002106	Trade Complete, 35000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002107	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002108	Silver Heart 25000: Meteofy
+IDS_TEXTCLIENT_INC_002109	Trade Complete, 25000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002110	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002111	Silver Heart 22000: Baby Penguin
+IDS_TEXTCLIENT_INC_002112	Trade Complete, 22000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002113	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002114	Silver Heart 20000: Vampire (M) Set
+IDS_TEXTCLIENT_INC_002115	Trade Complete, 20000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002116	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002117	Silver Heart 20000: Vampire (F) Set
+IDS_TEXTCLIENT_INC_002118	Trade Complete, 20000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002119	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002120	Silver Heart 8000: Beauty Salon Coupon
+IDS_TEXTCLIENT_INC_002121	Trade Complete, 8000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002122	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002123	Silver Heart 8000: Free Makeup Coupon
+IDS_TEXTCLIENT_INC_002124	Trade Complete, 8000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002125	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002126	Silver Heart 5000: Event Sunstone
+IDS_TEXTCLIENT_INC_002127	Trade Complete, 5000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002128	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002129	Silver Heart 3000: Event Moonstone
+IDS_TEXTCLIENT_INC_002130	Trade Complete, 3000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002131	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002132	Silver Heart 1500: Couple Ring
+IDS_TEXTCLIENT_INC_002133	Trade Complete, 1500 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002134	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002135	Silver Heart 1000: Pink Balloon
+IDS_TEXTCLIENT_INC_002136	Trade Complete, 1000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002137	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002138	Silver Heart 1000: Blue Balloon
+IDS_TEXTCLIENT_INC_002139	Trade Complete, 1000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002140	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002141	Silver Heart 1000: Yellow Balloon
+IDS_TEXTCLIENT_INC_002142	Trade Complete, 1000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002143	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002144	Silver Heart 250: Cupid Wings
+IDS_TEXTCLIENT_INC_002145	Trade Complete, 250 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002146	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002147	The Forsaken Tower
+IDS_TEXTCLIENT_INC_002148	It becomes a lucky box when you wear it.
+IDS_TEXTCLIENT_INC_002149	Screenshot flyff%05d.jpg is saved in the 'Capture' folder.
+IDS_TEXTCLIENT_INC_002150	Please press ESC and resurrect.
+IDS_TEXTCLIENT_INC_002151	Silver Heart 35000: Tiger Board
+IDS_TEXTCLIENT_INC_002152	Trade Complete, 35000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002153	Not enough Silver Hearts
+IDS_TEXTCLIENT_INC_002154	Silver Heart 8000: Beauty Salon Coupon
+IDS_TEXTCLIENT_INC_002155	Trade Complete, 8000 Silver Hearts traded
+IDS_TEXTCLIENT_INC_002156	Sound/Control
+IDS_TEXTCLIENT_INC_002157	Organize Secret Room participants
+IDS_TEXTCLIENT_INC_002158	Apply for Secret Room 
+IDS_TEXTCLIENT_INC_002159	Secret Room application status
+IDS_TEXTCLIENT_INC_002160	Enter Secret Room
+IDS_TEXTCLIENT_INC_002161	Check Tax Rate
+IDS_TEXTCLIENT_INC_002162	The Secret Room has opened. Would you like to teleport to the [Secret Room Manager] to enter the Secret Room?
+IDS_TEXTCLIENT_INC_002163	Organize Secret Room participants and prepare time
+IDS_TEXTCLIENT_INC_002164	Time left until Secret Room starts
+IDS_TEXTCLIENT_INC_002165	Time left until Secret Room ends
+IDS_TEXTCLIENT_INC_002166	The Secret Room is closed! Time to teleport to Flaris
+IDS_TEXTCLIENT_INC_002167	All the Secret Rooms from this continent have ended.
+IDS_TEXTCLIENT_INC_002168	%s continent's Secret Room is open.
+IDS_TEXTCLIENT_INC_002169	The Secret Room is not opening this week.
+IDS_TEXTCLIENT_INC_002170	You cannot apply right now.
+IDS_TEXTCLIENT_INC_002171	You cannot apply because your guild level is too low.
+IDS_TEXTCLIENT_INC_002172	Only a Guild master can do it.
+IDS_TEXTCLIENT_INC_002173	It cannot be cancelled now.
+IDS_TEXTCLIENT_INC_002174	It cannot organize participants now.
+IDS_TEXTCLIENT_INC_002175	It is not the guild who applied in %s continent.
+IDS_TEXTCLIENT_INC_002176	%s continent's Secret Room has not been opened.
+IDS_TEXTCLIENT_INC_002177	You cannot view the application status now.
+IDS_TEXTCLIENT_INC_002178	You cannot enter now.
+IDS_TEXTCLIENT_INC_002179	Your guild already applied to another continent.
+IDS_TEXTCLIENT_INC_002180	You need to apply with more penya.
+IDS_TEXTCLIENT_INC_002181	You don't have enough penya.
+IDS_TEXTCLIENT_INC_002182	This application has been completed.
+IDS_TEXTCLIENT_INC_002183	You received %s penya from cancellation of application.
+IDS_TEXTCLIENT_INC_002184	Please check the minimum or maximum number of participants.
+IDS_TEXTCLIENT_INC_002185	The minimum number of participants is %s.
+IDS_TEXTCLIENT_INC_002186	Guild Master is not on the participants list.
+IDS_TEXTCLIENT_INC_002187	Organizing participants is completed.
+IDS_TEXTCLIENT_INC_002188	Your guild has been eliminated. Please get your application refund.
+IDS_TEXTCLIENT_INC_002189	You are not a participant.
+IDS_TEXTCLIENT_INC_002190	A Defeated Guild cannot enter again.
+IDS_TEXTCLIENT_INC_002191	Flaris
+IDS_TEXTCLIENT_INC_002192	Saint Morning
+IDS_TEXTCLIENT_INC_002193	Darkon
+IDS_TEXTCLIENT_INC_002194	Darkon 3
+IDS_TEXTCLIENT_INC_002195	Garden of Rhisis
+IDS_TEXTCLIENT_INC_002196	Eastern
+IDS_TEXTCLIENT_INC_002197	Western
+IDS_TEXTCLIENT_INC_002198	This week's winner of %s continent's Secret Room is %s Guild.
+IDS_TEXTCLIENT_INC_002199	There is no winning Guild of %s continent's Secret Room.
+IDS_TEXTCLIENT_INC_002200	Received %s penya for refund.
+IDS_TEXTCLIENT_INC_002201	Your guild is not a target for refund from %s continent.
+IDS_TEXTCLIENT_INC_002202	Would you like to set Sales Tax %d%%, Purchase Tax %d%%?
+IDS_TEXTCLIENT_INC_002203	Only Hero and Master Class characters can make a bid for Lord candidacy.
+IDS_TEXTCLIENT_INC_002204	You have not bid enough Penya.
+IDS_TEXTCLIENT_INC_002205	Please Bid with more penya than the last bid.
+IDS_TEXTCLIENT_INC_002206	You have bid %I64d more penya than previous %I64d penya, total %I64d penya have been bid.
+IDS_TEXTCLIENT_INC_002207	Summon Info-Pang.
+IDS_TEXTCLIENT_INC_002208	Info-Pang
+IDS_TEXTCLIENT_INC_002209	You are not a candidate.
+IDS_TEXTCLIENT_INC_002210	You don't have enough penya.
+IDS_TEXTCLIENT_INC_002211	Check the list
+IDS_TEXTCLIENT_INC_002212	You have bid %I64d penya.
+IDS_TEXTCLIENT_INC_002213	You have successfully bid. Additional bidding is possible, so please check back continuously.
+IDS_TEXTCLIENT_INC_002214	Refund dropped out candidate's application fee.
+IDS_TEXTCLIENT_INC_002215	Your bid has failed, you did not become a candidate. Your application fee \n will be refunded. \n Application Fee : %I64d penya \n Refund Percentage: %3.0f%% \n Total Refund Amount: %I64d penya\n \n Please try again next time. \n Thank you.
+IDS_TEXTCLIENT_INC_002216	Congratulations! You are one of the 10 candidates for Lord. You can set your pledge through the Lord Aide NPC.
+IDS_TEXTCLIENT_INC_002217	You can set a pledge after you become a candidate for Lord.
+IDS_TEXTCLIENT_INC_002218	Lord Bid Refund
+IDS_TEXTCLIENT_INC_002219	Here is your refund for your bid as Lord.\n\nBidding Amount: %I64d Penya\nRank: %d\nReturn Rate: %3.0f%%\n\nTotal: %I64d Penya\nThank you for your bid.
+IDS_TEXTCLIENT_INC_002220	Exclusive Item Title for Lord
+IDS_TEXTCLIENT_INC_002221	Exclusive Item Text for Lord
+IDS_TEXTCLIENT_INC_002222	You can now organize participants for the Secret Room.
+IDS_TEXTCLIENT_INC_002223	You can now enter the Secret Room.
+IDS_TEXTCLIENT_INC_002224	Secret Room will start soon. Prepare for battle.
+IDS_TEXTCLIENT_INC_002225	Secret Room battle has started.
+IDS_TEXTCLIENT_INC_002226	Secret Room battle has ended.
+IDS_TEXTCLIENT_INC_002227	%s Guild dropped out!
+IDS_TEXTCLIENT_INC_002228	You have exceed %d people to enter Secret Room.
+IDS_TEXTCLIENT_INC_002229	All participants must be Lv30 or higher.
+IDS_TEXTCLIENT_INC_002230	You are not a guild member of participants for Secret Room.
+IDS_TEXTCLIENT_INC_002231	You already registered. Please register again.
+IDS_TEXTCLIENT_INC_002232	Guild master cannot be removed from the list.
+IDS_TEXTCLIENT_INC_002233	Minimum number of Secret Room participants is %d.
+IDS_TEXTCLIENT_INC_002234	You do not have participants. Please choose a participant.
+IDS_TEXTCLIENT_INC_002235	Guild master does not exist in organizing Secret Room participants.
+IDS_TEXTCLIENT_INC_002236	Would you like to organize Secret Room participants again?
+IDS_TEXTCLIENT_INC_002237	You have entered in the wrong candidate name or it does not exist. Please check again and re-enter.
+IDS_TEXTCLIENT_INC_002238	It is not a voting period.
+IDS_TEXTCLIENT_INC_002239	Only Hero/Master characters and characters higher than Lv60 have the right to vote.
+IDS_TEXTCLIENT_INC_002240	You already voted.
+IDS_TEXTCLIENT_INC_002241	[%s]Sales tax revenue
+IDS_TEXTCLIENT_INC_002242	[%s]Purchase tax revenue
+IDS_TEXTCLIENT_INC_002243	[%s]Entrance fee revenue
+IDS_TEXTCLIENT_INC_002244	\n\n! here is %d-%d-%d revenue status.
+IDS_TEXTCLIENT_INC_002245	%s total %d sales \n%d perin \n%d penya
+IDS_TEXTCLIENT_INC_002246	From now on the new tax rate will be applied.
+IDS_TEXTCLIENT_INC_002247	It is not candidate register period.
+IDS_TEXTCLIENT_INC_002248	Only the Lord can use this menu.
+IDS_TEXTCLIENT_INC_002249	Event is already running. Please set the event when it is over.
+IDS_TEXTCLIENT_INC_002250	You don’t have enough penya.
+IDS_TEXTCLIENT_INC_002251	
+IDS_TEXTCLIENT_INC_002252	The Lord's EXP and Drop Rate event has started!!
+IDS_TEXTCLIENT_INC_002253	The Lord's EXP event has started!!
+IDS_TEXTCLIENT_INC_002254	The Lord's Drop Rate event has started!!
+IDS_TEXTCLIENT_INC_002255	Lord %s has started a %2.0f%% EXP and %2.0f%% Drop Rate event for the next hour.
+IDS_TEXTCLIENT_INC_002256	Lord %s has started a %2.0f%% EXP event for the next hour.
+IDS_TEXTCLIENT_INC_002257	Lord %s has started a %2.0f%% Drop Rate event for the next hour.
+IDS_TEXTCLIENT_INC_002258	Lord
+IDS_TEXTCLIENT_INC_002259	You need 1,000,000 penya for changing a pledge. Would you like to change your pledge?
+IDS_TEXTCLIENT_INC_002260	\n, you have entered the wrong candidate name or it does not exist. Please check again and re-enter.
+IDS_TEXTCLIENT_INC_002261	You cannot use it yet.
+IDS_TEXTCLIENT_INC_002262	
+IDS_TEXTCLIENT_INC_002263	The Lord's Party Skill is active while you are Lord, and leader of a party.
+IDS_TEXTCLIENT_INC_002264	This does not fit the target.
+IDS_TEXTCLIENT_INC_002265	You cannot use it yet.
+IDS_TEXTCLIENT_INC_002266	
+IDS_TEXTCLIENT_INC_002267	You have been summoned by the Lord's decree.
+IDS_TEXTCLIENT_INC_002268	You do not have a pet summoned.
+IDS_TEXTCLIENT_INC_002269	You are not allowed to talk by the Lord's decree.
+IDS_TEXTCLIENT_INC_002270	The lord has decreed that %s shall not be allowed to talk for 60 minutes.
+IDS_TEXTCLIENT_INC_002271	The lord has decreed that you shall not be allowed to talk for 60 minutes.
+IDS_TEXTCLIENT_INC_002272	No Chat Status.
+IDS_TEXTCLIENT_INC_002273	Use these skills wisely for you represent all the people of Madrigal.
+IDS_TEXTCLIENT_INC_002274	Return application fee of Secret Room
+IDS_TEXTCLIENT_INC_002275	If you don’t qualify in rank, you get your application fee for Secret Room refunded.
+IDS_TEXTCLIENT_INC_002276	When it rains in Madrigal, EXP is up!! Up!! Up!!
+IDS_TEXTCLIENT_INC_002277	Enter Floor B1. (Monster Level 62-72)
+IDS_TEXTCLIENT_INC_002278	Enter Floor B2. (Monster Level 74-84)
+IDS_TEXTCLIENT_INC_002279	Enter Floor B3. (Monster Level 86-96)
+IDS_TEXTCLIENT_INC_002280	Enter Floor B4. (Monster Level 98-108)
+IDS_TEXTCLIENT_INC_002281	Enter Floor B5. (Monster Level 110-120)
+IDS_TEXTCLIENT_INC_002282	Enter Floor B6. (Secret Room)
+IDS_TEXTCLIENT_INC_002283	Do not Enter.
+IDS_TEXTCLIENT_INC_002284	You need to pay %d penya to enter floor B1.
+IDS_TEXTCLIENT_INC_002285	You need to pay %d penya to enter floor B2.
+IDS_TEXTCLIENT_INC_002286	You need to pay %d penya to enter floor B3.
+IDS_TEXTCLIENT_INC_002287	You need to pay %d penya to enter floor B4.
+IDS_TEXTCLIENT_INC_002288	You need to pay %d penya to enter floor B5.
+IDS_TEXTCLIENT_INC_002289	You cannot enter a private area.
+IDS_TEXTCLIENT_INC_002290	Which character do you want to summon?
+IDS_TEXTCLIENT_INC_002291	Which character do you want to teleport to?
+IDS_TEXTCLIENT_INC_002292	Write the character name in the space provided, then press \nOK button to \nsummon that character.
+IDS_TEXTCLIENT_INC_002293	Write the character name in the space provided, then press \nOK button to \nteleport to that character.
+IDS_TEXTCLIENT_INC_002294	It can only be used in weapons, shields and suits with card options through piercing.
+IDS_TEXTCLIENT_INC_002295	You need to use moonstones to remove jewels from Ultimate Weapons.
+IDS_TEXTCLIENT_INC_002296	It can be only used in ultimate weapons with jewel options.
+IDS_TEXTCLIENT_INC_002297	Select an item that you want to remove the most recent card from. 
+IDS_TEXTCLIENT_INC_002298	Select an item that you want to remove the most recent jewel from.
+IDS_TEXTCLIENT_INC_002299	Place a moonstone in this slot.
+IDS_TEXTCLIENT_INC_002300	This is the order of options that applied in ultimate weapon, the recent option starts from the bottom.
+IDS_TEXTCLIENT_INC_002301	Hidden stats are available!  Use an appropriate Scroll of Pet Awakening or Scroll of Pet Blessing to reveal them.
+IDS_TEXTCLIENT_INC_002302	The awakening has beeen successfully removed.
+IDS_TEXTCLIENT_INC_002303	This item can only be used on a pet with an awakening available.
+IDS_TEXTCLIENT_INC_002304	Success!  Hidden traits have been revealed.
+IDS_TEXTCLIENT_INC_002305	This does not fit the target.
+IDS_TEXTCLIENT_INC_002306	Remove Jewel from Ultimate Weapon
+IDS_TEXTCLIENT_INC_002307	You have used %s pet feed.
+IDS_TEXTCLIENT_INC_002308	Egg Change
+IDS_TEXTCLIENT_INC_002309	You can only use an Egg.
+IDS_TEXTCLIENT_INC_002310	You cannot use summoning items.
+IDS_TEXTCLIENT_INC_002311	Successfully transformed. Please check your inventory.
+IDS_TEXTCLIENT_INC_002312	Transformation failed.
+IDS_TEXTCLIENT_INC_002313	Forsaken Tower
+IDS_TEXTCLIENT_INC_002314	Convert Armor Piercing Cards
+IDS_TEXTCLIENT_INC_002315	Convert 10 Armor Piercing Cards into 1 higher level Card.  Remember, success is NOT GUARANTEED.  My services are, however, free of charge.  Click the desired option and press OK to begin.
+IDS_TEXTCLIENT_INC_002316	Explain2
+IDS_TEXTCLIENT_INC_002317	Explain3
+IDS_TEXTCLIENT_INC_002318	10 Volcano Card(2%) to 1 Volcano Card(3%)
+IDS_TEXTCLIENT_INC_002319	10 Volcano Card(3%) to 1 Volcano Card(4%)
+IDS_TEXTCLIENT_INC_002320	10 Volcano Card(4%) to 1 Volcano Card(7%)
+IDS_TEXTCLIENT_INC_002321	10 Ocean Card(2%) to 1 Ocean Card(3%)
+IDS_TEXTCLIENT_INC_002322	10 Ocean Card(3%) to 1 Ocean Card(4%)
+IDS_TEXTCLIENT_INC_002323	10 Ocean Card(4%) to 1 Ocean Card(7%)
+IDS_TEXTCLIENT_INC_002324	10 Lightning Card(2%) to 1 Lightning Card(3%)
+IDS_TEXTCLIENT_INC_002325	10 Lightning Card(3%) to 1 Lightning Card(4%)
+IDS_TEXTCLIENT_INC_002326	10 Lightning Card(4%) to 1 Lightning Card(7%)
+IDS_TEXTCLIENT_INC_002327	10 Vacuum Card(2%) to 1 Vacuum Card(3%)
+IDS_TEXTCLIENT_INC_002328	10 Vacuum Card(3%) to 1 Vacuum Card(4%)
+IDS_TEXTCLIENT_INC_002329	10 Vacuum Card(4%) to 1 Vacuum Card(7%)
+IDS_TEXTCLIENT_INC_002330	10 Earthquake Card(2%) to 1 Earthquake Card(3%)
+IDS_TEXTCLIENT_INC_002331	10 Earthquake Card(3%) to 1 Earthquake Card(4%)
+IDS_TEXTCLIENT_INC_002332	10 Earthquake Card(4%) to 1 Earthquake Card(7%)
+IDS_TEXTCLIENT_INC_002333	10 Volcano Card(2%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002334	You do not have enough Volcano Card(2%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002335	10 Volcano Card(3%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002336	You do not have enough Volcano Card(3%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002337	10 Volcano Card(4%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002338	You do not have enough Volcano Card(4%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002339	10 Ocean Card(2%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002340	You do not have enough Ocean Card(2%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002341	10 Ocean Card(3%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002342	You do not have enough Ocean Card(3%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002343	10 Ocean Card(4%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002344	You do not have enough Ocean Card(4%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002345	10 Lightning Card(2%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002346	You do not have enough Lightning Card(2%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002347	10 Lightning Card(3%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002348	You do not have enough Lightning Card(3%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002349	10 Lightning Card(4%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002350	You do not have enough Lightning Card(4%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002351	10 Vacuum Card(2%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002352	You do not have enough Vacuum Card(2%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002353	10 Vacuum Card(3%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002354	You do not have enough Vacuum Card(3%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002355	10 Vacuum Card(4%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002356	You do not have enough Vacuum Card(4%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002357	10 Earthquake Card(2%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002358	You do not have enough Earthquake Card(2%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002359	10 Earthquake Card(3%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002360	You do not have enough Earthquake Card(3%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002361	10 Earthquake Card(4%)'s have been converted.  
+IDS_TEXTCLIENT_INC_002362	You do not have enough Earthquake Card(4%)'s in your inventory.
+IDS_TEXTCLIENT_INC_002363	Convert Weapon Piercing Cards
+IDS_TEXTCLIENT_INC_002364	Convert 10 Weapon Piercing Cards into 1 higher level Card.  Remember, success is NOT GUARANTEED.  My services are, however, free of charge.  Click the desired option and press OK to begin.
+IDS_TEXTCLIENT_INC_002365	Explain2
+IDS_TEXTCLIENT_INC_002366	Explain3
+IDS_TEXTCLIENT_INC_002367	Convert 10 Fire Card(D) into 1 Fire Card(C)
+IDS_TEXTCLIENT_INC_002368	Convert 10 Fire Card(C) into 1 Fire Card(B)
+IDS_TEXTCLIENT_INC_002369	Convert 10 Fire Card(B) into 1 Fire Card(A)
+IDS_TEXTCLIENT_INC_002370	Convert 10 Water Card(D) into 1 Water Card(C)
+IDS_TEXTCLIENT_INC_002371	Convert 10 Water Card(C) into 1 Water Card(B)
+IDS_TEXTCLIENT_INC_002372	Convert 10 Water Card(B) into 1 Water Card(A)
+IDS_TEXTCLIENT_INC_002373	Convert 10 Electric Card(D) into 1 Electric Card(C)
+IDS_TEXTCLIENT_INC_002374	Convert 10 Electric Card(C) into 1 Electric Card(B)
+IDS_TEXTCLIENT_INC_002375	Convert 10 Electric Card(B) into 1 Electric Card(A)
+IDS_TEXTCLIENT_INC_002376	Convert 10 Wind Card(D) into 1 Wind Card(C)
+IDS_TEXTCLIENT_INC_002377	Convert 10 Wind Card(C) into 1 Wind Card(B)
+IDS_TEXTCLIENT_INC_002378	Convert 10 Wind Card(B) into 1 Wind Card(A)
+IDS_TEXTCLIENT_INC_002379	Convert 10 Land Card(D) into 1 Land Card(C)
+IDS_TEXTCLIENT_INC_002380	Convert 10 Land Card(C) into 1 Land Card(B)
+IDS_TEXTCLIENT_INC_002381	Convert 10 Land Card(B) into 1 Land Card(A)
+IDS_TEXTCLIENT_INC_002382	10 Fire Card(D)'s have been converted.  
+IDS_TEXTCLIENT_INC_002383	You do not have enough Fire Card(D)'s in your inventory.
+IDS_TEXTCLIENT_INC_002384	10 Fire Card(C)'s have been converted.  
+IDS_TEXTCLIENT_INC_002385	You do not have enough Fire Card(C)'s in your inventory.
+IDS_TEXTCLIENT_INC_002386	10 Fire Card(B)'s have been converted.  
+IDS_TEXTCLIENT_INC_002387	You do not have enough Fire Card(B)'s in your inventory.
+IDS_TEXTCLIENT_INC_002388	10 Water Card(D)'s have been converted.  
+IDS_TEXTCLIENT_INC_002389	You do not have enough Water Card(D)'s in your inventory.
+IDS_TEXTCLIENT_INC_002390	10 Water Card(C)'s have been converted.  
+IDS_TEXTCLIENT_INC_002391	You do not have enough Water Card(C)'s in your inventory.
+IDS_TEXTCLIENT_INC_002392	10 Water Card(B)'s have been converted.  
+IDS_TEXTCLIENT_INC_002393	You do not have enough Water Card(B)'s in your inventory.
+IDS_TEXTCLIENT_INC_002394	10 Electric Card(D)'s have been converted.  
+IDS_TEXTCLIENT_INC_002395	You do not have enough Electric Card(D)'s in your inventory.
+IDS_TEXTCLIENT_INC_002396	10 Electric Card(C)'s have been converted.  
+IDS_TEXTCLIENT_INC_002397	You do not have enough Electric Card(C)'s in your inventory.
+IDS_TEXTCLIENT_INC_002398	10 Electric Card(B)'s have been converted.  
+IDS_TEXTCLIENT_INC_002399	You do not have enough Electric Card(B)'s in your inventory.
+IDS_TEXTCLIENT_INC_002400	10 Wind Card(D)'s have been converted.  
+IDS_TEXTCLIENT_INC_002401	You do not have enough Wind Card(D)'s in your inventory.
+IDS_TEXTCLIENT_INC_002402	10 Wind Card(C)'s have been converted.  
+IDS_TEXTCLIENT_INC_002403	You do not have enough Wind Card(C)'s in your inventory.
+IDS_TEXTCLIENT_INC_002404	10 Wind Card(B)'s have been converted.  
+IDS_TEXTCLIENT_INC_002405	You do not have enough Wind Card(B)'s in your inventory.
+IDS_TEXTCLIENT_INC_002406	10 Sand Card(D)'s have been converted.  
+IDS_TEXTCLIENT_INC_002407	You do not have enough Land Card(D)'s in your inventory.
+IDS_TEXTCLIENT_INC_002408	10 Land Card(C)'s have been converted.  
+IDS_TEXTCLIENT_INC_002409	You do not have enough Land Card(C)'s in your inventory.
+IDS_TEXTCLIENT_INC_002410	10 Land Card(B)'s have been converted.  
+IDS_TEXTCLIENT_INC_002411	You do not have enough Land Card(B)'s in your inventory.
+IDS_TEXTCLIENT_INC_002412	Lord %s is running EXP %3.1f%%, Drop Rate %3.1f%% increase event.
+IDS_TEXTCLIENT_INC_002413	Candidate register Status
+IDS_TEXTCLIENT_INC_002414	Lord's candidate bid
+IDS_TEXTCLIENT_INC_002415	Lord's Vote
+IDS_TEXTCLIENT_INC_002416	Lord's Event
+IDS_TEXTCLIENT_INC_002417	You cannot use blinkwings in the Secret Room.
+IDS_TEXTCLIENT_INC_002418	You cannot invite guild members during a 1vs1 guild siege.
+IDS_TEXTCLIENT_INC_002419	You cannot invite guild members into the Secret Room.
+IDS_TEXTCLIENT_INC_002420	Secret Room Info.
+IDS_TEXTCLIENT_INC_002421	Unoccupied
+IDS_TEXTCLIENT_INC_002422	No GM guild exist for apply.
+IDS_TEXTCLIENT_INC_002423	Only the occupying guild can enter the hunting area.
+IDS_TEXTCLIENT_INC_002424	Only members of the guild which occupies the western area can enter.
+IDS_TEXTCLIENT_INC_002425	%s got elected and will be lord for the next 2 weeks.
+IDS_TEXTCLIENT_INC_002426	There will be no lord for the next 2 weeks, since this vote is not valid.
+IDS_TEXTCLIENT_INC_002427	Unable to reset your stats since you already have basic stats.
+IDS_TEXTCLIENT_INC_002428	Before tax price : %s
+IDS_TEXTCLIENT_INC_002429	You are too far away from the target.
+IDS_TEXTCLIENT_INC_002430	Unable to teleport or summon.
+IDS_TEXTCLIENT_INC_002431	Unable to use teleport or summon magic casting target.
+IDS_TEXTCLIENT_INC_002432	Lord candidacy period
+IDS_TEXTCLIENT_INC_002433	Voting Period
+IDS_TEXTCLIENT_INC_002434	Lord exists
+IDS_TEXTCLIENT_INC_002435	Lord does not exist
+IDS_TEXTCLIENT_INC_002436	You have voted for %s.
+IDS_TEXTCLIENT_INC_002437	Lord Info.
+IDS_TEXTCLIENT_INC_002438	Return money info.
+IDS_TEXTCLIENT_INC_002439	Satisfied
+IDS_TEXTCLIENT_INC_002440	Not satisfied
+IDS_TEXTCLIENT_INC_002441	It is currently processing. Please wait.
+IDS_TEXTCLIENT_INC_002442	You need at least 10,000,000 penya for an additional bid.
+IDS_TEXTCLIENT_INC_002443	Cancel secret room application
+IDS_TEXTCLIENT_INC_002444	20% of money will be charged if you cancel. Do you want to cancel the secret room?
+IDS_TEXTCLIENT_INC_002445	Lord candidacy start
+IDS_TEXTCLIENT_INC_002446	Lord candidate confirmed
+IDS_TEXTCLIENT_INC_002447	Vote start
+IDS_TEXTCLIENT_INC_002448	Vote end
+IDS_TEXTCLIENT_INC_002449	%s became a lord.
+IDS_TEXTCLIENT_INC_002450	Attack power and HP increase
+IDS_TEXTCLIENT_INC_002451	Defense power and accuracy decrease
+IDS_TEXTCLIENT_INC_002452	This monster was summoned by %s. You cannot attack it.
+IDS_TEXTCLIENT_INC_002453	You cannot summon anymore monsters. Please wait and try again.
+IDS_TEXTCLIENT_INC_002454	Remove a Pick-up Pet Blessing
+IDS_TEXTCLIENT_INC_002455	This can only be used on a blessed pet.
+IDS_TEXTCLIENT_INC_002456	Hi there! My name is Fashion King, the fasion designer. I'm making special clothes and I need some materials.
+IDS_TEXTCLIENT_INC_002457	In order to purchase materials, I need fashion coupons. Can you bring me 2 to 4 fashion coupons to me, then I will give you reward items.
+IDS_TEXTCLIENT_INC_002458	2 Fashion coupons → 1 Upcut Stone 
+IDS_TEXTCLIENT_INC_002459	Successfully exchanged 2 fashion coupons with 1 upcut stone.
+IDS_TEXTCLIENT_INC_002460	You don't have enough fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002461	3 Fashion coupons → 1 Event Wind Hair(M) Brown
+IDS_TEXTCLIENT_INC_002462	Successfully exchanged 3 fashion coupons with 1 Event Wind Hair(M) Brown.
+IDS_TEXTCLIENT_INC_002463	You don't have 3 fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002464	3 Fashion coupons → 1 Event Wind Hair(M) Silver
+IDS_TEXTCLIENT_INC_002465	Successfully exchanged 3 fashion coupons with 1 Event Wind Hair(M) Silver.
+IDS_TEXTCLIENT_INC_002466	You don't have 3 fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002467	3 Fashion coupons → 1 Event Wind Hair(M) Blue
+IDS_TEXTCLIENT_INC_002468	Successfully exchanged 3 fashion coupons with 1 Event Wind Hair(M) Blue.
+IDS_TEXTCLIENT_INC_002469	You don't have 3 fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002470	3 Fashion coupons → 1 Event Sensate Hair(F) Black
+IDS_TEXTCLIENT_INC_002471	Successfully exchanged 3 fashion coupons with 1 Event Sensate Hair(F) Black.
+IDS_TEXTCLIENT_INC_002472	You don't have 3 fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002473	3 Fashion coupons → 1 Event Sensate Hair(F) Blue
+IDS_TEXTCLIENT_INC_002474	Successfully exchanged 3 fashion coupons with 1 Event Sensate Hair(F) Blue.
+IDS_TEXTCLIENT_INC_002475	You don't have 3 fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002476	3 Fashion coupons → 1 Event Sensate Hair(F) Brown
+IDS_TEXTCLIENT_INC_002477	Successfully exchanged 3 fashion coupons with 1 Event Sensate Hair(F) Brown.
+IDS_TEXTCLIENT_INC_002478	You don't have 3 fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002479	4 Fashion coupons → 1 Event Caveman Set(M)
+IDS_TEXTCLIENT_INC_002480	Successfully exchanged 4 fashion coupons with 1 Event Caveman Set(M).
+IDS_TEXTCLIENT_INC_002481	You don't have 4 fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002482	4 Fashion coupons → 1 Event Caveman Set(F)
+IDS_TEXTCLIENT_INC_002483	Successfully exchanged 4 fashion coupons with 1 Event Caveman Set(F).
+IDS_TEXTCLIENT_INC_002484	You don't have 4 fashion coupons to exchange.
+IDS_TEXTCLIENT_INC_002485	Fashion Coupon Event
+IDS_TEXTCLIENT_INC_002486	Middle Boss
+IDS_TEXTCLIENT_INC_002487	Final Boss
+IDS_TEXTCLIENT_INC_002488	Win the victory
+IDS_TEXTCLIENT_INC_002489	Losing
+IDS_TEXTCLIENT_INC_002490	You have received %s x%s.
+IDS_TEXTCLIENT_INC_002491	In order to exchange items, you need %s x%s.
+IDS_TEXTCLIENT_INC_002492	Exchange Event Cards
+IDS_TEXTCLIENT_INC_002493	Alphabet Cards will drop randomly from all monsters above level 10. Collect the letters and bring them to me for a reward!
+IDS_TEXTCLIENT_INC_002494	F card + L card + Y card -> FLY(+15% Movement speed) 
+IDS_TEXTCLIENT_INC_002495	F card + O card + R card -> FOR(+150 Defense) 
+IDS_TEXTCLIENT_INC_002496	F card + U card + N card -> FUN(+200 Attack)
+IDS_TEXTCLIENT_INC_002497	Remove the awakening on a Pick-up Pet
+IDS_TEXTCLIENT_INC_002498	Place a Pick-up Pet with an existing blessing in the slot and try again.
+IDS_TEXTCLIENT_INC_002499	Character
+IDS_TEXTCLIENT_INC_002500	Fame/Master
+IDS_TEXTCLIENT_INC_002501	Booty
+IDS_TEXTCLIENT_INC_002502	None
+IDS_TEXTCLIENT_INC_002503	Apply for the Rainbow Race
+IDS_TEXTCLIENT_INC_002504	What is the Rainbow Race?
+IDS_TEXTCLIENT_INC_002505	Rainbow Race Rules
+IDS_TEXTCLIENT_INC_002506	Previous Rainbow Race Rankings
+IDS_TEXTCLIENT_INC_002507	Rainbow Race Reward Information
+IDS_TEXTCLIENT_INC_002508	Confirm Completion of the Rainbow Race
+IDS_TEXTCLIENT_INC_002509	Rock-Paper-Scissors
+IDS_TEXTCLIENT_INC_002510	Lucky Roller
+IDS_TEXTCLIENT_INC_002511	Anything but Math!
+IDS_TEXTCLIENT_INC_002512	Stopwatch!
+IDS_TEXTCLIENT_INC_002513	Typo!
+IDS_TEXTCLIENT_INC_002514	FlyFF Concentration
+IDS_TEXTCLIENT_INC_002515	Drop the Ball!
+IDS_TEXTCLIENT_INC_002516	Applications for the Rainbow Race will be accepted until 2PM PST.
+IDS_TEXTCLIENT_INC_002517	The Rainbow Race begins in 30 minutes!
+IDS_TEXTCLIENT_INC_002518	The Rainbow Race begins in 10 minutes!
+IDS_TEXTCLIENT_INC_002519	The Rainbow Race is about to begin! Get ready!
+IDS_TEXTCLIENT_INC_002520	On your mark, get set, GO!!
+IDS_TEXTCLIENT_INC_002521	The Rainbow Race is over!
+IDS_TEXTCLIENT_INC_002522	The winner is %s!  Congratulations on First Place!
+IDS_TEXTCLIENT_INC_002523	Congratulations. You are the winner of %s! 
+IDS_TEXTCLIENT_INC_002524	Current Applicants: %d
+IDS_TEXTCLIENT_INC_002525	That is not the correct answer!
+IDS_TEXTCLIENT_INC_002526	Times up!  Move on to the next question.
+IDS_TEXTCLIENT_INC_002527	You cannot apply for the Rainbow Race right now.
+IDS_TEXTCLIENT_INC_002528	Your application for the Rainbow Race has already been accepted.
+IDS_TEXTCLIENT_INC_002529	Rainbow Race application submitted.
+IDS_TEXTCLIENT_INC_002530	Thank you for participating in the Rainbow Race!  Your rank is %d!
+IDS_TEXTCLIENT_INC_002531	You have already finished the Rainbow Race.
+IDS_TEXTCLIENT_INC_002532	Are you sure the race is in progress?  If it is, click the 'RR' symbol to find out where you need to be!
+IDS_TEXTCLIENT_INC_002533	You are at the wrong Spirit of Rainbow.  Click the 'RR' symbol to find out where you need to be.
+IDS_TEXTCLIENT_INC_002534	Finalist!
+IDS_TEXTCLIENT_INC_002535	Here are your winnings for Rank %d in the Rainbow Race!  Congratulations!
+IDS_TEXTCLIENT_INC_002536	Reward: %d Penya
+IDS_TEXTCLIENT_INC_002537	Prize: %s %d
+IDS_TEXTCLIENT_INC_002538	You must summon a pet before you can perform that action.
+IDS_TEXTCLIENT_INC_002539	That is not a valid name.
+IDS_TEXTCLIENT_INC_002540	You have successfully changed your pet's name!
+IDS_TEXTCLIENT_INC_002541	To promote fair play, this is not allowed during the Rainbow Race.
+IDS_TEXTCLIENT_INC_002542	You have failed!
+IDS_TEXTCLIENT_INC_002543	Cancel Pet Name Change
+IDS_TEXTCLIENT_INC_002544	Housing
+IDS_TEXTCLIENT_INC_002545	Furniture
+IDS_TEXTCLIENT_INC_002546	Wallpaper
+IDS_TEXTCLIENT_INC_002547	Floor mat
+IDS_TEXTCLIENT_INC_002548	%d day(s) %d hour(s)
+IDS_TEXTCLIENT_INC_002549	Less than an hour
+IDS_TEXTCLIENT_INC_002550	Unable to locate %s.
+IDS_TEXTCLIENT_INC_002551	Unable to propose.  You and the target player must not currently be in a couple and the target player must be of the opposite gender.
+IDS_TEXTCLIENT_INC_002552	You need to be proposed to first.
+IDS_TEXTCLIENT_INC_002553	Your proposal has been rejected.
+IDS_TEXTCLIENT_INC_002554	You refused %s's proposal.
+IDS_TEXTCLIENT_INC_002555	It is not a couple
+IDS_TEXTCLIENT_INC_002556	%s has proposed to you.
+IDS_TEXTCLIENT_INC_002557	You've proposed to %s.
+IDS_TEXTCLIENT_INC_002558	You and %s are now a couple!
+IDS_TEXTCLIENT_INC_002559	Your couple has broken up.
+IDS_TEXTCLIENT_INC_002560	You've completed the race!  Please return to the Rainbow Race Officer.
+IDS_TEXTCLIENT_INC_002561	Unable to propose.  You and the target player must not currently be in a couple and the target player must be of the opposite gender.
+IDS_TEXTCLIENT_INC_002562	Database Error
+IDS_TEXTCLIENT_INC_002563	System Error
+IDS_TEXTCLIENT_INC_002564	Unable to propose.  You must wait %d day(s) %d hour(s) and %d minute(s).
+IDS_TEXTCLIENT_INC_002565	You must target another player before proposing.
+IDS_TEXTCLIENT_INC_002566	Would you like to propose to %s?
+IDS_TEXTCLIENT_INC_002567	%s has proposed to you. Would you like to make a couple?
+IDS_TEXTCLIENT_INC_002568	Are you certain you would like to break up with %s?
+IDS_TEXTCLIENT_INC_002569	Couple
+IDS_TEXTCLIENT_INC_002570	Couple Information
+IDS_TEXTCLIENT_INC_002571	Couple Skills
+IDS_TEXTCLIENT_INC_002572	The NPC for this quest is in another area.  Location unkown.
+IDS_TEXTCLIENT_INC_002573	%s has been added to your Housing Menu. Press the Y Key to access it.
+IDS_TEXTCLIENT_INC_002574	You are already using this item.
+IDS_TEXTCLIENT_INC_002575	%s has been placed in your house.
+IDS_TEXTCLIENT_INC_002576	You can't place that there.
+IDS_TEXTCLIENT_INC_002577	You cannot place more than one of that particular item in here.
+IDS_TEXTCLIENT_INC_002578	%s has been removed from your house.
+IDS_TEXTCLIENT_INC_002579	You cannot drop that item.
+IDS_TEXTCLIENT_INC_002580	%s has expired.
+IDS_TEXTCLIENT_INC_002581	You have allowed %s to enter your house.
+IDS_TEXTCLIENT_INC_002582	You removed %s from your house entry list.
+IDS_TEXTCLIENT_INC_002583	Maximum number of items allowed is 99.
+IDS_TEXTCLIENT_INC_002584	Bed
+IDS_TEXTCLIENT_INC_002585	Sofa
+IDS_TEXTCLIENT_INC_002586	Wardrobe
+IDS_TEXTCLIENT_INC_002587	Dresser
+IDS_TEXTCLIENT_INC_002588	Table
+IDS_TEXTCLIENT_INC_002589	Drawer
+IDS_TEXTCLIENT_INC_002590	Accessory
+IDS_TEXTCLIENT_INC_002591	Wallpaper
+IDS_TEXTCLIENT_INC_002592	Floor mat
+IDS_TEXTCLIENT_INC_002593	Rewards for Race Completion.
+IDS_TEXTCLIENT_INC_002594	Exchange event item
+IDS_TEXTCLIENT_INC_002595	Welcome to world of FlyFF.  We are hosting a Rock-Paper-Scissors event for customer appreciation. You can exchange 2 Shining Oricalkums for a Rock-Paper-Scissors coupon.
+IDS_TEXTCLIENT_INC_002596	 2 Shining Oricalkum -> 1 Rock-Paper-Scissors coupon
+IDS_TEXTCLIENT_INC_002597	No fame obtained.
+IDS_TEXTCLIENT_INC_002598	No Title
+IDS_TEXTCLIENT_INC_002599	Congratulations!  You have earned the title: %s!
+IDS_TEXTCLIENT_INC_002600	Exit House
+IDS_TEXTCLIENT_INC_002601	Enter Friend's House
+IDS_TEXTCLIENT_INC_002602	Enter House
+IDS_TEXTCLIENT_INC_002603	House Entry Permissions
+IDS_TEXTCLIENT_INC_002604	Cancel Entry Permissions
+IDS_TEXTCLIENT_INC_002605	Couple Item
+IDS_TEXTCLIENT_INC_002606	Here is your reward for reaching Couple Level %d!
+IDS_TEXTCLIENT_INC_002607	Your couple has reached level %d!
+IDS_TEXTCLIENT_INC_002608	Place an item here to change it's elemental attribute.
+IDS_TEXTCLIENT_INC_002609	Change to Fire Element 
+IDS_TEXTCLIENT_INC_002610	Change to Water Element
+IDS_TEXTCLIENT_INC_002611	Change to Electric Element
+IDS_TEXTCLIENT_INC_002612	Change to Wind Element
+IDS_TEXTCLIENT_INC_002613	Change to Earth Element
+IDS_TEXTCLIENT_INC_002614	%s's House
+IDS_TEXTCLIENT_INC_002615	Please select a new element.
+IDS_TEXTCLIENT_INC_002616	Exchange for Restat Coupon
+IDS_TEXTCLIENT_INC_002617	Do you have a Stat redistribution coupon? Then change with restat that you want to have. 10,000,000 Penya will be needed.
+IDS_TEXTCLIENT_INC_002618	Stat redistribution coupon + 10,000,000 Penya → Restat(STR)
+IDS_TEXTCLIENT_INC_002619	Stat redistribution coupon + 10,000,000 Penya → Restat(DEX)
+IDS_TEXTCLIENT_INC_002620	Stat redistribution coupon + 10,000,000 Penya → Restat(STA)
+IDS_TEXTCLIENT_INC_002621	Stat redistribution coupon + 10,000,000 Penya → Restat(INT)
+IDS_TEXTCLIENT_INC_002622	Item Transy
+IDS_TEXTCLIENT_INC_002623	%dYR %dMON %dDD - %02d:%02d:%02d
+IDS_TEXTCLIENT_INC_002624	Only the current regional occupied guild can use this.
+IDS_TEXTCLIENT_INC_002625	You have to wait 2 days before joining another guild.
+IDS_TEXTCLIENT_INC_002626	You have to wait 2 days before joining another guild.
+IDS_TEXTCLIENT_INC_002627	Would you like to use %s?
+IDS_TEXTCLIENT_INC_002628	%s has been used, Funny Cash has been topped up.
+IDS_TEXTCLIENT_INC_002629	Buddy Buddy users can't use Funny Cash.
+IDS_TEXTCLIENT_INC_002630	New Semester Event
+IDS_TEXTCLIENT_INC_002631	Bring 10 school supplies for 1 backpack from Yellow, Blue and Red color. Only 15LV or higher monsters drop the school supply.
+IDS_TEXTCLIENT_INC_002632	Trade 10 scholl supplies for 1 backpack
+IDS_TEXTCLIENT_INC_002633	Exchange for Cherry blossom box
+IDS_TEXTCLIENT_INC_002634	I will give you 1 cherry blossom box, when you bring me 3 cherry blossom seeds during event period.
+IDS_TEXTCLIENT_INC_002635	3 cherry blossom seeds → 1 cherry blossom box
+IDS_TEXTCLIENT_INC_002636	Exchange for Treasure Box
+IDS_TEXTCLIENT_INC_002637	I will give you 1 treasure box, when you bring me 1 Map piece(A) and 1 Map piece(B) during event period.
+IDS_TEXTCLIENT_INC_002638	1 Map piece(A) + 1 Map piece(B) → 1 Treasure box
+IDS_TEXTCLIENT_INC_002639	%dH %dM %dS
+IDS_TEXTCLIENT_INC_002640	EXP : %.0f%%
+IDS_TEXTCLIENT_INC_002641	Drop rate : %.0f%%
+IDS_TEXTCLIENT_INC_002642	Safe Upgrade (Normal)
+IDS_TEXTCLIENT_INC_002643	Safe Upgrade (accessory)
+IDS_TEXTCLIENT_INC_002644	Safe Upgrade (Piercing)
+IDS_TEXTCLIENT_INC_002645	Cannot use the item inside of Portable Bag
+IDS_TEXTCLIENT_INC_002646	Item can be destroyed if upgrading fails. Recommend to use "Scroll of Sprotect". Will you proceed with upgarding?
+IDS_TEXTCLIENT_INC_002647	Item can be destroyed if upgrading fails. Recommend to use "Scroll of XProtect". Will you proceed with upgarding?
+IDS_TEXTCLIENT_INC_002648	Item can be destroyed if upgrading fails. Recommend to use "Scroll of AProtect". Will you proceed with upgarding?
+IDS_TEXTCLIENT_INC_002649	Exchange Water of Love
+IDS_TEXTCLIENT_INC_002650	If you bring me Water of Love then I will exchance it to  Flowerpot of Love or Flowerpot of Sprout or Flowerpot of Grace accordign to the number of Water of Love you have.
+IDS_TEXTCLIENT_INC_002651	50 Pcs of  Water of Love → 1 Flowerpot of Love
+IDS_TEXTCLIENT_INC_002652	100 Water of Love → 1 Flowerpot of Sprout
+IDS_TEXTCLIENT_INC_002653	150 Water of Love → 1 Flowerpot of Grace
+IDS_TEXTCLIENT_INC_002654	~Current Value~
+IDS_TEXTCLIENT_INC_002655	Upgrade Goal
+IDS_TEXTCLIENT_INC_002656	~Piercings~
+IDS_TEXTCLIENT_INC_002657	Piercing Goal
+IDS_TEXTCLIENT_INC_002658	Cherry Blossom Box Exchange
+IDS_TEXTCLIENT_INC_002659	You will get a Cherry Blossom Box if you give me 3 cherry blossom Seeds during the event period.
+IDS_TEXTCLIENT_INC_002660	3 cherry blossom Seeds  → Cherry Blossom Box
+IDS_TEXTCLIENT_INC_002661	Your skill has already been reset.
+IDS_TEXTCLIENT_INC_002662	Please select the item that you would like to upgrade safely.
+IDS_TEXTCLIENT_INC_002663	You cannot upgrade this item.
+IDS_TEXTCLIENT_INC_002664	Piercing is not allowed on this item.
+IDS_TEXTCLIENT_INC_002665	You can't use this while a transy is in use.
+IDS_TEXTCLIENT_INC_002666	Success
+IDS_TEXTCLIENT_INC_002667	Failure
+IDS_TEXTCLIENT_INC_002668	Missing reagent: Sunstone.
+IDS_TEXTCLIENT_INC_002669	Missing Reagent: Shining Oricalkum.
+IDS_TEXTCLIENT_INC_002670	Missing Reagent: Moonstone.
+IDS_TEXTCLIENT_INC_002671	You cannot place that item there.
+IDS_TEXTCLIENT_INC_002672	Please place the item that you wish to upgrade in the box at the top of the Safe Upgrading Menu.
+IDS_TEXTCLIENT_INC_002673	In order to proceed, make sure you've placed both a Sunstone and a Scroll of SProtect into the Safe Upgrading Menu.
+IDS_TEXTCLIENT_INC_002674	In order to proceed, make sure you've placed both a Shining Oricalkum and a Scroll of XProtect into the Safe Upgrading Menu.
+IDS_TEXTCLIENT_INC_002675	In order to proceed, make sure you've placed both a Moonstone and a Scroll of AProtect into the Safe Upgrading Menu.
+IDS_TEXTCLIENT_INC_002676	In order to proceed, make sure you've placed both a Moonstone and a Scroll of GProtect into the Safe Upgrading Menu.
+IDS_TEXTCLIENT_INC_002677	You cannot do that during the Safe Upgrading process.
+IDS_TEXTCLIENT_INC_002678	That item has reached the maximum upgrade value.  Please place a new item and try again.
+IDS_TEXTCLIENT_INC_002679	Rock-Paper-Scissors Coupon
+IDS_TEXTCLIENT_INC_002680	I will exchange 5 Event Coupons and 100,000 Penya for 1 Rock-Paper-Scissors Coupon.  If you give the coupon to the Naughty Demian over there, he will play Rock-Paper-Scissors with you.  \nPressing OK below will deduct the penya and Event Coupons automatically.
+IDS_TEXTCLIENT_INC_002681	Click here and press OK to exchange
+IDS_TEXTCLIENT_INC_002682	홍콩, 대만 가위바위보 쿠폰 교환
+IDS_TEXTCLIENT_INC_002683	호박 5개와 10만페냐를 가지고 오시면 가위바위보 쿠폰으로 교환해 드립니다.
+IDS_TEXTCLIENT_INC_002684	호박 5개 + 10만페냐 → 가위바위보 쿠폰 1개
+IDS_TEXTCLIENT_INC_002685	You don't meet the condition of upgrading.
+IDS_TEXTCLIENT_INC_002686	You cannot use Blinkwings here.
+IDS_TEXTCLIENT_INC_002687	This item will be soul-linked once equipped.
+IDS_TEXTCLIENT_INC_002688	Soul-linked.
+IDS_TEXTCLIENT_INC_002689	This item will become soul-linked to you and no longer be tradeable.  Proceed?
+IDS_TEXTCLIENT_INC_002690	You must choose to soul-link this item.
+IDS_TEXTCLIENT_INC_002691	You must be between level %s ~ %s in order to enter this dungeon.
+IDS_TEXTCLIENT_INC_002692	You may not enter this dungeon.  Some dungeons only allow Master or Non-Master players.
+IDS_TEXTCLIENT_INC_002693	You may re-enter this dungeon in %s minutes and %s secounds.
+IDS_TEXTCLIENT_INC_002694	This instanced Dungeon has been created in another channel already.
+IDS_TEXTCLIENT_INC_002695	You must be in a party to enter this dungeon.
+IDS_TEXTCLIENT_INC_002696	Instanced Dungeons are full on this channel.  Please try another channel.
+IDS_TEXTCLIENT_INC_002697	Shaduwar
+IDS_TEXTCLIENT_INC_002698	Please click the Rest Button to continue upgrading.
+IDS_TEXTCLIENT_INC_002699	Safe Upgrade
+IDS_TEXTCLIENT_INC_002700	Safe Accessory Upgrade
+IDS_TEXTCLIENT_INC_002701	Safe Piercing
+IDS_TEXTCLIENT_INC_002702	Required Job: Master Knight
+IDS_TEXTCLIENT_INC_002703	Required Job: Master Blade
+IDS_TEXTCLIENT_INC_002704	Required Job: Master Jester
+IDS_TEXTCLIENT_INC_002705	Required Job: Master Ranger
+IDS_TEXTCLIENT_INC_002706	Required Job: Master Ringmaster
+IDS_TEXTCLIENT_INC_002707	Required Job: Master Billposter
+IDS_TEXTCLIENT_INC_002708	Required Job: Master Psykeeper
+IDS_TEXTCLIENT_INC_002709	Required Job: Master Elementor
+IDS_TEXTCLIENT_INC_002710	Required Job: Hero Knight
+IDS_TEXTCLIENT_INC_002711	Required Job: Hero Blade
+IDS_TEXTCLIENT_INC_002712	Required Job: Hero Jester
+IDS_TEXTCLIENT_INC_002713	Required Job: Hero Ranger
+IDS_TEXTCLIENT_INC_002714	Required Job: Hero Ringmaster
+IDS_TEXTCLIENT_INC_002715	Required Job: Hero Billposter
+IDS_TEXTCLIENT_INC_002716	Required Job: Hero Psykeeper
+IDS_TEXTCLIENT_INC_002717	Required Job: Hero Elementor
+IDS_TEXTCLIENT_INC_002718	All character stats will be reset.  Continue?
+IDS_TEXTCLIENT_INC_002719	Your Strength (STR) stat will be reset and the points will be refunded to you.  Continue?
+IDS_TEXTCLIENT_INC_002720	Your Stamina (STA) stat will be reset and the points will be refunded to you.  Continue?
+IDS_TEXTCLIENT_INC_002721	Your Dexterity (DEX) stat will be reset and the points will be refunded to you.  Continue?
+IDS_TEXTCLIENT_INC_002722	Your Intellect (INT) stat will be reset and the points will be refunded to you.  Continue?
+IDS_TEXTCLIENT_INC_002723	This item is not effective at a +10 or higher elemental upgrade. Continue anyway?
+IDS_TEXTCLIENT_INC_002724	Please decide whether or not you want to use this item.
+IDS_TEXTCLIENT_INC_002725	You can't do that right now, silly.
+IDS_TEXTCLIENT_INC_002726	Quiz event begins in %s channel after %d minute(s).
+IDS_TEXTCLIENT_INC_002727	Please speak with Ete in Flaris to enter quiz event.
+IDS_TEXTCLIENT_INC_002728	Waiting area in %s channel is opened. New quiz will start after %d minutes.
+IDS_TEXTCLIENT_INC_002729	If you want to join quiz event, please speak with Ete to enter.
+IDS_TEXTCLIENT_INC_002730	Quiz event is not in schedule.
+IDS_TEXTCLIENT_INC_002731	Questions
+IDS_TEXTCLIENT_INC_002732	The answer is %c.
+IDS_TEXTCLIENT_INC_002733	Failed
+IDS_TEXTCLIENT_INC_002734	The quiz event in %s channel  ends. Thank you.
+IDS_TEXTCLIENT_INC_002735	Waiting area for quiz event is open.
+IDS_TEXTCLIENT_INC_002736	Please speak with Tong to move to quiz event area.
+IDS_TEXTCLIENT_INC_002737	We have %d winner(s).
+IDS_TEXTCLIENT_INC_002738	You are not allowed to use during this event.
+IDS_TEXTCLIENT_INC_002739	Quiz will start soon.
+IDS_TEXTCLIENT_INC_002740	You've finished No. %d.
+IDS_TEXTCLIENT_INC_002741	The answer is %d.
+IDS_TEXTCLIENT_INC_002742	Rewards for quiz event
+IDS_TEXTCLIENT_INC_002743	Conglatulation
+IDS_TEXTCLIENT_INC_002744	Enter quiz event
+IDS_TEXTCLIENT_INC_002745	Join quiz event
+IDS_TEXTCLIENT_INC_002746	Teleport to town
+IDS_TEXTCLIENT_INC_002747	Exchange coupon
+IDS_TEXTCLIENT_INC_002748	You can obtain one of five Delicous Macaron with Exchange Coupon.
+IDS_TEXTCLIENT_INC_002749	5 Exchange coupons → 1 Delicious Macaron
+IDS_TEXTCLIENT_INC_002750	Toggle Buff Pet Status
+IDS_TEXTCLIENT_INC_002751	Store Buff Pet
+IDS_TEXTCLIENT_INC_002752	Your Buff Pet is not currently summoned.
+IDS_TEXTCLIENT_INC_002753	You cannot equip that bead.  Please make sure you have a free Bead Slot on your Buff Pet or unlock a Bead Slot.
+IDS_TEXTCLIENT_INC_002754	You cannot have 2 of the same beads equipped.
+IDS_TEXTCLIENT_INC_002755	Requirements not met for this bead.  Please make sure you have the required beads equipped.
+IDS_TEXTCLIENT_INC_002756	The %s has been deleted.
+IDS_TEXTCLIENT_INC_002757	The %s has expired.  That Bead Slot is now free.
+IDS_TEXTCLIENT_INC_002758	Your Buff Pet is not currently summoned.
+IDS_TEXTCLIENT_INC_002759	The Bead Slot on your Buff Pet has been reset.
+IDS_TEXTCLIENT_INC_002760	The %s is missing a required bead in order to function.  Check your Pet Beads!
+IDS_TEXTCLIENT_INC_002761	You cannot move right now.
+IDS_TEXTCLIENT_INC_002762	Do you want to enter quiz event?
+IDS_TEXTCLIENT_INC_002763	Do you want to leave quiz event?
+IDS_TEXTCLIENT_INC_002764	Would you like to offer %s your services as a Mentor?
+IDS_TEXTCLIENT_INC_002765	You offered %s your services as a Mentor.
+IDS_TEXTCLIENT_INC_002766	%s does not meet the requirements to become a Mentor.
+IDS_TEXTCLIENT_INC_002767	%s cannot take anymore Pupils.
+IDS_TEXTCLIENT_INC_002768	%s would like to be your Mentor.  Do you accept?
+IDS_TEXTCLIENT_INC_002769	Congratulations %s!  You are now a Mentor.
+IDS_TEXTCLIENT_INC_002770	Would you like to ask %s to be your Mentor?
+IDS_TEXTCLIENT_INC_002771	You have asked %s to be your Mentor.
+IDS_TEXTCLIENT_INC_002772	%s has requested you as a Mentor.  Do you accept?
+IDS_TEXTCLIENT_INC_002773	Congratulations %s!  You are now a Pupil.
+IDS_TEXTCLIENT_INC_002774	You have not met the requirements to create a Mentor-Pupil Bond with that character
+IDS_TEXTCLIENT_INC_002775	%s is already in a Mentor relationship.
+IDS_TEXTCLIENT_INC_002776	%s has rejected you.  
+IDS_TEXTCLIENT_INC_002777	Are you sure you want to terminate the Mentor/Pupil relationship with %s?
+IDS_TEXTCLIENT_INC_002778	You've terminated the Mentor/Pupil relationship with %s.
+IDS_TEXTCLIENT_INC_002779	You can have a Mentor and Pupil relationship when you’re Mentor Points are at zero.
+IDS_TEXTCLIENT_INC_002780	The other player must have zero Mentor Points in order to form a Mentor/Pupil relationship.
+IDS_TEXTCLIENT_INC_002781	Furniture Info
+IDS_TEXTCLIENT_INC_002782	Reinstall
+IDS_TEXTCLIENT_INC_002783	Remove
+IDS_TEXTCLIENT_INC_002784	Teleport
+IDS_TEXTCLIENT_INC_002785	You cannot use a Trans inside of an instanced dungeon. 
+IDS_TEXTCLIENT_INC_002786	You cannot enter an instanced dungeon while you are using a Trans.
+IDS_TEXTCLIENT_INC_002787	Purchase Guild House
+IDS_TEXTCLIENT_INC_002788	Would you like to place the %s into your Buff Pet?
+IDS_TEXTCLIENT_INC_002789	Delete the %s? 
+IDS_TEXTCLIENT_INC_002790	Required Bead: 
+IDS_TEXTCLIENT_INC_002791	Your guild must be level %s or higher in order to purchase.
+IDS_TEXTCLIENT_INC_002792	You must have %s or more Guild members in order to purchase a Guild House.
+IDS_TEXTCLIENT_INC_002793	Only Guild Masters can purchase Guild Housing.
+IDS_TEXTCLIENT_INC_002794	You don't have enough penya, scrub!
+IDS_TEXTCLIENT_INC_002795	You already own a Guild House.
+IDS_TEXTCLIENT_INC_002796	You don't own a Guild House.
+IDS_TEXTCLIENT_INC_002797	You cannot place any more furniture.
+IDS_TEXTCLIENT_INC_002798	You already have a Teleporter!
+IDS_TEXTCLIENT_INC_002799	You can only install %s of the same type of furniture.
+IDS_TEXTCLIENT_INC_002800	You do not have permission to place or remove furniture.
+IDS_TEXTCLIENT_INC_002801	You can't place or remove furniture in this channel.
+IDS_TEXTCLIENT_INC_002802	You can only pay up to %s days worth of maintenance in advance.
+IDS_TEXTCLIENT_INC_002803	You do not have permission to pay maintenance fees.
+IDS_TEXTCLIENT_INC_002804	Your Guild House has %d hour(s) remaining.
+IDS_TEXTCLIENT_INC_002805	Guild Furniture Storage
+IDS_TEXTCLIENT_INC_002806	Teleporter Storage
+IDS_TEXTCLIENT_INC_002807	You cannot move that Quest Item to your Extra Bag.
+IDS_TEXTCLIENT_INC_002808	Pay Maintenance Fee
+IDS_TEXTCLIENT_INC_002809	Bubble Time!
+IDS_TEXTCLIENT_INC_002810	Your Guild House has expired.
+IDS_TEXTCLIENT_INC_002811	You've purchased a guild house!
+IDS_TEXTCLIENT_INC_002812	Enter your Guild House
+IDS_TEXTCLIENT_INC_002813	Exit Your Guild House
+IDS_TEXTCLIENT_INC_002814	Please, try again later!
+IDS_TEXTCLIENT_INC_002815	This Furniture is Rank %s, so it can't be placed in a smaller Guild House.
+IDS_TEXTCLIENT_INC_002816	%s has been placed in your Guild House.
+IDS_TEXTCLIENT_INC_002817	%s has been removed from your Guild House.
+IDS_TEXTCLIENT_INC_002818	%s has once again been placed in your Guild House.
+IDS_TEXTCLIENT_INC_002819	Bubble Time: Increases experience gain from killing Masquerpets.
+IDS_TEXTCLIENT_INC_002820	Furniture has been placed in your Guild House.
+IDS_TEXTCLIENT_INC_002821	Furniture has been removed from your Guild House.
+IDS_TEXTCLIENT_INC_002822	Would you like to unlock %s's Bead Slot?
+IDS_TEXTCLIENT_INC_002823	MERRY CHRISTMAS!
+IDS_TEXTCLIENT_INC_002824	Thank you very much for helping to make this a special Christmas!  I will exchange your Holiday Medals for Christmas Presents!
+IDS_TEXTCLIENT_INC_002825	5x Holiday Medals = 1x Rudolf Set (M) (7 days)
+IDS_TEXTCLIENT_INC_002826	5x Holiday Medals = 1x Rudolf Set (F) (7 days)
+IDS_TEXTCLIENT_INC_002827	5x Holiday Medals = 1x Santa Set (M) (7 days)
+IDS_TEXTCLIENT_INC_002828	5x Holiday Medals = 1x Santa Set (F) (7 days)
+IDS_TEXTCLIENT_INC_002829	1x Holiday Medal = 2x Christmas Cakes
+IDS_TEXTCLIENT_INC_002830	1x Holiday Medal = 2x Gingerbreads
+IDS_TEXTCLIENT_INC_002831	1x Holiday Medal = 10x Vanilla Cupcakes
+IDS_TEXTCLIENT_INC_002832	1x Holiday Medal = 4x Christmas Teas
+IDS_TEXTCLIENT_INC_002833	Bank PIN Window
+IDS_TEXTCLIENT_INC_002834	Your Bank PIN is incorrect.
+IDS_TEXTCLIENT_INC_002835	Enter the Bank PIN to continue.
+IDS_TEXTCLIENT_INC_002836	The Bank PIN should be a %d digit number.
+IDS_TEXTCLIENT_INC_002837	Invalid Bank PIN.
+IDS_TEXTCLIENT_INC_002838	Confirm Bank PIN.
+IDS_TEXTCLIENT_INC_002839	Bank PINs do not match.
+IDS_TEXTCLIENT_INC_002840	Bed
+IDS_TEXTCLIENT_INC_002841	Table
+IDS_TEXTCLIENT_INC_002842	Sofa
+IDS_TEXTCLIENT_INC_002843	Table
+IDS_TEXTCLIENT_INC_002844	Chair
+IDS_TEXTCLIENT_INC_002845	Bookshelf
+IDS_TEXTCLIENT_INC_002846	Dressing table
+IDS_TEXTCLIENT_INC_002847	Wardrobe 
+IDS_TEXTCLIENT_INC_002848	Bathtub
+IDS_TEXTCLIENT_INC_002849	Bedside table 
+IDS_TEXTCLIENT_INC_002850	Carpet
+IDS_TEXTCLIENT_INC_002851	Wall Paper
+IDS_TEXTCLIENT_INC_002852	Maintenance Fee
+IDS_TEXTCLIENT_INC_002853	Duration
+IDS_TEXTCLIENT_INC_002854	Amount
+IDS_TEXTCLIENT_INC_002855	Furniture Types
+IDS_TEXTCLIENT_INC_002856	You cannot use the Guild House Return Scroll right now.
+IDS_TEXTCLIENT_INC_002857	All Quests
+IDS_TEXTCLIENT_INC_002858	In Progress
+IDS_TEXTCLIENT_INC_002859	Completed
+IDS_TEXTCLIENT_INC_002860	You cannot check that anymore.
+IDS_TEXTCLIENT_INC_002861	New Quest
+IDS_TEXTCLIENT_INC_002862	No New Quests
+IDS_TEXTCLIENT_INC_002863	Quests in Progress
+IDS_TEXTCLIENT_INC_002864	No Quests in Progress
+IDS_TEXTCLIENT_INC_002865	Dialog
+IDS_TEXTCLIENT_INC_002866	Hello
+IDS_TEXTCLIENT_INC_002867	Goodbye!
+IDS_TEXTCLIENT_INC_002868	Equipped
+IDS_TEXTCLIENT_INC_002869	Destination
+IDS_TEXTCLIENT_INC_002870	Expiration
+IDS_TEXTCLIENT_INC_002871	%s has asked you for a Mentor-Pupil bond.  Do you accept?
+IDS_TEXTCLIENT_INC_002872	You and %s will no longer be in a Mentor-Pupil bond.  Are you sure?
+IDS_TEXTCLIENT_INC_002873	FITA Event
+IDS_TEXTCLIENT_INC_002874	You will get FITA Cloak(30Days) if you bring 4 different kinds of FITA cookie by monster hunting.
+IDS_TEXTCLIENT_INC_002875	FITA Cookie (F),(I),(T),(A) → FITA Cloak (30Days)
+IDS_TEXTCLIENT_INC_002876	Available
+IDS_TEXTCLIENT_INC_002877	Lv.
+IDS_TEXTCLIENT_INC_002878	%d
+IDS_TEXTCLIENT_INC_002879	%d
+IDS_TEXTCLIENT_INC_002880	%d
+IDS_TEXTCLIENT_INC_002881	%s<Lv.%d>
+IDS_TEXTCLIENT_INC_002882	%s<Lv.%d-M>
+IDS_TEXTCLIENT_INC_002883	%s<Lv.%d-H>
+IDS_TEXTCLIENT_INC_002884	%s<LV.%d>
+IDS_TEXTCLIENT_INC_002885	Health: %d/%d - Penya: %d - EXP %.2f%% (%I64d/%I64d)
+IDS_TEXTCLIENT_INC_002886	Health: %d/%d
+IDS_TEXTCLIENT_INC_002887	%dX Zoom.  Press the Scroll Lock Key to toggle.
+IDS_TEXTCLIENT_INC_002888	<%d>
+IDS_TEXTCLIENT_INC_002889	%s - Lv: %d
+IDS_TEXTCLIENT_INC_002890	Safe Element Upgrade
+IDS_TEXTCLIENT_INC_002891	You must place an Element Card in the appropriate slot in order to proceed.
+IDS_TEXTCLIENT_INC_002892	This item already has an Element Upgrade.  You can't apply a different element.
+IDS_TEXTCLIENT_INC_002893	A different type of element has already been applied.
+IDS_TEXTCLIENT_INC_002894	Please make sure all items are placed in the upgrade slots.
+IDS_TEXTCLIENT_INC_002895	50 Strength (STR) points will be refunded to you.  Do you want to continue?
+IDS_TEXTCLIENT_INC_002896	50 Stamina (STA) points will be refunded to you.  Do you want to continue?
+IDS_TEXTCLIENT_INC_002897	50 Dexterity (DEX) points will be refunded to you.  Do you want to continue?
+IDS_TEXTCLIENT_INC_002898	50 Intelligence (INT) points will be refunded to you.  Do you want to continue?
+IDS_TEXTCLIENT_INC_002899	Would you like to transform your Pick-up Pet into a Buff Pet?
+IDS_TEXTCLIENT_INC_002900	HOCUS POCUS!  You have successfully transformed your %s into a Buff Pet!
+IDS_TEXTCLIENT_INC_002901	You do not currently have a Pick-up pet summoned.
+IDS_TEXTCLIENT_INC_002902	[Pick-Up Pet]
+IDS_TEXTCLIENT_INC_002903	[Raised Pet]
+IDS_TEXTCLIENT_INC_002904	[Buff Pet]
+IDS_TEXTCLIENT_INC_002905	%s has been ignored.  Type /Unignore <NAME> to remove them from your Ignore List.
+IDS_TEXTCLIENT_INC_002906	%s is now unignored. 
+IDS_TEXTCLIENT_INC_002907	That character is already on your Ignore List.
+IDS_TEXTCLIENT_INC_002908	That character is not on your Ignore List.
+IDS_TEXTCLIENT_INC_002909	Ignore List is full.  Please unignore some characters or relog to reset your Ignore List.
+IDS_TEXTCLIENT_INC_002910	[Complete]
+IDS_TEXTCLIENT_INC_002911	You must have %s Master Points in order to exchange.
+IDS_TEXTCLIENT_INC_002912	Safe Element Upgrade
+IDS_TEXTCLIENT_INC_002913	Lucky pouch exchange
+IDS_TEXTCLIENT_INC_002914	Happy New Year!. Bring \nLucky pouch(2010) to me. Then I will give you new year present.
+IDS_TEXTCLIENT_INC_002915	2000 Lucky pouch(2010) + 20 Million Penya → Beauty Salon Coupon
+IDS_TEXTCLIENT_INC_002916	2000 Lucky pouch(2010) + 20 Million Penya → Free Makeup Coupon
+IDS_TEXTCLIENT_INC_002917	1500 Lucky pouch(2010) + 15 Million Penya → Male Snowman (7Days) 
+IDS_TEXTCLIENT_INC_002918	1500 Lucky pouch(2010) + 15 Million Penya → Female Snowman (7Days) 
+IDS_TEXTCLIENT_INC_002919	1000 Lucky pouch(2010) + 10 Million Penya → Angelic Wings Box (3 Days) 
+IDS_TEXTCLIENT_INC_002920	1000 Lucky pouch(2010) + 10 Million Penya → Wings of the Divine Prophet Box (3 Days)
+IDS_TEXTCLIENT_INC_002921	500 Lucky pouch(2010) + 1 Million Penya → Taiwan Balloon
+IDS_TEXTCLIENT_INC_002922	10 Lucky pouch(2010) + 100,000 Penya → Heart Cracker
+IDS_TEXTCLIENT_INC_002923	10 Lucky pouch(2010) + 100,000 Penya → Pumpkin Cracker
+IDS_TEXTCLIENT_INC_002924	-M
+IDS_TEXTCLIENT_INC_002925	-H
+IDS_TEXTCLIENT_INC_002926	HERO
+IDS_TEXTCLIENT_INC_002927	%d-M. %s
+IDS_TEXTCLIENT_INC_002928	%d-H. %s
+IDS_TEXTCLIENT_INC_002929	HERO: %s
+IDS_TEXTCLIENT_INC_002930	No player by that name exists.  Please check the name and try again.
+IDS_TEXTCLIENT_INC_002931	You shouldn't ignore yourself.  You might have something important to say!
+IDS_TEXTCLIENT_INC_002932	You can not discard this item.
+IDS_TEXTCLIENT_INC_002933	The last message could not be transmitted due to chat spam limitations.  
+IDS_TEXTCLIENT_INC_002934	You received %d minutes penalty because of too much of chatting
+IDS_TEXTCLIENT_INC_002935	Currently your chat has been blocked.(Remaining: %d minute %d second)
+IDS_TEXTCLIENT_INC_002936	Increased Range
+IDS_TEXTCLIENT_INC_002937	Rooted
+IDS_TEXTCLIENT_INC_002938	Immunity
+IDS_TEXTCLIENT_INC_002939	The usage time is expired so that you are not able to continue the quest.
+IDS_TEXTCLIENT_INC_002940	%dhours %dminutes %dseconds
+IDS_TEXTCLIENT_INC_002941	Not allowed to continue the quest
+IDS_TEXTCLIENT_INC_002942	Colored Egg Basket Exchange
+IDS_TEXTCLIENT_INC_002943	I'm collecting eggs for Easter. If you bring me 100 Easter Eggs, I'll color a special one just for you!  
+IDS_TEXTCLIENT_INC_002944	[Select] Give the Egg Decorator 100 Easter Eggs
+IDS_TEXTCLIENT_INC_002945	Mentor-Pupil
+IDS_TEXTCLIENT_INC_002946	Request Mentor-Pupil Bond
+IDS_TEXTCLIENT_INC_002947	Cancel Mentor-Pupil Bond
+IDS_TEXTCLIENT_INC_002948	Points: %d
+IDS_TEXTCLIENT_INC_002949	Permissions
+IDS_TEXTCLIENT_INC_002950	(NEW)
+IDS_TEXTCLIENT_INC_002951	Wiki Help
+IDS_TEXTCLIENT_INC_002952	Get help from Wiki
+IDS_TEXTCLIENT_INC_002953	가위바위보 쿠폰 교환
+IDS_TEXTCLIENT_INC_002954	나른한 춘곤증을 날려버릴 가위바위보 쿠폰 교환! 가위바위보 쿠폰조각 5개와 5만페냐를 가져오면 가위바위보 쿠폰과 교환하고 있으니 많은 참여 부탁드립니다.
+IDS_TEXTCLIENT_INC_002955	가위바위보 쿠폰조각 5 + 5만 페냐 → 가위 가위바위보 쿠폰 1개
+IDS_TEXTCLIENT_INC_002956	가위바위보 쿠폰조각 50 + 50만 페냐 → 가위 가위바위보 쿠폰 10개
+IDS_TEXTCLIENT_INC_002957	Would you like to activate the Scroll of Awakening Protection?  This Scroll will allow you to attempt to get a better Awakening on an item without losing your current Awakening.  This Buff will protect the next Item you posses that is the target of a Reversion Scroll.
+IDS_TEXTCLIENT_INC_002958	[ %s ] Ignore List
+IDS_TEXTCLIENT_INC_002959	Ignored list : %d
+IDS_TEXTCLIENT_INC_002960	Guild house bid
+IDS_TEXTCLIENT_INC_002961	You have exceeded the time limit. The protected Awakening will be re-applied.
+IDS_TEXTCLIENT_INC_002962	The chosen awakening will be applied.
+IDS_TEXTCLIENT_INC_002963	Your current Awakening is Protected!  You can now use a Scroll of Awakening on this item to see if you can improve your current Buff.
+IDS_TEXTCLIENT_INC_002964	No Time Limit
+IDS_TEXTCLIENT_INC_002965	Recipe Item Vendor
+IDS_TEXTCLIENT_INC_002966	Achievement shorcut
+IDS_TEXTCLIENT_INC_002967	Achievement app
+IDS_TEXTCLIENT_INC_002968	Rift Shorcut
+IDS_TEXTCLIENT_INC_002969	Rift app
+IDS_TEXTCLIENT_INC_002970	Vente rapide
+

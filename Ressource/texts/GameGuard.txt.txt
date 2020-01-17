@@ -1,0 +1,21 @@
+﻿IDS_CLIENT_GAMEGUARD_INC_000000	Game Guard is still running. Reboot your PC and try again.
+IDS_CLIENT_GAMEGUARD_INC_000001	Game Guard is lagging. Restart the game.
+IDS_CLIENT_GAMEGUARD_INC_000002	Default set up error. Restart the PC or close all other programs which could make conflict.
+IDS_CLIENT_GAMEGUARD_INC_000003	There is a file missing or a file has been changed. Re-Install the set up file.
+IDS_CLIENT_GAMEGUARD_INC_000004	System File was damaged. Please reinstall IE.
+IDS_CLIENT_GAMEGUARD_INC_000005	Run failure. Re-install the set up file.
+IDS_CLIENT_GAMEGUARD_INC_000006	Illegal program was found. Close the confliction program and try again.
+IDS_CLIENT_GAMEGUARD_INC_000007	You canceled the update. for the game gurad. If you are having problems please check your connection and make sure your firewall is off.
+IDS_CLIENT_GAMEGUARD_INC_000008	Failure accessing the Game Guard updating server. If you are having problems please check your connection and make sure your firewall is off.
+IDS_CLIENT_GAMEGUARD_INC_000009	Game guard update was not done.
+IDS_CLIENT_GAMEGUARD_INC_000010	Running error on game guard. Re-try.
+IDS_CLIENT_GAMEGUARD_INC_000011	News
+IDS_CLIENT_GAMEGUARD_INC_000012	Please update your graphics drivers to their newest edition.
+IDS_CLIENT_GAMEGUARD_INC_000013	Your graphic card doesn’t support a shadow function. Please turn SHADOWS to OFF. 
+IDS_CLIENT_GAMEGUARD_INC_000014	Warning
+IDS_CLIENT_GAMEGUARD_INC_000015	Due to insufficient texture memory, the quality of the texture will be lowered.
+IDS_CLIENT_GAMEGUARD_INC_000016	Due to insufficient texture memory, the shadow function will not be applied.
+IDS_CLIENT_GAMEGUARD_INC_000017	Default set up error.
+IDS_CLIENT_GAMEGUARD_INC_000018	Speedhack was found.
+IDS_CLIENT_GAMEGUARD_INC_000019	Game hack was found.
+IDS_CLIENT_GAMEGUARD_INC_000020	Game or Game Guard has been altered.
