@@ -327,7 +327,8 @@ def module_mover():
         prop_mover.items = prop_item.items
     if g_project.module["mover"]["filter"] is True:
         prop_mover.filter()
-    prop_mover.write_new_config()
+    prop_mover.write_new_config('json')
+    prop_mover.write_new_config('xml')
 
 
 def module_world():

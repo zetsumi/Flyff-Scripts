@@ -30,7 +30,6 @@ def bytes_to_unsigned_int(val):
 
 
 def convert_value(key, value):
-
     if isinstance(value, str) is False:
         return value
     if value == "TRUE":
@@ -63,3 +62,14 @@ def convert_value(key, value):
         return bool(value)
 
     return value
+
+
+def skip_preproc(string):
+    if "#ifdef" in string or \
+            "# ifdef" in string or \
+            "#endif" in string or \
+            "# endif" in string or \
+            "#ifndef" in string or \
+            " #ifndef" in string:
+        return True
+    return False

@@ -1,6 +1,8 @@
+import json
 from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
+from utils.common import skip_preproc
 from utils.text import Text
 from utils.define import Define
 from project import g_project
@@ -91,29 +93,37 @@ MoverParams = {
     "szComment": 82
 }
 
+
+def skip_value(key, value):
+    if value is None or value == "=":
+        return True
+    if key == "dwID":
+        return True
+    if key == "dwClass":
+        return True
+    try:
+        v = int(value)
+        if v == 0:
+            return True
+    except ValueError:
+        if value == "=" or value == "":
+            return True
+    return False
+
+
 class PropMover:
 
     def __init__(self):
         self.movers = dict()
         self.items = None
 
-    def skip_preproc(self, string):
-        if "#ifdef" in string or \
-            "# ifdef" in string or \
-            "#endif" in string or \
-            "# endif" in string or \
-            "#ifndef" in string or \
-            " #ifndef" in string:
-            return True
-        return False
-
-    def load(self, file_prop,):
+    def load(self, file_prop, ):
         gLogger.set_section("propmover")
         gLogger.info("Loading: ", file_prop)
 
         with open(file_prop, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
-                if self.skip_preproc(line) is True:
+                if skip_preproc(line) is True:
                     continue
                 if "//" in line:
                     continue
@@ -146,15 +156,15 @@ class PropMover:
         mover_name_undeclared = []
         mover_comment_undeclared = []
 
-        #pass
+        # pass
         for key in self.movers:
             mover = self.movers[key]
-#            if key not in self.define.datas:
-#                mover_undeclared.append(key)
-#           if mover["szComment"] not in self.text.datas:
-#                mover_comment_undeclared.append(key)
-#            if mover["szName"] not in self.text.datas:
-#                mover_name_undeclared.append(key)
+            #            if key not in self.define.datas:
+            #                mover_undeclared.append(key)
+            #           if mover["szComment"] not in self.text.datas:
+            #                mover_comment_undeclared.append(key)
+            #            if mover["szName"] not in self.text.datas:
+            #                mover_name_undeclared.append(key)
             if self.items is not None:
                 if mover["dwAtk1"] not in self.items:
                     weapon_undeclared.append(mover["dwAtk1"])
@@ -163,22 +173,25 @@ class PropMover:
                 if mover["dwAtk3"] not in self.items:
                     weapon_undeclared.append(mover["dwAtk3"])
 
-        gLogger.write(g_project.path_filter + "mover_undeclared.txt", mover_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Movers undeclared:",
-                undeclared=len(mover_undeclared),
-                total=len(self.movers)))
+        gLogger.write(g_project.path_filter + "mover_undeclared.txt", mover_undeclared,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Movers undeclared:",
+                          undeclared=len(mover_undeclared),
+                          total=len(self.movers)))
         gLogger.write(g_project.path_filter + "mover_unused.txt", mover_unused, "{infos}: {undeclared}/{total}".format(
-                infos="Movers mover_unused:",
-                undeclared=len(mover_unused),
-                total=len(self.movers)))
-        gLogger.write(g_project.path_filter + "mover_name_undeclared.txt", mover_name_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Movers mover_name_undeclared:",
-                undeclared=len(mover_name_undeclared),
-                total=len(self.movers)))
-        gLogger.write(g_project.path_filter + "mover_comment_undeclared.txt", mover_comment_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Movers mover_comment_undeclared:",
-                undeclared=len(mover_comment_undeclared),
-                total=len(self.movers)))
+            infos="Movers mover_unused:",
+            undeclared=len(mover_unused),
+            total=len(self.movers)))
+        gLogger.write(g_project.path_filter + "mover_name_undeclared.txt", mover_name_undeclared,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Movers mover_name_undeclared:",
+                          undeclared=len(mover_name_undeclared),
+                          total=len(self.movers)))
+        gLogger.write(g_project.path_filter + "mover_comment_undeclared.txt", mover_comment_undeclared,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Movers mover_comment_undeclared:",
+                          undeclared=len(mover_comment_undeclared),
+                          total=len(self.movers)))
         gLogger.reset_section()
 
         return mover_undeclared, mover_unused, weapon_undeclared, mover_name_undeclared, mover_comment_undeclared
@@ -191,23 +204,7 @@ class PropMover:
             if self.szComment != "" and len(self.szComment) > 0 and self.szComment in textMover:
                 self.szComment = '\"' + textMover[self.szComment] + '\"'
 
-    def skip_value(self, key, value):
-        if value is None or value == "=":
-            return True
-        if key == "dwID":
-            return True
-        if key == "dwClass":
-            return True
-        try:
-            v = int(value)
-            if v == 0:
-                return True
-        except ValueError:
-            if value == "=" or value == "":
-                return True
-        return False
-
-    def write_new_config(self):
+    def __write_xml_format__(self):
         gLogger.set_section("promover")
         gLogger.info("Writing propmover XML")
 
@@ -240,7 +237,7 @@ class PropMover:
                 section = movers_players
             elif mover["dwAI"] == "AII_PET" or mover["dwAI"] == "AII_EGG":
                 section = movers_pets
-            elif mover["dwAI"] == "AII_MONSTER"or mover["dwAI"] == "AII_CLOCKWORKS" or \
+            elif mover["dwAI"] == "AII_MONSTER" or mover["dwAI"] == "AII_CLOCKWORKS" or \
                     mover["dwAI"] == "AII_BIGMUSCLE" or mover["dwAI"] == "AII_KRRR" or \
                     mover["dwAI"] == "AII_BEAR" or mover["dwAI"] == "AII_METEONYKER":
                 section = movers_monsters
@@ -263,7 +260,7 @@ class PropMover:
             for key in mover:
                 value = mover[key]
                 value = value.replace('"', "")
-                if self.skip_value(key, value) is True:
+                if skip_value(key, value) is True:
                     continue
                 section.set(key, value)
 
@@ -271,3 +268,18 @@ class PropMover:
         tree.write(g_project.path_xml + 'propMover.xml', pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
+
+    def __write_json_format__(self):
+        gLogger.set_section("propmover")
+        gLogger.info("writing config JSON")
+
+        with open(g_project.path_json_prop + 'propMover.json', 'w') as fd:
+            json.dump(self.movers, fd, indent=4)
+        gLogger.reset_section()
+
+    def write_new_config(self, mode):
+        if mode == 'json':
+            self.__write_json_format__()
+        elif mode == 'xml':
+            self.__write_xml_format__()
+
