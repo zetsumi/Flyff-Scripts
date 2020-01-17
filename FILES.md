@@ -128,25 +128,26 @@
 - [x] world.txt.txt
 
 # Fichier .h:
-- [ ] ContinentDef.h
+- [x] ContinentDef.h
 - [x] define.h
 - [x] defineAttribute.h
-- [ ] defineEvent.h
-- [ ] defineHonor.h
+- [x] defineEvent.h
+- [x] defineHonor.h
 - [x] defineItem.h
 - [x] defineItemkind.h
 - [x] defineJob.h
-- [ ] definelordskill.h
+- [x] definelordskill.h
 - [x] defineNeuz.h
 - [x] defineObj.h
-- [ ] definequest.h
-- [ ] defineSkill.h
+- [x] definequest.h
+- [x] defineSkill.h
 - [x] defineSound.h
-- [ ] defineText.h
+- [x] defineText.h
 - [x] defineWorld.h
-- [ ] lang.h
-- [ ] ResData.h
-- [ ] WndStyle.h
+- [x] lang.h
+- [x] ResData.h
+- [x] WndStyle.h
+- [x] MsgHdr.h
 
 # Fichier .inc:
 
