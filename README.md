@@ -4,7 +4,7 @@ Script ayant pour but de filtrer les ressources de flyff afin de produire des fi
 
 # Version 1.0:
 - [x] Lecture de tous les fichiers `.txt.txt`
-- [ ] Lecture de tous les fichiers `.h`
+- [x] Lecture de tous les fichiers `.h`
 - [ ] Lecture de tous les fichiers `.inc`
 - [ ] Lecture de tous les fichiers `.txt`
 - [ ] Convertion de tous les fichier en `JSON` et `XML`
