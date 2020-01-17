@@ -318,6 +318,11 @@ def module_skill():
     prop_skill.write_new_config('xml')
     prop_skill.write_new_config('json')
 
+    prop_troupe_skill = PropTroupeSkill()
+    prop_troupe_skill.load(g_project.file_proptroupeskill)
+    prop_troupe_skill.write_new_config('xml')
+    prop_troupe_skill.write_new_config('json')
+
 
 def module_mover():
     prop_mover = PropMover()
