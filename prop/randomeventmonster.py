@@ -108,8 +108,6 @@ class RandomEventMonster(object):
 
         gLogger.reset_section()
 
-
-
     def json_format(self):
         gLogger.set_section("RandomEventMonster")
         gLogger.info("writing JSON randomeventmonster.json")
