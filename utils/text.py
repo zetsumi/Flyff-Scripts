@@ -8,17 +8,13 @@ class Text:
 
     def __init__(self):
         self.datas = dict()
-        self.key = ""
-        self.data = ""
-
-    def to_string(self):
-        value = str(self.key) + "\t" + str(self.data)
-        return value
+        self.filename = ""
 
     def load(self, f):
         gLogger.set_section("text")
         gLogger.info("Loading: ", f)
 
+        self.filename = f
         self.datas = dict()
         with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:

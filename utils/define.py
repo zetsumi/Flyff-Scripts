@@ -6,12 +6,7 @@ from project import g_project
 class Define:
     def __init__(self):
         self.datas = OrderedDict()
-        self.key = ""
-        self.value = ""
-
-    def toString(self):
-        rslt = str("#define" + " " + str(self.key) + " " + str(self.value))
-        return rslt
+        self.filename = str()
 
     def skip_preproc(self, string):
         if "#ifdef" in string or \
@@ -26,6 +21,7 @@ class Define:
     def load(self, f):
         gLogger.set_section("define")
         gLogger.info("Loading: ", f)
+        self.filename = f
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")

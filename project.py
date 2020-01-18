@@ -1,69 +1,11 @@
 import os
+from collections import OrderedDict
+
 
 class Project:
     def __init__(self):
         #Common scripts
         self.version_binary = "0.0.0.0"
-
-        #module activation
-        self.module = {
-            "header": {
-                "active": True,
-                "filter": False
-            },
-            "text": {
-                "active": True,
-                "filter": False
-            },
-            "mdldyna": {
-                "active": True,
-                "filter": False
-            },
-            "mdlobj": {
-                "active": True,
-                "filter": False
-            },
-            "item": {
-                "active": True,
-                "filter": False
-            },
-            "mover": {
-                "active": True,
-                "filter": False
-            },
-            "world": {
-                "active": True,
-                "filter": False
-            },
-            "quest": {
-                "active": True,
-                "filter": False
-            },
-            "drop": {
-                "active": True,
-                "filter": False
-            },
-            "ai": {
-                "active": True,
-                "filter": False
-            },
-            "event_monster": {
-                "active": True,
-                "filter": False
-            },
-            "skill": {
-                "active": True,
-                "filter": False
-            },
-            "ctrl": {
-                "active": True,
-                "filter": False
-            },
-            "karma": {
-                "active": True,
-                "filter": False
-            }
-        }
 
         # Path Ressource
         self.path_ressource = "./Ressource/"
@@ -196,7 +138,6 @@ class Project:
         self.file_text_wdvolcaneyellow = self.path_ressource_text + "WdVolcaneYellow.txt.txt"
         self.file_text_world = self.path_ressource_text + "world.txt.txt"
 
-
         # file inc
         self.file_mdldyna = self.path_ressource_model + "mdlDyna.inc"
         self.file_mdldobj = self.path_ressource_model + "mdlObj.inc"
@@ -218,7 +159,6 @@ class Project:
         self.file_define_continent_def = self.path_ressource_define + "ContinentDef.h"
         self.file_define_event = self.path_ressource_define + "defineEvent.h"
         self.file_define_lord_skill = self.path_ressource_define + "definelordskill.h"
-
         self.file_define_quest = self.path_ressource_define + "definequest.h"
         self.file_define_honor = self.path_ressource_define + "defineHonor.h"
         self.file_define_lang = self.path_ressource_define + "lang.h"
