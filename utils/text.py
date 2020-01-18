@@ -8,13 +8,15 @@ class Text:
 
     def __init__(self):
         self.datas = dict()
-        self.filename = ""
+        self.filename_in = ""
+        self.filename_out_json = ""
+        self.filename_out_xml = ""
 
     def load(self, f):
         gLogger.set_section("text")
         gLogger.info("Loading: ", f)
 
-        self.filename = f
+        self.filename_in = f
         self.datas = dict()
         with open(f, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
@@ -40,7 +42,8 @@ class Text:
         gLogger.set_section("text")
         gLogger.info("writing text", name, "JSON")
 
-        with open(g_project.path_json_text + 'text_' + name + '.json', 'w') as fd:
+        self.filename_out_json = g_project.path_json_text + 'text_' + name + '.json'
+        with open(self.filename_out_json, 'w') as fd:
             json.dump(self.datas, fd, indent=4)
 
         gLogger.reset_section()

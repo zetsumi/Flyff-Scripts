@@ -6,7 +6,9 @@ from project import g_project
 class Define:
     def __init__(self):
         self.datas = OrderedDict()
-        self.filename = str()
+        self.filename_in = ""
+        self.filename_out_json = ""
+        self.filename_out_xml = ""
 
     def skip_preproc(self, string):
         if "#ifdef" in string or \
@@ -21,7 +23,8 @@ class Define:
     def load(self, f):
         gLogger.set_section("define")
         gLogger.info("Loading: ", f)
-        self.filename = f
+
+        self.filename_in = f
         with open(f, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
@@ -67,7 +70,8 @@ class Define:
         gLogger.set_section("define")
         gLogger.info("writing header", name)
 
-        with open(g_project.path_json_header + 'header_' + name + '.json', 'w') as fd:
+        self.filename_out_json = g_project.path_json_header + 'header_' + name + '.json'
+        with open(self.filename_out_json, 'w') as fd:
             json.dump(self.datas, fd, indent=4)
 
         gLogger.reset_section()
