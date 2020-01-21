@@ -4,6 +4,13 @@ import json
 from collections import OrderedDict
 from utils import (gLogger, Define, Text)
 from project import g_project
+from network import Packet
+from prop import (PropMover, PropItem, PropCtrl, PropKarma,
+                  PropSkill, PropTroupeSkill, PropQuest,
+                  PropMoverEx, PropMoverExAI, RandomEventMonster
+                  )
+from world import Worlds
+from model import (MdlDyna, MdlObj)
 
 
 class Module:
@@ -187,6 +194,11 @@ class Module:
             "resdata": Define(),
             "wnd_style": Define(),
         })
+        self.mdl_dyna = MdlDyna()
+        self.mdl_obj = MdlObj()
+        self.prop_item = PropItem()
+        #TODO : a replace par self.defines["XXX"].data
+        self.define = Define()
 
     def __write_project_json__(self):
         gLogger.set_section("module")
@@ -230,15 +242,15 @@ class Module:
         self.defines["skill"].load(g_project.file_define_skill)
         self.defines["sound"].load(g_project.file_define_sound)
         self.defines["world"].load(g_project.file_define_world)
-        self.defines["continent"].load(g_project.file_define_world)
-        self.defines["event"].load(g_project.file_define_world)
-        self.defines["lord_skill"].load(g_project.file_define_world)
-        self.defines["quest"].load(g_project.file_define_world)
-        self.defines["honor"].load(g_project.file_define_world)
-        self.defines["lang"].load(g_project.file_define_world)
-        self.defines["msghdr"].load(g_project.file_define_world)
-        self.defines["resdata"].load(g_project.file_define_world)
-        self.defines["wnd_style"].load(g_project.file_define_world)
+        self.defines["continent"].load(g_project.file_define_continent_def)
+        self.defines["event"].load(g_project.file_define_event)
+        self.defines["lord_skill"].load(g_project.file_define_lord_skill)
+        self.defines["quest"].load(g_project.file_define_quest)
+        self.defines["honor"].load(g_project.file_define_honor)
+        self.defines["lang"].load(g_project.file_define_lang)
+        self.defines["msghdr"].load(g_project.file_define_msg_hdr)
+        self.defines["resdata"].load(g_project.file_define_resdata)
+        self.defines["wnd_style"].load(g_project.file_define_wnd_style)
 
         for k in self.defines:
             self.defines[k].write_json(k)
@@ -310,37 +322,93 @@ class Module:
         self.texts["resdata"].load(g_project.file_text_resdata)
         self.texts["textclient"].load(g_project.file_text_textclient)
         self.texts["textemotion"].load(g_project.file_text_textemotion)
-        self.texts["dubear"].load(g_project.file_text_dubear)
-        self.texts["dudadk"].load(g_project.file_text_dudadk)
-        self.texts["dudreadfulcave"].load(g_project.file_text_dudreadfulcave)
-        self.texts["duflmas"].load(g_project.file_text_duflmas)
-        self.texts["dukrr"].load(g_project.file_text_dukrr)
-        self.texts["dumuscle"].load(g_project.file_text_dumuscle)
-        self.texts["duominous"].load(g_project.file_text_duominous)
-        self.texts["duominous_1"].load(g_project.file_text_duominous_1)
-        self.texts["durustia"].load(g_project.file_text_durustia)
-        self.texts["durustia_1"].load(g_project.file_text_durustia_1)
-        self.texts["dusatempleboss"].load(g_project.file_text_dusatempleboss)
-        self.texts["wdarena"].load(g_project.file_text_wdarena)
-        self.texts["wdguildhouselarge"].load(g_project.file_text_wdguildhouselarge)
-        self.texts["wdguildhousemiddle"].load(g_project.file_text_wdguildhousemiddle)
-        self.texts["wdguildhousesmall"].load(g_project.file_text_wdguildhousesmall)
-        self.texts["wdguildwar"].load(g_project.file_text_wdguildwar)
-        self.texts["wdheaven01"].load(g_project.file_text_wdheaven01)
-        self.texts["wdheaven02"].load(g_project.file_text_wdheaven02)
-        self.texts["wdheaven03"].load(g_project.file_text_wdheaven03)
-        self.texts["wdheaven04"].load(g_project.file_text_wdheaven04)
-        self.texts["wdheaven05"].load(g_project.file_text_wdheaven05)
-        self.texts["wdheaven06"].load(g_project.file_text_wdheaven06)
-        self.texts["wdheaven06_1"].load(g_project.file_text_wdheaven06_1)
-        self.texts["wdkebaras"].load(g_project.file_text_wdkebaras)
-        self.texts["wdmadrigal"].load(g_project.file_text_wdmadrigal)
-        self.texts["wdminiroom"].load(g_project.file_text_wdminiroom)
-        self.texts["wdquiz"].load(g_project.file_text_wdquiz)
-        self.texts["wdvolcane"].load(g_project.file_text_wdvolcane)
-        self.texts["wdvolcanered"].load(g_project.file_text_wdvolcanered)
-        self.texts["wdvolcaneyellow"].load(g_project.file_text_wdvolcaneyellow)
         self.texts["world"].load(g_project.file_text_world)
 
         for k in self.texts:
             self.texts[k].write_json(k)
+
+    def module_mdldyna(self):
+        self.mdl_dyna.load(g_project.file_mdldyna)
+
+    def module_mdlobj(self):
+        self.mdl_obj.load(g_project.file_mdldobj, g_project.file_define)
+        if self.modules["mover"]["filter"] is True:
+            self.mdl_obj.filter(g_project.pathmodel)
+        self.mdl_obj.write_new_config()
+
+    def module_karma(self):
+        prop_karma = PropKarma()
+        prop_karma.load(g_project.file_propkarma)
+        if self.modules["karma"]["filter"] is True:
+            prop_karma.filter()
+        prop_karma.write_new_config('json')
+        prop_karma.write_new_config('xml')
+
+    def module_ctrl(self):
+        prop_ctrl = PropCtrl()
+        prop_ctrl.load(g_project.file_propctrl)
+        if self.modules["ctrl"]["filter"] is True:
+            prop_ctrl.filter()
+        prop_ctrl.write_new_config('json')
+        prop_ctrl.write_new_config('xml')
+
+    def module_item(self):
+        self.prop_item.load(g_project.file_propitem)
+        if self.modules["mover"]["filter"] is True:
+            self.prop_item.filter(g_project.pathicon_item)
+            self.prop_item.replace()
+        self.prop_item.write_new_config('xml')
+        self.prop_item.write_new_config('json')
+
+    def module_skill(self):
+        prop_skill = PropSkill()
+        prop_skill.load(g_project.file_propskill)
+        prop_skill.write_new_config('xml')
+        prop_skill.write_new_config('json')
+
+        prop_troupe_skill = PropTroupeSkill()
+        prop_troupe_skill.load(g_project.file_proptroupeskill)
+        prop_troupe_skill.write_new_config('xml')
+        prop_troupe_skill.write_new_config('json')
+
+    def module_mover(self):
+        prop_mover = PropMover()
+        if prop_mover.load(g_project.file_propmover) is False:
+            gLogger.error("Error detected during the load propmover")
+        if self.modules["item"]["active"] is True:
+            prop_mover.items = self.prop_item.items
+        if self.modules["mover"]["filter"] is True:
+            prop_mover.filter()
+        prop_mover.write_new_config('json')
+        prop_mover.write_new_config('xml')
+
+    def module_world(self):
+        worlds = Worlds()
+        worlds.set_listing_world(g_project.file_world)
+        worlds.load(g_project.path_ressource_world,
+                    self.defines["world"].datas,
+                    self.defines["define"].datas)
+        worlds.mdlobj = self.mdl_obj
+
+    def module_quest(self):
+        prop_quests = PropQuest()
+        prop_quests.load(g_project.file_propquest)
+        prop_quests.write_new_config('xml')
+        prop_quests.write_new_config('json')
+
+    def module_drop(self):
+        prop_mover_ex = PropMoverEx()
+        prop_mover_ex.load(g_project.file_propmoverex)
+        prop_mover_ex.write_new_config("xml")
+        prop_mover_ex.write_new_config("json")
+
+    def module_ai(self):
+        prop_ai = PropMoverExAI()
+        prop_ai.load(g_project.file_propmoverex)
+        prop_ai.write_new_config("xml")
+        prop_ai.write_new_config("json")
+
+    def module_event_monster(self):
+        random_event_monster = RandomEventMonster()
+        random_event_monster.load(g_project.file_random_event_monster)
+        random_event_monster.write_new_config('json')
