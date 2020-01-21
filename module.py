@@ -209,6 +209,7 @@ class Module:
                 "path_ressource": str(),
                 "texts": list(),
                 "defines": list(),
+                "props": OrderedDict()
             })
             for it in self.texts:
                 text = self.texts[it]
@@ -218,7 +219,12 @@ class Module:
                 define = self.defines[it]
                 if len(define.filename_out_json) > 0:
                     data["defines"].append(os.path.basename(define.filename_out_json))
-
+            data["props"] = OrderedDict({
+                "propitem": {
+                    "xml": os.path.basename(self.prop_item.out_filename_xml),
+                    "json": os.path.basename(self.prop_item.out_filename_json),
+                }
+            })
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()

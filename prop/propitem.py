@@ -141,15 +141,19 @@ class PropItem(Prop):
 
     def __init__(self):
         self.items = OrderedDict()
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'propItem.xml'
+        self.out_filename_json = g_project.path_json_prop + 'propItem.json'
 
     def __skip_preproc__(self, string):
-        if "ifdef" in string or  "endif" in string or "ifndef" in string:
+        if 'ifdef' in string or 'endif' in string or 'ifndef' in string:
             return True
         return False
 
     def load(self, file_item):
         gLogger.set_section("propitem")
-        gLogger.info("Loading: ", file_item)
+        self.in_filename = file_item
+        gLogger.info("Loading: ", self.in_filename)
 
         with open(file_item, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
@@ -183,44 +187,48 @@ class PropItem(Prop):
 
         for key in self.items:
             item = self.items[key]
-#            if key not in self.define.datas:
-#                items_undeclared.append(key)
-#            if item["szName"] not in self.text.datas:
-#                item_name_undeclared.append(key)
-#            if item["szComment"] not in self.text.datas:
-#                item_comment_undeclared.append(key)
+            #            if key not in self.define.datas:
+            #                items_undeclared.append(key)
+            #            if item["szName"] not in self.text.datas:
+            #                item_name_undeclared.append(key)
+            #            if item["szComment"] not in self.text.datas:
+            #                item_comment_undeclared.append(key)
             if len(item["szIcon"]) > 0:
                 icon = item["szIcon"]
                 out = subprocess.check_output(['find', path_icon, '-iname', icon])
                 if out == "" or len(out) <= 0:
                     items_icon_unfound.append(icon)
 
-#        for it in self.define.datas:
-#            define = self.define.datas[it]
-#            if define.key not in self.items:
-#                items_unused.append(define.key)
+        #        for it in self.define.datas:
+        #            define = self.define.datas[it]
+        #            if define.key not in self.items:
+        #                items_unused.append(define.key)
 
-
-        gLogger.write(g_project.path_filter + "items_undeclared.txt", items_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Items undeclared:",
-                undeclared=len(items_undeclared),
-                total=len(self.items)))
-        gLogger.write(g_project.path_filter + "items_undefined.txt", items_unused, "{infos}: {undeclared}/{total}".format(
-                infos="Items unused:",
-                undeclared=len(items_unused),
-                total=len(self.items)))
-        gLogger.write(g_project.path_filter + "items_icon_unfound.txt", items_icon_unfound, "{infos}: {undeclared}/{total}".format(
-                infos="Icon unfound:",
-                undeclared=len(items_icon_unfound),
-                total=len(self.items)))
-        gLogger.write(g_project.path_filter + "item_name_undeclared.txt", item_name_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Name undeclared:",
-                undeclared=len(item_name_undeclared),
-                total=len(self.items)))
-        gLogger.write(g_project.path_filter + "item_comment_undeclared.txt", item_comment_undeclared, "{infos}: {undeclared}/{total}".format(
-                infos="Comment undeclared:",
-                undeclared=len(item_comment_undeclared),
-                total=len(self.items)))
+        gLogger.write(g_project.path_filter + "items_undeclared.txt", items_undeclared,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Items undeclared:",
+                          undeclared=len(items_undeclared),
+                          total=len(self.items)))
+        gLogger.write(g_project.path_filter + "items_undefined.txt", items_unused,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Items unused:",
+                          undeclared=len(items_unused),
+                          total=len(self.items)))
+        gLogger.write(g_project.path_filter + "items_icon_unfound.txt", items_icon_unfound,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Icon unfound:",
+                          undeclared=len(items_icon_unfound),
+                          total=len(self.items)))
+        gLogger.write(g_project.path_filter + "item_name_undeclared.txt", item_name_undeclared,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Name undeclared:",
+                          undeclared=len(item_name_undeclared),
+                          total=len(self.items)))
+        gLogger.write(g_project.path_filter + "item_comment_undeclared.txt", item_comment_undeclared,
+                      "{infos}: {undeclared}/{total}".format(
+                          infos="Comment undeclared:",
+                          undeclared=len(item_comment_undeclared),
+                          total=len(self.items)))
         gLogger.reset_section()
         return True
 
@@ -244,9 +252,9 @@ class PropItem(Prop):
 
     def write_json_config(self):
         gLogger.set_section("propitem")
-        gLogger.info("writing config JSON")
+        gLogger.info("writing config JSON", self.out_filename_json)
 
-        with open(g_project.path_json_prop + 'propItem.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(self.items, fd, indent=4)
         gLogger.reset_section()
 
@@ -282,37 +290,66 @@ class PropItem(Prop):
         sections_ik1["IK1_HOUSING"] = section_housing
 
         sections_job = dict()
-        sections_job["JOB_VAGRANT"] = {"armor": ET.SubElement(section_armor, "vagrant"), "weapon":ET.SubElement(section_weapons,"vagrant")}
-        sections_job["JOB_MERCENARY"] = {"armor": ET.SubElement(section_armor, "mercenary"), "weapon":ET.SubElement(section_weapons,"mercenary")}
-        sections_job["JOB_ACROBAT"] = {"armor": ET.SubElement(section_armor,"acrobat"), "weapon":ET.SubElement(section_weapons,"acrobat")}
-        sections_job["JOB_ASSIST"] = {"armor": ET.SubElement(section_armor,"assist"), "weapon":ET.SubElement(section_weapons,"assist")}
-        sections_job["JOB_MAGICIAN"] = {"armor": ET.SubElement(section_armor,"magician"), "weapon":ET.SubElement(section_weapons,"magician")}
-        sections_job["JOB_KNIGHT"] = {"armor": ET.SubElement(section_armor,"knight"), "weapon":ET.SubElement(section_weapons,"knight")}
-        sections_job["JOB_BLADE"] = {"armor": ET.SubElement(section_armor,"blade"), "weapon":ET.SubElement(section_weapons,"blade")}
-        sections_job["JOB_JESTER"] = {"armor": ET.SubElement(section_armor,"jester"), "weapon":ET.SubElement(section_weapons,"jester")}
-        sections_job["JOB_RANGER"] = {"armor": ET.SubElement(section_armor,"ranger"), "weapon":ET.SubElement(section_weapons,"ranger")}
-        sections_job["JOB_RINGMASTER"] = {"armor": ET.SubElement(section_armor,"ringmaster"), "weapon":ET.SubElement(section_weapons,"ringmaster")}
-        sections_job["JOB_BILLPOSTER"] = {"armor": ET.SubElement(section_armor,"billposter"), "weapon":ET.SubElement(section_weapons,"billposter")}
-        sections_job["JOB_PSYCHIKEEPER"] = {"armor": ET.SubElement(section_armor,"psychikeeper"), "weapon":ET.SubElement(section_weapons,"psychikeeper")}
-        sections_job["JOB_ELEMENTOR"] = {"armor": ET.SubElement(section_armor,"elementor"), "weapon":ET.SubElement(section_weapons,"elementor")}
+        sections_job["JOB_VAGRANT"] = {"armor": ET.SubElement(section_armor, "vagrant"),
+                                       "weapon": ET.SubElement(section_weapons, "vagrant")}
+        sections_job["JOB_MERCENARY"] = {"armor": ET.SubElement(section_armor, "mercenary"),
+                                         "weapon": ET.SubElement(section_weapons, "mercenary")}
+        sections_job["JOB_ACROBAT"] = {"armor": ET.SubElement(section_armor, "acrobat"),
+                                       "weapon": ET.SubElement(section_weapons, "acrobat")}
+        sections_job["JOB_ASSIST"] = {"armor": ET.SubElement(section_armor, "assist"),
+                                      "weapon": ET.SubElement(section_weapons, "assist")}
+        sections_job["JOB_MAGICIAN"] = {"armor": ET.SubElement(section_armor, "magician"),
+                                        "weapon": ET.SubElement(section_weapons, "magician")}
+        sections_job["JOB_KNIGHT"] = {"armor": ET.SubElement(section_armor, "knight"),
+                                      "weapon": ET.SubElement(section_weapons, "knight")}
+        sections_job["JOB_BLADE"] = {"armor": ET.SubElement(section_armor, "blade"),
+                                     "weapon": ET.SubElement(section_weapons, "blade")}
+        sections_job["JOB_JESTER"] = {"armor": ET.SubElement(section_armor, "jester"),
+                                      "weapon": ET.SubElement(section_weapons, "jester")}
+        sections_job["JOB_RANGER"] = {"armor": ET.SubElement(section_armor, "ranger"),
+                                      "weapon": ET.SubElement(section_weapons, "ranger")}
+        sections_job["JOB_RINGMASTER"] = {"armor": ET.SubElement(section_armor, "ringmaster"),
+                                          "weapon": ET.SubElement(section_weapons, "ringmaster")}
+        sections_job["JOB_BILLPOSTER"] = {"armor": ET.SubElement(section_armor, "billposter"),
+                                          "weapon": ET.SubElement(section_weapons, "billposter")}
+        sections_job["JOB_PSYCHIKEEPER"] = {"armor": ET.SubElement(section_armor, "psychikeeper"),
+                                            "weapon": ET.SubElement(section_weapons, "psychikeeper")}
+        sections_job["JOB_ELEMENTOR"] = {"armor": ET.SubElement(section_armor, "elementor"),
+                                         "weapon": ET.SubElement(section_weapons, "elementor")}
 
-        sections_job["JOB_KNIGHT_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"knight"), "weapon":ET.SubElement(section_weapon_job_master,"knight")}
-        sections_job["JOB_BLADE_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"blade"), "weapon":ET.SubElement(section_weapon_job_master,"blade")}
-        sections_job["JOB_JESTER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"jester"), "weapon":ET.SubElement(section_weapon_job_master,"jester")}
-        sections_job["JOB_RANGER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"ranger"), "weapon":ET.SubElement(section_weapon_job_master,"ranger")}
-        sections_job["JOB_RINGMASTER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"ringmaster"), "weapon":ET.SubElement(section_weapon_job_master,"ringmaster")}
-        sections_job["JOB_BILLPOSTER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"billposter"), "weapon":ET.SubElement(section_weapon_job_master,"billposter")}
-        sections_job["JOB_PSYCHIKEEPER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"psychikeeper"), "weapon":ET.SubElement(section_weapon_job_master,"psychikeeper")}
-        sections_job["JOB_ELEMENTOR_MASTER"] = {"armor": ET.SubElement(section_armor_job_master,"elementor"), "weapon":ET.SubElement(section_weapon_job_master,"elementor")}
+        sections_job["JOB_KNIGHT_MASTER"] = {"armor": ET.SubElement(section_armor_job_master, "knight"),
+                                             "weapon": ET.SubElement(section_weapon_job_master, "knight")}
+        sections_job["JOB_BLADE_MASTER"] = {"armor": ET.SubElement(section_armor_job_master, "blade"),
+                                            "weapon": ET.SubElement(section_weapon_job_master, "blade")}
+        sections_job["JOB_JESTER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master, "jester"),
+                                             "weapon": ET.SubElement(section_weapon_job_master, "jester")}
+        sections_job["JOB_RANGER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master, "ranger"),
+                                             "weapon": ET.SubElement(section_weapon_job_master, "ranger")}
+        sections_job["JOB_RINGMASTER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master, "ringmaster"),
+                                                 "weapon": ET.SubElement(section_weapon_job_master, "ringmaster")}
+        sections_job["JOB_BILLPOSTER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master, "billposter"),
+                                                 "weapon": ET.SubElement(section_weapon_job_master, "billposter")}
+        sections_job["JOB_PSYCHIKEEPER_MASTER"] = {"armor": ET.SubElement(section_armor_job_master, "psychikeeper"),
+                                                   "weapon": ET.SubElement(section_weapon_job_master, "psychikeeper")}
+        sections_job["JOB_ELEMENTOR_MASTER"] = {"armor": ET.SubElement(section_armor_job_master, "elementor"),
+                                                "weapon": ET.SubElement(section_weapon_job_master, "elementor")}
 
-        sections_job["JOB_KNIGHT_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"knight"), "weapon":ET.SubElement(section_weapon_job_hero,"knight")}
-        sections_job["JOB_BLADE_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"blade"), "weapon":ET.SubElement(section_weapon_job_hero,"blade")}
-        sections_job["JOB_JESTER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"jester"), "weapon":ET.SubElement(section_weapon_job_hero,"jester")}
-        sections_job["JOB_RANGER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"ranger"), "weapon":ET.SubElement(section_weapon_job_hero,"ranger")}
-        sections_job["JOB_RINGMASTER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"ringmaster"), "weapon":ET.SubElement(section_weapon_job_hero,"ringmaster")}
-        sections_job["JOB_BILLPOSTER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"billposter"), "weapon":ET.SubElement(section_weapon_job_hero,"billposter")}
-        sections_job["JOB_PSYCHIKEEPER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"psychikeeper"), "weapon":ET.SubElement(section_weapon_job_hero,"psychikeeper")}
-        sections_job["JOB_ELEMENTOR_HERO"] = {"armor": ET.SubElement(section_armor_job_hero,"elementor"), "weapon":ET.SubElement(section_weapon_job_hero,"elementor")}
+        sections_job["JOB_KNIGHT_HERO"] = {"armor": ET.SubElement(section_armor_job_hero, "knight"),
+                                           "weapon": ET.SubElement(section_weapon_job_hero, "knight")}
+        sections_job["JOB_BLADE_HERO"] = {"armor": ET.SubElement(section_armor_job_hero, "blade"),
+                                          "weapon": ET.SubElement(section_weapon_job_hero, "blade")}
+        sections_job["JOB_JESTER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero, "jester"),
+                                           "weapon": ET.SubElement(section_weapon_job_hero, "jester")}
+        sections_job["JOB_RANGER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero, "ranger"),
+                                           "weapon": ET.SubElement(section_weapon_job_hero, "ranger")}
+        sections_job["JOB_RINGMASTER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero, "ringmaster"),
+                                               "weapon": ET.SubElement(section_weapon_job_hero, "ringmaster")}
+        sections_job["JOB_BILLPOSTER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero, "billposter"),
+                                               "weapon": ET.SubElement(section_weapon_job_hero, "billposter")}
+        sections_job["JOB_PSYCHIKEEPER_HERO"] = {"armor": ET.SubElement(section_armor_job_hero, "psychikeeper"),
+                                                 "weapon": ET.SubElement(section_weapon_job_hero, "psychikeeper")}
+        sections_job["JOB_ELEMENTOR_HERO"] = {"armor": ET.SubElement(section_armor_job_hero, "elementor"),
+                                              "weapon": ET.SubElement(section_weapon_job_hero, "elementor")}
 
         for it in self.items:
             item = self.items[it]
@@ -330,7 +367,6 @@ class PropItem(Prop):
             if section is None and item["dwItemKind1"] != "=" and item["dwItemKind1"] in sections_ik1:
                 section = ET.SubElement(sections_ik1[item["dwItemKind1"]], "item")
 
-
             if section is None:
                 section = section_unknow
 
@@ -343,6 +379,5 @@ class PropItem(Prop):
                 section.set(str(key), value)
 
         tree = ET.ElementTree(root)
-        tree.write(g_project.path_xml + 'propItem.xml', pretty_print=True, xml_declaration=True)
-
+        tree.write(self.out_filename_xml, pretty_print=True, xml_declaration=True)
         gLogger.reset_section()
