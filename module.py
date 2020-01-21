@@ -197,8 +197,6 @@ class Module:
         self.mdl_dyna = MdlDyna()
         self.mdl_obj = MdlObj()
         self.prop_item = PropItem()
-        #TODO : a replace par self.defines["XXX"].data
-        self.define = Define()
 
     def __write_project_json__(self):
         gLogger.set_section("module")
