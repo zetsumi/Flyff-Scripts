@@ -22,11 +22,11 @@ class Project:
         # Path output project
         self.path_output = "./output/"
         self.path_filter = self.path_output + "filter/"
-        self.path_xml = self.path_output + "/xml/"
-        self.path_json = self.path_output + "/json/"
-        self.path_json_text = self.path_output + "/json/text/"
-        self.path_json_header = self.path_output + "/json/header/"
-        self.path_json_prop = self.path_output + "/json/prop/"
+        self.path_xml = self.path_output + "xml/"
+        self.path_json = self.path_output + "json/"
+        self.path_json_text = self.path_output + "json/text/"
+        self.path_json_header = self.path_output + "json/header/"
+        self.path_json_prop = self.path_output + "json/prop/"
         self.path_documentation = self.path_output + "documentation/"
 
         # file properties

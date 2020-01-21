@@ -3,22 +3,21 @@ from collections import OrderedDict
 from utils.logger import gLogger
 from project import g_project
 
+
+def skip_preproc(string):
+    if 'ifdef' in string or \
+            'endif' in string or \
+            'ifndef' in string:
+        return True
+    return False
+
+
 class Define:
     def __init__(self):
         self.datas = OrderedDict()
         self.filename_in = ""
         self.filename_out_json = ""
         self.filename_out_xml = ""
-
-    def skip_preproc(self, string):
-        if "#ifdef" in string or \
-            "# ifdef" in string or \
-            "#endif" in string or \
-            "# endif" in string or \
-            "#ifndef" in string or \
-            " #ifndef" in string:
-            return True
-        return False
 
     def load(self, f):
         gLogger.set_section("define")
@@ -30,8 +29,8 @@ class Define:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
                 if "//" in line or len(line) <= 0 \
-                    or line == "" \
-                    or self.skip_preproc(line) is True:
+                        or line == "" \
+                        or skip_preproc(line) is True:
                     continue
                 line = line.replace("#define", "")
                 line = line.replace("# define", "")
@@ -42,7 +41,7 @@ class Define:
                     if it != "" and len(it) > 0:
                         try:
                             value = int(it)
-                        except:
+                        except ValueError:
                             if key == "":
                                 key = it
                             else:
@@ -68,10 +67,8 @@ class Define:
 
     def write_json(self, name):
         gLogger.set_section("define")
-        gLogger.info("writing header", name)
-
         self.filename_out_json = g_project.path_json_header + 'header_' + name + '.json'
+        gLogger.info("writing header:", self.filename_out_json)
         with open(self.filename_out_json, 'w') as fd:
             json.dump(self.datas, fd, indent=4)
-
         gLogger.reset_section()
