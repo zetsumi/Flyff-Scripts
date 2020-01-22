@@ -151,11 +151,15 @@ class PropSkill:
 
     def __init__(self):
         self.skills = OrderedDict()
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'propSkill.xml'
+        self.out_filename_json = g_project.path_json_prop + 'propSkill.json'
 
     def load(self, f):
         gLogger.set_section("propskill")
-        gLogger.info("Loading: ", f)
-        with open(f, "r", encoding="ISO-8859-1") as fd:
+        self.in_filename = f
+        gLogger.info("Loading: ", self.in_filename)
+        with open(self.in_filename, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
@@ -266,7 +270,7 @@ class PropSkill:
         gLogger.set_section("propskill")
         gLogger.info("writing config JSON")
 
-        with open(g_project.path_json_prop + 'propSkill.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(self.skills, fd, indent=4)
         gLogger.reset_section()
 
@@ -330,5 +334,5 @@ class PropSkill:
                 section.set(key, str(value))
 
         tree = ET.ElementTree(root)
-        tree.write(g_project.path_xml + 'propSkill.xml', pretty_print=True, xml_declaration=True)
+        tree.write(self.out_filename_xml, pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

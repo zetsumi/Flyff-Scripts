@@ -84,12 +84,16 @@ class DataMonster:
 class RandomEventMonster(object):
     def __init__(self):
         self.properties = OrderedDict()
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'randomEventMonster.xml'
+        self.out_filename_json = g_project.path_json_prop + 'randomEventMonster.json'
 
     def load(self, filename):
         gLogger.set_section("RandomEventMonster")
-        gLogger.info("loading", filename)
+        self.in_filename = filename
+        gLogger.info("loading", self.in_filename)
         movers = dict()
-        with open(filename) as fd:
+        with open(self.in_filename) as fd:
             id = ""
             for line in fd:
                 line = line.replace("\n", "").replace(";", "")
@@ -129,7 +133,7 @@ class RandomEventMonster(object):
                 vPos["z"] = position.z
                 data["random_event_monster"][str(key)]["positions"].append(vPos)
 
-        with open(g_project.path_json_prop + 'randomEventMonster.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()
@@ -137,3 +141,5 @@ class RandomEventMonster(object):
     def write_new_config(self, mode):
         if mode == "json":
             self.json_format()
+        elif mode == 'xml':
+            pass

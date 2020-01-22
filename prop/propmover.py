@@ -116,12 +116,16 @@ class PropMover:
     def __init__(self):
         self.movers = dict()
         self.items = None
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'propMover.xml'
+        self.out_filename_json = g_project.path_json_prop + 'propMover.json'
 
     def load(self, file_prop, ):
         gLogger.set_section("propmover")
-        gLogger.info("Loading: ", file_prop)
+        self.in_filename = file_prop
+        gLogger.info("Loading: ", self.in_filename)
 
-        with open(file_prop, "r", encoding="ISO-8859-1") as fd:
+        with open(self.in_filename, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 if skip_preproc(line) is True:
                     continue
@@ -265,7 +269,7 @@ class PropMover:
                 section.set(key, value)
 
         tree = ET.ElementTree(root)
-        tree.write(g_project.path_xml + 'propMover.xml', pretty_print=True, xml_declaration=True)
+        tree.write(self.out_filename_xml, pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
 
@@ -273,7 +277,7 @@ class PropMover:
         gLogger.set_section("propmover")
         gLogger.info("writing config JSON")
 
-        with open(g_project.path_json_prop + 'propMover.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(self.movers, fd, indent=4)
         gLogger.reset_section()
 

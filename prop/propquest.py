@@ -110,6 +110,9 @@ class PropQuest:
 
     def __init__(self):
         self.Quests = dict()
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'propQuest.xml'
+        self.out_filename_json = g_project.path_json_prop + 'propQuest.json'
 
     def __load_set_title__(self, q, fd):
         sep = fd.readline().replace("\t", "").replace("\n", "")
@@ -220,8 +223,10 @@ class PropQuest:
 
     def load(self, f):
         gLogger.set_section("propquest")
+        self.in_filename = f
+        gLogger.info("loading:", self.in_filename)
         new_quest = True
-        with open(f, "r") as fd:
+        with open(self.in_filename, "r") as fd:
             q = None
             for line in fd:
                 line = line.replace("\n", "")
@@ -338,7 +343,7 @@ class PropQuest:
                 for state in quest.State[value]:
                     data[name_quest]["type"][QAction[value]] = quest.State[value][state]
 
-        with open(g_project.path_json_prop + 'propQuest.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()
@@ -393,7 +398,7 @@ class PropQuest:
                     section.set(fct, param)
 
         tree = ET.ElementTree(root)
-        tree.write(g_project.path_xml + 'propQuest.xml', pretty_print=True, xml_declaration=True)
+        tree.write(self.out_filename_xml, pretty_print=True, xml_declaration=True)
         gLogger.reset_section()
 
     def write_new_config(self, mode):

@@ -155,7 +155,7 @@ class PropItem(Prop):
         self.in_filename = file_item
         gLogger.info("Loading: ", self.in_filename)
 
-        with open(file_item, "r", encoding="ISO-8859-1") as fd:
+        with open(self.in_filename, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 if self.__skip_preproc__(line) is True or "//" in line:
                     continue

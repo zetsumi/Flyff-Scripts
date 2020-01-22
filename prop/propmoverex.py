@@ -114,14 +114,17 @@ class   PropMoverEx:
 
     def __init__(self):
         self.properties = dict()
-
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'propMoverExtend.xml'
+        self.out_filename_json = g_project.path_json_prop + 'propMoverExtend.json'
 
     def load(self, file_prop):
         gLogger.set_section("propmoverex")
-        gLogger.info("loading", file_prop)
+        self.in_filename = file_prop
+        gLogger.info("loading:", self.in_filename)
 
         movers = dict()
-        with open(file_prop, "r", encoding="ISO-8859-1") as fd:
+        with open(self.in_filename, "r", encoding="ISO-8859-1") as fd:
             id = ""
             for line in fd:
                 line = line.replace("\t", "").replace("\n", "").replace(" ", "").replace(";", "")
@@ -177,11 +180,10 @@ class   PropMoverEx:
                     kind_data["level_max"] = kind.max
                     data["prop_mover_extend"][str(key)]["kinds"].append(kind_data)
 
-        with open(g_project.path_json_prop + 'propMoverEx.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()
-
 
     def xml_format(self):
         gLogger.set_section("propmoverex")
@@ -217,7 +219,7 @@ class   PropMoverEx:
                     section_kind.set("level_max", str(kind.max))
 
         tree = ET.ElementTree(root)
-        tree.write(g_project.path_xml + 'propMoverExtend.xml', pretty_print=True, xml_declaration=True)
+        tree.write(self.out_filename_xml, pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
 

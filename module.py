@@ -197,6 +197,16 @@ class Module:
         self.mdl_dyna = MdlDyna()
         self.mdl_obj = MdlObj()
         self.prop_item = PropItem()
+        self.prop_mover = PropMover()
+        self.prop_mover_ex = PropMoverEx()
+        self.prop_ai = PropMoverExAI()
+        self.prop_ctrl = PropCtrl()
+        self.prop_skill = PropSkill()
+        self.prop_troupe_skill = PropTroupeSkill()
+        self.prop_karma = PropKarma()
+        self.prop_quest = PropQuest()
+        self.random_event_monster = RandomEventMonster()
+        self.worlds = Worlds()
 
     def __write_project_json__(self):
         gLogger.set_section("module")
@@ -223,6 +233,42 @@ class Module:
                 "propitem": {
                     "xml": os.path.basename(self.prop_item.out_filename_xml),
                     "json": os.path.basename(self.prop_item.out_filename_json),
+                },
+                "propmover": {
+                    "xml": os.path.basename(self.prop_mover.out_filename_xml),
+                    "json": os.path.basename(self.prop_mover.out_filename_json)
+                },
+                "propmover_extend": {
+                    "xml": os.path.basename(self.prop_mover_ex.out_filename_xml),
+                    "json": os.path.basename(self.prop_mover_ex.out_filename_json)
+                },
+                "propmover_ai": {
+                    "xml": os.path.basename(self.prop_ai.out_filename_xml),
+                    "json": os.path.basename(self.prop_ai.out_filename_json)
+                },
+                "propctrl": {
+                    "xml": os.path.basename(self.prop_ctrl.out_filename_xml),
+                    "json": os.path.basename(self.prop_ctrl.out_filename_json)
+                },
+                "propskill": {
+                    "xml": os.path.basename(self.prop_skill.out_filename_xml),
+                    "json": os.path.basename(self.prop_skill.out_filename_json)
+                },
+                "proptroupeskill": {
+                    "xml": os.path.basename(self.prop_troupe_skill.out_filename_xml),
+                    "json": os.path.basename(self.prop_troupe_skill.out_filename_json)
+                },
+                "propkarma": {
+                    "xml": os.path.basename(self.prop_karma.out_filename_xml),
+                    "json": os.path.basename(self.prop_karma.out_filename_json)
+                },
+                "propquest": {
+                    "xml": os.path.basename(self.prop_quest.out_filename_xml),
+                    "json": os.path.basename(self.prop_quest.out_filename_json)
+                },
+                "random_event_monster": {
+                    "xml": os.path.basename(self.random_event_monster.out_filename_xml),
+                    "json": os.path.basename(self.random_event_monster.out_filename_json)
                 }
             })
             json.dump(data, fd, indent=4)
@@ -341,20 +387,18 @@ class Module:
         self.mdl_obj.write_new_config()
 
     def module_karma(self):
-        prop_karma = PropKarma()
-        prop_karma.load(g_project.file_propkarma)
+        self.prop_karma.load(g_project.file_propkarma)
         if self.modules["karma"]["filter"] is True:
-            prop_karma.filter()
-        prop_karma.write_new_config('json')
-        prop_karma.write_new_config('xml')
+            self.prop_karma.filter()
+        self.prop_karma.write_new_config('json')
+        self.prop_karma.write_new_config('xml')
 
     def module_ctrl(self):
-        prop_ctrl = PropCtrl()
-        prop_ctrl.load(g_project.file_propctrl)
+        self.prop_ctrl.load(g_project.file_propctrl)
         if self.modules["ctrl"]["filter"] is True:
-            prop_ctrl.filter()
-        prop_ctrl.write_new_config('json')
-        prop_ctrl.write_new_config('xml')
+            self.prop_ctrl.filter()
+        self.prop_ctrl.write_new_config('json')
+        self.prop_ctrl.write_new_config('xml')
 
     def module_item(self):
         self.prop_item.load(g_project.file_propitem)
@@ -365,54 +409,46 @@ class Module:
         self.prop_item.write_new_config('json')
 
     def module_skill(self):
-        prop_skill = PropSkill()
-        prop_skill.load(g_project.file_propskill)
-        prop_skill.write_new_config('xml')
-        prop_skill.write_new_config('json')
+        self.prop_skill.load(g_project.file_propskill)
+        self.prop_skill.write_new_config('xml')
+        self.prop_skill.write_new_config('json')
 
-        prop_troupe_skill = PropTroupeSkill()
-        prop_troupe_skill.load(g_project.file_proptroupeskill)
-        prop_troupe_skill.write_new_config('xml')
-        prop_troupe_skill.write_new_config('json')
+        self.prop_troupe_skill.load(g_project.file_proptroupeskill)
+        self.prop_troupe_skill.write_new_config('xml')
+        self.prop_troupe_skill.write_new_config('json')
 
     def module_mover(self):
-        prop_mover = PropMover()
-        if prop_mover.load(g_project.file_propmover) is False:
+        if self.prop_mover.load(g_project.file_propmover) is False:
             gLogger.error("Error detected during the load propmover")
         if self.modules["item"]["active"] is True:
-            prop_mover.items = self.prop_item.items
+            self.prop_mover.items = self.prop_item.items
         if self.modules["mover"]["filter"] is True:
-            prop_mover.filter()
-        prop_mover.write_new_config('json')
-        prop_mover.write_new_config('xml')
+            self.prop_mover.filter()
+        self.prop_mover.write_new_config('json')
+        self.prop_mover.write_new_config('xml')
 
     def module_world(self):
-        worlds = Worlds()
-        worlds.set_listing_world(g_project.file_world)
-        worlds.load(g_project.path_ressource_world,
+        self.worlds.set_listing_world(g_project.file_world)
+        self.worlds.load(g_project.path_ressource_world,
                     self.defines["world"].datas,
                     self.defines["define"].datas)
-        worlds.mdlobj = self.mdl_obj
+        self.worlds.mdlobj = self.mdl_obj
 
     def module_quest(self):
-        prop_quests = PropQuest()
-        prop_quests.load(g_project.file_propquest)
-        prop_quests.write_new_config('xml')
-        prop_quests.write_new_config('json')
+        self.prop_quest.load(g_project.file_propquest)
+        self.prop_quest.write_new_config('xml')
+        self.prop_quest.write_new_config('json')
 
     def module_drop(self):
-        prop_mover_ex = PropMoverEx()
-        prop_mover_ex.load(g_project.file_propmoverex)
-        prop_mover_ex.write_new_config("xml")
-        prop_mover_ex.write_new_config("json")
+        self.prop_mover_ex.load(g_project.file_propmoverex)
+        self.prop_mover_ex.write_new_config("xml")
+        self.prop_mover_ex.write_new_config("json")
 
     def module_ai(self):
-        prop_ai = PropMoverExAI()
-        prop_ai.load(g_project.file_propmoverex)
-        prop_ai.write_new_config("xml")
-        prop_ai.write_new_config("json")
+        self.prop_ai.load(g_project.file_propmoverex)
+        self.prop_ai.write_new_config("xml")
+        self.prop_ai.write_new_config("json")
 
     def module_event_monster(self):
-        random_event_monster = RandomEventMonster()
-        random_event_monster.load(g_project.file_random_event_monster)
-        random_event_monster.write_new_config('json')
+        self.random_event_monster.load(g_project.file_random_event_monster)
+        self.random_event_monster.write_new_config('json')

@@ -137,12 +137,16 @@ class PropTroupeSkill:
 
     def __init__(self):
         self.troupeSkills = OrderedDict()
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'propTroupeSkill.xml'
+        self.out_filename_json = g_project.path_json_prop + 'propTroupeSkill.json'
 
     def load(self, f):
         gLogger.set_section("proptroupeskill")
-        gLogger.info("Loading: ", f)
+        self.in_filename = f
+        gLogger.info("Loading: ", self.in_filename)
 
-        with open(f, "r") as fd:
+        with open(self.in_filename, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
@@ -260,7 +264,7 @@ class PropTroupeSkill:
                 section.set(k, value)
 
         tree = ET.ElementTree(root)
-        tree.write(g_project.path_xml + 'propTroupeSkill.xml', pretty_print=True, xml_declaration=True)
+        tree.write(self.out_filename_xml, pretty_print=True, xml_declaration=True)
 
         gLogger.reset_section()
 
@@ -268,7 +272,7 @@ class PropTroupeSkill:
         gLogger.set_section("propskill")
         gLogger.info("writing config JSON")
 
-        with open(g_project.path_json_prop + 'propTroupeSkill.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(self.troupeSkills, fd, indent=4)
         gLogger.reset_section()
 

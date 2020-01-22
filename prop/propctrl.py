@@ -20,11 +20,15 @@ class PropCtrl:
 
     def __init__(self):
         self.ctrls = OrderedDict()
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'propCtrl.xml'
+        self.out_filename_json = g_project.path_json_prop + 'propCtrl.json'
 
     def load(self, f):
         gLogger.set_section("propctrl")
-        gLogger.info("Loading: ", f)
-        with open(f, "r", encoding="ISO-8859-1") as fd:
+        self.in_filename = f
+        gLogger.info("Loading: ", self.in_filename)
+        with open(self.in_filename, "r", encoding="ISO-8859-1") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 line = line.replace(" ", "\t")
@@ -59,14 +63,14 @@ class PropCtrl:
 
         gLogger.info("ID")
         for it in self.ctrls:
-            ctrl = ctrls[it]
+            ctrl = self.ctrls[it]
             if ctrl.dwID not in defineObj:
                 if ctrl.dwID not in ctrl_undeclared:
                     ctrl_undeclared.append(ctrl.dwID)
 
         gLogger.info("Name and Comment")
         for it in self.ctrls:
-            ctrl = ctrls[it]
+            ctrl = self.ctrls[it]
             if ctrl.szName not in textCtrl:
                 if ctrl.szName not in ctrl_name_undeclared:
                     ctrl_name_undeclared.append(ctrl.szName)
@@ -139,7 +143,7 @@ class PropCtrl:
         gLogger.set_section("propctrl")
         gLogger.info("writing config JSON")
 
-        with open(g_project.path_json_prop + 'propCtrl.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(self.ctrls, fd, indent=4)
         gLogger.reset_section()
 
@@ -181,5 +185,5 @@ class PropCtrl:
 
 
         tree = ET.ElementTree(root)
-        tree.write(g_project.path_xml + 'propCtrl.xml', pretty_print=True, xml_declaration=True)
+        tree.write(self.out_filename_xml, pretty_print=True, xml_declaration=True)
         gLogger.reset_section()

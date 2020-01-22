@@ -151,10 +151,14 @@ class PropMoverExAI:
 
     def __init__(self):
         self.ais = dict()
+        self.in_filename = str()
+        self.out_filename_xml = g_project.path_xml + 'propMoverExAI.xml'
+        self.out_filename_json = g_project.path_json_prop + 'propMoverExAI.json'
 
     def load(self, file_prop):
-        gLogger.set_section("propmoverexai")
-        gLogger.info("loading", file_prop)
+        gLogger.set_section("PropMoverExAI")
+        self.in_filename = file_prop
+        gLogger.info("loading:", self.in_filename)
 
         movers = dict()
         with open(file_prop, "r", encoding="ISO-8859-1") as fd:
@@ -181,7 +185,6 @@ class PropMoverExAI:
         gLogger.set_section("propmoverexai")
         gLogger.info("writing JSON propmoverexai")
 
-
         data = dict()
         data["ai"] = {}
         for id_mover in self.ais:
@@ -191,12 +194,13 @@ class PropMoverExAI:
             ai["battle"] = self.ais[id_mover].battle
             ai["move"] =  self.ais[id_mover].move
 
-        with open(g_project.path_json_prop + 'propMoverExAI.json', 'w') as fd:
+        with open(self.out_filename_json, 'w') as fd:
             json.dump(data, fd, indent=4)
 
         gLogger.reset_section()
 
-
     def write_new_config(self, mode):
         if mode == 'json':
             self.json_format()
+        elif mode == 'xml':
+            pass
