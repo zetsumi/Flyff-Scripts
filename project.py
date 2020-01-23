@@ -1,8 +1,8 @@
 import os
-from collections import OrderedDict
 
 
 class Project:
+
     def __init__(self):
         #Common scripts
         self.version_binary = "0.0.0.0"
@@ -174,7 +174,6 @@ class Project:
 
         # packet
         self.file_msghdr = self.path_ressource_define + "MsgHdr.h"
-
 
     def create_directories(self):
         # Create directories
