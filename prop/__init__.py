@@ -9,5 +9,6 @@ from .propquest import PropQuest
 from .propmoverex import PropMoverEx
 from .propmoverexai import PropMoverExAI
 from .randomeventmonster import RandomEventMonster
+from .diepenalty import DiePenalty
 
 

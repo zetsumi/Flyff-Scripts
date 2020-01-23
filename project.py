@@ -37,6 +37,7 @@ class Project:
         self.file_propskill = self.path_ressource_prop + "propSkill.txt"
         self.file_proptroupeskill = self.path_ressource_prop + "propTroupeSkill.txt"
         self.file_propquest = self.path_ressource_prop + "propQuest.inc"
+        self.file_prop_diepenalty = self.path_ressource_prop + "DiePenalty.inc"
 
         # file text
         self.file_txt_propitem = self.path_ressource_text + "propItem.txt.txt"

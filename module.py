@@ -1,16 +1,15 @@
-import os
 import json
-
+import os
 from collections import OrderedDict
-from utils import (gLogger, Define, Text)
+
+from model import (MdlDyna, MdlObj)
 from project import g_project
-from network import Packet
 from prop import (PropMover, PropItem, PropCtrl, PropKarma,
                   PropSkill, PropTroupeSkill, PropQuest,
-                  PropMoverEx, PropMoverExAI, RandomEventMonster
+                  PropMoverEx, PropMoverExAI, RandomEventMonster, DiePenalty
                   )
+from utils import (gLogger, Define, Text)
 from world import Worlds
-from model import (MdlDyna, MdlObj)
 
 
 class Module:
@@ -70,6 +69,10 @@ class Module:
                 "filter": False
             },
             "karma": {
+                "active": True,
+                "filter": False
+            },
+            "diepenalty": {
                 "active": True,
                 "filter": False
             }
@@ -205,6 +208,7 @@ class Module:
         self.prop_troupe_skill = PropTroupeSkill()
         self.prop_karma = PropKarma()
         self.prop_quest = PropQuest()
+        self.die_penalty = DiePenalty()
         self.random_event_monster = RandomEventMonster()
         self.worlds = Worlds()
 
@@ -269,6 +273,9 @@ class Module:
                 "random_event_monster": {
                     "xml": os.path.basename(self.random_event_monster.out_filename_xml),
                     "json": os.path.basename(self.random_event_monster.out_filename_json)
+                },
+                "diepenalty": {
+                    "xml": os
                 }
             })
             json.dump(data, fd, indent=4)
@@ -452,3 +459,8 @@ class Module:
     def module_event_monster(self):
         self.random_event_monster.load(g_project.file_random_event_monster)
         self.random_event_monster.write_new_config('json')
+
+    def module_die_penalty(self):
+        self.die_penalty.load(g_project.file_prop_diepenalty)
+        self.die_penalty.write_new_config('json')
+        self.die_penalty.write_new_config('xml')
