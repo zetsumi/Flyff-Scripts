@@ -18,6 +18,7 @@ class Project:
         self.path_ressource_model = self.path_ressource + "model/"
         self.path_ressource_text = self.path_ressource + "texts/"
         self.path_ressource_prop = self.path_ressource + "props/"
+        self.path_ressource_filter = self.path_ressource_prop + "filter/"
 
         # Path output project
         self.path_output = "./output/"
@@ -38,6 +39,19 @@ class Project:
         self.file_proptroupeskill = self.path_ressource_prop + "propTroupeSkill.txt"
         self.file_propquest = self.path_ressource_prop + "propQuest.inc"
         self.file_prop_diepenalty = self.path_ressource_prop + "DiePenalty.inc"
+
+        # file filter
+        self.file_filter = self.path_ressource_filter + "filter.inc"
+        self.file_filter_CHI = self.path_ressource_filter + "filter_CHI.inc"
+        self.file_filter_ENG = self.path_ressource_filter + "filter_ENG.inc"
+        self.file_filter_FRE = self.path_ressource_filter + "filter_FRE.inc"
+        self.file_filter_GER = self.path_ressource_filter + "filter_GER.inc"
+        self.file_filter_JAP = self.path_ressource_filter + "filter_JAP.inc"
+        self.file_filter_KOR = self.path_ressource_filter + "filter_KOR.inc"
+        self.file_filter_SPA = self.path_ressource_filter + "filter_SPA.inc"
+        self.file_filter_THA = self.path_ressource_filter + "filter_THA.inc"
+        self.file_filter_TWN = self.path_ressource_filter + "filter_TWN.inc"
+
 
         # file text
         self.file_txt_propitem = self.path_ressource_text + "propItem.txt.txt"

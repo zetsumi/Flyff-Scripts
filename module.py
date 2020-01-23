@@ -6,7 +6,8 @@ from model import (MdlDyna, MdlObj)
 from project import g_project
 from prop import (PropMover, PropItem, PropCtrl, PropKarma,
                   PropSkill, PropTroupeSkill, PropQuest,
-                  PropMoverEx, PropMoverExAI, RandomEventMonster, DiePenalty
+                  PropMoverEx, PropMoverExAI, RandomEventMonster,
+                  DiePenalty, Filter
                   )
 from utils import (gLogger, Define, Text)
 from world import Worlds
@@ -73,6 +74,10 @@ class Module:
                 "filter": False
             },
             "diepenalty": {
+                "active": True,
+                "filter": False
+            },
+            "filter": {
                 "active": True,
                 "filter": False
             }
@@ -199,6 +204,8 @@ class Module:
         })
         self.mdl_dyna = MdlDyna()
         self.mdl_obj = MdlObj()
+        self.worlds = Worlds()
+
         self.prop_item = PropItem()
         self.prop_mover = PropMover()
         self.prop_mover_ex = PropMoverEx()
@@ -208,9 +215,10 @@ class Module:
         self.prop_troupe_skill = PropTroupeSkill()
         self.prop_karma = PropKarma()
         self.prop_quest = PropQuest()
+
+        self.filter = Filter()
         self.die_penalty = DiePenalty()
         self.random_event_monster = RandomEventMonster()
-        self.worlds = Worlds()
 
     def __write_project_json__(self):
         gLogger.set_section("module")
@@ -275,7 +283,12 @@ class Module:
                     "json": os.path.basename(self.random_event_monster.out_filename_json)
                 },
                 "diepenalty": {
-                    "xml": os
+                    "xml": os.path.basename(self.die_penalty.out_filename_xml),
+                    "json": os.path.basename(self.die_penalty.out_filename_json)
+                },
+                "filter": {
+                    "xml": os.path.basename(self.fiter.out_filename_xml),
+                    "json": os.path.basename(self.filter.out_filename_json)
                 }
             })
             json.dump(data, fd, indent=4)
@@ -464,3 +477,18 @@ class Module:
         self.die_penalty.load(g_project.file_prop_diepenalty)
         self.die_penalty.write_new_config('json')
         self.die_penalty.write_new_config('xml')
+
+    def module_filter(self):
+        self.filter.load(g_project.file_filter)
+        self.filter.load(g_project.file_filter_CHI)
+        self.filter.load(g_project.file_filter_ENG)
+        self.filter.load(g_project.file_filter_FRE)
+        self.filter.load(g_project.file_filter_GER)
+        self.filter.load(g_project.file_filter_JAP)
+        self.filter.load(g_project.file_filter_KOR)
+        self.filter.load(g_project.file_filter_SPA)
+        self.filter.load(g_project.file_filter_THA)
+        self.filter.load(g_project.file_filter_TWN)
+
+        self.filter.write_new_config('json')
+        self.filter.write_new_config('xml')

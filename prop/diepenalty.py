@@ -3,7 +3,6 @@ from lxml import etree as ET
 from collections import OrderedDict
 from utils.logger import gLogger
 from project import g_project
-from utils.common import convert_value
 
 
 class DiePenalty:
