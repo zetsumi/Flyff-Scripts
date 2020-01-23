@@ -38,13 +38,25 @@ class DiePenalty:
 
     def __write_json__(self):
         gLogger.set_section("diepenalty")
-        gLogger.info("writing config JSON")
+        gLogger.info("writing:", self.out_filename_json)
         with open(self.out_filename_json, 'w') as fd:
             json.dump(self.data, fd, indent=4)
         gLogger.reset_section()
 
     def __write_xml__(self):
-        pass
+        gLogger.set_section("diepenalty")
+        gLogger.info("writing:", self.out_filename_xml)
+        root = ET.Element("penalties")
+        for k in self.data:
+            section = ET.SubElement(root, k)
+            for j in self.data[k]:
+                sub_section = ET.SubElement(section, "penalty")
+                sub_section.set("id", str(j))
+                sub_section.set("value", str(self.data[k][j]))
+        tree = ET.ElementTree(root)
+        tree.write(self.out_filename_xml, pretty_print=True, xml_declaration=True)
+        gLogger.reset_section()
+
 
     def write_new_config(self, mode):
         if mode == 'xml':
