@@ -186,12 +186,12 @@
 - [ ] icon_target.inc
 
 ## Letter:
-- [ ] Letter2_FRE.inc
-- [ ] Letter2_GER.inc
-- [ ] Letter_ENG.inc
-- [ ] Letter_FRE.inc
-- [ ] Letter_GER.inc
-- [ ] Letter_SPA.inc
+- [x] Letter2_FRE.inc
+- [x] Letter2_GER.inc
+- [x] Letter_ENG.inc
+- [x] Letter_FRE.inc
+- [x] Letter_GER.inc
+- [x] Letter_SPA.inc
 
 ## Quest:
 - [ ] propPartyQuest.inc

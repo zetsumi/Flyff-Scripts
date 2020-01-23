@@ -43,8 +43,10 @@ if __name__ == "__main__":
     #     module.module_die_penalty()
     # if module.modules["filter"]["active"] is True:
     #     module.module_filter()
-    if module.modules["invalid"]["active"] is True:
-        module.module_invalid()
+    # if module.modules["letter"]["active"] is True:
+    #     module.module_invalid()
+    if module.modules["letter"]["active"] is True:
+        module.module_letter()
 
     # module.write_project_file('json')
     # module.write_project_file('xml')

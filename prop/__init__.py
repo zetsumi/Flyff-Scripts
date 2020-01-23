@@ -12,3 +12,4 @@ from .randomeventmonster import RandomEventMonster
 from .diepenalty import DiePenalty
 from .filter import Filter
 from .invalid import Invalid
+from .letter import Letter

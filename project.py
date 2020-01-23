@@ -20,6 +20,7 @@ class Project:
         self.path_ressource_prop = self.path_ressource + "props/"
         self.path_ressource_filter = self.path_ressource_prop + "filter/"
         self.path_ressource_invalid = self.path_ressource_prop + "invalid/"
+        self.path_ressource_letter = self.path_ressource_prop + "letter/"
 
         # Path output project
         self.path_output = "./output/"
@@ -64,6 +65,14 @@ class Project:
         self.file_invalid_SPA = self.path_ressource_invalid + "InvalidName_SPA.inc"
         self.file_invalid_THA = self.path_ressource_invalid + "InvalidName_THA.inc"
         self.file_invalid_TWN = self.path_ressource_invalid + "InvalidName_TWN.inc"
+
+        # file letter
+        self.file_letter_ENG = self.path_ressource_letter + "Letter_ENG.inc"
+        self.file_letter_FRE = self.path_ressource_letter + "Letter_FRE.inc"
+        self.file_letter_GER = self.path_ressource_letter + "Letter_GER.inc"
+        self.file_letter_SPA = self.path_ressource_letter + "Letter_SPA.inc"
+        self.file_letter_2_FRE = self.path_ressource_letter + "Letter2_FRE.inc"
+        self.file_letter_2_GER = self.path_ressource_letter + "Letter2_GER.inc"
 
         # file text
         self.file_txt_propitem = self.path_ressource_text + "propItem.txt.txt"

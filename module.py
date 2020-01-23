@@ -7,7 +7,7 @@ from project import g_project
 from prop import (PropMover, PropItem, PropCtrl, PropKarma,
                   PropSkill, PropTroupeSkill, PropQuest,
                   PropMoverEx, PropMoverExAI, RandomEventMonster,
-                  DiePenalty, Filter, Invalid
+                  DiePenalty, Filter, Invalid, Letter
                   )
 from utils import (gLogger, Define, Text)
 from world import Worlds
@@ -82,6 +82,10 @@ class Module:
                 "filter": False
             },
             "invalid": {
+                "active": True,
+                "filter": False
+            },
+            "letter": {
                 "active": True,
                 "filter": False
             }
@@ -221,6 +225,7 @@ class Module:
         self.prop_quest = PropQuest()
 
         self.filter = Filter()
+        self.letter = Letter()
         self.invalid = Invalid()
         self.die_penalty = DiePenalty()
         self.random_event_monster = RandomEventMonster()
@@ -294,6 +299,10 @@ class Module:
                 "filter": {
                     "xml": os.path.basename(self.fiter.out_filename_xml),
                     "json": os.path.basename(self.filter.out_filename_json)
+                },
+                "letter": {
+                    "xml": os.path.basename(self.letter.out_filename_xml),
+                    "json": os.path.basename(self.letter.out_filename_json)
                 }
             })
             json.dump(data, fd, indent=4)
@@ -512,3 +521,14 @@ class Module:
 
         self.invalid.write_new_config('json')
         self.invalid.write_new_config('xml')
+
+    def module_letter(self):
+        self.letter.load(g_project.file_letter_ENG)
+        self.letter.load(g_project.file_letter_FRE)
+        self.letter.load(g_project.file_letter_GER)
+        self.letter.load(g_project.file_letter_SPA)
+        self.letter.load(g_project.file_letter_2_FRE)
+        self.letter.load(g_project.file_letter_2_GER)
+
+        self.letter.write_new_config('json')
+        self.letter.write_new_config('xml')
