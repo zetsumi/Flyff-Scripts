@@ -152,28 +152,28 @@
 # Fichier .inc:
 
 ## Invalid:
-- [ ] InvalidName.inc
-- [ ] InvalidName_CHI.inc
-- [ ] InvalidName_ENG.inc
-- [ ] InvalidName_FRE.inc
-- [ ] InvalidName_GER.inc
-- [ ] InvalidName_JAP.inc
-- [ ] InvalidName_KOR.inc
-- [ ] InvalidName_SPA.inc
-- [ ] InvalidName_THA.inc
-- [ ] InvalidName_TWN.inc
+- [x] InvalidName.inc
+- [x] InvalidName_CHI.inc
+- [x] InvalidName_ENG.inc
+- [x] InvalidName_FRE.inc
+- [x] InvalidName_GER.inc
+- [x] InvalidName_JAP.inc
+- [x] InvalidName_KOR.inc
+- [x] InvalidName_SPA.inc
+- [x] InvalidName_THA.inc
+- [x] InvalidName_TWN.inc
 
 ## Filter:
-- [ ] filter.inc
-- [ ] filter_CHI.inc
-- [ ] filter_ENG.inc
-- [ ] filter_FRE.inc
-- [ ] filter_GER.inc
-- [ ] filter_JAP.inc
-- [ ] filter_KOR.inc
-- [ ] filter_SPA.inc
-- [ ] filter_THA.inc
-- [ ] filter_TWN.inc
+- [x] filter.inc
+- [x] filter_CHI.inc
+- [x] filter_ENG.inc
+- [x] filter_FRE.inc
+- [x] filter_GER.inc
+- [x] filter_JAP.inc
+- [x] filter_KOR.inc
+- [x] filter_SPA.inc
+- [x] filter_THA.inc
+- [x] filter_TWN.inc
 
 ## Icon:
 - [ ] icon_FlightTargetArrow.inc
