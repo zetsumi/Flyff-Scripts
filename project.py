@@ -19,6 +19,7 @@ class Project:
         self.path_ressource_text = self.path_ressource + "texts/"
         self.path_ressource_prop = self.path_ressource + "props/"
         self.path_ressource_filter = self.path_ressource_prop + "filter/"
+        self.path_ressource_invalid = self.path_ressource_prop + "invalid/"
 
         # Path output project
         self.path_output = "./output/"
@@ -52,6 +53,17 @@ class Project:
         self.file_filter_THA = self.path_ressource_filter + "filter_THA.inc"
         self.file_filter_TWN = self.path_ressource_filter + "filter_TWN.inc"
 
+        # file invalid
+        self.file_invalid = self.path_ressource_invalid + "InvalidName.inc"
+        self.file_invalid_CHI = self.path_ressource_invalid + "InvalidName_CHI.inc"
+        self.file_invalid_ENG = self.path_ressource_invalid + "InvalidName_ENG.inc"
+        self.file_invalid_FRE = self.path_ressource_invalid + "InvalidName_FRE.inc"
+        self.file_invalid_GER = self.path_ressource_invalid + "InvalidName_GER.inc"
+        self.file_invalid_JAP = self.path_ressource_invalid + "InvalidName_JAP.inc"
+        self.file_invalid_KOR = self.path_ressource_invalid + "InvalidName_KOR.inc"
+        self.file_invalid_SPA = self.path_ressource_invalid + "InvalidName_SPA.inc"
+        self.file_invalid_THA = self.path_ressource_invalid + "InvalidName_THA.inc"
+        self.file_invalid_TWN = self.path_ressource_invalid + "InvalidName_TWN.inc"
 
         # file text
         self.file_txt_propitem = self.path_ressource_text + "propItem.txt.txt"

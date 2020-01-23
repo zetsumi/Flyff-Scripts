@@ -41,8 +41,10 @@ if __name__ == "__main__":
     #     module.module_event_monster()
     # if module.modules["diepenalty"]["active"] is True:
     #     module.module_die_penalty()
-    if module.modules["filter"]["active"] is True:
-        module.module_filter()
+    # if module.modules["filter"]["active"] is True:
+    #     module.module_filter()
+    if module.modules["invalid"]["active"] is True:
+        module.module_invalid()
 
     # module.write_project_file('json')
     # module.write_project_file('xml')

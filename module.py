@@ -7,7 +7,7 @@ from project import g_project
 from prop import (PropMover, PropItem, PropCtrl, PropKarma,
                   PropSkill, PropTroupeSkill, PropQuest,
                   PropMoverEx, PropMoverExAI, RandomEventMonster,
-                  DiePenalty, Filter
+                  DiePenalty, Filter, Invalid
                   )
 from utils import (gLogger, Define, Text)
 from world import Worlds
@@ -78,6 +78,10 @@ class Module:
                 "filter": False
             },
             "filter": {
+                "active": True,
+                "filter": False
+            },
+            "invalid": {
                 "active": True,
                 "filter": False
             }
@@ -217,6 +221,7 @@ class Module:
         self.prop_quest = PropQuest()
 
         self.filter = Filter()
+        self.invalid = Invalid()
         self.die_penalty = DiePenalty()
         self.random_event_monster = RandomEventMonster()
 
@@ -492,3 +497,18 @@ class Module:
 
         self.filter.write_new_config('json')
         self.filter.write_new_config('xml')
+
+    def module_invalid(self):
+        self.invalid.load(g_project.file_invalid)
+        self.invalid.load(g_project.file_invalid_CHI)
+        self.invalid.load(g_project.file_invalid_ENG)
+        self.invalid.load(g_project.file_invalid_FRE)
+        self.invalid.load(g_project.file_invalid_GER)
+        self.invalid.load(g_project.file_invalid_JAP)
+        self.invalid.load(g_project.file_invalid_KOR)
+        self.invalid.load(g_project.file_invalid_SPA)
+        self.invalid.load(g_project.file_invalid_THA)
+        self.invalid.load(g_project.file_invalid_TWN)
+
+        self.invalid.write_new_config('json')
+        self.invalid.write_new_config('xml')

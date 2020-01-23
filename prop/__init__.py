@@ -11,5 +11,4 @@ from .propmoverexai import PropMoverExAI
 from .randomeventmonster import RandomEventMonster
 from .diepenalty import DiePenalty
 from .filter import Filter
-
-
+from .invalid import Invalid
