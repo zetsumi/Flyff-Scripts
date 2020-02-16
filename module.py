@@ -14,82 +14,103 @@ from world import Worlds
 
 
 class Module:
-
+    # Represente l'ensemble des module du project
+    # Un module contient un nom et deux clefs `active` et `filter`
     def __init__(self):
+        # Liste des modules
         self.modules = {
             "header": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_header
             },
             "text": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_text
             },
             "mdldyna": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_mdldyna
             },
             "mdlobj": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_mdlobj
             },
             "item": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_item
             },
             "mover": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_mover
             },
             "world": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_world
             },
             "quest": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_quest
             },
             "drop": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_quest
             },
             "ai": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_ai
             },
             "event_monster": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_event_monster
             },
             "skill": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_skill
             },
             "ctrl": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_ctrl
             },
             "karma": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_karma
             },
             "diepenalty": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_die_penalty
             },
             "filter": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": None
             },
             "invalid": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_invalid
             },
             "letter": {
                 "active": True,
-                "filter": False
+                "filter": False,
+                "exec": self.module_letter
             }
         }
+        # Liste des textes chargé
         self.texts = OrderedDict({
             "ctrl": Text(),
             "item": Text(),
@@ -189,6 +210,7 @@ class Module:
             "wdvolcaneyellow": Text(),
             "world": Text()
         })
+        # Liste des defines
         self.defines = OrderedDict({
             "define": Define(),
             "attribute": Define(),
@@ -210,10 +232,13 @@ class Module:
             "resdata": Define(),
             "wnd_style": Define(),
         })
+
+        # Instance des object et mondes
         self.mdl_dyna = MdlDyna()
         self.mdl_obj = MdlObj()
         self.worlds = Worlds()
 
+        # Instance des classes Propriétés
         self.prop_item = PropItem()
         self.prop_mover = PropMover()
         self.prop_mover_ex = PropMoverEx()
@@ -224,15 +249,20 @@ class Module:
         self.prop_karma = PropKarma()
         self.prop_quest = PropQuest()
 
+        # Instance des classes utiles
         self.filter = Filter()
         self.letter = Letter()
         self.invalid = Invalid()
+
+        # Instance des classes events
         self.die_penalty = DiePenalty()
         self.random_event_monster = RandomEventMonster()
 
     def __write_project_json__(self):
-        gLogger.set_section("module")
+        # Ecriture de la liste des module traite dans l'exécution du program
+        # Sortie : project.json
 
+        gLogger.set_section("module")
         out_file = g_project.path_json + 'project.json'
         gLogger.info("writing ", out_file)
 
@@ -297,7 +327,7 @@ class Module:
                     "json": os.path.basename(self.die_penalty.out_filename_json)
                 },
                 "filter": {
-                    "xml": os.path.basename(self.fiter.out_filename_xml),
+                    "xml": os.path.basename(self.filter.out_filename_xml),
                     "json": os.path.basename(self.filter.out_filename_json)
                 },
                 "letter": {
