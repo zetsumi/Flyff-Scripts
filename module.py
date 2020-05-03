@@ -10,7 +10,7 @@ from prop import (PropMover, PropItem, PropCtrl, PropKarma,
                   DiePenalty, Filter, Invalid, Letter
                   )
 from utils import (gLogger, Define, Text)
-from world import Worlds
+from world import WorldManager
 
 
 class Module:
@@ -25,27 +25,27 @@ class Module:
                 "exec": self.module_header
             },
             "text": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_text
             },
             "mdldyna": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_mdldyna
             },
             "mdlobj": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_mdlobj
             },
             "item": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_item
             },
             "mover": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_mover
             },
@@ -55,57 +55,57 @@ class Module:
                 "exec": self.module_world
             },
             "quest": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_quest
             },
             "drop": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_quest
             },
             "ai": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_ai
             },
             "event_monster": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_event_monster
             },
             "skill": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_skill
             },
             "ctrl": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_ctrl
             },
             "karma": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_karma
             },
             "diepenalty": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_die_penalty
             },
             "filter": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": None
             },
             "invalid": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_invalid
             },
             "letter": {
-                "active": True,
+                "active": False,
                 "filter": False,
                 "exec": self.module_letter
             }
@@ -236,7 +236,7 @@ class Module:
         # Instance des object et mondes
         self.mdl_dyna = MdlDyna()
         self.mdl_obj = MdlObj()
-        self.worlds = Worlds()
+        self.worlds_manager= WorldManager()
 
         # Instance des classes Propriétés
         self.prop_item = PropItem()
@@ -492,11 +492,11 @@ class Module:
         self.prop_mover.write_new_config('xml')
 
     def module_world(self):
-        self.worlds.set_listing_world(g_project.file_world)
-        self.worlds.load(g_project.path_ressource_world,
+        self.worlds_manager.set_listing_world(g_project.file_world)
+        self.worlds_manager.load(g_project.path_ressource_world,
                     self.defines["world"].datas,
                     self.defines["define"].datas)
-        self.worlds.mdlobj = self.mdl_obj
+        self.worlds_manager.mdlobj = self.mdl_obj
 
     def module_quest(self):
         self.prop_quest.load(g_project.file_propquest)

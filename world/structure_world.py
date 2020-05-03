@@ -1,4 +1,6 @@
 from utils.common import Vector, Rect
+from collections import OrderedDict
+
 
 class Layer:
     def __init__(self):
@@ -100,3 +102,30 @@ class Respawn:
         self.bPatrolCycle = int()
         self.nControl = int()
         self.ctrlElement = CtrlElement()
+
+
+class World:
+
+    def __init__(self):
+        self.regions = list()
+        self.respawns = list()
+        self.lands = OrderedDict()
+        self.land_attributes = str()
+
+        self.id = str()
+        self.title= str()
+        self.directory = str()
+        self.text = OrderedDict()
+        self.size = Vector(0,0,0)
+        self.indoor = int()
+        self.ambient = str() #hexa
+        self.bgColor = str() #hexa
+        self.fly = int()
+        self.camera = list()
+        self.revival = list()
+        self.diffuse = str()
+        self.lightDir = list()
+        self.fogSetting = list()
+        self.bgm = list()
+        self.pkmode = list()
+        self.MPU = 0

@@ -5,7 +5,7 @@ from utils.logger import gLogger
 from utils.text import Text
 from utils.define import Define
 from utils.common import Vector, Rect, splitter, bytes_to_unsigned_int
-from world.structure_world import Layer, Landscape, Region, Respawn, CtrlElement
+from world.structure_world import Layer, Landscape, Region, Respawn, CtrlElement, World
 from model.obj import Obj, ObjCtrl
 from model.mdldyna import MdlDyna
 from model.mdlobj import MdlObj
@@ -31,35 +31,7 @@ HEIGHT_MAP = int(4 * MAP_AREA)
 HEIGHT_WATER= int(2 * WATER_AREA)
 
 
-class World:
-
-    def __init__(self):
-        self.regions = list()
-        self.respawns = list()
-        self.lands = OrderedDict()
-        self.land_attributes = str()
-
-        self.id = str()
-        self.title= str()
-        self.directory = str()
-        self.text = OrderedDict()
-        self.size = Vector(0,0,0)
-        self.indoor = int()
-        self.ambient = str() #hexa
-        self.bgColor = str() #hexa
-        self.fly = int()
-        self.camera = list()
-        self.revival = list()
-        self.diffuse = str()
-        self.lightDir = list()
-        self.fogSetting = list()
-        self.bgm = list()
-        self.pkmode = list()
-        self.MPU = MPU
-
-
-
-class Worlds:
+class WorldManager:
 
 
     def __init__(self):
@@ -91,6 +63,7 @@ class Worlds:
                 arr = self.__clean_arr__(arr)
                 if len(arr) == 2 and "SetTitle" not in arr[1]:
                     world = World()
+                    world.MPU = MPU
                     world.id = str(arr[0])
                     if world.id not in defineWorld:
                         gLogger.error("World undeclared: [{id_world}]".format(id_world=world.id))
@@ -285,21 +258,23 @@ class Worlds:
                 world.lands[y][x].layers.append(layer)
 
 
-            objCount = bytes_to_unsigned_int(fd.read(4))
-            for k in range(0, objCount):
+            obj_count = bytes_to_unsigned_int(fd.read(4))
+            for k in range(0, obj_count):
                 dwTypeObj = bytes_to_unsigned_int(fd.read(4))
                 obj = Obj()
                 if dwTypeObj == 2:
                     obj = ObjCtrl()
                 obj.read(fd)
                 world.lands[y][x].objs.append(obj)
+            print('obj_count', obj_count)
 
-            objCount = bytes_to_unsigned_int(fd.read(4))
-            for k in range(0, objCount):
+            sfx_count = bytes_to_unsigned_int(fd.read(4))
+            for k in range(0, sfx_count):
                 dwTypeObj = bytes_to_unsigned_int(fd.read(4))
                 sfx = Obj()
                 sfx.read(fd)
                 world.lands[y][x].sfxs.append(obj)
+            print('sfx_count', sfx_count)
 
     def load(self, path_world, defineWorld, define):
         gLogger.set_section("world")

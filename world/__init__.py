@@ -1,1 +1,1 @@
-from .world import Worlds
+from .world import WorldManager
