@@ -1,11 +1,11 @@
-﻿// World script
+// World script
 
 size 2, 2
 indoor 0
 ambient 0xff808080
 bgColor 0xffe0e0ff
 fly 1
-camera 780.877869 162.945694 701.472961 0.412500 0.045833
+camera 101.463768 149.507431 -96.491760 0.390000 -0.012500
 revival 0 ""
 diffuse 0x0
 lightDir 0.000000 0.000000 0.000000

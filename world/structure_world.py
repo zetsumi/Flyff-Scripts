@@ -15,6 +15,8 @@ class Landscape:
         self.layers = list()
         self.sfxs = list()
         self.ctrls = list()
+        self.height_terrain = list()
+        self.height_water = list()
 
 
 class Region:
@@ -30,8 +32,8 @@ class Region:
         self.szScript = str()
         self.szSound = str()
         self.dwIdTeleWorld = int()
-        self.vPosTeleWorld = Vector(0,0,0)
-        self.rect = Rect(0,0,0,0)
+        self.vPosTeleWorld = Vector(0, 0, 0)
+        self.rect = Rect(0, 0, 0, 0)
         self.szKey = str()
         self.dwTargetKey = int()
         self.uItemId = int()
@@ -76,20 +78,21 @@ class CtrlElement:
         self.dwTrapKind = list()
         self.dwTrapLevel = list()
         self.dwTeleWorldId = int()
-        self.dwTele = Vector(0,0,0)
+        self.dwTele = Vector(0, 0, 0)
 
-class Respawn:
+
+class ReSpawn:
     def __init__(self):
         self.dwType = int()
         self.dwIndex = int()
-        self.vPos = Vector(0,0,0)
+        self.vPos = Vector(0, 0, 0)
         self.nMaxcb = int()
         self.ncb = int(0)
         self.uTime = int()
         self.nMaxAttackNum = int()
         self.nActiveAttackNum = int(0)
         self.fY = int(0)
-        self.rect = Rect(0,0,0,0)
+        self.rect = Rect(0, 0, 0, 0)
         self.nDayMin = int()
         self.nDayMax = int()
         self.nHourMin = int()
@@ -105,27 +108,52 @@ class Respawn:
 
 
 class World:
-
     def __init__(self):
         self.regions = list()
         self.respawns = list()
         self.lands = OrderedDict()
         self.land_attributes = str()
 
+        # Parametres du World
         self.id = str()
         self.title= str()
         self.directory = str()
-        self.text = OrderedDict()
-        self.size = Vector(0,0,0)
         self.indoor = int()
         self.ambient = str() #hexa
         self.bgColor = str() #hexa
         self.fly = int()
+        self.diffuse = str()
+        self.MPU = 4
+        self.size = Vector(0, 0, 0)
         self.camera = list()
         self.revival = list()
-        self.diffuse = str()
+        self.text = OrderedDict()
         self.lightDir = list()
         self.fogSetting = list()
         self.bgm = list()
         self.pkmode = list()
-        self.MPU = 4
+
+    def get_parameters(self):
+        params = {
+            "id": self.id,
+            "title": self.title,
+            "directory": self.directory,
+            "indoor": self.indoor,
+            "ambient": self.ambient,
+            "bgColor": self.bgColor,
+            "fly": self.fly,
+            "diffuse": self.diffuse,
+            "MPU": self.MPU,
+            "size": {
+                "x": self.size.x,
+                "y": self.size.y
+            },
+            "camera": [],
+            "revival": [],
+            "text": {},
+            "lightDir": [],
+            "fogSetting": [],
+            "bgm": [],
+            "pkmode": [],
+        }
+        return params

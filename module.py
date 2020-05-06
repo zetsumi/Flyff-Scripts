@@ -497,6 +497,8 @@ class Module:
                     self.defines["world"].datas,
                     self.defines["define"].datas)
         self.worlds_manager.mdlobj = self.mdl_obj
+        self.worlds_manager.write_new_config('xml')
+        self.worlds_manager.write_new_config('json')
 
     def module_quest(self):
         self.prop_quest.load(g_project.file_propquest)

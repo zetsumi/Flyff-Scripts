@@ -1,9 +1,16 @@
+import struct
+
 class Vector:
 
     def __init__(self, x, y, z):
         self.x = x
         self.y = y
         self.z = z
+
+    def __str__(self):
+        return 'v(' + str(self.x) +\
+               ', ' + str(self.y) +\
+               ', ' + str(self.z) + ')'
 
 
 class Rect:
@@ -27,6 +34,15 @@ def splitter(line):
 
 def bytes_to_unsigned_int(val):
     return int.from_bytes(val, byteorder="little", signed=False)
+
+
+def bytes_to_int(val):
+    return int.from_bytes(val, byteorder="little", signed=True)
+
+
+def bytes_to_float(val):
+    f = struct.unpack('f', val)[0]
+    return f
 
 
 def convert_value(key, value):

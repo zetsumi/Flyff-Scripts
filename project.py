@@ -31,6 +31,8 @@ class Project:
         self.path_json_header = self.path_output + "json/header/"
         self.path_json_prop = self.path_output + "json/prop/"
         self.path_documentation = self.path_output + "documentation/"
+        self.path_json_world = self.path_json + "world/"
+        self.path_xml_world = self.path_xml + "world/"
 
         # file properties
         self.file_propitem = self.path_ressource_prop + "propItem.txt"
@@ -193,6 +195,11 @@ class Project:
             os.makedirs(self.path_json_prop)
         if not os.path.exists(self.path_documentation):
             os.makedirs(self.path_documentation)
+        if not os.path.exists(self.path_json_world):
+            os.makedirs(self.path_json_world)
+        if not os.path.exists(self.path_xml_world):
+            os.makedirs(self.path_xml_world)
+
 
 
 g_project = Project()

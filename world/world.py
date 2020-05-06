@@ -1,11 +1,15 @@
 import subprocess
 import os
+import json
+import struct
 from collections import OrderedDict
+
 from utils.logger import gLogger
+from project import g_project
 from utils.text import Text
 from utils.define import Define
 from utils.common import Vector, Rect, splitter, bytes_to_unsigned_int
-from world.structure_world import Layer, Landscape, Region, Respawn, CtrlElement, World
+from world.structure_world import Layer, Landscape, Region, ReSpawn, CtrlElement, World
 from model.obj import Obj, ObjCtrl
 from model.mdldyna import MdlDyna
 from model.mdlobj import MdlObj
@@ -18,9 +22,9 @@ MPU = 4
 MAP_SIZE = int(128)
 NUM_PATCHES_PER_SIDE = int(16)
 
-PATCH_SIZE = int((MAP_SIZE / NUM_PATCHES_PER_SIDE))
-LIGHTMAP_SIZE = int(((PATCH_SIZE - 1) * NUM_PATCHES_PER_SIDE))
-LIGHTMAP_UNITY = float((float(MAP_SIZE * MPU) / float(LIGHTMAP_SIZE)))
+PATCH_SIZE = int((MAP_SIZE / NUM_PATCHES_PER_SIDE)) # 128 / 16 = 8
+LIGHTMAP_SIZE = int(((PATCH_SIZE - 1) * NUM_PATCHES_PER_SIDE)) # (8 - 1) * 16 = 112
+LIGHTMAP_UNITY = float((float(MAP_SIZE * MPU) / float(LIGHTMAP_SIZE))) # (128 * 4) / (112) = 4.57...
 
 MAP_AREA = int((MAP_SIZE + 1) * (MAP_SIZE + 1))
 WATER_AREA = int(NUM_PATCHES_PER_SIDE * NUM_PATCHES_PER_SIDE)
@@ -33,17 +37,16 @@ HEIGHT_WATER= int(2 * WATER_AREA)
 
 class WorldManager:
 
-
     def __init__(self):
         self.worlds = OrderedDict()
         self.text = Text()
         self.define = Define()
         self.mdlobj = None
         self.mdldyna = None
-
+        self.file_listing_world = None
 
     def set_listing_world(self, file_world):
-        self.listing_world = file_world
+        self.file_listing_world = file_world
 
     def __clean_arr__(self, arr):
         copy = list()
@@ -53,10 +56,36 @@ class WorldManager:
             copy.append(str(it))
         return copy
 
+    def filter(self, mdlobj):
+        gLogger.set_section("world")
+        obj_in_world = list()
+        sfx_in_world = list()
+        for it in self.worlds:
+            world = self.worlds[it]
+            gLogger.info("filtering {id}".format(id=str(world.id)))
+            gLogger.info("directory: {directory} height: {height} width: {width} indoor: {indoor}".format(
+                directory=world.directory,
+                height=world.size.y,
+                width=world.size.x,
+                indoor=world.indoor
+            ))
+            for y in range(0, world.size.y):
+                for x in range(0, world.size.x):
+                    for obj in world.lands[y][x].objs:
+                        if obj.dwModelID not in obj_in_world:
+                            obj_in_world.append(obj.dwModelID)
+                    for sfx in world.lands[y][x].sfxs:
+                        if sfx.dwModelID not in sfx_in_world:
+                            sfx_in_world.append(sfx.dwModelID)
 
-    def __load_world_inc__(self, defineWorld):
+            gLogger.write(gProject.path_filter + "world_" + str(world.id) + "_obj_find.txt", obj_in_world, "Unique Obj: {total}".format(total=len(obj_in_world)))
+            gLogger.write(gProject.path_filter + "world_sfx_find.txt", sfx_in_world, "Unique Sfx: {total}".format(total=len(sfx_in_world)))
+
+        gLogger.reset_section()
+
+    def __load_world_inc__(self, define_world):
         index = str()
-        with open(self.listing_world, "r") as fd:
+        with open(self.file_listing_world, "r") as fd:
             for line in fd:
                 line = line.replace("\n", "")
                 arr = splitter(line)
@@ -65,7 +94,7 @@ class WorldManager:
                     world = World()
                     world.MPU = MPU
                     world.id = str(arr[0])
-                    if world.id not in defineWorld:
+                    if world.id not in define_world:
                         gLogger.error("World undeclared: [{id_world}]".format(id_world=world.id))
                         continue
                     world.directory = str(arr[1]).replace("\"", "")
@@ -77,7 +106,6 @@ class WorldManager:
                         self.worlds[index].title = arr[0]
                     else:
                         gLogger.error("SetTitle on world undeclared:", index)
-
 
     def __load_wld__(self, f, world):
         with open(f, "r") as fd:
@@ -95,8 +123,6 @@ class WorldManager:
                 elif arr[0] == "MPU":
                     world.MPU = int(arr[1])
             world.lands = [[Landscape() for x in range(world.size.x)] for y in range(world.size.y)] 
-
-
 
     def __load_region__(self, f, world):
         gLogger.info("loading:", f)
@@ -152,7 +178,7 @@ class WorldManager:
                     arr = splitter(content[i])
                     it = iter(arr)
                     version = int(next(it).replace("respawn", ""))
-                    respawn = Respawn()
+                    respawn = ReSpawn()
                     respawn.dwType = int(next(it))
                     respawn.dwIndex = int(next(it))
                     respawn.vPos = Vector(float(next(it)), float(next(it)), float(next(it)))
@@ -230,12 +256,11 @@ class WorldManager:
                 else:
                     i = i + 1
 
-
-    def __load_lnd__(self, f, world, define):
-        gLogger.info("loading:", f)
+    def __load_lnd__(self, fn, world, define):
+        gLogger.info("loading:", fn)
         x = int(0)
         y = int(0)
-        with open(f, "rb") as fd:
+        with open(fn, "rb") as fd:
             version = bytes_to_unsigned_int(fd.read(4))
             if version <= 0:
                 gLogger.error("version:", version, "is unknow")
@@ -243,8 +268,19 @@ class WorldManager:
                 y = bytes_to_unsigned_int(fd.read(4))
                 x = bytes_to_unsigned_int(fd.read(4))
 
-            heightMap = fd.read(HEIGHT_MAP)
-            waterHeight = fd.read(HEIGHT_WATER)
+            height_terrain = fd.read(HEIGHT_MAP)
+            height_water = fd.read(HEIGHT_WATER)
+
+            offset = int(0)
+            for ht in height_terrain:
+                if offset == 3:
+                    world.lands[y][x].height_terrain.append(ht)
+                    offset = 0
+                offset = offset + 1
+
+            for wy in range(0, NUM_PATCHES_PER_SIDE):
+                for wx in range(0, NUM_PATCHES_PER_SIDE):
+                    val = height_water[wy * wx]
 
             if version >= 2:
                 world.land_attributes = fd.read(WATER_AREA) # land attributes
@@ -257,7 +293,6 @@ class WorldManager:
                 layer.lightMap = fd.read(LIGHT_AREA)
                 world.lands[y][x].layers.append(layer)
 
-
             obj_count = bytes_to_unsigned_int(fd.read(4))
             for k in range(0, obj_count):
                 dwTypeObj = bytes_to_unsigned_int(fd.read(4))
@@ -266,15 +301,13 @@ class WorldManager:
                     obj = ObjCtrl()
                 obj.read(fd)
                 world.lands[y][x].objs.append(obj)
-            print('obj_count', obj_count)
 
             sfx_count = bytes_to_unsigned_int(fd.read(4))
             for k in range(0, sfx_count):
-                dwTypeObj = bytes_to_unsigned_int(fd.read(4))
+                dwTypeSfx = bytes_to_unsigned_int(fd.read(4))
                 sfx = Obj()
                 sfx.read(fd)
                 world.lands[y][x].sfxs.append(obj)
-            print('sfx_count', sfx_count)
 
     def load(self, path_world, defineWorld, define):
         gLogger.set_section("world")
@@ -282,12 +315,15 @@ class WorldManager:
         self.__load_world_inc__(defineWorld)
         for it in self.worlds:
             world = self.worlds[it]
+            print(world)
             text = Text()
             world.text = text.load(path_world + world.directory + "/" + world.directory + ".txt.txt")
             self.__load_wld__(path_world + world.directory + "/" + world.directory + ".wld", world)
             self.__load_region__(path_world + world.directory + "/" + world.directory + ".rgn", world)
-            for y in range(0, world.size.y):
-                for x in range(0, world.size.x):
+            # for y in range(0, world.size.y):
+            #     for x in range(0, world.size.x):
+            for y in range(0, 1):
+                for x in range(0, 1):
                     if x < 10:
                         X = "0" + str(x)
                     else:
@@ -296,35 +332,67 @@ class WorldManager:
                         Y = "0" + str(y)
                     else:
                         Y = str(y)
-                    lnd = path_world + world.directory + "/" + world.directory + X + "-" + Y + ".lnd"
-                    self.__load_lnd__(lnd, world, define)
+                    filename_lnd = path_world + world.directory + "/" + world.directory + X + "-" + Y + ".lnd"
+                    self.__load_lnd__(filename_lnd, world, define)
 
         gLogger.reset_section()
 
+    def __write_json_format__(self):
 
-    def filter(self, mdlobj):
-        gLogger.set_section("world")
-        obj_in_world = list()
-        sfx_in_world = list()
-        for it in self.worlds:
-            world = self.worlds[it]
-            gLogger.info("filtering {id}".format(id=str(world.id)))
-            gLogger.info("directory: {directory} height: {height} width: {width} indoor: {indoor}".format(
-                directory=world.directory,
-                height=world.size.y,
-                width=world.size.x,
-                indoor=world.indoor
-            ))
-            for y in range(0, world.size.y):
-                for x in range(0, world.size.x):
-                    for obj in world.lands[y][x].objs:
-                        if obj.dwModelID not in obj_in_world:
-                            obj_in_world.append(obj.dwModelID)
-                    for sfx in world.lands[y][x].sfxs:
-                        if sfx.dwModelID not in sfx_in_world:
-                            sfx_in_world.append(sfx.dwModelID)
+        for id in self.worlds:
+            world = self.worlds[id]
+            path_world_json = g_project.path_json + id
+            if not os.path.exists(path_world_json):
+                os.makedirs(path_world_json)
+            file_name_world = path_world_json + "/" + id + ".json"
+            with open(file_name_world, "w") as fd:
+                parameters = world.get_parameters()
+                json.dump(parameters, fd, indent=4)
 
-            gLogger.write(gProject.path_filter + "world_" + str(world.id) + "_obj_find.txt", obj_in_world, "Unique Obj: {total}".format(total=len(obj_in_world)))
-            gLogger.write(gProject.path_filter + "world_sfx_find.txt", sfx_in_world, "Unique Sfx: {total}".format(total=len(sfx_in_world)))
+                for y in range(0, world.size.y):
+                    for x in range(0, world.size.x):
+                        file_name_world_lnd = path_world_json + "/" + id\
+                                              + "_" + str(x) + "_" + str(y) + ".json"
+                        with open(file_name_world_lnd, "w") as fd_lnd:
+                            # write liste objects and sfxs
+                            data = {"objects": [], "sfxs": []}
+                            for obj in world.lands[y][x].objs:
+                                data["objects"].append({
+                                    obj.dwModelID: {
+                                        "x": obj.vPos.x,
+                                        "y": obj.vPos.y,
+                                        "z": obj.vPos.z
+                                    }
+                                })
+                            for sfx in world.lands[y][x].sfxs:
+                                data["sfxs"].append({
+                                    sfx.dwModelID: {
+                                        "x": sfx.vPos.x,
+                                        "y": sfx.vPos.y,
+                                        "z": sfx.vPos.z
+                                    }
+                                })
+                            json.dump(data, fd_lnd, indent=4)
 
-        gLogger.reset_section()
+                        fn = path_world_json + "/" + id\
+                                              + "_" + str(x) + "_" + str(y) + "_height_terrain.json"
+                        with open(fn, "w") as fd_lnd:
+                            for ht in world.lands[y][x].height_terrain:
+                                fd_lnd.write(str(ht))
+                                fd_lnd.write("\n")
+
+                        fn = path_world_json + "/" + id\
+                                              + "_" + str(x) + "_" + str(y) + "_height_water.json"
+                        with open(fn, "w") as fd_lnd:
+                            for hw in world.lands[y][x].height_water:
+                                fd_lnd.write(str(hw))
+                                fd_lnd.write("\n")
+
+    def __write_xml_format__(self):
+        print('nop')
+
+    def write_new_config(self, mode):
+        if mode == 'json':
+            self.__write_json_format__()
+        elif mode == 'xml':
+            self.__write_xml_format__()

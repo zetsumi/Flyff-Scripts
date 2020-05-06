@@ -1,7 +1,9 @@
 
 from collections import OrderedDict
 from utils.logger import gLogger
-from utils.common import Vector, Rect, splitter, bytes_to_unsigned_int
+from utils.common import (Vector, Rect, splitter,
+                          bytes_to_unsigned_int, bytes_to_int,
+                          bytes_to_float)
 
 MAX_CTRLDROPITEM = 4
 MAX_CTRLDROPMOB = 3
@@ -20,23 +22,26 @@ class Obj:
         dwObjType = int(-1)
         dwModelID = int(-1)
         dwMotion = int(-1)
+        self.name = str()
+        self.characterKey = str()
+        self.belligenre = int()
 
     def read(self, fd):
-        self.fAngle = bytes_to_unsigned_int(fd.read(4))
+        self.fAngle = bytes_to_int(fd.read(4))
         self.vRotation = Vector(
-            bytes_to_unsigned_int(fd.read(4)),
-            bytes_to_unsigned_int(fd.read(4)),
-            bytes_to_unsigned_int(fd.read(4))
+            bytes_to_float(fd.read(4)),
+            bytes_to_float(fd.read(4)),
+            bytes_to_float(fd.read(4))
         )
         self.vPos = Vector(
-            bytes_to_unsigned_int(fd.read(4)) * MPU,
-            bytes_to_unsigned_int(fd.read(4)),
-            bytes_to_unsigned_int(fd.read(4)) * MPU
+            bytes_to_float(fd.read(4)),
+            bytes_to_float(fd.read(4)),
+            bytes_to_float(fd.read(4))
         )
         self.vScale = Vector(
-            bytes_to_unsigned_int(fd.read(4)),
-            bytes_to_unsigned_int(fd.read(4)),
-            bytes_to_unsigned_int(fd.read(4))
+            bytes_to_float(fd.read(4)),
+            bytes_to_float(fd.read(4)),
+            bytes_to_float(fd.read(4))
         )
         self.dwObjType = bytes_to_unsigned_int(fd.read(4))
         self.dwModelID = bytes_to_unsigned_int(fd.read(4))
@@ -44,7 +49,15 @@ class Obj:
         self.dwAIInterface = bytes_to_unsigned_int(fd.read(4))
         self.dwaAI2 = bytes_to_unsigned_int(fd.read(4))
 
-
+        for i in range(0, 64):
+            c = bytes_to_unsigned_int(fd.read(1))
+            self.name += str(c)
+        fd.read(32)
+        for i in range(0, 32):
+            c = bytes_to_unsigned_int(fd.read(1))
+            self.characterKey += str(c)
+        self.belligenre = bytes_to_unsigned_int(fd.read(4))
+        fd.read(4)
 
 class ObjCtrl:
 
