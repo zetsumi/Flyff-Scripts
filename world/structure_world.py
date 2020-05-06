@@ -128,4 +128,4 @@ class World:
         self.fogSetting = list()
         self.bgm = list()
         self.pkmode = list()
-        self.MPU = 0
+        self.MPU = 4
