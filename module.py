@@ -18,7 +18,7 @@ class Module:
     # Un module contient un nom et deux clefs `active` et `filter`
     def __init__(self):
         # Liste des modules
-        self.modules = {
+        self.modules = OrderedDict({
             "header": {
                 "active": True,
                 "filter": False,
@@ -109,7 +109,7 @@ class Module:
                 "filter": False,
                 "exec": self.module_letter
             }
-        }
+        })
         # Liste des textes chargé
         self.texts = OrderedDict({
             "ctrl": Text(),
