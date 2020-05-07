@@ -8,7 +8,7 @@ from utils.logger import gLogger
 from project import g_project
 from utils.text import Text
 from utils.define import Define
-from utils.common import Vector, Rect, splitter, bytes_to_unsigned_int
+from utils.common import Vector, Rect, splitter, bytes_to_unsigned_int, bytes_to_float
 from world.structure_world import Layer, Landscape, Region, ReSpawn, CtrlElement, World
 from model.obj import Obj, ObjCtrl
 from model.mdldyna import MdlDyna
@@ -18,6 +18,15 @@ MAX_CTRLDROPITEM = 4
 MAX_CTRLDROPMOB = 3
 MAX_TRAP = 3
 MPU = 4
+
+WTYPE_NONE = int(0)
+WTYPE_CLOUD = int(1)
+WTYPE_WATER = int(2)
+
+HGT_NOWALK = float(1000)
+HGT_NOFLY  = float(2000)
+HGT_NOMOVE = float(3000)
+HGT_DIE    = float(4000)
 
 MAP_SIZE = int(128)
 NUM_PATCHES_PER_SIDE = int(16)
@@ -48,14 +57,6 @@ class WorldManager:
     def set_listing_world(self, file_world):
         self.file_listing_world = file_world
 
-    def __clean_arr__(self, arr):
-        copy = list()
-        for it in arr:
-            if len(it) <= 0 or it == "":
-                continue
-            copy.append(str(it))
-        return copy
-
     def filter(self, mdlobj):
         gLogger.set_section("world")
         obj_in_world = list()
@@ -82,6 +83,14 @@ class WorldManager:
             gLogger.write(gProject.path_filter + "world_sfx_find.txt", sfx_in_world, "Unique Sfx: {total}".format(total=len(sfx_in_world)))
 
         gLogger.reset_section()
+
+    def __clean_arr__(self, arr):
+        copy = list()
+        for it in arr:
+            if len(it) <= 0 or it == "":
+                continue
+            copy.append(str(it))
+        return copy
 
     def __load_world_inc__(self, define_world):
         index = str()
@@ -256,6 +265,54 @@ class WorldManager:
                 else:
                     i = i + 1
 
+    def __load_lnd_water__(self, fd, world, y, x):
+        height_water = fd.read(HEIGHT_WATER)
+        i = 0
+        while i < HEIGHT_WATER:
+            wh = int(height_water[i])
+            wt = int(height_water[i + 1])
+            i = i + 2
+            world.lands[y][x].height_water.append(str(wh))
+            world.lands[y][x].texture_water.append(str(wt))
+
+    def __load_lnd_terrain__(self, fd, world, y, x):
+        bytes_terrain = fd.read(HEIGHT_MAP)
+        octets = bytearray(b'')
+        i = 0
+        while i < HEIGHT_MAP:
+            octets.append(bytes_terrain[i])
+            i = i + 1
+            if i % 4 == 0:
+                height = bytes_to_float(octets)
+                world.lands[y][x].height_terrain.append(height)
+                octets = bytearray(b'')
+
+    def __load_lnd_obj__(self, fd, world, y, x):
+        obj_count = bytes_to_unsigned_int(fd.read(4))
+        for k in range(0, obj_count):
+            dwTypeObj = bytes_to_unsigned_int(fd.read(4))
+            obj = Obj()
+            if dwTypeObj == 2:
+                obj = ObjCtrl()
+            obj.read(fd)
+            world.lands[y][x].objs.append(obj)
+
+        sfx_count = bytes_to_unsigned_int(fd.read(4))
+        for k in range(0, sfx_count):
+            dwTypeSfx = bytes_to_unsigned_int(fd.read(4))
+            sfx = Obj()
+            sfx.read(fd)
+            world.lands[y][x].sfxs.append(obj)
+
+    def __load_lnd_layer__(self, fd, world, y, x):
+        layerCount = bytes_to_unsigned_int(fd.read(1))
+        for j in range(0, layerCount):
+            layer = Layer()
+            layer.textureID = fd.read(2)
+            layer.patchEnabled = fd.read(PATCH_ENABLED)
+            layer.lightMap = fd.read(LIGHT_AREA)
+            world.lands[y][x].layers.append(layer)
+
     def __load_lnd__(self, fn, world, define):
         gLogger.info("loading:", fn)
         x = int(0)
@@ -267,44 +324,12 @@ class WorldManager:
             if version >= 1:
                 y = bytes_to_unsigned_int(fd.read(4))
                 x = bytes_to_unsigned_int(fd.read(4))
-
-            height_terrain = fd.read(HEIGHT_MAP)
-            height_water = fd.read(HEIGHT_WATER)
-
-            i = 0
-            while i < HEIGHT_WATER:
-                wh = int(height_water[i])
-                wt = int(height_water[i + 1])
-                i = i + 2
-                world.lands[y][x].height_water.append(str(wh))
-                world.lands[y][x].texture_water.append(str(wt))
-
+            self.__load_lnd_terrain__(fd, world, y, x)
+            self.__load_lnd_water__(fd, world, y, x)
             if version >= 2:
                 world.land_attributes = fd.read(WATER_AREA) # land attributes
-
-            layerCount = bytes_to_unsigned_int(fd.read(1))
-            for j in range(0, layerCount):
-                layer = Layer()
-                layer.textureID = fd.read(2)
-                layer.patchEnabled = fd.read(PATCH_ENABLED)
-                layer.lightMap = fd.read(LIGHT_AREA)
-                world.lands[y][x].layers.append(layer)
-
-            obj_count = bytes_to_unsigned_int(fd.read(4))
-            for k in range(0, obj_count):
-                dwTypeObj = bytes_to_unsigned_int(fd.read(4))
-                obj = Obj()
-                if dwTypeObj == 2:
-                    obj = ObjCtrl()
-                obj.read(fd)
-                world.lands[y][x].objs.append(obj)
-
-            sfx_count = bytes_to_unsigned_int(fd.read(4))
-            for k in range(0, sfx_count):
-                dwTypeSfx = bytes_to_unsigned_int(fd.read(4))
-                sfx = Obj()
-                sfx.read(fd)
-                world.lands[y][x].sfxs.append(obj)
+            self.__load_lnd_layer__(fd, world, y, x)
+            self.__load_lnd_obj__(fd, world, y, x)
 
     def load(self, path_world, defineWorld, define):
         gLogger.set_section("world")
@@ -312,7 +337,6 @@ class WorldManager:
         self.__load_world_inc__(defineWorld)
         for it in self.worlds:
             world = self.worlds[it]
-            print(world)
             text = Text()
             world.text = text.load(path_world + world.directory + "/" + world.directory + ".txt.txt")
             self.__load_wld__(path_world + world.directory + "/" + world.directory + ".wld", world)
@@ -347,7 +371,7 @@ class WorldManager:
                     for x in range(0, world.size.x):
 
                         # write liste objects and sfxs
-                        file_name_world_lnd = path_world_json + "/" + id  + "_" + str(x) + "_" + str(y) + ".json"
+                        file_name_world_lnd = path_world_json + "/" + id  + "_" + str(x) + "_" + str(y) + "_obj.json"
                         with open(file_name_world_lnd, "w") as fd_lnd:
                             data = {"objects": [], "sfxs": []}
                             for obj in world.lands[y][x].objs:
@@ -368,32 +392,37 @@ class WorldManager:
                                 })
                             json.dump(data, fd_lnd, indent=4)
 
+                        # write height terrain
+                        file_name_world_height = path_world_json + "/" + id + "_" + str(x) + "_" + str(y) + "_height.json"
+                        with open(file_name_world_height, "w") as fd_h:
+                            terrain = { "terrain": {} }
+                            for wy in range(0, MAP_SIZE):
+                                terrain[wy] = {}
+                                for wx in range(0, MAP_SIZE):
+                                    height = world.lands[y][x].height_terrain[wy * MAP_SIZE + wx]
+                                    terrain[wy][wx] = {"height": height}
+                            json.dump(terrain, fd_h, indent=4)
+
                         # write area water / cloud
                         file_name_world_water = path_world_json + "/" + id + "_" + str(x) + "_" + str(y) + "_water.json"
                         with open(file_name_world_water, "w") as fd_water:
-                            water_infos = {
-                                "height": [],
-                                "texture": []
+                            water = {
+                                "water": {},
                             }
                             for wy in range(0, NUM_PATCHES_PER_SIDE):
+                                water["water"][wy] = {}
                                 for wx in range(0, NUM_PATCHES_PER_SIDE):
                                     offset = wy * NUM_PATCHES_PER_SIDE + wx
                                     wh = world.lands[y][x].height_water[offset]
                                     wt = world.lands[y][x].texture_water[offset]
-                                    water_infos["height"].append({
-                                        "height": wh,
-                                        "x": wx,
-                                        "y": wy
-                                    })
-                                    water_infos["texture"].append({
+                                    water["water"][wy][wx] = {
                                         "texture": wt,
-                                        "x": wx,
-                                        "y": wy
-                                    })
-                            json.dump(water_infos, fd_water, indent=4)
+                                        "height": wh
+                                    }
+                            json.dump(water, fd_water, indent=4)
 
     def __write_xml_format__(self):
-        print('nop')
+        pass
 
     def write_new_config(self, mode):
         if mode == 'json':
