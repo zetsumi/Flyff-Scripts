@@ -357,69 +357,74 @@ class WorldManager:
         gLogger.reset_section()
 
     def __write_json_format__(self):
+        # loop on each world
         for id in self.worlds:
             world = self.worlds[id]
+
+            # create directory
             path_world_json = g_project.path_json + id
             if not os.path.exists(path_world_json):
                 os.makedirs(path_world_json)
+
+            # Create the file global information world
             file_name_world = path_world_json + "/" + id + ".json"
             with open(file_name_world, "w") as fd:
                 parameters = world.get_parameters()
                 json.dump(parameters, fd, indent=4)
 
-                for y in range(0, world.size.y):
-                    for x in range(0, world.size.x):
+            # create files content objs/sfx/height/water/cloud
+            for y in range(0, world.size.y):
+                for x in range(0, world.size.x):
+                    # write liste objects and sfxs
+                    file_name_world_lnd = path_world_json + "/" + id  + "_" + str(x) + "_" + str(y) + "_obj.json"
+                    with open(file_name_world_lnd, "w") as fd_lnd:
+                        data = {"objects": [], "sfxs": []}
+                        for obj in world.lands[y][x].objs:
+                            data["objects"].append({
+                                obj.dwModelID: {
+                                    "x": obj.vPos.x,
+                                    "y": obj.vPos.y,
+                                    "z": obj.vPos.z
+                                }
+                            })
+                        for sfx in world.lands[y][x].sfxs:
+                            data["sfxs"].append({
+                                sfx.dwModelID: {
+                                    "x": sfx.vPos.x,
+                                    "y": sfx.vPos.y,
+                                    "z": sfx.vPos.z
+                                }
+                            })
+                        json.dump(data, fd_lnd, indent=4)
 
-                        # write liste objects and sfxs
-                        file_name_world_lnd = path_world_json + "/" + id  + "_" + str(x) + "_" + str(y) + "_obj.json"
-                        with open(file_name_world_lnd, "w") as fd_lnd:
-                            data = {"objects": [], "sfxs": []}
-                            for obj in world.lands[y][x].objs:
-                                data["objects"].append({
-                                    obj.dwModelID: {
-                                        "x": obj.vPos.x,
-                                        "y": obj.vPos.y,
-                                        "z": obj.vPos.z
-                                    }
-                                })
-                            for sfx in world.lands[y][x].sfxs:
-                                data["sfxs"].append({
-                                    sfx.dwModelID: {
-                                        "x": sfx.vPos.x,
-                                        "y": sfx.vPos.y,
-                                        "z": sfx.vPos.z
-                                    }
-                                })
-                            json.dump(data, fd_lnd, indent=4)
+                    # write height terrain
+                    file_name_world_height = path_world_json + "/" + id + "_" + str(x) + "_" + str(y) + "_height.json"
+                    with open(file_name_world_height, "w") as fd_h:
+                        terrain = { "terrain": {} }
+                        for wy in range(0, MAP_SIZE):
+                            terrain[wy] = {}
+                            for wx in range(0, MAP_SIZE):
+                                height = world.lands[y][x].height_terrain[wy * MAP_SIZE + wx]
+                                terrain[wy][wx] = {"height": height}
+                        json.dump(terrain, fd_h, indent=4)
 
-                        # write height terrain
-                        file_name_world_height = path_world_json + "/" + id + "_" + str(x) + "_" + str(y) + "_height.json"
-                        with open(file_name_world_height, "w") as fd_h:
-                            terrain = { "terrain": {} }
-                            for wy in range(0, MAP_SIZE):
-                                terrain[wy] = {}
-                                for wx in range(0, MAP_SIZE):
-                                    height = world.lands[y][x].height_terrain[wy * MAP_SIZE + wx]
-                                    terrain[wy][wx] = {"height": height}
-                            json.dump(terrain, fd_h, indent=4)
-
-                        # write area water / cloud
-                        file_name_world_water = path_world_json + "/" + id + "_" + str(x) + "_" + str(y) + "_water.json"
-                        with open(file_name_world_water, "w") as fd_water:
-                            water = {
-                                "water": {},
-                            }
-                            for wy in range(0, NUM_PATCHES_PER_SIDE):
-                                water["water"][wy] = {}
-                                for wx in range(0, NUM_PATCHES_PER_SIDE):
-                                    offset = wy * NUM_PATCHES_PER_SIDE + wx
-                                    wh = world.lands[y][x].height_water[offset]
-                                    wt = world.lands[y][x].texture_water[offset]
-                                    water["water"][wy][wx] = {
-                                        "texture": wt,
-                                        "height": wh
-                                    }
-                            json.dump(water, fd_water, indent=4)
+                    # write area water / cloud
+                    file_name_world_water = path_world_json + "/" + id + "_" + str(x) + "_" + str(y) + "_water.json"
+                    with open(file_name_world_water, "w") as fd_water:
+                        water = {
+                            "water": {},
+                        }
+                        for wy in range(0, NUM_PATCHES_PER_SIDE):
+                            water["water"][wy] = {}
+                            for wx in range(0, NUM_PATCHES_PER_SIDE):
+                                offset = wy * NUM_PATCHES_PER_SIDE + wx
+                                wh = world.lands[y][x].height_water[offset]
+                                wt = world.lands[y][x].texture_water[offset]
+                                water["water"][wy][wx] = {
+                                    "texture": wt,
+                                    "height": wh
+                                }
+                        json.dump(water, fd_water, indent=4)
 
     def __write_xml_format__(self):
         pass
