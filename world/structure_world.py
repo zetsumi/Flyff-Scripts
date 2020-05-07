@@ -15,8 +15,9 @@ class Landscape:
         self.layers = list()
         self.sfxs = list()
         self.ctrls = list()
-        self.height_terrain = list()
-        self.height_water = list()
+        self.height_terrain = []
+        self.height_water = []
+        self.texture_water = []
 
 
 class Region:
