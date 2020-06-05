@@ -1,7 +1,14 @@
 # Flyff-Scripts
 
-Script ayant pour but de filtrer les ressources de flyff et de les réécrire aux formats `json` et `xml`.
-Les ressource ciblés sont la v15 de Flyff.
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)<br>
+![](https://img.icons8.com/color/24/000000/error.png) Ce projet n'est pas affilié avec ***Gala Lab*** ![](https://img.icons8.com/color/24/000000/error.png)<br>
+<br>
+
+Script en `python 3.x` ayant pour but de filtrer les ressources de flyff v15 et de les réécrire aux formats `JSON` et `XML`.<br>
+Les ressources ciblés sont la v15 de Flyff.<<br>
+<br>
+
+[![discord](https://discordapp.com/api/guilds/294405146300121088/widget.png)](https://discord.gg/fZP7TWq)</br>
 
 # USAGE
 Lancer le script :
@@ -10,7 +17,8 @@ py core.py
 ```
 
 # Modules
-Les modules sont listé dans `module.py` pour activer le module modifier la valeur `active` en `True`. Pour effectuer un filtre du module modifier la valeur `Filtre` en `True`.
+Les modules sont listé dans `module.py` pour activer le module modifier la valeur `active` en `True`.<br>
+Pour effectuer un filtre du module modifier la valeur `Filtre` en `True`.
 ```json
 "header": {
     "active": True,
@@ -18,7 +26,7 @@ Les modules sont listé dans `module.py` pour activer le module modifier la vale
 }
 ```
 
-# Projet
+## Résultat
 La liste des fichiers constituant le projet est composé dans `project.py`.
 Le résultat de `core` sortira dans les dossiers :
 * output/filter
@@ -30,7 +38,8 @@ Le résultat de `core` sortira dans les dossiers :
 * output/documentation
 La fonction `create_directories` créra les dossiers necessaire aux fichiers de sortie.
 
-# Version 1.0:
+# Roadmap
+## 1.0:
 - [x] Lecture de tous les fichiers `.txt.txt`
 - [x] Lecture de tous les fichiers `.h`
 - [ ] Lecture de tous les fichiers `.inc`
@@ -38,6 +47,6 @@ La fonction `create_directories` créra les dossiers necessaire aux fichiers de 
 - [ ] Convertion de tous les fichier en `JSON`
 - [ ] Convertion de tous les fichier en `XML`
 
-# Version 2.0:
+## 2.0:
 - [ ] Chargement des mondes
 - [ ] Ecriture des mondes en `JSON` et `XML`
