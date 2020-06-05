@@ -20,7 +20,7 @@ Les modules sont listé dans `module.py` pour activer le module modifier la vale
 
 # Projet
 La liste des fichiers constituant le projet est composé dans `project.py`.
-Le résultat de `core` sortira dans les dossier :
+Le résultat de `core` sortira dans les dossiers :
 * output/filter
 * output/xml
 * output/json
@@ -35,12 +35,9 @@ La fonction `create_directories` créra les dossiers necessaire aux fichiers de 
 - [x] Lecture de tous les fichiers `.h`
 - [ ] Lecture de tous les fichiers `.inc`
 - [ ] Lecture de tous les fichiers `.txt`
-- [ ] Convertion de tous les fichier en `JSON` et `XML`
+- [ ] Convertion de tous les fichier en `JSON`
+- [ ] Convertion de tous les fichier en `XML`
 
 # Version 2.0:
 - [ ] Chargement des mondes
 - [ ] Ecriture des mondes en `JSON` et `XML`
-
-# Version 3.0:
-- [ ] Chargement des models
-- [ ] Ecriture des models en `AES` `FBX`
