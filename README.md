@@ -5,7 +5,7 @@
 <br>
 
 Script en `python 3.x` ayant pour but de filtrer les ressources de flyff v15 et de les réécrire aux formats `JSON` et `XML`.<br>
-Les ressources ciblés sont la v15 de Flyff.<<br>
+Les ressources ciblés sont la v15 de Flyff.<br>
 <br>
 
 [![discord](https://discordapp.com/api/guilds/294405146300121088/widget.png)](https://discord.gg/fZP7TWq)</br>
