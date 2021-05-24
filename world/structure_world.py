@@ -19,6 +19,7 @@ class Landscape:
         self.height_water = []
         self.texture_water = []
 
+
 class Region:
     def __init__(self):
         self.sztitle = str()
